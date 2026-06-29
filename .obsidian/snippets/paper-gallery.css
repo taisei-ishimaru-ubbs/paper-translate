@@ -1,0 +1,119 @@
+.paper-gallery .paper-gallery-view {
+  margin-top: 1rem;
+}
+
+.paper-gallery .paper-gallery-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.paper-gallery .paper-gallery-search {
+  width: min(100%, 32rem);
+  padding: 0.55rem 0.7rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.paper-gallery .paper-gallery-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.paper-gallery .paper-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.paper-gallery .paper-card {
+  display: flex;
+  min-width: 0;
+  min-height: 21rem;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+}
+
+.paper-gallery .paper-card-image {
+  display: flex;
+  height: 11.5rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-bottom: 1px solid var(--background-modifier-border);
+  background: var(--background-secondary);
+}
+
+.paper-gallery .paper-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.paper-gallery .paper-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.65rem;
+  padding: 0.85rem;
+}
+
+.paper-gallery .paper-card-title {
+  color: var(--text-normal);
+  font-size: 1rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+.paper-gallery .paper-card-title:hover {
+  color: var(--text-accent);
+}
+
+.paper-gallery .paper-card-folder {
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  text-overflow: ellipsis;
+}
+
+.paper-gallery .paper-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: auto;
+}
+
+.paper-gallery .paper-card-link {
+  padding: 0.25rem 0.45rem;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 6px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.paper-gallery .paper-card-link:hover {
+  border-color: var(--text-accent);
+  color: var(--text-accent);
+}
+
+.paper-gallery .paper-card-placeholder {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}

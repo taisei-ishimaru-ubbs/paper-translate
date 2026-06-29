@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "papers/by-title/",
+    ".logs/",
+    "scratchpad/"
+  ]
+}

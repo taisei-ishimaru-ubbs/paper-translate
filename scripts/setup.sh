@@ -14,6 +14,14 @@ mkdir -p "$PAPERS_DIR" "$LOG_DIR"
 echo "created: $PAPERS_DIR"
 echo "created: $LOG_DIR"
 
+# PyMuPDF (figure cropping) lives in a project venv to avoid PEP 668 issues.
+if [[ ! -x "$ROOT/.venv/bin/python" ]] || ! "$ROOT/.venv/bin/python" -c "import fitz" 2>/dev/null; then
+  echo "installing PyMuPDF into $ROOT/.venv ..."
+  uv venv "$ROOT/.venv"
+  uv pip install --python "$ROOT/.venv/bin/python" pymupdf
+fi
+echo "PyMuPDF: $("$ROOT/.venv/bin/python" -c 'import fitz; print(fitz.pymupdf_version)')"
+
 arq config set root "$PAPERS_DIR"
 arq config set translate.enabled false
 arq config set summarize.enabled false

@@ -20,11 +20,10 @@ log() { printf '[%s] %s\n' "$(date '+%Y-%m-%dT%H:%M:%S%z')" "$*" >> "$LOG_FILE";
 command -v jq >/dev/null 2>&1 || { log "ERROR: jq not found"; exit 1; }
 [[ -d "$ARXIV_DIR" ]] || { log "no arxiv.org dir yet"; exit 0; }
 
-# Replace path-breaking / control chars; keep spaces and capitalization.
+# Title -> snake_case slug: lowercase, non-alnum runs -> "_", trim edges.
 sanitize_title() {
-  printf '%s' "$1" \
-    | tr '/\n\r\t' '____' \
-    | sed -E 's/[[:cntrl:]]//g; s/^[[:space:].]+//; s/[[:space:].]+$//'
+  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
 }
 
 # Rebuild from scratch so stale links are removed.
@@ -42,7 +41,7 @@ while IFS= read -r -d '' meta; do
 
   link="$BYTITLE_DIR/$name"
   if [[ -e "$link" || -L "$link" ]]; then
-    name="$name ($id)"
+    name="${name}_${id//./_}"
     link="$BYTITLE_DIR/$name"
   fi
 

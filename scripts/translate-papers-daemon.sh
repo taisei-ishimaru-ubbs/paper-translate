@@ -71,9 +71,50 @@ for pdf in "${papers[@]}"; do
     OLLAMA_HOST="$OLLAMA_HOST" OLLAMA_MODEL="$OLLAMA_MODEL" \
       bash "$SCRIPT_DIR/summarize-paper.sh" "$dir" || log "WARN: summary failed for $dir"
   fi
+
+  # 3. Fetch the citation graph from Semantic Scholar (independent of the above).
+  if [[ ! -f "$dir/references.json" ]]; then
+    did_work=1
+    log "fetching references: $dir"
+    bash "$SCRIPT_DIR/fetch-references.sh" "$dir" || log "WARN: references failed for $dir"
+  fi
+
+  # 4. Extract figures and pick a method-overview thumbnail.
+  if [[ ! -f "$dir/overview.png" ]]; then
+    did_work=1
+    log "extracting figures: $dir"
+    bash "$SCRIPT_DIR/extract-figures.sh" "$dir" || log "WARN: figures failed for $dir"
+  fi
 done
 
-# 3. Refresh the human-friendly by-title symlink tree.
+# 5. Rebuild Obsidian notes (stored next to each paper as <snake(title)>.md).
+#    Wikilinks resolve by note basename, so build one shared id->slug map first,
+#    disambiguating any slug shared by two papers, then regenerate every note.
+snake() {
+  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
+}
+local_map="$(mktemp)"
+declare -A SEEN_SLUG
+for pdf in "${papers[@]}"; do
+  dir="$(dirname "$pdf")"
+  [[ -f "$dir/meta.json" ]] || continue
+  mid="$(jq -r '.id // .ID // ""' "$dir/meta.json")"
+  [[ -n "$mid" ]] || continue
+  mslug="$(snake "$(jq -r '.title // .Title // ""' "$dir/meta.json")")"
+  [[ -n "$mslug" ]] || mslug="$(snake "$mid")"
+  [[ -n "${SEEN_SLUG[$mslug]:-}" ]] && mslug="${mslug}_${mid//./_}"
+  SEEN_SLUG["$mslug"]=1
+  printf '%s\t%s\n' "$mid" "$mslug" >> "$local_map"
+done
+for pdf in "${papers[@]}"; do
+  dir="$(dirname "$pdf")"
+  LOCAL_MAP_FILE="$local_map" \
+    bash "$SCRIPT_DIR/generate-obsidian-note.sh" "$dir" --force || log "WARN: note failed for $dir"
+done
+rm -f "$local_map"
+
+# 6. Refresh the human-friendly by-title symlink tree.
 bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
 
 [[ "$did_work" -eq 0 ]] && log "nothing new to process"

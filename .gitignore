@@ -5,8 +5,18 @@ papers/*
 # Logs
 .logs/
 
+# Python venv (PyMuPDF for figure cropping)
+.venv/
+
 # pdf2zh intermediates
 *-dual.pdf
 *-mono.pdf
+
+# Obsidian: per-paper notes live in papers/ (already ignored above) and are
+# regenerable. Local app state is machine-specific. Keep gallery.md (root),
+# snippets, app.json, community-plugins.json, appearance.json.
+.obsidian/workspace*.json
+.obsidian/plugins/
+.obsidian/cache
 
 .DS_Store
