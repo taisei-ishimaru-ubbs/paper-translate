@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# fzf preview: show summary.ja.md or paper metadata for the selected arXiv ID.
+# fzf preview: show summary.md or paper metadata for the selected arXiv ID.
 
 set -euo pipefail
 
@@ -15,7 +15,7 @@ if [[ -z "$pdf_path" ]]; then
 fi
 
 dir="$(dirname "$pdf_path")"
-summary="$dir/summary.ja.md"
+summary="$dir/summary.md"
 
 if [[ -f "$summary" ]]; then
   cat "$summary"

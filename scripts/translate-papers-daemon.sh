@@ -34,33 +34,47 @@ if ! command -v pdf2zh >/dev/null 2>&1; then
   exit 1
 fi
 
-queue=()
+# Collect all papers; each may need translation, a summary, or both.
+papers=()
 while IFS= read -r -d '' pdf; do
-  dir="$(dirname "$pdf")"
-  if [[ ! -f "$dir/paper_ja.pdf" ]]; then
-    queue+=("$pdf")
-  fi
-done < <(find "$PAPERS_DIR" -name "paper.pdf" -type f -print0 2>/dev/null)
+  papers+=("$pdf")
+done < <(find "$PAPERS_DIR" -path "$PAPERS_DIR/by-title" -prune -o -name "paper.pdf" -type f -print0 2>/dev/null)
 
-if [[ ${#queue[@]} -eq 0 ]]; then
-  log "nothing to translate"
+if [[ ${#papers[@]} -eq 0 ]]; then
+  log "no papers found"
   log "=== done ==="
   exit 0
 fi
 
-log "${#queue[@]} paper(s) to translate"
-
-for pdf in "${queue[@]}"; do
+did_work=0
+for pdf in "${papers[@]}"; do
   dir="$(dirname "$pdf")"
-  log "translating: $pdf"
-  OLLAMA_HOST="$OLLAMA_HOST" OLLAMA_MODEL="$OLLAMA_MODEL" \
-    pdf2zh "$pdf" -li en -lo ja -s ollama -t 1 -o "$dir"
-  if [[ -f "$dir/paper-mono.pdf" ]]; then
-    mv "$dir/paper-mono.pdf" "$dir/paper_ja.pdf"
-    log "done: $dir/paper_ja.pdf"
-  else
-    log "WARN: paper-mono.pdf not found after translation for $pdf"
+
+  # 1. Translate body PDF if not already done.
+  if [[ ! -f "$dir/paper_ja.pdf" ]]; then
+    did_work=1
+    log "translating: $pdf"
+    OLLAMA_HOST="$OLLAMA_HOST" OLLAMA_MODEL="$OLLAMA_MODEL" \
+      pdf2zh "$pdf" -li en -lo ja -s ollama -t 1 -o "$dir"
+    if [[ -f "$dir/paper-mono.pdf" ]]; then
+      mv "$dir/paper-mono.pdf" "$dir/paper_ja.pdf"
+      log "translated: $dir/paper_ja.pdf"
+    else
+      log "WARN: paper-mono.pdf not found after translation for $pdf"
+    fi
+  fi
+
+  # 2. Generate a Japanese summary if not already done (independent of translation).
+  if [[ ! -f "$dir/summary.md" ]]; then
+    did_work=1
+    log "summarizing: $dir"
+    OLLAMA_HOST="$OLLAMA_HOST" OLLAMA_MODEL="$OLLAMA_MODEL" \
+      bash "$SCRIPT_DIR/summarize-paper.sh" "$dir" || log "WARN: summary failed for $dir"
   fi
 done
 
+# 3. Refresh the human-friendly by-title symlink tree.
+bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
+
+[[ "$did_work" -eq 0 ]] && log "nothing new to process"
 log "=== done ==="
