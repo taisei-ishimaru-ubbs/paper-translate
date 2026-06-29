@@ -117,5 +117,16 @@ rm -f "$local_map"
 # 6. Refresh the human-friendly by-title symlink tree.
 bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
 
+# 7. Commit and push the complete paper library after processing. Only papers/
+#    and gallery.md are eligible; the helper refuses unsafe branch states.
+if [[ "${PAPER_LIBRARY_AUTO_PUSH:-1}" == "1" ]]; then
+  bash "$SCRIPT_DIR/commit-paper-library.sh" || {
+    log "ERROR: paper-library commit/push failed"
+    exit 1
+  }
+else
+  log "paper-library commit/push disabled (PAPER_LIBRARY_AUTO_PUSH=$PAPER_LIBRARY_AUTO_PUSH)"
+fi
+
 [[ "$did_work" -eq 0 ]] && log "nothing new to process"
 log "=== done ==="
