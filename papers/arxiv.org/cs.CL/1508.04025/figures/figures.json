@@ -1,0 +1,51 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Neural machine translation – a stack- ing recurrent architecture for translating a source sequence A B C D into a target sequence X Y Z. Here, <eos> marks the end of a sentence.",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: Global attentional model – at each time step t, the model infers a variable-length align- ment weight vector at based on the current target state ht and all source states ¯hs. A global context vector ct is then computed as the weighted aver- age, according to at, over all the source states",
+    "score": 33.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3: Local attention model – the model ﬁrst predicts a single aligned position pt for the current target word. A window centered around the source position pt is then used to compute a context vec- tor ct, a weighted average of the source hidden states in the window. The weights at are inferred",
+    "score": 15.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 5,
+    "caption": "Figure 4: Input-feeding approach – Attentional vectors ˜ht are fed as inputs to the next time steps to inform the model about past alignment decisions.",
+    "score": 9.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5: Learning curves – test cost (ln perplex- ity) on newstest2014 for English-German NMTs as training progresses.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6: Length Analysis – translation qualities of different systems as sentences become longer.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 11,
+    "caption": "Figure 7: Alignment visualizations – shown are images of the attention weights learned by various models: (top left) global, (top right) local-m, and (bottom left) local-p. The gold alignments are displayed at the bottom right corner.",
+    "score": 3.0
+  }
+]

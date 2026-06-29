@@ -1,0 +1,4171 @@
+{
+  "id": "1706.03762",
+  "references": [
+    {
+      "arxiv_id": "1705.04304",
+      "title": "A Deep Reinforced Model for Abstractive Summarization"
+    },
+    {
+      "arxiv_id": "1705.03122",
+      "title": "Convolutional Sequence to Sequence Learning"
+    },
+    {
+      "arxiv_id": "1703.03906",
+      "title": "Massive Exploration of Neural Machine Translation Architectures"
+    },
+    {
+      "arxiv_id": "1703.03130",
+      "title": "A Structured Self-attentive Sentence Embedding"
+    },
+    {
+      "arxiv_id": "1703.10722",
+      "title": "Factorization tricks for LSTM networks"
+    },
+    {
+      "arxiv_id": "1702.00887",
+      "title": "Structured Attention Networks"
+    },
+    {
+      "arxiv_id": "1701.06538",
+      "title": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"
+    },
+    {
+      "arxiv_id": "1610.10099",
+      "title": "Neural Machine Translation in Linear Time"
+    },
+    {
+      "arxiv_id": "1610.08613",
+      "title": "Can Active Memory Replace Attention?"
+    },
+    {
+      "arxiv_id": "1610.02357",
+      "title": "Xception: Deep Learning with Depthwise Separable Convolutions"
+    },
+    {
+      "arxiv_id": "1609.08144",
+      "title": "Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation"
+    },
+    {
+      "arxiv_id": "1608.05859",
+      "title": "Using the Output Embedding to Improve Language Models"
+    },
+    {
+      "arxiv_id": "1607.06450",
+      "title": "Layer Normalization"
+    },
+    {
+      "arxiv_id": "1606.04199",
+      "title": "Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation"
+    },
+    {
+      "arxiv_id": "1602.02410",
+      "title": "Exploring the Limits of Language Modeling"
+    },
+    {
+      "arxiv_id": "1602.07776",
+      "title": "Recurrent Neural Network Grammars"
+    },
+    {
+      "arxiv_id": "1601.06733",
+      "title": "Long Short-Term Memory-Networks for Machine Reading"
+    },
+    {
+      "arxiv_id": "1512.03385",
+      "title": "Deep Residual Learning for Image Recognition"
+    },
+    {
+      "arxiv_id": "1512.00567",
+      "title": "Rethinking the Inception Architecture for Computer Vision"
+    },
+    {
+      "arxiv_id": "1511.08228",
+      "title": "Neural GPUs Learn Algorithms"
+    },
+    {
+      "arxiv_id": "1511.06114",
+      "title": "Multi-task Sequence to Sequence Learning"
+    },
+    {
+      "arxiv_id": "1508.07909",
+      "title": "Neural Machine Translation of Rare Words with Subword Units"
+    },
+    {
+      "arxiv_id": "1508.04025",
+      "title": "Effective Approaches to Attention-based Neural Machine Translation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "End-To-End Memory Networks"
+    },
+    {
+      "arxiv_id": "1412.7449",
+      "title": "Grammar as a Foreign Language"
+    },
+    {
+      "arxiv_id": "1412.6980",
+      "title": "Adam: A Method for Stochastic Optimization"
+    },
+    {
+      "arxiv_id": "1412.3555",
+      "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling"
+    },
+    {
+      "arxiv_id": "1409.3215",
+      "title": "Sequence to Sequence Learning with Neural Networks"
+    },
+    {
+      "arxiv_id": "1409.0473",
+      "title": "Neural Machine Translation by Jointly Learning to Align and Translate"
+    },
+    {
+      "arxiv_id": "1406.1078",
+      "title": "Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation"
+    },
+    {
+      "arxiv_id": "1308.0850",
+      "title": "Generating Sequences With Recurrent Neural Networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fast and Accurate Shift-Reduce Constituent Parsing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Self-Training PCFG Grammars with Latent Annotations Across Languages"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning Accurate, Compact, and Interpretable Tree Annotation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Effective Self-Training for Parsing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Long Short-Term Memory"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Building a Large Annotated Corpus of English: The Penn Treebank"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Ankur Parikh , Oscar Täckström , Dipanjan Das , and Jakob Uszkoreit . A decomposable attention model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dropout: a simple way to prevent neural networks from overfitting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Le , Ilya Sutskever , Oriol Vinyals , and Lukasz Kaiser . Multitask sequence to sequence learning"
+    }
+  ],
+  "citations": [
+    {
+      "arxiv_id": null,
+      "title": "ChainCare: Clinical prediction via bidirectional monitoring event chains and multi-event time series modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DRUM: Distributionally robust optimization for LLM-based user model in interactive recommendation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive heterogeneous stacking ensemble learning for predicting coal mine gas concentration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Context-aware knowledge graph reasoning for road maintenance decision-making"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Joint Embedding Predictive Architecture for autonomous vehicle safety and security: A comprehensive survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DCFRec: Sequential recommendation via diffusion denoising and context-aware frequency-domain analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BoXFire: Geometry-aware box-supervised fusion for accurate fire and smoke segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing video smoothness and clarity: A unified survey of frame interpolation, super-resolution, and space-time super-resolution"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Lithology identification from missing well log data: a multi-constraint guided self-supervised diffusion framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SyDiM: Synergistic Diffusion-adversarial Method for socially-compliant multimodal pedestrian trajectory forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ScenGDL: Smart contract vulnerability detection and location based on temporal Scenarios and Graph convolution networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An empirical study of attention mechanisms in wide and deep neural networks for smart contract vulnerability detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VulGNN: A high-fidelity graph neural network framework for robust smart contract vulnerability detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-stream transformer autoencoding with contrastive k-means and spectral learning for explainable unsupervised driving-behavior clustering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HGNJODE: A Hierarchical Gated Neural Jump Ordinary Differential Equation for spatio-temporal event prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Continuous semantic control field for edge preservation to achieve adaptive enhancement of underwater image regions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving code search by query reformulation with experienced programmer intelligence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Lane change intention evidential inference from multimodal naturalistic driving data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep Graph Learning for Spatial-Temporal Group-Correlated In-Service Performance Prediction of Transportation Infrastructure System"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MFDSGC: a novel pedestrian crossing intention prediction method for autonomous vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Streamlining risk assessment for predictive maintenance: Can AI be trusted as an assistant?"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Personalized seizure risk forecasting via transformer-enhanced reinforcement learning with wearable signals"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Detecting implicit sexism in digital social networks via contrastive learning-based adaptive network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-modal deep learning model with microstrip isoelectric focusing and imaging strategy for feed classification."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Topology optimization of piezoelectric structures based on multi-modal input neural network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-scale feature extraction of road marking from front-view images through hybrid convolutional and vision transformer for high-definition map"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Universal transient stability analysis: A pre-trained generative transformer-enabled power system dynamics prediction framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Are patents with female inventors under-cited? Evidence from text estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The recognition-by-components method"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DE-GAM: A dual-encoder graph-attention mixture-of-experts framework for post-crash traffic speed forecasting during freeway all-lane-closure incidents"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Short-term electricity load forecasting: Application-driven evaluation of machine learning models across spatial and temporal scales"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive spatial–temporal fusion transformer for multi-step geological condition prediction ahead of TBM"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Eco-cruising control under cut-in maneuvers using spatiotemporal attention-based trajectory prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep learning based two-stage multi-source data fusion model with transformer and cross-attention for surface roughness prediction in precision turning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CL-DFTC: A deep flight trajectory clustering framework based on self-supervised contrastive learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-resolution temporal encoding enhanced air traffic flow prediction with frequency-aware decomposition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OfflineRealtimeTranslator: A fully offline android application for Russian-to-Chinese simultaneous interpretation using on-device LLM inference"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Event-driven dynamic ambulance dispatch: A transformer-based reinforcement learning approach with model explainability"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ALISTA: Accelerator using LSH-based maximum inner-product search in transformer attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FreqChange: Frequency-aware spatiotemporal learning with prior guidance for semantic change detection in remote sensing images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EINet: An explicit and implicit aware network for thermal field temperature prediction in the Cz Silicon Single Crystal Growth Process"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LandslideSegFormer: A non-local context-aware dual-branch network for accurate small-scale landslide segmentation from remote sensing imagery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Transformer-weakly coupled ensemble data assimilation framework for error correction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Taste peptides: A critical review on taste perception mechanisms, AI-driven screening, and multidimensional evaluation technologies"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving transfer accuracy of qualitative analysis models between two LIBS instruments by Dual-Branch Dual-Cross-Entropy Domain Adversarial Network (DDAN)"
+    },
+    {
+      "arxiv_id": null,
+      "title": "GuidedDCNet: A diffusion-integrated framework with multi-scale conditional guidance for enhanced data classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A cross-stage multi-scale attention network for lithium-ion battery state of health prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Optimization of microgrid capacity configuration considering source output correlation and charging load periodicity"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced threat object detection through generative adversarial networks based synthetic X-ray image generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development of a dynamic deep learning framework for the prediction of vessel arrival time to port"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Spatio-temporal feature fusion and few-shot learning framework with cross-city knowledge transfer for traffic flow prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-temporal calving front segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "scCCCT: Single-cell RNA-seq data contrastive clustering network with hierarchical cell transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DFAB-Net: A dynamically fused attentional biomarker network for EEG-based attention level classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DeepCosineMNet: Few-shot learning with deep supervision based on KAN-mixer and sobel-guided feature ensembling and cosine similarity metric for bearing fault diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SLPT-Net: A spatiotemporal learning framework for automated sow contraction recognition and farrowing time prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TSCAD: Temporality-spectrum collective transformer for multivariate time series anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Public discourse dynamics of shared e-bikes under policy evolution: A social media analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Protocol-sensitive fingerprint embedding analysis using a lightweight hybrid CNN-Transformer framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CLKSP: medical entity extraction with contrastive learning and knowledgeable soft prompt"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Stratigraphic transformer: Encoding sparse boreholes to learn stratigraphic structure without prior geological knowledge"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Integrated multi-objective and robust design of aperiodicthermophotovoltaic emitters via a transformer surrogate"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A self-adaptive top token transformer for gastrointestinal endoscopy image restoration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced stress detection via intermediate fusion of intermodal signals"
+    },
+    {
+      "arxiv_id": null,
+      "title": "T2Net: Taxonomy-Guided Tree-Structured Prompt Learning for Few-Shot Remote Sensing Scene Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DSA-SafetyBench: A safety-aware benchmark for artificial-intelligence-based dynamic security assessment in energy systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TuckerDreamer: Subject-driven text-to-image generation via Tucker-based frequency-domain fine-tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FVQVAEformer: A spatiotemporal prediction framework for hydrogen leakage concentration fields in hydrogen production workshops"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Driver EEG fatigue recognition based on matrix recovery and vision transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Remote sensing imagery super-resolution base on diffusion models and edge guidance strategy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Identifying weapon-carrying actions in video surveillance systems through self-attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EMA-Transformer: A hybrid evolutionary framework for systematic feature optimization in EVs SoC estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring embeddings and document structure recognition for extractive summarization of Portuguese Supreme Court judgments"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine learning for urban wind simulation: A comprehensive review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TransDehazeGAN: A dual-stage TransformerGAN framework for remote sensing image dehazing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SS-ALNN: A spatio–spectral framework with adaptive liquid dynamics for spectral image modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DCNet: Differential computing-driven network for infrared and visible image fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DSW-Net: A dual-skip connection wavelet network for underwater image enhancement"
+    },
+    {
+      "arxiv_id": null,
+      "title": "On the robustness of short-term building energy forecasting under cross-climate transfer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Graph-based clustering cost model for performance optimization in deep learning compilers"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-task learning generation method for functional design of product innovation driven by small sample review data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multi-scale adaptive graph convolution approach to multivariate time series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FreqResNet: Frequency-Aware Resonance Network for multivariate time series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TREASURE: A Transformer-Based Foundation Model for High-Volume Transaction Understanding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SmartGen: Synthesizing Context-Aware User Behavior Data for Adaptive Smart Home Intelligence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "StormMind: Disentangled Layerwise Modeling for Convective Weather Systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UniLLM: A Unified Large Language Model for Multi?Modal Urban Dynamics Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Think2Go: Generative Next POI Recommendation with LLM Reasoning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "VQFlow: A Benchmark Dataset for Encrypted Video Streaming Traffic across QoS Configurations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fast and Faithful: Scalable Neuro-Symbolic Learning and Reasoning with Differentiable Fuzzy $EL^+^+$"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving Heterogeneous Graph Contrastive Learning Robustness via Hierarchical Vulnerability Protection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "How to Train Your Mamba for Time Series Forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aspect based sentiment analysis: A systematic review, taxonomy, applications, and future research directions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From vectors to knowledge graphs: A comprehensive analysis of modern retrieval-augmented generation architectures"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Visualization methods for explainable medical imaging diagnosis: A survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From trust to augmentation: A comprehensive survey on synergistic integration of decentralized and generative intelligence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A comprehensive review of time series classification: Traditional, deep learning, and few-shot learning Methods"
+    },
+    {
+      "arxiv_id": null,
+      "title": "How attention is applied to graph neural networks: A comprehensive survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A comprehensive review of temporal reasoning with multimodal LLMs: Foundations, challenges, and healthcare applications"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ProtoPFL: Enhancing privacy and accuracy in federated time-series forecasting with heterogeneous data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Advancing GNSS with machine learning: A systematic review of techniques and applications"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Irrelevant feature filtering module for deep multi-view generative clustering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Random dilated convolution based multi-branch edge enhancement framework for visceral organ segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ARPIA: A multi-scale heterogeneous graph neural network for mobile device geolocation with explicit non-connection modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MDF-former: Multi-branch dual-modal fusion transformer for assessing axillary lymph node metastatic burden in breast cancer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A physics-informed transformer framework for seismic response modeling and fragility evaluation of soil–pile systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EMamba: A Mamba-based framework for EMG gesture recognition via discriminative heatmap representations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FS-Reg: Few-label-constrained image registration using a joint segmentation and registration framework and window-based routing attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "eNeuroLingua: A language-inspired hierarchical framework for multimodal sleep stage classification using EEG and EOG"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BUFF-Net: Boundary Uncertainty-area Feature reFinement network for simultaneous segmentation of multiple lumbar paraspinal muscles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Antibiotic resistance prediction with an attention-based bi-LSTM clinical decision support system"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep multimodal information bottleneck for breast cancer classification on contrast-enhanced spectral mammography"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A causality-guided lightweight model for 3D multi-modal brain tumor segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Wavelet-Guided Robust Attention Network for small aircraft detection in complex scenes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Uncertainty-aware vessel trajectory prediction for heterogeneous data fusion in internet of things-driven smart waterways"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Antibiotic resistance gene identification using cross-feature transformer from metagenomic data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Expert Transformer: Fine-Grained Mixture-of-Experts for Time-Series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing long-range contextual interactions via frequency-aware directional shifts for medical image segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multivariate long-term time-series prediction model for water quality based on Transformer architecture with spectral reconstruction optimizer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Schedule adherence oriented traffic signal control for large-scale scheduled vehicle operations: A multi-agent reinforcement learning approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "NeuralMetric: An accurate and efficient real-time safety metric for automated driving systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Structure-aware context-enhanced and dual-path synergistic decoding network for atrophic gastritis segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient spectral-temporal reconstruction of long-term satellite time series via temporal segments and mask-informed embedding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An addition interaction and frequency mamba enhanced detection transformer for photovoltaic cell surface defects"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Activity recommendation in business process modeling with dynamic graph neural network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TSBMNet-XAI interpretable multi-step offshore wind power forecasting for enhanced energy storage integration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fractal-guided multi-scale contrastive learning for robust liver tumor classification in ultrasound"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modality based future predictive representation learning for video anticipation captioning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CECF-Net: Imputation of missing values in carbon flux time series via context enhancement and cross-scale fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Chaotic time series prediction based on attention-enhanced asynchronous optoelectronic reservoir computing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive parallel physics-informed neural networks for forward and inverse problems of nonlocal multi-component Manakov systems in optical communications"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Residual-channel attention physics-informed neural network for surrogate modeling of a sodium-ion battery single-particle model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Knowledge and data fusion-driven self-supervised learning for air handling unit fault diagnosis with limited labeled data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-Granularity Modal Interaction and Fusion framework for vision-language tasks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Recent developments in Transformer inference deployment on FPGA platforms: A survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TA-GAT: Temporal-adaptive graph attention network for multi-station photovoltaic power forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AscQLUT: A decode-fused INT4 GEMM Kernel for Ascend NPUs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A unified deep learning framework coupling InSAR-derived spatiotemporal kinematic features for robust landslide displacement prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unmasking the Tiny: Foreground probing for small object detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robust battery state-of-health estimation from two-stage constant-current–constant-voltage charging records using physics-inspired learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated triaging of hospital complaints using Large Language Model-Assisted Content Analysis and machine learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Large language models-driven fuzzing: A systematic survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SMART: Structured multimodal agricultural retrieval-augmented transformer for plant disease diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced daily retrieval of Evapotranspiration from a Transformer-based deep learning model combined with satellite passive microwave and optical observations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robust Transformer framework with Bayesian-Inspired stochastic attention for underwater cable fault detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semantic 3D reconstruction of tunnel lining defects from sparse GPR measurements"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel Adaptive Loss Weighting–Gradient-Based Attention framework for Physics-Informed Neural Networks in flow simulation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Continual Learning across multiple domains via a Dynamic Expandable and Mergeable Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Global assessment of bike-sharing sensitivity and resilience to extreme weather"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A hybrid GNN-transformer framework for multimodal classification of brain disorders using structural and functional MRI"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Spatiotemporal organization and climatic modulation of anomalous precipitation in the Huaihe River Basin (1961–2019)"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Task-driven remote sensing image captioning for earth understanding: From multi-task dataset to task-conditioned framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EdgeATP: An adaptive tensor parallelism framework for scalable and efficient transformer inference on edge clusters"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Future horizon-guided trend projection: A proactive mapping framework for long-term time series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep residual networks for tilt-series denoising in rapid-scan BF-STEM: Enabling 3D dislocation reconstruction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring the limitations of transformer models for metocean forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Digital transformation for truss bridges using pixel-wise semantic NeRF"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TideMamba: a hybrid time-series decomposition and Mamba-based architecture for multivariate anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PARCNet: Phase-aware residual correction network for efficient multivariate time series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Sea fog intensity observation from surveillance videos: A comparative study of deep learning models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Self-supervised ViT-driven whole-line alignment of multi-date rail ultrasonic B-scan data for longitudinal infrastructure inspection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UMHSDet: Underwater Multi-scale Heterogeneous State Space Detector"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Accuracy, robustness, and computational efficiency in bearing fault detection and diagnosis: Comparison of CNN and CNN-Transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HSD-DETR: A highly robust transformer model for PCB defect detection in complex backgrounds"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robust long-term water quality forecasting via decomposition-enhanced patching and asymmetric attention fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LLM-driven power system transient stability assessment: From automated simulation to neural architecture design"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Physics-guided neural network architectures for modeling nonlinear behaviors: Application to shape memory alloy wires"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Saliency-guided difference enhancement model for video anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Feature-fusion-based prediction of impact loads during high-speed water entry of vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid physics–AI aerosol property retrieval algorithm for AMI/GK-2A with a deep learning radiative transfer emulator"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tri-hybrid transformer framework for multi-target performance prediction of solid desiccant evaporative cooling systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An AI system for residential building damage estimation using multimodal remote sensing data fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Predicting site-specific suction caisson installation pressure with limited data: A multi-fidelity temporal fusion framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An interpretable Transformer-based deep learning model for ship berthing motion state prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UVSENet: A Semantic-Embedded dual branch fusion network for urban villages mapping"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transformer models and their applications in particle technology and process engineering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DGP-SFNet: An efficient visual perception architecture for small maritime objects on unmanned surface vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep PACBED: Multitask analysis of PACBED images using deep neural networks."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A scale-decoupled and physics-consistent diffusion model for springback displacement field prediction of doubly-curved hull plates"
+    },
+    {
+      "arxiv_id": null,
+      "title": "3D human pose estimation based on multi-view feature fusion and dynamic voxelization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic correlation network and structure-aware matching for robust point cloud registration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Simulating narrative identity with large language models: a multi-study examination of linguistic and psychological patterns"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A lightweight multi-attention and context fusion network for small object detection in UAV images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semantic-geometric dual alignment: A progressive co-optimization paradigm for misaligned multimodal medical image fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explainable stress detection system using hybrid CNN-Transformer and uncertainty quantification with copula GAN-based data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An adaptive time-frequency attention-based CNN-LSTM for robust fatigue detection using EEG signals"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MTU-Net: Task-conditioned multi-task learning for joint hematoma classification and segmentation in non-contrast CT"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MAMIS: Modality-adaptive medical image segmentation via ensemble supervised contrastive learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Interpretable AI for Parkinson's Disease: Multimodal deep learning with explainable attention for Parkinson's Disease diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multisource data-driven GRU-transformer network for estimating spatial-temporal distribution of ground-level ozone"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RBML-Diff: Diffusion model with region-boundary mutual learning for polyp segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "STAR: Spatial-temporal autoscaling for cloud applications with deep reinforcement learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A graph neural network approach to automated resume classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CIGAN: rehabilitation-oriented few-shot speech separation for cocktail party problem in Cochlear implant users"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CoDiF-Net: A conditional diffusion multimodal fusion network for predicting hemorrhage risk of cerebral cavernous malformation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Integrating multi-modal deep features of electrocardiogram, heart sound signals and baseline data for coronary artery disease detection using transfer learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prediction of key parameters in aquaculture biofilters using a physics-informed spatial self-attention gated recurrent unit model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic estimation of mean skin temperature during physical exercises using an explainable attention-based neural network: A data-driven alternative to segmental weighting methods"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-query contextual clues dynamic enhancement for partially relevant video retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward knowledge-guided emergency triage: conditional probability imputation and cross-modal fusion under incomplete and heterogeneous data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BIM–LLM integration in AECO workflows: Applications, validation, and future directions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bridging local and global representations: An inter-and intra-window based transformer for unsupervised depth completion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A new reconstruction-based method for multivariate time series anomaly detection with diffusion models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prior Knowledge-Informed Adaptive Federated Dual Scenario Graph Neural Network for Boil-Off Gas Generation Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-region deep learning for odor discrimination from local field potentials"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A mechanism-guided multimodal industrial copilot with incremental learning for natural products manufacturing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Diffusion model-enhanced coral identification: A lightweight multi-scale network for benthic imagery analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UVT - A network for super-resolution multiphoton fluorescence image reconstruction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel multivariate interval prediction method of hydrogen sulfide synthesis for acidic wastewater treatment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Du-CIPT: Dual Cross-Modal Interactive Pyramid Transformer for RGB-Thermal salient object detection and segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attention-recon: Exploring backprojection image reconstruction with attention mechanisms"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A deep learning network integrating channel-fusion and attention mechanisms for building extraction from remote sensing imagery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A hybrid method for anomaly data detection and reconstruction in proton exchange membrane fuel cells to enhance life prediction accuracy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Physics-informed neural operator for forecasting vehicle-induced bridge vibration trajectories"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Algorithmic trading by reinforcement learning in a collaborative manner"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TactileFormer: A feature-fused CNN-Transformer model for few-shot tactile perception"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A provable safety metric for autonomous driving via deep reinforcement learning and PAC verification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning-based imputation model for multi-predecessor following platoons under unreliable wireless connections"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Understanding complex queries: Multi-query comprehension network for temporal sentence grounding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Skeleton-guided sparse anchors for rotated instance segmentation in cell microscopy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improved noising training detection Transformer based drone image detector"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ASSDA: Adaptive subgraph sampling with dual-attention for drug-drug interaction prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated worker action recognition in construction videos via domain-adapted vision-language fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Leveraging high-frequency intraday pattern for improved deep temporal learning of stock price dynamics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Intelligent visualization and automated classification of defected paint and rusted steel by eddy current thermography scanning technique"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DART: Diffusion-based approach for predicting trajectories of ballistic missiles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning unified market interdependencies via networked attention for stock price forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aircraft geomagnetic navigation via dual-view feature extraction and hybrid multi-criteria adaptive weighting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Graph channel receptive field transformer for multi-agent trajectory prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An anisotropic low-rank self-attention mechanism for infrared and visible image fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fusing acoustic emission and deep learning for automatic identification of progressive rock fracture"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MFformer: Time series forecasting via Fourier transform and meta-learning routing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OmniTIEFormer: A tri-branch transformer with cross-scale transfer learning for multi-scale battery life-cycle forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImputeLLM: A prompt-free large language model framework for robust time-series imputation in HVAC systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An online prediction method for finger joint angles utilizing an interpretable GRU-Att model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep learning-based sequential detection of attacks on low-Latency network services"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel identity-aware video captioning method with multi-perspective visual information for basketball"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A relaxation approach to layerwise determination of learning rates in deep neural networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SurgiFormer: A multi-scale vision transformer for precise surgical instrument segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Foundation models for autonomous driving: A comprehensive survey"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From pixels to text: A deep learning survey of scene text detection and recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Real-time and accurate burst localization in water distribution networks with graph-based deep learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A comprehensive survey of artificial intelligence advances in Reconfigurable Intelligent Surfaces-assisted wireless networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive salience autoencoder for unsupervised anomaly detection in computer network traffic"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SAG: A Session-Augmented Heterogeneous Graph-based model for Named Entity Recognition in query"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Image-based vulnerability detection based on a hybrid deep learning model in the Industrial Internet of Things using convolution neural network and transformer architectures"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A pretrained self-supervised model with lightweight spatial feature distillation for wetland mapping via satellite imagery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Advancing sustainable development goals through multilingual text summarization: A transformer-based approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A spectral-temporal Transformer framework for very short-term ship motion prediction with industrial applicability and cross-domain transferability"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Informer-enhanced digital twin framework for forced draft fans status forecasting in coal-fired power units"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Generative artificial intelligence and the built environment: An analysis of sentiments and socioeconomic implications"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multimodal dynamic feature fusion framework for human–robot audio-visual interaction in complex construction conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A pattern-aware two-stage power forecasting method for offshore wind farms based on dynamic feature decoupling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Differential attention transformer-enhanced graph neural network for accurate material property prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Structural complementarity-aware molecular representation learning for medication recommendation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RGB-D salient object detection via cross-modal adaptive correlation learning network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Physics-informed cross-attention operator network with hard-constrained Fourier features for heat map prediction of large-scale battery packs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Maximizing the risk-adjusted return of classification model-based investments"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A machine learning method to predict rate constants in ammonium dinitramide combustion kinetic model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "\"Separate-coupled\" hierarchical framework for accurate visual object tracking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MCAL-DTA: A multimodal method integrating cross-attention and local feature enhancement for drug-target affinity prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DyRFA-Net: Apple flower blooming stage detection based on anther color features"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AAGFormer: A self-adaptive graph-transformer synergy with topological normalization for 3D human pose estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Continual learning for implied volatility surfaces under regime shifts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From urban dynamics to intelligence: A spatiotemporal framework for cross-modal urban crowd flow management"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic battery degradation-informed optimal microgrid scheduling: A prediction-aware two-stage stochastic programming approach with spatiotemporal correlation scenario generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PGDM: Physically guided diffusion model for land surface temperature downscaling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Revisiting long-range dependency modeling in CNNs for medical image segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FreGAT: An interpretable frequency-domain graph attention transformer for short-term photovoltaic forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Physics-informed continuous state space models for probabilistic imaging in complex nonlinear media: A 3d magnetotelluric application"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A dynamic incremental learning approach for batteries state of health perception coupled with electrical and mechanical information"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving wheat yield prediction in breeding under climate change via a new method of correcting and reconstructing meteorological data and weighing multiple crop model outputs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Generative AI for the power sector: Methodology, safety, trustworthiness, and policy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attention mechanisms in UNet variants for medical/non-medical image segmentation: A comprehensive and state-of-the-art narrative review."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A synergistic pseudo-random number generator based on training-free multi-scale autoregressive Transformer and 3D-Lü chaos with application to image encryption"
+    },
+    {
+      "arxiv_id": null,
+      "title": "GQoD: Group-aware quantization for efficient layer-wise pipelined inference of Multi-Exit BERT on end devices"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Artificial intelligence and multi-scale data fusion for high-value utilization of whey proteins: A systematic review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An integrated explainable framework for multimodal deepfake detection across image, audio, and video data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multi-task Transformer for integrated in-season rapeseed mapping and flowering retrieval using Sentinel-1 and Sentinel-2 data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A parallel spatiotemporal hybrid model based on Top-k sparse attention and learnable graph structure for steel structural response reconstruction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LABMA: Latent-bottleneck attention-based multimodal architecture for integration of transcriptomics, proteomics, and MRI in neurodegeneration."
+    },
+    {
+      "arxiv_id": null,
+      "title": "GeoMatch: Natural language-guided cross-view object geo-localization and matching"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Comparative analysis of traditional and deep learning time series architectures for influenza A infectious disease forecasting."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Predicting Tactile Sensory Outcome of Physical Human-Robot Interaction Through Embodied Learning Strategy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Subgoal identification with multiple instance learning methods in landmark Partially Observable Markov Decision Process problems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EfficientMedFormer: A directional decomposition approach for lightweight medical image classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Attention deserves human insight: An AHP-enhanced attention mechanism for interpretable and expert-guided AI in skin-related neglected tropical disease diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Information in central bank sentiment: An analysis of Fed and ECB communication"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Lifetime prediction of SiC MOSFETs across working conditions using Arrhenius and ProbSparse Transformer residual imputation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BEV-OSP: Obstacle State Prediction in Bird’s-Eye View to Enable Obstacle Avoidance and Navigation in Dynamic Environments"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MSK-Net: Multi-scale spatial KANs enhanced U-shaped network for explainable 3D brain tumor segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MPNet: Maximum parallax network for light field salient object detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improving reliability of acoustic fault detection in harsh industrial environments via statistical modeling and temporal integration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AIS data-based ship trajectory prediction using a CNN–Transformer–MLP hybrid model with clustering-based feature augmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prompt-guided zero-shot Depth-aware transformer pipeline for democratized SEM particle characterization: A case study in battery materials"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transfer graph reasoning network for misaligned visible-thermal object detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PoDe-SORT: Robust multi-object tracking by modeling bounding box deformation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unlocking distributed intelligence: A comprehensive survey on federated split learning’s evolution, challenges, and future frontiers"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hierarchy-aware prompt tuning with bidirectional information propagation for failure data mining"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Egocentric-view pedestrian crossing intention prediction with limited observation: An approach based on knowledge distillation and feature decoupling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient probabilistic forecasting for power system time series via conditional variational autoencoders"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic responses of tension leg platforms considering the influence of tensioners based on a multi-stage feature extraction strategy"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Data-driven decision making for urban rail operators: machine learning-based passenger flow prediction under climate uncertainty"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploring fear in urban environments: Place and space analysis of social media data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning from tabular data with out-of-distribution characteristics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated data synthesis and retrieval-augmented generation for legal large language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PFGCNet: A multi-view collaborative network for industrial multivariate time-series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Digital twin system with physics-tuned iTransformer for high-fidelity motion prediction of deep-sea mining vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fusing spiking neural P systems with graph convolutional networks for multivariate time series anomaly detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DF-CANet: A dense feature stacking approach based on 3D coordination attention for tooth segmentation in CBCT images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Disentangling copy typing and natural writing behaviors using keystroke logs and deep learning models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A new paradigm for multi-source sentiment analysis and adaptation with multiple pretrained language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "STLIB: An information bottleneck-guided LLM-spatiotemporal framework for traffic forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Sequential graph–driven spatiotemporal prediction and transfer learning of settlement in pile-adjustable wind turbine foundations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "KCAM-SENet: Speech enhancement network with KAN-based channel attention module"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A lightweight 3D Vision Transformer for flow field predictions of the stern rudder in a hull-rudder system"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive hybrid modeling for chemical processes with attention mechanism"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explorative Grasping Referred Objects With Weak Stiffness via Vision-Language-Tactile Fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Data-Driven Closed-Loop System Fault Diagnosis Using Feedback-Invariant Dynamic Residual Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic Maclaurin-Series-Based Vision-Language-Action Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DDSE: Efficient Neural Codec Language Models for speech enhancement with disentangled representations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Collaborative Observation Imputation and Trajectory Prediction via Consistency Evaluation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Efficient Edge-Cloud Collaboration System With Foundational Models for Open-Set IoT Applications"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cog-RMH: Cognition-Based Recalling Multiview History for Event Forecasting in Temporal Knowledge Graph"
+    },
+    {
+      "arxiv_id": null,
+      "title": "nnScaler-M: Constraint-Guided and Placement-Aware Parallelization Plan Generation for Deep Learning Training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Sensor-Prompt Tuning: Aligning Time Series Foundational Models With Motion Sensors for Few-Shot Activity Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Ensemble Graph Neural Networks With Individual Decision Feedback for Graph Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid Computing of Decentralized Applications in Edge Web 3.0: A Scheduling Strategy via Decision Transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Exploiting Label-Aware Knowledge From Heterogeneous Clients for Hierarchical Federated Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DynEformer: A Unified Framework for Robust Workload Prediction Under Dynamic Environment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Modeling Deep Fusion of Intra- and Inter-Modal Incongruity for Multimodal Sarcasm Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AceNet: Attention-Guided Context Enhancement for Imbalanced Action Recognition via RF Signals"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Federated Incomplete Multi-View Clustering With Cross-View Relationship Imputation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SAFA: Sequential Recommendation With Adaptive Sparse Attention and Frequency-Aware Encoding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A generative AI approach to ocean wind and wave modeling for extreme ship roll"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-scale token fusion with Mamba adapters for efficient 3D industrial defect detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RatioWaveNet: A learnable wavelet-based framework for robust and interpretable electroencephalogram motor imagery classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AttGRU-based intra-site and cross-site building energy consumption prediction using meteorological features with uncertainty-aware CO2 scenario analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From SMURF to HI-SMURF: Scalable Multivariate Nonlinear Function Approximation via Compact Stochastic Architectures"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ChainOpt: Heterogeneity-Aware Blockchain Performance Optimization for Dynamic Workloads"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TransformKV: Optimizing Multi-Turn Conversational Services in LLMs via KV Cache Transformation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DST-Planner: Diffusion-Augmented Sequential Topological Planning for Robotic Exploration in Complex Environments"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine learning for ship-motion-based sea-state estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multi-scale and horizon-adaptive Transformer for operational metocean forecasting in Korean coastal buoy networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MMHAR-28: Human Action Recognition Across RGB, Thermal, Depth, and Event Modalities"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explainable Pruning-Focused Attention Network for High-Fidelity Livestock Facial Detection and Identification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Structure-Aware Diffusion Policy for Bimanual Cooperative Manipulation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine Vision-Oriented Image Quality Evaluation for Face Super-Resolution"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing Crowd Counting With Synthetic Retrieval"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FlowPed: Proprioceptive State Fusion and Efficient Diffusion for Pedestrian Trajectory Prediction in Manufacturing Plants"
+    },
+    {
+      "arxiv_id": null,
+      "title": "UniSparTa: A Unified Sparse Tensor Program Tuning Framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HAOT: Heterogeneous Hardware-Aware Tensor Computation Optimization Framework via Transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RollPlace: Improving Macro Placement via Monte Carlo Rollout Search"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Neuro-Physics Hybrid State Estimation of Distribution System With Smart Meter Voltage Measurements"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Waterlogging Defense Strategy With Cross-Domain Data-Driven Risk Prediction for Coupled Power and Drainage Systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CarbonGPT: Meta Causal Graph-Enhanced Large Language Models for Carbon Emission Forecasting in Large-Scale Power Distribution Networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine Learning-Based Long-Term Forecasting of Load Composition Considering Exogenous Variables"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ANTDCC: A Lightweight and Generalizable Framework for Long-Term Photovoltaic Power Forecasting via Adaptive Normalization and Dynamic Channel Clustering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dual-domain latent diffusion framework with multi-modal conditioning for controllable porous media reconstruction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "GCVA: A Multiview Fusion Mechanism for Heterogeneous Data Representations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "False Alarm Rate-Controllable Maritime Target Detection via Cross-Attention Transformer Network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LogRMC: Robust Log Anomaly Detection in IoT Systems via Multifield Fusion, Contrastive Learning, and Pseudo-Label Refinement"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MLO TTLM Optimization for IEEE 802.11bn IoT Networks Through Federated Learning Supported Transformer-Based Correlation Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TmsNet: An Efficient Transformer Network Based on Multiscale Shift-Invariance Mechanism for Side-Channel Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic Local Range--Doppler Map and Controlled Feature Fusion for Continuous Human Activity Recognition on Variable Multinode Radars"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Temporal Conditional Score Network for Multivariate Time Series Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Optimal-Feature-Driven Adversarial Adaptive Cascade Forest Method for Automatic Modulation Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Rep-MMB: Bridging Mobile CNN and Transformer for Sensor-Based Human Activity Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid Data-Driven and Model-Based Method for Nonlinear Maneuvering Target Tracking in Autonomous Vehicles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MTNet: A Mixed Transformer Network for High-Quality 3-D Object Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MCLFormer: a text-driven deep learning framework for predicting CO2 adsorption in metal-organic frameworks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PSO-Transformer for mapping soil heavy metals using UAV hyperspectral data with spectral calibration and indices"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning in harmony: contrastive, sequential and meta-learning for robust multi-stakeholder recommendation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FFKD-Net: lightweight small-object detection based on feature fusion and knowledge distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SSM Meets Video Diffusion Models: Efficient Long-Term Video Generation with Structured State Spaces"
+    },
+    {
+      "arxiv_id": null,
+      "title": "M3GF-Net: a multimodal multi-task framework for integrating geological semantics and structural attributes in borehole data interpretation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "KT-STFormer: Parallel Kinematic-Trajectory and Spatial-Temporal Fusion Transformer for 3D Human Pose Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-modal feature transfer network for anisotropic 3D MRI image super-resolution"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MWHAN: Mixed-weighted multi-head attention network for context-aware attribute-based session recommendation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing image colorization with semantic-guided diffusion and lightweight fine-tuning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A brand-neutral logo detection and redaction with transformer detectors"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aspect-centric vulnerability understanding via semantics-aware commit representation learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Computational reconstruction of hierarchical cis-regulatory networks reveals synergistic transcription control and disease-associated rewiring"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multiscale feature optimization for accurate small object detection in remote sensing imagery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Lexical and semantic representations for similar bug report detection: A TF-IDF and frozen T5 comparative study"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HASTE: A Framework for Training-Free, Dynamic, and Steerable Compression of Pre-trained Convolutional Neural Networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid swin transformer framework for accurate and efficient single image deraining"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prot-ΔΔG: Prediction of protein–protein binding affinity changes upon mutations with pre-training strategies"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Neural Processes with Normalizing Flows for Wheat Height Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A reliable and explainable deep learning framework for clinical-grade endocrine disorder risk prediction and decision support"
+    },
+    {
+      "arxiv_id": null,
+      "title": "WindPower-SAFusion: A Sparse-Attention and Multi-Scale Fusion Model for Wind-Power Forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Diffusion-based novel view synthesis for X-ray imaging."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel TimeDistill-Ensemble model for short-term wind power forecasting considering meteorological coupling effect"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transformer-based advertisement image layout generation and object fidelity optimization."
+    },
+    {
+      "arxiv_id": null,
+      "title": "GeoGuard-PTI: a geo-temporal predictive threat intelligence framework with spatiotemporal attack forecasting and closed-loop adaptive defense"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Toward Fully Automated Prompting: An LLM-Powered Genetic Algorithm for Prompt Generation, Optimization, and Self-Evaluation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamics of Sincerity Echo: A New Paradigm in Large Language Model Alignment Based on Cognitive Proportionality"
+    },
+    {
+      "arxiv_id": "2606.26718",
+      "title": "A Latent ODE Approach to Spatiotemporal Modeling of Cine Cardiac MRI"
+    },
+    {
+      "arxiv_id": "2606.26880",
+      "title": "Heterogeneous Neural Predictivity from Language Models During Naturalistic Comprehension"
+    },
+    {
+      "arxiv_id": "2606.27282",
+      "title": "How Good Can Linear Models Be for Time-Series Forecasting?"
+    },
+    {
+      "arxiv_id": "2606.27088",
+      "title": "SubdivAR: Autoregressive Next-Scale Prediction for Neural Mesh Subdivision"
+    },
+    {
+      "arxiv_id": "2606.26490",
+      "title": "An Empirical Study of LLM-Generated Specifications for VeriFast"
+    },
+    {
+      "arxiv_id": "2606.26875",
+      "title": "Information-Aware KV Cache Compression for Long Reasoning"
+    },
+    {
+      "arxiv_id": "2606.26760",
+      "title": "An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction"
+    },
+    {
+      "arxiv_id": "2606.26588",
+      "title": "Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure"
+    },
+    {
+      "arxiv_id": "2606.26515",
+      "title": "Forget, Anticipate and Adapt: Test Time Training for Long Videos"
+    },
+    {
+      "arxiv_id": "2606.27229",
+      "title": "CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention"
+    },
+    {
+      "arxiv_id": "2606.26560",
+      "title": "Erase-then-Delta Attention: Decoupling Erase and Write Addresses in Delta-Rule Linear Attention"
+    },
+    {
+      "arxiv_id": "2606.25324",
+      "title": "Efficient Remote Sensing Instance Segmentation With Linear-Time State-Space-Distilled Visual Foundation Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine learning based interaction force prediction in multi-disk continuum robot arms for human-robot collaboration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AI-guided multi-objective optimization identifies a Jelleine I-derived gram-negative antimicrobial peptide lead."
+    },
+    {
+      "arxiv_id": null,
+      "title": "NetFormer: A Dual-Stream Interpretable Transformer Autoencoder for Unsupervised Network Intrusion Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vocal-Eyes: AI-Powered Smart Glasses for the Blind Using Transformer-Based Architecture and Scene Graph Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Advancing enterprise credit rating through multi-head self-attention and transfer learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reconstructing two-decade daily high-resolution seamless global land\n X\n CO\n 2\n records using a hybrid Transformer–BiLSTM model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Text-augmented house valuation: using embedding vectors and SHAP values"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A culturally aware NLP approach for fake-news detection in Nigerian online media using BERT"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Comparative Study of Large Language Models for Industrial Cyber-Physical Security"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LLM-Augmented Ensemble Reasoning for Adversarial-Aware Power Quality Monitoring in Smart Grids"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Distributed Deep Learning and Intelligent Soil–Water Analytics in Precision Agriculture: A Comprehensive Review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Quantum-Inspired Semantic Encoding and Temporal Transformer Fusion (QuST-TF) for Misinformation Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Self-Supervised Temporal Transformer Learning for Behavioral Segmentation in Digital Banking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi Scale Vision Transformer for Enhancing EfficientnetB3 based Leaf Disease Classification"
+    },
+    {
+      "arxiv_id": "2606.25349",
+      "title": "General Techniques for Reducing Key-Switching Overhead in Privacy-Preserving Two-Party Transformer Inference"
+    },
+    {
+      "arxiv_id": "2606.25610",
+      "title": "The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models"
+    },
+    {
+      "arxiv_id": "2606.25647",
+      "title": "Retrieval-Grounded Multilingual LLM Assistance for Island Smallholder Farmers"
+    },
+    {
+      "arxiv_id": "2606.26257",
+      "title": "Dataset Usage Inference without Shadow Models or Held-out Data"
+    },
+    {
+      "arxiv_id": "2606.25272",
+      "title": "Semantic Code Clone Detection: Are We There Yet?"
+    },
+    {
+      "arxiv_id": "2606.25279",
+      "title": "MRI2Rep: Autoregressive Structured Report Generation for 3D Liver MRI"
+    },
+    {
+      "arxiv_id": "2606.26454",
+      "title": "Data-driven Machine Learning Cannot Reach Symbolic-level Logical Reasoning -- The Limit of the Scaling Law"
+    },
+    {
+      "arxiv_id": "2606.25318",
+      "title": "REViT: Roto-reflection Equivariant Convolutional Vision Transformer"
+    },
+    {
+      "arxiv_id": "2606.26383",
+      "title": "SOLAR: AI-Powered Speed-of-Light Performance Analysis"
+    },
+    {
+      "arxiv_id": "2606.26021",
+      "title": "Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries"
+    },
+    {
+      "arxiv_id": "2606.24102",
+      "title": "PORTER: Language-Grounded Event Representations for Portable Structured EHR Foundation Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Data protection in the era of large language models: challenges and opportunities"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Performance variation and implementation barriers of large language models in clinical healthcare: a systematic review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Improved complex words simplification in non-annotated text using a deep-learning-based lexical complexity prediction model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Helixnet: intertwined transformers for weakly supervised crack segmentation via pixel-affinity fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OmniCell: Unified Foundation Modelling of Single-Cell and Spatial Transcriptomics for Cellular and Molecular Insights"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep Transfer Learning for Dormancy and Outbreaking State Classification in Metastatic Breast Tumor Cells: A Benchmark of Modern Deep Learning Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A fully inductive inference protocol for population GNNs in single-subject brain disorder diagnosis."
+    },
+    {
+      "arxiv_id": null,
+      "title": "TCGformer: a temporal causal graph enhanced transformer model for multivariate financial time series forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aircraft takeoff speed prediction with deep learning: a comparative study of MLP, 1D-CNN, LSTM and attention-based architectures on Boeing 737-300 data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision Transformer with Spatial 2D Multi-Channel Tokens"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LARGE LANGUAGE MODELS AND SMALL LANGUAGE MODELS: ARCHITECTURE, EFFICIENCY, AND EMERGING APPLICATIONS"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Conceptual Framework for Early Detection of Depression in Menopausal Women Using Artificial Intelligence-Based Facial Expression Analysis"
+    },
+    {
+      "arxiv_id": "2606.24086",
+      "title": "A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic"
+    },
+    {
+      "arxiv_id": "2606.24331",
+      "title": "Transformer-Based Language Models Across Domain Verticals: Architectures, Applications and Critical Assessment"
+    },
+    {
+      "arxiv_id": "2606.25136",
+      "title": "Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control"
+    },
+    {
+      "arxiv_id": "2606.24604",
+      "title": "Uncertainty-Aware Longitudinal Forecasting of Alzheimer's Disease Progression Using Deep Learning"
+    },
+    {
+      "arxiv_id": "2606.24667",
+      "title": "DREAM: Dense Retrieval Embeddings via Autoregressive Modeling"
+    },
+    {
+      "arxiv_id": "2606.24175",
+      "title": "Tri-Efficient Transfer Learning for Point Cloud Videos"
+    },
+    {
+      "arxiv_id": "2606.24752",
+      "title": "Can Scale Save Us From Plasticity Loss in Large Language Models?"
+    },
+    {
+      "arxiv_id": "2606.24790",
+      "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs"
+    },
+    {
+      "arxiv_id": "2606.24476",
+      "title": "WiWorld-RealData: A Real-World Multi-Modal Dataset for 6G Wireless World Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Small Language Models: opportunities and obstacles"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine Translation in Natural Language Processing (1948–2025): a Systematic Survey of Methods, Benchmarks, Neural Machine Translation Advances, Challenges and Future Directions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BTITD: an insider threat detection method based on behavior-timestamp dual-stream network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Redundancy-adaptive dual memory network for knowledge-enhanced ultrasound report generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A hybrid CNN–BiLSTM–transformer fusion model for emotion recognition from partial and disordered speech"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Frontal cortex organization supporting audiovisual processing during naturalistic viewing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reference-guided immune recovery matching prioritizes traditional Chinese medicine ingredients"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Writing creativity, cohesion, and formal linguistic competence in LLMs: A comparative evaluation based on English and Chinese continuation writing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Few-Shot Classification of C. elegans Developmental Stages via Explainable Hierarchical Hyperbolic Graph Embeddings"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EventHorizon: A Foundation Model for Clinical Flow Cytometry"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Detecting “large language models fingerprint” for Japanese texts generated by six LLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-Source Meteorological–Topographic Modeling of Monthly Power Generation for Mountain Photovoltaic Stations Using Gradient-Boosted Trees"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Causal-Guided Ultra-Long-Term Time Series Forecasting Via Anticipated Covariates."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Fine-grained crop classification from satellite image time series by boosting rare-class representations and enforcing global semantic consistency"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel bilateral cross-attention network for multi-label fundus disease diagnosis."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Query-guided learning for efficient and interpretable multi-class brain tumor classification in MRI"
+    },
+    {
+      "arxiv_id": null,
+      "title": "WMN: A Multi-Scale Nested Mixture-of-Experts-Based Method for High-Resolution Remote-Sensing Solid Waste Site Extraction and Monitoring"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Sequence-Level DDoS Detection Using Transformer Encoders on Aggregated Network Traffic"
+    },
+    {
+      "arxiv_id": "2606.22982",
+      "title": "Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation"
+    },
+    {
+      "arxiv_id": "2606.23058",
+      "title": "Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction"
+    },
+    {
+      "arxiv_id": "2606.23425",
+      "title": "Interpretable Kolmogorov-Arnold Network with Feature-Isolated Temporal Attention Mechanism for Electricity Load Forecasting"
+    },
+    {
+      "arxiv_id": "2606.23588",
+      "title": "A Generative Model for Closed-Loop Microsimulation of Signalized Intersections"
+    },
+    {
+      "arxiv_id": "2606.23285",
+      "title": "On the Effect of Segmentation Width and Cluster Size on Speech Resynthesis and Continuation in Generative Spoken Language Models"
+    },
+    {
+      "arxiv_id": "2606.23593",
+      "title": "Real-Time Multimodal Activity-Aware Error Detection in Robot-Assisted Surgery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing small object detection: a transformer-based middleware approach"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ResGNN: a residual GNN approach for leveraging general user preferences in session-based recommender systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads"
+    },
+    {
+      "arxiv_id": null,
+      "title": "PLCSeg: sar-guided progressive learning for semantic segmentation of cloudy remote sensing images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Method for Extracting Sedimentary Outcrops from UAV Oblique Photogrammetry Point Clouds."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Analysis of the water level regime of the Taz River for optimization of waterway operation"
+    },
+    {
+      "arxiv_id": "2606.22307",
+      "title": "Enhancing Protein Representation Learning via Manifold Restore Mixing"
+    },
+    {
+      "arxiv_id": "2606.22678",
+      "title": "RigorBench: Benchmarking Engineering Process Discipline in Autonomous AI Coding Agents"
+    },
+    {
+      "arxiv_id": "2606.22399",
+      "title": "ATCCaps: A Call-Sign-Aware Speech Dataset for Air Traffic Control Recognition"
+    },
+    {
+      "arxiv_id": "2606.22296",
+      "title": "SCENIC: Semantic-Conditioned Edge-Aware Neural Framework for Structured IoT Command Generation"
+    },
+    {
+      "arxiv_id": "2606.22462",
+      "title": "Adaptive Recurrent Message Passing for Test Time Computing on Graphs"
+    },
+    {
+      "arxiv_id": "2606.22164",
+      "title": "Drowning in Routine: Signal Dilution in Multi-Turn Agent Training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Co-MFGCN: multi-feature channel graph convolutional networks based on co-attention for aspect-level sentiment classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Classifying mental stress from eye tracking data: deep learning approaches for out-of-the-lab conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Road networks facilitate invasive dominance by squeezing native mesopredators into niche margins."
+    },
+    {
+      "arxiv_id": "2606.23854",
+      "title": "Astrobiology in the Time of Artificial Intelligence."
+    },
+    {
+      "arxiv_id": null,
+      "title": "RNAStabFormer: Region-Aware Multi-Task Hybrid Learning for RNA Stability Prediction from Pulse-Chase Transcriptomics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Antibody–Antigen Affinity Prediction with Chain-Aware Protein Language Modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Integrated AI Intelligence Systems: A Review of Retrieval, Language Processing, and Multimodal Technologies"
+    },
+    {
+      "arxiv_id": "2606.22248",
+      "title": "SamatNext v0.2-B: An Exploratory Study of RMS-Normalized Hybrid Decoders for Curriculum Retention in Small Code Models"
+    },
+    {
+      "arxiv_id": "2606.22261",
+      "title": "Learning a Normal World Model for Few-Shot Boundary-Calibrated Abnormality Detection"
+    },
+    {
+      "arxiv_id": "2606.21956",
+      "title": "Denoising-Enhanced Coarse-to-Fine Infrared Small Target Detection with Attention Prior-Guided Knowledge Distillation"
+    },
+    {
+      "arxiv_id": "2606.22258",
+      "title": "From Handcrafted Features to Functional Edge Learning: Evolution of EEG Seizure Detection Frameworks"
+    },
+    {
+      "arxiv_id": "2606.21885",
+      "title": "Cohort-Anchored Foundation Models for Electronic Health Records: From Risk Scores to Auditable Peer Cohorts"
+    },
+    {
+      "arxiv_id": "2606.22072",
+      "title": "A Controlled Study of CLIP-Based Body-Scene Fusion for Emotion Recognition in Context"
+    },
+    {
+      "arxiv_id": "2606.21356",
+      "title": "SOHET: Sequence Of Heterogeneous Events Transformer with Self-Supervised Pre-Training"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Recent progress in atomic-scale controlled plasma processing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Assessing political bias in AI systems: a framework for disentangling viewpoint preferences from epistemic integrity"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Comparative Assessment of Transformer and Conventional Deep Learning Models for Dam Inflow Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HyenaSET: Hyena Sound Event Transcripts and benchmark animal2vec performance for parsing animal communication"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Assessing and Improving Prompting Large Language Models for Software Vulnerability Analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Knowledge distillation enables prediction of ring-class polycyclic aromatic hydrocarbons concentration using underwater drone."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Online Sepsis Prediction Using Vital Signs and Multiscale Temporal-Aware Contrastive Learning: Model Development and Validation Study"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Combining machine learning and physiological network models for sepsis prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Privacy-Preserving Federated Deep Learning for Robust Anomaly Detection in Distributed Security Sensing Systems."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A study on the GRU-LSTM hybrid model with dual attention mechanism for reservoir water level forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Full-spectrum EEM end-member unmixing with statistical validation: A deep learning framework for organic pollution source apportionment in complex watersheds."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing Wind Field Prediction and Reconstruction around Windbreak Walls along High-Speed Railway by Advanced Neural Network Architectures: Accuracy and Stability Assessment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic Memory-Enhanced Recurrent Neural Networks with Temporal Attention for Robust Long-Range Connectivity Inference."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Neuromorphic-inspired multi-view global-local fusion for IR-UWB radar dynamic gesture recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Trustworthy Multimodal Depression Screening via Cross-Attention Fusion and Calibrated Uncertainty"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Secure CORS-Enabled Framework for Multi-Disease Prediction via STT and Hierarchical Language Modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Blockchain Based Firewall System for The Banks: A Hybrid AI-Driven Architecture for Immutable Logging and Adaptive Defense"
+    },
+    {
+      "arxiv_id": "2606.21564",
+      "title": "LIG: Layer-wise Integrated Gradients for Within-Layer Flow Analysis in Transformers"
+    },
+    {
+      "arxiv_id": "2606.21066",
+      "title": "Demographic Metadata as Construct-Irrelevant Noise in DistilBERT-Based Automated Essay Scoring"
+    },
+    {
+      "arxiv_id": "2606.21257",
+      "title": "An Empirical Study of OpenPangu Quantization on Ascend NPUs"
+    },
+    {
+      "arxiv_id": "2606.21700",
+      "title": "VT-DUDA: Visual Token Conditioning for Diffusion-guided Unsupervised Domain Adaptation"
+    },
+    {
+      "arxiv_id": "2606.21372",
+      "title": "NAC: Neural Action Codec for Vision-Language-Action Models"
+    },
+    {
+      "arxiv_id": "2606.21300",
+      "title": "SCOPE: Scale-Consistent One-Pass Estimation of 3D Geometry"
+    },
+    {
+      "arxiv_id": "2606.21135",
+      "title": "Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion"
+    },
+    {
+      "arxiv_id": "2606.21368",
+      "title": "Graph-of-Differences: Anatomy-Structured Difference Alignment for Medical Image Re-Identification"
+    },
+    {
+      "arxiv_id": "2606.21445",
+      "title": "AutoRAS: Learning Robust Agentic Systems with Primitive Representations"
+    },
+    {
+      "arxiv_id": "2606.21234",
+      "title": "Context-Aware Autoregressive Diffusion for Gloss-Wise Sign Language Production"
+    },
+    {
+      "arxiv_id": "2606.19680",
+      "title": "ImProNCDE: Impulse-Corrected Neural Controlled Differential Equations with Prototype Learning for Longitudinal Prognosis Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "How to use Wikibase for Mixed-Methods Research"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Macie a multi-agent causal intelligence explainer for collective behavior understanding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "GeoStructCap: zero-shot remote sensing image captioning via structured hierarchical visual perception simulation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Centralized Review of Alzheimer's Disease and Related Dementias Biomedical Repositories and Computational Methods."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Legal document summarization: a short review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "External Knowledge Integration in Large Language Models: A Survey on Methods, Challenges, and Future Directions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Focus shifts in contextual and lexical cue interactions in GPT models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Fast Multi-Scale Textile Pattern Generation Method Combining Layered Loss and Convolutional Attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Hybrid Model for Stock Index Forecasting Integrating Adaptive Frequency-Domain Decomposition and Enhanced Transformer Encoder"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explainable machine learning-based prediction of shelf-life and anthocyanin accumulation in table grapes."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Target Tracking Method Based on Frequency and Spatial Information Perception in UAV Vision"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Genome–phenome association prediction using weighted deep matrix factorization with a multisource graph attention network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Full-Spectrum Inverse Design of Compact Ring-Curve Fractal-Maze Acoustic Metamaterials via an LSTM–PPS-Net Tandem Framework"
+    },
+    {
+      "arxiv_id": "2606.20137",
+      "title": "PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors"
+    },
+    {
+      "arxiv_id": "2606.20532",
+      "title": "How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech"
+    },
+    {
+      "arxiv_id": "2606.20518",
+      "title": "FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS"
+    },
+    {
+      "arxiv_id": "2606.20880",
+      "title": "Adversarial observations in probabilistic State-Space Models for robust Reinforcement Learning"
+    },
+    {
+      "arxiv_id": "2606.19867",
+      "title": "PSCT-Net: Geometry-Aware Pediatric Skull CT Reconstruction via Differentiable Back-Projection and Attention-Guided Refinement"
+    },
+    {
+      "arxiv_id": "2606.19984",
+      "title": "Kolmogorov-Arnold Reservoir Computing"
+    },
+    {
+      "arxiv_id": "2606.20543",
+      "title": "SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation"
+    },
+    {
+      "arxiv_id": "2606.19584",
+      "title": "Language-Instructed Vision Embeddings for Controllable and Generalizable Perception"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A walk-forward multi-model approach to stock trading: leveraging sentiment, trend indicators, and transformer-based deep learning for next-day price forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vigdepth: self-supervised monocular depth estimation based on vision GNN and local graph reasoning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "On the effectiveness of MoE-enhanced transformer for accurate and generalizable mask-based semantic segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhancing cross-domain few-annotation object detection via memory storage-to-adaptation mechanism"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transforming global water cycle observations via synergistic AI and remote sensing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The Empirical Bayes Variational Autoencoder—A Neural ODE Approach for Population Modeling in Pharmacology"
+    },
+    {
+      "arxiv_id": null,
+      "title": "3DMNet: A 3D Multi-Attention Network for Pulmonary Nodule Detection in 3D CT Scans"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Motion Analysis Technologies for ACL Injury Prevention: From Laboratory Assessment to Field-Based Clinical Screening."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A systematic review and unified multi-perspective conceptual synthesis of contemporary machine learning paradigms"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-modal knowledge transfer for cost-effective mango disease detection using synthetic thermal imaging"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning Rare Events: Deep Learning Approaches to Extreme Price Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid deep learning-based rapid broad-Spectrum antimicrobial susceptibility prediction from whole-genome assemblies."
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Improved Weighted Average Ensemble Method for Textual Sentiment Analysis with Transformer and FNet"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Intelligent three-dimensional imaging in pathology: Applications and developments."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Multimodal Sensor-Based Self-Supervised Learning Framework for Low-Noise System State Prediction and Anomaly Detection."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semi-Supervised Degradation-Aware Learning for All-in-One Weather-Degraded Image Restoration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Assessing Coral Reef Stress in Indonesia by Combining SST and Ocean Color Data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Écrire des textes cliniques simplifiés pour les familles aux urgences pédiatriques avec l’IA générative: tensions entre auctorialité et charge de travail"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Optical metasurfaces for general vision processing on the edge"
+    },
+    {
+      "arxiv_id": null,
+      "title": "HWDiT-Net: hybrid wavelet-dilated transformer network for UAV power-line segmentation"
+    },
+    {
+      "arxiv_id": "2606.18587",
+      "title": "Dual Dimensionality for Local and Global Attention"
+    },
+    {
+      "arxiv_id": "2606.19475",
+      "title": "Diffusion Language Models: An Experimental Analysis"
+    },
+    {
+      "arxiv_id": "2606.19277",
+      "title": "A Unified Framework for Efficient Remote Sensing Visual Question Answering: Adapting Dual, Hybrid, and Encoder-Decoder Architectures"
+    },
+    {
+      "arxiv_id": "2606.19025",
+      "title": "FoMoE: Breaking the Full-Replica Barrier with a Federation of MoEs"
+    },
+    {
+      "arxiv_id": "2606.18857",
+      "title": "Investigating Inductive Biases for Machine Learning Emulation of Sudden Stratospheric Warmings in Idealised Isca Simulations"
+    },
+    {
+      "arxiv_id": "2606.19398",
+      "title": "S-JEPA : Soft Clustering Anchors for Self-Supervised Speech Representation Learning"
+    },
+    {
+      "arxiv_id": "2606.18698",
+      "title": "Leveraging Energy Features for Surface Classification with Deep Learning: A Comparative Analysis Across Three Independent Datasets"
+    },
+    {
+      "arxiv_id": "2606.18812",
+      "title": "Reinforcement Learning Foundation Models Should Already Be A Thing"
+    },
+    {
+      "arxiv_id": "2606.19026",
+      "title": "A Hybrid LSTM--Vision Transformer Architecture for Predicting HRRR Forecast Errors"
+    },
+    {
+      "arxiv_id": "2606.18673",
+      "title": "Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications"
+    },
+    {
+      "arxiv_id": "2606.19195",
+      "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance"
+    },
+    {
+      "arxiv_id": "2606.19151",
+      "title": "The Market in the Model: Latent Diffusion as Neural Economy"
+    },
+    {
+      "arxiv_id": "2606.19268",
+      "title": "Patnaik-Pearson intrinsic dimension for internal representations of neural networks"
+    },
+    {
+      "arxiv_id": "2606.18702",
+      "title": "UniTemp: Unlocking Video Generation in Any Temporal Order via Bidirectional Distillation"
+    },
+    {
+      "arxiv_id": "2606.18723",
+      "title": "Clinically Aligned Geometry Constraints for Robust IVUS Vessel Boundary Segmentation"
+    },
+    {
+      "arxiv_id": "2606.19150",
+      "title": "Complementary Attention Head Pruning for Efficient Transformers"
+    },
+    {
+      "arxiv_id": "2606.17978",
+      "title": "MoCo-AIS: A Contrastive Learning Framework for Similarity Computation of Vessel Trajectories"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multiscale adaptive finetuning enhances few shot facial expression recognition"
+    },
+    {
+      "arxiv_id": "2606.17668",
+      "title": "ASTEROID: A Spatiotemporal Information Transformer for Forecasting Multi-Step Time Series of Molecular Dynamics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Scale-adaptive multi-predator network for camouflaged object detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Deep reinforcement learning with robust spatial–temporal representation for improving GNSS positioning correction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Application and validation of a Fredformer framework for multi-indicator water quality forecasting in the Weihe River Basin"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Generalized Image Retrieval with Off-The-Shelf Quantizer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A robust ABSA pipeline integrating large language models and BiLSTM networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Robust integration of weakly anchored spatial multi-omics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development of Early Prediction Model of a CRUD-Induced Power Shift by Applying Autoencoder ML Architecture"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Not all linguistic variation is equally predictable"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-level interaction and multi-granularity contrastive learning for multi-view clustering"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SARS: An Explainable Student Academic Performance Risk Assessment and Advisory System"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Optimized BiLSTM-Based Phishing Detection System Using Attention Mechanism for Large-Scale Data Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Usage of Artificial Intelligence Large Language Models (LLMs) in the Chemical Industry: A Comprehensive Review"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bridging the Gap Between Drug-Target Affinity and Cellular Response: The Role of Attention Mechanisms in Multimodal CADD"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A FRAMEWORK FOR DESIGNING A SUSTAINABLE SCF FINTECH ECOSYSTEM: THE ROLE OF SIX ECOSYSTEM PILLARS"
+    },
+    {
+      "arxiv_id": "2606.17692",
+      "title": "Delta-Based Target Reformulation for Short-Term Electricity Load Forecasting Using LSTM and Transformer Models"
+    },
+    {
+      "arxiv_id": "2606.17996",
+      "title": "Multiple cyclicity and Wavelet Decomposition with Channel Correlation for Long-term Time Series Forecasting"
+    },
+    {
+      "arxiv_id": "2606.17522",
+      "title": "An expressivity analysis of hierarchical modelling in deep transformers via bounded-depth grammars"
+    },
+    {
+      "arxiv_id": "2606.17513",
+      "title": "Geometry-Aware Post-Hoc Uncertainty Quantification in Operator Learning"
+    },
+    {
+      "arxiv_id": "2606.18164",
+      "title": "Learning Dynamics of Chain-of-Thought State Tracking in a Solvable Transformer Model"
+    },
+    {
+      "arxiv_id": "2606.18489",
+      "title": "GHOST-CAT: An Efficient and Practical Network for Mesh Generation from 3D Echocardiography"
+    },
+    {
+      "arxiv_id": "2606.17737",
+      "title": "Deep CSI Feedback for FDD Massive MIMO Systems: A Curvelet Learning Approach"
+    },
+    {
+      "arxiv_id": "2606.17631",
+      "title": "Better Queries, Cheaper Attention: Adapting Transformers for Efficient Sparse Reconstruction"
+    },
+    {
+      "arxiv_id": "2606.17713",
+      "title": "Heterogeneous SAR-optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset"
+    },
+    {
+      "arxiv_id": "2606.18042",
+      "title": "Latency Prediction for LLM Inference on NPU Systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Positional Encodings for Graph Neural Networks in Intelligent Water Infrastructure"
+    },
+    {
+      "arxiv_id": "2606.16178",
+      "title": "Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks"
+    },
+    {
+      "arxiv_id": "2606.16429",
+      "title": "Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Vision Transformer for Active Compound Function Classification Based on 2D Molecular Structures"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explainable Temporal Attention for Anomaly Detection in Medical Time-Series Data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "BERTopic Modeling Analysis of Privacy Protection Trends in New Trade Rules for the Mobility Industry"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Handshake: Partner-Specific Protein-Protein Binding Site Prediction at Scale Using ProstT5 and Cross-Chain Attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Transformer-Based Multimodal Fusion for Complex Wall Parameter Distribution Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Step-Aware Cross-View Transformer for Unsupervised Semiconductor Manufacturing Equipment Anomaly Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DPL-DETR: An Insulator Defect Monitoring Method via Dynamic Adaptive Perception and Local–Global Attention Enhanced Fusion Network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RISC-V Vectorized Softmax Acceleration for IoT Edge Inference Systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Vulnerability-Type Correlation-Aware Smart Contract Multivulnerability Detection Model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Split-Federated BERT With Adversarial Training for Edge Intrusion Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Hybrid Mamba–Transformer Approach With Time–Frequency Fusion Attention for Fall Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Masked Generative Models for Real-Time Network Traffic Forecasting"
+    },
+    {
+      "arxiv_id": null,
+      "title": "EKAN: a situated cognition framework integrating dynamic knowledge and attention for fake news countermeasures in crisis information systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Advancing text-based personality detection: a comparative study of machine learning models on behavioral interview data and stream of consciousness essays"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Context is key for cybersecurity: leveraging external knowledge for process model explanation via LLMs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Comparative evaluation of machine learning methods for protecting LLMs from prompt injection attacks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MambaAir: a multi-scale hybrid mamba-attention model for air quality prediction"
+    },
+    {
+      "arxiv_id": "2606.16400",
+      "title": "SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning"
+    },
+    {
+      "arxiv_id": "2606.16899",
+      "title": "Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization"
+    },
+    {
+      "arxiv_id": "2606.16243",
+      "title": "LiFT: Local Search via Linear Programming for Overfitting-Controlled Transformers"
+    },
+    {
+      "arxiv_id": "2606.16100",
+      "title": "Your\"Pro\"LLM Subscription May Actually Be\"Free\": Exposing Fingerprint Spoofing Risks in LLM Inference Services"
+    },
+    {
+      "arxiv_id": "2606.17034",
+      "title": "KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing"
+    },
+    {
+      "arxiv_id": "2606.16135",
+      "title": "SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing"
+    },
+    {
+      "arxiv_id": "2606.16950",
+      "title": "Latent space mapping of interpretable structural coordinates from stochastic single-molecule signals"
+    },
+    {
+      "arxiv_id": "2606.16815",
+      "title": "A Perception vs. Distortion Perspective on Score-Based Generative Channel Estimation"
+    },
+    {
+      "arxiv_id": "2606.16866",
+      "title": "Redirecting the Flow: Image Customization through Attention Distribution Shift"
+    },
+    {
+      "arxiv_id": "2606.16638",
+      "title": "MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods"
+    },
+    {
+      "arxiv_id": "2606.16961",
+      "title": "Beyond the Smile: A Hybrid Convolutional VAE for Crypto Volatility Surfaces"
+    },
+    {
+      "arxiv_id": "2606.16849",
+      "title": "Evolution&Foundation: AI Shares Creative Control"
+    },
+    {
+      "arxiv_id": "2606.16628",
+      "title": "XL-ChannelDiff: An Efficient Diffusion-Based Multi-Domain Near-Field Channel Extrapolation Framework for XL-MIMO Systems"
+    },
+    {
+      "arxiv_id": "2606.16838",
+      "title": "OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation"
+    },
+    {
+      "arxiv_id": "2606.16352",
+      "title": "Communication-Efficient Verifiable Attention for LLM Inference"
+    },
+    {
+      "arxiv_id": "2606.16768",
+      "title": "Taming Curvature: Architecture Warm-Up for Stable Transformer Training"
+    },
+    {
+      "arxiv_id": "2606.16694",
+      "title": "Adaptive inference and function vectors in deep transformers"
+    },
+    {
+      "arxiv_id": "2606.16170",
+      "title": "Synergizing Global Pattern Learning and Time Order Characterization in Mobile Channel Prediction: An RWKV-Based Approach"
+    },
+    {
+      "arxiv_id": "2606.16845",
+      "title": "Robust Dual-Signal Fusion: Hybrid Neuro-Symbolic Gating with Compressed Chain-of-Thought Refinement for Irony Detection in Social Media Texts"
+    },
+    {
+      "arxiv_id": "2606.16354",
+      "title": "GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving"
+    },
+    {
+      "arxiv_id": "2606.16973",
+      "title": "How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations"
+    },
+    {
+      "arxiv_id": "2606.16876",
+      "title": "ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments"
+    },
+    {
+      "arxiv_id": "2606.16641",
+      "title": "PIANO: Personalized Reranking via Information Aggregation Node for Music Search Optimization"
+    },
+    {
+      "arxiv_id": "2606.16072",
+      "title": "MASCOT-Android: A Curated Dataset and Automated Collection Pipeline for Android Malware Source Code Specimens"
+    },
+    {
+      "arxiv_id": "2606.16461",
+      "title": "Privacy from Symmetry: Orthogonally Equivariant Transformers for LLM Inference"
+    },
+    {
+      "arxiv_id": "2606.16479",
+      "title": "Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A lightweight LBM detection transformer with multi-scale feature fusion for citrus-picking robots"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SFNet: Sparse Fusion Network for Object Detection of Cross-Modal Images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CAFormer: A Channel-Adaptive Transformer With Contrastive Learning for Robust RSVP-BCI Decoding Under Label Noise and Variability"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Design Factors Affecting IMU-Based Joint Torque Estimation Using Deep Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An End-to-End Neural Codec for Bone-Conducted Microphone Speech"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Time-aware attention network for multi-step future prediction in wastewater treatment."
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Intelligent Agent-Based System for Automated Seat Assignment in Entertainment Venues"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Uncertainty-Aware Deep Ensembles for Robust and Reliable Chemical Sensor Arrays."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Kellgren–Lawrence grading of knee osteoarthritis using a multi-scale attention-based deep learning framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Leveraging transformer-based artificial intelligence for enhanced anesthetic decision-making in orthopedic surgery"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MixCache: Mixture-of-Cache for Video Diffusion Transformer Acceleration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Transformer-Based Neural Network to Predict Credit Card Default"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DMSCNet: A Dilated Multi-Scale Contrastive Attention Network for Sensor-Based Human Activity Recognition"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Early identification of risk factors for obstructive sleep apnea hypopnea syndrome based on large language models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid Computational Modeling with Multi-Level Validation Identifies TK1-VIM as a Robust Therapeutic Pair in Triple-Negative Breast Cancer."
+    },
+    {
+      "arxiv_id": null,
+      "title": "LTNIN: Lightweight Transformer Network for Inertial Navigation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Methodologies enabling Mobile Robots Collective Motion: A Comprehensive Review"
+    },
+    {
+      "arxiv_id": "2606.16214",
+      "title": "Calibrated Sampling-Free Uncertainty Estimation in Bayesian Deep Learning"
+    },
+    {
+      "arxiv_id": "2606.16558",
+      "title": "ROSA-RL: Uncertainty-Aware Roundabout Optimized Speed Advisory with Reinforcement Learning"
+    },
+    {
+      "arxiv_id": "2606.17235",
+      "title": "Physics-Informed Attention Mechanism and Generalization Capability of Deep Learning-Based Grain Growth Evolution Prediction"
+    },
+    {
+      "arxiv_id": "2606.16073",
+      "title": "Stop the Sampler! Classifier-Based Adaptive Stopping for Sampling Kernels"
+    },
+    {
+      "arxiv_id": "2606.16539",
+      "title": "Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition"
+    },
+    {
+      "arxiv_id": "2606.15752",
+      "title": "One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets"
+    },
+    {
+      "arxiv_id": "2606.15701",
+      "title": "Robust Transformer-Based One-Step Stock Index Forecasting via Shifted Data Augmentation"
+    },
+    {
+      "arxiv_id": "2606.15984",
+      "title": "ROMPAR: Morphological Completion and Demographic Unlearning for Romanian-Accented Speech Recognition"
+    },
+    {
+      "arxiv_id": "2606.16023",
+      "title": "IBAD: Interpretable Behavioral Anomaly Detection on Human Mobility Data"
+    },
+    {
+      "arxiv_id": "2606.15987",
+      "title": "A Text Recognition Dataset from Sahidic Coptic Ancient Manuscripts"
+    },
+    {
+      "arxiv_id": "2606.15667",
+      "title": "CEVAR: Centerline Embedding Extraction for Endovascular Aneurysm Repair"
+    },
+    {
+      "arxiv_id": "2606.16034",
+      "title": "Inference-Time Decision Calibration for Temporal Classification"
+    },
+    {
+      "arxiv_id": "2606.15523",
+      "title": "AQ4SViT: An Automated Quantization Framework with Search Gating Policy for Compressing Spiking Vision Transformers"
+    },
+    {
+      "arxiv_id": "2606.15550",
+      "title": "Robots as Tokens: Unified Diffusion Transformer for Coordinated Multi-Robot Trajectory Generation"
+    },
+    {
+      "arxiv_id": "2606.15702",
+      "title": "Schattor: Schatten-family methods for deep learning optimization"
+    },
+    {
+      "arxiv_id": "2606.15871",
+      "title": "Amortized mean-shift interacting particles"
+    },
+    {
+      "arxiv_id": "2606.15837",
+      "title": "Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ChatGPT Assisted Scale Development: Attitude Scale for Outdoor Learning Activities"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automating Spatial Visualisation of Handwritten Vector Equations Using Large Vision Models in Pre-Tertiary Mathematics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Privacy Preserving Federated Learning for Myocardial Infarction Detection from ECG Signals"
+    },
+    {
+      "arxiv_id": "2606.16016",
+      "title": "SparseCol: A 1320 BTOPS/W Precision-Scalable NPU Exploiting Training-Free Structured Bit-Level Sparsity and Dynamic Dataflow"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Speech Synthesis from Electrocorticography during Imagined Speech Using a Transformer-Based Decoder and a Pretrained Vocoder"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reinforcement learning-driven unified generative framework for multi-objective RNA codon design"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "StartVerse: An AI-Driven Chatbot for Startup Intelligence and Market Analysis"
+    },
+    {
+      "arxiv_id": "2606.15251",
+      "title": "Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility"
+    },
+    {
+      "arxiv_id": "2606.15171",
+      "title": "Seam-to-Graph Reconstruction for Garment Configuration Alignment"
+    },
+    {
+      "arxiv_id": "2606.15177",
+      "title": "Coordinated Scheduling for MoE LLM Serving"
+    },
+    {
+      "arxiv_id": "2606.15344",
+      "title": "Generative modelling powered by room-temperature polariton condensates"
+    },
+    {
+      "arxiv_id": "2606.15151",
+      "title": "HiRo: A Compact Four-Directional Hierarchical Reservoir Token-Mixer for Efficient Image Classification"
+    },
+    {
+      "arxiv_id": "2606.15319",
+      "title": "Adaptive Resource Management and Quality Control for Streaming Video Generation"
+    },
+    {
+      "arxiv_id": "2606.15104",
+      "title": "Text-Driven Fusion for Infrared and Visible Images: Achieving Image Scene Adaptation on Hyperbolic Space"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ProtAff: Protein Binding Affinity Prediction via LoRA-Finetuned ESM-2"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Unlocking Your Programmable and Creative RNA Sequence Designer with RDiffusion"
+    },
+    {
+      "arxiv_id": "2606.15142",
+      "title": "MotionVLA: Vision-Language-Action Model for Humanoid Motion"
+    },
+    {
+      "arxiv_id": "2606.15005",
+      "title": "A Transformer-Based Mixture-of-Experts Framework for False Data Injection Attack Detection and Localization"
+    },
+    {
+      "arxiv_id": "2606.14960",
+      "title": "Leveraging Physiological Signals to Predict Exam Outcomes with Machine Learning"
+    },
+    {
+      "arxiv_id": "2606.14005",
+      "title": "Context-Guided Semantic Alignment for Feature Fusion Networks"
+    },
+    {
+      "arxiv_id": "2606.14260",
+      "title": "ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation"
+    },
+    {
+      "arxiv_id": "2606.14512",
+      "title": "Fodor and Pylyshyn's Systematicity Challenge Still Stands"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Estimation of Doppler velocity from incoherent scatter spectra using context-aware transformers"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Tea Pest and Disease Named Entity Recognition with Relative Position Bias and Hierarchical Mask"
+    },
+    {
+      "arxiv_id": null,
+      "title": "FuMoE-csKT: fusing disentangled and self-attention in a personalized mixture-of-experts framework for cold-start knowledge tracing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ASM-DBNet: Introducing Adaptive Differentiable Binarization, Spatial-Channel Self-Attention and Multi-Scale Context-Enhanced Dynamic Upsampling for Natural Scene Text Detection"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-dataset benchmarking of machine learning models for marine and atmospheric environmental prediction"
+    },
+    {
+      "arxiv_id": "2606.14277",
+      "title": "One Layer's Trash is Another Layer's Treasure: Adaptive Layer-wise Visual Token Selection in LVLMs"
+    },
+    {
+      "arxiv_id": "2606.14147",
+      "title": "Agon: A Semi-Supervised Framework for Robust Satellite Interference Detection"
+    },
+    {
+      "arxiv_id": "2606.14192",
+      "title": "DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation"
+    },
+    {
+      "arxiv_id": "2606.14350",
+      "title": "Design Methodology and Performance Trade-offs Management for Distributed and Compound AI Systems"
+    },
+    {
+      "arxiv_id": "2606.14255",
+      "title": "ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation"
+    },
+    {
+      "arxiv_id": "2606.14047",
+      "title": "Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling"
+    },
+    {
+      "arxiv_id": "2606.14032",
+      "title": "From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving"
+    },
+    {
+      "arxiv_id": "2606.14248",
+      "title": "Spectrum Aware Illumination Estimation Using Multispectral Image"
+    },
+    {
+      "arxiv_id": "2606.14218",
+      "title": "Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback"
+    },
+    {
+      "arxiv_id": "2606.14120",
+      "title": "FAConformer: Frequency-Aware Convolutional Transformer for Auditory Attention Decoding"
+    },
+    {
+      "arxiv_id": "2606.14114",
+      "title": "Digital Twin-Based Channel Generation Toolchain and Foundation Model for Low-Altitude XL-MIMO"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DMRNet: a dynamic multi-scale residual network for Shamrock view and lumbar plexus segmentation."
+    },
+    {
+      "arxiv_id": null,
+      "title": "Grading at scale: privacy-preserving automated short answer grading with small language models on CPUs"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Domain Transfer Evaluation Framework"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Local feature-aware and edge-enhanced semantic segmentation for autonomous driving"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Innovative Method for Coalbed Methane Well Production Prediction Based on Improved‐iTransformer Algorithm"
+    },
+    {
+      "arxiv_id": "2606.14654",
+      "title": "Abstracting Cross-Domain Action Sequences into Interpretable Workflows"
+    },
+    {
+      "arxiv_id": "2606.14604",
+      "title": "A Comparative Study of Deep Learning Architectures for Multi-Horizon Behavioural Forecasting for Mobile Health"
+    },
+    {
+      "arxiv_id": "2606.14510",
+      "title": "PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion"
+    },
+    {
+      "arxiv_id": "2606.14398",
+      "title": "A theoretical model for task routing in mixture-of-expert transformers"
+    },
+    {
+      "arxiv_id": "2606.14699",
+      "title": "Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control"
+    },
+    {
+      "arxiv_id": "2606.14597",
+      "title": "Zero-shot generalization of transformer neural operators to larger domains"
+    },
+    {
+      "arxiv_id": "2606.14551",
+      "title": "TRACE: Trajectory-Routed Causal Memory for Delayed-Evidence Visuomotor Imitation"
+    },
+    {
+      "arxiv_id": "2606.14701",
+      "title": "RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Graph-based QSAR Modeling Pipeline for Predicting In vitro PubChem Assays and In vivo Human Hetatotoxicity: Mechanistic Analysis of Caspase-3/7 Activation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AI’s Personas and Historical Knowledge: How Models Transform Textbook Questions into Narratives"
+    },
+    {
+      "arxiv_id": "2606.15026",
+      "title": "Deep Temporal Modeling and Ensemble Fusion for Multimodal Emotion Recognition from Physiological Signals"
+    },
+    {
+      "arxiv_id": "2606.14841",
+      "title": "Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking"
+    },
+    {
+      "arxiv_id": "2606.14929",
+      "title": "Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Generating Joint Transcriptomic and Morphological Responses to Drug Perturbations via Rectified Flow"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development of an Intelligent Smart Campus Chatbot Based on Natural Language Processing and Retrieval-Augmented Generation for Integrated Academic Information Services"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Dual-Channel Enhanced Mamba Model for Fault Detection in Grid-Connected Photovoltaic Systems."
+    },
+    {
+      "arxiv_id": null,
+      "title": "An Innovative Coastal Altimetry Waveform Processing Approach Based on Wave-Transformer Classifier"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Prediction of Total Soluble Solids Content in Loquat Based on Hyperspectral Imaging and Interpretable Deep Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A lightweight intelligent fault diagnosis method based on fusion of hierarchical token pooling and vision transformer characteristics"
+    },
+    {
+      "arxiv_id": "2606.13970",
+      "title": "An Attention-based Model for Robust Forecasting with Missing Modality"
+    },
+    {
+      "arxiv_id": null,
+      "title": "KPIs anomaly detection through dual-branch spatio-temporal-frequency feature extraction and enhanced transformer"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CESI: commonsense knowledge selection and emotional semantic interaction for empathetic dialogue generation"
+    },
+    {
+      "arxiv_id": "2606.13379",
+      "title": "Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition"
+    },
+    {
+      "arxiv_id": "2606.13172",
+      "title": "Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance"
+    },
+    {
+      "arxiv_id": "2606.13211",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints"
+    },
+    {
+      "arxiv_id": "2606.13450",
+      "title": "Endpoint Anticipation for Low-Latency Spoken Dialogue"
+    },
+    {
+      "arxiv_id": "2606.13630",
+      "title": "From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation"
+    },
+    {
+      "arxiv_id": "2606.12981",
+      "title": "Camera and LiDAR BEV Fusion for Cooperative 3D Object Detection on TUMTraf V2X"
+    },
+    {
+      "arxiv_id": "2606.12895",
+      "title": "LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning"
+    },
+    {
+      "arxiv_id": "2606.12928",
+      "title": "Continuum Neural Momentum Eigenstate for Variationally Solving Quasiparticles"
+    },
+    {
+      "arxiv_id": "2606.13441",
+      "title": "Why Sampling Is Not Choosing: Intentionality, Agency, and Moral Responsibility in Large Language Models"
+    },
+    {
+      "arxiv_id": "2606.13513",
+      "title": "CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation"
+    },
+    {
+      "arxiv_id": "2606.12979",
+      "title": "EPM-JEPA: Operator-Side Experience Modulation in JEPA-Family World Models"
+    },
+    {
+      "arxiv_id": "2606.12921",
+      "title": "LoRA-Muon: Spectral Steepest Descent on the Low-Rank Manifold"
+    },
+    {
+      "arxiv_id": "2606.13102",
+      "title": "FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation"
+    },
+    {
+      "arxiv_id": "2606.13663",
+      "title": "HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents"
+    },
+    {
+      "arxiv_id": "2606.13216",
+      "title": "Layer-Resolved Optimal Transport for Hallucination Detection in NMT and Abstractive Summarization"
+    },
+    {
+      "arxiv_id": "2606.13276",
+      "title": "Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization"
+    },
+    {
+      "arxiv_id": "2606.12783",
+      "title": "A Tutorial on World Models and Physical AI"
+    },
+    {
+      "arxiv_id": "2606.12828",
+      "title": "Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics"
+    },
+    {
+      "arxiv_id": "2606.13209",
+      "title": "Understanding helpfulness and harmless tension in reward models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TL-DETR: Efficient transmission line defect detection for edge deployment"
+    },
+    {
+      "arxiv_id": "2606.13821",
+      "title": "Attention-Based Estimation of the Individual Treatment Benefit Probability under Dose Variation"
+    },
+    {
+      "arxiv_id": "2606.13742",
+      "title": "A fully GPU-based workflow for building physics emulators of hypersonic flows"
+    },
+    {
+      "arxiv_id": "2606.13768",
+      "title": "CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation"
+    },
+    {
+      "arxiv_id": "2606.13839",
+      "title": "Explaining RhythmFormer: A Systematic XAI Analysis of Periodic Sparse Attention for Remote Photoplethysmography"
+    },
+    {
+      "arxiv_id": "2606.13747",
+      "title": "BigPower: Hierarchical Source-Level Module Power Estimation for CPUs with Large Language Models"
+    },
+    {
+      "arxiv_id": "2606.13767",
+      "title": "Beyond LoRA: Is Sparsity-Induced Adaptation Better?"
+    },
+    {
+      "arxiv_id": "2606.13964",
+      "title": "CaricHarmony: Contrastive Diffusion Paths for Identity-Preserving Caricature Synthesis"
+    },
+    {
+      "arxiv_id": "2606.13796",
+      "title": "Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization"
+    },
+    {
+      "arxiv_id": "2606.13720",
+      "title": "Refusal Beyond a Single Direction: A Preliminary Comparison of Diff-in-Means and INLP"
+    },
+    {
+      "arxiv_id": "2606.13809",
+      "title": "Compressing Image Style Training into a Single Model Forward"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DigiMus: a connectome-informed spiking framework for multi-region mouse neural-behavior modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TifBERT: a self-supervised foundation model for normalization-robust bulk RNA-seq representation learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Transformer–GNN Hybrid Framework for Predicting Structural Nonlinear Responses in Urban‐Scale Seismic Performance Assessment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Gear fault diagnosis method based on cross-attention mechanism for time-frequency feature fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AGZArank: Investigating epitope-conditioned antibody binder ranking with structure-derived synthetic supervision"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Generative Drug Design in a Loop with dtSFM"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TMO: Asymmetric Cross-Modal Attention For Learning Cell-State-Dependent Regulatory Lags From Single-Cell Multiomic Data"
+    },
+    {
+      "arxiv_id": null,
+      "title": "INVESTOR SENTIMENT ANALYSIS FROM TWITTER AND REDDIT FOR FORECASTING FOREX AND CRYPTOCURRENCY VOLATILITY USING GPT-BASED NLP MODELS"
+    },
+    {
+      "arxiv_id": "2606.14791",
+      "title": "From Physics to Representation: Audio Learning with Synthetic Pre-training via Procedural Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning Occlusion-Dynamic Invariant Representations for Multi-Object Tracking"
+    },
+    {
+      "arxiv_id": null,
+      "title": "WSformer: Wavelet-Based Sparse Transformer for Blind Image Restoration"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DSPFusion: Image Fusion via Degradation and Semantic Dual-Prior Guidance"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Parameter-efficient adaptation of foundational models for automated myocardial strain analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-Label Image Classification via Contrastive Co-Occurrence Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Coupling-sensitive feature decoupling network for robust aero-engine RUL estimation under mixed operating conditions"
+    },
+    {
+      "arxiv_id": "2606.11982",
+      "title": "PAWS: Preference Learning with Advantage-Weighted Segments"
+    },
+    {
+      "arxiv_id": "2606.11673",
+      "title": "Higher-Order Token Interactions via Quantum Attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Domain-agnostic Vision Transformer Framework for Machinery Fault Diagnosis using Wavelet Time–frequency Spectra"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Smalltalk-KG: A Knowledge Graph Construction Framework for Dialog Personalization in Human-Robot Interaction"
+    },
+    {
+      "arxiv_id": "2606.11766",
+      "title": "Fast Speech Foundation Model Distillation Using Interleaved Stacking"
+    },
+    {
+      "arxiv_id": "2606.11990",
+      "title": "Time-Series Foundation Model Embeddings for Remaining Useful Life Estimation"
+    },
+    {
+      "arxiv_id": "2606.12374",
+      "title": "Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration"
+    },
+    {
+      "arxiv_id": "2606.11546",
+      "title": "VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detectio"
+    },
+    {
+      "arxiv_id": "2606.11863",
+      "title": "Enhancing LLM-Based Code Translation with Verified Multi-Semantic Representations"
+    },
+    {
+      "arxiv_id": "2606.11672",
+      "title": "Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment"
+    },
+    {
+      "arxiv_id": "2606.12071",
+      "title": "On the Limits of LLM-as-Judge for Scientific Novelty Assessment"
+    },
+    {
+      "arxiv_id": "2606.11746",
+      "title": "Time Series Analysis in Machine Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Intelligent prediction model for geoeffectiveness of coronal mass ejections"
+    },
+    {
+      "arxiv_id": "2606.12633",
+      "title": "ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation"
+    },
+    {
+      "arxiv_id": "2606.11634",
+      "title": "Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning"
+    },
+    {
+      "arxiv_id": "2606.12114",
+      "title": "Detecting Sensitive Personal Information in Japanese Pre-Training Corpora for Large Language Models"
+    },
+    {
+      "arxiv_id": "2606.12494",
+      "title": "Net-Ev$^2$: A Generative Simulator for Network Event Evolution"
+    },
+    {
+      "arxiv_id": "2606.12657",
+      "title": "TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation"
+    },
+    {
+      "arxiv_id": "2606.11755",
+      "title": "Acoda: Adversarial Code Obfuscation for Defending against LLM-based Analysis"
+    },
+    {
+      "arxiv_id": "2606.11786",
+      "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay"
+    },
+    {
+      "arxiv_id": "2606.12499",
+      "title": "Action-Effect Memory Pretraining for Robot Manipulation"
+    },
+    {
+      "arxiv_id": "2606.12059",
+      "title": "Attention by Synchronization in Coupled Oscillator Networks"
+    },
+    {
+      "arxiv_id": "2606.12316",
+      "title": "Slots, Transitions, Loops: Learning Composable World Models for ARC"
+    },
+    {
+      "arxiv_id": "2606.12495",
+      "title": "Missing-Token Prompted Reliability-Aware Fusion for Robust Polyglot Speaker Identification"
+    },
+    {
+      "arxiv_id": "2606.12364",
+      "title": "On Subquadratic Architectures: From Applications to Principles"
+    },
+    {
+      "arxiv_id": "2606.11687",
+      "title": "DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace"
+    },
+    {
+      "arxiv_id": "2606.11792",
+      "title": "MultiToP: Learning to Patch Visual Tokens to Mitigate Hallucinations in Video Large Multimodal Models"
+    },
+    {
+      "arxiv_id": "2606.11661",
+      "title": "Learning Instance-Adaptive Low-Rank Orthogonal Subspaces for Clothes-Changing Person Re-Identification"
+    },
+    {
+      "arxiv_id": "2606.12478",
+      "title": "Boltzmann Attention: Learnable Ising Couplings for Cooperative Attention"
+    },
+    {
+      "arxiv_id": "2606.11589",
+      "title": "Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges"
+    },
+    {
+      "arxiv_id": "2606.11542",
+      "title": "Pretrained self-supervised speech models can recognize unseen consonants"
+    },
+    {
+      "arxiv_id": "2606.11681",
+      "title": "UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction"
+    },
+    {
+      "arxiv_id": "2606.11585",
+      "title": "Kuramoto Attention: Synchronizing Self-Attention on the Torus"
+    },
+    {
+      "arxiv_id": "2606.12278",
+      "title": "Finding Sparse Subnetworks in One Training Cycle via Progressive Magnitude-Based Pruning"
+    },
+    {
+      "arxiv_id": "2606.12287",
+      "title": "SpikeDecoder: Realizing the GPT Architecture with Spiking Neural Networks"
+    },
+    {
+      "arxiv_id": "2606.11906",
+      "title": "When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models"
+    },
+    {
+      "arxiv_id": "2606.11569",
+      "title": "ConsistencyPlanner: Real-time Planning with Fast-Sampling Consistency Models"
+    },
+    {
+      "arxiv_id": "2606.11605",
+      "title": "Physics-Distilled Neural Network enabled by Large Language Models for Manufacturing Process-Property Predictive Modeling"
+    },
+    {
+      "arxiv_id": "2606.12042",
+      "title": "KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility"
+    },
+    {
+      "arxiv_id": "2606.11827",
+      "title": "Jaguar: Fast Private CNN Inference with Power-of-Two Homomorphic Arithmetic"
+    },
+    {
+      "arxiv_id": "2606.11819",
+      "title": "STCC: A Unified Source-Channel Semantic Token Coding Framework for Semantic Communications"
+    },
+    {
+      "arxiv_id": "2606.12396",
+      "title": "VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Understanding Transformer-Based Classifications of Medical Text Using a Large Language Model for the Attribution of Feature Importance: Proof-of-Concept Algorithm Development and Validation Study"
+    },
+    {
+      "arxiv_id": "2606.11595",
+      "title": "Wavelet-Based Extraction of Transient Noise in Gravitational-Wave Interferometers using a Saliency-Guided Learning Architecture"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The value of where – quantifying location values with tabular transformer models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Investigating the Generalizability of Segment Anything Model for Large-Scale Geospatial Segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Pseudoperplexity Probes Memorization in Protein Language Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DST: Dual Structured Transformer for Emotion & Gender Classification Using Speech"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Evaluating Symmetry and Asymmetry in Large Language Models’ Focus-Span Identification: Evidence from Chinese shi…de Cleft Constructions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Unified AI Framework for Turkish E-Commerce Review Analysis: Sentiment Classification, LLM-Based Summarization, and Fuzzy Evaluation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "AI-Driven Adaptive Anomaly Detection and Control for IoT Cyber-Physical Systems"
+    },
+    {
+      "arxiv_id": null,
+      "title": "RubberFormer: a transformer-based detection benchmark for rubber tree powdery mildew"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MFDSU-Net: a novel semantic-geometric collaborative network for cattle segmentation in complex farm environments"
+    },
+    {
+      "arxiv_id": "2606.14779",
+      "title": "Unified KV Pooling to Accelerate Long-Context LLM Serving"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cascaded Attention-Based Multimodal Framework for Robust Disaster Tweet Classification"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Efficient and accurate neural-field reconstruction using resistive memory"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MAFormer: a lightweight gearbox fault diagnosis model"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SSM-WTUNet: UNet short-term precipitation forecasting network integrating state space models and wavelet convolution"
+    },
+    {
+      "arxiv_id": "2606.11166",
+      "title": "Flaws in the LLM Automation Narrative"
+    },
+    {
+      "arxiv_id": "2606.11420",
+      "title": "Context-Aware Multimodal Claim Verification in Spoken Dialogues"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SLiMNet: a deep learning model to detect short linear motifs using protein large language model representations and paired inputs"
+    },
+    {
+      "arxiv_id": "2606.10802",
+      "title": "Boosting ECG Classification Performance by Pre-training with Synthesized Data"
+    },
+    {
+      "arxiv_id": "2606.10600",
+      "title": "Toward Proactive RF Charging Scheduling: Generative AI for Decision Support"
+    },
+    {
+      "arxiv_id": "2606.11162",
+      "title": "COGENT: Continuous Graph Emulators with Neural Ordinary Differential Equations for Long-Term Physical Forecasting"
+    },
+    {
+      "arxiv_id": "2606.10507",
+      "title": "HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning"
+    },
+    {
+      "arxiv_id": "2606.10678",
+      "title": "One Step Closer to Ground Truth: A Multi-Scale Residual-Aware Representation Learning Pipeline for Predicting Time Series Data"
+    },
+    {
+      "arxiv_id": "2606.10611",
+      "title": "Geometry-Aware Reinforcement Learning for 2D Irregular Nesting"
+    },
+    {
+      "arxiv_id": "2606.10706",
+      "title": "Unifying Data, Memory, and Compute Efficiency in LLM training: A Survey"
+    },
+    {
+      "arxiv_id": "2606.10905",
+      "title": "Beyond Model Size: Probing the Gaps in Visual in-Context Learning by Training a Tiny Model"
+    },
+    {
+      "arxiv_id": "2606.10722",
+      "title": "Continual LLM Upcycling: A Predictor-Gated Bank-Wise Sparsity Training Recipe for Dense-to-Sparse LLMs"
+    },
+    {
+      "arxiv_id": "2606.10469",
+      "title": "A Mean-Field Analysis of Multi-Head Self-Attention under Cross-Entropy Training"
+    },
+    {
+      "arxiv_id": "2606.10415",
+      "title": "RATrain: A Resource-Aware Training Runtime for Large Language Models on Bandwidth-Constrained Heterogeneous Supercomputing Platforms"
+    },
+    {
+      "arxiv_id": "2606.10384",
+      "title": "Towards Critical Branching Mechanism in Recurrent Neural Networks"
+    },
+    {
+      "arxiv_id": "2606.10338",
+      "title": "Routing-Aware Expert Calibration for Machine Unlearning in Mixture-of-Experts Language Models"
+    },
+    {
+      "arxiv_id": "2606.10321",
+      "title": "Baseline-Free Policy Optimization for Neural Combinatorial Optimization"
+    },
+    {
+      "arxiv_id": "2606.10278",
+      "title": "Towards Robust Arabic Speech Emotion Recognition with Deep Learning"
+    },
+    {
+      "arxiv_id": "2606.11098",
+      "title": "Do Transformers Actually Help Intrusion Detection? A Temporal Sequence Evaluation on CIC-IDS2017"
+    },
+    {
+      "arxiv_id": "2606.10637",
+      "title": "A Multimodal Domain-Adversarial Network for Fragmentation Background Suppression in AMS Heavy Nuclei Measurements"
+    },
+    {
+      "arxiv_id": "2606.10944",
+      "title": "Express Language Modeling"
+    },
+    {
+      "arxiv_id": "2606.10908",
+      "title": "RAT: Reference-Augmented Training for ASV Anti-Spoofing"
+    },
+    {
+      "arxiv_id": "2606.10304",
+      "title": "MIRAGE: A Polarity-Flipping Encoding Subspace in LLM Agents"
+    },
+    {
+      "arxiv_id": "2606.11184",
+      "title": "TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation"
+    },
+    {
+      "arxiv_id": "2606.11049",
+      "title": "Free Parametrization of L_2-Bounded Structured State-Space Controllers for Nonlinear Control with Stability Guarantees"
+    },
+    {
+      "arxiv_id": "2606.10798",
+      "title": "CITRAS-FM: Tiny Time Series Foundation Model for Covariate-Informed Zero-Shot Forecasting"
+    },
+    {
+      "arxiv_id": "2606.10716",
+      "title": "Attention Expansion: Enhancing Keyphrase Extraction from Long Documents with Attention-Augmented Contextualized Embeddings"
+    },
+    {
+      "arxiv_id": "2606.10853",
+      "title": "Speech Encoder Fusion for LLM-based Automatic Speech Recognition"
+    },
+    {
+      "arxiv_id": "2606.10435",
+      "title": "Parallel Causal Associative Fields: Gated Sparse Memory for Long-Context Language Modeling"
+    },
+    {
+      "arxiv_id": "2606.10820",
+      "title": "K-Forcing: Joint Next-K-Token Decoding via Push-Forward Language Modeling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SMaRT-Net: A Novel Framework of 7T Brain MRI Superresolution for Alzheimer's Disease Diagnosis and Mild Cognitive Impairment Prognostication."
+    },
+    {
+      "arxiv_id": null,
+      "title": "A deep learning-based fusion framework for robust fine-grained classification of sea turtles in support of marine biodiversity"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Two-Stage Fault Diagnosis of Distribution Network Based on MS-CNN and Spatio-Temporal Dual Attention"
+    },
+    {
+      "arxiv_id": null,
+      "title": "DPCrossU-Net: a dual-branch parallel CNN–Transformer network for lung nodule segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From one to twelve: feasibility and clinical utility of deep learning-derived 12-lead ECGs for remote cardiac monitoring"
+    },
+    {
+      "arxiv_id": "2606.11490",
+      "title": "OmniLoc: A Geometry-Aware Foundation Model for Anchor-Free UE Localization Across Diverse Indoor Environments"
+    },
+    {
+      "arxiv_id": "2606.11382",
+      "title": "GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction"
+    },
+    {
+      "arxiv_id": "2606.11508",
+      "title": "Probabilistic Contrastive Pretraining for Multi-task ADME Property Prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees"
+    },
+    {
+      "arxiv_id": null,
+      "title": "XAI-KAN: inherently interpretable malware detection via symbolic Kolmogorov-Arnold network extraction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Mmf-unet: a failure-aware residual serial mamba fusion network for micro-structure segmentation in medical images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Decoding emotions: a survey of multimodal sentiment analysis in the digital age in artificial intelligence"
+    },
+    {
+      "arxiv_id": null,
+      "title": "TaxoFormer: Hierarchical Transformer for Predicting the Full Taxonomic Lineage of Protein Sequences"
+    },
+    {
+      "arxiv_id": null,
+      "title": "SHERLOC: An interpretable deep learning model for longitudinal circulating tumor DNA data in survival analysis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Large Language Models for Intelligent Code Generation in Software Engineering: A Systematic Review and Future Research Directions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Segmentation of Multiple Sclerosis Lesions in\n MRI\n Using U‐Net With a Wavelet Transformer‐Based Attention Mechanism"
+    },
+    {
+      "arxiv_id": "2606.11464",
+      "title": "Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor"
+    },
+    {
+      "arxiv_id": "2606.11409",
+      "title": "Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models"
+    },
+    {
+      "arxiv_id": "2606.11275",
+      "title": "RoVE: Rotary Value Embeddings Attention for Relative Position-dependent Value Pathways"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Towards coevolution-aware ancestral sequence reconstruction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "New frontiers in large code language model security: a review of emerging adversarial threats and countermeasures"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ViroBioTree: A Tree-Structured Biological Evidence Retrieval Framework for Viral Protein Function Annotation."
+    },
+    {
+      "arxiv_id": null,
+      "title": "AI-Based Customer Support Chatbot for Intelligent and Real-Time Assistance Using Transformer Models and Reinforcement Learning"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Machine Learning Forecasts of Coastal Chlorophyll-a Based on Satellite and Model Data: A Case Assessment in the Northern Taiwan Strait"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Multi-scale signal transformer for rolling bearing fault diagnosis under variable conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An effective deep learning model for the Pacific decadal oscillation prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A large language model empowered multi-scale fusion attention network for industrial temperature prediction"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Bionic-inspired intelligent detection of surface defects on semiconductor silicon wafers"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Cross-attention guided multi-modal network for breast ultrasound diagnosis incorporating objective clinical semantics"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Hybrid TCN-transformer Model with Multi-head Attention for Stock Price Forecasting"
+    },
+    {
+      "arxiv_id": "2606.10215",
+      "title": "LEAP: A Rapid Neural Surrogate of Multi-Fluid MHD at Europa"
+    },
+    {
+      "arxiv_id": null,
+      "title": "An efficient video quality assessment model incorporating VideoMamba and dual-dimensional attention"
+    },
+    {
+      "arxiv_id": "2606.09257",
+      "title": "BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development of neural network-based surrogate models in geotechnics: a state-of- the-art review"
+    },
+    {
+      "arxiv_id": "2606.09266",
+      "title": "Physics-Guided Sequence-Based Generative Framework for Acoustic Metamaterial Inverse Design"
+    },
+    {
+      "arxiv_id": "2606.09159",
+      "title": "Unified Energy for Invariant and Independent Decoding in Diffusion Language Models"
+    },
+    {
+      "arxiv_id": "2606.09112",
+      "title": "Hybridizing Equilibrium Propagation with Ising Machines for Efficient Energy-Based Learning"
+    },
+    {
+      "arxiv_id": "2606.09327",
+      "title": "A Universal Dense Football Event Representation Based on TabTransformer"
+    },
+    {
+      "arxiv_id": "2606.08898",
+      "title": "Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training"
+    },
+    {
+      "arxiv_id": "2606.09392",
+      "title": "From Coarse to Fine: Managing Temporal Granularity in Spatio-Temporal Data for Fine-Grained Traffic Prediction"
+    },
+    {
+      "arxiv_id": "2606.09432",
+      "title": "Graph Mamba Operator: A Latent Simulator for Interacting Particle Systems"
+    },
+    {
+      "arxiv_id": "2606.09085",
+      "title": "Mixture-of-Experts Transformer for Automatic Modulation Recognition"
+    },
+    {
+      "arxiv_id": "2606.09357",
+      "title": "Rethinking Depth: A study of the Recursive-Transformer for Speech Recognition"
+    },
+    {
+      "arxiv_id": "2606.09135",
+      "title": "Steganography Without Modification: Hidden Communication via LLM Seeds"
+    },
+    {
+      "arxiv_id": "2606.08934",
+      "title": "Backward Coherence and Hidden-State Stability in Recurrent Neural Networks: A Quasi-Reverse-Martingale Theory"
+    },
+    {
+      "arxiv_id": "2606.08903",
+      "title": "Synthetic but Not Realistic: The Evaluation Challenge in Generative Modelling for Structured Electronic Medical Records"
+    },
+    {
+      "arxiv_id": "2606.09181",
+      "title": "Counterfactual Reasoning for Fine-Grained Evidence Disentanglement in VideoQA"
+    },
+    {
+      "arxiv_id": "2606.08893",
+      "title": "Cheap Reward Hacking Detection"
+    },
+    {
+      "arxiv_id": "2606.09289",
+      "title": "Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning"
+    },
+    {
+      "arxiv_id": "2606.09287",
+      "title": "Trajectory Geometry of Transformer Representations Across Layers"
+    },
+    {
+      "arxiv_id": "2606.09160",
+      "title": "Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation"
+    },
+    {
+      "arxiv_id": "2606.09335",
+      "title": "Factors affecting ASR performance: A study using state of the art ASR models in Indic Languages"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Development and validation of embedded multilayer attention graph convolution neural network models for predicting gut microbe-disease associations"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Adaptive Retrieval-Augmented Generation Pipelines for Dynamic Document Landscapes in the Insurance Industry: A Comparative Study of Retrieval Strategies for Compliance-Aware Response Generation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ESE-PWDNet: an efficient early-stage pine wilt disease detection network"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Physics-guided spatiotemporal deep learning for urban flood prediction: interpretable modelling with integrated gradients"
+    },
+    {
+      "arxiv_id": null,
+      "title": "The Role of Large Language Models in Scientific Research."
+    },
+    {
+      "arxiv_id": "2606.10046",
+      "title": "Inside the Latent Flow: Causal Deciphering of Attention Dynamics in Audio Separation Foundation Models"
+    },
+    {
+      "arxiv_id": "2606.10167",
+      "title": "FlexPath: Learned Semantic Path Priors for Image-Based Planning"
+    },
+    {
+      "arxiv_id": "2606.09950",
+      "title": "Integrating Out, Twice:The Open-System Case That Neural-Network Ensemble Theory Is Missing"
+    },
+    {
+      "arxiv_id": "2606.09117",
+      "title": "Optimizing Energy-based Neural Network Training with Coherent Ising Machine"
+    },
+    {
+      "arxiv_id": "2606.09605",
+      "title": "Next-Token Prediction Learns Generalisable Representations of Sleep Physiology"
+    },
+    {
+      "arxiv_id": "2606.09667",
+      "title": "Cross-Modal Masking for Robust Silent Speech Synthesis Using sEMG and Lipreading"
+    },
+    {
+      "arxiv_id": "2606.09558",
+      "title": "Integrating gene regulatory priors into Transformer attention with scTransformer for interpretable scRNA-seq analysis"
+    },
+    {
+      "arxiv_id": "2606.09551",
+      "title": "FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing"
+    },
+    {
+      "arxiv_id": "2606.10197",
+      "title": "Integral Field Unit Spectroscopy with One Fiber"
+    },
+    {
+      "arxiv_id": "2606.09813",
+      "title": "iMaC: Translating Actions into Motion and Contact Images for Embodied World Models"
+    },
+    {
+      "arxiv_id": "2606.10253",
+      "title": "Multi-channel Optical Vision Model"
+    },
+    {
+      "arxiv_id": "2606.08930",
+      "title": "RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction"
+    },
+    {
+      "arxiv_id": "2606.09029",
+      "title": "Frequency Decoupled Framework for Screen Content Image Super-Resolution"
+    },
+    {
+      "arxiv_id": "2606.09731",
+      "title": "Tight Sample Complexity of Transformers"
+    },
+    {
+      "arxiv_id": "2606.09806",
+      "title": "Topological Neural Operators"
+    },
+    {
+      "arxiv_id": "2606.09056",
+      "title": "MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation"
+    },
+    {
+      "arxiv_id": "2606.09822",
+      "title": "Causally Evaluating the Learnability of Formal Language Tasks"
+    },
+    {
+      "arxiv_id": "2606.09419",
+      "title": "Context-Aware Deep Learning for Defect Classification in Atomic-Resolution STEM"
+    },
+    {
+      "arxiv_id": "2606.09156",
+      "title": "OmniGen-AR: AutoRegressive Any-to-Image Generation"
+    },
+    {
+      "arxiv_id": "2606.09383",
+      "title": "An Opticalmechanics Framework for Dynamic Estimation of Multibody Systems"
+    },
+    {
+      "arxiv_id": "2606.09789",
+      "title": "Principled Uncertainty in Clinical AI: End-to-End Bayesian Modelling and Algorithmic Equity Auditing Across Multimodal Patient Data"
+    },
+    {
+      "arxiv_id": "2606.10238",
+      "title": "Hyperbolic Neural Population Geometry Benefits Computation"
+    },
+    {
+      "arxiv_id": "2606.09954",
+      "title": "Does Normalization Choice Matter for Causal Large Time-Series Models?"
+    },
+    {
+      "arxiv_id": "2606.09140",
+      "title": "DiffSight-Former: Modeling Structural Differences and Temporal Dynamics for Glaucoma Progression Prediction"
+    },
+    {
+      "arxiv_id": "2606.08973",
+      "title": "A systematic investigation of molecular encoding methods for drug property predictions across neural network and Transformer encoder-based model"
+    },
+    {
+      "arxiv_id": "2606.10227",
+      "title": "Spatiotemporal Graph Transformer for 3D Neighborhood Interaction and Quality Prediction in Metal Additive Manufacturing"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A Drug–Target Specificity Foundation Model for Off-target Prediction, Repurposing, and Generative Design"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Predicting currency crises in emerging markets: A deep learning approach with LSTM networks and attention mechanism"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A multi-scale CNN-transformer hybrid network with parallel attention mechanism and local linear unit for cross-condition fault diagnosis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Enhanced RT-DETR for real-time transparent tape detection on fabric surfaces with reflection-resistant attention module"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Dynamic sign language recognition based on CBAM-enhanced CNN and Bi-LSTM networks"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MQSE-StegoNet: multimetric quality-aware attention-enabled network for the stego image generation and recovery"
+    },
+    {
+      "arxiv_id": "2606.14756",
+      "title": "Divide-and-Denoise: A Game-Theoretic Method for Fairly Composing Diffusion Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Explicit modeling of geometric continuity and morphological consistency in coronary angiography segmentation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "MBA-Net: an adaptive bidirectional weighted fracture detection method with multi-scale feature fusion"
+    },
+    {
+      "arxiv_id": null,
+      "title": "From topography to connectome: Towards an integrated understanding of the resting brain"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A novel time–frequency multi-feature adaptive feature fusion framework for bearing fault diagnosis under noise conditions"
+    },
+    {
+      "arxiv_id": null,
+      "title": "CIF-UNet: a CNN–transformer hybrid U-Net with cross-interaction fusion for oil spill segmentation"
+    },
+    {
+      "arxiv_id": "2606.08658",
+      "title": "Extending Ontologies: From Dense Embeddings to Hybrid Quantum-Fuzzy Systems"
+    },
+    {
+      "arxiv_id": "2606.08417",
+      "title": "Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics"
+    },
+    {
+      "arxiv_id": "2606.08382",
+      "title": "STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control"
+    }
+  ]
+}
