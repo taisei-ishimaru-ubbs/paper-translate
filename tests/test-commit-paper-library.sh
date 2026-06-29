@@ -26,7 +26,7 @@ mkdir -p "$paper_dir"
 printf 'test paper\n' > "$paper_dir/paper.pdf"
 printf '{"id":"1706.03762"}\n' > "$paper_dir/meta.json"
 
-git -C "$WORK" remote set-url origin git@github.com:taiseee/paper-translate.git
+git -C "$WORK" remote set-url origin git@github.com:uchidalab/paper-translate.git
 if "$WORK/scripts/commit-paper-library.sh"; then
   echo 'expected the root-repository guard to reject paper changes' >&2
   exit 1

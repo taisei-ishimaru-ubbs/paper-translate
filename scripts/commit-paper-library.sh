@@ -5,7 +5,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 REMOTE="${PAPER_LIBRARY_GIT_REMOTE:-origin}"
-ROOT_REPOSITORY="${PAPER_LIBRARY_ROOT_REPOSITORY:-taiseee/paper-translate}"
+ROOT_REPOSITORY="${PAPER_LIBRARY_ROOT_REPOSITORY:-uchidalab/paper-translate}"
 
 log() {
   printf '[paper-library-git] %s\n' "$*" >&2
