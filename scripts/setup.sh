@@ -14,6 +14,13 @@ mkdir -p "$PAPERS_DIR" "$LOG_DIR"
 echo "created: $PAPERS_DIR"
 echo "created: $LOG_DIR"
 
+if ! command -v git-lfs >/dev/null 2>&1; then
+  echo "ERROR: git-lfs is required (brew install git-lfs)" >&2
+  exit 1
+fi
+git -C "$ROOT" lfs install --local
+echo "Git LFS: configured for this repository"
+
 # PyMuPDF (figure cropping) lives in a project venv to avoid PEP 668 issues.
 if [[ ! -x "$ROOT/.venv/bin/python" ]] || ! "$ROOT/.venv/bin/python" -c "import fitz" 2>/dev/null; then
   echo "installing PyMuPDF into $ROOT/.venv ..."

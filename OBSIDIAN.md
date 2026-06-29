@@ -29,8 +29,8 @@
 
 ## 注意
 
-- ノート本体（`papers/` 配下の `<snake(title)>.md`）は生成物なので git 管理外。`scripts/translate-papers-daemon.sh`
-  または `scripts/generate-obsidian-note.sh` で再生成する。
+- ノート本体（`papers/` 配下の `<snake(title)>.md`）は生成物だが、論文ライブラリの一部として git 管理する。
+  `scripts/translate-papers-daemon.sh` または `scripts/generate-obsidian-note.sh` で再生成する。
 - `.obsidian/plugins/` と `workspace*.json` は git 管理外（環境依存）。`snippets/paper-gallery.css` と
   `app.json` は追跡する。
 - ノートのリンクはローカル保有論文の集合に依存するため、論文を追加したらデーモンが全ノートを再生成する。

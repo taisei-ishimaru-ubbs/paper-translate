@@ -1,7 +1,3 @@
-# Papers (PDFs are large; only .gitkeep is tracked)
-papers/*
-!papers/.gitkeep
-
 # Logs
 .logs/
 
@@ -12,9 +8,8 @@ papers/*
 *-dual.pdf
 *-mono.pdf
 
-# Obsidian: per-paper notes live in papers/ (already ignored above) and are
-# regenerable. Local app state is machine-specific. Keep gallery.md (root),
-# snippets, app.json, community-plugins.json, appearance.json.
+# Obsidian local app state is machine-specific. Keep gallery.md (root),
+# per-paper notes, snippets, app.json, community-plugins.json, appearance.json.
 .obsidian/workspace*.json
 .obsidian/plugins/
 .obsidian/cache
