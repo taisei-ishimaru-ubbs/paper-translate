@@ -1,0 +1,12 @@
+# Papers (PDFs are large; only .gitkeep is tracked)
+papers/*
+!papers/.gitkeep
+
+# Logs
+.logs/
+
+# pdf2zh intermediates
+*-dual.pdf
+*-mono.pdf
+
+.DS_Store
