@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Modality gap and cross-modal alignment. (A) The average pairwise cosine similarity of the encoded image–text pairs is about 0.22, i.e., the average angle is about 78 degrees. (B) Schematic illustration of unaligned (left) versus aligned (right) embedding spaces.",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: Overview of sharing the transformer and projection layer in SharedCLIP.",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: Schematic summary of the Intra-Modality Separation approach in AlignCLIP.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: Cumulative distribution of pairwise cosine similarities of positive samples in MSCOCO.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 9,
+    "caption": "Figure 5: DOSNES visualization of the multi-modal embeddings using CC3M",
+    "score": 0.0
+  }
+]

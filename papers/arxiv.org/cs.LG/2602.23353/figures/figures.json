@@ -1,0 +1,121 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Semi-supervised vision-language alignment. We tackle the alignment of frozen unimodal encoders where paired data (red blocks) are scarce but unpaired data are abundant. The key challenge is: how to define a training signal for unpaired data when ground-truth cross-modal correspondences are",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. SOTAlign is a two-step method for the alignment of pretrained unimodal image and text encoders. First, we fit a linear alignment model only using the limited amount of available image-text pairs. Then, we use this linear model as a teacher to regularize the training of alignment layers f a",
+    "score": 38.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3. GPU memory usage for a batchsize n = 10k when computing the gradient of the OT-based divergence with naive solver unrolling (blue) and the provided explicit gradient formula (orange). Additional results are reported in Appendix B.1.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4. We plot Sinkhorn convergence criterion ||P1−1||1 after 100 iterations against ϵ. The cost matrix of size 32k used for this plot is extracted from a SOTAlign training batch.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5. Left: Effect of the number of paired samples (while fixing 1M unpaired samples). Right: Effect of the number of unpaired samples (while fixing 10k pairs). We report the zero-shot retrieval (MeanR@1) on COCO. More metrics are reported in Appendix B.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 7,
+    "caption": "Figure 6. Relationship between the total sliced Wasserstein dis- tance between CC3M image/text dataset and unimodal datasets, and the downstream performance of SOTAlign trained on 10k CC3M image–text pairs and up to 1M samples from the corre- sponding unimodal datasets. As a baseline, we consider ra",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. Relationship between the representational similarity (mu- tual kNN) of frozen encoder pairs and their retrieval performance after semi-supervised alignment using SOTAlign.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 16,
+    "caption": "Figure 8. Comparison of memory usage, runtime, and number of Sinkhorn iterations for different gradient computation strategies. We run as many Sinkhorn iterations as required to achieve marginal convergence within a tolerance of 10−6.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 17,
+    "caption": "Figure 9. Effect of the number of paired samples during alignment on downstream zero-shot classification and retrieval. We fix 1M unpaired samples from CC3M and vary the number of paired samples.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 17,
+    "caption": "Figure 10. Effect of the number of unpaired samples during alignment on downstream zero-shot classification and retrieval. We fix 10k paired samples from CC3M and vary the number of unpaired samples.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 18,
+    "caption": "Figure 11. Sensitivity of SOTAlign to the regularization weight α under varying supervision regimes (number of supervised pairs) and varying noise level of the unpaired data.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 19,
+    "caption": "Figure 12. OT regularization. We fix α = 0.001, use 1M unpaired samples, and vary ϵ and ϵ∗across different supervision regimes.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 19,
+    "caption": "Figure 13. Performance when using CC3M as paired data, CC3M text as unpaired text, and other image datasets as unpaired images, together with a comparison to the spherical sliced Wasserstein distance between CC3M image and the other image datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 19,
+    "caption": "Figure 14. Performance when using CC3M as paired data, CC3M text as unpaired text, and other image datasets as unpaired images, together with a comparison to the spherical sliced Wasserstein distance between CC3M image and the other image datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 15,
+    "page": 20,
+    "caption": "Figure 15. Spherical sliced Wasserstein distances between different image datasets (left) and text datasets (right). We report mean and std of the distances over 20 seeds.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 16,
+    "page": 20,
+    "caption": "Figure 16. Satellite image-text retrieval on SkyScript with 10k test pairs.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-16.png",
+    "figure_no": 17,
+    "page": 20,
+    "caption": "Figure 17. Satellite image-text retrieval on SkyScript with 30k test pairs.",
+    "score": 0.0
+  }
+]

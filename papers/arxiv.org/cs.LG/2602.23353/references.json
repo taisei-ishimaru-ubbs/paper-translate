@@ -1,0 +1,247 @@
+{
+  "id": "2602.23353",
+  "references": [
+    {
+      "arxiv_id": "2511.07025",
+      "title": "Llama-Embed-Nemotron-8B: A Universal Text Embedding Model for Multilingual and Cross-Lingual Tasks"
+    },
+    {
+      "arxiv_id": "2506.16895",
+      "title": "With Limited Data for Multimodal Alignment, Let the STRUCTURE Guide You"
+    },
+    {
+      "arxiv_id": "2506.05176",
+      "title": "Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models"
+    },
+    {
+      "arxiv_id": "2505.22109",
+      "title": "The quest for the GRAph Level autoEncoder (GRALE)"
+    },
+    {
+      "arxiv_id": "2505.21524",
+      "title": "Learning Shared Representations from Unpaired Data"
+    },
+    {
+      "arxiv_id": "2505.12540",
+      "title": "Harnessing the Universal Geometry of Embeddings"
+    },
+    {
+      "arxiv_id": "2503.24129",
+      "title": "It’s a (Blind) Match! Towards Vision-Language Correspondence without Parallel Data"
+    },
+    {
+      "arxiv_id": "2502.14786",
+      "title": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features"
+    },
+    {
+      "arxiv_id": "2412.04616",
+      "title": "Assessing and Learning Alignment of Unimodal Vision and Language Models"
+    },
+    {
+      "arxiv_id": "2411.06055",
+      "title": "Linear Spherical Sliced Optimal Transport: A Fast Metric for Comparing Spherical Data"
+    },
+    {
+      "arxiv_id": "2409.19425",
+      "title": "Harnessing Frozen Unimodal Encoders for Flexible Multimodal Alignment"
+    },
+    {
+      "arxiv_id": "2405.17428",
+      "title": "NV-Embed: Improved Techniques for Training LLMs as Generalist Embedding Models"
+    },
+    {
+      "arxiv_id": "2403.17007",
+      "title": "DreamLIP: Language-Image Pre-training with Long Captions"
+    },
+    {
+      "arxiv_id": "2401.05224",
+      "title": "Do Vision and Language Encoders Represent the World Similarly?"
+    },
+    {
+      "arxiv_id": "2312.10144",
+      "title": "Data-Efficient Multimodal Fusion on a Single GPU"
+    },
+    {
+      "arxiv_id": "2305.14095",
+      "title": "S-CLIP: Semi-supervised Vision-Language Learning using Few Specialist Captions"
+    },
+    {
+      "arxiv_id": "2305.13797",
+      "title": "SNEkhorn: Dimension Reduction with Symmetric Entropic Affinities"
+    },
+    {
+      "arxiv_id": "2304.07193",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision"
+    },
+    {
+      "arxiv_id": "2303.15343",
+      "title": "Sigmoid Loss for Language Image Pre-Training"
+    },
+    {
+      "arxiv_id": "2302.06675",
+      "title": "Symbolic Discovery of Optimization Algorithms"
+    },
+    {
+      "arxiv_id": "2302.04953",
+      "title": "The Monge Gap: A Regularizer to Learn All Transport Maps"
+    },
+    {
+      "arxiv_id": "2210.16156",
+      "title": "Reliability of CKA as a Similarity Measure in Deep Learning"
+    },
+    {
+      "arxiv_id": "2205.06688",
+      "title": "A Unified Framework for Implicit Sinkhorn Differentiation"
+    },
+    {
+      "arxiv_id": "2110.05208",
+      "title": "Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image Pre-training Paradigm"
+    },
+    {
+      "arxiv_id": "2104.14548",
+      "title": "With a Little Help from My Friends: Nearest-Neighbor Contrastive Learning of Visual Representations"
+    },
+    {
+      "arxiv_id": "2103.00020",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision"
+    },
+    {
+      "arxiv_id": "2102.08981",
+      "title": "Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts"
+    },
+    {
+      "arxiv_id": "2102.05918",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision"
+    },
+    {
+      "arxiv_id": "1807.03748",
+      "title": "Representation Learning with Contrastive Predictive Coding"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning"
+    },
+    {
+      "arxiv_id": "1805.07010",
+      "title": "Learning Permutations with Sinkhorn Policy Gradient"
+    },
+    {
+      "arxiv_id": "1707.05691",
+      "title": "Learning Fashion Compatibility with Bidirectional LSTMs"
+    },
+    {
+      "arxiv_id": "1706.00292",
+      "title": "Learning Generative Models with Sinkhorn Divergences"
+    },
+    {
+      "arxiv_id": "1609.07843",
+      "title": "Pointer Sentinel Mixture Models"
+    },
+    {
+      "arxiv_id": "1608.08063",
+      "title": "Wasserstein discriminant analysis"
+    },
+    {
+      "arxiv_id": "1505.04870",
+      "title": "Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Food-101 - Mining Discriminative Components with Random Forests"
+    },
+    {
+      "arxiv_id": "1405.0312",
+      "title": "Microsoft COCO: Common Objects in Context"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Sliced and Radon Wasserstein Barycenters of Measures"
+    },
+    {
+      "arxiv_id": "1311.3618",
+      "title": "Describing Textures in the Wild"
+    },
+    {
+      "arxiv_id": "1306.5151",
+      "title": "Fine-Grained Visual Classification of Aircraft"
+    },
+    {
+      "arxiv_id": "1306.0895",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport"
+    },
+    {
+      "arxiv_id": "1106.1925",
+      "title": "Ranking via Sinkhorn Propagation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "ImageNet: A large-scale hierarchical image database"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Automated Flower Classification over a Large Number of Classes"
+    },
+    {
+      "arxiv_id": null,
+      "title": "On Kernel-Target Alignment"
+    },
+    {
+      "arxiv_id": null,
+      "title": "A generalized solution of the orthogonal procrustes problem"
+    },
+    {
+      "arxiv_id": null,
+      "title": "OT-CLIP: Understanding and Generalizing CLIP via Optimal Transport"
+    },
+    {
+      "arxiv_id": null,
+      "title": "LLM2CLIP: Powerful Language Model Unlocks Richer Visual Representation"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Inverse optimal transport does not require unrolling"
+    },
+    {
+      "arxiv_id": null,
+      "title": "POT: Python Optimal Transport"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Supervised Quantile Normalization for Low Rank Matrix Factorization"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Computational optimal transport: With applications to data science"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Learning Multiple Layers of Features from Tiny Images"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Aircraft (Maji et al., 2013), DTD (Cimpoi et al., 2014), Flowers ( 2008) • Retrieval (T2I, I2T): COCO (Lin et al., 2014), Flickr30"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Procrustes problems , volume 30"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Position: The platonic representation hypothesis"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Reproducible scaling laws for contrastive"
+    },
+    {
+      "arxiv_id": null,
+      "title": "Semi-Supervised Alignment of Unimodal Vision"
+    }
+  ],
+  "citations": [
+    {
+      "arxiv_id": "2605.19752",
+      "title": "MSAlign: Aligning Molecule and Mass Spectra Foundation Models for Metabolite Identification"
+    }
+  ]
+}
