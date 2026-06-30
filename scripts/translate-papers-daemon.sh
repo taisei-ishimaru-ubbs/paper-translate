@@ -46,6 +46,26 @@ if [[ ${#papers[@]} -eq 0 ]]; then
   exit 0
 fi
 
+# Build a shared id->slug map from all papers upfront so that Obsidian wikilinks
+# resolve correctly even when notes are generated one paper at a time.
+snake() {
+  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
+}
+local_map="$(mktemp)"
+declare -A SEEN_SLUG
+for pdf in "${papers[@]}"; do
+  dir="$(dirname "$pdf")"
+  [[ -f "$dir/meta.json" ]] || continue
+  mid="$(jq -r '.id // .ID // ""' "$dir/meta.json")"
+  [[ -n "$mid" ]] || continue
+  mslug="$(snake "$(jq -r '.title // .Title // ""' "$dir/meta.json")")"
+  [[ -n "$mslug" ]] || mslug="$(snake "$mid")"
+  [[ -n "${SEEN_SLUG[$mslug]:-}" ]] && mslug="${mslug}_${mid//./_}"
+  SEEN_SLUG["$mslug"]=1
+  printf '%s\t%s\n' "$mid" "$mslug" >> "$local_map"
+done
+
 did_work=0
 for pdf in "${papers[@]}"; do
   dir="$(dirname "$pdf")"
@@ -85,40 +105,18 @@ for pdf in "${papers[@]}"; do
     log "extracting figures: $dir"
     bash "$SCRIPT_DIR/extract-figures.sh" "$dir" || log "WARN: figures failed for $dir"
   fi
-done
 
-# 5. Rebuild Obsidian notes (stored next to each paper as <snake(title)>.md).
-#    Wikilinks resolve by note basename, so build one shared id->slug map first,
-#    disambiguating any slug shared by two papers, then regenerate every note.
-snake() {
-  printf '%s' "$1" | tr '[:upper:]' '[:lower:]' \
-    | sed -E 's/[^[:alnum:]]+/_/g; s/^_+//; s/_+$//'
-}
-local_map="$(mktemp)"
-declare -A SEEN_SLUG
-for pdf in "${papers[@]}"; do
-  dir="$(dirname "$pdf")"
-  [[ -f "$dir/meta.json" ]] || continue
-  mid="$(jq -r '.id // .ID // ""' "$dir/meta.json")"
-  [[ -n "$mid" ]] || continue
-  mslug="$(snake "$(jq -r '.title // .Title // ""' "$dir/meta.json")")"
-  [[ -n "$mslug" ]] || mslug="$(snake "$mid")"
-  [[ -n "${SEEN_SLUG[$mslug]:-}" ]] && mslug="${mslug}_${mid//./_}"
-  SEEN_SLUG["$mslug"]=1
-  printf '%s\t%s\n' "$mid" "$mslug" >> "$local_map"
-done
-for pdf in "${papers[@]}"; do
-  dir="$(dirname "$pdf")"
+  # 5. Rebuild this paper's Obsidian note immediately after its steps complete.
   LOCAL_MAP_FILE="$local_map" \
     bash "$SCRIPT_DIR/generate-obsidian-note.sh" "$dir" --force || log "WARN: note failed for $dir"
+
+  # 6. Refresh by-title symlink tree so the new paper is reachable right away.
+  bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
 done
 rm -f "$local_map"
 
-# 6. Refresh the human-friendly by-title symlink tree.
-bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
-
-# 7. Commit and push the complete paper library after processing. Only papers/
-#    and gallery.md are eligible; the helper refuses unsafe branch states.
+# 7. Commit and push the complete paper library after all papers are processed.
+#    Only papers/ and gallery.md are eligible; the helper refuses unsafe branch states.
 if [[ "${PAPER_LIBRARY_AUTO_PUSH:-1}" == "1" ]]; then
   bash "$SCRIPT_DIR/commit-paper-library.sh" || {
     log "ERROR: paper-library commit/push failed"
