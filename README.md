@@ -1,6 +1,6 @@
 # paper-translate
 
-arXiv 論文を arq で取得し、pdf2zh + Ollama で日本語 PDF 化・要約・引用取得・図抽出・Obsidian ノート生成まで自動化する基盤。[`uchidalab/paper-translate`](https://github.com/uchidalab/paper-translate) を root repository とし、各利用者はその fork を使用する。
+arXiv または手動取得した論文を、pdf2zh + Ollama で日本語 PDF 化・要約・引用取得・図抽出・Obsidian ノート生成まで自動化する基盤。[`uchidalab/paper-translate`](https://github.com/uchidalab/paper-translate) を root repository とし、各利用者はその fork を使用する。
 
 ## セットアップ
 
@@ -16,10 +16,12 @@ Obsidian で使う場合はリポジトリルートを vault として開き、`
 
 ```bash
 arq get 2501.12345            # 論文を papers/ に取得（デーモンが自動処理）
-scripts/arq-select.sh         # fzf で論文を選んで閲覧
+scripts/import-paper.sh ~/Downloads/paper.pdf  # 手動取得PDFを取り込む
+cp ~/Downloads/paper.pdf inbox/               # inbox監視で取り込む
+scripts/paper-select.sh        # arXiv/手動論文をfzfで選んで閲覧
 ```
 
-デーモンは `paper.pdf` の追加を検知すると、翻訳・要約・引用・図・Obsidian ノートを順に生成し、`papers/` と `gallery.md` の変更を commit して `origin` へ push する。
+識別子が分かる場合は `--doi`、`--arxiv`、`--s2-id` を指定できる。指定がなければPDF先頭からメタデータをOllamaで抽出し、Semantic Scholarの正規化タイトルが完全一致した場合だけ引用先として紐付ける。デーモンは翻訳・要約・引用・図・Obsidianノートを生成し、fork上の `papers/` と `gallery.md` だけをcommitして `origin` へpushする。
 
 個別スクリプトで手動実行することもできる：
 
@@ -42,8 +44,12 @@ papers/
 │   ├── figures/                 # 図クロップ
 │   ├── overview.png             # 概要図（arq thumbnail にも登録）
 │   └── <snake_case_title>.md    # Obsidian ノート
+├── manual/<title>_<hash>/       # 手動取得論文
+│   ├── metadata.json            # arqのmeta.jsonとは分離したメタデータ
+│   └── paper.pdf / paper_ja.pdf / ...
 └── by-title/<snake_case_title>/ # 実体への symlink
 
+inbox/                           # 手動PDFのdrop folder（git管理外）
 gallery.md                       # Dataview ギャラリー
 ```
 
@@ -54,6 +60,7 @@ gallery.md                       # Dataview ギャラリー
 - fork では `origin` を自分の fork、`upstream` を root repository に向ける
 - `papers/**/*.pdf` と `papers/**/*.png` は Git LFS で管理
 - root repository の `papers/` は空（`.gitkeep` のみ）。論文は各 fork だけで管理する
+- コード・設定・ドキュメントは root repository で変更し、fork は `upstream/main` をmergeして取り込む
 - デーモンの自動 push は `papers/` と `gallery.md` だけが対象。コード変更は含まれない
 
 ## 環境変数
@@ -62,6 +69,8 @@ gallery.md                       # Dataview ギャラリー
 |---|---|---|
 | `OLLAMA_HOST` | `http://localhost:11434` | Ollama エンドポイント |
 | `OLLAMA_MODEL` | `minimax-m3:cloud` | 翻訳・要約モデル |
+| `PAPER_METADATA_MAX_CHARS` | `20000` | 手動PDFのメタデータ推定に渡す最大文字数 |
+| `S2_API_KEY` | 未設定 | Semantic Scholar API key（任意） |
 | `PAPER_LIBRARY_AUTO_PUSH` | `1` | `0` で自動 commit/push を無効化 |
 | `PAPER_LIBRARY_GIT_REMOTE` | `origin` | push 先 remote |
 | `PAPER_LIBRARY_GIT_BRANCH` | 現在のブランチ | push 先ブランチ（detached HEAD 時は指定必須） |
