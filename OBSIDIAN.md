@@ -12,11 +12,11 @@
 
 ## 構成
 
-- `papers/arxiv.org/<cat>/<id>/<snake(title)>.md` — 論文ごとのノート（`scripts/generate-obsidian-note.sh` が生成、論文と同じ場所に保存）。
+- `papers/arxiv.org/<cat>/<id>/<snake(title)>.md` または `papers/manual/<title>_<hash>/<snake(title)>.md` — 論文ごとのノート（`scripts/generate-obsidian-note.sh` が生成、論文と同じ場所に保存）。
   - ファイル名は小文字 snake_case のタイトル（例 `attention_is_all_you_need.md`）。
   - frontmatter（id/title/authors/category/published/thumbnail/tags）
   - 概要図サムネイルと `summary.md` の埋め込み
-  - `## 参考文献` / `## 被引用`：ローカル保有論文へは `[[<snake>|<title>]]` wikilink（ノート basename で解決）、未保有は arXiv リンク
+  - `## 参考文献` / `## 被引用`：ローカル保有論文へは `[[<snake>|<title>]]` wikilink、未保有は arXiv・DOI・Semantic Scholar リンク
 - `gallery.md`（ルート直下） — `#paper` タグのノートをカード表示する Dataview JS ギャラリー（検索付き）。
 - グラフビューで引用 wikilink による論文間の繋がりを俯瞰できる。
 
@@ -25,7 +25,7 @@
 `.obsidian/app.json` の `userIgnoreFilters` で以下を除外済み（二重インデックス回避）:
 
 - `papers/by-title/`（実体への symlink）
-- `.logs/`、`scratchpad/`
+- `inbox/`、`.logs/`、`scratchpad/`
 
 ## 注意
 
