@@ -1,19 +1,20 @@
 ---
-id: 1706.03762
+id: "1706.03762"
 title: "Attention Is All You Need"
 aliases: ["Attention Is All You Need"]
 authors:
-  - Ashish Vaswani
-  - Noam Shazeer
-  - Niki Parmar
-  - Jakob Uszkoreit
-  - Llion Jones
-  - Aidan N. Gomez
-  - Lukasz Kaiser
-  - Illia Polosukhin
-category: cs.CL
-published: 2017-06-12
+  - "Ashish Vaswani"
+  - "Noam Shazeer"
+  - "Niki Parmar"
+  - "Jakob Uszkoreit"
+  - "Llion Jones"
+  - "Aidan N. Gomez"
+  - "Lukasz Kaiser"
+  - "Illia Polosukhin"
+category: "cs.CL"
+published: "2017-06-12"
 thumbnail: papers/arxiv.org/cs.CL/1706.03762/overview.png
+source_type: arxiv
 tags: [paper]
 ---
 
@@ -31,384 +32,1053 @@ tags: [paper]
 
 ## 参考文献 (references)
 
-- A Deep Reinforced Model for Abstractive Summarization ([arXiv:1705.04304](https://arxiv.org/abs/1705.04304))
-- Convolutional Sequence to Sequence Learning ([arXiv:1705.03122](https://arxiv.org/abs/1705.03122))
-- Massive Exploration of Neural Machine Translation Architectures ([arXiv:1703.03906](https://arxiv.org/abs/1703.03906))
-- A Structured Self-attentive Sentence Embedding ([arXiv:1703.03130](https://arxiv.org/abs/1703.03130))
-- Factorization tricks for LSTM networks ([arXiv:1703.10722](https://arxiv.org/abs/1703.10722))
-- Structured Attention Networks ([arXiv:1702.00887](https://arxiv.org/abs/1702.00887))
-- Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer ([arXiv:1701.06538](https://arxiv.org/abs/1701.06538))
-- Neural Machine Translation in Linear Time ([arXiv:1610.10099](https://arxiv.org/abs/1610.10099))
-- Can Active Memory Replace Attention? ([arXiv:1610.08613](https://arxiv.org/abs/1610.08613))
-- Xception: Deep Learning with Depthwise Separable Convolutions ([arXiv:1610.02357](https://arxiv.org/abs/1610.02357))
-- Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation ([arXiv:1609.08144](https://arxiv.org/abs/1609.08144))
-- Using the Output Embedding to Improve Language Models ([arXiv:1608.05859](https://arxiv.org/abs/1608.05859))
-- Layer Normalization ([arXiv:1607.06450](https://arxiv.org/abs/1607.06450))
-- Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation ([arXiv:1606.04199](https://arxiv.org/abs/1606.04199))
-- Exploring the Limits of Language Modeling ([arXiv:1602.02410](https://arxiv.org/abs/1602.02410))
-- Recurrent Neural Network Grammars ([arXiv:1602.07776](https://arxiv.org/abs/1602.07776))
-- Long Short-Term Memory-Networks for Machine Reading ([arXiv:1601.06733](https://arxiv.org/abs/1601.06733))
-- Deep Residual Learning for Image Recognition ([arXiv:1512.03385](https://arxiv.org/abs/1512.03385))
-- Rethinking the Inception Architecture for Computer Vision ([arXiv:1512.00567](https://arxiv.org/abs/1512.00567))
-- Neural GPUs Learn Algorithms ([arXiv:1511.08228](https://arxiv.org/abs/1511.08228))
-- Multi-task Sequence to Sequence Learning ([arXiv:1511.06114](https://arxiv.org/abs/1511.06114))
-- Neural Machine Translation of Rare Words with Subword Units ([arXiv:1508.07909](https://arxiv.org/abs/1508.07909))
+- [A Deep Reinforced Model for Abstractive Summarization](https://arxiv.org/abs/1705.04304)
+- [Convolutional Sequence to Sequence Learning](https://arxiv.org/abs/1705.03122)
+- [Massive Exploration of Neural Machine Translation Architectures](https://arxiv.org/abs/1703.03906)
+- [A Structured Self-attentive Sentence Embedding](https://arxiv.org/abs/1703.03130)
+- [Factorization tricks for LSTM networks](https://arxiv.org/abs/1703.10722)
+- [Structured Attention Networks](https://arxiv.org/abs/1702.00887)
+- [Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer](https://arxiv.org/abs/1701.06538)
+- [Neural Machine Translation in Linear Time](https://arxiv.org/abs/1610.10099)
+- [Can Active Memory Replace Attention?](https://arxiv.org/abs/1610.08613)
+- [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/abs/1610.02357)
+- [Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation](https://arxiv.org/abs/1609.08144)
+- [Using the Output Embedding to Improve Language Models](https://arxiv.org/abs/1608.05859)
+- [Layer Normalization](https://arxiv.org/abs/1607.06450)
+- [Deep Recurrent Models with Fast-Forward Connections for Neural Machine Translation](https://arxiv.org/abs/1606.04199)
+- [Exploring the Limits of Language Modeling](https://arxiv.org/abs/1602.02410)
+- [Recurrent Neural Network Grammars](https://arxiv.org/abs/1602.07776)
+- [Long Short-Term Memory-Networks for Machine Reading](https://arxiv.org/abs/1601.06733)
+- [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+- [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
+- [Neural GPUs Learn Algorithms](https://arxiv.org/abs/1511.08228)
+- [Multi-task Sequence to Sequence Learning](https://arxiv.org/abs/1511.06114)
+- [Neural Machine Translation of Rare Words with Subword Units](https://arxiv.org/abs/1508.07909)
 - [[effective_approaches_to_attention_based_neural_machine_translation|Effective Approaches to Attention-based Neural Machine Translation]]
--  ([arXiv:End-To-End Memory Networks](https://arxiv.org/abs/End-To-End Memory Networks))
-- Grammar as a Foreign Language ([arXiv:1412.7449](https://arxiv.org/abs/1412.7449))
-- Adam: A Method for Stochastic Optimization ([arXiv:1412.6980](https://arxiv.org/abs/1412.6980))
-- Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling ([arXiv:1412.3555](https://arxiv.org/abs/1412.3555))
-- Sequence to Sequence Learning with Neural Networks ([arXiv:1409.3215](https://arxiv.org/abs/1409.3215))
-- Neural Machine Translation by Jointly Learning to Align and Translate ([arXiv:1409.0473](https://arxiv.org/abs/1409.0473))
-- Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation ([arXiv:1406.1078](https://arxiv.org/abs/1406.1078))
-- Generating Sequences With Recurrent Neural Networks ([arXiv:1308.0850](https://arxiv.org/abs/1308.0850))
--  ([arXiv:Fast and Accurate Shift-Reduce Constituent Parsing](https://arxiv.org/abs/Fast and Accurate Shift-Reduce Constituent Parsing))
--  ([arXiv:Self-Training PCFG Grammars with Latent Annotations Across Languages](https://arxiv.org/abs/Self-Training PCFG Grammars with Latent Annotations Across Languages))
--  ([arXiv:Learning Accurate, Compact, and Interpretable Tree Annotation](https://arxiv.org/abs/Learning Accurate, Compact, and Interpretable Tree Annotation))
--  ([arXiv:Effective Self-Training for Parsing](https://arxiv.org/abs/Effective Self-Training for Parsing))
--  ([arXiv:Long Short-Term Memory](https://arxiv.org/abs/Long Short-Term Memory))
--  ([arXiv:Building a Large Annotated Corpus of English: The Penn Treebank](https://arxiv.org/abs/Building a Large Annotated Corpus of English: The Penn Treebank))
--  ([arXiv:Ankur Parikh , Oscar Täckström , Dipanjan Das , and Jakob Uszkoreit . A decomposable attention model](https://arxiv.org/abs/Ankur Parikh , Oscar Täckström , Dipanjan Das , and Jakob Uszkoreit . A decomposable attention model))
--  ([arXiv:Dropout: a simple way to prevent neural networks from overfitting](https://arxiv.org/abs/Dropout: a simple way to prevent neural networks from overfitting))
--  ([arXiv:Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies](https://arxiv.org/abs/Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies))
--  ([arXiv:Le , Ilya Sutskever , Oriol Vinyals , and Lukasz Kaiser . Multitask sequence to sequence learning](https://arxiv.org/abs/Le , Ilya Sutskever , Oriol Vinyals , and Lukasz Kaiser . Multitask sequence to sequence learning))
+- End-To-End Memory Networks
+- [Grammar as a Foreign Language](https://arxiv.org/abs/1412.7449)
+- [Adam: A Method for Stochastic Optimization](https://arxiv.org/abs/1412.6980)
+- [Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling](https://arxiv.org/abs/1412.3555)
+- [Sequence to Sequence Learning with Neural Networks](https://arxiv.org/abs/1409.3215)
+- [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
+- [Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation](https://arxiv.org/abs/1406.1078)
+- [Generating Sequences With Recurrent Neural Networks](https://arxiv.org/abs/1308.0850)
+- Fast and Accurate Shift-Reduce Constituent Parsing
+- Self-Training PCFG Grammars with Latent Annotations Across Languages
+- Learning Accurate, Compact, and Interpretable Tree Annotation
+- Effective Self-Training for Parsing
+- Long Short-Term Memory
+- Building a Large Annotated Corpus of English: The Penn Treebank
+- Ankur Parikh , Oscar Täckström , Dipanjan Das , and Jakob Uszkoreit . A decomposable attention model
+- Dropout: a simple way to prevent neural networks from overfitting
+- Gradient Flow in Recurrent Nets: the Difficulty of Learning Long-Term Dependencies
+- Le , Ilya Sutskever , Oriol Vinyals , and Lukasz Kaiser . Multitask sequence to sequence learning
 
 ## 被引用 (citations)
 
-- A Latent ODE Approach to Spatiotemporal Modeling of Cine Cardiac MRI ([arXiv:2606.26718](https://arxiv.org/abs/2606.26718))
-- Heterogeneous Neural Predictivity from Language Models During Naturalistic Comprehension ([arXiv:2606.26880](https://arxiv.org/abs/2606.26880))
-- How Good Can Linear Models Be for Time-Series Forecasting? ([arXiv:2606.27282](https://arxiv.org/abs/2606.27282))
-- SubdivAR: Autoregressive Next-Scale Prediction for Neural Mesh Subdivision ([arXiv:2606.27088](https://arxiv.org/abs/2606.27088))
-- An Empirical Study of LLM-Generated Specifications for VeriFast ([arXiv:2606.26490](https://arxiv.org/abs/2606.26490))
-- Information-Aware KV Cache Compression for Long Reasoning ([arXiv:2606.26875](https://arxiv.org/abs/2606.26875))
-- An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction ([arXiv:2606.26760](https://arxiv.org/abs/2606.26760))
-- Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure ([arXiv:2606.26588](https://arxiv.org/abs/2606.26588))
-- Forget, Anticipate and Adapt: Test Time Training for Long Videos ([arXiv:2606.26515](https://arxiv.org/abs/2606.26515))
-- CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention ([arXiv:2606.27229](https://arxiv.org/abs/2606.27229))
-- Erase-then-Delta Attention: Decoupling Erase and Write Addresses in Delta-Rule Linear Attention ([arXiv:2606.26560](https://arxiv.org/abs/2606.26560))
-- Efficient Remote Sensing Instance Segmentation With Linear-Time State-Space-Distilled Visual Foundation Models ([arXiv:2606.25324](https://arxiv.org/abs/2606.25324))
-- General Techniques for Reducing Key-Switching Overhead in Privacy-Preserving Two-Party Transformer Inference ([arXiv:2606.25349](https://arxiv.org/abs/2606.25349))
-- The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models ([arXiv:2606.25610](https://arxiv.org/abs/2606.25610))
-- Retrieval-Grounded Multilingual LLM Assistance for Island Smallholder Farmers ([arXiv:2606.25647](https://arxiv.org/abs/2606.25647))
-- Dataset Usage Inference without Shadow Models or Held-out Data ([arXiv:2606.26257](https://arxiv.org/abs/2606.26257))
-- Semantic Code Clone Detection: Are We There Yet? ([arXiv:2606.25272](https://arxiv.org/abs/2606.25272))
-- MRI2Rep: Autoregressive Structured Report Generation for 3D Liver MRI ([arXiv:2606.25279](https://arxiv.org/abs/2606.25279))
-- Data-driven Machine Learning Cannot Reach Symbolic-level Logical Reasoning -- The Limit of the Scaling Law ([arXiv:2606.26454](https://arxiv.org/abs/2606.26454))
-- REViT: Roto-reflection Equivariant Convolutional Vision Transformer ([arXiv:2606.25318](https://arxiv.org/abs/2606.25318))
-- SOLAR: AI-Powered Speed-of-Light Performance Analysis ([arXiv:2606.26383](https://arxiv.org/abs/2606.26383))
-- Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries ([arXiv:2606.26021](https://arxiv.org/abs/2606.26021))
-- PORTER: Language-Grounded Event Representations for Portable Structured EHR Foundation Models ([arXiv:2606.24102](https://arxiv.org/abs/2606.24102))
-- A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic ([arXiv:2606.24086](https://arxiv.org/abs/2606.24086))
-- Transformer-Based Language Models Across Domain Verticals: Architectures, Applications and Critical Assessment ([arXiv:2606.24331](https://arxiv.org/abs/2606.24331))
-- Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control ([arXiv:2606.25136](https://arxiv.org/abs/2606.25136))
-- Uncertainty-Aware Longitudinal Forecasting of Alzheimer's Disease Progression Using Deep Learning ([arXiv:2606.24604](https://arxiv.org/abs/2606.24604))
-- DREAM: Dense Retrieval Embeddings via Autoregressive Modeling ([arXiv:2606.24667](https://arxiv.org/abs/2606.24667))
-- Tri-Efficient Transfer Learning for Point Cloud Videos ([arXiv:2606.24175](https://arxiv.org/abs/2606.24175))
-- Can Scale Save Us From Plasticity Loss in Large Language Models? ([arXiv:2606.24752](https://arxiv.org/abs/2606.24752))
-- Grad Detect: Gradient-Based Hallucination Detection in LLMs ([arXiv:2606.24790](https://arxiv.org/abs/2606.24790))
-- WiWorld-RealData: A Real-World Multi-Modal Dataset for 6G Wireless World Models ([arXiv:2606.24476](https://arxiv.org/abs/2606.24476))
-- Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation ([arXiv:2606.22982](https://arxiv.org/abs/2606.22982))
-- Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction ([arXiv:2606.23058](https://arxiv.org/abs/2606.23058))
-- Interpretable Kolmogorov-Arnold Network with Feature-Isolated Temporal Attention Mechanism for Electricity Load Forecasting ([arXiv:2606.23425](https://arxiv.org/abs/2606.23425))
-- A Generative Model for Closed-Loop Microsimulation of Signalized Intersections ([arXiv:2606.23588](https://arxiv.org/abs/2606.23588))
-- On the Effect of Segmentation Width and Cluster Size on Speech Resynthesis and Continuation in Generative Spoken Language Models ([arXiv:2606.23285](https://arxiv.org/abs/2606.23285))
-- Real-Time Multimodal Activity-Aware Error Detection in Robot-Assisted Surgery ([arXiv:2606.23593](https://arxiv.org/abs/2606.23593))
-- Enhancing Protein Representation Learning via Manifold Restore Mixing ([arXiv:2606.22307](https://arxiv.org/abs/2606.22307))
-- RigorBench: Benchmarking Engineering Process Discipline in Autonomous AI Coding Agents ([arXiv:2606.22678](https://arxiv.org/abs/2606.22678))
-- ATCCaps: A Call-Sign-Aware Speech Dataset for Air Traffic Control Recognition ([arXiv:2606.22399](https://arxiv.org/abs/2606.22399))
-- SCENIC: Semantic-Conditioned Edge-Aware Neural Framework for Structured IoT Command Generation ([arXiv:2606.22296](https://arxiv.org/abs/2606.22296))
-- Adaptive Recurrent Message Passing for Test Time Computing on Graphs ([arXiv:2606.22462](https://arxiv.org/abs/2606.22462))
-- Drowning in Routine: Signal Dilution in Multi-Turn Agent Training ([arXiv:2606.22164](https://arxiv.org/abs/2606.22164))
-- Astrobiology in the Time of Artificial Intelligence. ([arXiv:2606.23854](https://arxiv.org/abs/2606.23854))
-- SamatNext v0.2-B: An Exploratory Study of RMS-Normalized Hybrid Decoders for Curriculum Retention in Small Code Models ([arXiv:2606.22248](https://arxiv.org/abs/2606.22248))
-- Learning a Normal World Model for Few-Shot Boundary-Calibrated Abnormality Detection ([arXiv:2606.22261](https://arxiv.org/abs/2606.22261))
-- Denoising-Enhanced Coarse-to-Fine Infrared Small Target Detection with Attention Prior-Guided Knowledge Distillation ([arXiv:2606.21956](https://arxiv.org/abs/2606.21956))
-- From Handcrafted Features to Functional Edge Learning: Evolution of EEG Seizure Detection Frameworks ([arXiv:2606.22258](https://arxiv.org/abs/2606.22258))
-- Cohort-Anchored Foundation Models for Electronic Health Records: From Risk Scores to Auditable Peer Cohorts ([arXiv:2606.21885](https://arxiv.org/abs/2606.21885))
-- A Controlled Study of CLIP-Based Body-Scene Fusion for Emotion Recognition in Context ([arXiv:2606.22072](https://arxiv.org/abs/2606.22072))
-- SOHET: Sequence Of Heterogeneous Events Transformer with Self-Supervised Pre-Training ([arXiv:2606.21356](https://arxiv.org/abs/2606.21356))
-- LIG: Layer-wise Integrated Gradients for Within-Layer Flow Analysis in Transformers ([arXiv:2606.21564](https://arxiv.org/abs/2606.21564))
-- Demographic Metadata as Construct-Irrelevant Noise in DistilBERT-Based Automated Essay Scoring ([arXiv:2606.21066](https://arxiv.org/abs/2606.21066))
-- An Empirical Study of OpenPangu Quantization on Ascend NPUs ([arXiv:2606.21257](https://arxiv.org/abs/2606.21257))
-- VT-DUDA: Visual Token Conditioning for Diffusion-guided Unsupervised Domain Adaptation ([arXiv:2606.21700](https://arxiv.org/abs/2606.21700))
-- NAC: Neural Action Codec for Vision-Language-Action Models ([arXiv:2606.21372](https://arxiv.org/abs/2606.21372))
-- SCOPE: Scale-Consistent One-Pass Estimation of 3D Geometry ([arXiv:2606.21300](https://arxiv.org/abs/2606.21300))
-- Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion ([arXiv:2606.21135](https://arxiv.org/abs/2606.21135))
-- Graph-of-Differences: Anatomy-Structured Difference Alignment for Medical Image Re-Identification ([arXiv:2606.21368](https://arxiv.org/abs/2606.21368))
-- AutoRAS: Learning Robust Agentic Systems with Primitive Representations ([arXiv:2606.21445](https://arxiv.org/abs/2606.21445))
-- Context-Aware Autoregressive Diffusion for Gloss-Wise Sign Language Production ([arXiv:2606.21234](https://arxiv.org/abs/2606.21234))
-- ImProNCDE: Impulse-Corrected Neural Controlled Differential Equations with Prototype Learning for Longitudinal Prognosis Prediction ([arXiv:2606.19680](https://arxiv.org/abs/2606.19680))
-- PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors ([arXiv:2606.20137](https://arxiv.org/abs/2606.20137))
-- How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech ([arXiv:2606.20532](https://arxiv.org/abs/2606.20532))
-- FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS ([arXiv:2606.20518](https://arxiv.org/abs/2606.20518))
-- Adversarial observations in probabilistic State-Space Models for robust Reinforcement Learning ([arXiv:2606.20880](https://arxiv.org/abs/2606.20880))
-- PSCT-Net: Geometry-Aware Pediatric Skull CT Reconstruction via Differentiable Back-Projection and Attention-Guided Refinement ([arXiv:2606.19867](https://arxiv.org/abs/2606.19867))
-- Kolmogorov-Arnold Reservoir Computing ([arXiv:2606.19984](https://arxiv.org/abs/2606.19984))
-- SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation ([arXiv:2606.20543](https://arxiv.org/abs/2606.20543))
-- Language-Instructed Vision Embeddings for Controllable and Generalizable Perception ([arXiv:2606.19584](https://arxiv.org/abs/2606.19584))
-- Dual Dimensionality for Local and Global Attention ([arXiv:2606.18587](https://arxiv.org/abs/2606.18587))
-- Diffusion Language Models: An Experimental Analysis ([arXiv:2606.19475](https://arxiv.org/abs/2606.19475))
-- A Unified Framework for Efficient Remote Sensing Visual Question Answering: Adapting Dual, Hybrid, and Encoder-Decoder Architectures ([arXiv:2606.19277](https://arxiv.org/abs/2606.19277))
-- FoMoE: Breaking the Full-Replica Barrier with a Federation of MoEs ([arXiv:2606.19025](https://arxiv.org/abs/2606.19025))
-- Investigating Inductive Biases for Machine Learning Emulation of Sudden Stratospheric Warmings in Idealised Isca Simulations ([arXiv:2606.18857](https://arxiv.org/abs/2606.18857))
-- S-JEPA : Soft Clustering Anchors for Self-Supervised Speech Representation Learning ([arXiv:2606.19398](https://arxiv.org/abs/2606.19398))
-- Leveraging Energy Features for Surface Classification with Deep Learning: A Comparative Analysis Across Three Independent Datasets ([arXiv:2606.18698](https://arxiv.org/abs/2606.18698))
-- Reinforcement Learning Foundation Models Should Already Be A Thing ([arXiv:2606.18812](https://arxiv.org/abs/2606.18812))
-- A Hybrid LSTM--Vision Transformer Architecture for Predicting HRRR Forecast Errors ([arXiv:2606.19026](https://arxiv.org/abs/2606.19026))
-- Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications ([arXiv:2606.18673](https://arxiv.org/abs/2606.18673))
-- Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance ([arXiv:2606.19195](https://arxiv.org/abs/2606.19195))
-- The Market in the Model: Latent Diffusion as Neural Economy ([arXiv:2606.19151](https://arxiv.org/abs/2606.19151))
-- Patnaik-Pearson intrinsic dimension for internal representations of neural networks ([arXiv:2606.19268](https://arxiv.org/abs/2606.19268))
-- UniTemp: Unlocking Video Generation in Any Temporal Order via Bidirectional Distillation ([arXiv:2606.18702](https://arxiv.org/abs/2606.18702))
-- Clinically Aligned Geometry Constraints for Robust IVUS Vessel Boundary Segmentation ([arXiv:2606.18723](https://arxiv.org/abs/2606.18723))
-- Complementary Attention Head Pruning for Efficient Transformers ([arXiv:2606.19150](https://arxiv.org/abs/2606.19150))
-- MoCo-AIS: A Contrastive Learning Framework for Similarity Computation of Vessel Trajectories ([arXiv:2606.17978](https://arxiv.org/abs/2606.17978))
-- ASTEROID: A Spatiotemporal Information Transformer for Forecasting Multi-Step Time Series of Molecular Dynamics ([arXiv:2606.17668](https://arxiv.org/abs/2606.17668))
-- Delta-Based Target Reformulation for Short-Term Electricity Load Forecasting Using LSTM and Transformer Models ([arXiv:2606.17692](https://arxiv.org/abs/2606.17692))
-- Multiple cyclicity and Wavelet Decomposition with Channel Correlation for Long-term Time Series Forecasting ([arXiv:2606.17996](https://arxiv.org/abs/2606.17996))
-- An expressivity analysis of hierarchical modelling in deep transformers via bounded-depth grammars ([arXiv:2606.17522](https://arxiv.org/abs/2606.17522))
-- Geometry-Aware Post-Hoc Uncertainty Quantification in Operator Learning ([arXiv:2606.17513](https://arxiv.org/abs/2606.17513))
-- Learning Dynamics of Chain-of-Thought State Tracking in a Solvable Transformer Model ([arXiv:2606.18164](https://arxiv.org/abs/2606.18164))
-- GHOST-CAT: An Efficient and Practical Network for Mesh Generation from 3D Echocardiography ([arXiv:2606.18489](https://arxiv.org/abs/2606.18489))
-- Deep CSI Feedback for FDD Massive MIMO Systems: A Curvelet Learning Approach ([arXiv:2606.17737](https://arxiv.org/abs/2606.17737))
-- Better Queries, Cheaper Attention: Adapting Transformers for Efficient Sparse Reconstruction ([arXiv:2606.17631](https://arxiv.org/abs/2606.17631))
-- Heterogeneous SAR-optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset ([arXiv:2606.17713](https://arxiv.org/abs/2606.17713))
-- Latency Prediction for LLM Inference on NPU Systems ([arXiv:2606.18042](https://arxiv.org/abs/2606.18042))
-- Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks ([arXiv:2606.16178](https://arxiv.org/abs/2606.16178))
-- Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation ([arXiv:2606.16429](https://arxiv.org/abs/2606.16429))
-- SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning ([arXiv:2606.16400](https://arxiv.org/abs/2606.16400))
-- Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization ([arXiv:2606.16899](https://arxiv.org/abs/2606.16899))
-- LiFT: Local Search via Linear Programming for Overfitting-Controlled Transformers ([arXiv:2606.16243](https://arxiv.org/abs/2606.16243))
-- Your"Pro"LLM Subscription May Actually Be"Free": Exposing Fingerprint Spoofing Risks in LLM Inference Services ([arXiv:2606.16100](https://arxiv.org/abs/2606.16100))
-- KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing ([arXiv:2606.17034](https://arxiv.org/abs/2606.17034))
-- SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing ([arXiv:2606.16135](https://arxiv.org/abs/2606.16135))
-- Latent space mapping of interpretable structural coordinates from stochastic single-molecule signals ([arXiv:2606.16950](https://arxiv.org/abs/2606.16950))
-- A Perception vs. Distortion Perspective on Score-Based Generative Channel Estimation ([arXiv:2606.16815](https://arxiv.org/abs/2606.16815))
-- Redirecting the Flow: Image Customization through Attention Distribution Shift ([arXiv:2606.16866](https://arxiv.org/abs/2606.16866))
-- MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods ([arXiv:2606.16638](https://arxiv.org/abs/2606.16638))
-- Beyond the Smile: A Hybrid Convolutional VAE for Crypto Volatility Surfaces ([arXiv:2606.16961](https://arxiv.org/abs/2606.16961))
-- Evolution&Foundation: AI Shares Creative Control ([arXiv:2606.16849](https://arxiv.org/abs/2606.16849))
-- XL-ChannelDiff: An Efficient Diffusion-Based Multi-Domain Near-Field Channel Extrapolation Framework for XL-MIMO Systems ([arXiv:2606.16628](https://arxiv.org/abs/2606.16628))
-- OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation ([arXiv:2606.16838](https://arxiv.org/abs/2606.16838))
-- Communication-Efficient Verifiable Attention for LLM Inference ([arXiv:2606.16352](https://arxiv.org/abs/2606.16352))
-- Taming Curvature: Architecture Warm-Up for Stable Transformer Training ([arXiv:2606.16768](https://arxiv.org/abs/2606.16768))
-- Adaptive inference and function vectors in deep transformers ([arXiv:2606.16694](https://arxiv.org/abs/2606.16694))
-- Synergizing Global Pattern Learning and Time Order Characterization in Mobile Channel Prediction: An RWKV-Based Approach ([arXiv:2606.16170](https://arxiv.org/abs/2606.16170))
-- Robust Dual-Signal Fusion: Hybrid Neuro-Symbolic Gating with Compressed Chain-of-Thought Refinement for Irony Detection in Social Media Texts ([arXiv:2606.16845](https://arxiv.org/abs/2606.16845))
-- GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving ([arXiv:2606.16354](https://arxiv.org/abs/2606.16354))
-- How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations ([arXiv:2606.16973](https://arxiv.org/abs/2606.16973))
-- ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments ([arXiv:2606.16876](https://arxiv.org/abs/2606.16876))
-- PIANO: Personalized Reranking via Information Aggregation Node for Music Search Optimization ([arXiv:2606.16641](https://arxiv.org/abs/2606.16641))
-- MASCOT-Android: A Curated Dataset and Automated Collection Pipeline for Android Malware Source Code Specimens ([arXiv:2606.16072](https://arxiv.org/abs/2606.16072))
-- Privacy from Symmetry: Orthogonally Equivariant Transformers for LLM Inference ([arXiv:2606.16461](https://arxiv.org/abs/2606.16461))
-- Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset ([arXiv:2606.16479](https://arxiv.org/abs/2606.16479))
-- Calibrated Sampling-Free Uncertainty Estimation in Bayesian Deep Learning ([arXiv:2606.16214](https://arxiv.org/abs/2606.16214))
-- ROSA-RL: Uncertainty-Aware Roundabout Optimized Speed Advisory with Reinforcement Learning ([arXiv:2606.16558](https://arxiv.org/abs/2606.16558))
-- Physics-Informed Attention Mechanism and Generalization Capability of Deep Learning-Based Grain Growth Evolution Prediction ([arXiv:2606.17235](https://arxiv.org/abs/2606.17235))
-- Stop the Sampler! Classifier-Based Adaptive Stopping for Sampling Kernels ([arXiv:2606.16073](https://arxiv.org/abs/2606.16073))
-- Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition ([arXiv:2606.16539](https://arxiv.org/abs/2606.16539))
-- One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets ([arXiv:2606.15752](https://arxiv.org/abs/2606.15752))
-- Robust Transformer-Based One-Step Stock Index Forecasting via Shifted Data Augmentation ([arXiv:2606.15701](https://arxiv.org/abs/2606.15701))
-- ROMPAR: Morphological Completion and Demographic Unlearning for Romanian-Accented Speech Recognition ([arXiv:2606.15984](https://arxiv.org/abs/2606.15984))
-- IBAD: Interpretable Behavioral Anomaly Detection on Human Mobility Data ([arXiv:2606.16023](https://arxiv.org/abs/2606.16023))
-- A Text Recognition Dataset from Sahidic Coptic Ancient Manuscripts ([arXiv:2606.15987](https://arxiv.org/abs/2606.15987))
-- CEVAR: Centerline Embedding Extraction for Endovascular Aneurysm Repair ([arXiv:2606.15667](https://arxiv.org/abs/2606.15667))
-- Inference-Time Decision Calibration for Temporal Classification ([arXiv:2606.16034](https://arxiv.org/abs/2606.16034))
-- AQ4SViT: An Automated Quantization Framework with Search Gating Policy for Compressing Spiking Vision Transformers ([arXiv:2606.15523](https://arxiv.org/abs/2606.15523))
-- Robots as Tokens: Unified Diffusion Transformer for Coordinated Multi-Robot Trajectory Generation ([arXiv:2606.15550](https://arxiv.org/abs/2606.15550))
-- Schattor: Schatten-family methods for deep learning optimization ([arXiv:2606.15702](https://arxiv.org/abs/2606.15702))
-- Amortized mean-shift interacting particles ([arXiv:2606.15871](https://arxiv.org/abs/2606.15871))
-- Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation ([arXiv:2606.15837](https://arxiv.org/abs/2606.15837))
-- SparseCol: A 1320 BTOPS/W Precision-Scalable NPU Exploiting Training-Free Structured Bit-Level Sparsity and Dynamic Dataflow ([arXiv:2606.16016](https://arxiv.org/abs/2606.16016))
-- Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility ([arXiv:2606.15251](https://arxiv.org/abs/2606.15251))
-- Seam-to-Graph Reconstruction for Garment Configuration Alignment ([arXiv:2606.15171](https://arxiv.org/abs/2606.15171))
-- Coordinated Scheduling for MoE LLM Serving ([arXiv:2606.15177](https://arxiv.org/abs/2606.15177))
-- Generative modelling powered by room-temperature polariton condensates ([arXiv:2606.15344](https://arxiv.org/abs/2606.15344))
-- HiRo: A Compact Four-Directional Hierarchical Reservoir Token-Mixer for Efficient Image Classification ([arXiv:2606.15151](https://arxiv.org/abs/2606.15151))
-- Adaptive Resource Management and Quality Control for Streaming Video Generation ([arXiv:2606.15319](https://arxiv.org/abs/2606.15319))
-- Text-Driven Fusion for Infrared and Visible Images: Achieving Image Scene Adaptation on Hyperbolic Space ([arXiv:2606.15104](https://arxiv.org/abs/2606.15104))
-- MotionVLA: Vision-Language-Action Model for Humanoid Motion ([arXiv:2606.15142](https://arxiv.org/abs/2606.15142))
-- A Transformer-Based Mixture-of-Experts Framework for False Data Injection Attack Detection and Localization ([arXiv:2606.15005](https://arxiv.org/abs/2606.15005))
-- Leveraging Physiological Signals to Predict Exam Outcomes with Machine Learning ([arXiv:2606.14960](https://arxiv.org/abs/2606.14960))
-- Context-Guided Semantic Alignment for Feature Fusion Networks ([arXiv:2606.14005](https://arxiv.org/abs/2606.14005))
-- ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation ([arXiv:2606.14260](https://arxiv.org/abs/2606.14260))
-- Fodor and Pylyshyn's Systematicity Challenge Still Stands ([arXiv:2606.14512](https://arxiv.org/abs/2606.14512))
-- One Layer's Trash is Another Layer's Treasure: Adaptive Layer-wise Visual Token Selection in LVLMs ([arXiv:2606.14277](https://arxiv.org/abs/2606.14277))
-- Agon: A Semi-Supervised Framework for Robust Satellite Interference Detection ([arXiv:2606.14147](https://arxiv.org/abs/2606.14147))
-- DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation ([arXiv:2606.14192](https://arxiv.org/abs/2606.14192))
-- Design Methodology and Performance Trade-offs Management for Distributed and Compound AI Systems ([arXiv:2606.14350](https://arxiv.org/abs/2606.14350))
-- ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation ([arXiv:2606.14255](https://arxiv.org/abs/2606.14255))
-- Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling ([arXiv:2606.14047](https://arxiv.org/abs/2606.14047))
-- From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving ([arXiv:2606.14032](https://arxiv.org/abs/2606.14032))
-- Spectrum Aware Illumination Estimation Using Multispectral Image ([arXiv:2606.14248](https://arxiv.org/abs/2606.14248))
-- Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback ([arXiv:2606.14218](https://arxiv.org/abs/2606.14218))
-- FAConformer: Frequency-Aware Convolutional Transformer for Auditory Attention Decoding ([arXiv:2606.14120](https://arxiv.org/abs/2606.14120))
-- Digital Twin-Based Channel Generation Toolchain and Foundation Model for Low-Altitude XL-MIMO ([arXiv:2606.14114](https://arxiv.org/abs/2606.14114))
-- Abstracting Cross-Domain Action Sequences into Interpretable Workflows ([arXiv:2606.14654](https://arxiv.org/abs/2606.14654))
-- A Comparative Study of Deep Learning Architectures for Multi-Horizon Behavioural Forecasting for Mobile Health ([arXiv:2606.14604](https://arxiv.org/abs/2606.14604))
-- PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion ([arXiv:2606.14510](https://arxiv.org/abs/2606.14510))
-- A theoretical model for task routing in mixture-of-expert transformers ([arXiv:2606.14398](https://arxiv.org/abs/2606.14398))
-- Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control ([arXiv:2606.14699](https://arxiv.org/abs/2606.14699))
-- Zero-shot generalization of transformer neural operators to larger domains ([arXiv:2606.14597](https://arxiv.org/abs/2606.14597))
-- TRACE: Trajectory-Routed Causal Memory for Delayed-Evidence Visuomotor Imitation ([arXiv:2606.14551](https://arxiv.org/abs/2606.14551))
-- RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers ([arXiv:2606.14701](https://arxiv.org/abs/2606.14701))
-- Deep Temporal Modeling and Ensemble Fusion for Multimodal Emotion Recognition from Physiological Signals ([arXiv:2606.15026](https://arxiv.org/abs/2606.15026))
-- Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking ([arXiv:2606.14841](https://arxiv.org/abs/2606.14841))
-- Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts ([arXiv:2606.14929](https://arxiv.org/abs/2606.14929))
-- An Attention-based Model for Robust Forecasting with Missing Modality ([arXiv:2606.13970](https://arxiv.org/abs/2606.13970))
-- Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition ([arXiv:2606.13379](https://arxiv.org/abs/2606.13379))
-- Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance ([arXiv:2606.13172](https://arxiv.org/abs/2606.13172))
-- Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints ([arXiv:2606.13211](https://arxiv.org/abs/2606.13211))
-- Endpoint Anticipation for Low-Latency Spoken Dialogue ([arXiv:2606.13450](https://arxiv.org/abs/2606.13450))
-- From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation ([arXiv:2606.13630](https://arxiv.org/abs/2606.13630))
-- Camera and LiDAR BEV Fusion for Cooperative 3D Object Detection on TUMTraf V2X ([arXiv:2606.12981](https://arxiv.org/abs/2606.12981))
-- LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning ([arXiv:2606.12895](https://arxiv.org/abs/2606.12895))
-- Continuum Neural Momentum Eigenstate for Variationally Solving Quasiparticles ([arXiv:2606.12928](https://arxiv.org/abs/2606.12928))
-- Why Sampling Is Not Choosing: Intentionality, Agency, and Moral Responsibility in Large Language Models ([arXiv:2606.13441](https://arxiv.org/abs/2606.13441))
-- CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation ([arXiv:2606.13513](https://arxiv.org/abs/2606.13513))
-- EPM-JEPA: Operator-Side Experience Modulation in JEPA-Family World Models ([arXiv:2606.12979](https://arxiv.org/abs/2606.12979))
-- LoRA-Muon: Spectral Steepest Descent on the Low-Rank Manifold ([arXiv:2606.12921](https://arxiv.org/abs/2606.12921))
-- FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation ([arXiv:2606.13102](https://arxiv.org/abs/2606.13102))
-- HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents ([arXiv:2606.13663](https://arxiv.org/abs/2606.13663))
-- Layer-Resolved Optimal Transport for Hallucination Detection in NMT and Abstractive Summarization ([arXiv:2606.13216](https://arxiv.org/abs/2606.13216))
-- Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization ([arXiv:2606.13276](https://arxiv.org/abs/2606.13276))
-- A Tutorial on World Models and Physical AI ([arXiv:2606.12783](https://arxiv.org/abs/2606.12783))
-- Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics ([arXiv:2606.12828](https://arxiv.org/abs/2606.12828))
-- Understanding helpfulness and harmless tension in reward models ([arXiv:2606.13209](https://arxiv.org/abs/2606.13209))
-- Attention-Based Estimation of the Individual Treatment Benefit Probability under Dose Variation ([arXiv:2606.13821](https://arxiv.org/abs/2606.13821))
-- A fully GPU-based workflow for building physics emulators of hypersonic flows ([arXiv:2606.13742](https://arxiv.org/abs/2606.13742))
-- CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation ([arXiv:2606.13768](https://arxiv.org/abs/2606.13768))
-- Explaining RhythmFormer: A Systematic XAI Analysis of Periodic Sparse Attention for Remote Photoplethysmography ([arXiv:2606.13839](https://arxiv.org/abs/2606.13839))
-- BigPower: Hierarchical Source-Level Module Power Estimation for CPUs with Large Language Models ([arXiv:2606.13747](https://arxiv.org/abs/2606.13747))
-- Beyond LoRA: Is Sparsity-Induced Adaptation Better? ([arXiv:2606.13767](https://arxiv.org/abs/2606.13767))
-- CaricHarmony: Contrastive Diffusion Paths for Identity-Preserving Caricature Synthesis ([arXiv:2606.13964](https://arxiv.org/abs/2606.13964))
-- Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization ([arXiv:2606.13796](https://arxiv.org/abs/2606.13796))
-- Refusal Beyond a Single Direction: A Preliminary Comparison of Diff-in-Means and INLP ([arXiv:2606.13720](https://arxiv.org/abs/2606.13720))
-- Compressing Image Style Training into a Single Model Forward ([arXiv:2606.13809](https://arxiv.org/abs/2606.13809))
-- From Physics to Representation: Audio Learning with Synthetic Pre-training via Procedural Generation ([arXiv:2606.14791](https://arxiv.org/abs/2606.14791))
-- PAWS: Preference Learning with Advantage-Weighted Segments ([arXiv:2606.11982](https://arxiv.org/abs/2606.11982))
-- Higher-Order Token Interactions via Quantum Attention ([arXiv:2606.11673](https://arxiv.org/abs/2606.11673))
-- Fast Speech Foundation Model Distillation Using Interleaved Stacking ([arXiv:2606.11766](https://arxiv.org/abs/2606.11766))
-- Time-Series Foundation Model Embeddings for Remaining Useful Life Estimation ([arXiv:2606.11990](https://arxiv.org/abs/2606.11990))
-- Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration ([arXiv:2606.12374](https://arxiv.org/abs/2606.12374))
-- VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detectio ([arXiv:2606.11546](https://arxiv.org/abs/2606.11546))
-- Enhancing LLM-Based Code Translation with Verified Multi-Semantic Representations ([arXiv:2606.11863](https://arxiv.org/abs/2606.11863))
-- Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment ([arXiv:2606.11672](https://arxiv.org/abs/2606.11672))
-- On the Limits of LLM-as-Judge for Scientific Novelty Assessment ([arXiv:2606.12071](https://arxiv.org/abs/2606.12071))
-- Time Series Analysis in Machine Learning ([arXiv:2606.11746](https://arxiv.org/abs/2606.11746))
-- ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation ([arXiv:2606.12633](https://arxiv.org/abs/2606.12633))
-- Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning ([arXiv:2606.11634](https://arxiv.org/abs/2606.11634))
-- Detecting Sensitive Personal Information in Japanese Pre-Training Corpora for Large Language Models ([arXiv:2606.12114](https://arxiv.org/abs/2606.12114))
-- Net-Ev$^2$: A Generative Simulator for Network Event Evolution ([arXiv:2606.12494](https://arxiv.org/abs/2606.12494))
-- TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation ([arXiv:2606.12657](https://arxiv.org/abs/2606.12657))
-- Acoda: Adversarial Code Obfuscation for Defending against LLM-based Analysis ([arXiv:2606.11755](https://arxiv.org/abs/2606.11755))
-- Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay ([arXiv:2606.11786](https://arxiv.org/abs/2606.11786))
-- Action-Effect Memory Pretraining for Robot Manipulation ([arXiv:2606.12499](https://arxiv.org/abs/2606.12499))
-- Attention by Synchronization in Coupled Oscillator Networks ([arXiv:2606.12059](https://arxiv.org/abs/2606.12059))
-- Slots, Transitions, Loops: Learning Composable World Models for ARC ([arXiv:2606.12316](https://arxiv.org/abs/2606.12316))
-- Missing-Token Prompted Reliability-Aware Fusion for Robust Polyglot Speaker Identification ([arXiv:2606.12495](https://arxiv.org/abs/2606.12495))
-- On Subquadratic Architectures: From Applications to Principles ([arXiv:2606.12364](https://arxiv.org/abs/2606.12364))
-- DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace ([arXiv:2606.11687](https://arxiv.org/abs/2606.11687))
-- MultiToP: Learning to Patch Visual Tokens to Mitigate Hallucinations in Video Large Multimodal Models ([arXiv:2606.11792](https://arxiv.org/abs/2606.11792))
-- Learning Instance-Adaptive Low-Rank Orthogonal Subspaces for Clothes-Changing Person Re-Identification ([arXiv:2606.11661](https://arxiv.org/abs/2606.11661))
-- Boltzmann Attention: Learnable Ising Couplings for Cooperative Attention ([arXiv:2606.12478](https://arxiv.org/abs/2606.12478))
-- Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges ([arXiv:2606.11589](https://arxiv.org/abs/2606.11589))
-- Pretrained self-supervised speech models can recognize unseen consonants ([arXiv:2606.11542](https://arxiv.org/abs/2606.11542))
-- UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction ([arXiv:2606.11681](https://arxiv.org/abs/2606.11681))
-- Kuramoto Attention: Synchronizing Self-Attention on the Torus ([arXiv:2606.11585](https://arxiv.org/abs/2606.11585))
-- Finding Sparse Subnetworks in One Training Cycle via Progressive Magnitude-Based Pruning ([arXiv:2606.12278](https://arxiv.org/abs/2606.12278))
-- SpikeDecoder: Realizing the GPT Architecture with Spiking Neural Networks ([arXiv:2606.12287](https://arxiv.org/abs/2606.12287))
-- When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models ([arXiv:2606.11906](https://arxiv.org/abs/2606.11906))
-- ConsistencyPlanner: Real-time Planning with Fast-Sampling Consistency Models ([arXiv:2606.11569](https://arxiv.org/abs/2606.11569))
-- Physics-Distilled Neural Network enabled by Large Language Models for Manufacturing Process-Property Predictive Modeling ([arXiv:2606.11605](https://arxiv.org/abs/2606.11605))
-- KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility ([arXiv:2606.12042](https://arxiv.org/abs/2606.12042))
-- Jaguar: Fast Private CNN Inference with Power-of-Two Homomorphic Arithmetic ([arXiv:2606.11827](https://arxiv.org/abs/2606.11827))
-- STCC: A Unified Source-Channel Semantic Token Coding Framework for Semantic Communications ([arXiv:2606.11819](https://arxiv.org/abs/2606.11819))
-- VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving ([arXiv:2606.12396](https://arxiv.org/abs/2606.12396))
-- Wavelet-Based Extraction of Transient Noise in Gravitational-Wave Interferometers using a Saliency-Guided Learning Architecture ([arXiv:2606.11595](https://arxiv.org/abs/2606.11595))
-- Unified KV Pooling to Accelerate Long-Context LLM Serving ([arXiv:2606.14779](https://arxiv.org/abs/2606.14779))
-- Flaws in the LLM Automation Narrative ([arXiv:2606.11166](https://arxiv.org/abs/2606.11166))
-- Context-Aware Multimodal Claim Verification in Spoken Dialogues ([arXiv:2606.11420](https://arxiv.org/abs/2606.11420))
-- Boosting ECG Classification Performance by Pre-training with Synthesized Data ([arXiv:2606.10802](https://arxiv.org/abs/2606.10802))
-- Toward Proactive RF Charging Scheduling: Generative AI for Decision Support ([arXiv:2606.10600](https://arxiv.org/abs/2606.10600))
-- COGENT: Continuous Graph Emulators with Neural Ordinary Differential Equations for Long-Term Physical Forecasting ([arXiv:2606.11162](https://arxiv.org/abs/2606.11162))
-- HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning ([arXiv:2606.10507](https://arxiv.org/abs/2606.10507))
-- One Step Closer to Ground Truth: A Multi-Scale Residual-Aware Representation Learning Pipeline for Predicting Time Series Data ([arXiv:2606.10678](https://arxiv.org/abs/2606.10678))
-- Geometry-Aware Reinforcement Learning for 2D Irregular Nesting ([arXiv:2606.10611](https://arxiv.org/abs/2606.10611))
-- Unifying Data, Memory, and Compute Efficiency in LLM training: A Survey ([arXiv:2606.10706](https://arxiv.org/abs/2606.10706))
-- Beyond Model Size: Probing the Gaps in Visual in-Context Learning by Training a Tiny Model ([arXiv:2606.10905](https://arxiv.org/abs/2606.10905))
-- Continual LLM Upcycling: A Predictor-Gated Bank-Wise Sparsity Training Recipe for Dense-to-Sparse LLMs ([arXiv:2606.10722](https://arxiv.org/abs/2606.10722))
-- A Mean-Field Analysis of Multi-Head Self-Attention under Cross-Entropy Training ([arXiv:2606.10469](https://arxiv.org/abs/2606.10469))
-- RATrain: A Resource-Aware Training Runtime for Large Language Models on Bandwidth-Constrained Heterogeneous Supercomputing Platforms ([arXiv:2606.10415](https://arxiv.org/abs/2606.10415))
-- Towards Critical Branching Mechanism in Recurrent Neural Networks ([arXiv:2606.10384](https://arxiv.org/abs/2606.10384))
-- Routing-Aware Expert Calibration for Machine Unlearning in Mixture-of-Experts Language Models ([arXiv:2606.10338](https://arxiv.org/abs/2606.10338))
-- Baseline-Free Policy Optimization for Neural Combinatorial Optimization ([arXiv:2606.10321](https://arxiv.org/abs/2606.10321))
-- Towards Robust Arabic Speech Emotion Recognition with Deep Learning ([arXiv:2606.10278](https://arxiv.org/abs/2606.10278))
-- Do Transformers Actually Help Intrusion Detection? A Temporal Sequence Evaluation on CIC-IDS2017 ([arXiv:2606.11098](https://arxiv.org/abs/2606.11098))
-- A Multimodal Domain-Adversarial Network for Fragmentation Background Suppression in AMS Heavy Nuclei Measurements ([arXiv:2606.10637](https://arxiv.org/abs/2606.10637))
-- Express Language Modeling ([arXiv:2606.10944](https://arxiv.org/abs/2606.10944))
-- RAT: Reference-Augmented Training for ASV Anti-Spoofing ([arXiv:2606.10908](https://arxiv.org/abs/2606.10908))
-- MIRAGE: A Polarity-Flipping Encoding Subspace in LLM Agents ([arXiv:2606.10304](https://arxiv.org/abs/2606.10304))
-- TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation ([arXiv:2606.11184](https://arxiv.org/abs/2606.11184))
-- Free Parametrization of L_2-Bounded Structured State-Space Controllers for Nonlinear Control with Stability Guarantees ([arXiv:2606.11049](https://arxiv.org/abs/2606.11049))
-- CITRAS-FM: Tiny Time Series Foundation Model for Covariate-Informed Zero-Shot Forecasting ([arXiv:2606.10798](https://arxiv.org/abs/2606.10798))
-- Attention Expansion: Enhancing Keyphrase Extraction from Long Documents with Attention-Augmented Contextualized Embeddings ([arXiv:2606.10716](https://arxiv.org/abs/2606.10716))
-- Speech Encoder Fusion for LLM-based Automatic Speech Recognition ([arXiv:2606.10853](https://arxiv.org/abs/2606.10853))
-- Parallel Causal Associative Fields: Gated Sparse Memory for Long-Context Language Modeling ([arXiv:2606.10435](https://arxiv.org/abs/2606.10435))
-- K-Forcing: Joint Next-K-Token Decoding via Push-Forward Language Modeling ([arXiv:2606.10820](https://arxiv.org/abs/2606.10820))
-- OmniLoc: A Geometry-Aware Foundation Model for Anchor-Free UE Localization Across Diverse Indoor Environments ([arXiv:2606.11490](https://arxiv.org/abs/2606.11490))
-- GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction ([arXiv:2606.11382](https://arxiv.org/abs/2606.11382))
-- Probabilistic Contrastive Pretraining for Multi-task ADME Property Prediction ([arXiv:2606.11508](https://arxiv.org/abs/2606.11508))
-- Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor ([arXiv:2606.11464](https://arxiv.org/abs/2606.11464))
-- Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models ([arXiv:2606.11409](https://arxiv.org/abs/2606.11409))
-- RoVE: Rotary Value Embeddings Attention for Relative Position-dependent Value Pathways ([arXiv:2606.11275](https://arxiv.org/abs/2606.11275))
-- LEAP: A Rapid Neural Surrogate of Multi-Fluid MHD at Europa ([arXiv:2606.10215](https://arxiv.org/abs/2606.10215))
-- BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation ([arXiv:2606.09257](https://arxiv.org/abs/2606.09257))
-- Physics-Guided Sequence-Based Generative Framework for Acoustic Metamaterial Inverse Design ([arXiv:2606.09266](https://arxiv.org/abs/2606.09266))
-- Unified Energy for Invariant and Independent Decoding in Diffusion Language Models ([arXiv:2606.09159](https://arxiv.org/abs/2606.09159))
-- Hybridizing Equilibrium Propagation with Ising Machines for Efficient Energy-Based Learning ([arXiv:2606.09112](https://arxiv.org/abs/2606.09112))
-- A Universal Dense Football Event Representation Based on TabTransformer ([arXiv:2606.09327](https://arxiv.org/abs/2606.09327))
-- Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training ([arXiv:2606.08898](https://arxiv.org/abs/2606.08898))
-- From Coarse to Fine: Managing Temporal Granularity in Spatio-Temporal Data for Fine-Grained Traffic Prediction ([arXiv:2606.09392](https://arxiv.org/abs/2606.09392))
-- Graph Mamba Operator: A Latent Simulator for Interacting Particle Systems ([arXiv:2606.09432](https://arxiv.org/abs/2606.09432))
-- Mixture-of-Experts Transformer for Automatic Modulation Recognition ([arXiv:2606.09085](https://arxiv.org/abs/2606.09085))
-- Rethinking Depth: A study of the Recursive-Transformer for Speech Recognition ([arXiv:2606.09357](https://arxiv.org/abs/2606.09357))
-- Steganography Without Modification: Hidden Communication via LLM Seeds ([arXiv:2606.09135](https://arxiv.org/abs/2606.09135))
-- Backward Coherence and Hidden-State Stability in Recurrent Neural Networks: A Quasi-Reverse-Martingale Theory ([arXiv:2606.08934](https://arxiv.org/abs/2606.08934))
-- Synthetic but Not Realistic: The Evaluation Challenge in Generative Modelling for Structured Electronic Medical Records ([arXiv:2606.08903](https://arxiv.org/abs/2606.08903))
-- Counterfactual Reasoning for Fine-Grained Evidence Disentanglement in VideoQA ([arXiv:2606.09181](https://arxiv.org/abs/2606.09181))
-- Cheap Reward Hacking Detection ([arXiv:2606.08893](https://arxiv.org/abs/2606.08893))
-- Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning ([arXiv:2606.09289](https://arxiv.org/abs/2606.09289))
-- Trajectory Geometry of Transformer Representations Across Layers ([arXiv:2606.09287](https://arxiv.org/abs/2606.09287))
-- Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation ([arXiv:2606.09160](https://arxiv.org/abs/2606.09160))
-- Factors affecting ASR performance: A study using state of the art ASR models in Indic Languages ([arXiv:2606.09335](https://arxiv.org/abs/2606.09335))
-- Inside the Latent Flow: Causal Deciphering of Attention Dynamics in Audio Separation Foundation Models ([arXiv:2606.10046](https://arxiv.org/abs/2606.10046))
-- FlexPath: Learned Semantic Path Priors for Image-Based Planning ([arXiv:2606.10167](https://arxiv.org/abs/2606.10167))
-- Integrating Out, Twice:The Open-System Case That Neural-Network Ensemble Theory Is Missing ([arXiv:2606.09950](https://arxiv.org/abs/2606.09950))
-- Optimizing Energy-based Neural Network Training with Coherent Ising Machine ([arXiv:2606.09117](https://arxiv.org/abs/2606.09117))
-- Next-Token Prediction Learns Generalisable Representations of Sleep Physiology ([arXiv:2606.09605](https://arxiv.org/abs/2606.09605))
-- Cross-Modal Masking for Robust Silent Speech Synthesis Using sEMG and Lipreading ([arXiv:2606.09667](https://arxiv.org/abs/2606.09667))
-- Integrating gene regulatory priors into Transformer attention with scTransformer for interpretable scRNA-seq analysis ([arXiv:2606.09558](https://arxiv.org/abs/2606.09558))
-- FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing ([arXiv:2606.09551](https://arxiv.org/abs/2606.09551))
-- Integral Field Unit Spectroscopy with One Fiber ([arXiv:2606.10197](https://arxiv.org/abs/2606.10197))
-- iMaC: Translating Actions into Motion and Contact Images for Embodied World Models ([arXiv:2606.09813](https://arxiv.org/abs/2606.09813))
-- Multi-channel Optical Vision Model ([arXiv:2606.10253](https://arxiv.org/abs/2606.10253))
-- RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction ([arXiv:2606.08930](https://arxiv.org/abs/2606.08930))
-- Frequency Decoupled Framework for Screen Content Image Super-Resolution ([arXiv:2606.09029](https://arxiv.org/abs/2606.09029))
-- Tight Sample Complexity of Transformers ([arXiv:2606.09731](https://arxiv.org/abs/2606.09731))
-- Topological Neural Operators ([arXiv:2606.09806](https://arxiv.org/abs/2606.09806))
-- MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation ([arXiv:2606.09056](https://arxiv.org/abs/2606.09056))
-- Causally Evaluating the Learnability of Formal Language Tasks ([arXiv:2606.09822](https://arxiv.org/abs/2606.09822))
-- Context-Aware Deep Learning for Defect Classification in Atomic-Resolution STEM ([arXiv:2606.09419](https://arxiv.org/abs/2606.09419))
-- OmniGen-AR: AutoRegressive Any-to-Image Generation ([arXiv:2606.09156](https://arxiv.org/abs/2606.09156))
-- An Opticalmechanics Framework for Dynamic Estimation of Multibody Systems ([arXiv:2606.09383](https://arxiv.org/abs/2606.09383))
-- Principled Uncertainty in Clinical AI: End-to-End Bayesian Modelling and Algorithmic Equity Auditing Across Multimodal Patient Data ([arXiv:2606.09789](https://arxiv.org/abs/2606.09789))
-- Hyperbolic Neural Population Geometry Benefits Computation ([arXiv:2606.10238](https://arxiv.org/abs/2606.10238))
-- Does Normalization Choice Matter for Causal Large Time-Series Models? ([arXiv:2606.09954](https://arxiv.org/abs/2606.09954))
-- DiffSight-Former: Modeling Structural Differences and Temporal Dynamics for Glaucoma Progression Prediction ([arXiv:2606.09140](https://arxiv.org/abs/2606.09140))
-- A systematic investigation of molecular encoding methods for drug property predictions across neural network and Transformer encoder-based model ([arXiv:2606.08973](https://arxiv.org/abs/2606.08973))
-- Spatiotemporal Graph Transformer for 3D Neighborhood Interaction and Quality Prediction in Metal Additive Manufacturing ([arXiv:2606.10227](https://arxiv.org/abs/2606.10227))
-- Divide-and-Denoise: A Game-Theoretic Method for Fairly Composing Diffusion Models ([arXiv:2606.14756](https://arxiv.org/abs/2606.14756))
-- Extending Ontologies: From Dense Embeddings to Hybrid Quantum-Fuzzy Systems ([arXiv:2606.08658](https://arxiv.org/abs/2606.08658))
-- Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics ([arXiv:2606.08417](https://arxiv.org/abs/2606.08417))
-- STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control ([arXiv:2606.08382](https://arxiv.org/abs/2606.08382))
+- ChainCare: Clinical prediction via bidirectional monitoring event chains and multi-event time series modeling
+- DRUM: Distributionally robust optimization for LLM-based user model in interactive recommendation
+- Adaptive heterogeneous stacking ensemble learning for predicting coal mine gas concentration
+- Context-aware knowledge graph reasoning for road maintenance decision-making
+- Joint Embedding Predictive Architecture for autonomous vehicle safety and security: A comprehensive survey
+- DCFRec: Sequential recommendation via diffusion denoising and context-aware frequency-domain analysis
+- BoXFire: Geometry-aware box-supervised fusion for accurate fire and smoke segmentation
+- Enhancing video smoothness and clarity: A unified survey of frame interpolation, super-resolution, and space-time super-resolution
+- Lithology identification from missing well log data: a multi-constraint guided self-supervised diffusion framework
+- SyDiM: Synergistic Diffusion-adversarial Method for socially-compliant multimodal pedestrian trajectory forecasting
+- ScenGDL: Smart contract vulnerability detection and location based on temporal Scenarios and Graph convolution networks
+- An empirical study of attention mechanisms in wide and deep neural networks for smart contract vulnerability detection
+- VulGNN: A high-fidelity graph neural network framework for robust smart contract vulnerability detection
+- Dual-stream transformer autoencoding with contrastive k-means and spectral learning for explainable unsupervised driving-behavior clustering
+- HGNJODE: A Hierarchical Gated Neural Jump Ordinary Differential Equation for spatio-temporal event prediction
+- Continuous semantic control field for edge preservation to achieve adaptive enhancement of underwater image regions
+- Improving code search by query reformulation with experienced programmer intelligence
+- Lane change intention evidential inference from multimodal naturalistic driving data
+- Deep Graph Learning for Spatial-Temporal Group-Correlated In-Service Performance Prediction of Transportation Infrastructure System
+- MFDSGC: a novel pedestrian crossing intention prediction method for autonomous vehicles
+- Streamlining risk assessment for predictive maintenance: Can AI be trusted as an assistant?
+- Personalized seizure risk forecasting via transformer-enhanced reinforcement learning with wearable signals
+- Detecting implicit sexism in digital social networks via contrastive learning-based adaptive network
+- Dual-modal deep learning model with microstrip isoelectric focusing and imaging strategy for feed classification.
+- Topology optimization of piezoelectric structures based on multi-modal input neural network
+- Multi-scale feature extraction of road marking from front-view images through hybrid convolutional and vision transformer for high-definition map
+- Universal transient stability analysis: A pre-trained generative transformer-enabled power system dynamics prediction framework
+- Are patents with female inventors under-cited? Evidence from text estimation
+- The recognition-by-components method
+- DE-GAM: A dual-encoder graph-attention mixture-of-experts framework for post-crash traffic speed forecasting during freeway all-lane-closure incidents
+- Short-term electricity load forecasting: Application-driven evaluation of machine learning models across spatial and temporal scales
+- Adaptive spatial–temporal fusion transformer for multi-step geological condition prediction ahead of TBM
+- Eco-cruising control under cut-in maneuvers using spatiotemporal attention-based trajectory prediction
+- Deep learning based two-stage multi-source data fusion model with transformer and cross-attention for surface roughness prediction in precision turning
+- CL-DFTC: A deep flight trajectory clustering framework based on self-supervised contrastive learning
+- Multi-resolution temporal encoding enhanced air traffic flow prediction with frequency-aware decomposition
+- OfflineRealtimeTranslator: A fully offline android application for Russian-to-Chinese simultaneous interpretation using on-device LLM inference
+- Event-driven dynamic ambulance dispatch: A transformer-based reinforcement learning approach with model explainability
+- ALISTA: Accelerator using LSH-based maximum inner-product search in transformer attention
+- FreqChange: Frequency-aware spatiotemporal learning with prior guidance for semantic change detection in remote sensing images
+- EINet: An explicit and implicit aware network for thermal field temperature prediction in the Cz Silicon Single Crystal Growth Process
+- LandslideSegFormer: A non-local context-aware dual-branch network for accurate small-scale landslide segmentation from remote sensing imagery
+- A Transformer-weakly coupled ensemble data assimilation framework for error correction
+- Taste peptides: A critical review on taste perception mechanisms, AI-driven screening, and multidimensional evaluation technologies
+- Improving transfer accuracy of qualitative analysis models between two LIBS instruments by Dual-Branch Dual-Cross-Entropy Domain Adversarial Network (DDAN)
+- GuidedDCNet: A diffusion-integrated framework with multi-scale conditional guidance for enhanced data classification
+- A cross-stage multi-scale attention network for lithium-ion battery state of health prediction
+- Optimization of microgrid capacity configuration considering source output correlation and charging load periodicity
+- Enhanced threat object detection through generative adversarial networks based synthetic X-ray image generation
+- Development of a dynamic deep learning framework for the prediction of vessel arrival time to port
+- Spatio-temporal feature fusion and few-shot learning framework with cross-city knowledge transfer for traffic flow prediction
+- Multi-temporal calving front segmentation
+- scCCCT: Single-cell RNA-seq data contrastive clustering network with hierarchical cell transformer
+- DFAB-Net: A dynamically fused attentional biomarker network for EEG-based attention level classification
+- DeepCosineMNet: Few-shot learning with deep supervision based on KAN-mixer and sobel-guided feature ensembling and cosine similarity metric for bearing fault diagnosis
+- SLPT-Net: A spatiotemporal learning framework for automated sow contraction recognition and farrowing time prediction
+- TSCAD: Temporality-spectrum collective transformer for multivariate time series anomaly detection
+- Public discourse dynamics of shared e-bikes under policy evolution: A social media analysis
+- Protocol-sensitive fingerprint embedding analysis using a lightweight hybrid CNN-Transformer framework
+- CLKSP: medical entity extraction with contrastive learning and knowledgeable soft prompt
+- Stratigraphic transformer: Encoding sparse boreholes to learn stratigraphic structure without prior geological knowledge
+- Integrated multi-objective and robust design of aperiodicthermophotovoltaic emitters via a transformer surrogate
+- A self-adaptive top token transformer for gastrointestinal endoscopy image restoration
+- Enhanced stress detection via intermediate fusion of intermodal signals
+- T2Net: Taxonomy-Guided Tree-Structured Prompt Learning for Few-Shot Remote Sensing Scene Classification
+- DSA-SafetyBench: A safety-aware benchmark for artificial-intelligence-based dynamic security assessment in energy systems
+- TuckerDreamer: Subject-driven text-to-image generation via Tucker-based frequency-domain fine-tuning
+- FVQVAEformer: A spatiotemporal prediction framework for hydrogen leakage concentration fields in hydrogen production workshops
+- Driver EEG fatigue recognition based on matrix recovery and vision transformer
+- Remote sensing imagery super-resolution base on diffusion models and edge guidance strategy
+- Identifying weapon-carrying actions in video surveillance systems through self-attention
+- EMA-Transformer: A hybrid evolutionary framework for systematic feature optimization in EVs SoC estimation
+- Exploring embeddings and document structure recognition for extractive summarization of Portuguese Supreme Court judgments
+- Machine learning for urban wind simulation: A comprehensive review
+- TransDehazeGAN: A dual-stage TransformerGAN framework for remote sensing image dehazing
+- SS-ALNN: A spatio–spectral framework with adaptive liquid dynamics for spectral image modeling
+- DCNet: Differential computing-driven network for infrared and visible image fusion
+- DSW-Net: A dual-skip connection wavelet network for underwater image enhancement
+- On the robustness of short-term building energy forecasting under cross-climate transfer
+- Graph-based clustering cost model for performance optimization in deep learning compilers
+- Multi-task learning generation method for functional design of product innovation driven by small sample review data
+- A multi-scale adaptive graph convolution approach to multivariate time series forecasting
+- Schema-portable adaptive early-exit transformer for resource-aware IoT intrusion detection
+- FreqResNet: Frequency-Aware Resonance Network for multivariate time series forecasting
+- TREASURE: A Transformer-Based Foundation Model for High-Volume Transaction Understanding
+- SmartGen: Synthesizing Context-Aware User Behavior Data for Adaptive Smart Home Intelligence
+- StormMind: Disentangled Layerwise Modeling for Convective Weather Systems
+- UniLLM: A Unified Large Language Model for Multi?Modal Urban Dynamics Prediction
+- Think2Go: Generative Next POI Recommendation with LLM Reasoning
+- VQFlow: A Benchmark Dataset for Encrypted Video Streaming Traffic across QoS Configurations
+- Fast and Faithful: Scalable Neuro-Symbolic Learning and Reasoning with Differentiable Fuzzy $EL^+^+$
+- Improving Heterogeneous Graph Contrastive Learning Robustness via Hierarchical Vulnerability Protection
+- How to Train Your Mamba for Time Series Forecasting
+- Aspect based sentiment analysis: A systematic review, taxonomy, applications, and future research directions
+- From vectors to knowledge graphs: A comprehensive analysis of modern retrieval-augmented generation architectures
+- Visualization methods for explainable medical imaging diagnosis: A survey
+- From trust to augmentation: A comprehensive survey on synergistic integration of decentralized and generative intelligence
+- A comprehensive review of time series classification: Traditional, deep learning, and few-shot learning Methods
+- How attention is applied to graph neural networks: A comprehensive survey
+- A comprehensive review of temporal reasoning with multimodal LLMs: Foundations, challenges, and healthcare applications
+- ProtoPFL: Enhancing privacy and accuracy in federated time-series forecasting with heterogeneous data
+- Advancing GNSS with machine learning: A systematic review of techniques and applications
+- Irrelevant feature filtering module for deep multi-view generative clustering
+- LMAT: An adaptive tracing approach based on efficient system behavior analysis using language models
+- Random dilated convolution based multi-branch edge enhancement framework for visceral organ segmentation
+- ARPIA: A multi-scale heterogeneous graph neural network for mobile device geolocation with explicit non-connection modeling
+- MDF-former: Multi-branch dual-modal fusion transformer for assessing axillary lymph node metastatic burden in breast cancer
+- A physics-informed transformer framework for seismic response modeling and fragility evaluation of soil–pile systems
+- EMamba: A Mamba-based framework for EMG gesture recognition via discriminative heatmap representations
+- FS-Reg: Few-label-constrained image registration using a joint segmentation and registration framework and window-based routing attention
+- eNeuroLingua: A language-inspired hierarchical framework for multimodal sleep stage classification using EEG and EOG
+- BUFF-Net: Boundary Uncertainty-area Feature reFinement network for simultaneous segmentation of multiple lumbar paraspinal muscles
+- Antibiotic resistance prediction with an attention-based bi-LSTM clinical decision support system
+- Deep multimodal information bottleneck for breast cancer classification on contrast-enhanced spectral mammography
+- A causality-guided lightweight model for 3D multi-modal brain tumor segmentation
+- A Wavelet-Guided Robust Attention Network for small aircraft detection in complex scenes
+- Uncertainty-aware vessel trajectory prediction for heterogeneous data fusion in internet of things-driven smart waterways
+- Antibiotic resistance gene identification using cross-feature transformer from metagenomic data
+- Expert Transformer: Fine-Grained Mixture-of-Experts for Time-Series forecasting
+- Enhancing long-range contextual interactions via frequency-aware directional shifts for medical image segmentation
+- A multivariate long-term time-series prediction model for water quality based on Transformer architecture with spectral reconstruction optimizer
+- Schedule adherence oriented traffic signal control for large-scale scheduled vehicle operations: A multi-agent reinforcement learning approach
+- NeuralMetric: An accurate and efficient real-time safety metric for automated driving systems
+- Structure-aware context-enhanced and dual-path synergistic decoding network for atrophic gastritis segmentation
+- Efficient spectral-temporal reconstruction of long-term satellite time series via temporal segments and mask-informed embedding
+- An addition interaction and frequency mamba enhanced detection transformer for photovoltaic cell surface defects
+- Activity recommendation in business process modeling with dynamic graph neural network
+- TSBMNet-XAI interpretable multi-step offshore wind power forecasting for enhanced energy storage integration
+- Fractal-guided multi-scale contrastive learning for robust liver tumor classification in ultrasound
+- Multi-modality based future predictive representation learning for video anticipation captioning
+- CECF-Net: Imputation of missing values in carbon flux time series via context enhancement and cross-scale fusion
+- Chaotic time series prediction based on attention-enhanced asynchronous optoelectronic reservoir computing
+- Adaptive parallel physics-informed neural networks for forward and inverse problems of nonlocal multi-component Manakov systems in optical communications
+- Residual-channel attention physics-informed neural network for surrogate modeling of a sodium-ion battery single-particle model
+- Knowledge and data fusion-driven self-supervised learning for air handling unit fault diagnosis with limited labeled data
+- Multi-Granularity Modal Interaction and Fusion framework for vision-language tasks
+- Recent developments in Transformer inference deployment on FPGA platforms: A survey
+- TA-GAT: Temporal-adaptive graph attention network for multi-station photovoltaic power forecasting
+- AscQLUT: A decode-fused INT4 GEMM Kernel for Ascend NPUs
+- A unified deep learning framework coupling InSAR-derived spatiotemporal kinematic features for robust landslide displacement prediction
+- Unmasking the Tiny: Foreground probing for small object detection
+- Robust battery state-of-health estimation from two-stage constant-current–constant-voltage charging records using physics-inspired learning
+- Automated triaging of hospital complaints using Large Language Model-Assisted Content Analysis and machine learning
+- Large language models-driven fuzzing: A systematic survey
+- SMART: Structured multimodal agricultural retrieval-augmented transformer for plant disease diagnosis
+- Enhanced daily retrieval of Evapotranspiration from a Transformer-based deep learning model combined with satellite passive microwave and optical observations
+- Robust Transformer framework with Bayesian-Inspired stochastic attention for underwater cable fault detection
+- Semantic 3D reconstruction of tunnel lining defects from sparse GPR measurements
+- A novel Adaptive Loss Weighting–Gradient-Based Attention framework for Physics-Informed Neural Networks in flow simulation
+- Continual Learning across multiple domains via a Dynamic Expandable and Mergeable Model
+- Global assessment of bike-sharing sensitivity and resilience to extreme weather
+- A hybrid GNN-transformer framework for multimodal classification of brain disorders using structural and functional MRI
+- Spatiotemporal organization and climatic modulation of anomalous precipitation in the Huaihe River Basin (1961–2019)
+- Task-driven remote sensing image captioning for earth understanding: From multi-task dataset to task-conditioned framework
+- EdgeATP: An adaptive tensor parallelism framework for scalable and efficient transformer inference on edge clusters
+- Future horizon-guided trend projection: A proactive mapping framework for long-term time series forecasting
+- Deep residual networks for tilt-series denoising in rapid-scan BF-STEM: Enabling 3D dislocation reconstruction
+- Exploring the limitations of transformer models for metocean forecasting
+- Digital transformation for truss bridges using pixel-wise semantic NeRF
+- TideMamba: a hybrid time-series decomposition and Mamba-based architecture for multivariate anomaly detection
+- PARCNet: Phase-aware residual correction network for efficient multivariate time series forecasting
+- Sea fog intensity observation from surveillance videos: A comparative study of deep learning models
+- Self-supervised ViT-driven whole-line alignment of multi-date rail ultrasonic B-scan data for longitudinal infrastructure inspection
+- UMHSDet: Underwater Multi-scale Heterogeneous State Space Detector
+- Accuracy, robustness, and computational efficiency in bearing fault detection and diagnosis: Comparison of CNN and CNN-Transformer
+- HSD-DETR: A highly robust transformer model for PCB defect detection in complex backgrounds
+- Robust long-term water quality forecasting via decomposition-enhanced patching and asymmetric attention fusion
+- LLM-driven power system transient stability assessment: From automated simulation to neural architecture design
+- Physics-guided neural network architectures for modeling nonlinear behaviors: Application to shape memory alloy wires
+- Saliency-guided difference enhancement model for video anomaly detection
+- Feature-fusion-based prediction of impact loads during high-speed water entry of vehicles
+- Hybrid physics–AI aerosol property retrieval algorithm for AMI/GK-2A with a deep learning radiative transfer emulator
+- Tri-hybrid transformer framework for multi-target performance prediction of solid desiccant evaporative cooling systems
+- An AI system for residential building damage estimation using multimodal remote sensing data fusion
+- Predicting site-specific suction caisson installation pressure with limited data: A multi-fidelity temporal fusion framework
+- An interpretable Transformer-based deep learning model for ship berthing motion state prediction
+- UVSENet: A Semantic-Embedded dual branch fusion network for urban villages mapping
+- Transformer models and their applications in particle technology and process engineering
+- DGP-SFNet: An efficient visual perception architecture for small maritime objects on unmanned surface vehicles
+- Deep PACBED: Multitask analysis of PACBED images using deep neural networks.
+- A scale-decoupled and physics-consistent diffusion model for springback displacement field prediction of doubly-curved hull plates
+- 3D human pose estimation based on multi-view feature fusion and dynamic voxelization
+- Dynamic correlation network and structure-aware matching for robust point cloud registration
+- Simulating narrative identity with large language models: a multi-study examination of linguistic and psychological patterns
+- A lightweight multi-attention and context fusion network for small object detection in UAV images
+- Semantic-geometric dual alignment: A progressive co-optimization paradigm for misaligned multimodal medical image fusion
+- Explainable stress detection system using hybrid CNN-Transformer and uncertainty quantification with copula GAN-based data
+- An adaptive time-frequency attention-based CNN-LSTM for robust fatigue detection using EEG signals
+- MTU-Net: Task-conditioned multi-task learning for joint hematoma classification and segmentation in non-contrast CT
+- MAMIS: Modality-adaptive medical image segmentation via ensemble supervised contrastive learning
+- Interpretable AI for Parkinson's Disease: Multimodal deep learning with explainable attention for Parkinson's Disease diagnosis
+- A multisource data-driven GRU-transformer network for estimating spatial-temporal distribution of ground-level ozone
+- RBML-Diff: Diffusion model with region-boundary mutual learning for polyp segmentation
+- STAR: Spatial-temporal autoscaling for cloud applications with deep reinforcement learning
+- A graph neural network approach to automated resume classification
+- CIGAN: rehabilitation-oriented few-shot speech separation for cocktail party problem in Cochlear implant users
+- CoDiF-Net: A conditional diffusion multimodal fusion network for predicting hemorrhage risk of cerebral cavernous malformation
+- Integrating multi-modal deep features of electrocardiogram, heart sound signals and baseline data for coronary artery disease detection using transfer learning
+- Prediction of key parameters in aquaculture biofilters using a physics-informed spatial self-attention gated recurrent unit model
+- Dynamic estimation of mean skin temperature during physical exercises using an explainable attention-based neural network: A data-driven alternative to segmental weighting methods
+- Cross-query contextual clues dynamic enhancement for partially relevant video retrieval
+- Toward knowledge-guided emergency triage: conditional probability imputation and cross-modal fusion under incomplete and heterogeneous data
+- BIM–LLM integration in AECO workflows: Applications, validation, and future directions
+- Bridging local and global representations: An inter-and intra-window based transformer for unsupervised depth completion
+- A new reconstruction-based method for multivariate time series anomaly detection with diffusion models
+- Prior Knowledge-Informed Adaptive Federated Dual Scenario Graph Neural Network for Boil-Off Gas Generation Prediction
+- Dual-region deep learning for odor discrimination from local field potentials
+- A mechanism-guided multimodal industrial copilot with incremental learning for natural products manufacturing
+- Diffusion model-enhanced coral identification: A lightweight multi-scale network for benthic imagery analysis
+- UVT - A network for super-resolution multiphoton fluorescence image reconstruction
+- A novel multivariate interval prediction method of hydrogen sulfide synthesis for acidic wastewater treatment
+- Du-CIPT: Dual Cross-Modal Interactive Pyramid Transformer for RGB-Thermal salient object detection and segmentation
+- Attention-recon: Exploring backprojection image reconstruction with attention mechanisms
+- A deep learning network integrating channel-fusion and attention mechanisms for building extraction from remote sensing imagery
+- A hybrid method for anomaly data detection and reconstruction in proton exchange membrane fuel cells to enhance life prediction accuracy
+- Physics-informed neural operator for forecasting vehicle-induced bridge vibration trajectories
+- Algorithmic trading by reinforcement learning in a collaborative manner
+- TactileFormer: A feature-fused CNN-Transformer model for few-shot tactile perception
+- A provable safety metric for autonomous driving via deep reinforcement learning and PAC verification
+- Learning-based imputation model for multi-predecessor following platoons under unreliable wireless connections
+- Understanding complex queries: Multi-query comprehension network for temporal sentence grounding
+- Skeleton-guided sparse anchors for rotated instance segmentation in cell microscopy
+- Improved noising training detection Transformer based drone image detector
+- ASSDA: Adaptive subgraph sampling with dual-attention for drug-drug interaction prediction
+- Automated worker action recognition in construction videos via domain-adapted vision-language fusion
+- Leveraging high-frequency intraday pattern for improved deep temporal learning of stock price dynamics
+- Intelligent visualization and automated classification of defected paint and rusted steel by eddy current thermography scanning technique
+- DART: Diffusion-based approach for predicting trajectories of ballistic missiles
+- Learning unified market interdependencies via networked attention for stock price forecasting
+- Aircraft geomagnetic navigation via dual-view feature extraction and hybrid multi-criteria adaptive weighting
+- Graph channel receptive field transformer for multi-agent trajectory prediction
+- An anisotropic low-rank self-attention mechanism for infrared and visible image fusion
+- Fusing acoustic emission and deep learning for automatic identification of progressive rock fracture
+- MFformer: Time series forecasting via Fourier transform and meta-learning routing
+- OmniTIEFormer: A tri-branch transformer with cross-scale transfer learning for multi-scale battery life-cycle forecasting
+- ImputeLLM: A prompt-free large language model framework for robust time-series imputation in HVAC systems
+- An online prediction method for finger joint angles utilizing an interpretable GRU-Att model
+- Deep learning-based sequential detection of attacks on low-Latency network services
+- A novel identity-aware video captioning method with multi-perspective visual information for basketball
+- A relaxation approach to layerwise determination of learning rates in deep neural networks
+- SurgiFormer: A multi-scale vision transformer for precise surgical instrument segmentation
+- Foundation models for autonomous driving: A comprehensive survey
+- From pixels to text: A deep learning survey of scene text detection and recognition
+- Real-time and accurate burst localization in water distribution networks with graph-based deep learning
+- A comprehensive survey of artificial intelligence advances in Reconfigurable Intelligent Surfaces-assisted wireless networks
+- Adaptive salience autoencoder for unsupervised anomaly detection in computer network traffic
+- SAG: A Session-Augmented Heterogeneous Graph-based model for Named Entity Recognition in query
+- Image-based vulnerability detection based on a hybrid deep learning model in the Industrial Internet of Things using convolution neural network and transformer architectures
+- A pretrained self-supervised model with lightweight spatial feature distillation for wetland mapping via satellite imagery
+- Advancing sustainable development goals through multilingual text summarization: A transformer-based approach
+- A spectral-temporal Transformer framework for very short-term ship motion prediction with industrial applicability and cross-domain transferability
+- Informer-enhanced digital twin framework for forced draft fans status forecasting in coal-fired power units
+- Generative artificial intelligence and the built environment: An analysis of sentiments and socioeconomic implications
+- Multimodal dynamic feature fusion framework for human–robot audio-visual interaction in complex construction conditions
+- A pattern-aware two-stage power forecasting method for offshore wind farms based on dynamic feature decoupling
+- Differential attention transformer-enhanced graph neural network for accurate material property prediction
+- Structural complementarity-aware molecular representation learning for medication recommendation
+- RGB-D salient object detection via cross-modal adaptive correlation learning network
+- Physics-informed cross-attention operator network with hard-constrained Fourier features for heat map prediction of large-scale battery packs
+- Maximizing the risk-adjusted return of classification model-based investments
+- A machine learning method to predict rate constants in ammonium dinitramide combustion kinetic model
+- "Separate-coupled" hierarchical framework for accurate visual object tracking
+- MCAL-DTA: A multimodal method integrating cross-attention and local feature enhancement for drug-target affinity prediction
+- DyRFA-Net: Apple flower blooming stage detection based on anther color features
+- AAGFormer: A self-adaptive graph-transformer synergy with topological normalization for 3D human pose estimation
+- Continual learning for implied volatility surfaces under regime shifts
+- From urban dynamics to intelligence: A spatiotemporal framework for cross-modal urban crowd flow management
+- Dynamic battery degradation-informed optimal microgrid scheduling: A prediction-aware two-stage stochastic programming approach with spatiotemporal correlation scenario generation
+- PGDM: Physically guided diffusion model for land surface temperature downscaling
+- Revisiting long-range dependency modeling in CNNs for medical image segmentation
+- FreGAT: An interpretable frequency-domain graph attention transformer for short-term photovoltaic forecasting
+- Physics-informed continuous state space models for probabilistic imaging in complex nonlinear media: A 3d magnetotelluric application
+- A dynamic incremental learning approach for batteries state of health perception coupled with electrical and mechanical information
+- Improving wheat yield prediction in breeding under climate change via a new method of correcting and reconstructing meteorological data and weighing multiple crop model outputs
+- Generative AI for the power sector: Methodology, safety, trustworthiness, and policy
+- Attention mechanisms in UNet variants for medical/non-medical image segmentation: A comprehensive and state-of-the-art narrative review.
+- A synergistic pseudo-random number generator based on training-free multi-scale autoregressive Transformer and 3D-Lü chaos with application to image encryption
+- GQoD: Group-aware quantization for efficient layer-wise pipelined inference of Multi-Exit BERT on end devices
+- Artificial intelligence and multi-scale data fusion for high-value utilization of whey proteins: A systematic review
+- An integrated explainable framework for multimodal deepfake detection across image, audio, and video data
+- A multi-task Transformer for integrated in-season rapeseed mapping and flowering retrieval using Sentinel-1 and Sentinel-2 data
+- A parallel spatiotemporal hybrid model based on Top-k sparse attention and learnable graph structure for steel structural response reconstruction
+- LABMA: Latent-bottleneck attention-based multimodal architecture for integration of transcriptomics, proteomics, and MRI in neurodegeneration.
+- GeoMatch: Natural language-guided cross-view object geo-localization and matching
+- Comparative analysis of traditional and deep learning time series architectures for influenza A infectious disease forecasting.
+- Predicting Tactile Sensory Outcome of Physical Human-Robot Interaction Through Embodied Learning Strategy
+- Subgoal identification with multiple instance learning methods in landmark Partially Observable Markov Decision Process problems
+- EfficientMedFormer: A directional decomposition approach for lightweight medical image classification
+- Attention deserves human insight: An AHP-enhanced attention mechanism for interpretable and expert-guided AI in skin-related neglected tropical disease diagnosis
+- Information in central bank sentiment: An analysis of Fed and ECB communication
+- Lifetime prediction of SiC MOSFETs across working conditions using Arrhenius and ProbSparse Transformer residual imputation
+- BEV-OSP: Obstacle State Prediction in Bird’s-Eye View to Enable Obstacle Avoidance and Navigation in Dynamic Environments
+- MSK-Net: Multi-scale spatial KANs enhanced U-shaped network for explainable 3D brain tumor segmentation
+- MPNet: Maximum parallax network for light field salient object detection
+- Improving reliability of acoustic fault detection in harsh industrial environments via statistical modeling and temporal integration
+- AIS data-based ship trajectory prediction using a CNN–Transformer–MLP hybrid model with clustering-based feature augmentation
+- Prompt-guided zero-shot Depth-aware transformer pipeline for democratized SEM particle characterization: A case study in battery materials
+- Transfer graph reasoning network for misaligned visible-thermal object detection
+- PoDe-SORT: Robust multi-object tracking by modeling bounding box deformation
+- Unlocking distributed intelligence: A comprehensive survey on federated split learning’s evolution, challenges, and future frontiers
+- Hierarchy-aware prompt tuning with bidirectional information propagation for failure data mining
+- Egocentric-view pedestrian crossing intention prediction with limited observation: An approach based on knowledge distillation and feature decoupling
+- Efficient probabilistic forecasting for power system time series via conditional variational autoencoders
+- Dynamic responses of tension leg platforms considering the influence of tensioners based on a multi-stage feature extraction strategy
+- Data-driven decision making for urban rail operators: machine learning-based passenger flow prediction under climate uncertainty
+- Exploring fear in urban environments: Place and space analysis of social media data
+- Learning from tabular data with out-of-distribution characteristics
+- Automated data synthesis and retrieval-augmented generation for legal large language models
+- PFGCNet: A multi-view collaborative network for industrial multivariate time-series forecasting
+- Digital twin system with physics-tuned iTransformer for high-fidelity motion prediction of deep-sea mining vehicles
+- Fusing spiking neural P systems with graph convolutional networks for multivariate time series anomaly detection
+- DF-CANet: A dense feature stacking approach based on 3D coordination attention for tooth segmentation in CBCT images
+- Disentangling copy typing and natural writing behaviors using keystroke logs and deep learning models
+- A new paradigm for multi-source sentiment analysis and adaptation with multiple pretrained language models
+- STLIB: An information bottleneck-guided LLM-spatiotemporal framework for traffic forecasting
+- Sequential graph–driven spatiotemporal prediction and transfer learning of settlement in pile-adjustable wind turbine foundations
+- KCAM-SENet: Speech enhancement network with KAN-based channel attention module
+- A lightweight 3D Vision Transformer for flow field predictions of the stern rudder in a hull-rudder system
+- Adaptive hybrid modeling for chemical processes with attention mechanism
+- Explorative Grasping Referred Objects With Weak Stiffness via Vision-Language-Tactile Fusion
+- Data-Driven Closed-Loop System Fault Diagnosis Using Feedback-Invariant Dynamic Residual Analysis
+- Dynamic Maclaurin-Series-Based Vision-Language-Action Model
+- DDSE: Efficient Neural Codec Language Models for speech enhancement with disentangled representations
+- Collaborative Observation Imputation and Trajectory Prediction via Consistency Evaluation
+- An Efficient Edge-Cloud Collaboration System With Foundational Models for Open-Set IoT Applications
+- Cog-RMH: Cognition-Based Recalling Multiview History for Event Forecasting in Temporal Knowledge Graph
+- nnScaler-M: Constraint-Guided and Placement-Aware Parallelization Plan Generation for Deep Learning Training
+- Sensor-Prompt Tuning: Aligning Time Series Foundational Models With Motion Sensors for Few-Shot Activity Recognition
+- Ensemble Graph Neural Networks With Individual Decision Feedback for Graph Classification
+- Hybrid Computing of Decentralized Applications in Edge Web 3.0: A Scheduling Strategy via Decision Transformer
+- Exploiting Label-Aware Knowledge From Heterogeneous Clients for Hierarchical Federated Learning
+- DynEformer: A Unified Framework for Robust Workload Prediction Under Dynamic Environment
+- Modeling Deep Fusion of Intra- and Inter-Modal Incongruity for Multimodal Sarcasm Detection
+- AceNet: Attention-Guided Context Enhancement for Imbalanced Action Recognition via RF Signals
+- Federated Incomplete Multi-View Clustering With Cross-View Relationship Imputation
+- SAFA: Sequential Recommendation With Adaptive Sparse Attention and Frequency-Aware Encoding
+- A generative AI approach to ocean wind and wave modeling for extreme ship roll
+- Multi-scale token fusion with Mamba adapters for efficient 3D industrial defect detection
+- RatioWaveNet: A learnable wavelet-based framework for robust and interpretable electroencephalogram motor imagery classification
+- AttGRU-based intra-site and cross-site building energy consumption prediction using meteorological features with uncertainty-aware CO2 scenario analysis
+- From SMURF to HI-SMURF: Scalable Multivariate Nonlinear Function Approximation via Compact Stochastic Architectures
+- ChainOpt: Heterogeneity-Aware Blockchain Performance Optimization for Dynamic Workloads
+- TransformKV: Optimizing Multi-Turn Conversational Services in LLMs via KV Cache Transformation
+- DST-Planner: Diffusion-Augmented Sequential Topological Planning for Robotic Exploration in Complex Environments
+- Machine learning for ship-motion-based sea-state estimation
+- A multi-scale and horizon-adaptive Transformer for operational metocean forecasting in Korean coastal buoy networks
+- MMHAR-28: Human Action Recognition Across RGB, Thermal, Depth, and Event Modalities
+- Explainable Pruning-Focused Attention Network for High-Fidelity Livestock Facial Detection and Identification
+- Structure-Aware Diffusion Policy for Bimanual Cooperative Manipulation
+- Machine Vision-Oriented Image Quality Evaluation for Face Super-Resolution
+- Enhancing Crowd Counting With Synthetic Retrieval
+- FlowPed: Proprioceptive State Fusion and Efficient Diffusion for Pedestrian Trajectory Prediction in Manufacturing Plants
+- UniSparTa: A Unified Sparse Tensor Program Tuning Framework
+- HAOT: Heterogeneous Hardware-Aware Tensor Computation Optimization Framework via Transformer
+- RollPlace: Improving Macro Placement via Monte Carlo Rollout Search
+- Neuro-Physics Hybrid State Estimation of Distribution System With Smart Meter Voltage Measurements
+- A Waterlogging Defense Strategy With Cross-Domain Data-Driven Risk Prediction for Coupled Power and Drainage Systems
+- CarbonGPT: Meta Causal Graph-Enhanced Large Language Models for Carbon Emission Forecasting in Large-Scale Power Distribution Networks
+- Machine Learning-Based Long-Term Forecasting of Load Composition Considering Exogenous Variables
+- ANTDCC: A Lightweight and Generalizable Framework for Long-Term Photovoltaic Power Forecasting via Adaptive Normalization and Dynamic Channel Clustering
+- Dual-domain latent diffusion framework with multi-modal conditioning for controllable porous media reconstruction
+- GCVA: A Multiview Fusion Mechanism for Heterogeneous Data Representations
+- False Alarm Rate-Controllable Maritime Target Detection via Cross-Attention Transformer Network
+- LogRMC: Robust Log Anomaly Detection in IoT Systems via Multifield Fusion, Contrastive Learning, and Pseudo-Label Refinement
+- MLO TTLM Optimization for IEEE 802.11bn IoT Networks Through Federated Learning Supported Transformer-Based Correlation Estimation
+- TmsNet: An Efficient Transformer Network Based on Multiscale Shift-Invariance Mechanism for Side-Channel Analysis
+- Dynamic Local Range--Doppler Map and Controlled Feature Fusion for Continuous Human Activity Recognition on Variable Multinode Radars
+- Temporal Conditional Score Network for Multivariate Time Series Anomaly Detection
+- Optimal-Feature-Driven Adversarial Adaptive Cascade Forest Method for Automatic Modulation Recognition
+- RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations
+- Rep-MMB: Bridging Mobile CNN and Transformer for Sensor-Based Human Activity Recognition
+- Hybrid Data-Driven and Model-Based Method for Nonlinear Maneuvering Target Tracking in Autonomous Vehicles
+- MTNet: A Mixed Transformer Network for High-Quality 3-D Object Detection
+- MCLFormer: a text-driven deep learning framework for predicting CO2 adsorption in metal-organic frameworks
+- PSO-Transformer for mapping soil heavy metals using UAV hyperspectral data with spectral calibration and indices
+- Learning in harmony: contrastive, sequential and meta-learning for robust multi-stakeholder recommendation
+- FFKD-Net: lightweight small-object detection based on feature fusion and knowledge distillation
+- SSM Meets Video Diffusion Models: Efficient Long-Term Video Generation with Structured State Spaces
+- M3GF-Net: a multimodal multi-task framework for integrating geological semantics and structural attributes in borehole data interpretation
+- KT-STFormer: Parallel Kinematic-Trajectory and Spatial-Temporal Fusion Transformer for 3D Human Pose Estimation
+- Multi-modal feature transfer network for anisotropic 3D MRI image super-resolution
+- MWHAN: Mixed-weighted multi-head attention network for context-aware attribute-based session recommendation
+- Enhancing image colorization with semantic-guided diffusion and lightweight fine-tuning
+- A brand-neutral logo detection and redaction with transformer detectors
+- Aspect-centric vulnerability understanding via semantics-aware commit representation learning
+- Computational reconstruction of hierarchical cis-regulatory networks reveals synergistic transcription control and disease-associated rewiring
+- Multiscale feature optimization for accurate small object detection in remote sensing imagery
+- Lexical and semantic representations for similar bug report detection: A TF-IDF and frozen T5 comparative study
+- HASTE: A Framework for Training-Free, Dynamic, and Steerable Compression of Pre-trained Convolutional Neural Networks
+- Hybrid swin transformer framework for accurate and efficient single image deraining
+- Prot-ΔΔG: Prediction of protein–protein binding affinity changes upon mutations with pre-training strategies
+- Neural Processes with Normalizing Flows for Wheat Height Estimation
+- A reliable and explainable deep learning framework for clinical-grade endocrine disorder risk prediction and decision support
+- WindPower-SAFusion: A Sparse-Attention and Multi-Scale Fusion Model for Wind-Power Forecasting
+- Diffusion-based novel view synthesis for X-ray imaging.
+- A novel TimeDistill-Ensemble model for short-term wind power forecasting considering meteorological coupling effect
+- Transformer-based advertisement image layout generation and object fidelity optimization.
+- GeoGuard-PTI: a geo-temporal predictive threat intelligence framework with spatiotemporal attack forecasting and closed-loop adaptive defense
+- Toward Fully Automated Prompting: An LLM-Powered Genetic Algorithm for Prompt Generation, Optimization, and Self-Evaluation
+- Dynamics of Sincerity Echo: A New Paradigm in Large Language Model Alignment Based on Cognitive Proportionality
+- [A Latent ODE Approach to Spatiotemporal Modeling of Cine Cardiac MRI](https://arxiv.org/abs/2606.26718)
+- [Heterogeneous Neural Predictivity from Language Models During Naturalistic Comprehension](https://arxiv.org/abs/2606.26880)
+- [How Good Can Linear Models Be for Time-Series Forecasting?](https://arxiv.org/abs/2606.27282)
+- [SubdivAR: Autoregressive Next-Scale Prediction for Neural Mesh Subdivision](https://arxiv.org/abs/2606.27088)
+- [An Empirical Study of LLM-Generated Specifications for VeriFast](https://arxiv.org/abs/2606.26490)
+- [Information-Aware KV Cache Compression for Long Reasoning](https://arxiv.org/abs/2606.26875)
+- [An Iterative Dual-Channel Neural Quantum State Algorithm for Selected Configuration Interaction](https://arxiv.org/abs/2606.26760)
+- [Inference-Time Robot Behavior Steering through Physically-Aware Reconfiguration of Task-Structure](https://arxiv.org/abs/2606.26588)
+- [Forget, Anticipate and Adapt: Test Time Training for Long Videos](https://arxiv.org/abs/2606.26515)
+- [CARVE: Content-Aware Recurrent with Value Efficiency for Chunk-Parallel Linear Attention](https://arxiv.org/abs/2606.27229)
+- [Erase-then-Delta Attention: Decoupling Erase and Write Addresses in Delta-Rule Linear Attention](https://arxiv.org/abs/2606.26560)
+- [Efficient Remote Sensing Instance Segmentation With Linear-Time State-Space-Distilled Visual Foundation Models](https://arxiv.org/abs/2606.25324)
+- Machine learning based interaction force prediction in multi-disk continuum robot arms for human-robot collaboration
+- AI-guided multi-objective optimization identifies a Jelleine I-derived gram-negative antimicrobial peptide lead.
+- NetFormer: A Dual-Stream Interpretable Transformer Autoencoder for Unsupervised Network Intrusion Detection
+- Vocal-Eyes: AI-Powered Smart Glasses for the Blind Using Transformer-Based Architecture and Scene Graph Generation
+- Advancing enterprise credit rating through multi-head self-attention and transfer learning
+- Reconstructing two-decade daily high-resolution seamless global land
+- 
+- 
+- 
+- 
+- Text-augmented house valuation: using embedding vectors and SHAP values
+- A culturally aware NLP approach for fake-news detection in Nigerian online media using BERT
+- A Comparative Study of Large Language Models for Industrial Cyber-Physical Security
+- LLM-Augmented Ensemble Reasoning for Adversarial-Aware Power Quality Monitoring in Smart Grids
+- Distributed Deep Learning and Intelligent Soil–Water Analytics in Precision Agriculture: A Comprehensive Review
+- Quantum-Inspired Semantic Encoding and Temporal Transformer Fusion (QuST-TF) for Misinformation Detection
+- Self-Supervised Temporal Transformer Learning for Behavioral Segmentation in Digital Banking
+- Multi Scale Vision Transformer for Enhancing EfficientnetB3 based Leaf Disease Classification
+- [General Techniques for Reducing Key-Switching Overhead in Privacy-Preserving Two-Party Transformer Inference](https://arxiv.org/abs/2606.25349)
+- [The Galaxy's Guide to the Tokenizer: A Benchmark for Scientific Foundation Models](https://arxiv.org/abs/2606.25610)
+- [Retrieval-Grounded Multilingual LLM Assistance for Island Smallholder Farmers](https://arxiv.org/abs/2606.25647)
+- [Dataset Usage Inference without Shadow Models or Held-out Data](https://arxiv.org/abs/2606.26257)
+- [Semantic Code Clone Detection: Are We There Yet?](https://arxiv.org/abs/2606.25272)
+- [MRI2Rep: Autoregressive Structured Report Generation for 3D Liver MRI](https://arxiv.org/abs/2606.25279)
+- [Data-driven Machine Learning Cannot Reach Symbolic-level Logical Reasoning -- The Limit of the Scaling Law](https://arxiv.org/abs/2606.26454)
+- [REViT: Roto-reflection Equivariant Convolutional Vision Transformer](https://arxiv.org/abs/2606.25318)
+- [SOLAR: AI-Powered Speed-of-Light Performance Analysis](https://arxiv.org/abs/2606.26383)
+- [Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries](https://arxiv.org/abs/2606.26021)
+- [PORTER: Language-Grounded Event Representations for Portable Structured EHR Foundation Models](https://arxiv.org/abs/2606.24102)
+- Data protection in the era of large language models: challenges and opportunities
+- Performance variation and implementation barriers of large language models in clinical healthcare: a systematic review
+- Improved complex words simplification in non-annotated text using a deep-learning-based lexical complexity prediction model
+- Helixnet: intertwined transformers for weakly supervised crack segmentation via pixel-affinity fusion
+- OmniCell: Unified Foundation Modelling of Single-Cell and Spatial Transcriptomics for Cellular and Molecular Insights
+- Deep Transfer Learning for Dormancy and Outbreaking State Classification in Metastatic Breast Tumor Cells: A Benchmark of Modern Deep Learning Models
+- A fully inductive inference protocol for population GNNs in single-subject brain disorder diagnosis.
+- TCGformer: a temporal causal graph enhanced transformer model for multivariate financial time series forecasting
+- Aircraft takeoff speed prediction with deep learning: a comparative study of MLP, 1D-CNN, LSTM and attention-based architectures on Boeing 737-300 data
+- Vision Transformer with Spatial 2D Multi-Channel Tokens
+- LARGE LANGUAGE MODELS AND SMALL LANGUAGE MODELS: ARCHITECTURE, EFFICIENCY, AND EMERGING APPLICATIONS
+- A Conceptual Framework for Early Detection of Depression in Menopausal Women Using Artificial Intelligence-Based Facial Expression Analysis
+- [A Fusion-Aware Two-Stage Framework for Mispronunciation Detection and Diagnosis in Low-Resource Modern Standard Arabic](https://arxiv.org/abs/2606.24086)
+- [Transformer-Based Language Models Across Domain Verticals: Architectures, Applications and Critical Assessment](https://arxiv.org/abs/2606.24331)
+- [Memory Retrieval in Visuomotor Policies for Long-Horizon Robot Control](https://arxiv.org/abs/2606.25136)
+- [Uncertainty-Aware Longitudinal Forecasting of Alzheimer's Disease Progression Using Deep Learning](https://arxiv.org/abs/2606.24604)
+- [DREAM: Dense Retrieval Embeddings via Autoregressive Modeling](https://arxiv.org/abs/2606.24667)
+- [Tri-Efficient Transfer Learning for Point Cloud Videos](https://arxiv.org/abs/2606.24175)
+- [Can Scale Save Us From Plasticity Loss in Large Language Models?](https://arxiv.org/abs/2606.24752)
+- [Grad Detect: Gradient-Based Hallucination Detection in LLMs](https://arxiv.org/abs/2606.24790)
+- [WiWorld-RealData: A Real-World Multi-Modal Dataset for 6G Wireless World Models](https://arxiv.org/abs/2606.24476)
+- Small Language Models: opportunities and obstacles
+- Machine Translation in Natural Language Processing (1948–2025): a Systematic Survey of Methods, Benchmarks, Neural Machine Translation Advances, Challenges and Future Directions
+- BTITD: an insider threat detection method based on behavior-timestamp dual-stream network
+- Redundancy-adaptive dual memory network for knowledge-enhanced ultrasound report generation
+- A hybrid CNN–BiLSTM–transformer fusion model for emotion recognition from partial and disordered speech
+- Frontal cortex organization supporting audiovisual processing during naturalistic viewing
+- Reference-guided immune recovery matching prioritizes traditional Chinese medicine ingredients
+- Writing creativity, cohesion, and formal linguistic competence in LLMs: A comparative evaluation based on English and Chinese continuation writing
+- Few-Shot Classification of C. elegans Developmental Stages via Explainable Hierarchical Hyperbolic Graph Embeddings
+- EventHorizon: A Foundation Model for Clinical Flow Cytometry
+- Detecting “large language models fingerprint” for Japanese texts generated by six LLMs
+- Multi-Source Meteorological–Topographic Modeling of Monthly Power Generation for Mountain Photovoltaic Stations Using Gradient-Boosted Trees
+- Causal-Guided Ultra-Long-Term Time Series Forecasting Via Anticipated Covariates.
+- Fine-grained crop classification from satellite image time series by boosting rare-class representations and enforcing global semantic consistency
+- A novel bilateral cross-attention network for multi-label fundus disease diagnosis.
+- Query-guided learning for efficient and interpretable multi-class brain tumor classification in MRI
+- WMN: A Multi-Scale Nested Mixture-of-Experts-Based Method for High-Resolution Remote-Sensing Solid Waste Site Extraction and Monitoring
+- Sequence-Level DDoS Detection Using Transformer Encoders on Aggregated Network Traffic
+- [Distilling Collaborative Dynamics into Latent Space for Implicit Coordination in Decentralized Multi-Agent Manipulation](https://arxiv.org/abs/2606.22982)
+- [Three-Step Hierarchical Transformer for Multi-Pedestrian Trajectory Prediction](https://arxiv.org/abs/2606.23058)
+- [Interpretable Kolmogorov-Arnold Network with Feature-Isolated Temporal Attention Mechanism for Electricity Load Forecasting](https://arxiv.org/abs/2606.23425)
+- [A Generative Model for Closed-Loop Microsimulation of Signalized Intersections](https://arxiv.org/abs/2606.23588)
+- [On the Effect of Segmentation Width and Cluster Size on Speech Resynthesis and Continuation in Generative Spoken Language Models](https://arxiv.org/abs/2606.23285)
+- [Real-Time Multimodal Activity-Aware Error Detection in Robot-Assisted Surgery](https://arxiv.org/abs/2606.23593)
+- Enhancing small object detection: a transformer-based middleware approach
+- ResGNN: a residual GNN approach for leveraging general user preferences in session-based recommender systems
+- DeepCDS: Ab initio coding sequence prediction in prokaryotic short reads
+- PLCSeg: sar-guided progressive learning for semantic segmentation of cloudy remote sensing images
+- A Method for Extracting Sedimentary Outcrops from UAV Oblique Photogrammetry Point Clouds.
+- Analysis of the water level regime of the Taz River for optimization of waterway operation
+- [Enhancing Protein Representation Learning via Manifold Restore Mixing](https://arxiv.org/abs/2606.22307)
+- [RigorBench: Benchmarking Engineering Process Discipline in Autonomous AI Coding Agents](https://arxiv.org/abs/2606.22678)
+- [ATCCaps: A Call-Sign-Aware Speech Dataset for Air Traffic Control Recognition](https://arxiv.org/abs/2606.22399)
+- [SCENIC: Semantic-Conditioned Edge-Aware Neural Framework for Structured IoT Command Generation](https://arxiv.org/abs/2606.22296)
+- [Adaptive Recurrent Message Passing for Test Time Computing on Graphs](https://arxiv.org/abs/2606.22462)
+- [Drowning in Routine: Signal Dilution in Multi-Turn Agent Training](https://arxiv.org/abs/2606.22164)
+- Co-MFGCN: multi-feature channel graph convolutional networks based on co-attention for aspect-level sentiment classification
+- Classifying mental stress from eye tracking data: deep learning approaches for out-of-the-lab conditions
+- Road networks facilitate invasive dominance by squeezing native mesopredators into niche margins.
+- [Astrobiology in the Time of Artificial Intelligence.](https://arxiv.org/abs/2606.23854)
+- RNAStabFormer: Region-Aware Multi-Task Hybrid Learning for RNA Stability Prediction from Pulse-Chase Transcriptomics
+- Antibody–Antigen Affinity Prediction with Chain-Aware Protein Language Modeling
+- Integrated AI Intelligence Systems: A Review of Retrieval, Language Processing, and Multimodal Technologies
+- [SamatNext v0.2-B: An Exploratory Study of RMS-Normalized Hybrid Decoders for Curriculum Retention in Small Code Models](https://arxiv.org/abs/2606.22248)
+- [Learning a Normal World Model for Few-Shot Boundary-Calibrated Abnormality Detection](https://arxiv.org/abs/2606.22261)
+- [Denoising-Enhanced Coarse-to-Fine Infrared Small Target Detection with Attention Prior-Guided Knowledge Distillation](https://arxiv.org/abs/2606.21956)
+- [From Handcrafted Features to Functional Edge Learning: Evolution of EEG Seizure Detection Frameworks](https://arxiv.org/abs/2606.22258)
+- [Cohort-Anchored Foundation Models for Electronic Health Records: From Risk Scores to Auditable Peer Cohorts](https://arxiv.org/abs/2606.21885)
+- [A Controlled Study of CLIP-Based Body-Scene Fusion for Emotion Recognition in Context](https://arxiv.org/abs/2606.22072)
+- [SOHET: Sequence Of Heterogeneous Events Transformer with Self-Supervised Pre-Training](https://arxiv.org/abs/2606.21356)
+- Recent progress in atomic-scale controlled plasma processing
+- Assessing political bias in AI systems: a framework for disentangling viewpoint preferences from epistemic integrity
+- Comparative Assessment of Transformer and Conventional Deep Learning Models for Dam Inflow Prediction
+- HyenaSET: Hyena Sound Event Transcripts and benchmark animal2vec performance for parsing animal communication
+- Assessing and Improving Prompting Large Language Models for Software Vulnerability Analysis
+- Knowledge distillation enables prediction of ring-class polycyclic aromatic hydrocarbons concentration using underwater drone.
+- Online Sepsis Prediction Using Vital Signs and Multiscale Temporal-Aware Contrastive Learning: Model Development and Validation Study
+- Combining machine learning and physiological network models for sepsis prediction
+- Privacy-Preserving Federated Deep Learning for Robust Anomaly Detection in Distributed Security Sensing Systems.
+- A study on the GRU-LSTM hybrid model with dual attention mechanism for reservoir water level forecasting
+- Full-spectrum EEM end-member unmixing with statistical validation: A deep learning framework for organic pollution source apportionment in complex watersheds.
+- Enhancing Wind Field Prediction and Reconstruction around Windbreak Walls along High-Speed Railway by Advanced Neural Network Architectures: Accuracy and Stability Assessment
+- Dynamic Memory-Enhanced Recurrent Neural Networks with Temporal Attention for Robust Long-Range Connectivity Inference.
+- Neuromorphic-inspired multi-view global-local fusion for IR-UWB radar dynamic gesture recognition
+- Trustworthy Multimodal Depression Screening via Cross-Attention Fusion and Calibrated Uncertainty
+- A Secure CORS-Enabled Framework for Multi-Disease Prediction via STT and Hierarchical Language Modeling
+- Blockchain Based Firewall System for The Banks: A Hybrid AI-Driven Architecture for Immutable Logging and Adaptive Defense
+- [LIG: Layer-wise Integrated Gradients for Within-Layer Flow Analysis in Transformers](https://arxiv.org/abs/2606.21564)
+- [Demographic Metadata as Construct-Irrelevant Noise in DistilBERT-Based Automated Essay Scoring](https://arxiv.org/abs/2606.21066)
+- [An Empirical Study of OpenPangu Quantization on Ascend NPUs](https://arxiv.org/abs/2606.21257)
+- [VT-DUDA: Visual Token Conditioning for Diffusion-guided Unsupervised Domain Adaptation](https://arxiv.org/abs/2606.21700)
+- [NAC: Neural Action Codec for Vision-Language-Action Models](https://arxiv.org/abs/2606.21372)
+- [SCOPE: Scale-Consistent One-Pass Estimation of 3D Geometry](https://arxiv.org/abs/2606.21300)
+- [Odoriko: A Shape-Aware Multimodal Diffusion Framework for Human Motion](https://arxiv.org/abs/2606.21135)
+- [Graph-of-Differences: Anatomy-Structured Difference Alignment for Medical Image Re-Identification](https://arxiv.org/abs/2606.21368)
+- [AutoRAS: Learning Robust Agentic Systems with Primitive Representations](https://arxiv.org/abs/2606.21445)
+- [Context-Aware Autoregressive Diffusion for Gloss-Wise Sign Language Production](https://arxiv.org/abs/2606.21234)
+- [ImProNCDE: Impulse-Corrected Neural Controlled Differential Equations with Prototype Learning for Longitudinal Prognosis Prediction](https://arxiv.org/abs/2606.19680)
+- How to use Wikibase for Mixed-Methods Research
+- Macie a multi-agent causal intelligence explainer for collective behavior understanding
+- GeoStructCap: zero-shot remote sensing image captioning via structured hierarchical visual perception simulation
+- Centralized Review of Alzheimer's Disease and Related Dementias Biomedical Repositories and Computational Methods.
+- Legal document summarization: a short review
+- External Knowledge Integration in Large Language Models: A Survey on Methods, Challenges, and Future Directions
+- Focus shifts in contextual and lexical cue interactions in GPT models
+- A Fast Multi-Scale Textile Pattern Generation Method Combining Layered Loss and Convolutional Attention
+- A Hybrid Model for Stock Index Forecasting Integrating Adaptive Frequency-Domain Decomposition and Enhanced Transformer Encoder
+- Explainable machine learning-based prediction of shelf-life and anthocyanin accumulation in table grapes.
+- A Target Tracking Method Based on Frequency and Spatial Information Perception in UAV Vision
+- Genome–phenome association prediction using weighted deep matrix factorization with a multisource graph attention network
+- Full-Spectrum Inverse Design of Compact Ring-Curve Fractal-Maze Acoustic Metamaterials via an LSTM–PPS-Net Tandem Framework
+- [PASQA: Pitch-Accent-Focused Speech Quality Assessment Model Trained on Synthetic Speech with Accent Errors](https://arxiv.org/abs/2606.20137)
+- [How Do Instructions Shape Speech? Cross-Attention Attribution for Style-Captioned Text-to-Speech](https://arxiv.org/abs/2606.20532)
+- [FlowEdit: Associative Memory for Lifelong Pronunciation Adaptation in Flow-Matching TTS](https://arxiv.org/abs/2606.20518)
+- [Adversarial observations in probabilistic State-Space Models for robust Reinforcement Learning](https://arxiv.org/abs/2606.20880)
+- [PSCT-Net: Geometry-Aware Pediatric Skull CT Reconstruction via Differentiable Back-Projection and Attention-Guided Refinement](https://arxiv.org/abs/2606.19867)
+- [Kolmogorov-Arnold Reservoir Computing](https://arxiv.org/abs/2606.19984)
+- [SSD: Spatially Speculative Decoding Accelerates Autoregressive Image Generation](https://arxiv.org/abs/2606.20543)
+- [Language-Instructed Vision Embeddings for Controllable and Generalizable Perception](https://arxiv.org/abs/2606.19584)
+- A walk-forward multi-model approach to stock trading: leveraging sentiment, trend indicators, and transformer-based deep learning for next-day price forecasting
+- Vigdepth: self-supervised monocular depth estimation based on vision GNN and local graph reasoning
+- On the effectiveness of MoE-enhanced transformer for accurate and generalizable mask-based semantic segmentation
+- Enhancing cross-domain few-annotation object detection via memory storage-to-adaptation mechanism
+- Transforming global water cycle observations via synergistic AI and remote sensing
+- The Empirical Bayes Variational Autoencoder—A Neural ODE Approach for Population Modeling in Pharmacology
+- 3DMNet: A 3D Multi-Attention Network for Pulmonary Nodule Detection in 3D CT Scans
+- Motion Analysis Technologies for ACL Injury Prevention: From Laboratory Assessment to Field-Based Clinical Screening.
+- A systematic review and unified multi-perspective conceptual synthesis of contemporary machine learning paradigms
+- Cross-modal knowledge transfer for cost-effective mango disease detection using synthetic thermal imaging
+- Learning Rare Events: Deep Learning Approaches to Extreme Price Prediction
+- Hybrid deep learning-based rapid broad-Spectrum antimicrobial susceptibility prediction from whole-genome assemblies.
+- An Improved Weighted Average Ensemble Method for Textual Sentiment Analysis with Transformer and FNet
+- Intelligent three-dimensional imaging in pathology: Applications and developments.
+- A Multimodal Sensor-Based Self-Supervised Learning Framework for Low-Noise System State Prediction and Anomaly Detection.
+- Semi-Supervised Degradation-Aware Learning for All-in-One Weather-Degraded Image Restoration
+- Assessing Coral Reef Stress in Indonesia by Combining SST and Ocean Color Data
+- Écrire des textes cliniques simplifiés pour les familles aux urgences pédiatriques avec l’IA générative: tensions entre auctorialité et charge de travail
+- Optical metasurfaces for general vision processing on the edge
+- HWDiT-Net: hybrid wavelet-dilated transformer network for UAV power-line segmentation
+- [Dual Dimensionality for Local and Global Attention](https://arxiv.org/abs/2606.18587)
+- [Diffusion Language Models: An Experimental Analysis](https://arxiv.org/abs/2606.19475)
+- [A Unified Framework for Efficient Remote Sensing Visual Question Answering: Adapting Dual, Hybrid, and Encoder-Decoder Architectures](https://arxiv.org/abs/2606.19277)
+- [FoMoE: Breaking the Full-Replica Barrier with a Federation of MoEs](https://arxiv.org/abs/2606.19025)
+- [Investigating Inductive Biases for Machine Learning Emulation of Sudden Stratospheric Warmings in Idealised Isca Simulations](https://arxiv.org/abs/2606.18857)
+- [S-JEPA : Soft Clustering Anchors for Self-Supervised Speech Representation Learning](https://arxiv.org/abs/2606.19398)
+- [Leveraging Energy Features for Surface Classification with Deep Learning: A Comparative Analysis Across Three Independent Datasets](https://arxiv.org/abs/2606.18698)
+- [Reinforcement Learning Foundation Models Should Already Be A Thing](https://arxiv.org/abs/2606.18812)
+- [A Hybrid LSTM--Vision Transformer Architecture for Predicting HRRR Forecast Errors](https://arxiv.org/abs/2606.19026)
+- [Understanding and Mitigating Prompt Leaking Attacks in Real-World LLM-Based Applications](https://arxiv.org/abs/2606.18673)
+- [Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance](https://arxiv.org/abs/2606.19195)
+- [The Market in the Model: Latent Diffusion as Neural Economy](https://arxiv.org/abs/2606.19151)
+- [Patnaik-Pearson intrinsic dimension for internal representations of neural networks](https://arxiv.org/abs/2606.19268)
+- [UniTemp: Unlocking Video Generation in Any Temporal Order via Bidirectional Distillation](https://arxiv.org/abs/2606.18702)
+- [Clinically Aligned Geometry Constraints for Robust IVUS Vessel Boundary Segmentation](https://arxiv.org/abs/2606.18723)
+- [Complementary Attention Head Pruning for Efficient Transformers](https://arxiv.org/abs/2606.19150)
+- [MoCo-AIS: A Contrastive Learning Framework for Similarity Computation of Vessel Trajectories](https://arxiv.org/abs/2606.17978)
+- Multiscale adaptive finetuning enhances few shot facial expression recognition
+- [ASTEROID: A Spatiotemporal Information Transformer for Forecasting Multi-Step Time Series of Molecular Dynamics](https://arxiv.org/abs/2606.17668)
+- Scale-adaptive multi-predator network for camouflaged object detection
+- Deep reinforcement learning with robust spatial–temporal representation for improving GNSS positioning correction
+- Application and validation of a Fredformer framework for multi-indicator water quality forecasting in the Weihe River Basin
+- Generalized Image Retrieval with Off-The-Shelf Quantizer
+- A robust ABSA pipeline integrating large language models and BiLSTM networks
+- Robust integration of weakly anchored spatial multi-omics
+- Development of Early Prediction Model of a CRUD-Induced Power Shift by Applying Autoencoder ML Architecture
+- Not all linguistic variation is equally predictable
+- Cross-level interaction and multi-granularity contrastive learning for multi-view clustering
+- SARS: An Explainable Student Academic Performance Risk Assessment and Advisory System
+- A Transformer-derived transcriptomic score associates with ex-vivo drug response in AML
+- Optimized BiLSTM-Based Phishing Detection System Using Attention Mechanism for Large-Scale Data Classification
+- Usage of Artificial Intelligence Large Language Models (LLMs) in the Chemical Industry: A Comprehensive Review
+- Bridging the Gap Between Drug-Target Affinity and Cellular Response: The Role of Attention Mechanisms in Multimodal CADD
+- A FRAMEWORK FOR DESIGNING A SUSTAINABLE SCF FINTECH ECOSYSTEM: THE ROLE OF SIX ECOSYSTEM PILLARS
+- [Delta-Based Target Reformulation for Short-Term Electricity Load Forecasting Using LSTM and Transformer Models](https://arxiv.org/abs/2606.17692)
+- [Multiple cyclicity and Wavelet Decomposition with Channel Correlation for Long-term Time Series Forecasting](https://arxiv.org/abs/2606.17996)
+- [An expressivity analysis of hierarchical modelling in deep transformers via bounded-depth grammars](https://arxiv.org/abs/2606.17522)
+- [Geometry-Aware Post-Hoc Uncertainty Quantification in Operator Learning](https://arxiv.org/abs/2606.17513)
+- [Learning Dynamics of Chain-of-Thought State Tracking in a Solvable Transformer Model](https://arxiv.org/abs/2606.18164)
+- [GHOST-CAT: An Efficient and Practical Network for Mesh Generation from 3D Echocardiography](https://arxiv.org/abs/2606.18489)
+- [Deep CSI Feedback for FDD Massive MIMO Systems: A Curvelet Learning Approach](https://arxiv.org/abs/2606.17737)
+- [Better Queries, Cheaper Attention: Adapting Transformers for Efficient Sparse Reconstruction](https://arxiv.org/abs/2606.17631)
+- [Heterogeneous SAR-optical fusion for near-real-time land use and land cover mapping under cloud contamination: A novel framework and global benchmark dataset](https://arxiv.org/abs/2606.17713)
+- [Latency Prediction for LLM Inference on NPU Systems](https://arxiv.org/abs/2606.18042)
+- Positional Encodings for Graph Neural Networks in Intelligent Water Infrastructure
+- [Scaling Short-Term Memory of Visuomotor Policies for Long-Horizon Tasks](https://arxiv.org/abs/2606.16178)
+- [Taylor-Calibrate: Principled Initialization for Hybrid Linear Attention Distillation](https://arxiv.org/abs/2606.16429)
+- Vision Transformer for Active Compound Function Classification Based on 2D Molecular Structures
+- Explainable Temporal Attention for Anomaly Detection in Medical Time-Series Data
+- BERTopic Modeling Analysis of Privacy Protection Trends in New Trade Rules for the Mobility Industry
+- Handshake: Partner-Specific Protein-Protein Binding Site Prediction at Scale Using ProstT5 and Cross-Chain Attention
+- Transformer-Based Multimodal Fusion for Complex Wall Parameter Distribution Estimation
+- Step-Aware Cross-View Transformer for Unsupervised Semiconductor Manufacturing Equipment Anomaly Detection
+- DPL-DETR: An Insulator Defect Monitoring Method via Dynamic Adaptive Perception and Local–Global Attention Enhanced Fusion Network
+- RISC-V Vectorized Softmax Acceleration for IoT Edge Inference Systems
+- A Vulnerability-Type Correlation-Aware Smart Contract Multivulnerability Detection Model
+- Split-Federated BERT With Adversarial Training for Edge Intrusion Detection
+- A Hybrid Mamba–Transformer Approach With Time–Frequency Fusion Attention for Fall Detection
+- Masked Generative Models for Real-Time Network Traffic Forecasting
+- EKAN: a situated cognition framework integrating dynamic knowledge and attention for fake news countermeasures in crisis information systems
+- Advancing text-based personality detection: a comparative study of machine learning models on behavioral interview data and stream of consciousness essays
+- Context is key for cybersecurity: leveraging external knowledge for process model explanation via LLMs
+- Comparative evaluation of machine learning methods for protecting LLMs from prompt injection attacks
+- MambaAir: a multi-scale hybrid mamba-attention model for air quality prediction
+- [SemGeoNav:A Safety-Guided Visual Navigation Approach with Semantic Reasoning and Geometric Planning](https://arxiv.org/abs/2606.16400)
+- [Fantastic Pretraining Optimizers and Where to Find Them II: Hyperball Optimization](https://arxiv.org/abs/2606.16899)
+- [LiFT: Local Search via Linear Programming for Overfitting-Controlled Transformers](https://arxiv.org/abs/2606.16243)
+- [Your"Pro"LLM Subscription May Actually Be"Free": Exposing Fingerprint Spoofing Risks in LLM Inference Services](https://arxiv.org/abs/2606.16100)
+- [KVEraser: Learning to Steer KV Cache for Efficient Localized Context Erasing](https://arxiv.org/abs/2606.17034)
+- [SwiftCache: Efficient LLM Serving for Multi-turn Conversations with Heterogeneous KV Cache Sharing](https://arxiv.org/abs/2606.16135)
+- [Latent space mapping of interpretable structural coordinates from stochastic single-molecule signals](https://arxiv.org/abs/2606.16950)
+- [A Perception vs. Distortion Perspective on Score-Based Generative Channel Estimation](https://arxiv.org/abs/2606.16815)
+- [Redirecting the Flow: Image Customization through Attention Distribution Shift](https://arxiv.org/abs/2606.16866)
+- [MVM-IOD: An Industrial Object-Centric Benchmark Dataset for the Evaluation of 3D Reconstruction Methods](https://arxiv.org/abs/2606.16638)
+- [Beyond the Smile: A Hybrid Convolutional VAE for Crypto Volatility Surfaces](https://arxiv.org/abs/2606.16961)
+- [Evolution&Foundation: AI Shares Creative Control](https://arxiv.org/abs/2606.16849)
+- [XL-ChannelDiff: An Efficient Diffusion-Based Multi-Domain Near-Field Channel Extrapolation Framework for XL-MIMO Systems](https://arxiv.org/abs/2606.16628)
+- [OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation](https://arxiv.org/abs/2606.16838)
+- [Communication-Efficient Verifiable Attention for LLM Inference](https://arxiv.org/abs/2606.16352)
+- [Taming Curvature: Architecture Warm-Up for Stable Transformer Training](https://arxiv.org/abs/2606.16768)
+- [Adaptive inference and function vectors in deep transformers](https://arxiv.org/abs/2606.16694)
+- [Synergizing Global Pattern Learning and Time Order Characterization in Mobile Channel Prediction: An RWKV-Based Approach](https://arxiv.org/abs/2606.16170)
+- [Robust Dual-Signal Fusion: Hybrid Neuro-Symbolic Gating with Compressed Chain-of-Thought Refinement for Irony Detection in Social Media Texts](https://arxiv.org/abs/2606.16845)
+- [GraphBEV++: Multi-Modal Feature Alignment for Autonomous Driving](https://arxiv.org/abs/2606.16354)
+- [How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations](https://arxiv.org/abs/2606.16973)
+- [ExoTraj: A General Lower-limb Exoskeleton Assistance Policy for Complex Environments](https://arxiv.org/abs/2606.16876)
+- [PIANO: Personalized Reranking via Information Aggregation Node for Music Search Optimization](https://arxiv.org/abs/2606.16641)
+- [MASCOT-Android: A Curated Dataset and Automated Collection Pipeline for Android Malware Source Code Specimens](https://arxiv.org/abs/2606.16072)
+- [Privacy from Symmetry: Orthogonally Equivariant Transformers for LLM Inference](https://arxiv.org/abs/2606.16461)
+- [Uncertainty Quality of VGGT: An Analysis on the DTU Benchmark Dataset](https://arxiv.org/abs/2606.16479)
+- A lightweight LBM detection transformer with multi-scale feature fusion for citrus-picking robots
+- SFNet: Sparse Fusion Network for Object Detection of Cross-Modal Images
+- CAFormer: A Channel-Adaptive Transformer With Contrastive Learning for Robust RSVP-BCI Decoding Under Label Noise and Variability
+- Design Factors Affecting IMU-Based Joint Torque Estimation Using Deep Learning
+- An End-to-End Neural Codec for Bone-Conducted Microphone Speech
+- Time-aware attention network for multi-step future prediction in wastewater treatment.
+- An Intelligent Agent-Based System for Automated Seat Assignment in Entertainment Venues
+- Uncertainty-Aware Deep Ensembles for Robust and Reliable Chemical Sensor Arrays.
+- Automated Kellgren–Lawrence grading of knee osteoarthritis using a multi-scale attention-based deep learning framework
+- Leveraging transformer-based artificial intelligence for enhanced anesthetic decision-making in orthopedic surgery
+- MixCache: Mixture-of-Cache for Video Diffusion Transformer Acceleration
+- A Transformer-Based Neural Network to Predict Credit Card Default
+- DMSCNet: A Dilated Multi-Scale Contrastive Attention Network for Sensor-Based Human Activity Recognition
+- Early identification of risk factors for obstructive sleep apnea hypopnea syndrome based on large language models
+- Hybrid Computational Modeling with Multi-Level Validation Identifies TK1-VIM as a Robust Therapeutic Pair in Triple-Negative Breast Cancer.
+- LTNIN: Lightweight Transformer Network for Inertial Navigation
+- Methodologies enabling Mobile Robots Collective Motion: A Comprehensive Review
+- [Calibrated Sampling-Free Uncertainty Estimation in Bayesian Deep Learning](https://arxiv.org/abs/2606.16214)
+- [ROSA-RL: Uncertainty-Aware Roundabout Optimized Speed Advisory with Reinforcement Learning](https://arxiv.org/abs/2606.16558)
+- [Physics-Informed Attention Mechanism and Generalization Capability of Deep Learning-Based Grain Growth Evolution Prediction](https://arxiv.org/abs/2606.17235)
+- [Stop the Sampler! Classifier-Based Adaptive Stopping for Sampling Kernels](https://arxiv.org/abs/2606.16073)
+- [Decoding while Adapting: Zero-Shot Online Speaker Adaptation via Audio-Textual Prompts for Elderly Speech Recognition](https://arxiv.org/abs/2606.16539)
+- [One Sequential Recommendation Model Pretrained from Synthetic Priors Predicts Multiple Datasets](https://arxiv.org/abs/2606.15752)
+- [Robust Transformer-Based One-Step Stock Index Forecasting via Shifted Data Augmentation](https://arxiv.org/abs/2606.15701)
+- [ROMPAR: Morphological Completion and Demographic Unlearning for Romanian-Accented Speech Recognition](https://arxiv.org/abs/2606.15984)
+- [IBAD: Interpretable Behavioral Anomaly Detection on Human Mobility Data](https://arxiv.org/abs/2606.16023)
+- [A Text Recognition Dataset from Sahidic Coptic Ancient Manuscripts](https://arxiv.org/abs/2606.15987)
+- [CEVAR: Centerline Embedding Extraction for Endovascular Aneurysm Repair](https://arxiv.org/abs/2606.15667)
+- [Inference-Time Decision Calibration for Temporal Classification](https://arxiv.org/abs/2606.16034)
+- [AQ4SViT: An Automated Quantization Framework with Search Gating Policy for Compressing Spiking Vision Transformers](https://arxiv.org/abs/2606.15523)
+- [Robots as Tokens: Unified Diffusion Transformer for Coordinated Multi-Robot Trajectory Generation](https://arxiv.org/abs/2606.15550)
+- [Schattor: Schatten-family methods for deep learning optimization](https://arxiv.org/abs/2606.15702)
+- [Amortized mean-shift interacting particles](https://arxiv.org/abs/2606.15871)
+- [Learning a Sampling-Free Variational DNN Plugin from Tiny Training Sets to Refine OOD Segmentation With Uncertainty Estimation](https://arxiv.org/abs/2606.15837)
+- Cellfm-datasets: A Unified Data Infrastructure for Single-Cell and Spatial Transcriptomics Foundation Model Pretraining
+- ChatGPT Assisted Scale Development: Attitude Scale for Outdoor Learning Activities
+- Automating Spatial Visualisation of Handwritten Vector Equations Using Large Vision Models in Pre-Tertiary Mathematics
+- Privacy Preserving Federated Learning for Myocardial Infarction Detection from ECG Signals
+- [SparseCol: A 1320 BTOPS/W Precision-Scalable NPU Exploiting Training-Free Structured Bit-Level Sparsity and Dynamic Dataflow](https://arxiv.org/abs/2606.16016)
+- Speech Synthesis from Electrocorticography during Imagined Speech Using a Transformer-Based Decoder and a Pretrained Vocoder
+- Reinforcement learning-driven unified generative framework for multi-objective RNA codon design
+- MoE-Bind: Guiding De Novo Protein Binder Generation with Sparse Experts
+- StartVerse: An AI-Driven Chatbot for Startup Intelligence and Market Analysis
+- [Driving, Fast or Slow? Neuro-Symbolic Guidance for Motion Prediction in Multi-Modal Ground Mobility](https://arxiv.org/abs/2606.15251)
+- [Seam-to-Graph Reconstruction for Garment Configuration Alignment](https://arxiv.org/abs/2606.15171)
+- [Coordinated Scheduling for MoE LLM Serving](https://arxiv.org/abs/2606.15177)
+- [Generative modelling powered by room-temperature polariton condensates](https://arxiv.org/abs/2606.15344)
+- [HiRo: A Compact Four-Directional Hierarchical Reservoir Token-Mixer for Efficient Image Classification](https://arxiv.org/abs/2606.15151)
+- [Adaptive Resource Management and Quality Control for Streaming Video Generation](https://arxiv.org/abs/2606.15319)
+- [Text-Driven Fusion for Infrared and Visible Images: Achieving Image Scene Adaptation on Hyperbolic Space](https://arxiv.org/abs/2606.15104)
+- ProtAff: Protein Binding Affinity Prediction via LoRA-Finetuned ESM-2
+- Unlocking Your Programmable and Creative RNA Sequence Designer with RDiffusion
+- [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142)
+- [A Transformer-Based Mixture-of-Experts Framework for False Data Injection Attack Detection and Localization](https://arxiv.org/abs/2606.15005)
+- [Leveraging Physiological Signals to Predict Exam Outcomes with Machine Learning](https://arxiv.org/abs/2606.14960)
+- [Context-Guided Semantic Alignment for Feature Fusion Networks](https://arxiv.org/abs/2606.14005)
+- [ChronoID: Infusing Explicit Temporal Signals into Semantic IDs for Generative Recommendation](https://arxiv.org/abs/2606.14260)
+- [Fodor and Pylyshyn's Systematicity Challenge Still Stands](https://arxiv.org/abs/2606.14512)
+- Estimation of Doppler velocity from incoherent scatter spectra using context-aware transformers
+- Tea Pest and Disease Named Entity Recognition with Relative Position Bias and Hierarchical Mask
+- FuMoE-csKT: fusing disentangled and self-attention in a personalized mixture-of-experts framework for cold-start knowledge tracing
+- ASM-DBNet: Introducing Adaptive Differentiable Binarization, Spatial-Channel Self-Attention and Multi-Scale Context-Enhanced Dynamic Upsampling for Natural Scene Text Detection
+- Cross-dataset benchmarking of machine learning models for marine and atmospheric environmental prediction
+- [One Layer's Trash is Another Layer's Treasure: Adaptive Layer-wise Visual Token Selection in LVLMs](https://arxiv.org/abs/2606.14277)
+- [Agon: A Semi-Supervised Framework for Robust Satellite Interference Detection](https://arxiv.org/abs/2606.14147)
+- [DRIVE: Distributional and Retrieval-Augmented Bidding with Value Evaluation](https://arxiv.org/abs/2606.14192)
+- [Design Methodology and Performance Trade-offs Management for Distributed and Compound AI Systems](https://arxiv.org/abs/2606.14350)
+- [ReactVLA: Fast and Lightweight Reactive Robot Manipulation via Improved Mean Flow Action Generation](https://arxiv.org/abs/2606.14255)
+- [Knowledge Graph Enhanced Memory-Augmented Retrieval for Long Context Modeling](https://arxiv.org/abs/2606.14047)
+- [From Attacks to Curricula: Learnability-Guided Adversarial Training for Safe Autonomous Driving](https://arxiv.org/abs/2606.14032)
+- [Spectrum Aware Illumination Estimation Using Multispectral Image](https://arxiv.org/abs/2606.14248)
+- [Universal Manipulation Exoskeleton: Learning Compliant Whole-body Policies with Real-time Torque Feedback](https://arxiv.org/abs/2606.14218)
+- [FAConformer: Frequency-Aware Convolutional Transformer for Auditory Attention Decoding](https://arxiv.org/abs/2606.14120)
+- [Digital Twin-Based Channel Generation Toolchain and Foundation Model for Low-Altitude XL-MIMO](https://arxiv.org/abs/2606.14114)
+- DMRNet: a dynamic multi-scale residual network for Shamrock view and lumbar plexus segmentation.
+- Grading at scale: privacy-preserving automated short answer grading with small language models on CPUs
+- Cross-Lingual Sentiment Classification in Sustainable Mobility: A Zero-Shot Domain Transfer Evaluation Framework
+- Local feature-aware and edge-enhanced semantic segmentation for autonomous driving
+- An Innovative Method for Coalbed Methane Well Production Prediction Based on Improved‐iTransformer Algorithm
+- [Abstracting Cross-Domain Action Sequences into Interpretable Workflows](https://arxiv.org/abs/2606.14654)
+- [A Comparative Study of Deep Learning Architectures for Multi-Horizon Behavioural Forecasting for Mobile Health](https://arxiv.org/abs/2606.14604)
+- [PepALD: Macrocyclic Peptide Generation via Autoregressive Latent Diffusion](https://arxiv.org/abs/2606.14510)
+- [A theoretical model for task routing in mixture-of-expert transformers](https://arxiv.org/abs/2606.14398)
+- [Instruct-Particulate: Scaling Feed-Forward 3D Object Articulation with Kinematic Control](https://arxiv.org/abs/2606.14699)
+- [Zero-shot generalization of transformer neural operators to larger domains](https://arxiv.org/abs/2606.14597)
+- [TRACE: Trajectory-Routed Causal Memory for Delayed-Evidence Visuomotor Imitation](https://arxiv.org/abs/2606.14551)
+- [RATS! Patches Talk Through Registers: Emergent Parts in Register Attention Transformers](https://arxiv.org/abs/2606.14701)
+- A Graph-based QSAR Modeling Pipeline for Predicting In vitro PubChem Assays and In vivo Human Hetatotoxicity: Mechanistic Analysis of Caspase-3/7 Activation
+- AI’s Personas and Historical Knowledge: How Models Transform Textbook Questions into Narratives
+- [Deep Temporal Modeling and Ensemble Fusion for Multimodal Emotion Recognition from Physiological Signals](https://arxiv.org/abs/2606.15026)
+- [Multi-HMR 2: Multi-Person Camera-Centric Human Detection, Mesh Recovery and Tracking](https://arxiv.org/abs/2606.14841)
+- [Policy Regret for Embedding Model Routing: Contextual Bandits with Low-Rank Experts](https://arxiv.org/abs/2606.14929)
+- Generating Joint Transcriptomic and Morphological Responses to Drug Perturbations via Rectified Flow
+- Development of an Intelligent Smart Campus Chatbot Based on Natural Language Processing and Retrieval-Augmented Generation for Integrated Academic Information Services
+- A Dual-Channel Enhanced Mamba Model for Fault Detection in Grid-Connected Photovoltaic Systems.
+- An Innovative Coastal Altimetry Waveform Processing Approach Based on Wave-Transformer Classifier
+- Prediction of Total Soluble Solids Content in Loquat Based on Hyperspectral Imaging and Interpretable Deep Learning
+- A lightweight intelligent fault diagnosis method based on fusion of hierarchical token pooling and vision transformer characteristics
+- [An Attention-based Model for Robust Forecasting with Missing Modality](https://arxiv.org/abs/2606.13970)
+- KPIs anomaly detection through dual-branch spatio-temporal-frequency feature extraction and enhanced transformer
+- CESI: commonsense knowledge selection and emotional semantic interaction for empathetic dialogue generation
+- [Positional Encoding in the Context of Memristor-Based Analog Computation for Automatic Speech Recognition](https://arxiv.org/abs/2606.13379)
+- [Detecting Explanatory Insufficiency in Learned Representations: A Framework for Representational Vigilance](https://arxiv.org/abs/2606.13172)
+- [Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints](https://arxiv.org/abs/2606.13211)
+- [Endpoint Anticipation for Low-Latency Spoken Dialogue](https://arxiv.org/abs/2606.13450)
+- [From Tokens to Faces: Investigating Discrete Speech Representations for 3D Facial Animation](https://arxiv.org/abs/2606.13630)
+- [Camera and LiDAR BEV Fusion for Cooperative 3D Object Detection on TUMTraf V2X](https://arxiv.org/abs/2606.12981)
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895)
+- [Continuum Neural Momentum Eigenstate for Variationally Solving Quasiparticles](https://arxiv.org/abs/2606.12928)
+- [Why Sampling Is Not Choosing: Intentionality, Agency, and Moral Responsibility in Large Language Models](https://arxiv.org/abs/2606.13441)
+- [CloudCons: A Comprehensive End-to-End Benchmark for Cloud Resource Consolidation](https://arxiv.org/abs/2606.13513)
+- [EPM-JEPA: Operator-Side Experience Modulation in JEPA-Family World Models](https://arxiv.org/abs/2606.12979)
+- [LoRA-Muon: Spectral Steepest Descent on the Low-Rank Manifold](https://arxiv.org/abs/2606.12921)
+- [FTP-1: A Generalist Foundation Tactile Policy Across Tactile Sensors for Contact-Rich Manipulation](https://arxiv.org/abs/2606.13102)
+- [HyperTool: Beyond Step-Wise Tool Calls for Tool-Augmented Agents](https://arxiv.org/abs/2606.13663)
+- [Layer-Resolved Optimal Transport for Hallucination Detection in NMT and Abstractive Summarization](https://arxiv.org/abs/2606.13216)
+- [Different Layers, Different Manifolds: Module-Wise Weight-Space Geometry in Transformer Optimization](https://arxiv.org/abs/2606.13276)
+- [A Tutorial on World Models and Physical AI](https://arxiv.org/abs/2606.12783)
+- [Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics](https://arxiv.org/abs/2606.12828)
+- [Understanding helpfulness and harmless tension in reward models](https://arxiv.org/abs/2606.13209)
+- TL-DETR: Efficient transmission line defect detection for edge deployment
+- [Attention-Based Estimation of the Individual Treatment Benefit Probability under Dose Variation](https://arxiv.org/abs/2606.13821)
+- [A fully GPU-based workflow for building physics emulators of hypersonic flows](https://arxiv.org/abs/2606.13742)
+- [CineOrchestra: Unified Entity-Centric Conditioning for Cinematic Video Generation](https://arxiv.org/abs/2606.13768)
+- [Explaining RhythmFormer: A Systematic XAI Analysis of Periodic Sparse Attention for Remote Photoplethysmography](https://arxiv.org/abs/2606.13839)
+- [BigPower: Hierarchical Source-Level Module Power Estimation for CPUs with Large Language Models](https://arxiv.org/abs/2606.13747)
+- [Beyond LoRA: Is Sparsity-Induced Adaptation Better?](https://arxiv.org/abs/2606.13767)
+- [CaricHarmony: Contrastive Diffusion Paths for Identity-Preserving Caricature Synthesis](https://arxiv.org/abs/2606.13964)
+- [Recursively Trained Diffusion Models: Limiting Collapse Distribution and Spectral Characterization](https://arxiv.org/abs/2606.13796)
+- [Refusal Beyond a Single Direction: A Preliminary Comparison of Diff-in-Means and INLP](https://arxiv.org/abs/2606.13720)
+- [Compressing Image Style Training into a Single Model Forward](https://arxiv.org/abs/2606.13809)
+- DigiMus: a connectome-informed spiking framework for multi-region mouse neural-behavior modeling
+- TifBERT: a self-supervised foundation model for normalization-robust bulk RNA-seq representation learning
+- A Transformer–GNN Hybrid Framework for Predicting Structural Nonlinear Responses in Urban‐Scale Seismic Performance Assessment
+- Gear fault diagnosis method based on cross-attention mechanism for time-frequency feature fusion
+- AGZArank: Investigating epitope-conditioned antibody binder ranking with structure-derived synthetic supervision
+- Generative Drug Design in a Loop with dtSFM
+- TMO: Asymmetric Cross-Modal Attention For Learning Cell-State-Dependent Regulatory Lags From Single-Cell Multiomic Data
+- INVESTOR SENTIMENT ANALYSIS FROM TWITTER AND REDDIT FOR FORECASTING FOREX AND CRYPTOCURRENCY VOLATILITY USING GPT-BASED NLP MODELS
+- [From Physics to Representation: Audio Learning with Synthetic Pre-training via Procedural Generation](https://arxiv.org/abs/2606.14791)
+- Learning Occlusion-Dynamic Invariant Representations for Multi-Object Tracking
+- WSformer: Wavelet-Based Sparse Transformer for Blind Image Restoration
+- DSPFusion: Image Fusion via Degradation and Semantic Dual-Prior Guidance
+- Parameter-efficient adaptation of foundational models for automated myocardial strain analysis
+- Human-Structure-Aware Token Position Embedding for Tokenized Pose Estimation
+- Multi-Label Image Classification via Contrastive Co-Occurrence Learning
+- Coupling-sensitive feature decoupling network for robust aero-engine RUL estimation under mixed operating conditions
+- [PAWS: Preference Learning with Advantage-Weighted Segments](https://arxiv.org/abs/2606.11982)
+- [Higher-Order Token Interactions via Quantum Attention](https://arxiv.org/abs/2606.11673)
+- A Domain-agnostic Vision Transformer Framework for Machinery Fault Diagnosis using Wavelet Time–frequency Spectra
+- Smalltalk-KG: A Knowledge Graph Construction Framework for Dialog Personalization in Human-Robot Interaction
+- [Fast Speech Foundation Model Distillation Using Interleaved Stacking](https://arxiv.org/abs/2606.11766)
+- [Time-Series Foundation Model Embeddings for Remaining Useful Life Estimation](https://arxiv.org/abs/2606.11990)
+- [Semantically-Aware Diver Activity Recognition Framework for Effective Underwater Multi-Human-Robot Collaboration](https://arxiv.org/abs/2606.12374)
+- [VL-DINO: Leveraging CLIP Vision-Language Knowledge for Open-Vocabulary Object Detectio](https://arxiv.org/abs/2606.11546)
+- [Enhancing LLM-Based Code Translation with Verified Multi-Semantic Representations](https://arxiv.org/abs/2606.11863)
+- [Can Open-Source LLM Agents Replace Static Application Security Testing Tools? An Empirical Assessment](https://arxiv.org/abs/2606.11672)
+- [On the Limits of LLM-as-Judge for Scientific Novelty Assessment](https://arxiv.org/abs/2606.12071)
+- [Time Series Analysis in Machine Learning](https://arxiv.org/abs/2606.11746)
+- Intelligent prediction model for geoeffectiveness of coronal mass ejections
+- [ECA: Efficient Continual Alignment for Open-Ended Image-to-Text Generation](https://arxiv.org/abs/2606.12633)
+- [Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning](https://arxiv.org/abs/2606.11634)
+- [Detecting Sensitive Personal Information in Japanese Pre-Training Corpora for Large Language Models](https://arxiv.org/abs/2606.12114)
+- [Net-Ev$^2$: A Generative Simulator for Network Event Evolution](https://arxiv.org/abs/2606.12494)
+- [TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation](https://arxiv.org/abs/2606.12657)
+- [Acoda: Adversarial Code Obfuscation for Defending against LLM-based Analysis](https://arxiv.org/abs/2606.11755)
+- [Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay](https://arxiv.org/abs/2606.11786)
+- [Action-Effect Memory Pretraining for Robot Manipulation](https://arxiv.org/abs/2606.12499)
+- [Attention by Synchronization in Coupled Oscillator Networks](https://arxiv.org/abs/2606.12059)
+- [Slots, Transitions, Loops: Learning Composable World Models for ARC](https://arxiv.org/abs/2606.12316)
+- [Missing-Token Prompted Reliability-Aware Fusion for Robust Polyglot Speaker Identification](https://arxiv.org/abs/2606.12495)
+- [On Subquadratic Architectures: From Applications to Principles](https://arxiv.org/abs/2606.12364)
+- [DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace](https://arxiv.org/abs/2606.11687)
+- [MultiToP: Learning to Patch Visual Tokens to Mitigate Hallucinations in Video Large Multimodal Models](https://arxiv.org/abs/2606.11792)
+- [Learning Instance-Adaptive Low-Rank Orthogonal Subspaces for Clothes-Changing Person Re-Identification](https://arxiv.org/abs/2606.11661)
+- [Boltzmann Attention: Learnable Ising Couplings for Cooperative Attention](https://arxiv.org/abs/2606.12478)
+- [Large Language Models in Process Systems Engineering: Opportunities, Architectures, and Industrial Deployment Challenges](https://arxiv.org/abs/2606.11589)
+- [Pretrained self-supervised speech models can recognize unseen consonants](https://arxiv.org/abs/2606.11542)
+- [UR-BERT: Scaling Text Encoders for Massively Multilingual TTS Through Universal Romanization and Speech Token Prediction](https://arxiv.org/abs/2606.11681)
+- [Kuramoto Attention: Synchronizing Self-Attention on the Torus](https://arxiv.org/abs/2606.11585)
+- [Finding Sparse Subnetworks in One Training Cycle via Progressive Magnitude-Based Pruning](https://arxiv.org/abs/2606.12278)
+- [SpikeDecoder: Realizing the GPT Architecture with Spiking Neural Networks](https://arxiv.org/abs/2606.12287)
+- [When Does Language Matter? Multilingual Instructions Reveal Step-wise Language Sensitivity in Vision-Language-Action Models](https://arxiv.org/abs/2606.11906)
+- [ConsistencyPlanner: Real-time Planning with Fast-Sampling Consistency Models](https://arxiv.org/abs/2606.11569)
+- [Physics-Distilled Neural Network enabled by Large Language Models for Manufacturing Process-Property Predictive Modeling](https://arxiv.org/abs/2606.11605)
+- [KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility](https://arxiv.org/abs/2606.12042)
+- [Jaguar: Fast Private CNN Inference with Power-of-Two Homomorphic Arithmetic](https://arxiv.org/abs/2606.11827)
+- [STCC: A Unified Source-Channel Semantic Token Coding Framework for Semantic Communications](https://arxiv.org/abs/2606.11819)
+- [VLGA: Vision-Language-Geometry-Action Models for Autonomous Driving](https://arxiv.org/abs/2606.12396)
+- Understanding Transformer-Based Classifications of Medical Text Using a Large Language Model for the Attribution of Feature Importance: Proof-of-Concept Algorithm Development and Validation Study
+- [Wavelet-Based Extraction of Transient Noise in Gravitational-Wave Interferometers using a Saliency-Guided Learning Architecture](https://arxiv.org/abs/2606.11595)
+- The value of where – quantifying location values with tabular transformer models
+- Investigating the Generalizability of Segment Anything Model for Large-Scale Geospatial Segmentation
+- Pseudoperplexity Probes Memorization in Protein Language Models
+- DST: Dual Structured Transformer for Emotion & Gender Classification Using Speech
+- Evaluating Symmetry and Asymmetry in Large Language Models’ Focus-Span Identification: Evidence from Chinese shi…de Cleft Constructions
+- A Unified AI Framework for Turkish E-Commerce Review Analysis: Sentiment Classification, LLM-Based Summarization, and Fuzzy Evaluation
+- AI-Driven Adaptive Anomaly Detection and Control for IoT Cyber-Physical Systems
+- RubberFormer: a transformer-based detection benchmark for rubber tree powdery mildew
+- MFDSU-Net: a novel semantic-geometric collaborative network for cattle segmentation in complex farm environments
+- [Unified KV Pooling to Accelerate Long-Context LLM Serving](https://arxiv.org/abs/2606.14779)
+- Cascaded Attention-Based Multimodal Framework for Robust Disaster Tweet Classification
+- Efficient and accurate neural-field reconstruction using resistive memory
+- MAFormer: a lightweight gearbox fault diagnosis model
+- SSM-WTUNet: UNet short-term precipitation forecasting network integrating state space models and wavelet convolution
+- [Flaws in the LLM Automation Narrative](https://arxiv.org/abs/2606.11166)
+- [Context-Aware Multimodal Claim Verification in Spoken Dialogues](https://arxiv.org/abs/2606.11420)
+- SLiMNet: a deep learning model to detect short linear motifs using protein large language model representations and paired inputs
+- [Boosting ECG Classification Performance by Pre-training with Synthesized Data](https://arxiv.org/abs/2606.10802)
+- [Toward Proactive RF Charging Scheduling: Generative AI for Decision Support](https://arxiv.org/abs/2606.10600)
+- [COGENT: Continuous Graph Emulators with Neural Ordinary Differential Equations for Long-Term Physical Forecasting](https://arxiv.org/abs/2606.11162)
+- [HIPIF: Hierarchical Planning and Information Folding for Long-Horizon LLM Agent Learning](https://arxiv.org/abs/2606.10507)
+- [One Step Closer to Ground Truth: A Multi-Scale Residual-Aware Representation Learning Pipeline for Predicting Time Series Data](https://arxiv.org/abs/2606.10678)
+- [Geometry-Aware Reinforcement Learning for 2D Irregular Nesting](https://arxiv.org/abs/2606.10611)
+- [Unifying Data, Memory, and Compute Efficiency in LLM training: A Survey](https://arxiv.org/abs/2606.10706)
+- [Beyond Model Size: Probing the Gaps in Visual in-Context Learning by Training a Tiny Model](https://arxiv.org/abs/2606.10905)
+- [Continual LLM Upcycling: A Predictor-Gated Bank-Wise Sparsity Training Recipe for Dense-to-Sparse LLMs](https://arxiv.org/abs/2606.10722)
+- [A Mean-Field Analysis of Multi-Head Self-Attention under Cross-Entropy Training](https://arxiv.org/abs/2606.10469)
+- [RATrain: A Resource-Aware Training Runtime for Large Language Models on Bandwidth-Constrained Heterogeneous Supercomputing Platforms](https://arxiv.org/abs/2606.10415)
+- [Towards Critical Branching Mechanism in Recurrent Neural Networks](https://arxiv.org/abs/2606.10384)
+- [Routing-Aware Expert Calibration for Machine Unlearning in Mixture-of-Experts Language Models](https://arxiv.org/abs/2606.10338)
+- [Baseline-Free Policy Optimization for Neural Combinatorial Optimization](https://arxiv.org/abs/2606.10321)
+- [Towards Robust Arabic Speech Emotion Recognition with Deep Learning](https://arxiv.org/abs/2606.10278)
+- [Do Transformers Actually Help Intrusion Detection? A Temporal Sequence Evaluation on CIC-IDS2017](https://arxiv.org/abs/2606.11098)
+- [A Multimodal Domain-Adversarial Network for Fragmentation Background Suppression in AMS Heavy Nuclei Measurements](https://arxiv.org/abs/2606.10637)
+- [Express Language Modeling](https://arxiv.org/abs/2606.10944)
+- [RAT: Reference-Augmented Training for ASV Anti-Spoofing](https://arxiv.org/abs/2606.10908)
+- [MIRAGE: A Polarity-Flipping Encoding Subspace in LLM Agents](https://arxiv.org/abs/2606.10304)
+- [TacForeSight: Force-Guided Tactile World Model for Contact-Rich Manipulation](https://arxiv.org/abs/2606.11184)
+- [Free Parametrization of L_2-Bounded Structured State-Space Controllers for Nonlinear Control with Stability Guarantees](https://arxiv.org/abs/2606.11049)
+- [CITRAS-FM: Tiny Time Series Foundation Model for Covariate-Informed Zero-Shot Forecasting](https://arxiv.org/abs/2606.10798)
+- [Attention Expansion: Enhancing Keyphrase Extraction from Long Documents with Attention-Augmented Contextualized Embeddings](https://arxiv.org/abs/2606.10716)
+- [Speech Encoder Fusion for LLM-based Automatic Speech Recognition](https://arxiv.org/abs/2606.10853)
+- [Parallel Causal Associative Fields: Gated Sparse Memory for Long-Context Language Modeling](https://arxiv.org/abs/2606.10435)
+- [K-Forcing: Joint Next-K-Token Decoding via Push-Forward Language Modeling](https://arxiv.org/abs/2606.10820)
+- SMaRT-Net: A Novel Framework of 7T Brain MRI Superresolution for Alzheimer's Disease Diagnosis and Mild Cognitive Impairment Prognostication.
+- A deep learning-based fusion framework for robust fine-grained classification of sea turtles in support of marine biodiversity
+- Two-Stage Fault Diagnosis of Distribution Network Based on MS-CNN and Spatio-Temporal Dual Attention
+- DPCrossU-Net: a dual-branch parallel CNN–Transformer network for lung nodule segmentation
+- From one to twelve: feasibility and clinical utility of deep learning-derived 12-lead ECGs for remote cardiac monitoring
+- [OmniLoc: A Geometry-Aware Foundation Model for Anchor-Free UE Localization Across Diverse Indoor Environments](https://arxiv.org/abs/2606.11490)
+- [GLACIER: A Multimodal Student-Teacher Foundation Model for Molecular Property Prediction](https://arxiv.org/abs/2606.11382)
+- [Probabilistic Contrastive Pretraining for Multi-task ADME Property Prediction](https://arxiv.org/abs/2606.11508)
+- Towards A Generalizable and Expressive Graph Neural Network for Graph-Level Tasks with Theoretical Guarantees
+- XAI-KAN: inherently interpretable malware detection via symbolic Kolmogorov-Arnold network extraction
+- Mmf-unet: a failure-aware residual serial mamba fusion network for micro-structure segmentation in medical images
+- Decoding emotions: a survey of multimodal sentiment analysis in the digital age in artificial intelligence
+- TaxoFormer: Hierarchical Transformer for Predicting the Full Taxonomic Lineage of Protein Sequences
+- SHERLOC: An interpretable deep learning model for longitudinal circulating tumor DNA data in survival analysis
+- Large Language Models for Intelligent Code Generation in Software Engineering: A Systematic Review and Future Research Directions
+- Segmentation of Multiple Sclerosis Lesions in
+- 
+- 
+- [Bridging the sim2real gap in the table tennis robot with a transformer-based ball states predictor](https://arxiv.org/abs/2606.11464)
+- [Risk Under Pressure: Compute-Aware Evaluation of Adversarial Robustness in Language Models](https://arxiv.org/abs/2606.11409)
+- [RoVE: Rotary Value Embeddings Attention for Relative Position-dependent Value Pathways](https://arxiv.org/abs/2606.11275)
+- Towards coevolution-aware ancestral sequence reconstruction
+- New frontiers in large code language model security: a review of emerging adversarial threats and countermeasures
+- ViroBioTree: A Tree-Structured Biological Evidence Retrieval Framework for Viral Protein Function Annotation.
+- AI-Based Customer Support Chatbot for Intelligent and Real-Time Assistance Using Transformer Models and Reinforcement Learning
+- Machine Learning Forecasts of Coastal Chlorophyll-a Based on Satellite and Model Data: A Case Assessment in the Northern Taiwan Strait
+- Multi-scale signal transformer for rolling bearing fault diagnosis under variable conditions
+- An effective deep learning model for the Pacific decadal oscillation prediction
+- A large language model empowered multi-scale fusion attention network for industrial temperature prediction
+- Bionic-inspired intelligent detection of surface defects on semiconductor silicon wafers
+- Cross-attention guided multi-modal network for breast ultrasound diagnosis incorporating objective clinical semantics
+- Hybrid TCN-transformer Model with Multi-head Attention for Stock Price Forecasting
+- [LEAP: A Rapid Neural Surrogate of Multi-Fluid MHD at Europa](https://arxiv.org/abs/2606.10215)
+- An efficient video quality assessment model incorporating VideoMamba and dual-dimensional attention
+- [BSTabDiff: Block-Subunit Diffusion Priors for High-Dimensional Tabular Data Generation](https://arxiv.org/abs/2606.09257)
+- Development of neural network-based surrogate models in geotechnics: a state-of- the-art review
+- [Physics-Guided Sequence-Based Generative Framework for Acoustic Metamaterial Inverse Design](https://arxiv.org/abs/2606.09266)
+- [Unified Energy for Invariant and Independent Decoding in Diffusion Language Models](https://arxiv.org/abs/2606.09159)
+- [Hybridizing Equilibrium Propagation with Ising Machines for Efficient Energy-Based Learning](https://arxiv.org/abs/2606.09112)
+- [A Universal Dense Football Event Representation Based on TabTransformer](https://arxiv.org/abs/2606.09327)
+- [Few-shot Class-variable Incremental Audio Classification via Prototype Adaptation and Pseudo Class-variable Training](https://arxiv.org/abs/2606.08898)
+- [From Coarse to Fine: Managing Temporal Granularity in Spatio-Temporal Data for Fine-Grained Traffic Prediction](https://arxiv.org/abs/2606.09392)
+- [Graph Mamba Operator: A Latent Simulator for Interacting Particle Systems](https://arxiv.org/abs/2606.09432)
+- [Mixture-of-Experts Transformer for Automatic Modulation Recognition](https://arxiv.org/abs/2606.09085)
+- [Rethinking Depth: A study of the Recursive-Transformer for Speech Recognition](https://arxiv.org/abs/2606.09357)
+- [Steganography Without Modification: Hidden Communication via LLM Seeds](https://arxiv.org/abs/2606.09135)
+- [Backward Coherence and Hidden-State Stability in Recurrent Neural Networks: A Quasi-Reverse-Martingale Theory](https://arxiv.org/abs/2606.08934)
+- [Synthetic but Not Realistic: The Evaluation Challenge in Generative Modelling for Structured Electronic Medical Records](https://arxiv.org/abs/2606.08903)
+- [Counterfactual Reasoning for Fine-Grained Evidence Disentanglement in VideoQA](https://arxiv.org/abs/2606.09181)
+- [Cheap Reward Hacking Detection](https://arxiv.org/abs/2606.08893)
+- [Intention Driven Identification of In-Possession Match Phases in Association Football through Temporal Graph Learning](https://arxiv.org/abs/2606.09289)
+- [Trajectory Geometry of Transformer Representations Across Layers](https://arxiv.org/abs/2606.09287)
+- [Crop Recommendation and Agricultural Query Answering System Using Spatio-Temporal Graph Neural Networks and Hybrid Retrieval Augmentation](https://arxiv.org/abs/2606.09160)
+- [Factors affecting ASR performance: A study using state of the art ASR models in Indic Languages](https://arxiv.org/abs/2606.09335)
+- Development and validation of embedded multilayer attention graph convolution neural network models for predicting gut microbe-disease associations
+- Adaptive Retrieval-Augmented Generation Pipelines for Dynamic Document Landscapes in the Insurance Industry: A Comparative Study of Retrieval Strategies for Compliance-Aware Response Generation
+- ESE-PWDNet: an efficient early-stage pine wilt disease detection network
+- Physics-guided spatiotemporal deep learning for urban flood prediction: interpretable modelling with integrated gradients
+- The Role of Large Language Models in Scientific Research.
+- [Inside the Latent Flow: Causal Deciphering of Attention Dynamics in Audio Separation Foundation Models](https://arxiv.org/abs/2606.10046)
+- [FlexPath: Learned Semantic Path Priors for Image-Based Planning](https://arxiv.org/abs/2606.10167)
+- [Integrating Out, Twice:The Open-System Case That Neural-Network Ensemble Theory Is Missing](https://arxiv.org/abs/2606.09950)
+- [Optimizing Energy-based Neural Network Training with Coherent Ising Machine](https://arxiv.org/abs/2606.09117)
+- [Next-Token Prediction Learns Generalisable Representations of Sleep Physiology](https://arxiv.org/abs/2606.09605)
+- [Cross-Modal Masking for Robust Silent Speech Synthesis Using sEMG and Lipreading](https://arxiv.org/abs/2606.09667)
+- [Integrating gene regulatory priors into Transformer attention with scTransformer for interpretable scRNA-seq analysis](https://arxiv.org/abs/2606.09558)
+- [FuseFSS: Efficient Secure LLM Inference with Function Secret Sharing](https://arxiv.org/abs/2606.09551)
+- [Integral Field Unit Spectroscopy with One Fiber](https://arxiv.org/abs/2606.10197)
+- [iMaC: Translating Actions into Motion and Contact Images for Embodied World Models](https://arxiv.org/abs/2606.09813)
+- [Multi-channel Optical Vision Model](https://arxiv.org/abs/2606.10253)
+- [RankGLU: Residual Gated Score Formation for Cross-Sectional Stock Prediction](https://arxiv.org/abs/2606.08930)
+- [Frequency Decoupled Framework for Screen Content Image Super-Resolution](https://arxiv.org/abs/2606.09029)
+- [Tight Sample Complexity of Transformers](https://arxiv.org/abs/2606.09731)
+- [Topological Neural Operators](https://arxiv.org/abs/2606.09806)
+- [MilliVid: Hierarchical Latents for Long-Range Consistency in Video Generation](https://arxiv.org/abs/2606.09056)
+- [Causally Evaluating the Learnability of Formal Language Tasks](https://arxiv.org/abs/2606.09822)
+- [Context-Aware Deep Learning for Defect Classification in Atomic-Resolution STEM](https://arxiv.org/abs/2606.09419)
+- [OmniGen-AR: AutoRegressive Any-to-Image Generation](https://arxiv.org/abs/2606.09156)
+- [An Opticalmechanics Framework for Dynamic Estimation of Multibody Systems](https://arxiv.org/abs/2606.09383)
+- [Principled Uncertainty in Clinical AI: End-to-End Bayesian Modelling and Algorithmic Equity Auditing Across Multimodal Patient Data](https://arxiv.org/abs/2606.09789)
+- [Hyperbolic Neural Population Geometry Benefits Computation](https://arxiv.org/abs/2606.10238)
+- [Does Normalization Choice Matter for Causal Large Time-Series Models?](https://arxiv.org/abs/2606.09954)
+- [DiffSight-Former: Modeling Structural Differences and Temporal Dynamics for Glaucoma Progression Prediction](https://arxiv.org/abs/2606.09140)
+- [A systematic investigation of molecular encoding methods for drug property predictions across neural network and Transformer encoder-based model](https://arxiv.org/abs/2606.08973)
+- [Spatiotemporal Graph Transformer for 3D Neighborhood Interaction and Quality Prediction in Metal Additive Manufacturing](https://arxiv.org/abs/2606.10227)
+- A Drug–Target Specificity Foundation Model for Off-target Prediction, Repurposing, and Generative Design
+- Predicting currency crises in emerging markets: A deep learning approach with LSTM networks and attention mechanism
+- A multi-scale CNN-transformer hybrid network with parallel attention mechanism and local linear unit for cross-condition fault diagnosis
+- Enhanced RT-DETR for real-time transparent tape detection on fabric surfaces with reflection-resistant attention module
+- Dynamic sign language recognition based on CBAM-enhanced CNN and Bi-LSTM networks
+- MQSE-StegoNet: multimetric quality-aware attention-enabled network for the stego image generation and recovery
+- [Divide-and-Denoise: A Game-Theoretic Method for Fairly Composing Diffusion Models](https://arxiv.org/abs/2606.14756)
+- Explicit modeling of geometric continuity and morphological consistency in coronary angiography segmentation
+- MBA-Net: an adaptive bidirectional weighted fracture detection method with multi-scale feature fusion
+- From topography to connectome: Towards an integrated understanding of the resting brain
+- A novel time–frequency multi-feature adaptive feature fusion framework for bearing fault diagnosis under noise conditions
+- CIF-UNet: a CNN–transformer hybrid U-Net with cross-interaction fusion for oil spill segmentation
+- [Extending Ontologies: From Dense Embeddings to Hybrid Quantum-Fuzzy Systems](https://arxiv.org/abs/2606.08658)
+- [Hacking Generative Perplexity: Why Unconditional Text Evaluation Needs Distributional Metrics](https://arxiv.org/abs/2606.08417)
+- [STAR-KV: Low-Rank KV Cache Compression via Soft Thresholding for Adaptive Rank Control](https://arxiv.org/abs/2606.08382)

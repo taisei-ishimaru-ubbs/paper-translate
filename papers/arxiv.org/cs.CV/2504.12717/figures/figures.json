@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Scope of our work: post-pre-training to align the modality gap in pre-trained CLIP models. We aim to address the modality gap and enhance the generalization performance of pre-trained CLIP models through lightweight training.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Intuition of CLIP-Refine (proposed method). CLIP-Refine modifies a pre-trained CLIP model by Random Feature Alignment (RaFA, left) and Hybrid Contrastive-Distillation (HyCD, right). RaFA penalizes image and text features to follow a shared prior distribution by minimizing the gap between t",
+    "score": 50.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. PCA visualization of multi-modal feature spaces of trained models (Flickr8K, ViT-B/32). CLIP-Refine reduces the modality gap while keeping the form of feature distributions for each modality.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. Zero-shot classification accuracy averaged on 12 datasets when varying mini-batch sizes in post-pre-training.",
+    "score": 0.0
+  }
+]
