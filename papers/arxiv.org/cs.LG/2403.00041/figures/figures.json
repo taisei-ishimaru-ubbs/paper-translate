@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 4,
+    "caption": "Figure 1. Overview of our FedOTP. On the left, clients transmit global prompts to the server for aggregation while retaining local prompts locally. The right shows the workflow of Global-Local prompt cooperation mechanism, which employs unbalanced Optimal Transport to align visual feature maps with ",
+    "score": 104.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 7,
+    "caption": "Figure 2. Heatmaps of similarity between text features and image feature maps for different methods on 4 categories in OxfordPets dataset. “FedOTP-G” denotes the results from the global prompt and “FedOTP-L” refers to the local prompt.",
+    "score": 24.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3. Performance with the different number of shots.",
+    "score": 0.0
+  }
+]

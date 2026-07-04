@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. Quantitative analysis of angular distribution on DTD [4] dataset. The zero-shot CLIP (a) shows significant overlap between positive and negative pairs. A structured geometric transformation on the image features (b) reduces the overlap area significantly.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2. The BiCLIP Adaptation Framework. Unlike standard CLIP which relies on a fixed dot product, BiCLIP introduces a trainable, structured transformation matrix W between the image and text modalities.",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2, we transition from the standard dot-product simi- larity used in CLIP to a learnable bilinear formulation. We maintain the symmetric cross-entropy loss, which treats the classification as both an image-to-text and a text- to-image retrieval task. For a batch of N pairs, the loss is defined",
+    "score": 18.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Few-shot performance comparison on various datasets. Our methods BiCLIP (black) and BiSigLIP (red) significantly outperform existing prompt tuning baselines across 1, 2, 4, 8, and 16 shots.",
+    "score": 12.0
+  }
+]

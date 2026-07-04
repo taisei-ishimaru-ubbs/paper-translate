@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "local:015f4615052a",
+  "sha256": "015f4615052a9ba9533a529f0e473d497b77ea8632fb1e91aa46cb730c5defe1",
+  "title": "CLIP-Enhance: Improving CLIP Zero-Shot Classification via Von Mises-Fisher Clustering",
+  "authors": [],
+  "abstract": "",
+  "published": "",
+  "category": "",
+  "identifiers": {
+    "arxiv": "",
+    "doi": "",
+    "semantic_scholar": ""
+  },
+  "source": {
+    "type": "manual",
+    "original_filename": "clip-enhance-improving-clip-zero-shot-classification-via-von-mises-fisher-cluste.pdf",
+    "url": ""
+  },
+  "provenance": {
+    "metadata_inferred_from_pdf": true
+  },
+  "added_at": "2026-07-02T18:26:13Z"
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: The co-occurrence probabilities of CLIP predictions and true labels for groups of classes. Without explicitly exploiting label correlations, CLIP is hard to precisely model the co-occurrence among labels.",
+    "score": 86.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: Empirical Validations on the advantages and disadvantages of CoP. (a) shows top 10 performance improvements and top 10 performance declines after using CoP. (b) shows the co- occurrence probabilities of CLIP predictions using CoP. (c) reports the number of false positives that contain co-o",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3: The causal graphs of DiP and CoP. P d and P c are the discriminative and correlative prompts. Fd and Fc are the discriminative and correlative features. Y is the prediction of the target label.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: The framework of DualPrompt. It consists of two types of prompts. The correlative prompt is used to maintain the good causal effect of co-occurrence by exploring correlative patterns, while the discriminative prompt is used to remove the bad causal effect by enhancing the discriminative re",
+    "score": 24.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4 provides an illustration of our proposed DualPrompt method. Unlike the vanilla method, the bottom branch, which uses the discriminative prompt, our DualPrompt method uses dual prompts, a discriminative prompt and a correlative prompt, to achieve effective zero-shot multi-label classifi- cat",
+    "score": 42.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5: Comparisons of per-class average precision among DiP, CoP, and DualPrompt. Compared with DiP, CoP shows improvements on some categories but decreases on others, whereas compared with CoP, DualPrompt achieves improvements on the vast majority of categories.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6: The performance curve with the increase of training data usage. For DualPrompt, training data is only used for estimating co-occurrence probabilities; while for DualCoOp, training data is used for model training.",
+    "score": 9.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 7,
+    "page": 9,
+    "caption": "Figure 7: The co-occurrence probabilities of different predictions and true labels.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 8,
+    "page": 9,
+    "caption": "Figure 8: The text-image retrieval results of DiP (the first row), CoP (the second row) and Dual- Prompt (the last row) with respect to cup (on the left side) and sink (on the right side). To show the representativeness of different methods, we present the images ranked 1st, 5th, 10th, 15th, and 20t",
+    "score": 3.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 9,
+    "page": 13,
+    "caption": "Figure 9: The performance changes of CoP against DiP in terms of AP over all classes. The perfor- mance of nearly half of the labels improved, while the performance of the other half decreased.",
+    "score": 0.0
+  }
+]

@@ -47,9 +47,11 @@ async function linksFor(page) {
   const folder = page.thumbnail ? dirname(String(page.thumbnail)) : "";
   if (folder) {
     const summary = `${folder}/summary.md`;
+    const jaMd = `${folder}/${page.file.name}_ja.md`;
     const ja = `${folder}/paper_ja.pdf`;
     const pdf = `${folder}/paper.pdf`;
     if (await exists(summary)) out.push(["summary", summary]);
+    if (await exists(jaMd)) out.push(["日本語MD", jaMd]);
     if (await exists(ja)) out.push(["日本語PDF", ja]);
     if (await exists(pdf)) out.push(["原文PDF", pdf]);
   }

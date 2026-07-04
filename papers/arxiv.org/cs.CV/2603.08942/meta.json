@@ -1,0 +1,14 @@
+{
+  "id": "2603.08942",
+  "title": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation",
+  "authors": [
+    "Pranav Mantini",
+    "Shishir K. Shah"
+  ],
+  "abstract": "Recent advances in vision-language models (VLMs) have demonstrated remarkable zero-shot capabilities, yet adapting these models to specialized domains remains a significant challenge. Building on recent theoretical insights suggesting that independently trained VLMs are related by a canonical transformation, we extend this understanding to the concept of domains. We hypothesize that image features across disparate domains are related by a canonicalized geometric transformation that can be recovered using a small set of anchors. Few-shot classification provides a natural setting for this alignment, as the limited labeled samples serve as the anchors required to estimate this transformation. Motivated by this hypothesis, we introduce BiCLIP, a framework that applies a targeted transformation to multimodal features to enhance cross-modal alignment. Our approach is characterized by its extreme simplicity and low parameter footprint. Extensive evaluations across 11 standard benchmarks, including EuroSAT, DTD, and FGVCAircraft, demonstrate that BiCLIP consistently achieves state-of-the-art results. Furthermore, we provide empirical verification of existing geometric findings by analyzing the orthogonality and angular distribution of the learned transformations, confirming that structured alignment is the key to robust domain adaptation. Code is available at https://github.com/QuantitativeImagingLaboratory/BilinearCLIP",
+  "published": "2026-03-09",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2603.08942v2",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-07-02T10:39:02Z"
+}

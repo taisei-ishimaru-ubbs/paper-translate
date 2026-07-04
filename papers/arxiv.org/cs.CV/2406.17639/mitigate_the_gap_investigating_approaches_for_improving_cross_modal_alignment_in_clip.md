@@ -37,7 +37,7 @@ tags: [paper]
 - [Frozen CLIP Models are Efficient Video Learners](https://arxiv.org/abs/2208.03550)
 - [Learning Visual Representation from Modality-Shared Contrastive Language-Image Pre-training](https://arxiv.org/abs/2207.12661)
 - [CyCLIP: Cyclic Contrastive Language-Image Pretraining](https://arxiv.org/abs/2205.14459)
-- [Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning](https://arxiv.org/abs/2203.02053)
+- [[mind_the_gap_understanding_the_modality_gap_in_multi_modal_contrastive_representation_learning|Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning]]
 - [SLIP: Self-supervision meets Language-Image Pre-training](https://arxiv.org/abs/2112.12750)
 - [Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image Pre-training Paradigm](https://arxiv.org/abs/2110.05208)
 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020)

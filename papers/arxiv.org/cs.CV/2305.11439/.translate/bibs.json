@@ -1,0 +1,335 @@
+{
+  "style": "html-anchor",
+  "bibs": {
+    "1": {
+      "raw": "Alayrac, J.B., Donahue, J., Luc, P., Miech, A., Barr, I., Hasson, Y., Lenc, K., Mensch, A., Millican, K., Reynolds, M., et al.: Flamingo: a visual language model for few-shot learning. In: arXiv preprint arXiv:2204.14198 (2022)",
+      "arxiv_id": "2204.14198",
+      "doi": ""
+    },
+    "2": {
+      "raw": "Alayrac, J.B., Recasens, A., Schneider, R., Arandjelović, R., Ramapuram, J., De Fauw, J., Smaira, L., Dieleman, S., Zisserman, A.: Self-supervised multimodal versatile networks. In: NeurIPS (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "3": {
+      "raw": "Antoniou, A., Storkey, A.: Assume, augment and learn: Unsupervised few-shot meta-learning via random labels and data augmentation. In: arXiv preprint arXiv:1902.09884 (2019)",
+      "arxiv_id": "1902.09884",
+      "doi": ""
+    },
+    "4": {
+      "raw": "Bain, M., Nagrani, A., Varol, G., Zisserman, A.: Frozen in time: A joint video and image encoder for end-to-end retrieval. In: ICCV (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "5": {
+      "raw": "Bertinetto, L., Henriques, J.F., Torr, P.H., Vedaldi, A.: Meta-learning with differentiable closed-form solvers. In: ICLR (2018)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "6": {
+      "raw": "Bossard, L., Guillaumin, M., Gool, L.V.: Food-101-mining discriminative components with random forests. In: ECCV (2014)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "7": {
+      "raw": "Chandler, D.: Introduction to modern statistical. In: Mechanics. Oxford University Press, Oxford, UK. vol. 5, p. 449 (1987)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "8": {
+      "raw": "Chen, T., Kornblith, S., Norouzi, M., Hinton, G.: A simple framework for contrastive learning of visual representations. In: ICML (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "9": {
+      "raw": "Cimpoi, M., Maji, S., Kokkinos, I., Mohamed, S., Vedaldi, A.: Describing textures in the wild. In: CVPR (2014)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "10": {
+      "raw": "Clement, P., Desch, W.: An elementary proof of the triangle inequality for the wasserstein metric. In: Proceedings of the American Mathematical Society. vol. 136, pp. 333-339 (2008)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "11": {
+      "raw": "Coates, A., Ng, A., Lee, H.: An analysis of single-layer networks in unsupervised feature learning. In: ICAIS (2011)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "12": {
+      "raw": "Deng, J., Dong, W., Socher, R., Li, L.J., Li, K., Fei-Fei, L.: Imagenet: A large-scale hierarchical image database. In: CVPR (2009)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "13": {
+      "raw": "Du, Y., Wei, F., Zhang, Z., Shi, M., Gao, Y., Li, G.: Learning to prompt for open-vocabulary object detection with vision-language model. In: CVPR (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "14": {
+      "raw": "Fei-Fei, L., Fergus, R., Perona, P.: Learning generative visual models from few training examples: An incremental bayesian approach tested on 101 object categories. In: CVPR Workshop (2004)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "15": {
+      "raw": "Fuglede, B., Topsoe, F.: Jensen-shannon divergence and hilbert space embedding. In: International Symposium onInformation Theory. p. 31 (2004)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "16": {
+      "raw": "Gao, P., Geng, S., Zhang, R., Ma, T., Fang, R., Zhang, Y., Li, H., Qiao, Y.: Clip-adapter: Better vision-language models with feature adapters. In: arXiv preprint arXiv:2110.04544 (2021)",
+      "arxiv_id": "2110.04544",
+      "doi": ""
+    },
+    "17": {
+      "raw": "Gao, T., Fisch, A., Chen, D.: Making pre-trained language models better few-shot learners. In: arXiv preprint arXiv:2012.15723 (2020)",
+      "arxiv_id": "2012.15723",
+      "doi": ""
+    },
+    "18": {
+      "raw": "Goodfellow, I.J., Shlens, J., Szegedy, C.: Explaining and harnessing adversarial examples. In: ICLR (2015)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "19": {
+      "raw": "Gretton, A., Borgwardt, K.M., Rasch, M.J., Schölkopf, B., Smola, A.: A kernel two-sample test. In: The Journal of Machine Learning Research. vol. 13, pp. 723-773 (2012)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "20": {
+      "raw": "Gu, X., Lin, T.Y., Kuo, W., Cui, Y.: Open-vocabulary object detection via vision and language knowledge distillation. In: ICLR (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "21": {
+      "raw": "He, K., Chen, X., Xie, S., Li, Y., Dollár, P., Girshick, R.: Masked autoencoders are scalable vision learners. In: CVPR (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "22": {
+      "raw": "He, K., Fan, H., Wu, Y., Xie, S., Girshick, R.: Momentum contrast for unsupervised visual representation learning. In: CVPR (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "23": {
+      "raw": "He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: CVPR (2016)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "24": {
+      "raw": "Helber, P., Bischke, B., Dengel, A., Borth, D.: Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. In: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. vol. 12, pp. 2217-2226. IEEE (2019)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "25": {
+      "raw": "Huang, T., Chu, J., Wei, F.: Unsupervised prompt learning for vision-language models. In: arXiv preprint arXiv:2204.03649 (2022)",
+      "arxiv_id": "2204.03649",
+      "doi": ""
+    },
+    "26": {
+      "raw": "Jia, C., Yang, Y., Xia, Y., Chen, Y.T., Parekh, Z., Pham, H., Le, Q., Sung, Y.H., Li, Z., Duerig, T.: Scaling up visual and vision-language representation learning with noisy text supervision. In: ICML (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "27": {
+      "raw": "Kline, J.: Properties of the d-dimensional earth mover's problem. In: Discrete Applied Mathematics. vol. 265, pp. 128-141 (2019)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "28": {
+      "raw": "Krause, J., Stark, M., Deng, J., Fei-Fei, L.: 3d object representations for fine-grained categorization. In: ICCV Workshops (2013)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "29": {
+      "raw": "Krizhevsky, A., Hinton, G., et al.: Learning multiple layers of features from tiny images. In: Citeseer (2009)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "30": {
+      "raw": "Levina, E., Bickel, P.: The earth mover's distance is the mallows distance: Some insights from statistics. In: ICCV (2001)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "31": {
+      "raw": "Li, Z., Zhou, F., Chen, F., Li, H.: Meta-sgd: Learning to learn quickly for few-shot learning. In: arXiv preprint arXiv:1707.09835 (2017)",
+      "arxiv_id": "1707.09835",
+      "doi": ""
+    },
+    "32": {
+      "raw": "Liu, J., Sun, Y., Han, C., Dou, Z., Li, W.: Deep representation learning on long-tailed data: A learnable embedding augmentation perspective. In: CVPR (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "33": {
+      "raw": "Lu, Y., Liu, J., Zhang, Y., Liu, Y., Tian, X.: Prompt distribution learning. In: CVPR (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "34": {
+      "raw": "Van der Maaten, L., Hinton, G.: Visualizing data using t-sne. In: Journal of machine learning research. vol. 9, pp. 1-27 (2008)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "35": {
+      "raw": "Maji, S., Rahtu, E., Kannala, J., Blaschko, M., Vedaldi, A.: Fine-grained visual classification of aircraft. In: arXiv preprint arXiv:1306.5151 (2013)",
+      "arxiv_id": "1306.5151",
+      "doi": ""
+    },
+    "36": {
+      "raw": "Mindspore: [https://www.mindspore.cn/](https://www.mindspore.cn/)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "37": {
+      "raw": "Park, S.J., Han, S., Baek, J.W., Kim, I., Song, J., Lee, H.B., Han, J.J., Hwang, S.J.: Meta variance transfer: Learning to augment from the others. In: ICML (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "38": {
+      "raw": "Parkhi, O.M., Vedaldi, A., Zisserman, A., Jawahar, C.: Cats and dogs. In: CVPR (2012)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "39": {
+      "raw": "Pham, H., Dai, Z., Ghiasi, G., Liu, H., Yu, A.W., Luong, M.T., Tan, M., Le, Q.V.: Combined scaling for zero-shot transfer learning. In: arXiv preprint arXiv:2111.10050 (2021)",
+      "arxiv_id": "2111.10050",
+      "doi": ""
+    },
+    "40": {
+      "raw": "Qin, T., Li, W., Shi, Y., Gao, Y.: Diversity helps: Unsupervised few-shot learning via distribution shift-based data augmentation. In: arXiv preprint arXiv:2004.05805 (2020)",
+      "arxiv_id": "2004.05805",
+      "doi": ""
+    },
+    "41": {
+      "raw": "Radford, A., Kim, J.W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., Clark, J., et al.: Learning transferable visual models from natural language supervision. In: ICML (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "42": {
+      "raw": "Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., Sutskever, I., et al.: Language models are unsupervised multitask learners. In: OpenAI blog. vol. 1, p. 9 (2019)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "43": {
+      "raw": "Ramesh, A., Dhariwal, P., Nichol, A., Chu, C., Chen, M.: Hierarchical text-conditional image generation with clip latents. In: arXiv preprint arXiv:2204.06125 (2022)",
+      "arxiv_id": "2204.06125",
+      "doi": ""
+    },
+    "44": {
+      "raw": "Rubner, Y., Tomasi, C., Guibas, L.J.: The earth mover's distance as a metric for image retrieval. In: International journal of computer vision. vol. 40, pp. 99-121 (2000)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "45": {
+      "raw": "Shin, T., Razeghi, Y., Logan IV, R.L., Wallace, E., Singh, S.: Autoprompt: Eliciting knowledge from language models with automatically generated prompts. In: arXiv preprint arXiv:2010.15980 (2020)",
+      "arxiv_id": "2010.15980",
+      "doi": ""
+    },
+    "46": {
+      "raw": "Snell, J., Swersky, K., Zemel, R.: Prototypical networks for few-shot learning. In: NeurIPS (2017)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "47": {
+      "raw": "Soomro, K., Zamir, A.R., Shah, M.: Ucf101: A dataset of 101 human actions classes from videos in the wild. In: arXiv preprint arXiv:1212.0402 (2012)",
+      "arxiv_id": "1212.0402",
+      "doi": ""
+    },
+    "48": {
+      "raw": "Tang, M., Wang, Z., Liu, Z., Rao, F., Li, D., Li, X.: Clip4caption: Clip for video caption. In: ACM MM (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "49": {
+      "raw": "Tsimpoukelli, M., Menick, J.L., Cabi, S., Eslami, S., Vinyals, O., Hill, F.: Multimodal few-shot learning with frozen language models. In: NeurIPS (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "50": {
+      "raw": "Vinyals, O., Blundell, C., Lillicrap, T., Wierstra, D., et al.: Matching networks for one shot learning. In: NeurIPS (2016)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "51": {
+      "raw": "Wang, M., Xing, J., Liu, Y.: Actionclip: A new paradigm for video action recognition. In: arXiv preprint arXiv:2109.08472 (2021)",
+      "arxiv_id": "2109.08472",
+      "doi": ""
+    },
+    "52": {
+      "raw": "Wang, Y., Yao, Q., Kwok, J.T., Ni, L.M.: Generalizing from a few examples: A survey on few-shot learning. In: ACM computing surveys (csur). pp. 1-34 (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "53": {
+      "raw": "Woo, S., Park, J., Lee, J.Y., Kweon, I.S.: Cbam: Convolutional block attention module. In: ECCV (2018)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "54": {
+      "raw": "Xian, Y., Lorenz, T., Schiele, B., Akata, Z.: Feature generating networks for zero-shot learning. In: CVPR (2018)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "55": {
+      "raw": "Xu, M., Zhang, Z., Wei, F., Lin, Y., Cao, Y., Hu, H., Bai, X.: A simple baseline for zero-shot semantic segmentation with pre-trained vision-language model. In: arXiv preprint arXiv:2112.14757 (2021)",
+      "arxiv_id": "2112.14757",
+      "doi": ""
+    },
+    "56": {
+      "raw": "Yang, S., Liu, L., Xu, M.: Free lunch for few-shot learning: Distribution calibration. In: arXiv preprint arXiv:2101.06395 (2021)",
+      "arxiv_id": "2101.06395",
+      "doi": ""
+    },
+    "57": {
+      "raw": "Yang, Z., Gan, Z., Wang, J., Hu, X., Lu, Y., Liu, Z., Wang, L.: An empirical study of gpt-3 for few-shot knowledge-based vqa. In: AAAI (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "58": {
+      "raw": "Yao, L., Huang, R., Hou, L., Lu, G., Niu, M., Xu, H., Liang, X., Li, Z., Jiang, X., Xu, C.: Filip: Fine-grained interactive language-image pre-training. In: ICLR (2021)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "59": {
+      "raw": "Yao, Y., Zhang, A., Zhang, Z., Liu, Z., Chua, T.S., Sun, M.: Cpt: Colorful prompt tuning for pre-trained vision-language models. In: arXiv preprint arXiv:2109.11797 (2021)",
+      "arxiv_id": "2109.11797",
+      "doi": ""
+    },
+    "60": {
+      "raw": "Zhang, C., Cai, Y., Lin, G., Shen, C.: Deepemd: Few-shot image classification with differentiable earth mover's distance and structured classifiers. In: CVPR (2020)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "61": {
+      "raw": "Zhang, J., Zhao, C., Ni, B., Xu, M., Yang, X.: Variational few-shot learning. In: ICCV (2019)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "62": {
+      "raw": "Zhang, R., Fang, R., Gao, P., Zhang, W., Li, K., Dai, J., Qiao, Y., Li, H.: Tip-adapter: Training-free clip-adapter for better vision-language modeling. In: arXiv preprint arXiv:2111.03930 (2021)",
+      "arxiv_id": "2111.03930",
+      "doi": ""
+    },
+    "63": {
+      "raw": "Zhang, R., Che, T., Ghahramani, Z., Bengio, Y., Song, Y.: Metagan: An adversarial approach to few-shot learning. In: NeurIPS (2018)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "64": {
+      "raw": "Zhou, K., Yang, J., Loy, C.C., Liu, Z.: Conditional prompt learning for vision-language models. In: CVPR (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "65": {
+      "raw": "Zhou, K., Yang, J., Loy, C.C., Liu, Z.: Learning to prompt for vision-language models. In: International Journal of Computer Vision. pp. 1-12. Springer (2022)",
+      "arxiv_id": "",
+      "doi": ""
+    },
+    "66": {
+      "raw": "Zintgraf, L., Shiarli, K., Kurin, V., Hofmann, K., Whiteson, S.: Fast context adaptation via meta-learning. In: ICML (2019)\n\n◄\n\nar5iv homepage\n\n![](assets/fig11.png)\n\nFeeling\nlucky? Conversion\nreport [Report\nan issue](https://github.com/dginev/ar5iv/issues/new?template=improve-article--arxiv-id-.md&title=Improve+article+2305.11439) [View original\non arXiv](https://arxiv.org/abs/2305.11439) ►",
+      "arxiv_id": "2305.11439",
+      "doi": ""
+    }
+  }
+}

@@ -273,7 +273,7 @@ tags: [paper]
 - [EvoPrompt: Guided Prompt Evolution for Vision-Language Models Adaptation](https://arxiv.org/abs/2603.09493)
 - [Beyond Heuristic Prompting: A Concept-Guided Bayesian Framework for Zero-Shot Image Recognition](https://arxiv.org/abs/2603.07911)
 - [FVG-PT: Adaptive Foreground View-Guided Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2603.08708)
-- [BiCLIP: Domain Canonicalization via Structured Geometric Transformation](https://arxiv.org/abs/2603.08942)
+- [[biclip_domain_canonicalization_via_structured_geometric_transformation|BiCLIP: Domain Canonicalization via Structured Geometric Transformation]]
 - Vision-Language Efficient Tuning for Mitigating Catastrophic Forgetting in Multi-Modal Learning
 - Parameter-Efficient Fine-Tuning for Vision-Language Models: The Post-Transformer Evolution
 - CoP: Chain of Perception for Referring 3D Instance Segmentation

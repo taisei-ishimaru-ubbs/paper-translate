@@ -1,0 +1,285 @@
+{
+  "id": "2603.08942",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "79e3c0083feffee33886da1738944e2817d46f8e",
+    "externalIds": {
+      "ArXiv": "2603.08942",
+      "DBLP": "journals/corr/abs-2603-08942",
+      "DOI": "10.48550/arXiv.2603.08942",
+      "CorpusId": 286424412
+    },
+    "url": "https://www.semanticscholar.org/paper/79e3c0083feffee33886da1738944e2817d46f8e",
+    "title": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation"
+  },
+  "references": [
+    {
+      "paper_id": "7a8654ec463e0600b6ea04bf77ae8d74471bd199",
+      "arxiv_id": "2509.16664",
+      "doi": "10.48550/arXiv.2509.16664",
+      "title": "λ-Orthogonality Regularization for Compatible Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/7a8654ec463e0600b6ea04bf77ae8d74471bd199"
+    },
+    {
+      "paper_id": "39450f014fb73e75bb0299f6c8ce138bf0bb075a",
+      "arxiv_id": "2502.04263",
+      "doi": "10.48550/arXiv.2502.04263",
+      "title": "Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion",
+      "url": "https://www.semanticscholar.org/paper/39450f014fb73e75bb0299f6c8ce138bf0bb075a"
+    },
+    {
+      "paper_id": "83de13bd492b9e72c314e308f0d77014154a6a74",
+      "arxiv_id": "2312.12148",
+      "doi": "10.1109/TPAMI.2026.3657354",
+      "title": "Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment",
+      "url": "https://www.semanticscholar.org/paper/83de13bd492b9e72c314e308f0d77014154a6a74"
+    },
+    {
+      "paper_id": "cf89e6527d680e191db489719b1e19db78a10704",
+      "arxiv_id": "2311.09191",
+      "doi": "10.1109/WACV57701.2024.00562",
+      "title": "Domain Aligned CLIP for Few-shot Classification",
+      "url": "https://www.semanticscholar.org/paper/cf89e6527d680e191db489719b1e19db78a10704"
+    },
+    {
+      "paper_id": "c61171fa674ddb0cbd8f4fa6efab8d0bba2ca289",
+      "arxiv_id": "2307.06948",
+      "doi": "10.1109/ICCV51070.2023.01394",
+      "title": "Self-regulating Prompts: Foundational Model Adaptation without Forgetting",
+      "url": "https://www.semanticscholar.org/paper/c61171fa674ddb0cbd8f4fa6efab8d0bba2ca289"
+    },
+    {
+      "paper_id": "35aba190f28b5c39df333c06ca21f46bd4845eba",
+      "arxiv_id": "2303.15343",
+      "doi": "10.1109/ICCV51070.2023.01100",
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "url": "https://www.semanticscholar.org/paper/35aba190f28b5c39df333c06ca21f46bd4845eba"
+    },
+    {
+      "paper_id": "ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79",
+      "arxiv_id": "2211.16198",
+      "doi": "10.1109/ICCV51070.2023.00257",
+      "title": "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "28630034bb29760df01ab033b743e30b37f336ae",
+      "arxiv_id": "2209.06794",
+      "doi": "10.48550/arXiv.2209.06794",
+      "title": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+      "url": "https://www.semanticscholar.org/paper/28630034bb29760df01ab033b743e30b37f336ae"
+    },
+    {
+      "paper_id": "732627c703a9dbc78d9384f1be4c791c3a554391",
+      "arxiv_id": "2204.03649",
+      "doi": "10.48550/arXiv.2204.03649",
+      "title": "Unsupervised Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/732627c703a9dbc78d9384f1be4c791c3a554391"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "32e89d4d1225f3e02ac38ec93efc39fb61ccdde8",
+      "arxiv_id": "2203.02053",
+      "doi": "10.48550/arXiv.2203.02053",
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/32e89d4d1225f3e02ac38ec93efc39fb61ccdde8"
+    },
+    {
+      "paper_id": "86b42cac364985919987789795be7c3a577ee3de",
+      "arxiv_id": "2201.02605",
+      "doi": "10.1007/978-3-031-20077-9_21",
+      "title": "Detecting Twenty-thousand Classes using Image-level Supervision",
+      "url": "https://www.semanticscholar.org/paper/86b42cac364985919987789795be7c3a577ee3de"
+    },
+    {
+      "paper_id": "336e06e34eac2eeda8b34d95d545d8ff4dd1b2f9",
+      "arxiv_id": "2111.11430",
+      "doi": "10.1007/978-3-031-20080-9_30",
+      "title": "Class-Agnostic Object Detection with Multi-modal Transformer",
+      "url": "https://www.semanticscholar.org/paper/336e06e34eac2eeda8b34d95d545d8ff4dd1b2f9"
+    },
+    {
+      "paper_id": "21ec90872abd986c12afe39bebe807732ffa70c9",
+      "arxiv_id": "2111.11432",
+      "doi": "",
+      "title": "Florence: A New Foundation Model for Computer Vision",
+      "url": "https://www.semanticscholar.org/paper/21ec90872abd986c12afe39bebe807732ffa70c9"
+    },
+    {
+      "paper_id": "e70b7eb3b22f0a49eb5e645be646d5f35d1e693a",
+      "arxiv_id": "2111.03930",
+      "doi": "",
+      "title": "Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling",
+      "url": "https://www.semanticscholar.org/paper/e70b7eb3b22f0a49eb5e645be646d5f35d1e693a"
+    },
+    {
+      "paper_id": "c04067f03fba2df0c14ea51a170f213eb2983708",
+      "arxiv_id": "2110.04544",
+      "doi": "10.1007/s11263-023-01891-x",
+      "title": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+      "url": "https://www.semanticscholar.org/paper/c04067f03fba2df0c14ea51a170f213eb2983708"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "cf9b8da26d9b92e75ba49616ed2a1033f59fce14",
+      "arxiv_id": "2104.13921",
+      "doi": "",
+      "title": "Open-vocabulary Object Detection via Vision and Language Knowledge Distillation",
+      "url": "https://www.semanticscholar.org/paper/cf9b8da26d9b92e75ba49616ed2a1033f59fce14"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "a83cec6a91701bd8500f8c43ad731d4353c71d55",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW.2013.77",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "url": "https://www.semanticscholar.org/paper/a83cec6a91701bd8500f8c43ad731d4353c71d55"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "da9e411fcf740569b6b356f330a1d0fc077c8d7c",
+      "arxiv_id": "1212.0402",
+      "doi": "",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+      "url": "https://www.semanticscholar.org/paper/da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+    },
+    {
+      "paper_id": "f48e7b996b1e96bc4e2a6117dcb2e6518c16acad",
+      "arxiv_id": "1202.1661",
+      "doi": "10.1214/11-STS358",
+      "title": "Covariance Estimation: The GLM and Regularization Perspectives",
+      "url": "https://www.semanticscholar.org/paper/f48e7b996b1e96bc4e2a6117dcb2e6518c16acad"
+    },
+    {
+      "paper_id": "908091b4a8757c3b2f7d9cfa2c4f616ee12c5157",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2010.5539970",
+      "title": "SUN database: Large-scale scene recognition from abbey to zoo",
+      "url": "https://www.semanticscholar.org/paper/908091b4a8757c3b2f7d9cfa2c4f616ee12c5157"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "cats and dogs",
+      "url": "https://www.semanticscholar.org/paper/336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "We provide a quantitative analysis of how BiCLIP reduces overlap of angular distributions in contrastive VLMs",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Zero-shot transfer with locked-image text",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "We extend multimodal canonicalization to domain shifts, hypothesizing that disparate domains are related by canonical geometric transformations that can be estimated via limited anchors",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "We demonstrate SOTA or competitive performance across eleven standard benchmarks",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "We introduce a simple bilinear unit that performs a non-destructive manifold transformation for better alignment",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Dis-entangling visual and written concepts",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "fd24d6d19a9443efc8b7f364ad15cc9def48d328",
+      "arxiv_id": "2605.06477",
+      "doi": "",
+      "title": "GeoStack: A Framework for Quasi-Abelian Knowledge Composition in VLMs",
+      "url": "https://www.semanticscholar.org/paper/fd24d6d19a9443efc8b7f364ad15cc9def48d328"
+    }
+  ]
+}

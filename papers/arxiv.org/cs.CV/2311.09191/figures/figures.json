@@ -1,0 +1,79 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. Overview of CLIP and its few-shot adaptations. (a) To make zero-shot predictions, CLIP uses precomputed text embeddings of class labels (termed as text cache) to determine inter-modal similarities between images and text embeddings. Tip-Adapter extends CLIP for few-shot prediction by compo",
+    "score": 95.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2. Comparative analysis of different intra-modal clas- sifiers using 16-shots visual-cache. Here, TIP-Adapter’s cache looses the intra-modal classification advantage of CLIP. In con- trast, the intra-modal classifier based on DAC visual features per- forms consistently better.",
+    "score": 21.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. Construction of supervised contrastive objective used to fine-tune the visual adapter layer in DAC.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 5,
+    "caption": "Figure 4. 2D tSNE projections of the CLIP’s and DAC-V’s cached image embeddings. Our intra-modal constrastive objec- tive enforces structure on the representations.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5. A comparison of top1 accuracy (%) obtained by different few-shot CLIP adaptation methods over 11 datasets. Here, the x-axis represents the number of training examples used per class from the target distribution. Our proposed methods, DAC-V which aligns only visual representations of CLIP o",
+    "score": 9.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 7,
+    "caption": "Figure 6. (left) Error inconsistencies between inter- and intra- modal classifiers using different CLIP backbones on ImageNet. DAC-VT significantly reduces this inconsistency. (right) Percent- age of correct vs incorrect prediction flips in DAC-VT.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. Effects of varying number of augmented views used to train DAC inter-modal adapter (left) and intra-modal adapter (right). The vertical green line indicates the number of augmented views used for all experiments in this paper.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 11,
+    "caption": "Figure 8. Ablating the α parameter for ImageNet using CLIP ResNet50.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 12,
+    "caption": "Figure 9. Comparative analysis of error inconsistencies be- tween intra-modal and inter-modal classifiers of CLIP and DAC-VT on 10 different datasets (sorted by DAC-VT’s perfor- mance). We observe that DAC-VT significantly reduces the error inconsistencies, however, the performance gap reduces on ce",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 12,
+    "caption": "Figure 10. Examples of confusing labels in ImageNet [40]. The labels above appear to correctly describe the visual concepts, how- ever, ImageNet assigns acoustic_guitar and projectile labels to the images, respectively.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 12,
+    "caption": "Figure 11. Pictorial depiction of modality gaps between intra- modal and inter-modal representations of different methods (illustrated by cosine similarities). It can be seen that the DAC- VT’s and CLIP image-text similarities remain within the same range.",
+    "score": 0.0
+  }
+]

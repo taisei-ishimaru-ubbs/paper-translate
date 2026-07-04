@@ -1,0 +1,16 @@
+{
+  "id": "2403.00041",
+  "title": "Global and Local Prompts Cooperation via Optimal Transport for Federated Learning",
+  "authors": [
+    "Hongxia Li",
+    "Wei Huang",
+    "Jingya Wang",
+    "Ye Shi"
+  ],
+  "abstract": "Prompt learning in pretrained visual-language models has shown remarkable flexibility across various downstream tasks. Leveraging its inherent lightweight nature, recent research attempted to integrate the powerful pretrained models into federated learning frameworks to simultaneously reduce communication costs and promote local training on insufficient data. Despite these efforts, current federated prompt learning methods lack specialized designs to systematically address severe data heterogeneities, e.g., data distribution with both label and feature shifts involved. To address this challenge, we present Federated Prompts Cooperation via Optimal Transport (FedOTP), which introduces efficient collaborative prompt learning strategies to capture diverse category traits on a per-client basis. Specifically, for each client, we learn a global prompt to extract consensus knowledge among clients, and a local prompt to capture client-specific category characteristics. Unbalanced Optimal Transport is then employed to align local visual features with these prompts, striking a balance between global consensus and local personalization. By relaxing one of the equality constraints, FedOTP enables prompts to focus solely on the core regions of image patches. Extensive experiments on datasets with various types of heterogeneities have demonstrated that our FedOTP outperforms the state-of-the-art methods.",
+  "published": "2024-02-29",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2403.00041v2",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-07-02T08:42:02Z"
+}

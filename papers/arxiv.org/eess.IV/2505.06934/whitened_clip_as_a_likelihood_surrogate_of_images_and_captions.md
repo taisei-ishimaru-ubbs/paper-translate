@@ -39,7 +39,7 @@ tags: [paper]
 - [GIT: A Generative Image-to-text Transformer for Vision and Language](https://arxiv.org/abs/2205.14100)
 - [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068)
 - [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://arxiv.org/abs/2204.06125)
-- [Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning](https://arxiv.org/abs/2203.02053)
+- [[mind_the_gap_understanding_the_modality_gap_in_multi_modal_contrastive_representation_learning|Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning]]
 - [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086)
 - [ClipCap: CLIP Prefix for Image Captioning](https://arxiv.org/abs/2111.09734)
 - [Generative Adversarial Networks](https://arxiv.org/abs/2203.00667)

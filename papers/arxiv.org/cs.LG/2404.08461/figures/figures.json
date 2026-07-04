@@ -1,0 +1,58 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Label distribution mismatch exam- ple in zero-shot classification. In the Oxford- IIIT-Pet dataset, the ground-truth labels are uniformly distributed, while zero-shot mod- els exhibit biased predictions toward certain classes. This bias is influenced by the distri- bution of labels in the ",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 8,
+    "caption": "Figure 2: Synthetic experiment results. X-axis represents total variation distance between the source and the target distribution, describing label shift severity. Y-axis represents prediction accuracy. Curves represent different methods and noise levels. Our approaches dramatically outperform the b",
+    "score": 27.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4: Ablation on the number of samples in few-shot learning. In (a), We can observe that BBSE estimation get more precise as the number of samples increases. Following this, OTTER gets better accuracy in (b). Additionally, OT- TER consistently improves linear probing when combined.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 5,
+    "page": 26,
+    "caption": "Figure 5 shows the result. We observe the sensitivity to the label distribution specification error varies depending on the datasets, but generally we can observe that the accuracy degrades linearly propor- tionally to the class balance error. While the result may vary depending on the interaction b",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 27,
+    "caption": "Figure 5: Ablation experiment on the class balance specification. X-axis represents the total variation distance between the class specification true class balance Pt(Y ) and ˆPt(Y ). Y-axis represents accuracy. ViT-B/16 is used as the image zero-shot classifier, and BERT is used as the text zero-sh",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 30,
+    "caption": "Figure 6: Ablation experiment on the number of samples. We report the mean of 10 different samplings in each setting. We use ViT-B/16 for image classification, and BERT for text classification.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 30,
+    "caption": "Figure 7: Comparison between OTTER, LP, and LP+OTTER with varying the number of samples. We report the mean of 10 different samplings in each setting. We use ViT-B/16 for image classification, and BERT for text classification.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 31,
+    "caption": "Figure 8: Synthetic experiment result with R-OTTER. As expected, R-OTTER can successfully resolve the effects of label shift.",
+    "score": 0.0
+  }
+]

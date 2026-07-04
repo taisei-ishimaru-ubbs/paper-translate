@@ -1,0 +1,51 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. (a) The t-SNE [34] visualization of the image feature distribution before Selective Attack, where the features are obtained by the CLIP image encoder on the CIFAR10 dataset. The dots in different colors represent different classes of the image features. (b) After Selective Attack, the intr",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Overview of our framework. We introduce a Selective Attack module to reduce the intra-class distances of image features during training. We also design a Cross-Modal Distribution Alignment (CMDA) module to align the distributions of image and text representations. During training, the trai",
+    "score": 45.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. Framework of the proposed augmentation strategy and the Selective Attack module. The augmentation strategy associates each augmented image with a speciﬁc group of prompts to increase the diversity of the learned prompts. For each augmented image, a separate adapter and a spatial attention ",
+    "score": 33.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4. Main results of few-shot learning on 11 datasets. Our SADA consistently shows better performance than prior arts across different number of training samples.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5. Test accuracy (%) of training with different numbers of augmentation operations on CIFAR10.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. 1-shot accuracy (%) on CIFAR10 when SA is at different layers of the image encoder.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 10,
+    "page": 8,
+    "caption": "Figure 10. Visualization of attacked areas (in red) guided by 1 − M ◦M. The images are from ImageNet-1k.",
+    "score": 0.0
+  }
+]

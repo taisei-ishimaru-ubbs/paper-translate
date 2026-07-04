@@ -1,0 +1,51 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Overview of mixed modality search. (a) Problem Formulation: Mixed modality search aims to retrieve relevant information from a heterogeneous corpus containing multimodal documents. This is achieved by embedding both the query and documents, followed by similarity-based retrieval. (b) Embed",
+    "score": 105.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: Retrieval with a heterogeneous corpus. (a) Dataset Construction: We construct a heterogeneous corpus by randomly replacing text documents with either screenshot renderings of the text or paired images with probability p. Since the semantic content remains unchanged, a retrieval system with",
+    "score": 23.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3: Retrieval with multimodal documents. (a) Dataset Construction: Each document contains both image and text, and embeddings are obtained by fusing modality-specific features. We vary the fusion coefficient α to evaluate the model’s ability to integrate multimodal information. (b) Results: GR",
+    "score": 12.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4: Mixed modality search. (a) Dataset Construction: We introduce MixBench, a benchmark where the corpus is heterogeneous and includes multimodal documents, reflecting the most realistic setting for search engines. (b) Results: Across four MixBench subsets and five CLIP variants, GR- CLIP deli",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 13,
+    "caption": "Figure 5: Generalization across modalities. GR-CLIP consistently mitigates the U-shaped curve caused by the modality gap and significantly improves performance, demonstrating strong generaliz- ability across diverse modality pairs.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 14,
+    "caption": "Figure 6: Reproduction of Figure 2 in the main paper using NDCG@100 as the evaluation metric.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 14,
+    "caption": "Figure 7: Reproduction of Figure 3 in the main paper using NDCG@100 and Recall@1 as evaluation metrics.",
+    "score": 0.0
+  }
+]

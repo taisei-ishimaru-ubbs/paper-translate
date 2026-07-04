@@ -1,0 +1,18 @@
+{
+  "id": "2507.19054",
+  "title": "Closing the Modality Gap for Mixed Modality Search",
+  "authors": [
+    "Binxu Li",
+    "Yuhui Zhang",
+    "Xiaohan Wang",
+    "Weixin Liang",
+    "Ludwig Schmidt",
+    "Serena Yeung-Levy"
+  ],
+  "abstract": "Mixed modality search -- retrieving information across a heterogeneous corpus composed of images, texts, and multimodal documents -- is an important yet underexplored real-world application. In this work, we investigate how contrastive vision-language models, such as CLIP, perform on the mixed modality search task. Our analysis reveals a critical limitation: these models exhibit a pronounced modality gap in the embedding space, where image and text embeddings form distinct clusters, leading to intra-modal ranking bias and inter-modal fusion failure. To address this issue, we propose GR-CLIP, a lightweight post-hoc calibration method that removes the modality gap in CLIP's embedding space. Evaluated on MixBench -- the first benchmark specifically designed for mixed modality search -- GR-CLIP improves NDCG@10 by up to 26 percentage points over CLIP, surpasses recent vision-language generative embedding models by 4 percentage points, while using 75x less compute.",
+  "published": "2025-07-25",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2507.19054v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-07-02T18:24:49Z"
+}

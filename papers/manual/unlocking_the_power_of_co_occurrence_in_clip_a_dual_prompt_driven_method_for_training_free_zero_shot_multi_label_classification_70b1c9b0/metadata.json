@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "local:70b1c9b065de",
+  "sha256": "70b1c9b065de34e0c723111b0267e22b7a5e28c3e5bb165972de384a47afa7c8",
+  "title": "Unlocking the Power of Co-Occurrence in CLIP: A Dual Prompt-Driven Method for Training-Free Zero-Shot Multi-Label Classification",
+  "authors": [],
+  "abstract": "",
+  "published": "",
+  "category": "",
+  "identifiers": {
+    "arxiv": "",
+    "doi": "",
+    "semantic_scholar": ""
+  },
+  "source": {
+    "type": "manual",
+    "original_filename": "unlocking-the-power-of-co-occurrence-in-clip-a-dual-prompt-driven-method-for-tra.pdf",
+    "url": ""
+  },
+  "provenance": {
+    "metadata_inferred_from_pdf": true
+  },
+  "added_at": "2026-07-02T18:26:17Z"
+}

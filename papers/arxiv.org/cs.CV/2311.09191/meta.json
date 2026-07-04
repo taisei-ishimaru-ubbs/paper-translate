@@ -1,0 +1,19 @@
+{
+  "id": "2311.09191",
+  "title": "Domain Aligned CLIP for Few-shot Classification",
+  "authors": [
+    "Muhammad Waleed Gondal",
+    "Jochen Gast",
+    "Inigo Alonso Ruiz",
+    "Richard Droste",
+    "Tommaso Macri",
+    "Suren Kumar",
+    "Luitpold Staudigl"
+  ],
+  "abstract": "Large vision-language representation learning models like CLIP have demonstrated impressive performance for zero-shot transfer to downstream tasks while largely benefiting from inter-modal (image-text) alignment via contrastive objectives. This downstream performance can further be enhanced by full-scale fine-tuning which is often compute intensive, requires large labelled data, and can reduce out-of-distribution (OOD) robustness. Furthermore, sole reliance on inter-modal alignment might overlook the rich information embedded within each individual modality. In this work, we introduce a sample-efficient domain adaptation strategy for CLIP, termed Domain Aligned CLIP (DAC), which improves both intra-modal (image-image) and inter-modal alignment on target distributions without fine-tuning the main model. For intra-modal alignment, we introduce a lightweight adapter that is specifically trained with an intra-modal contrastive objective. To improve inter-modal alignment, we introduce a simple framework to modulate the precomputed class text embeddings. The proposed few-shot fine-tuning framework is computationally efficient, robust to distribution shifts, and does not alter CLIP's parameters. We study the effectiveness of DAC by benchmarking on 11 widely used image classification tasks with consistent improvements in 16-shot classification upon strong baselines by about 2.3% and demonstrate competitive performance on 4 OOD robustness benchmarks.",
+  "published": "2023-11-15",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2311.09191v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-07-02T18:25:56Z"
+}

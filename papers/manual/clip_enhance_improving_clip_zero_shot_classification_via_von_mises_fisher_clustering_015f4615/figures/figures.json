@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: CLIP embedding hypersphere, showing data for “plane” (red), “cat” (green), and “elephant” (blue) classes. Note the ini- tial misalignment between text embeddings (e.g. ptext, dashed lines) and the distribution means for the image embeddings (dots). Af- ter knowledge distillation, the new t",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2: CLIP-Enhance for zero-shot image classification. CLIP’s frozen image encoder generates embeddings for an input image and its augmented views, which are fed to the teacher and student vMF mixture model, respectively. We compute loss by summing KL divergences between teacher and top-k studen",
+    "score": 33.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 16,
+    "caption": "Figure 3: Contribution by the Normalization term as seen in equation 5 towards the whole logit term, As the Fd(W) decrease with the increase of Kappa we first observe a decrease in contribuiton which later flip as the normalization term starts becoming negative.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 17,
+    "caption": "Figure 4: The figure illustrates the evolution of the confusion matrix on the CIFAR10 dataset, comparing CLIP’s zero-shot classification with our CLIP-Enhanceapproach. The top bar plot displays the total class-wise predictions made by each model, while the right-side bar plot depicts the class- wise",
+    "score": 15.0
+  }
+]

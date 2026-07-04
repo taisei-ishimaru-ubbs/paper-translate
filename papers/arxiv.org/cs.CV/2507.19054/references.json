@@ -1,0 +1,355 @@
+{
+  "id": "2507.19054",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "19943f0f4f7c34ad6ba0775f120b1693cc2d3ede",
+    "externalIds": {
+      "ArXiv": "2507.19054",
+      "DBLP": "journals/corr/abs-2507-19054",
+      "DOI": "10.48550/arXiv.2507.19054",
+      "CorpusId": 280046272
+    },
+    "url": "https://www.semanticscholar.org/paper/19943f0f4f7c34ad6ba0775f120b1693cc2d3ede",
+    "title": "Closing the Modality Gap for Mixed Modality Search"
+  },
+  "references": [
+    {
+      "paper_id": "0812f6b841a99b6ffb4fb114c04a090de956de6e",
+      "arxiv_id": "2410.05160",
+      "doi": "10.48550/arXiv.2410.05160",
+      "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+      "url": "https://www.semanticscholar.org/paper/0812f6b841a99b6ffb4fb114c04a090de956de6e"
+    },
+    {
+      "paper_id": "c948e2d00ac2628ed4098a009c67c81ea4cc00a2",
+      "arxiv_id": "2407.01449",
+      "doi": "10.48550/arXiv.2407.01449",
+      "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+      "url": "https://www.semanticscholar.org/paper/c948e2d00ac2628ed4098a009c67c81ea4cc00a2"
+    },
+    {
+      "paper_id": "18594d3f15b39385bace39657d14f0c8c7479db1",
+      "arxiv_id": "2404.05961",
+      "doi": "10.48550/arXiv.2404.05961",
+      "title": "LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders",
+      "url": "https://www.semanticscholar.org/paper/18594d3f15b39385bace39657d14f0c8c7479db1"
+    },
+    {
+      "paper_id": "e310707f28c60e1f56820ab12272affe71818d17",
+      "arxiv_id": "2402.09906",
+      "doi": "10.48550/arXiv.2402.09906",
+      "title": "Generative Representational Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/e310707f28c60e1f56820ab12272affe71818d17"
+    },
+    {
+      "paper_id": "b7b89ce2002063189c96525c6a75f3ea4033611e",
+      "arxiv_id": "2401.08567",
+      "doi": "10.48550/arXiv.2401.08567",
+      "title": "Connect, Collapse, Corrupt: Learning Cross-Modal Tasks with Uni-Modal Data",
+      "url": "https://www.semanticscholar.org/paper/b7b89ce2002063189c96525c6a75f3ea4033611e"
+    },
+    {
+      "paper_id": "1cc39f7691af0bc1061dda7897a3f62f098573d6",
+      "arxiv_id": "2309.16671",
+      "doi": "10.48550/arXiv.2309.16671",
+      "title": "Demystifying CLIP Data",
+      "url": "https://www.semanticscholar.org/paper/1cc39f7691af0bc1061dda7897a3f62f098573d6"
+    },
+    {
+      "paper_id": "fc6a2f7478f68adefd69e2071f27e38aa1647f2f",
+      "arxiv_id": "2308.12966",
+      "doi": "",
+      "title": "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond",
+      "url": "https://www.semanticscholar.org/paper/fc6a2f7478f68adefd69e2071f27e38aa1647f2f"
+    },
+    {
+      "paper_id": "de374dc9bb0b443ef399fc36587aa1e192447466",
+      "arxiv_id": "2306.09344",
+      "doi": "10.5555/3666122.3668330",
+      "title": "DreamSim: Learning New Dimensions of Human Visual Similarity using Synthetic Data",
+      "url": "https://www.semanticscholar.org/paper/de374dc9bb0b443ef399fc36587aa1e192447466"
+    },
+    {
+      "paper_id": "7dc6da87eaa6f830354feb2db14023cab8678c91",
+      "arxiv_id": "2305.05665",
+      "doi": "10.1109/CVPR52729.2023.01457",
+      "title": "ImageBind One Embedding Space to Bind Them All",
+      "url": "https://www.semanticscholar.org/paper/7dc6da87eaa6f830354feb2db14023cab8678c91"
+    },
+    {
+      "paper_id": "a5036f31f0e629dc661f120b8c3b1f374d479ab8",
+      "arxiv_id": "2304.08485",
+      "doi": "10.48550/arXiv.2304.08485",
+      "title": "Visual Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/a5036f31f0e629dc661f120b8c3b1f374d479ab8"
+    },
+    {
+      "paper_id": "35aba190f28b5c39df333c06ca21f46bd4845eba",
+      "arxiv_id": "2303.15343",
+      "doi": "10.1109/ICCV51070.2023.01100",
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "url": "https://www.semanticscholar.org/paper/35aba190f28b5c39df333c06ca21f46bd4845eba"
+    },
+    {
+      "paper_id": "2bac138a23380ee1af43dae2dae38f918cb710ae",
+      "arxiv_id": "2302.11154",
+      "doi": "10.1109/ICCV51070.2023.01108",
+      "title": "Open-domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities",
+      "url": "https://www.semanticscholar.org/paper/2bac138a23380ee1af43dae2dae38f918cb710ae"
+    },
+    {
+      "paper_id": "268b9ea1fa06a24dc12f96b16f60a52ccea352ae",
+      "arxiv_id": "2302.04269",
+      "doi": "10.48550/arXiv.2302.04269",
+      "title": "Diagnosing and Rectifying Vision Models using Language",
+      "url": "https://www.semanticscholar.org/paper/268b9ea1fa06a24dc12f96b16f60a52ccea352ae"
+    },
+    {
+      "paper_id": "325d8e9501af05e594bd668b6cd6d43ed42c8b4d",
+      "arxiv_id": "2212.03191",
+      "doi": "10.48550/arXiv.2212.03191",
+      "title": "InternVideo: General Video Foundation Models via Generative and Discriminative Learning",
+      "url": "https://www.semanticscholar.org/paper/325d8e9501af05e594bd668b6cd6d43ed42c8b4d"
+    },
+    {
+      "paper_id": "e9bc29cfcfbea4d137652d10715a9c9389349a90",
+      "arxiv_id": "2211.06687",
+      "doi": "10.1109/ICASSP49357.2023.10095969",
+      "title": "Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation",
+      "url": "https://www.semanticscholar.org/paper/e9bc29cfcfbea4d137652d10715a9c9389349a90"
+    },
+    {
+      "paper_id": "32e89d4d1225f3e02ac38ec93efc39fb61ccdde8",
+      "arxiv_id": "2203.02053",
+      "doi": "10.48550/arXiv.2203.02053",
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/32e89d4d1225f3e02ac38ec93efc39fb61ccdde8"
+    },
+    {
+      "paper_id": "98e565fa06f6c7bf7c46833b5106b26dc45130c4",
+      "arxiv_id": "2103.01913",
+      "doi": "10.1145/3404835.3463257",
+      "title": "WIT: Wikipedia-based Image Text Dataset for Multimodal Multilingual Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/98e565fa06f6c7bf7c46833b5106b26dc45130c4"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "60b508a92f73f7e7f14380b45f75d5f0df9548fe",
+      "arxiv_id": "2010.03743",
+      "doi": "10.18653/v1/2021.emnlp-main.542",
+      "title": "Visual News: Benchmark and Challenges in News Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/60b508a92f73f7e7f14380b45f75d5f0df9548fe"
+    },
+    {
+      "paper_id": "b770d84055c32febe922be9931c453fdbebe9002",
+      "arxiv_id": "2004.14974",
+      "doi": "10.18653/v1/2020.emnlp-main.609",
+      "title": "Fact or Fiction: Verifying Scientific Claims",
+      "url": "https://www.semanticscholar.org/paper/b770d84055c32febe922be9931c453fdbebe9002"
+    },
+    {
+      "paper_id": "60b8ad6177230ad5402af409a6edb5af441baeb4",
+      "arxiv_id": "2004.12832",
+      "doi": "10.1145/3397271.3401075",
+      "title": "ColBERT: Efficient and Effective Passage Search via Contextualized Late Interaction over BERT",
+      "url": "https://www.semanticscholar.org/paper/60b8ad6177230ad5402af409a6edb5af441baeb4"
+    },
+    {
+      "paper_id": "b26f2037f769d5ffc5f7bdcec2de8da28ec14bee",
+      "arxiv_id": "2004.04906",
+      "doi": "10.18653/v1/2020.emnlp-main.550",
+      "title": "Dense Passage Retrieval for Open-Domain Question Answering",
+      "url": "https://www.semanticscholar.org/paper/b26f2037f769d5ffc5f7bdcec2de8da28ec14bee"
+    },
+    {
+      "paper_id": "2b37cc68c9819cf0f980676935007d4135d8ac8c",
+      "arxiv_id": "1910.09387",
+      "doi": "10.1109/ICASSP40776.2020.9052990",
+      "title": "Clotho: an Audio Captioning Dataset",
+      "url": "https://www.semanticscholar.org/paper/2b37cc68c9819cf0f980676935007d4135d8ac8c"
+    },
+    {
+      "paper_id": "dfc7b58b67c31932b48586b3e23a43cc94695290",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-58577-8_7",
+      "title": "UNITER: UNiversal Image-TExt Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/dfc7b58b67c31932b48586b3e23a43cc94695290"
+    },
+    {
+      "paper_id": "5aec474c31a2f4b74703c6f786c0a8ff85c450da",
+      "arxiv_id": "1908.03557",
+      "doi": "",
+      "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+      "url": "https://www.semanticscholar.org/paper/5aec474c31a2f4b74703c6f786c0a8ff85c450da"
+    },
+    {
+      "paper_id": "65a9c7b0800c86a196bc14e7621ff895cc6ab287",
+      "arxiv_id": "1908.02265",
+      "doi": "",
+      "title": "ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks",
+      "url": "https://www.semanticscholar.org/paper/65a9c7b0800c86a196bc14e7621ff895cc6ab287"
+    },
+    {
+      "paper_id": "45dd2a3cd7c27f2e9509b023d702408f5ac11c9d",
+      "arxiv_id": "1803.08024",
+      "doi": "10.1007/978-3-030-01225-0_13",
+      "title": "Stacked Cross Attention for Image-Text Matching",
+      "url": "https://www.semanticscholar.org/paper/45dd2a3cd7c27f2e9509b023d702408f5ac11c9d"
+    },
+    {
+      "paper_id": "082ae4ab466b36029c8d0f28a5ec75a665e7a715",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-30671-1_58",
+      "title": "A Full-Text Learning to Rank Dataset for Medical Information Retrieval",
+      "url": "https://www.semanticscholar.org/paper/082ae4ab466b36029c8d0f28a5ec75a665e7a715"
+    },
+    {
+      "paper_id": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "arxiv_id": "1405.0312",
+      "doi": "10.1007/978-3-319-10602-1_48",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+    },
+    {
+      "paper_id": "adb4ea2c0f3eff8a17c97a67f28b923e8e5bdff1",
+      "arxiv_id": "",
+      "doi": "10.5555/2627435.2697059",
+      "title": "Multimodal learning with deep Boltzmann machines",
+      "url": "https://www.semanticscholar.org/paper/adb4ea2c0f3eff8a17c97a67f28b923e8e5bdff1"
+    },
+    {
+      "paper_id": "a78273144520d57e150744cf75206e881e11cc5b",
+      "arxiv_id": "2301.04856",
+      "doi": "10.48550/arXiv.2301.04856",
+      "title": "Multimodal Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/a78273144520d57e150744cf75206e881e11cc5b"
+    },
+    {
+      "paper_id": "72729882f8fa3d9084eaece513f6bf9630be5901",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Collecting Highly Parallel Data for Paraphrase Evaluation",
+      "url": "https://www.semanticscholar.org/paper/72729882f8fa3d9084eaece513f6bf9630be5901"
+    },
+    {
+      "paper_id": "47ced790a563344efae66588b5fb7fe6cca29ed3",
+      "arxiv_id": "",
+      "doi": "10.1561/1500000019",
+      "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+      "url": "https://www.semanticscholar.org/paper/47ced790a563344efae66588b5fb7fe6cca29ed3"
+    },
+    {
+      "paper_id": "8490234d79b47e459824dcf87c1e288211a3c964",
+      "arxiv_id": "",
+      "doi": "10.1145/582415.582418",
+      "title": "Cumulated gain-based evaluation of IR techniques",
+      "url": "https://www.semanticscholar.org/paper/8490234d79b47e459824dcf87c1e288211a3c964"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "voyage-multimodal-3: all-in-one embedding model for interleaved text, images, and screen-shots",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": ": Improved reasoning",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "descending order: IDCG@ K = K (cid:88) i =1 2 rel ⋆i − 1 log 2 ( i + 1) where rel ⋆i is the i -th highest relevance score in the ideal ranking",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "VLM2Vec (LLaVA-Next",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "d384ccd4db832c9e4df31eb3685d9f92835dd493",
+      "arxiv_id": "2605.29628",
+      "doi": "",
+      "title": "COMET: Concept Space Dissection of the Modality Gap in Audio-Text Multimodal Contrastive Embeddings",
+      "url": "https://www.semanticscholar.org/paper/d384ccd4db832c9e4df31eb3685d9f92835dd493"
+    },
+    {
+      "paper_id": "0874f45c7da28d05161926fb890ac5ec7724b982",
+      "arxiv_id": "2604.22939",
+      "doi": "10.48550/arXiv.2604.22939",
+      "title": "Self Knowledge Re-expression: A Fully Local Method for Adapting LLMs to Tasks Using Intrinsic Knowledge",
+      "url": "https://www.semanticscholar.org/paper/0874f45c7da28d05161926fb890ac5ec7724b982"
+    },
+    {
+      "paper_id": "0c5c35e00a595b8f1ccbca0744b9bdc6f1f4832c",
+      "arxiv_id": "2604.00279",
+      "doi": "10.48550/arXiv.2604.00279",
+      "title": "The Geometry of Compromise: Unlocking Generative Capabilities via Controllable Modality Alignment",
+      "url": "https://www.semanticscholar.org/paper/0c5c35e00a595b8f1ccbca0744b9bdc6f1f4832c"
+    },
+    {
+      "paper_id": "77b28e940441d19d2af37c5acc5550f4eac746a7",
+      "arxiv_id": "2603.24528",
+      "doi": "10.48550/arXiv.2603.24528",
+      "title": "Cross-Modal Prototype Alignment and Mixing for Training-Free Few-Shot Classification",
+      "url": "https://www.semanticscholar.org/paper/77b28e940441d19d2af37c5acc5550f4eac746a7"
+    },
+    {
+      "paper_id": "e2b9e26d539dd8c926f62058719b224ccaaf3567",
+      "arxiv_id": "2602.03098",
+      "doi": "10.48550/arXiv.2602.03098",
+      "title": "TextME: Bridging Unseen Modalities Through Text Descriptions",
+      "url": "https://www.semanticscholar.org/paper/e2b9e26d539dd8c926f62058719b224ccaaf3567"
+    },
+    {
+      "paper_id": "3873d24295412807c9eaa2c6e176155f6c9aa6f8",
+      "arxiv_id": "2512.13511",
+      "doi": "",
+      "title": "Adapting MLLMs for Nuanced Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3873d24295412807c9eaa2c6e176155f6c9aa6f8"
+    },
+    {
+      "paper_id": "ddd801e444ea273ed769c922f77aa6b4b17fead8",
+      "arxiv_id": "2512.04309",
+      "doi": "10.48550/arXiv.2512.04309",
+      "title": "Text-Only Training for Image Captioning with Retrieval Augmentation and Modality Gap Correction",
+      "url": "https://www.semanticscholar.org/paper/ddd801e444ea273ed769c922f77aa6b4b17fead8"
+    },
+    {
+      "paper_id": "6194aeddf48bfb74afb6fd07dda46c722f92f754",
+      "arxiv_id": "2510.20860",
+      "doi": "10.48550/arXiv.2510.20860",
+      "title": "Data-Centric Lessons To Improve Speech-Language Pretraining",
+      "url": "https://www.semanticscholar.org/paper/6194aeddf48bfb74afb6fd07dda46c722f92f754"
+    },
+    {
+      "paper_id": "e05a18168abeb1ede5948e4cb95c155b8181636c",
+      "arxiv_id": "2510.13406",
+      "doi": "10.48550/arXiv.2510.13406",
+      "title": "When Embedding Models Meet: Procrustes Bounds and Applications",
+      "url": "https://www.semanticscholar.org/paper/e05a18168abeb1ede5948e4cb95c155b8181636c"
+    },
+    {
+      "paper_id": "092f95d2ded77fd30de5dd4a0393a796e4ec53ef",
+      "arxiv_id": "2510.05038",
+      "doi": "10.48550/arXiv.2510.05038",
+      "title": "Guided Query Refinement: Multimodal Hybrid Retrieval with Test-Time Optimization",
+      "url": "https://www.semanticscholar.org/paper/092f95d2ded77fd30de5dd4a0393a796e4ec53ef"
+    }
+  ]
+}

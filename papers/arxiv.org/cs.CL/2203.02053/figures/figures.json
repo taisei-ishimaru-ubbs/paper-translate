@@ -1,0 +1,100 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: The pervasive modality gap in multi-modal contrastive representation learning. (a) Overview of multi-modal contrastive learning. Paired inputs from two modalities (e.g., image-caption) are sampled from the dataset and embedded into the hypersphere using two different encoders. The loss fun",
+    "score": 107.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: The cone effect phenomenon. (a) Histograms of the cosine similarity between all pairs of embeddings across various settings. The average cosine similarity is substantially larger than 0, indicating that the embedding space is a narrow cone. The cone effect also holds on randomly initialize",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3: Contrastive learning preserves modality gap. (a) Embedding shift experiment. To probe the loss landscape of CLIP, we manually shift the image embeddings and text embeddings towards closing the gap. (b-d) The loss landscapes under different temperatures. Y axis indicates the contrastive los",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 16,
+    "caption": "Figure 4: SVD visualization of extracted embeddings from pre-trained cross-modal models. Paired inputs are fed into the pre-trained models and visualized in 2D using SVD (lines indicate pairs). Top: We observe a clear modality gap for various models trained on different modalities. This is the SVD v",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 16,
+    "caption": "Figure 5: Visualization of extracted embeddings from 25 randomly initialized models on ran- dom noise inputs. Color indicates random seed. Inputs for ResNet and image transformer: Gaussian noise. Inputs for text transformers: random integer sequences. Input data are generated with the same random se",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 17,
+    "caption": "Figure 6: Statistics for the average cosine similarity between all pairs of embeddings in Fig- ure 2(a). Data: 5,000 images and texts from the validation set of COCO-Captions. The average cosine similarity is substantially larger than 0, indicating that the embedding space is a narrow cone. Also not",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 17,
+    "caption": "Figure 7: PCA visualization of extracted embeddings from 25 randomly initialized models on real data. Each random initialization forms a distinctively different cone. This is the PCA visualization version of Figure 2(c).",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 17,
+    "caption": "Figure 8: Reduce the gap by ﬁne-tuning with high temperature. We ﬁne-tune the pre-trained CLIP on MSCOCO Caption training set with different temperatures with batch size 64, and evaluated on MSCOCO Caption validation set. We found that a high temperature (τ ∈{ 1",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 18,
+    "caption": "Figure 9: Additional simulation experiments: with and without mismatched data. (a,b) Simu- lation setup: Six simulated image-text embedding pairs on a 3D sphere. Text embeddings are shifted towards closing the modality gap (i.e., modifying θ). Note that the ﬁrst two image-text pairs are mismatched i",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 19,
+    "caption": "Figure 10: Modifying the modality gap can improve zero-shot performances for downstream tasks. Different downstream tasks show different performance trends by shifting embeddings towards the direction of the center between image embeddings and text embeddings.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 13,
+    "page": 21,
+    "caption": "Figure 13: UMAP Visualization of extracted embeddings from 25 ImegeNet-pretrained models. We ﬁrst trained 11 ResNet models from scratch on ImageNet, which differ only in the initial random seeds. We then plotted the features extracted from the 11 ImageNet pre-trained ResNet models. The cones remain ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 14,
+    "page": 21,
+    "caption": "Figure 14: Cone effect statistics on ImageNet. ImageNet Data: 50,000images from the validation set of ImageNet. COCO Data: 5,000 images from the validation set of COCO-Captions. The average cosine similarity on ImageNet is substantially larger than 0, indicating that the embedding space is a narrow ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 15,
+    "page": 22,
+    "caption": "Figure 15: UAMP visualization of extracted embeddings from pre-trained CLIP disabling input data normalization and normalization labyers. Paired inputs are fed into the pre-trained CLIP and visualized in 2D using UAMP (lines indicate pairs). The modality gap still clearly exists under such a “non-Ga",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 16,
+    "page": 22,
+    "caption": "Figure 16: We added an experiment to investigate how changing the embedding dimension of CLIP would affect the gap. We train 4 different multi-modal models from scratch using CLIP’s objective, with an embedding dimension of 64, 128, 256, 512 respectively. We trained the models on Conceptual Captions",
+    "score": 0.0
+  }
+]

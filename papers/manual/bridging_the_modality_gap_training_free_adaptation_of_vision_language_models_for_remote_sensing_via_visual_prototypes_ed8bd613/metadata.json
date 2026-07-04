@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "id": "local:ed8bd6135e8c",
+  "sha256": "ed8bd6135e8c0fc0b1a2e579b83395854260a9091d54e03d6f44540a34dc7372",
+  "title": "Bridging the Modality Gap: Training-free Adaptation of Vision-Language Models for Remote Sensing via Visual Prototypes",
+  "authors": [],
+  "abstract": "",
+  "published": "",
+  "category": "",
+  "identifiers": {
+    "arxiv": "",
+    "doi": "",
+    "semantic_scholar": ""
+  },
+  "source": {
+    "type": "manual",
+    "original_filename": "bridging-the-modality-gap-training-free-adaptation-of-vision-language-models-for.pdf",
+    "url": ""
+  },
+  "provenance": {
+    "metadata_inferred_from_pdf": true
+  },
+  "added_at": "2026-07-02T18:26:11Z"
+}

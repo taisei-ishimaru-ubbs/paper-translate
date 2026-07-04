@@ -1,0 +1,1013 @@
+{
+  "id": "2403.00041",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "0f275adc51c68ec154ab3762e7c0bfb817ac7857",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2403-00041",
+      "ArXiv": "2403.00041",
+      "DOI": "10.1109/CVPR52733.2024.01155",
+      "CorpusId": 268201467
+    },
+    "url": "https://www.semanticscholar.org/paper/0f275adc51c68ec154ab3762e7c0bfb817ac7857",
+    "title": "Global and Local Prompts Cooperation via Optimal Transport for Federated Learning"
+  },
+  "references": [
+    {
+      "paper_id": "f9da402462d6845fca253e7d0f2c563cd8b0e483",
+      "arxiv_id": "2402.18411",
+      "doi": "10.1609/aaai.v38i4.28083",
+      "title": "Unsupervised Cross-Domain Image Retrieval via Prototypical Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/f9da402462d6845fca253e7d0f2c563cd8b0e483"
+    },
+    {
+      "paper_id": "1ca923d8f0a0ade5f8775e638d98f8f76df1808c",
+      "arxiv_id": "",
+      "doi": "10.1109/JIOT.2023.3293230",
+      "title": "Optimal Transport-Based One-Shot Federated Learning for Artificial Intelligence of Things",
+      "url": "https://www.semanticscholar.org/paper/1ca923d8f0a0ade5f8775e638d98f8f76df1808c"
+    },
+    {
+      "paper_id": "8b7d6bee53b30df13694eba44cb2ae6af85a4e80",
+      "arxiv_id": "2312.06221",
+      "doi": "10.48550/arXiv.2312.06221",
+      "title": "CSOT: Curriculum and Structure-Aware Optimal Transport for Learning with Noisy Labels",
+      "url": "https://www.semanticscholar.org/paper/8b7d6bee53b30df13694eba44cb2ae6af85a4e80"
+    },
+    {
+      "paper_id": "b53dba04b2518ebed943daa9ab58f19af81e2012",
+      "arxiv_id": "2308.15367",
+      "doi": "10.1109/ICCV51070.2023.01755",
+      "title": "Efficient Model Personalization in Federated Learning via Client-Specific Prompt Generation",
+      "url": "https://www.semanticscholar.org/paper/b53dba04b2518ebed943daa9ab58f19af81e2012"
+    },
+    {
+      "paper_id": "f52e2e84bb1dbae264da4c51419f899a770dd47a",
+      "arxiv_id": "2306.11867",
+      "doi": "10.48550/arXiv.2306.11867",
+      "title": "Personalized Federated Learning with Feature Alignment and Classifier Collaboration",
+      "url": "https://www.semanticscholar.org/paper/f52e2e84bb1dbae264da4c51419f899a770dd47a"
+    },
+    {
+      "paper_id": "4ebe177cc111fab7829bceb0f3a4481731ce66ef",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01048",
+      "title": "Hierarchical Prompt Learning for Multi-Task Learning",
+      "url": "https://www.semanticscholar.org/paper/4ebe177cc111fab7829bceb0f3a4481731ce66ef"
+    },
+    {
+      "paper_id": "1168fe0bb55f6f188a91b1a281496b025fd3d712",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01551",
+      "title": "OT-Filter: An Optimal Transport Filter for Learning with Noisy Labels",
+      "url": "https://www.semanticscholar.org/paper/1168fe0bb55f6f188a91b1a281496b025fd3d712"
+    },
+    {
+      "paper_id": "e27cc89c42b9c1decadd48f3e5b5ca70fa65ed9b",
+      "arxiv_id": "2305.19229",
+      "doi": "10.48550/arXiv.2305.19229",
+      "title": "FedDisco: Federated Learning with Discrepancy-Aware Collaboration",
+      "url": "https://www.semanticscholar.org/paper/e27cc89c42b9c1decadd48f3e5b5ca70fa65ed9b"
+    },
+    {
+      "paper_id": "c6be8510ea66521cf9d48befce4b012ac0cb0aea",
+      "arxiv_id": "",
+      "doi": "10.1145/3543507.3583518",
+      "title": "pFedPrompt: Learning Personalized Prompt for Vision-Language Models in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/c6be8510ea66521cf9d48befce4b012ac0cb0aea"
+    },
+    {
+      "paper_id": "2799fedf8930b9b4b2a8382682e432fd89454483",
+      "arxiv_id": "2303.16181",
+      "doi": "10.1109/CVPR52729.2023.00779",
+      "title": "Learning Federated Visual Prompt in Null Space for MRI Reconstruction",
+      "url": "https://www.semanticscholar.org/paper/2799fedf8930b9b4b2a8382682e432fd89454483"
+    },
+    {
+      "paper_id": "922729f3c8bebc4dea35c1b0dcc2769345759c8c",
+      "arxiv_id": "2302.13485",
+      "doi": "10.48550/arXiv.2302.13485",
+      "title": "FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/922729f3c8bebc4dea35c1b0dcc2769345759c8c"
+    },
+    {
+      "paper_id": "19ab576b8e075ffa8d56e7a9b1bbab36461d1a34",
+      "arxiv_id": "2211.13579",
+      "doi": "10.1109/ICCV51070.2023.02036",
+      "title": "Knowledge-Aware Federated Active Learning with Non-IID Data",
+      "url": "https://www.semanticscholar.org/paper/19ab576b8e075ffa8d56e7a9b1bbab36461d1a34"
+    },
+    {
+      "paper_id": "50d909b5c6704668f648545bd62a86a27f3506a1",
+      "arxiv_id": "2211.01572",
+      "doi": "10.1109/TNNLS.2023.3269062",
+      "title": "FedTP: Federated Learning by Transformer Personalization",
+      "url": "https://www.semanticscholar.org/paper/50d909b5c6704668f648545bd62a86a27f3506a1"
+    },
+    {
+      "paper_id": "5dcfd5045c1a2e747181475b02bcf3564786ad70",
+      "arxiv_id": "2210.17067",
+      "doi": "10.48550/arXiv.2210.17067",
+      "title": "Unified Optimal Transport Framework for Universal Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/5dcfd5045c1a2e747181475b02bcf3564786ad70"
+    },
+    {
+      "paper_id": "0d0dbfb1b315a43216020abaf74d289456198219",
+      "arxiv_id": "2210.03117",
+      "doi": "10.1109/CVPR52729.2023.01832",
+      "title": "MaPLe: Multi-modal Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/0d0dbfb1b315a43216020abaf74d289456198219"
+    },
+    {
+      "paper_id": "0d5103378a9f4f6e08bfcd364da207f93b31b8b7",
+      "arxiv_id": "2210.01253",
+      "doi": "10.48550/arXiv.2210.01253",
+      "title": "Prompt Learning with Optimal Transport for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/0d5103378a9f4f6e08bfcd364da207f93b31b8b7"
+    },
+    {
+      "paper_id": "2f45018de9e420ab4126becceee857331b488637",
+      "arxiv_id": "2209.10526",
+      "doi": "10.48550/arXiv.2209.10526",
+      "title": "Efficient Distribution Similarity Identification in Clustered Federated Learning via Principal Angles Between Client Data Subspaces",
+      "url": "https://www.semanticscholar.org/paper/2f45018de9e420ab4126becceee857331b488637"
+    },
+    {
+      "paper_id": "2510bd1b8bc09d7b8f08cf888297753c97c5ef44",
+      "arxiv_id": "2209.10083",
+      "doi": "10.48550/arXiv.2209.10083",
+      "title": "Federated Learning from Pre-Trained Models: A Contrastive Learning Approach",
+      "url": "https://www.semanticscholar.org/paper/2510bd1b8bc09d7b8f08cf888297753c97c5ef44"
+    },
+    {
+      "paper_id": "8319aa06ed1bdc7e455bbc29c07a409f76250a6d",
+      "arxiv_id": "2208.11625",
+      "doi": "10.1109/TMC.2023.3302410",
+      "title": "PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models – Federated Learning in Age of Foundation Model",
+      "url": "https://www.semanticscholar.org/paper/8319aa06ed1bdc7e455bbc29c07a409f76250a6d"
+    },
+    {
+      "paper_id": "a2897ecbd2242f28c4227ec0598576636476387b",
+      "arxiv_id": "2206.02468",
+      "doi": "10.1109/JSAIT.2022.3182355",
+      "title": "An Optimal Transport Approach to Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/a2897ecbd2242f28c4227ec0598576636476387b"
+    },
+    {
+      "paper_id": "e8df3224f6db7e839d6175d8d8324ab1d808e1c2",
+      "arxiv_id": "2205.03340",
+      "doi": "10.1109/CVPR52688.2022.00514",
+      "title": "Prompt Distribution Learning",
+      "url": "https://www.semanticscholar.org/paper/e8df3224f6db7e839d6175d8d8324ab1d808e1c2"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "318e22ccebf0e45816a8397ace680b1c9542f46e",
+      "arxiv_id": "2203.00759",
+      "doi": "10.48550/arXiv.2203.00759",
+      "title": "HyperPrompt: Prompt-based Task-Conditioning of Transformers",
+      "url": "https://www.semanticscholar.org/paper/318e22ccebf0e45816a8397ace680b1c9542f46e"
+    },
+    {
+      "paper_id": "ee2ee79708fdc3f37924a68993c0f29d4d247fbb",
+      "arxiv_id": "2201.09366",
+      "doi": "",
+      "title": "Optimal transport for causal discovery",
+      "url": "https://www.semanticscholar.org/paper/ee2ee79708fdc3f37924a68993c0f29d4d247fbb"
+    },
+    {
+      "paper_id": "91ba25b062661f58db2b54407009323c36e84223",
+      "arxiv_id": "2111.09360",
+      "doi": "",
+      "title": "Personalized Federated Learning through Local Memorization",
+      "url": "https://www.semanticscholar.org/paper/91ba25b062661f58db2b54407009323c36e84223"
+    },
+    {
+      "paper_id": "ab92ad3d953b1d8c034178531c874110bf9961d1",
+      "arxiv_id": "",
+      "doi": "10.1109/TNNLS.2021.3118542",
+      "title": "Causal Optimal Transport for Treatment Effect Estimation",
+      "url": "https://www.semanticscholar.org/paper/ab92ad3d953b1d8c034178531c874110bf9961d1"
+    },
+    {
+      "paper_id": "9f5b82d9915d0752957602224c5056be7e749c83",
+      "arxiv_id": "",
+      "doi": "10.2139/ssrn.3399990",
+      "title": "Foundations of Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/9f5b82d9915d0752957602224c5056be7e749c83"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "28692beece311a90f5fa1ca2ec9d0c2ce293d069",
+      "arxiv_id": "2107.13586",
+      "doi": "10.1145/3560815",
+      "title": "Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing",
+      "url": "https://www.semanticscholar.org/paper/28692beece311a90f5fa1ca2ec9d0c2ce293d069"
+    },
+    {
+      "paper_id": "3cd5b67f7bc25a14a9505d27a5b18cfb5592769b",
+      "arxiv_id": "2106.06042",
+      "doi": "",
+      "title": "FedBABU: Towards Enhanced Representation for Federated Image Classification",
+      "url": "https://www.semanticscholar.org/paper/3cd5b67f7bc25a14a9505d27a5b18cfb5592769b"
+    },
+    {
+      "paper_id": "748c4f1945b0d994ecef38c8aac01db1c6dc7029",
+      "arxiv_id": "2103.16257",
+      "doi": "10.1109/CVPR46437.2021.01057",
+      "title": "Model-Contrastive Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/748c4f1945b0d994ecef38c8aac01db1c6dc7029"
+    },
+    {
+      "paper_id": "148de9bf06862825290d6801728758bc5c6aa72b",
+      "arxiv_id": "2103.04628",
+      "doi": "",
+      "title": "Personalized Federated Learning using Hypernetworks",
+      "url": "https://www.semanticscholar.org/paper/148de9bf06862825290d6801728758bc5c6aa72b"
+    },
+    {
+      "paper_id": "b68f3c0cead817435bb5b2dc6c4c400dde8a5982",
+      "arxiv_id": "2103.03606",
+      "doi": "",
+      "title": "Unbalanced minibatch Optimal Transport; applications to Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b68f3c0cead817435bb5b2dc6c4c400dde8a5982"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "2c0f4711c9c124a8dc056eaee82a2ca5ef276da8",
+      "arxiv_id": "2102.07623",
+      "doi": "",
+      "title": "FedBN: Federated Learning on Non-IID Features via Local Batch Normalization",
+      "url": "https://www.semanticscholar.org/paper/2c0f4711c9c124a8dc056eaee82a2ca5ef276da8"
+    },
+    {
+      "paper_id": "ffd393dacee23e476bd8eb0802dec86f2296b36c",
+      "arxiv_id": "2102.07078",
+      "doi": "",
+      "title": "Exploiting Shared Representations for Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/ffd393dacee23e476bd8eb0802dec86f2296b36c"
+    },
+    {
+      "paper_id": "31949039a48961f939ac50440c3b4b8504fccceb",
+      "arxiv_id": "2012.04221",
+      "doi": "",
+      "title": "Ditto: Fair and Robust Federated Learning Through Personalization",
+      "url": "https://www.semanticscholar.org/paper/31949039a48961f939ac50440c3b4b8504fccceb"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "679237737ab2392a87a1f3c44d62b2e37f36bf01",
+      "arxiv_id": "2007.03797",
+      "doi": "10.1609/aaai.v35i9.16960",
+      "title": "Personalized Cross-Silo Federated Learning on Non-IID Data",
+      "url": "https://www.semanticscholar.org/paper/679237737ab2392a87a1f3c44d62b2e37f36bf01"
+    },
+    {
+      "paper_id": "70f1b279f96a9ba8e15f599635ba0e3ec449ef5f",
+      "arxiv_id": "2006.08848",
+      "doi": "",
+      "title": "Personalized Federated Learning with Moreau Envelopes",
+      "url": "https://www.semanticscholar.org/paper/70f1b279f96a9ba8e15f599635ba0e3ec449ef5f"
+    },
+    {
+      "paper_id": "2d470f3f86bae26460339bef85420095e04c852b",
+      "arxiv_id": "2002.10619",
+      "doi": "",
+      "title": "Three Approaches for Personalization with Applications to Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/2d470f3f86bae26460339bef85420095e04c852b"
+    },
+    {
+      "paper_id": "69e017d4a1a25081e2d3335dc0c19ba7c877244d",
+      "arxiv_id": "2002.05516",
+      "doi": "",
+      "title": "Federated Learning of a Mixture of Global and Local Models",
+      "url": "https://www.semanticscholar.org/paper/69e017d4a1a25081e2d3335dc0c19ba7c877244d"
+    },
+    {
+      "paper_id": "ce719f508401281c6472061910d5c5d4fdf8e176",
+      "arxiv_id": "2001.01523",
+      "doi": "",
+      "title": "Think Locally, Act Globally: Federated Learning with Local and Global Representations",
+      "url": "https://www.semanticscholar.org/paper/ce719f508401281c6472061910d5c5d4fdf8e176"
+    },
+    {
+      "paper_id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+      "arxiv_id": "1912.01703",
+      "doi": "",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "url": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+    },
+    {
+      "paper_id": "35aebe08b34e5cb0d012a16563e5c3f6fd17a906",
+      "arxiv_id": "1912.00818",
+      "doi": "",
+      "title": "Federated Learning with Personalization Layers",
+      "url": "https://www.semanticscholar.org/paper/35aebe08b34e5cb0d012a16563e5c3f6fd17a906"
+    },
+    {
+      "paper_id": "355869339c2eb7cb95f341350ad7a72e854ed712",
+      "arxiv_id": "1910.10252",
+      "doi": "",
+      "title": "Federated Evaluation of On-device Personalization",
+      "url": "https://www.semanticscholar.org/paper/355869339c2eb7cb95f341350ad7a72e854ed712"
+    },
+    {
+      "paper_id": "08bd705920792314e3ef806c28d0a7f40505634f",
+      "arxiv_id": "1910.01991",
+      "doi": "10.1109/TNNLS.2020.3015958",
+      "title": "Clustered Federated Learning: Model-Agnostic Distributed Multitask Optimization Under Privacy Constraints",
+      "url": "https://www.semanticscholar.org/paper/08bd705920792314e3ef806c28d0a7f40505634f"
+    },
+    {
+      "paper_id": "a491eab02566d7901314e5b1512cdb5e0b28e752",
+      "arxiv_id": "1906.02717",
+      "doi": "",
+      "title": "Adaptive Gradient-Based Meta-Learning Methods",
+      "url": "https://www.semanticscholar.org/paper/a491eab02566d7901314e5b1512cdb5e0b28e752"
+    },
+    {
+      "paper_id": "1284ed4bf6a043ecf8cebca09e4811f1e3b83b65",
+      "arxiv_id": "1812.06127",
+      "doi": "",
+      "title": "Federated Optimization in Heterogeneous Networks",
+      "url": "https://www.semanticscholar.org/paper/1284ed4bf6a043ecf8cebca09e4811f1e3b83b65"
+    },
+    {
+      "paper_id": "3217278e346fefbd34f0727321059c7ea5792612",
+      "arxiv_id": "1812.01754",
+      "doi": "10.1109/ICCV.2019.00149",
+      "title": "Moment Matching for Multi-Source Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/3217278e346fefbd34f0727321059c7ea5792612"
+    },
+    {
+      "paper_id": "d70dc8f866ab04e207c2c144cc337b421bc762e0",
+      "arxiv_id": "1803.10081",
+      "doi": "10.1007/978-3-030-01225-0_28",
+      "title": "DeepJDOT: Deep Joint distribution optimal transport for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/d70dc8f866ab04e207c2c144cc337b421bc762e0"
+    },
+    {
+      "paper_id": "3ecac5a84b7d8d8d15b25ecbd022ae353ad25c40",
+      "arxiv_id": "",
+      "doi": "10.1090/mcom/3303",
+      "title": "Scaling algorithms for unbalanced optimal transport problems",
+      "url": "https://www.semanticscholar.org/paper/3ecac5a84b7d8d8d15b25ecbd022ae353ad25c40"
+    },
+    {
+      "paper_id": "d1dbf643447405984eeef098b1b320dee0b3b8a7",
+      "arxiv_id": "1602.05629",
+      "doi": "",
+      "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+      "url": "https://www.semanticscholar.org/paper/d1dbf643447405984eeef098b1b320dee0b3b8a7"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "ae23eda2faddd824480de2d90638795f797cc66e",
+      "arxiv_id": "1506.05439",
+      "doi": "",
+      "title": "Learning with a Wasserstein Loss",
+      "url": "https://www.semanticscholar.org/paper/ae23eda2faddd824480de2d90638795f797cc66e"
+    },
+    {
+      "paper_id": "d3831561301ef27a6ba0d3c68d30bdf0f27eef63",
+      "arxiv_id": "1412.5154",
+      "doi": "10.1137/141000439",
+      "title": "Iterative Bregman Projections for Regularized Transportation Problems",
+      "url": "https://www.semanticscholar.org/paper/d3831561301ef27a6ba0d3c68d30bdf0f27eef63"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "0080118b0eb02af581ff32b85a1bb6aed7081f45",
+      "arxiv_id": "1306.0895",
+      "doi": "",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/0080118b0eb02af581ff32b85a1bb6aed7081f45"
+    },
+    {
+      "paper_id": "7de1d1612debcbde32cd588fa607a408df79c717",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2012.6247911",
+      "title": "Geodesic flow kernel for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/7de1d1612debcbde32cd588fa607a408df79c717"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "6ea2ba9e2ac6565793fb5b7142c9524dd40a6316",
+      "arxiv_id": "",
+      "doi": "10.1007/s10958-006-0049-2",
+      "title": "On the Translocation of Masses",
+      "url": "https://www.semanticscholar.org/paper/6ea2ba9e2ac6565793fb5b7142c9524dd40a6316"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "f8b5fe003c2d47afe89a28ee702d37ae8e43e580",
+      "arxiv_id": "",
+      "doi": "10.1080/01621459.1983.10477029",
+      "title": "An Algorithm for Restricted Least Squares Regression",
+      "url": "https://www.semanticscholar.org/paper/f8b5fe003c2d47afe89a28ee702d37ae8e43e580"
+    },
+    {
+      "paper_id": "db95b0785118db34b553e6b5f137ea2bee5a0639",
+      "arxiv_id": "",
+      "doi": "10.1136/bmj.4.5674.53-c",
+      "title": "Care of aged doctors",
+      "url": "https://www.semanticscholar.org/paper/db95b0785118db34b553e6b5f137ea2bee5a0639"
+    },
+    {
+      "paper_id": "b0208e7c1971e23a6a5b3abf0b2d875be1beaae8",
+      "arxiv_id": "",
+      "doi": "10.2307/2314570",
+      "title": "Diagonal Equivalence to Matrices with Prescribed Row and Column Sums",
+      "url": "https://www.semanticscholar.org/paper/b0208e7c1971e23a6a5b3abf0b2d875be1beaae8"
+    },
+    {
+      "paper_id": "92edf02664b43a5c511fa2c139cb63da2af67cc9",
+      "arxiv_id": "",
+      "doi": "10.1136/pgmj.1.5.60",
+      "title": "Adaptation",
+      "url": "https://www.semanticscholar.org/paper/92edf02664b43a5c511fa2c139cb63da2af67cc9"
+    },
+    {
+      "paper_id": "4d965e726be4e0b79cc7bf9aaf8ac4ef84f84076",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Understanding Convergence and Generalization in Federated Learning through Feature Learning Theory",
+      "url": "https://www.semanticscholar.org/paper/4d965e726be4e0b79cc7bf9aaf8ac4ef84f84076"
+    },
+    {
+      "paper_id": "67c6589989534a9413d6f347404defe4eed3fea6",
+      "arxiv_id": "",
+      "doi": "10.52202/075280-0948",
+      "title": "A Combinatorial Algorithm for Approximating the Optimal Transport in the Parallel and MPC Settings",
+      "url": "https://www.semanticscholar.org/paper/67c6589989534a9413d6f347404defe4eed3fea6"
+    },
+    {
+      "paper_id": "dabcb6fcd6365fe211fdd77b085c4027784d965f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Computing all Optimal Partial Transports",
+      "url": "https://www.semanticscholar.org/paper/dabcb6fcd6365fe211fdd77b085c4027784d965f"
+    },
+    {
+      "paper_id": "c8b6c64a8ba2217fb65e6507867a9acd44b3b70d",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2211.07864",
+      "title": "Cross-domain Federated Adaptive Prompt Tuning for CLIP",
+      "url": "https://www.semanticscholar.org/paper/c8b6c64a8ba2217fb65e6507867a9acd44b3b70d"
+    },
+    {
+      "paper_id": "36a7bb5f85d79acee1b859588017564367a0ecc6",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "On Bridging Generic and Personalized Federated Learning for Image Classification",
+      "url": "https://www.semanticscholar.org/paper/36a7bb5f85d79acee1b859588017564367a0ecc6"
+    },
+    {
+      "paper_id": "3954e59506fd6a1e199f69e254fc2d1c25e7450d",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2208.12268",
+      "title": "Reduce Communication Costs and Preserve Privacy: Prompt Tuning Method in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/3954e59506fd6a1e199f69e254fc2d1c25e7450d"
+    },
+    {
+      "paper_id": "12192bff644c555e24e404baa5086ac9cc2ed5f9",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-85559-8_3",
+      "title": "Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/12192bff644c555e24e404baa5086ac9cc2ed5f9"
+    },
+    {
+      "paper_id": "90c4010d726bb6950951ecbc7134bf1d773c65d1",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Fine-tuning is Fine in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/90c4010d726bb6950951ecbc7134bf1d773c65d1"
+    },
+    {
+      "paper_id": "53079d34487c0cabf19766e6bc0e8669cea546f7",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "PartialFed: Cross-Domain Personalized Federated Learning via Partial Initialization",
+      "url": "https://www.semanticscholar.org/paper/53079d34487c0cabf19766e6bc0e8669cea546f7"
+    },
+    {
+      "paper_id": "f56ae74c8c0842064654aeecb93d42bb3456b5b6",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Personalized Federated Learning with Theoretical Guarantees: A Model-Agnostic Meta-Learning Approach",
+      "url": "https://www.semanticscholar.org/paper/f56ae74c8c0842064654aeecb93d42bb3456b5b6"
+    },
+    {
+      "paper_id": "216e645612de899b4064be3f6908029baab3f03d",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-662-53120-4_300497",
+      "title": "Personalization",
+      "url": "https://www.semanticscholar.org/paper/216e645612de899b4064be3f6908029baab3f03d"
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "1c46943103bd7b7a2c7be86859995a4144d1938b",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Visualizing Data using t-SNE",
+      "url": "https://www.semanticscholar.org/paper/1c46943103bd7b7a2c7be86859995a4144d1938b"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "agreement with IEEE. Restrictions apply",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "b0b1cba03b947d08c4764bcf342fdfadae2b2038",
+      "arxiv_id": "2605.27900",
+      "doi": "",
+      "title": "Decoupled Training with Local Reinforcement Fine-Tuning in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/b0b1cba03b947d08c4764bcf342fdfadae2b2038"
+    },
+    {
+      "paper_id": "5946480d3831606fbd64865ae8881e34537d861c",
+      "arxiv_id": "2605.28347",
+      "doi": "",
+      "title": "FedMPT: Federated Multi-label Prompt Tuning of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/5946480d3831606fbd64865ae8881e34537d861c"
+    },
+    {
+      "paper_id": "2756037126ca6cfea9ff92d7a5ba18430dbf2acc",
+      "arxiv_id": "",
+      "doi": "10.1109/INFOCOM59046.2026.11571515",
+      "title": "FT-PromptFL: A Feature Transmission-based Framework for Communication-Efficient Prompt Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/2756037126ca6cfea9ff92d7a5ba18430dbf2acc"
+    },
+    {
+      "paper_id": "da337c3f41e4f389fb0cc0842e0c411c473f25b5",
+      "arxiv_id": "2605.07474",
+      "doi": "",
+      "title": "ForgeVLA: Federated Vision-Language-Action Learning without Language Annotations",
+      "url": "https://www.semanticscholar.org/paper/da337c3f41e4f389fb0cc0842e0c411c473f25b5"
+    },
+    {
+      "paper_id": "c220427596cfd4aa960f7bb762bda50f5801a69b",
+      "arxiv_id": "2605.02247",
+      "doi": "",
+      "title": "Fine-Tuning Impairs the Balancedness of Foundation Models in Long-tailed Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/c220427596cfd4aa960f7bb762bda50f5801a69b"
+    },
+    {
+      "paper_id": "811685cee6f391c6f526a7fbdb8f1aa3e2e5e2da",
+      "arxiv_id": "2604.06631",
+      "doi": "10.48550/arXiv.2604.06631",
+      "title": "SubFLOT: Submodel Extraction for Efficient and Personalized Federated Learning via Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/811685cee6f391c6f526a7fbdb8f1aa3e2e5e2da"
+    },
+    {
+      "paper_id": "a0a43c64f6cdf19096e9f21faa786aa9e4e368e5",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2026.104324",
+      "title": "FedCLIPOT: Federated CLIP model via parameter reusing and optimal transport",
+      "url": "https://www.semanticscholar.org/paper/a0a43c64f6cdf19096e9f21faa786aa9e4e368e5"
+    },
+    {
+      "paper_id": "9b89c563861960da26f17afa05887a605876f971",
+      "arxiv_id": "2602.21078",
+      "doi": "10.48550/arXiv.2602.21078",
+      "title": "ProxyFL: A Proxy-Guided Framework for Federated Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/9b89c563861960da26f17afa05887a605876f971"
+    },
+    {
+      "paper_id": "677a283639f3b9ee73c57cb8e8073895b5538a4b",
+      "arxiv_id": "2602.08590",
+      "doi": "10.48550/arXiv.2602.08590",
+      "title": "SDFed: Bridging Local Global Discrepancy via Subspace Refinement and Divergence Control in Federated Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/677a283639f3b9ee73c57cb8e8073895b5538a4b"
+    },
+    {
+      "paper_id": "19ad582a9185cedd29192a5fb0a34bb14bd845f2",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2026.3662990",
+      "title": "Hierarchical Information Embeddings With Neural ODEs for Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/19ad582a9185cedd29192a5fb0a34bb14bd845f2"
+    },
+    {
+      "paper_id": "ba64b6c3547ad83b6a0a8c0b2a41903ab0aa4df9",
+      "arxiv_id": "",
+      "doi": "10.1016/j.knosys.2026.115383",
+      "title": "FedCLIP-Distill: Heterogeneous federated cross-modal knowledge distillation for multi-domain visual recognition",
+      "url": "https://www.semanticscholar.org/paper/ba64b6c3547ad83b6a0a8c0b2a41903ab0aa4df9"
+    },
+    {
+      "paper_id": "22d40c73997a66673620d33805875e0abb0c0907",
+      "arxiv_id": "",
+      "doi": "10.1109/AIBDF67964.2025.11440775",
+      "title": "FOP: A Personalized Federated Learning Framework for CLIP Integrating LoRA and Differential Privacy",
+      "url": "https://www.semanticscholar.org/paper/22d40c73997a66673620d33805875e0abb0c0907"
+    },
+    {
+      "paper_id": "4dc4fe780826e975231cb7e964c5c166ed5df84e",
+      "arxiv_id": "",
+      "doi": "10.1109/BIBM66473.2025.11356308",
+      "title": "ProFiMed: Prompt-Based Federated Medical Image Classification via Pruned Optimal Transport and Residual Cross-Correlation Self-Attention",
+      "url": "https://www.semanticscholar.org/paper/4dc4fe780826e975231cb7e964c5c166ed5df84e"
+    },
+    {
+      "paper_id": "f2deac80256ca2e9f876db3a9309afa814d05067",
+      "arxiv_id": "",
+      "doi": "10.1109/BigData66926.2025.11401615",
+      "title": "Federated Multi-Modal Knowledge Graph Representation Learning with Optimal Transport Alignment",
+      "url": "https://www.semanticscholar.org/paper/f2deac80256ca2e9f876db3a9309afa814d05067"
+    },
+    {
+      "paper_id": "ee44db6c7b68e9d6aab1e0989b02283998e8f235",
+      "arxiv_id": "2512.04305",
+      "doi": "10.48550/arXiv.2512.04305",
+      "title": "How (Mis)calibrated is Your Federated CLIP and What To Do About It?",
+      "url": "https://www.semanticscholar.org/paper/ee44db6c7b68e9d6aab1e0989b02283998e8f235"
+    },
+    {
+      "paper_id": "d220cd9fd7fde9974b5e6e9d8c7da8c5bacc93c9",
+      "arxiv_id": "2511.16423",
+      "doi": "10.48550/arXiv.2511.16423",
+      "title": "TOFA: Training-Free One-Shot Federated Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d220cd9fd7fde9974b5e6e9d8c7da8c5bacc93c9"
+    },
+    {
+      "paper_id": "927f9f0a67667b876588a0f00c23ee221a642990",
+      "arxiv_id": "",
+      "doi": "10.1109/BigDIA68682.2025.11383022",
+      "title": "A Survey on Federated Parameter-Efficient Fine-Tuning for Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/927f9f0a67667b876588a0f00c23ee221a642990"
+    },
+    {
+      "paper_id": "4b5c2a583864dcb6785cef5348ce757f84ce0b5e",
+      "arxiv_id": "",
+      "doi": "10.1109/EEI67650.2025.11335022",
+      "title": "FedCon: Client-Side Feature Consistency Suffices for Superior Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/4b5c2a583864dcb6785cef5348ce757f84ce0b5e"
+    },
+    {
+      "paper_id": "4a5294b85d73a00787a874ab2ff5b54505369fff",
+      "arxiv_id": "2511.00480",
+      "doi": "10.48550/arXiv.2511.00480",
+      "title": "FedMGP: Personalized Federated Learning with Multi-Group Text-Visual Prompts",
+      "url": "https://www.semanticscholar.org/paper/4a5294b85d73a00787a874ab2ff5b54505369fff"
+    },
+    {
+      "paper_id": "ac85068520bc0f9a9a0f5c4b74c5e4cbe5104b75",
+      "arxiv_id": "",
+      "doi": "10.1007/s11227-025-08073-1",
+      "title": "Uncorrelated domain adaptation and its application in fault detection and identification",
+      "url": "https://www.semanticscholar.org/paper/ac85068520bc0f9a9a0f5c4b74c5e4cbe5104b75"
+    },
+    {
+      "paper_id": "83da8b6390b37877b4f8b07a23b5a5cdbcf51758",
+      "arxiv_id": "2510.25372",
+      "doi": "10.48550/arXiv.2510.25372",
+      "title": "Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers",
+      "url": "https://www.semanticscholar.org/paper/83da8b6390b37877b4f8b07a23b5a5cdbcf51758"
+    },
+    {
+      "paper_id": "41e585d5b7b8cada527dad502f53270ddea6ad31",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00106",
+      "title": "Tensor-Aggregated LoRA in Federated Fine-Tuning",
+      "url": "https://www.semanticscholar.org/paper/41e585d5b7b8cada527dad502f53270ddea6ad31"
+    },
+    {
+      "paper_id": "edf00a2af2aee95e521490b3ff38237e7b97a2c5",
+      "arxiv_id": "2510.10100",
+      "doi": "10.1109/ICCV51701.2025.00318",
+      "title": "Cooperative Pseudo Labeling for Unsupervised Federated Classification",
+      "url": "https://www.semanticscholar.org/paper/edf00a2af2aee95e521490b3ff38237e7b97a2c5"
+    },
+    {
+      "paper_id": "20847a435eb870b119547ff25de57fc2ba50f54d",
+      "arxiv_id": "2509.26399",
+      "doi": "10.48550/arXiv.2509.26399",
+      "title": "Communication-Efficient and Accurate Approach for Aggregation in Federated Low-Rank Adaptation",
+      "url": "https://www.semanticscholar.org/paper/20847a435eb870b119547ff25de57fc2ba50f54d"
+    },
+    {
+      "paper_id": "2f0abafeb0f80f143b5b24d77cba4745089a17bb",
+      "arxiv_id": "2509.19674",
+      "doi": "10.48550/arXiv.2509.19674",
+      "title": "C2Prompt: Class-aware Client Knowledge Interaction for Federated Continual Learning",
+      "url": "https://www.semanticscholar.org/paper/2f0abafeb0f80f143b5b24d77cba4745089a17bb"
+    },
+    {
+      "paper_id": "685b28bccd522cddc23ed8e7735d289751b3605c",
+      "arxiv_id": "2509.22700",
+      "doi": "10.48550/arXiv.2509.22700",
+      "title": "Global Prompt Refinement with Non-Interfering Attention Masking for One-Shot Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/685b28bccd522cddc23ed8e7735d289751b3605c"
+    },
+    {
+      "paper_id": "ceadaf35d44081b8b574a96765656e8bda21a01e",
+      "arxiv_id": "2508.19621",
+      "doi": "10.1145/3746252.3761097",
+      "title": "Towards Instance-wise Personalized Federated Learning via Semi-Implicit Bayesian Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/ceadaf35d44081b8b574a96765656e8bda21a01e"
+    },
+    {
+      "paper_id": "c4e1cfc8b46c115890800ae2856a623405ceaf03",
+      "arxiv_id": "2508.12399",
+      "doi": "10.48550/arXiv.2508.12399",
+      "title": "Federated Cross-Modal Style-Aware Prompt Generation",
+      "url": "https://www.semanticscholar.org/paper/c4e1cfc8b46c115890800ae2856a623405ceaf03"
+    },
+    {
+      "paper_id": "925a966bd3afbd78336ce97f4de32d22e97926d4",
+      "arxiv_id": "2507.22488",
+      "doi": "10.48550/arXiv.2507.22488",
+      "title": "Proto-EVFL: Enhanced Vertical Federated Learning via Dual Prototype with Extremely Unaligned Data",
+      "url": "https://www.semanticscholar.org/paper/925a966bd3afbd78336ce97f4de32d22e97926d4"
+    },
+    {
+      "paper_id": "feefecfc10b9d982ba53b9c57359d2925f9c1ab2",
+      "arxiv_id": "",
+      "doi": "10.1109/TNNLS.2025.3586600",
+      "title": "Decoupling Neural Networks to Leverage Uniform Representation and Balance Personalization and Collaboration in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/feefecfc10b9d982ba53b9c57359d2925f9c1ab2"
+    },
+    {
+      "paper_id": "5ceb8cbe8bdb6a2fe017bdf0ab52963eccff12e2",
+      "arxiv_id": "2508.00873",
+      "doi": "10.1109/TMI.2025.3622522",
+      "title": "FairFedMed: Benchmarking Group Fairness in Federated Medical Imaging with FairLoRA",
+      "url": "https://www.semanticscholar.org/paper/5ceb8cbe8bdb6a2fe017bdf0ab52963eccff12e2"
+    },
+    {
+      "paper_id": "d4d91599b52d535fc8bb0b715598528aab0ddac7",
+      "arxiv_id": "2507.06733",
+      "doi": "10.48550/arXiv.2507.06733",
+      "title": "MADPOT: Medical Anomaly Detection with CLIP Adaptation and Partial Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/d4d91599b52d535fc8bb0b715598528aab0ddac7"
+    },
+    {
+      "paper_id": "c57556bf1b7df4e2c9954273d49357aaddc5ebf3",
+      "arxiv_id": "2507.05394",
+      "doi": "10.48550/arXiv.2507.05394",
+      "title": "pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/c57556bf1b7df4e2c9954273d49357aaddc5ebf3"
+    },
+    {
+      "paper_id": "886238b1cfa5f9d5ec1d122d4ebe95bb9fabd9f7",
+      "arxiv_id": "",
+      "doi": "10.1109/IJCNN64981.2025.11227627",
+      "title": "FedPTR: Enhancing Federated Prompt Learning with Server-Side Retraining for Non-IID Data",
+      "url": "https://www.semanticscholar.org/paper/886238b1cfa5f9d5ec1d122d4ebe95bb9fabd9f7"
+    },
+    {
+      "paper_id": "d622ddee0cfa614ac84d85b709ab8bd401d8a687",
+      "arxiv_id": "2506.21144",
+      "doi": "10.48550/arXiv.2506.21144",
+      "title": "Personalized Federated Learning via Dual-Prompt Optimization and Cross Fusion",
+      "url": "https://www.semanticscholar.org/paper/d622ddee0cfa614ac84d85b709ab8bd401d8a687"
+    },
+    {
+      "paper_id": "01796c8d6c13522fbd15388b91f2a478f18fd05e",
+      "arxiv_id": "2506.17562",
+      "doi": "10.1109/TMI.2025.3591185",
+      "title": "LLM-Driven Medical Report Generation via Communication-Efficient Heterogeneous Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/01796c8d6c13522fbd15388b91f2a478f18fd05e"
+    },
+    {
+      "paper_id": "9486a522f2ad42a22ba03618507c521ee2de6bbc",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.01441",
+      "title": "FedSPA : Generalizable Federated Graph Learning under Homophily Heterogeneity",
+      "url": "https://www.semanticscholar.org/paper/9486a522f2ad42a22ba03618507c521ee2de6bbc"
+    },
+    {
+      "paper_id": "429496feb5136bcf0a962627db00e1ab1788e382",
+      "arxiv_id": "2505.22447",
+      "doi": "10.48550/arXiv.2505.22447",
+      "title": "Privacy-preserving Prompt Personalization in Federated Learning for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/429496feb5136bcf0a962627db00e1ab1788e382"
+    },
+    {
+      "paper_id": "b8b089ccf8633a373126d0e7fb69990f5a644062",
+      "arxiv_id": "2505.06907",
+      "doi": "",
+      "title": "A Survey on Foundation Models for Personalized Federated Intelligence",
+      "url": "https://www.semanticscholar.org/paper/b8b089ccf8633a373126d0e7fb69990f5a644062"
+    },
+    {
+      "paper_id": "569ecd9c291f1ed955693ed8cc5852dc14fa4b43",
+      "arxiv_id": "2504.21063",
+      "doi": "10.1109/TIP.2026.3652431",
+      "title": "Token-Level Prompt Mixture With Parameter-Free Routing for Federated Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/569ecd9c291f1ed955693ed8cc5852dc14fa4b43"
+    },
+    {
+      "paper_id": "4f61cefb191b083c52aa02062dc4615ce78abe57",
+      "arxiv_id": "2504.20860",
+      "doi": "10.1109/ICCV51701.2025.01660",
+      "title": "FedMVP: Federated Multimodal Visual Prompt Tuning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/4f61cefb191b083c52aa02062dc4615ce78abe57"
+    },
+    {
+      "paper_id": "9c381e4cd9234546c5c95fdd9fe328ff78d42d42",
+      "arxiv_id": "2504.21099",
+      "doi": "10.48550/arXiv.2504.21099",
+      "title": "A Survey on Parameter-Efficient Fine-Tuning for Foundation Models in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/9c381e4cd9234546c5c95fdd9fe328ff78d42d42"
+    },
+    {
+      "paper_id": "095ac041b2bcaa99bde50abd58bb4923bfca9ef6",
+      "arxiv_id": "2503.22263",
+      "doi": "10.48550/arXiv.2503.22263",
+      "title": "FLIP: Towards Comprehensive and Reliable Evaluation of Federated Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/095ac041b2bcaa99bde50abd58bb4923bfca9ef6"
+    },
+    {
+      "paper_id": "de590331628cc713ec933b5b716973c565249137",
+      "arxiv_id": "2503.13543",
+      "doi": "10.48550/arXiv.2503.13543",
+      "title": "Enhancing Visual Representation with Textual Semantics: Textual Semantics-Powered Prototypes for Heterogeneous Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/de590331628cc713ec933b5b716973c565249137"
+    },
+    {
+      "paper_id": "27a7a4337f8c6b025887dbcbd63ab55157c419e9",
+      "arxiv_id": "2503.06993",
+      "doi": "10.48550/arXiv.2503.06993",
+      "title": "CAPT: Class-Aware Prompt Tuning for Federated Long-Tailed Learning with Vision-Language Model",
+      "url": "https://www.semanticscholar.org/paper/27a7a4337f8c6b025887dbcbd63ab55157c419e9"
+    },
+    {
+      "paper_id": "8f7667fe76c4214544481d43e8845159b9804328",
+      "arxiv_id": "2501.13904",
+      "doi": "10.48550/arXiv.2501.13904",
+      "title": "Privacy-Preserving Personalized Federated Prompt Learning for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/8f7667fe76c4214544481d43e8845159b9804328"
+    },
+    {
+      "paper_id": "77d0653f8bd52eac91bf2f0e3e956826b320958c",
+      "arxiv_id": "2501.02461",
+      "doi": "10.1109/MGRS.2025.3556532",
+      "title": "FedRSCLIP: Federated learning for remote sensing scene classification using vision-language models",
+      "url": "https://www.semanticscholar.org/paper/77d0653f8bd52eac91bf2f0e3e956826b320958c"
+    },
+    {
+      "paper_id": "136bafd5c49715f8c4644e664805103132eb8503",
+      "arxiv_id": "2412.01256",
+      "doi": "10.1109/CVPR52734.2025.01859",
+      "title": "NLPrompt: Noise-Label Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/136bafd5c49715f8c4644e664805103132eb8503"
+    },
+    {
+      "paper_id": "9cd8f5e99b4bd4951f375d1c7017d5d8b0bf00d5",
+      "arxiv_id": "2411.15837",
+      "doi": "10.48550/arXiv.2411.15837",
+      "title": "Modality Alignment Meets Federated Broadcasting",
+      "url": "https://www.semanticscholar.org/paper/9cd8f5e99b4bd4951f375d1c7017d5d8b0bf00d5"
+    },
+    {
+      "paper_id": "d07367ae94c444217f207f3539cad9b6b46e3dd2",
+      "arxiv_id": "2411.07841",
+      "doi": "10.48550/arXiv.2411.07841",
+      "title": "Federated Learning for Discrete Optimal Transport with Large Population under Incomplete Information",
+      "url": "https://www.semanticscholar.org/paper/d07367ae94c444217f207f3539cad9b6b46e3dd2"
+    },
+    {
+      "paper_id": "66e3412da1a90d930c915881d7b6ca9e1376ab82",
+      "arxiv_id": "2410.10114",
+      "doi": "10.48550/arXiv.2410.10114",
+      "title": "Mixture of Experts Made Personalized: Federated Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/66e3412da1a90d930c915881d7b6ca9e1376ab82"
+    },
+    {
+      "paper_id": "af9726192289da659a7e4fc1a0d8b103771367b0",
+      "arxiv_id": "2410.01463",
+      "doi": "10.48550/arXiv.2410.01463",
+      "title": "Selective Aggregation for Low-Rank Adaptation in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/af9726192289da659a7e4fc1a0d8b103771367b0"
+    },
+    {
+      "paper_id": "3eaca451a218ebc22f32a8764c5a0e0da72a1eb0",
+      "arxiv_id": "2409.19610",
+      "doi": "10.48550/arXiv.2409.19610",
+      "title": "Federated Learning from Vision-Language Foundation Models: Theoretical Analysis and Method",
+      "url": "https://www.semanticscholar.org/paper/3eaca451a218ebc22f32a8764c5a0e0da72a1eb0"
+    },
+    {
+      "paper_id": "5343c19c4e0666559a3f3ce2d22e5dc9c883ee08",
+      "arxiv_id": "2505.23024",
+      "doi": "10.48550/arXiv.2505.23024",
+      "title": "An Empirical Study of Federated Prompt Learning for Vision Language Model",
+      "url": "https://www.semanticscholar.org/paper/5343c19c4e0666559a3f3ce2d22e5dc9c883ee08"
+    },
+    {
+      "paper_id": "1136c3d3442717a0f2cfcea2b2fde87fece10d99",
+      "arxiv_id": "2407.16139",
+      "doi": "10.48550/arXiv.2407.16139",
+      "title": "Tackling Feature-Classifier Mismatch in Federated Learning via Prompt-Driven Feature Transformation",
+      "url": "https://www.semanticscholar.org/paper/1136c3d3442717a0f2cfcea2b2fde87fece10d99"
+    },
+    {
+      "paper_id": "398e4c7e4a8f09b19740cd5375df7953f10a71c5",
+      "arxiv_id": "2405.09771",
+      "doi": "10.48550/arXiv.2405.09771",
+      "title": "Harmonizing Generalization and Personalization in Federated Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/398e4c7e4a8f09b19740cd5375df7953f10a71c5"
+    },
+    {
+      "paper_id": "a30430cf5eecc0e9e5f1442d3711509655b09cf0",
+      "arxiv_id": "",
+      "doi": "10.1109/TIFS.2026.3655520",
+      "title": "Federated Domain Generalization via Prompt Learning and Aggregation",
+      "url": "https://www.semanticscholar.org/paper/a30430cf5eecc0e9e5f1442d3711509655b09cf0"
+    },
+    {
+      "paper_id": "eb1681082bde32b5729956b9a5eaf64616abc199",
+      "arxiv_id": "",
+      "doi": "10.1109/TASE.2026.3673201",
+      "title": "FedCOT: Personalized Federated Transfer Learning With Conditional Optimal Transport for Manufacturing Predictive Modeling",
+      "url": "https://www.semanticscholar.org/paper/eb1681082bde32b5729956b9a5eaf64616abc199"
+    },
+    {
+      "paper_id": "02bc1ba84dac6194b5169b25aedb2814cf4d9e2a",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3687442",
+      "title": "Scale-Aware Prompting With Optimal Transport for Remote Sensing Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/02bc1ba84dac6194b5169b25aedb2814cf4d9e2a"
+    },
+    {
+      "paper_id": "91d59e76a816ba72ed0927b7240b8aaf14edf42f",
+      "arxiv_id": "",
+      "doi": "10.1109/TIM.2025.3551016",
+      "title": "FVRFL: Federated Learning for Finger Vein Recognition Under Distributed Scenario",
+      "url": "https://www.semanticscholar.org/paper/91d59e76a816ba72ed0927b7240b8aaf14edf42f"
+    },
+    {
+      "paper_id": "eb5a068482bc95bd19cf5272c3db8685a5d9383f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning to Prompt Your Domain for Federated Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/eb5a068482bc95bd19cf5272c3db8685a5d9383f"
+    }
+  ]
+}

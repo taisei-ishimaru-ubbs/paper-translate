@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 4,
+    "caption": "Figure 1. Illustration of the different types of errors performed by the OWLv2 model [15] on the DIOR dataset in 0-shot from the TIDE framework . Here the localization errors (in yellow) only have a minor impact on the detection performances. The statistics imply that correcting only localization er",
+    "score": 98.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2. Distribution of Embedding Similarities using OWLv2 [15] on the DIOR dataset [8]. The region-region (prototype-prototype) similarities (black and orange curves) dif- fer substantially from region-text similarities (green and magenta curves), highlighting the modality gap.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3. Illustration our training-free few-shot object detection approach ViPMoG using visual prototypes and modality gap com- pensation.",
+    "score": 0.0
+  }
+]
