@@ -21,7 +21,7 @@ tags: [paper]
 
 **分野**: cs.LG ・ **公開**: 2025-09-20
 
-[原文PDF](papers/arxiv.org/cs.LG/2509.16664/paper.pdf)
+[原文PDF](papers/arxiv.org/cs.LG/2509.16664/paper.pdf) · [[boldsymbolλ_orthogonality_regularization_for_compatible_representation_learning_ja|日本語MD]]
 
 ## 参考文献 (references)
 
