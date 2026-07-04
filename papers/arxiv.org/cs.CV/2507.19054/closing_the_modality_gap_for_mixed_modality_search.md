@@ -22,7 +22,7 @@ tags: [paper]
 
 **分野**: cs.CV ・ **公開**: 2025-07-25
 
-[原文PDF](papers/arxiv.org/cs.CV/2507.19054/paper.pdf)
+[原文PDF](papers/arxiv.org/cs.CV/2507.19054/paper.pdf) · [[closing_the_modality_gap_for_mixed_modality_search_ja|日本語MD]]
 
 ## 参考文献 (references)
 
