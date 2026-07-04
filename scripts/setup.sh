@@ -21,13 +21,25 @@ fi
 git -C "$ROOT" lfs install --local
 echo "Git LFS: configured for this repository"
 
-# PyMuPDF (figure cropping) lives in a project venv to avoid PEP 668 issues.
-if [[ ! -x "$ROOT/.venv/bin/python" ]] || ! "$ROOT/.venv/bin/python" -c "import fitz" 2>/dev/null; then
-  echo "installing PyMuPDF into $ROOT/.venv ..."
+# PyMuPDF (figure cropping), Docling (HTML/PDF -> Markdown), LiteLLM
+# (openai -> gemini translation fallback) and BeautifulSoup4 (HTML
+# pre-processing) live in a project venv to avoid PEP 668 issues.
+# NOTE: docling pulls in torch and is a multi-GB install; it can take a
+# while the first time.
+if [[ ! -x "$ROOT/.venv/bin/python" ]]; then
   uv venv "$ROOT/.venv"
-  uv pip install --python "$ROOT/.venv/bin/python" pymupdf
+fi
+if ! "$ROOT/.venv/bin/python" -c "import fitz, docling, litellm, tenacity, bs4" 2>/dev/null; then
+  echo "installing pymupdf/docling/litellm/tenacity/beautifulsoup4 into $ROOT/.venv (this can take a while) ..."
+  uv pip install --python "$ROOT/.venv/bin/python" pymupdf docling litellm tenacity beautifulsoup4
 fi
 echo "PyMuPDF: $("$ROOT/.venv/bin/python" -c 'import fitz; print(fitz.pymupdf_version)')"
+echo "Docling: $("$ROOT/.venv/bin/python" -c 'import docling; print(docling.__version__)' 2>/dev/null || echo installed)"
+
+if [[ "${PREFETCH_DOCLING_MODELS:-0}" == "1" ]]; then
+  echo "prefetching Docling PDF pipeline models ..."
+  "$ROOT/.venv/bin/docling-tools" models download
+fi
 
 arq config set root "$PAPERS_DIR"
 arq config set translate.enabled false

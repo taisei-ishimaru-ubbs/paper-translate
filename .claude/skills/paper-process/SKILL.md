@@ -39,8 +39,14 @@ arq path <query>   # IDまたはタイトル部分一致で実体パスを返す
 ```bash
 PAPER_DIR=$(arq path <query>)
 
-# 1. 翻訳 (paper.pdf → paper_ja.pdf)
-pdf2zh "$PAPER_DIR/paper.pdf" --output "$PAPER_DIR"
+# translate-paper.sh は .env.local を自分で読まないので、デーモン外から手動実行する
+# 場合は先に OPENAI_API_KEY/GEMINI_API_KEY を export しておく:
+set -a; source ~/projects/ubbs/paper-translate/.env.local; set +a
+
+# 1. 翻訳 (paper.pdf/ar5iv HTML → <snake_title>_ja.md)。paper_ja.pdf（旧pdf2zh）や
+#    <snake_title>_ja.md が既にあればスキップされる（バックフィルしない）。
+~/projects/ubbs/paper-translate/scripts/translate-paper.sh "$PAPER_DIR"
+~/projects/ubbs/paper-translate/scripts/translate-paper.sh "$PAPER_DIR" --force  # 再翻訳・失敗マーカー解除
 
 # 2. 日本語要約 (→ summary.md)
 ~/projects/ubbs/paper-translate/scripts/summarize-paper.sh "$PAPER_DIR"
@@ -63,7 +69,7 @@ pdf2zh "$PAPER_DIR/paper.pdf" --output "$PAPER_DIR"
 
 ```bash
 ls $(arq path <id>)
-# paper.pdf, paper_ja.pdf, summary.md, references.json, overview.png, figures/ があれば完了
+# paper.pdf, <snake_title>_ja.md (または旧paper_ja.pdf), summary.md, references.json, overview.png, figures/ があれば完了
 ```
 
 ## 概要図の手動指定

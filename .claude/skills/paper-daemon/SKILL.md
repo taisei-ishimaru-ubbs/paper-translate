@@ -46,15 +46,19 @@ tail -f ~/projects/ubbs/paper-translate/.logs/launchd.stderr.log
 デーモンが正常動作するには以下が必要：
 
 ```bash
-ollama signin          # minimax-m3:cloud の認証（期限切れ時）
+ollama signin          # minimax-m3:cloud の認証（期限切れ時、要約用）
 ollama ps              # Ollamaが起動しているか確認
 which watchexec        # watchexec がインストールされているか確認
-which pdf2zh           # pdf2zh がインストールされているか確認
+~/projects/ubbs/paper-translate/.venv/bin/python -c "import docling, litellm, bs4"  # 翻訳依存が入っているか確認
+echo "$OPENAI_API_KEY $GEMINI_API_KEY"  # 翻訳には少なくとも一方が必要（.env.local）
 ```
 
 ## トラブルシューティング
 
 - **デーモンが起動しない**: `launchd.stderr.log` でエラーを確認
-- **翻訳が止まる**: `ollama signin` の期限切れを疑う。再サインインして再起動
+- **要約が止まる**: `ollama signin` の期限切れを疑う。再サインインして再起動
+- **翻訳が止まる**: OpenAI/Gemini のレート制限・クォータ切れを疑う。`.translate/translate.log` を確認。
+  チャンクはキャッシュされるため次回実行時に失敗分だけ再試行される。3回連続失敗すると `<paper_dir>/.translate/failed` が
+  作られスキップされる（削除するか `translate-paper.sh <dir> --force` で再試行）
 - **コミットが止まる**: remote との分岐を確認（`git status`, `git fetch origin`）
 - **ログが増えない**: `watchexec` が `~/papers/` を監視しているか `$INSTALL status` で確認

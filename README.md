@@ -1,6 +1,7 @@
 # paper-translate
 
-arXiv または手動取得した論文を、pdf2zh + Ollama で日本語 PDF 化・要約・引用取得・図抽出・Obsidian ノート生成まで自動化する基盤。[`uchidalab/paper-translate`](https://github.com/uchidalab/paper-translate) を root repository とし、各利用者はその fork を使用する。
+arXiv または手動取得した論文を、ar5iv/arXiv HTML（無ければPDF）→ Docling → LiteLLM 翻訳で日本語 Markdown 化し、
+Ollama で要約・引用取得・図抽出・Obsidian ノート生成まで自動化する基盤。[`uchidalab/paper-translate`](https://github.com/uchidalab/paper-translate) を root repository とし、各利用者はその fork を使用する。
 
 ## セットアップ
 
@@ -27,6 +28,7 @@ scripts/paper-select.sh        # arXiv/手動論文をfzfで選んで閲覧
 
 ```bash
 scripts/translate-papers-daemon.sh                           # 未処理分をまとめて実行
+scripts/translate-paper.sh    papers/arxiv.org/cs.CL/1706.03762  # 翻訳のみ（fetch→convert→translate→render）
 scripts/summarize-paper.sh    papers/arxiv.org/cs.CL/1706.03762
 scripts/fetch-references.sh   papers/arxiv.org/cs.CL/1706.03762
 scripts/extract-figures.sh    papers/arxiv.org/cs.CL/1706.03762
@@ -38,10 +40,12 @@ scripts/generate-obsidian-note.sh papers/arxiv.org/cs.CL/1706.03762
 ```
 papers/
 ├── arxiv.org/<category>/<id>/   # arq の実体（パス変更不可）
-│   ├── paper.pdf / paper_ja.pdf # 原文・日本語訳
+│   ├── paper.pdf                # 原文PDF
+│   ├── <snake_case_title>_ja.md # 翻訳全文Markdown（paper_ja.pdfがある論文はレガシーのままバックフィルしない）
+│   ├── assets/                  # 翻訳MD用の図版
 │   ├── summary.md               # 日本語要約
 │   ├── references.json          # 引用・被引用（Semantic Scholar）
-│   ├── figures/                 # 図クロップ
+│   ├── figures/                 # 図クロップ（要約カード用）
 │   ├── overview.png             # 概要図（arq thumbnail にも登録）
 │   └── <snake_case_title>.md    # Obsidian ノート
 ├── manual/<title>_<hash>/       # 手動取得論文
@@ -68,7 +72,12 @@ gallery.md                       # Dataview ギャラリー
 | 変数 | デフォルト | 説明 |
 |---|---|---|
 | `OLLAMA_HOST` | `http://localhost:11434` | Ollama エンドポイント |
-| `OLLAMA_MODEL` | `minimax-m3:cloud` | 翻訳・要約モデル |
+| `OLLAMA_MODEL` | `minimax-m3:cloud` | 要約モデル |
+| `OPENAI_API_KEY` / `GEMINI_API_KEY` | 未設定 | 翻訳用。少なくとも一方が必須 |
+| `TRANSLATE_MODEL` | `openai/gpt-5.1-mini` | 翻訳の第一候補モデル（LiteLLM形式） |
+| `TRANSLATE_FALLBACK_MODEL` | `gemini/gemini-3.1-flash-lite` | 第一候補が失敗した場合のフォールバック |
+| `TRANSLATE_SLEEP` | `5` | 翻訳チャンク間の待機秒数 |
+| `TRANSLATE_MAX_FAILURES` | `3` | 同一ステージがこの回数連続失敗すると`.translate/failed`を書いてスキップ |
 | `PAPER_METADATA_MAX_CHARS` | `20000` | 手動PDFのメタデータ推定に渡す最大文字数 |
 | `S2_API_KEY` | 未設定 | Semantic Scholar API key（任意） |
 | `PAPER_LIBRARY_AUTO_PUSH` | `1` | `0` で自動 commit/push を無効化 |
@@ -80,7 +89,7 @@ gallery.md                       # Dataview ギャラリー
 ## 要件
 
 ```
-arq, pdf2zh (uv tool), watchexec, ollama, fzf, poppler, uv, git-lfs, jq  # brew / uv
-python3, sips  # macOS 標準
+arq, watchexec, ollama, fzf, poppler, uv, git-lfs, jq  # brew / uv
+python3 (.venv: docling, litellm, beautifulsoup4, pymupdf), sips  # macOS 標準 + .venv
 Obsidian + Dataview プラグイン
 ```

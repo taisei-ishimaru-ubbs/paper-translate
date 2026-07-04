@@ -17,6 +17,12 @@
   - frontmatter（id/title/authors/category/published/thumbnail/tags）
   - 概要図サムネイルと `summary.md` の埋め込み
   - `## 参考文献` / `## 被引用`：ローカル保有論文へは `[[<snake>|<title>]]` wikilink、未保有は arXiv・DOI・Semantic Scholar リンク
+  - 翻訳全文Markdownがあれば `[[<snake>_ja|日本語MD]]` リンク
+- `papers/arxiv.org/<cat>/<id>/<snake(title)>_ja.md` — 翻訳全文Markdown（`scripts/translate-paper.sh` が生成、`tags: [paper-translation]` で
+  `gallery.md` の `#paper` フィルタから除外される）。本文中の引用番号 `[N]` はクリックすると:
+  - その論文をローカル保有していれば当該論文のノート `[[<snake>|N]]` へ
+  - 保有していなければ同一ファイル内の参考文献エントリ `[[#^ref-N|N]]`（ブロック参照）へ
+  ジャンプする。冒頭に元論文ノートへの戻りリンク `[[<snake>|← 論文ノート]]` を持つ。
 - `gallery.md`（ルート直下） — `#paper` タグのノートをカード表示する Dataview JS ギャラリー（検索付き）。
 - グラフビューで引用 wikilink による論文間の繋がりを俯瞰できる。
 
