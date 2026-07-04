@@ -1,0 +1,551 @@
+{
+  "id": "2509.16664",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "7a8654ec463e0600b6ea04bf77ae8d74471bd199",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2509-16664",
+      "ArXiv": "2509.16664",
+      "DOI": "10.48550/arXiv.2509.16664",
+      "CorpusId": 281420966
+    },
+    "url": "https://www.semanticscholar.org/paper/7a8654ec463e0600b6ea04bf77ae8d74471bd199",
+    "title": "λ-Orthogonality Regularization for Compatible Representation Learning"
+  },
+  "references": [
+    {
+      "paper_id": "39450f014fb73e75bb0299f6c8ce138bf0bb075a",
+      "arxiv_id": "2502.04263",
+      "doi": "10.48550/arXiv.2502.04263",
+      "title": "Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion",
+      "url": "https://www.semanticscholar.org/paper/39450f014fb73e75bb0299f6c8ce138bf0bb075a"
+    },
+    {
+      "paper_id": "c52ada2b0283e6dfed02441c1ca64abc3196742e",
+      "arxiv_id": "2408.08793",
+      "doi": "10.48550/arXiv.2408.08793",
+      "title": "Backward-Compatible Aligned Representations via an Orthogonal Transformation Layer",
+      "url": "https://www.semanticscholar.org/paper/c52ada2b0283e6dfed02441c1ca64abc3196742e"
+    },
+    {
+      "paper_id": "98dfa7417e7a51803ea4b5f3062f7be4ddbce69b",
+      "arxiv_id": "2408.07057",
+      "doi": "10.48550/arXiv.2408.07057",
+      "title": "A Survey on Model MoErging: Recycling and Routing Among Specialized Experts for Collaborative Learning",
+      "url": "https://www.semanticscholar.org/paper/98dfa7417e7a51803ea4b5f3062f7be4ddbce69b"
+    },
+    {
+      "paper_id": "3d8701dbf0414de8085e5f02a8d8f2026efd400a",
+      "arxiv_id": "2407.09435",
+      "doi": "10.48550/arXiv.2407.09435",
+      "title": "MUSCLE: A Model Update Strategy for Compatible LLM Evolution",
+      "url": "https://www.semanticscholar.org/paper/3d8701dbf0414de8085e5f02a8d8f2026efd400a"
+    },
+    {
+      "paper_id": "c7a41a5ab884c86dba743f89339e01b1cef080b6",
+      "arxiv_id": "2406.15057",
+      "doi": "10.48550/arXiv.2406.15057",
+      "title": "Latent Space Translation via Inverse Relative Projection",
+      "url": "https://www.semanticscholar.org/paper/c7a41a5ab884c86dba743f89339e01b1cef080b6"
+    },
+    {
+      "paper_id": "66de49b3dcbbf0cca535335d597f94b702e2b95a",
+      "arxiv_id": "2405.07987",
+      "doi": "10.48550/arXiv.2405.07987",
+      "title": "The Platonic Representation Hypothesis",
+      "url": "https://www.semanticscholar.org/paper/66de49b3dcbbf0cca535335d597f94b702e2b95a"
+    },
+    {
+      "paper_id": "cca51bfa22711955918a3382936d8f275dd6fa11",
+      "arxiv_id": "2405.02581",
+      "doi": "10.1109/CVPR52733.2024.02720",
+      "title": "Stationary Representations: Optimally Approximating Compatibility and Implications for Improved Model Replacements",
+      "url": "https://www.semanticscholar.org/paper/cca51bfa22711955918a3382936d8f275dd6fa11"
+    },
+    {
+      "paper_id": "dc7d6d42a21fb14795ccd92e290a422ea8e33688",
+      "arxiv_id": "2311.00664",
+      "doi": "10.48550/arXiv.2311.00664",
+      "title": "Latent Space Translation via Semantic Alignment",
+      "url": "https://www.semanticscholar.org/paper/dc7d6d42a21fb14795ccd92e290a422ea8e33688"
+    },
+    {
+      "paper_id": "986839c6da75e8f9ed1c767400657e5de7b527a4",
+      "arxiv_id": "2306.00984",
+      "doi": "10.48550/arXiv.2306.00984",
+      "title": "StableRep: Synthetic Images from Text-to-Image Models Make Strong Visual Representation Learners",
+      "url": "https://www.semanticscholar.org/paper/986839c6da75e8f9ed1c767400657e5de7b527a4"
+    },
+    {
+      "paper_id": "e12d35f0807afdad5f1808df63b0f5a4f47ae39c",
+      "arxiv_id": "2305.02610",
+      "doi": "10.1109/CVPR52729.2023.01459",
+      "title": "Boundary-aware Backward-Compatible Representation via Adversarial Learning in Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/e12d35f0807afdad5f1808df63b0f5a4f47ae39c"
+    },
+    {
+      "paper_id": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "arxiv_id": "2304.07193",
+      "doi": "10.48550/arXiv.2304.07193",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "url": "https://www.semanticscholar.org/paper/5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+    },
+    {
+      "paper_id": "fba832a019d43ad27c049310327bd11fc247d6f5",
+      "arxiv_id": "2304.01663",
+      "doi": "10.1109/CVPR52729.2023.01934",
+      "title": "On the Stability-Plasticity Dilemma of Class-Incremental Learning",
+      "url": "https://www.semanticscholar.org/paper/fba832a019d43ad27c049310327bd11fc247d6f5"
+    },
+    {
+      "paper_id": "a58d3f890a602e820a7bed761f0706f128751a12",
+      "arxiv_id": "2303.06674",
+      "doi": "10.1109/CVPR52729.2023.01471",
+      "title": "Universal Instance Perception as Object Discovery and Retrieval",
+      "url": "https://www.semanticscholar.org/paper/a58d3f890a602e820a7bed761f0706f128751a12"
+    },
+    {
+      "paper_id": "628bc8e9a8408a780b61295373568f68617851ec",
+      "arxiv_id": "2303.04766",
+      "doi": "10.48550/arXiv.2303.04766",
+      "title": "FastFill: Efficient Compatible Model Update",
+      "url": "https://www.semanticscholar.org/paper/628bc8e9a8408a780b61295373568f68617851ec"
+    },
+    {
+      "paper_id": "57e849d0de13ed5f91d086936296721d4ff75a75",
+      "arxiv_id": "2302.13971",
+      "doi": "",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "url": "https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75"
+    },
+    {
+      "paper_id": "c8f8f9fa56f73b966bce87c6e9b3d218b2f2823e",
+      "arxiv_id": "",
+      "doi": "10.1145/3545111",
+      "title": "Building Machine Learning Models Like Open Source Software",
+      "url": "https://www.semanticscholar.org/paper/c8f8f9fa56f73b966bce87c6e9b3d218b2f2823e"
+    },
+    {
+      "paper_id": "82baf6499bbb892c68e7894e5d6ca0f14d56abf0",
+      "arxiv_id": "2211.03989",
+      "doi": "10.1109/ICCV51070.2023.01031",
+      "title": "BT2: Backward-compatible Training with Basis Transformation",
+      "url": "https://www.semanticscholar.org/paper/82baf6499bbb892c68e7894e5d6ca0f14d56abf0"
+    },
+    {
+      "paper_id": "61f329722cd94291898c2c8131606a55f7a07219",
+      "arxiv_id": "2210.14891",
+      "doi": "10.48550/arXiv.2210.14891",
+      "title": "Broken Neural Scaling Laws",
+      "url": "https://www.semanticscholar.org/paper/61f329722cd94291898c2c8131606a55f7a07219"
+    },
+    {
+      "paper_id": "f56d363635bc378a196bae6d886ddd2d2899a220",
+      "arxiv_id": "2209.15430",
+      "doi": "",
+      "title": "Relative representations enable zero-shot latent space communication",
+      "url": "https://www.semanticscholar.org/paper/f56d363635bc378a196bae6d886ddd2d2899a220"
+    },
+    {
+      "paper_id": "83162ca7cc90360d77be1f201403a8403d0bdae4",
+      "arxiv_id": "2211.09032",
+      "doi": "10.1145/3564786",
+      "title": "CL2R: Compatible Lifelong Learning Representations",
+      "url": "https://www.semanticscholar.org/paper/83162ca7cc90360d77be1f201403a8403d0bdae4"
+    },
+    {
+      "paper_id": "b55c9ba5d8a5d57b06ea52ec619402c7f468b50a",
+      "arxiv_id": "2204.13919",
+      "doi": "10.48550/arXiv.2204.13919",
+      "title": "Privacy-Preserving Model Upgrades with Bidirectional Compatible Training in Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/b55c9ba5d8a5d57b06ea52ec619402c7f468b50a"
+    },
+    {
+      "paper_id": "54020e5fe48ebb250f27d744e20a63cac2988a84",
+      "arxiv_id": "2203.05482",
+      "doi": "10.48550/arXiv.2203.05482",
+      "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+      "url": "https://www.semanticscholar.org/paper/54020e5fe48ebb250f27d744e20a63cac2988a84"
+    },
+    {
+      "paper_id": "6bbd49ef3fa7d52b98f5a4b55974245e11c7a973",
+      "arxiv_id": "2203.01583",
+      "doi": "10.48550/arXiv.2203.01583",
+      "title": "Towards Universal Backward-Compatible Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/6bbd49ef3fa7d52b98f5a4b55974245e11c7a973"
+    },
+    {
+      "paper_id": "ee7e39ffe170e1acac73cd7ea96d7816e3b80041",
+      "arxiv_id": "2112.02805",
+      "doi": "10.1109/CVPR52688.2022.01878",
+      "title": "Forward Compatible Training for Large-Scale Embedding Retrieval Systems",
+      "url": "https://www.semanticscholar.org/paper/ee7e39ffe170e1acac73cd7ea96d7816e3b80041"
+    },
+    {
+      "paper_id": "fe4a56d2846c04923f492e943cc7c09fa3394a7b",
+      "arxiv_id": "2111.07632",
+      "doi": "10.1109/TPAMI.2023.3259542",
+      "title": "CoReS: Compatible Representations via Stationarity",
+      "url": "https://www.semanticscholar.org/paper/fe4a56d2846c04923f492e943cc7c09fa3394a7b"
+    },
+    {
+      "paper_id": "609f3ad12a03508c9eb8798d5b67b79b1f1ed8e6",
+      "arxiv_id": "2110.07905",
+      "doi": "10.1109/CVPR52688.2022.00019",
+      "title": "Towards Better Plasticity-Stability Trade-off in Incremental Learning: A Simple Linear Connector",
+      "url": "https://www.semanticscholar.org/paper/609f3ad12a03508c9eb8798d5b67b79b1f1ed8e6"
+    },
+    {
+      "paper_id": "3a6fe9d61ae99d02a74d9d2114b90688304c01db",
+      "arxiv_id": "2108.01958",
+      "doi": "10.1109/ICCV48922.2021.00979",
+      "title": "Learning Compatible Embeddings",
+      "url": "https://www.semanticscholar.org/paper/3a6fe9d61ae99d02a74d9d2114b90688304c01db"
+    },
+    {
+      "paper_id": "c13ce090b6e83462322d8e4a50397e3e5e4b2944",
+      "arxiv_id": "2104.13643",
+      "doi": "10.1007/978-3-030-92273-3_18",
+      "title": "On the Unreasonable Effectiveness of Centroids in Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/c13ce090b6e83462322d8e4a50397e3e5e4b2944"
+    },
+    {
+      "paper_id": "6d26e575113853c0ac6eea0b87931244fde48822",
+      "arxiv_id": "2103.12236",
+      "doi": "10.1109/ICCV48922.2021.01189",
+      "title": "Instance-level Image Retrieval using Reranking Transformers",
+      "url": "https://www.semanticscholar.org/paper/6d26e575113853c0ac6eea0b87931244fde48822"
+    },
+    {
+      "paper_id": "e3d0d29fb733999c593c69cffb154088bbb0b0b6",
+      "arxiv_id": "2103.01486",
+      "doi": "10.1109/CVPR46437.2021.01392",
+      "title": "Patch-NetVLAD: Multi-Scale Fusion of Locally-Global Descriptors for Place Recognition",
+      "url": "https://www.semanticscholar.org/paper/e3d0d29fb733999c593c69cffb154088bbb0b0b6"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "394be105b87e9bfe72c20efe6338de10604e1a11",
+      "arxiv_id": "2102.08981",
+      "doi": "10.1109/CVPR46437.2021.00356",
+      "title": "Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts",
+      "url": "https://www.semanticscholar.org/paper/394be105b87e9bfe72c20efe6338de10604e1a11"
+    },
+    {
+      "paper_id": "6d6148c5d4298c8ac6c374c4997ad143e76e8a16",
+      "arxiv_id": "2011.09161",
+      "doi": "10.1109/CVPR46437.2021.01407",
+      "title": "Positive-Congruent Training: Towards Regression-Free Model Updates",
+      "url": "https://www.semanticscholar.org/paper/6d6148c5d4298c8ac6c374c4997ad143e76e8a16"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "acfe27fac13fadf230e24fabcf9bf5448b449026",
+      "arxiv_id": "2009.09590",
+      "doi": "10.1109/WACV51458.2022.00173",
+      "title": "Generalized Clustering and Multi-Manifold Learning with Geometric Structure Preservation",
+      "url": "https://www.semanticscholar.org/paper/acfe27fac13fadf230e24fabcf9bf5448b449026"
+    },
+    {
+      "paper_id": "dd4717b997a718714c301873e89c052bb468c536",
+      "arxiv_id": "2008.04821",
+      "doi": "10.5244/c.34.55",
+      "title": "Unified Representation Learning for Cross Model Compatibility",
+      "url": "https://www.semanticscholar.org/paper/dd4717b997a718714c301873e89c052bb468c536"
+    },
+    {
+      "paper_id": "77d2963441c35514fcc10465b46025cc94797a76",
+      "arxiv_id": "2006.16331",
+      "doi": "10.1109/CVPR46437.2021.00813",
+      "title": "Asymmetric metric learning for knowledge transfer",
+      "url": "https://www.semanticscholar.org/paper/77d2963441c35514fcc10465b46025cc94797a76"
+    },
+    {
+      "paper_id": "50fdddde4a86fc6f2e23fd7ccbf60e6a37fc4c6d",
+      "arxiv_id": "",
+      "doi": "10.33564/ijeast.2020.v04i12.054",
+      "title": "ACTIVATION FUNCTIONS IN NEURAL NETWORKS",
+      "url": "https://www.semanticscholar.org/paper/50fdddde4a86fc6f2e23fd7ccbf60e6a37fc4c6d"
+    },
+    {
+      "paper_id": "7c907dbfecd870208249342951e49e1417621442",
+      "arxiv_id": "2004.00713",
+      "doi": "10.1007/978-3-030-58517-4_41",
+      "title": "Memory-Efficient Incremental Learning Through Feature Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7c907dbfecd870208249342951e49e1417621442"
+    },
+    {
+      "paper_id": "356b34bc02cd92209830cfbe336d39ef78714d1d",
+      "arxiv_id": "2003.11942",
+      "doi": "10.1109/cvpr42600.2020.00640",
+      "title": "Towards Backward-Compatible Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/356b34bc02cd92209830cfbe336d39ef78714d1d"
+    },
+    {
+      "paper_id": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+      "arxiv_id": "2001.08361",
+      "doi": "",
+      "title": "Scaling Laws for Neural Language Models",
+      "url": "https://www.semanticscholar.org/paper/e6c561d02500b2596a230b341a8eb8b921ca5bf2"
+    },
+    {
+      "paper_id": "bd38762b29adb53c762ce323938a380053c078f9",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-58565-5_43",
+      "title": "Unifying Deep Local and Global Features for Image Search",
+      "url": "https://www.semanticscholar.org/paper/bd38762b29adb53c762ce323938a380053c078f9"
+    },
+    {
+      "paper_id": "ea415809bf87ef4b99966c6c50de6cb996a02a97",
+      "arxiv_id": "1912.02292",
+      "doi": "10.1088/1742-5468/ac3a74",
+      "title": "Deep double descent: where bigger models and more data hurt",
+      "url": "https://www.semanticscholar.org/paper/ea415809bf87ef4b99966c6c50de6cb996a02a97"
+    },
+    {
+      "paper_id": "cf0681ac7f708a238385c4f749ea26a8303367e0",
+      "arxiv_id": "1901.08428",
+      "doi": "",
+      "title": "Cheap Orthogonal Constraints in Neural Networks: A Simple Parametrization of the Orthogonal and Unitary Group",
+      "url": "https://www.semanticscholar.org/paper/cf0681ac7f708a238385c4f749ea26a8303367e0"
+    },
+    {
+      "paper_id": "2b1c89dbfb6024cc4c5ce40adbbae8a509b5982f",
+      "arxiv_id": "1809.09924",
+      "doi": "10.1109/WACV.2019.00073",
+      "title": "Hierarchy-Based Image Embeddings for Semantic Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/2b1c89dbfb6024cc4c5ce40adbbae8a509b5982f"
+    },
+    {
+      "paper_id": "f986968735459e789890f24b6b277b0920a9725d",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2017.2723009",
+      "title": "Places: A 10 Million Image Database for Scene Recognition",
+      "url": "https://www.semanticscholar.org/paper/f986968735459e789890f24b6b277b0920a9725d"
+    },
+    {
+      "paper_id": "ca235ce0decdb4f80024a429a20ae4437ceae09e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2019.00482",
+      "title": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+      "url": "https://www.semanticscholar.org/paper/ca235ce0decdb4f80024a429a20ae4437ceae09e"
+    },
+    {
+      "paper_id": "6cc8fe49b353c77846af7437d8f98d3d7e3b56c3",
+      "arxiv_id": "1709.06079",
+      "doi": "10.1609/aaai.v32i1.11768",
+      "title": "Orthogonal Weight Normalization: Solution to Optimization over Multiple Dependent Stiefel Manifolds in Deep Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/6cc8fe49b353c77846af7437d8f98d3d7e3b56c3"
+    },
+    {
+      "paper_id": "4f03dcc7cc3aadae16655c87c6c882407617c725",
+      "arxiv_id": "1708.02072",
+      "doi": "10.1609/aaai.v32i1.11651",
+      "title": "Measuring Catastrophic Forgetting in Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/4f03dcc7cc3aadae16655c87c6c882407617c725"
+    },
+    {
+      "paper_id": "bd8f77b7d3b9d272f7a68defc1412f73e5ac3135",
+      "arxiv_id": "1704.08063",
+      "doi": "10.1109/CVPR.2017.713",
+      "title": "SphereFace: Deep Hypersphere Embedding for Face Recognition",
+      "url": "https://www.semanticscholar.org/paper/bd8f77b7d3b9d272f7a68defc1412f73e5ac3135"
+    },
+    {
+      "paper_id": "e27247c10aa401dce043bdaa1f06b141463b04f8",
+      "arxiv_id": "",
+      "doi": "10.1016/j.matcom.2015.11.005",
+      "title": "On the approximation of the step function by some sigmoid functions",
+      "url": "https://www.semanticscholar.org/paper/e27247c10aa401dce043bdaa1f06b141463b04f8"
+    },
+    {
+      "paper_id": "b09c08162667b9453d7f577772cb19a8ba59d08c",
+      "arxiv_id": "1612.06321",
+      "doi": "10.1109/ICCV.2017.374",
+      "title": "Large-Scale Image Retrieval with Attentive Deep Local Features",
+      "url": "https://www.semanticscholar.org/paper/b09c08162667b9453d7f577772cb19a8ba59d08c"
+    },
+    {
+      "paper_id": "2e55ba6c97ce5eb55abd959909403fe8da7e9fe9",
+      "arxiv_id": "1612.00796",
+      "doi": "10.1073/pnas.1611835114",
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "url": "https://www.semanticscholar.org/paper/2e55ba6c97ce5eb55abd959909403fe8da7e9fe9"
+    },
+    {
+      "paper_id": "4e337d5ec2b593db712b4e6ec0f86018fc0a67e6",
+      "arxiv_id": "1611.05927",
+      "doi": "",
+      "title": "Generalized BackPropagation, Étude De Cas: Orthogonality",
+      "url": "https://www.semanticscholar.org/paper/4e337d5ec2b593db712b4e6ec0f86018fc0a67e6"
+    },
+    {
+      "paper_id": "9a26ef667cc5e2512e0ce30c01d9ede2a1d73d4e",
+      "arxiv_id": "1610.07008",
+      "doi": "",
+      "title": "Optimization on Submanifolds of Convolution Kernels in CNNs",
+      "url": "https://www.semanticscholar.org/paper/9a26ef667cc5e2512e0ce30c01d9ede2a1d73d4e"
+    },
+    {
+      "paper_id": "dc49884e1552d21b129eacf3b0a4c72393556158",
+      "arxiv_id": "1511.07543",
+      "doi": "",
+      "title": "Convergent Learning: Do different neural networks learn the same representations?",
+      "url": "https://www.semanticscholar.org/paper/dc49884e1552d21b129eacf3b0a4c72393556158"
+    },
+    {
+      "paper_id": "f971a22287ead6aa23ecd84a4afd8efca57cee3c",
+      "arxiv_id": "1511.07247",
+      "doi": "10.1109/CVPR.2016.572",
+      "title": "NetVLAD: CNN Architecture for Weakly Supervised Place Recognition",
+      "url": "https://www.semanticscholar.org/paper/f971a22287ead6aa23ecd84a4afd8efca57cee3c"
+    },
+    {
+      "paper_id": "5aa26299435bdf7db874ef1640a6c3b5a4a2c394",
+      "arxiv_id": "1503.03832",
+      "doi": "10.1109/CVPR.2015.7298682",
+      "title": "FaceNet: A unified embedding for face recognition and clustering",
+      "url": "https://www.semanticscholar.org/paper/5aa26299435bdf7db874ef1640a6c3b5a4a2c394"
+    },
+    {
+      "paper_id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+      "arxiv_id": "1409.0575",
+      "doi": "10.1007/s11263-015-0816-y",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "paper_id": "bb1847fbde3d4809a6998c435fad81c782a38a39",
+      "arxiv_id": "1310.0425",
+      "doi": "10.1090/JAMS/852",
+      "title": "Testing the Manifold Hypothesis",
+      "url": "https://www.semanticscholar.org/paper/bb1847fbde3d4809a6998c435fad81c782a38a39"
+    },
+    {
+      "paper_id": "3039ceebdf1b2f4831482a64ee1646b1414e790b",
+      "arxiv_id": "",
+      "doi": "10.3389/fpsyg.2013.00504",
+      "title": "The stability-plasticity dilemma: investigating the continuum from catastrophic forgetting to age-limited learning effects",
+      "url": "https://www.semanticscholar.org/paper/3039ceebdf1b2f4831482a64ee1646b1414e790b"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "a6c3392d12b00a4fac8b82dd9a1ff7bad8f29b74",
+      "arxiv_id": "",
+      "doi": "10.1145/1390156.1390297",
+      "title": "Manifold alignment using Procrustes analysis",
+      "url": "https://www.semanticscholar.org/paper/a6c3392d12b00a4fac8b82dd9a1ff7bad8f29b74"
+    },
+    {
+      "paper_id": "141b00669e19a89ec0b72124bbaeff503276abac",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "C-CLIP: Multimodal Continual Learning for Vision-Language Model",
+      "url": "https://www.semanticscholar.org/paper/141b00669e19a89ec0b72124bbaeff503276abac"
+    },
+    {
+      "paper_id": "e03629b93f92e2e80e7d9020ca60ab93db378d3a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Hot-Refresh Model Upgrades with Regression-Free Compatible Training in Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/e03629b93f92e2e80e7d9020ca60ab93db378d3a"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Scaling laws for the out-of-distribution generalization of image classifiers",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Can we gain more from orthogonality regularizations in training deep networks?",
+      "url": ""
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "267d384a9a5b348cd6073e49f8b5bc288a21712f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Handbook of Mathematical Functions with Formulas, Graphs,",
+      "url": "https://www.semanticscholar.org/paper/267d384a9a5b348cd6073e49f8b5bc288a21712f"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Latent functional maps: a spectral framework for representation alignment",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "49d2f811dbd554b142d17258a4ce6ed39601bf19",
+      "arxiv_id": "2606.12488",
+      "doi": "10.1109/tpami.2026.3692279",
+      "title": "A Stationary (And Therefore Compatible) Representation is All You Need.",
+      "url": "https://www.semanticscholar.org/paper/49d2f811dbd554b142d17258a4ce6ed39601bf19"
+    },
+    {
+      "paper_id": "f188f19635bc30585f7c7573a0a0c5f0cd277f95",
+      "arxiv_id": "2605.05674",
+      "doi": "",
+      "title": "EGA: Adapting Frozen Encoders for Vector Search with Bounded Out-of-Distribution Degradation",
+      "url": "https://www.semanticscholar.org/paper/f188f19635bc30585f7c7573a0a0c5f0cd277f95"
+    },
+    {
+      "paper_id": "79e3c0083feffee33886da1738944e2817d46f8e",
+      "arxiv_id": "2603.08942",
+      "doi": "10.48550/arXiv.2603.08942",
+      "title": "BiCLIP: Domain Canonicalization via Structured Geometric Transformation",
+      "url": "https://www.semanticscholar.org/paper/79e3c0083feffee33886da1738944e2817d46f8e"
+    },
+    {
+      "paper_id": "0d4dbae4b8ae310ba48c08b60f7211c3a158b74f",
+      "arxiv_id": "2601.07632",
+      "doi": "10.48550/arXiv.2601.07632",
+      "title": "GeoMotionGPT: Geometry-Aligned Motion Understanding with Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/0d4dbae4b8ae310ba48c08b60f7211c3a158b74f"
+    },
+    {
+      "paper_id": "2779c1308b2b9ac95f8b3306ca196e3e7bcf300f",
+      "arxiv_id": "2511.08322",
+      "doi": "10.48550/arXiv.2511.08322",
+      "title": "Mitigating Negative Flips via Margin Preserving Training",
+      "url": "https://www.semanticscholar.org/paper/2779c1308b2b9ac95f8b3306ca196e3e7bcf300f"
+    },
+    {
+      "paper_id": "4b3e907bc05957677777c4761fb1ea80b5a5145d",
+      "arxiv_id": "2511.06425",
+      "doi": "10.48550/arXiv.2511.06425",
+      "title": "Non-Negative Stiefel Approximating Flow: Orthogonalish Matrix Optimization for Interpretable Embeddings",
+      "url": "https://www.semanticscholar.org/paper/4b3e907bc05957677777c4761fb1ea80b5a5145d"
+    }
+  ]
+}

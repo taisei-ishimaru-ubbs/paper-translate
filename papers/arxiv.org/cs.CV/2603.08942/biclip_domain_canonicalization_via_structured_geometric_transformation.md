@@ -22,7 +22,7 @@ tags: [paper]
 
 ## 参考文献 (references)
 
-- [λ-Orthogonality Regularization for Compatible Representation Learning](https://arxiv.org/abs/2509.16664)
+- [[boldsymbol_orthogonality_regularization_for_compatible_representation_learning|λ-Orthogonality Regularization for Compatible Representation Learning]]
 - [Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion](https://arxiv.org/abs/2502.04263)
 - [Parameter-Efficient Fine-Tuning Methods for Pretrained Language Models: A Critical Review and Assessment](https://arxiv.org/abs/2312.12148)
 - [[domain_aligned_clip_for_few_shot_classification|Domain Aligned CLIP for Few-shot Classification]]

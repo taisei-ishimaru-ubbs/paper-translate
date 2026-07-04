@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Overview of the proposed approach for achieving representation compatibility during retrieval system updates. A newly independently trained model is aligned to the old representation space via an orthogonal transformation B⊥, which preserves geometric structure. A forward transfor- mation ",
+    "score": 119.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: Impact of λ-Orthogonality regularization on affine transformations. Fig. 2a shows the variation of Eq. 6 for different values of λ, demonstrating the influence of the threshold in the regularization. Fig. 2b illustrates the effect of varying α while keeping λ = 6, highlighting its behavior",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: Effects of affine (Fig. 3c), strictly orthogonal (Fig. 3d), and λ-orthogonality (with λ = 1) regularized (Fig. 3e) transformations trained to align a source representation space (Fig. 3a) learned with a LeNet model (embedding dimension = 2) on the complete MNIST dataset, with a target repr",
+    "score": 18.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 9,
+    "caption": "Figure 4: Partial backfilling results for the Extending Classes setting (top Figures) of Tab. 1a, and Independently Pretrained Models setting (bottom Figures) of Tab. 1b. We use features from the new model ϕnew for the query set (otherwise B⊥(ϕnew) if trained). For the gallery set, we begin with for",
+    "score": 6.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 17,
+    "caption": "Figure 5: Ablation on our λ-orthogonal regular- ization on CUB dataset. Displayed are the com- patibility metrics on CUB and the zero-shot (ZS) improvement on ImageNet1K at different value of λ. Results correspond to those in Tab. 9.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 20,
+    "caption": "Figure 6: Different distance metric ablation for our partial backfilling strategy. Results for the Extending Classes setting (top Figures) of Tab. 1a, and Independently Pretrained Models setting (bottom Figures) of Tab. 1b. We use features from the new backward-adapted model B⊥(ϕnew) for the query s",
+    "score": 6.0
+  }
+]

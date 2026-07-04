@@ -1,0 +1,17 @@
+{
+  "id": "2509.16664",
+  "title": "$\\boldsymbolλ$-Orthogonality Regularization for Compatible Representation Learning",
+  "authors": [
+    "Simone Ricci",
+    "Niccolò Biondi",
+    "Federico Pernici",
+    "Ioannis Patras",
+    "Alberto Del Bimbo"
+  ],
+  "abstract": "Retrieval systems rely on representations learned by increasingly powerful models. However, due to the high training cost and inconsistencies in learned representations, there is significant interest in facilitating communication between representations and ensuring compatibility across independently trained neural networks. In the literature, two primary approaches are commonly used to adapt different learned representations: affine transformations, which adapt well to specific distributions but can significantly alter the original representation, and orthogonal transformations, which preserve the original structure with strict geometric constraints but limit adaptability. A key challenge is adapting the latent spaces of updated models to align with those of previous models on downstream distributions while preserving the newly learned representation spaces. In this paper, we impose a relaxed orthogonality constraint, namely $λ$-Orthogonality regularization, while learning an affine transformation, to obtain distribution-specific adaptation while retaining the original learned representations. Extensive experiments across various architectures and datasets validate our approach, demonstrating that it preserves the model's zero-shot performance and ensures compatibility across model updates. Code available at: \\href{https://github.com/miccunifi/lambda_orthogonality.git}{https://github.com/miccunifi/lambda\\_orthogonality}.",
+  "published": "2025-09-20",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2509.16664v2",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-07-04T10:04:34Z"
+}
