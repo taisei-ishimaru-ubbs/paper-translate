@@ -1,288 +1,288 @@
 {
-  "style": "html-anchor",
+  "style": "tex-bibitem",
   "bibs": {
     "1": {
-      "raw": "Florian Schroff, Dmitry Kalenichenko, and James Philbin. Facenet: A unified embedding for face recognition and clustering. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 815-823, 2015.",
+      "raw": "Florian Schroff, Dmitry Kalenichenko, and James Philbin. Facenet: A unified embedding for face recognition and clustering. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 815-823, 2015.",
       "arxiv_id": "",
       "doi": ""
     },
     "2": {
-      "raw": "Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, and Le Song. Sphereface: Deep hypersphere embedding for face recognition. In 2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017 , pages 6738-6746. IEEE Computer Society, 2017.",
+      "raw": "Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, and Le Song. Sphereface: Deep hypersphere embedding for face recognition. In 2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017, pages 6738-6746. IEEE Computer Society, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "3": {
-      "raw": "Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos Zafeiriou. Arcface: Additive angular margin loss for deep face recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 4690-4699, 2019.",
+      "raw": "Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos Zafeiriou. Arcface: Additive angular margin loss for deep face recognition. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4690-4699, 2019.",
       "arxiv_id": "",
       "doi": ""
     },
     "4": {
-      "raw": "Relja Arandjelovic, Petr Gronat, Akihiko Torii, Tomas Pajdla, and Josef Sivic. Netvlad: Cnn architecture for weakly supervised place recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 5297-5307, 2016.",
+      "raw": "Relja Arandjelovic, Petr Gronat, Akihiko Torii, Tomas Pajdla, and Josef Sivic. Netvlad: Cnn architecture for weakly supervised place recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 5297-5307, 2016.",
       "arxiv_id": "",
       "doi": ""
     },
     "5": {
-      "raw": "Bingyi Cao, Andre Araujo, and Jack Sim. Unifying deep local and global features for image search. In Computer Vision-ECCV 2020: 16th European Conference, Glasgow, UK, August 23-28, 2020, Proceedings, Part XX 16 , pages 726-743. Springer, 2020.",
+      "raw": "Bingyi Cao, Andre Araujo, and Jack Sim. Unifying deep local and global features for image search. In Computer Vision-ECCV 2020: 16th European Conference, Glasgow, UK, August 23-28, 2020, Proceedings, Part XX 16, pages 726-743. Springer, 2020.",
       "arxiv_id": "",
       "doi": ""
     },
     "6": {
-      "raw": "Stephen Hausler, Sourav Garg, Ming Xu, Michael Milford, and Tobias Fischer. Patch-netvlad: Multi-scale fusion of locally-global descriptors for place recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 14141-14152, 2021.",
+      "raw": "Stephen Hausler, Sourav Garg, Ming Xu, Michael Milford, and Tobias Fischer. Patch-netvlad: Multi-scale fusion of locally-global descriptors for place recognition. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 14141-14152, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "7": {
-      "raw": "Hyeonwoo Noh, Andre Araujo, Jack Sim, Tobias Weyand, and Bohyung Han. Large-scale image retrieval with attentive deep local features. In Proceedings of the IEEE international conference on computer vision , pages 3456-3465, 2017.",
+      "raw": "Hyeonwoo Noh, Andre Araujo, Jack Sim, Tobias Weyand, and Bohyung Han. Large-scale image retrieval with attentive deep local features. In Proceedings of the IEEE international conference on computer vision, pages 3456-3465, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "8": {
-      "raw": "Fuwen Tan, Jiangbo Yuan, and Vicente Ordonez. Instance-level image retrieval using reranking transformers. In proceedings of the IEEE/CVF international conference on computer vision , pages 12105-12115, 2021.",
+      "raw": "Fuwen Tan, Jiangbo Yuan, and Vicente Ordonez. Instance-level image retrieval using reranking transformers. In proceedings of the IEEE/CVF international conference on computer vision, pages 12105-12115, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "9": {
-      "raw": "Bin Yan, Yi Jiang, Jiannan Wu, Dong Wang, Ping Luo, Zehuan Yuan, and Huchuan Lu. Universal instance perception as object discovery and retrieval. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15325-15336, 2023.",
+      "raw": "Bin Yan, Yi Jiang, Jiannan Wu, Dong Wang, Ping Luo, Zehuan Yuan, and Huchuan Lu. Universal instance perception as object discovery and retrieval. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 15325-15336, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "10": {
-      "raw": "Colin Raffel. Building machine learning models like open source software. Commun. ACM , 66(2):38-40, jan 2023.",
+      "raw": "Colin Raffel. Building machine learning models like open source software. Commun. ACM, 66(2):38–40, jan 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "11": {
-      "raw": "Prateek Yadav, Colin Raffel, Mohammed Muqeeth, Lucas Caccia, Haokun Liu, Tianlong Chen, Mohit Bansal, Leshem Choshen, and Alessandro Sordoni. A survey on model moerging: Recycling and routing among specialized experts for collaborative learning. Trans. Mach. Learn. Res. , 2025.",
+      "raw": "Prateek Yadav, Colin Raffel, Mohammed Muqeeth, Lucas Caccia, Haokun Liu, Tianlong Chen, Mohit Bansal, Leshem Choshen, and Alessandro Sordoni. A survey on model moerging: Recycling and routing among specialized experts for collaborative learning. Trans. Mach. Learn. Res., 2025.",
       "arxiv_id": "",
       "doi": ""
     },
     "12": {
-      "raw": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timothée Lacroix, Baptiste Rozière, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971 , 2023.",
+      "raw": "Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne Lachaux, Timoth\\'ee Lacroix, Baptiste Rozi\\`ere, Naman Goyal, Eric Hambro, Faisal Azhar, et al. Llama: Open and efficient foundation language models. arXiv preprint arXiv:2302.13971, 2023.",
       "arxiv_id": "2302.13971",
       "doi": ""
     },
     "13": {
-      "raw": "Niccolò Biondi, Federico Pernici, Simone Ricci, and Alberto Del Bimbo. Stationary representations: Optimally approximating compatibility and implications for improved model replacements. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , 2024.",
+      "raw": "Niccolò Biondi, Federico Pernici, Simone Ricci, and Alberto Del Bimbo. Stationary representations: Optimally approximating compatibility and implications for improved model replacements. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "14": {
-      "raw": "Jessica Maria Echterhoff, Fartash Faghri, Raviteja Vemulapalli, Ting-Yao Hu, Chun-Liang Li, Oncel Tuzel, and Hadi Pouransari. MUSCLE: A model update strategy for compatible LLM evolution. In EMNLP (Findings) , pages 7320-7332. Association for Computational Linguistics, 2024.",
+      "raw": "Jessica Maria Echterhoff, Fartash Faghri, Raviteja Vemulapalli, Ting-Yao Hu, Chun-Liang Li, Oncel Tuzel, and Hadi Pouransari. MUSCLE: A model update strategy for compatible LLM evolution. In EMNLP (Findings), pages 7320-7332. Association for Computational Linguistics, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "15": {
-      "raw": "Yantao Shen, Yuanjun Xiong, Wei Xia, and Stefano Soatto. Towards backward-compatible representation learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 6368-6377, 2020.",
+      "raw": "Yantao Shen, Yuanjun Xiong, Wei Xia, and Stefano Soatto. Towards backward-compatible representation learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 6368-6377, 2020.",
       "arxiv_id": "",
       "doi": ""
     },
     "16": {
-      "raw": "Yixuan Li, Jason Yosinski, Jeff Clune, Hod Lipson, and John Hopcroft. Convergent learning: Do different neural networks learn the same representations? In Yoshua Bengio and Yann LeCun, editors, Feature Extraction: Modern Questions and Challenges , pages 196-212. PMLR, 2015.",
+      "raw": "Yixuan Li, Jason Yosinski, Jeff Clune, Hod Lipson, and John Hopcroft. Convergent learning: Do different neural networks learn the same representations? In Yoshua Bengio and Yann LeCun, editors, Feature Extraction: Modern Questions and Challenges, pages 196-212. PMLR, 2015.",
       "arxiv_id": "",
       "doi": ""
     },
     "17": {
-      "raw": "Sijie Yan, Yuanjun Xiong, Kaustav Kundu, Shuo Yang, Siqi Deng, Meng Wang, Wei Xia, and Stefano Soatto. Positive-congruent training: Towards regression-free model updates. In CVPR , pages 14299-14308. Computer Vision Foundation / IEEE, 2021.",
+      "raw": "Sijie Yan, Yuanjun Xiong, Kaustav Kundu, Shuo Yang, Siqi Deng, Meng Wang, Wei Xia, and Stefano Soatto. Positive-congruent training: Towards regression-free model updates. In CVPR, pages 14299-14308. Computer Vision Foundation / IEEE, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "18": {
-      "raw": "Niccolo Biondi, Federico Pernici, Matteo Bruni, and Alberto Del Bimbo. Cores: Compatible representations via stationarity. IEEE Transactions on Pattern Analysis and Machine Intelligence , pages 1-16, 2023.",
+      "raw": "Niccolo Biondi, Federico Pernici, Matteo Bruni, and Alberto Del Bimbo. Cores: Compatible representations via stationarity. IEEE Transactions on Pattern Analysis and Machine Intelligence, pages 1-16, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "19": {
-      "raw": "Mitchell Wortsman, Gabriel Ilharco, Samir Ya Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, et al. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. In International conference on machine learning , pages 23965-23998. PMLR, 2022.",
+      "raw": "Mitchell Wortsman, Gabriel Ilharco, Samir Ya Gadre, Rebecca Roelofs, Raphael Gontijo-Lopes, Ari S Morcos, Hongseok Namkoong, Ali Farhadi, Yair Carmon, Simon Kornblith, et al. Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time. In International conference on machine learning, pages 23965-23998. PMLR, 2022.",
       "arxiv_id": "",
       "doi": ""
     },
     "20": {
-      "raw": "Binjie Zhang, Yixiao Ge, Yantao Shen, Shupeng Su, Fanzi Wu, Chun Yuan, Xuyuan Xu, Yexin Wang, and Ying Shan. Towards universal backward-compatible representation learning. In IJCAI , pages 1615-1621. ijcai.org, 2022.",
+      "raw": "Binjie Zhang, Yixiao Ge, Yantao Shen, Shupeng Su, Fanzi Wu, Chun Yuan, Xuyuan Xu, Yexin Wang, and Ying Shan. Towards universal backward-compatible representation learning. In IJCAI, pages 1615-1621. ijcai.org, 2022.",
       "arxiv_id": "",
       "doi": ""
     },
     "21": {
-      "raw": "Qiang Meng, Chixiang Zhang, Xiaoqiang Xu, and Feng Zhou. Learning compatible embeddings. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) , pages 9939-9948, October 2021.",
+      "raw": "Qiang Meng, Chixiang Zhang, Xiaoqiang Xu, and Feng Zhou. Learning compatible embeddings. In Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), pages 9939-9948, October 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "22": {
-      "raw": "Florian Jaeckle, Fartash Faghri, Ali Farhadi, Oncel Tuzel, and Hadi Pouransari. Fastfill: Efficient compatible model update. In International Conference on Learning Representations , 2023.",
+      "raw": "Florian Jaeckle, Fartash Faghri, Ali Farhadi, Oncel Tuzel, and Hadi Pouransari. Fastfill: Efficient compatible model update. In International Conference on Learning Representations, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "23": {
-      "raw": "Yifei Zhou, Zilu Li, Abhinav Shrivastava, Hengshuang Zhao, Antonio Torralba, Taipeng Tian, and Ser-Nam Lim. Btˆ 2: Backward-compatible training with basis transformation. In Proceedings of the IEEE/CVF International Conference on Computer Vision , pages 11229-11238, 2023.",
+      "raw": "Yifei Zhou, Zilu Li, Abhinav Shrivastava, Hengshuang Zhao, Antonio Torralba, Taipeng Tian, and Ser-Nam Lim. Bt\\^ 2: Backward-compatible training with basis transformation. In Proceedings of the IEEE/CVF International Conference on Computer Vision, pages 11229-11238, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "24": {
-      "raw": "Simone Ricci, Niccolò Biondi, Federico Pernici, and Alberto Del Bimbo. Backward-compatible aligned representations via an orthogonal transformation layer. In ECCV Workshops (17) , volume 15639 of Lecture Notes in Computer Science , pages 451-464. Springer, 2024.",
+      "raw": "Simone Ricci, Niccol\\`o Biondi, Federico Pernici, and Alberto Del Bimbo. Backward-compatible aligned representations via an orthogonal transformation layer. In ECCV Workshops (17), volume 15639 of Lecture Notes in Computer Science, pages 451-464. Springer, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "25": {
-      "raw": "Vivek Ramanujan, Pavan Kumar Anasosalu Vasu, Ali Farhadi, Oncel Tuzel, and Hadi Pouransari. Forward compatible training for large-scale embedding retrieval systems. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 19386-19395, 2022.",
+      "raw": "Vivek Ramanujan, Pavan Kumar Anasosalu Vasu, Ali Farhadi, Oncel Tuzel, and Hadi Pouransari. Forward compatible training for large-scale embedding retrieval systems. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 19386-19395, 2022.",
       "arxiv_id": "",
       "doi": ""
     },
     "26": {
-      "raw": "Charles Fefferman, Sanjoy Mitter, and Hariharan Narayanan. Testing the manifold hypothesis. Journal of the American Mathematical Society , 29(4):983-1049, 2016.",
+      "raw": "Charles Fefferman, Sanjoy Mitter, and Hariharan Narayanan. Testing the manifold hypothesis. Journal of the American Mathematical Society, 29(4):983-1049, 2016.",
       "arxiv_id": "",
       "doi": ""
     },
     "27": {
-      "raw": "Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola. Position: The platonic representation hypothesis. In ICML . OpenReview.net, 2024.",
+      "raw": "Minyoung Huh, Brian Cheung, Tongzhou Wang, and Phillip Isola. Position: The platonic representation hypothesis. In ICML. OpenReview.net, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "28": {
-      "raw": "Valentino Maiorca, Luca Moschella, Antonio Norelli, Marco Fumero, Francesco Locatello, and Emanuele Rodolà. Latent space translation via semantic alignment. Advances in Neural Information Processing Systems , 36, 2024.",
+      "raw": "Valentino Maiorca, Luca Moschella, Antonio Norelli, Marco Fumero, Francesco Locatello, and Emanuele Rodol\\`a. Latent space translation via semantic alignment. Advances in Neural Information Processing Systems, 36, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "29": {
-      "raw": "Marco Fumero, Marco Pegoraro, Valentino Maiorca, Francesco Locatello, and Emanuele Rodolà. Latent functional maps: a spectral framework for representation alignment. In NeurIPS , 2024.",
+      "raw": "Marco Fumero, Marco Pegoraro, Valentino Maiorca, Francesco Locatello, and Emanuele Rodol\\`a. Latent functional maps: a spectral framework for representation alignment. In NeurIPS, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "30": {
-      "raw": "Luca Moschella, Valentino Maiorca, Marco Fumero, Antonio Norelli, Francesco Locatello, and Emanuele Rodolà. Relative representations enable zero-shot latent space communication. In International Conference on Learning Representations , 2023.",
+      "raw": "Luca Moschella, Valentino Maiorca, Marco Fumero, Antonio Norelli, Francesco Locatello, and Emanuele Rodol\\`a. Relative representations enable zero-shot latent space communication. In International Conference on Learning Representations, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "31": {
-      "raw": "Valentino Maiorca, Luca Moschella, Marco Fumero, Francesco Locatello, and Emanuele Rodolà. Latent space translation via inverse relative projection. arXiv preprint arXiv:2406.15057 , 2024.",
+      "raw": "Valentino Maiorca, Luca Moschella, Marco Fumero, Francesco Locatello, and Emanuele Rodol\\`a. Latent space translation via inverse relative projection. arXiv preprint arXiv:2406.15057, 2024.",
       "arxiv_id": "2406.15057",
       "doi": ""
     },
     "32": {
-      "raw": "Martial Mermillod, Aurélia Bugaiska, and Patrick Bonin. The stability-plasticity dilemma: Investigating the continuum from catastrophic forgetting to age-limited learning effects, 2013.",
+      "raw": "Martial Mermillod, Aur\\'elia Bugaiska, and Patrick Bonin. The stability-plasticity dilemma: Investigating the continuum from catastrophic forgetting to age-limited learning effects, 2013.",
       "arxiv_id": "",
       "doi": ""
     },
     "33": {
-      "raw": "Guoliang Lin, Hanlu Chu, and Hanjiang Lai. Towards better plasticity-stability trade-off in incremental learning: A simple linear connector. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 89-98, 2022.",
+      "raw": "Guoliang Lin, Hanlu Chu, and Hanjiang Lai. Towards better plasticity-stability trade-off in incremental learning: A simple linear connector. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 89-98, 2022.",
       "arxiv_id": "",
       "doi": ""
     },
     "34": {
-      "raw": "Dongwan Kim and Bohyung Han. On the stability-plasticity dilemma of class-incremental learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 20196-20204, 2023.",
+      "raw": "Dongwan Kim and Bohyung Han. On the stability-plasticity dilemma of class-incremental learning. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 20196-20204, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "35": {
-      "raw": "Lirong Wu, Zicheng Liu, Jun Xia, Zelin Zang, Siyuan Li, and Stan Z Li. Generalized clustering and multi-manifold learning with geometric structure preservation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision , pages 139-147, 2022.",
+      "raw": "Lirong Wu, Zicheng Liu, Jun Xia, Zelin Zang, Siyuan Li, and Stan Z Li. Generalized clustering and multi-manifold learning with geometric structure preservation. In Proceedings of the IEEE/CVF winter conference on applications of computer vision, pages 139-147, 2022.",
       "arxiv_id": "",
       "doi": ""
     },
     "36": {
-      "raw": "Nitin Bansal, Xiaohan Chen, and Zhangyang Wang. Can we gain more from orthogonality regularizations in training deep networks? Advances in Neural Information Processing Systems , 31, 2018.",
+      "raw": "Nitin Bansal, Xiaohan Chen, and Zhangyang Wang. Can we gain more from orthogonality regularizations in training deep networks? Advances in Neural Information Processing Systems, 31, 2018.",
       "arxiv_id": "",
       "doi": ""
     },
     "37": {
-      "raw": "Binjie Zhang, Yixiao Ge, Yantao Shen, Yu Li, Chun Yuan, XUYUAN XU, Yexin Wang, and Ying Shan. Hot-refresh model upgrades with regression-free compatible training in image retrieval. In International Conference on Learning Representations , 2021.",
+      "raw": "Binjie Zhang, Yixiao Ge, Yantao Shen, Yu Li, Chun Yuan, XUYUAN XU, Yexin Wang, and Ying Shan. Hot-refresh model upgrades with regression-free compatible training in image retrieval. In International Conference on Learning Representations, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "38": {
-      "raw": "Tan Pan, Furong Xu, Xudong Yang, Sifeng He, Chen Jiang, Qingpei Guo, Feng Qian, Xiaobo Zhang, Yuan Cheng, Lei Yang, et al. Boundary-aware backward-compatible representation via adversarial learning in image retrieval. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pages 15201-15210, 2023.",
+      "raw": "Tan Pan, Furong Xu, Xudong Yang, Sifeng He, Chen Jiang, Qingpei Guo, Feng Qian, Xiaobo Zhang, Yuan Cheng, Lei Yang, et al. Boundary-aware backward-compatible representation via adversarial learning in image retrieval. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 15201-15210, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "39": {
-      "raw": "Mateusz Budnik and Yannis Avrithis. Asymmetric metric learning for knowledge transfer. In CVPR , pages 8228-8238. Computer Vision Foundation / IEEE, 2021.",
+      "raw": "Mateusz Budnik and Yannis Avrithis. Asymmetric metric learning for knowledge transfer. In CVPR, pages 8228-8238. Computer Vision Foundation / IEEE, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "40": {
-      "raw": "Niccolo Biondi, Federico Pernici, Matteo Bruni, Daniele Mugnai, and Alberto Del Bimbo. Cl2r: Compatible lifelong learning representations. ACM Transactions on Multimedia Computing, Communications and Applications , 18(2s):1-22, 2023.",
+      "raw": "Niccolo Biondi, Federico Pernici, Matteo Bruni, Daniele Mugnai, and Alberto Del Bimbo. Cl2r: Compatible lifelong learning representations. ACM Transactions on Multimedia Computing, Communications and Applications, 18(2s):1-22, 2023.",
       "arxiv_id": "",
       "doi": ""
     },
     "41": {
-      "raw": "Ahmet Iscen, Jeffrey Zhang, Svetlana Lazebnik, and Cordelia Schmid. Memory-efficient incremental learning through feature adaptation. In European Conference on Computer Vision , pages 699-715. Springer, 2020.",
+      "raw": "Ahmet Iscen, Jeffrey Zhang, Svetlana Lazebnik, and Cordelia Schmid. Memory-efficient incremental learning through feature adaptation. In European Conference on Computer Vision, pages 699-715. Springer, 2020.",
       "arxiv_id": "",
       "doi": ""
     },
     "42": {
-      "raw": "Chien-Yi Wang, Ya-Liang Chang, Shang-Ta Yang, Dong Chen, and Shang-Hong Lai. Unified representation learning for cross model compatibility. In 31st British Machine Vision Conference 2020, BMVC 2020 . BMVA Press, 2020.",
+      "raw": "Chien-Yi Wang, Ya-Liang Chang, Shang-Ta Yang, Dong Chen, and Shang-Hong Lai. Unified representation learning for cross model compatibility. In 31st British Machine Vision Conference 2020, BMVC 2020. BMVA Press, 2020.",
       "arxiv_id": "",
       "doi": ""
     },
     "43": {
-      "raw": "Shupeng Su, Binjie Zhang, Yixiao Ge, Xuyuan Xu, Yexin Wang, Chun Yuan, and Ying Shan. Privacy-preserving model upgrades with bidirectional compatible training in image retrieval. arXiv preprint arXiv:2204.13919 , 2022.",
+      "raw": "Shupeng Su, Binjie Zhang, Yixiao Ge, Xuyuan Xu, Yexin Wang, Chun Yuan, and Ying Shan. Privacy-preserving model upgrades with bidirectional compatible training in image retrieval. arXiv preprint arXiv:2204.13919, 2022.",
       "arxiv_id": "2204.13919",
       "doi": ""
     },
     "44": {
-      "raw": "Chang Wang and Sridhar Mahadevan. Manifold alignment using procrustes analysis. In Proceedings of the 25th international conference on Machine learning , pages 1120-1127, 2008.",
+      "raw": "Chang Wang and Sridhar Mahadevan. Manifold alignment using procrustes analysis. In Proceedings of the 25th international conference on Machine learning, pages 1120-1127, 2008.",
       "arxiv_id": "",
       "doi": ""
     },
     "45": {
-      "raw": "Mario Lezcano-Casado and David Martınez-Rubio. Cheap orthogonal constraints in neural networks: A simple parametrization of the orthogonal and unitary group. In International Conference on Machine Learning , pages 3794-3803. PMLR, 2019.",
+      "raw": "Mario Lezcano-Casado and David Mart-Rubio. Cheap orthogonal constraints in neural networks: A simple parametrization of the orthogonal and unitary group. In International Conference on Machine Learning, pages 3794-3803. PMLR, 2019.",
       "arxiv_id": "",
       "doi": ""
     },
     "46": {
-      "raw": "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. Proceedings of the national academy of sciences , 114(13):3521-3526, 2017.",
+      "raw": "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. Proceedings of the national academy of sciences, 114(13):3521-3526, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "47": {
-      "raw": "Ronald Kemker, Marc McClure, Angelina Abitino, Tyler Hayes, and Christopher Kanan. Measuring catastrophic forgetting in neural networks. In Proceedings of the AAAI conference on artificial intelligence , volume 32, 2018.",
+      "raw": "Ronald Kemker, Marc McClure, Angelina Abitino, Tyler Hayes, and Christopher Kanan. Measuring catastrophic forgetting in neural networks. In Proceedings of the AAAI conference on artificial intelligence, volume 32, 2018.",
       "arxiv_id": "",
       "doi": ""
     },
     "48": {
-      "raw": "Mehrtash Harandi and Basura Fernando. Generalized backpropagation, etude de cas: Orthogonality. arXiv preprint arXiv:1611.05927 , 2016.",
+      "raw": "Mehrtash Harandi and Basura Fernando. Generalized backpropagation, etude de cas: Orthogonality. arXiv preprint arXiv:1611.05927, 2016.",
       "arxiv_id": "1611.05927",
       "doi": ""
     },
     "49": {
-      "raw": "Mete Ozay and Takayuki Okatani. Optimization on submanifolds of convolution kernels in cnns. arXiv preprint arXiv:1610.07008 , 2016.",
+      "raw": "Mete Ozay and Takayuki Okatani. Optimization on submanifolds of convolution kernels in cnns. arXiv preprint arXiv:1610.07008, 2016.",
       "arxiv_id": "1610.07008",
       "doi": ""
     },
     "50": {
-      "raw": "Lei Huang, Xianglong Liu, Bo Lang, Adams Yu, Yongliang Wang, and Bo Li. Orthogonal weight normalization: Solution to optimization over multiple dependent stiefel manifolds in deep neural networks. In Proceedings of the AAAI Conference on Artificial Intelligence , volume 32, 2018.",
+      "raw": "Lei Huang, Xianglong Liu, Bo Lang, Adams Yu, Yongliang Wang, and Bo Li. Orthogonal weight normalization: Solution to optimization over multiple dependent stiefel manifolds in deep neural networks. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 32, 2018.",
       "arxiv_id": "",
       "doi": ""
     },
     "51": {
-      "raw": "Milton Abramowitz and Irene A Stegun. Handbook of mathematical functions with formulas, graphs, and mathematical tables , volume 55. US Government printing office, 1968.",
+      "raw": "Milton Abramowitz and Irene A Stegun. Handbook of mathematical functions with formulas, graphs, and mathematical tables, volume 55. US Government printing office, 1968.",
       "arxiv_id": "",
       "doi": ""
     },
     "52": {
-      "raw": "Sagar Sharma, Simone Sharma, and Anidhya Athaiya. Activation functions in neural networks. Towards Data Sci , 6(12):310-316, 2017.",
+      "raw": "Sagar Sharma, Simone Sharma, and Anidhya Athaiya. Activation functions in neural networks. Towards Data Sci, 6(12):310-316, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "53": {
-      "raw": "A Iliev, Nikolay Kyurkchiev, and Svetoslav Markov. On the approximation of the step function by some sigmoid functions. Mathematics and Computers in Simulation , 133:223-234, 2017.",
+      "raw": "A Iliev, Nikolay Kyurkchiev, and Svetoslav Markov. On the approximation of the step function by some sigmoid functions. Mathematics and Computers in Simulation, 133:223-234, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "54": {
-      "raw": "Yonglong Tian, Lijie Fan, Phillip Isola, Huiwen Chang, and Dilip Krishnan. Stablerep: Synthetic images from text-to-image models make strong visual representation learners. Advances in Neural Information Processing Systems , 36, 2024.",
+      "raw": "Yonglong Tian, Lijie Fan, Phillip Isola, Huiwen Chang, and Dilip Krishnan. Stablerep: Synthetic images from text-to-image models make strong visual representation learners. Advances in Neural Information Processing Systems, 36, 2024.",
       "arxiv_id": "",
       "doi": ""
     },
     "55": {
-      "raw": "Björn Barz and Joachim Denzler. Hierarchy-based image embeddings for semantic image retrieval. In 2019 IEEE winter conference on applications of computer vision (WACV) , pages 638-647. IEEE, 2019.",
+      "raw": "Bj\\\"orn Barz and Joachim Denzler. Hierarchy-based image embeddings for semantic image retrieval. In 2019 IEEE winter conference on applications of computer vision (WACV), pages 638-647. IEEE, 2019.",
       "arxiv_id": "",
       "doi": ""
     },
     "56": {
-      "raw": "Mikolaj Wieczorek, Barbara Rychalska, and Jacek Dabrowski. On the unreasonable effectiveness of centroids in image retrieval. In Neural Information Processing: 28th International Conference, ICONIP 2021, Sanur, Bali, Indonesia, December 8-12, 2021, Proceedings, Part IV 28 , pages 212-223. Springer, 2021.",
+      "raw": "Mikolaj Wieczorek, Barbara Rychalska, and Jacek Dabrowski. On the unreasonable effectiveness of centroids in image retrieval. In Neural Information Processing: 28th International Conference, ICONIP 2021, Sanur, Bali, Indonesia, December 8-12, 2021, Proceedings, Part IV 28, pages 212-223. Springer, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "57": {
-      "raw": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et al. Imagenet large scale visual recognition challenge. International journal of computer vision , 115(3):211-252, 2015.",
+      "raw": "Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, et al. Imagenet large scale visual recognition challenge. International journal of computer vision, 115(3):211-252, 2015.",
       "arxiv_id": "",
       "doi": ""
     },
@@ -297,62 +297,62 @@
       "doi": ""
     },
     "60": {
-      "raw": "Bolei Zhou, Agata Lapedriza, Aditya Khosla, Aude Oliva, and Antonio Torralba. Places: A 10 million image database for scene recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence , 2017.",
+      "raw": "Bolei Zhou, Agata Lapedriza, Aditya Khosla, Aude Oliva, and Antonio Torralba. Places: A 10 million image database for scene recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2017.",
       "arxiv_id": "",
       "doi": ""
     },
     "61": {
-      "raw": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021 . OpenReview.net, 2021.",
+      "raw": "Alexey Dosovitskiy, Lucas Beyer, Alexander Kolesnikov, Dirk Weissenborn, Xiaohua Zhai, Thomas Unterthiner, Mostafa Dehghani, Matthias Minderer, Georg Heigold, Sylvain Gelly, Jakob Uszkoreit, and Neil Houlsby. An image is worth 16x16 words: Transformers for image recognition at scale. In 9th International Conference on Learning Representations, ICLR 2021, Virtual Event, Austria, May 3-7, 2021. OpenReview.net, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "62": {
-      "raw": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, et al. Learning transferable visual models from natural language supervision. In International conference on machine learning , pages 8748-8763. PmLR, 2021.",
+      "raw": "Alec Radford, Jong Wook Kim, Chris Hallacy, Aditya Ramesh, Gabriel Goh, Sandhini Agarwal, Girish Sastry, Amanda Askell, Pamela Mishkin, Jack Clark, et al. Learning transferable visual models from natural language supervision. In International conference on machine learning, pages 8748-8763. PmLR, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "63": {
-      "raw": "Maxime Oquab, Timothée Darcet, Théo Moutakanni, Huy V Vo, Marc Szafraniec, Vasil Khalidov, Pierre Fernandez, Daniel HAZIZA, Francisco Massa, Alaaeldin El-Nouby, et al. Dinov2: Learning robust visual features without supervision. Transactions on Machine Learning Research .",
+      "raw": "Maxime Oquab, Timoth\\'ee Darcet, Th\\'eo Moutakanni, Huy V Vo, Marc Szafraniec, Vasil Khalidov, Pierre Fernandez, Daniel HAZIZA, Francisco Massa, Alaaeldin El-Nouby, et al. Dinov2: Learning robust visual features without supervision. Transactions on Machine Learning Research.",
       "arxiv_id": "",
       "doi": ""
     },
     "64": {
-      "raw": "Maria-Elena Nilsback and Andrew Zisserman. Automated flower classification over a large number of classes. In 2008 Sixth Indian conference on computer vision, graphics &amp; image processing , pages 722-729. IEEE, 2008.",
+      "raw": "Maria-Elena Nilsback and Andrew Zisserman. Automated flower classification over a large number of classes. In 2008 Sixth Indian conference on computer vision, graphics \\& image processing, pages 722-729. IEEE, 2008.",
       "arxiv_id": "",
       "doi": ""
     },
     "65": {
-      "raw": "Soravit Changpinyo, Piyush Sharma, Nan Ding, and Radu Soricut. Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pages 3558-3568, 2021.",
+      "raw": "Soravit Changpinyo, Piyush Sharma, Nan Ding, and Radu Soricut. Conceptual 12m: Pushing web-scale image-text pre-training to recognize long-tail visual concepts. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 3558-3568, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "66": {
-      "raw": "Marco Mistretta, Alberto Baldrati, Lorenzo Agnolucci, Marco Bertini, and Andrew D. Bagdanov. Cross the gap: Exposing the intra-modal misalignment in CLIP via modality inversion. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025 . OpenReview.net, 2025.",
+      "raw": "Marco Mistretta, Alberto Baldrati, Lorenzo Agnolucci, Marco Bertini, and Andrew D. Bagdanov. Cross the gap: Exposing the intra-modal misalignment in CLIP via modality inversion. In The Thirteenth International Conference on Learning Representations, ICLR 2025, Singapore, April 24-28, 2025. OpenReview.net, 2025.",
       "arxiv_id": "",
       "doi": ""
     },
     "67": {
-      "raw": "Wenzhuo Liu, Fei Zhu, Longhui Wei, and Qi Tian. C-clip: Multimodal continual learning for vision-language model. In The Thirteenth International Conference on Learning Representations , 2025.",
+      "raw": "Wenzhuo Liu, Fei Zhu, Longhui Wei, and Qi Tian. C-clip: Multimodal continual learning for vision-language model. In The Thirteenth International Conference on Learning Representations, 2025.",
       "arxiv_id": "",
       "doi": ""
     },
     "68": {
-      "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361 , 2020.",
+      "raw": "Jared Kaplan, Sam McCandlish, Tom Henighan, Tom B Brown, Benjamin Chess, Rewon Child, Scott Gray, Alec Radford, Jeffrey Wu, and Dario Amodei. Scaling laws for neural language models. arXiv preprint arXiv:2001.08361, 2020.",
       "arxiv_id": "2001.08361",
       "doi": ""
     },
     "69": {
-      "raw": "Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya Sutskever. Deep double descent: Where bigger models and more data hurt. Journal of Statistical Mechanics: Theory and Experiment , 2021(12):124003, 2021.",
+      "raw": "Preetum Nakkiran, Gal Kaplun, Yamini Bansal, Tristan Yang, Boaz Barak, and Ilya Sutskever. Deep double descent: Where bigger models and more data hurt. Journal of Statistical Mechanics: Theory and Experiment, 2021(12):124003, 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "70": {
-      "raw": "Gabriele Prato, Simon Guiroy, Ethan Caballero, Irina Rish, and Sarath Chandar. Scaling laws for the out-of-distribution generalization of image classifiers. ICML 2021 Workshop on Uncertainty and Robustness in Deep Learning. , 2021.",
+      "raw": "Gabriele Prato, Simon Guiroy, Ethan Caballero, Irina Rish, and Sarath Chandar. Scaling laws for the out-of-distribution generalization of image classifiers. ICML 2021 Workshop on Uncertainty and Robustness in Deep Learning., 2021.",
       "arxiv_id": "",
       "doi": ""
     },
     "71": {
-      "raw": "Ethan Caballero, Kshitij Gupta, Irina Rish, and David Krueger. Broken neural scaling laws. In The Eleventh International Conference on Learning Representations , 2023.\n\n## Appendix A Extending Classes Setting on Places365\n\nTo validate our approach further, we evaluate it using a model trained on a dataset different from ImageNet1K. Specifically, we use a ResNet-50 pretrained on Places205 (from [ViSSL](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md#supervised) ) as the old model, and a ResNet-50 pretrained on Places365 (from [CSAILVision](https://github.com/CSAILVision/places365#pre-trained-cnn-models-on-places365-standard) ) as the new model. Tab. [4](https://arxiv.org/html/2509.16664v2#A1.T4) summarizes the performance of each method using the evaluation metrics defined in Sec. [4.2](https://arxiv.org/html/2509.16664v2#S4.SS2) . The results demonstrate that the new model $\\phi_{\\text{new}}$ is not inherently compatible with the old model, $\\phi_{\\text{old}}$. Moreover, the adaptation $F(\\phi_{\\text{old}})$ provided by FCT underperforms when compared to the new model alone. In contrast, methods that promote better clustering, such as FastFill and our proposed approach, achieve even higher performance than the standalone new model. This improvement arises from leveraging information from both the old and new models, effectively implementing a form of knowledge distillation during the learning of the forward adapter. Unlike the baselines, our method aligns all adapted representations within a unified representation space, thereby consistently maintaining compatibility with the old model.\n\n## Appendix B Additional Architecture for Independently Pretrained Models Setting\n\nWe conduct additional experiments using a DenseNet-121 as the old model, $\\phi_{\\text{old}}$, and an EfficientNet-B3 as the new model, $\\phi_{\\text{new}}$, both pretrained on ImageNet1K and obtained from the PyTorch Hub. The results of these experiments on the ImageNet1K dataset are presented in Tab. [5](https://arxiv.org/html/2509.16664v2#A2.T5) . Our approach achieves the best performance across all metrics, outperforming the baselines in both cross-model and same-model retrieval scenarios.\n\n## Appendix C Additional Experiments with DINOv2 and CLIP as Independently Pretrained Models\n\nTo investigate update scenarios involving data distribution or objective shifts, we conduct additional experiments using a ResNet-18 pretrained on ImageNet1K as the old model, and both a CLIP [radford2021learning](https://arxiv.org/html/2509.16664v2#bib.bib62) pretrained on CC12M [changpinyo2021conceptual](https://arxiv.org/html/2509.16664v2#bib.bib65) dataset and a DINOv2 [oquabdinov2](https://arxiv.org/html/2509.16664v2#bib.bib63) ($vit\\_small\\_patch14\\_dinov2$) as the new models. To train both the forward and backward transformations, the ImageNet1K dataset and the same hyperparameters of Tab. [1(b)](https://arxiv.org/html/2509.16664v2#S4.T1.st2) are used. This setup represents a considerable shift in both data distribution and model objective relative to the new models. Notably, FastFill cannot be applied in this context, as both CLIP and DINOv2 lack classifiers. In Tab. [6(a)](https://arxiv.org/html/2509.16664v2#A3.T6.st1) , we report the results obtained using DINOv2 as the new, independently trained model. Our approach achieves better results than FCT, further validating its practical applicability to real-world problems.\n\nInstead, in Tab. [6(b)](https://arxiv.org/html/2509.16664v2#A3.T6.st2) , we report the results obtained using CLIP pretrained on CC12M as the new, independently trained model. In this scenario, the pretrained CLIP model exhibits lower retrieval performance on ImageNet1K compared to ResNet-18. This is a well-known limitation of multi-modal training, where intra-modal misalignment can negatively impact the quality of single-modality representations [mistrettacross](https://arxiv.org/html/2509.16664v2#bib.bib66) . Specifically, CLIP models are optimized for cross-modal retrieval rather than single-modality retrieval tasks, in contrast to DINOv2 or ResNet-18, which are trained exclusively on a single modality. This reduction in performance of the new model relative to the old one causes FCT to degrade the overall retrieval capacity of the system, failing to achieve compatibility, as it attempts to transform the higher-quality representations of the old model into the lower-performing representations of the new model. In contrast, our method introduces an additional loss that encourages both intra-class clustering and inter-model alignment of feature representations on the specific training dataset. As a result, the forward transformation, due to its greater flexibility, improves the performance of the old model's representations. Even in this challenging scenario, our approach outperforms FCT, further validating the robustness of our method.\n\n## Appendix D Additional Datasets for Independently Pretrained Models adapted on Downstream Task setting\n\nWe further extend our analysis of the Independently Pretrained Models Adapted on Downstream Task setting by including two additional datasets: the larger Places365 and the fine-grained Flowers102. These additions allow us to evaluate our method's effectiveness in more challenging scenarios. The results are reported in Tab. [7](https://arxiv.org/html/2509.16664v2#A4.T7) . In these experiments, the old model is a ResNet-18 and the new model is a ViT-L-16, both pretrained on ImageNet-1K. We employ an affine adapter with $\\lambda=12$. On both additional datasets, our approach consistently outperforms the baseline methods. The proposed $\\lambda$-Orthogonality regularization not only improves retrieval performance on the downstream tasks but also encourages the adapted new model representation, $B_{\\lambda}(\\phi_{\\text{new}})$, to remain consistent with its original form. As a result, retrieval performance on ImageNet1K is preserved.\n\n## Appendix E Ablation on the hyperparameter $\\boldsymbol{\\lambda}$\n\nFigure 6 : Ablation on our $\\lambda$-orthogonal regularization on CUB dataset. Displayed are the compatibility metrics on CUB and the zero-shot (ZS) improvement on ImageNet1K at different value of $\\lambda$. Results correspond to those in Tab. 8 .\n\n![](assets/fig05.png)\n\nIn our experiments, we select $\\lambda$ to maximize adaptability to downstream tasks while preserving the pre-trained model's performance on its original training dataset, ImageNet1K. To illustrate the impact of our approach, Tab. [8](https://arxiv.org/html/2509.16664v2#A5.T8) reports the CMC-Top1 scores obtained by applying our proposed $\\lambda$-orthogonal regularizer to the new pre-trained model. The results, also reported in Fig. [6](https://arxiv.org/html/2509.16664v2#A5.F6) , indicate that increasing $\\lambda$ enhances the performance of the new model's representations on the downstream task.\n\nHowever, this improvement comes at the expense of reduced performance on the original dataset, as evidenced by a decrease in zero-shot (ZS) scores, particularly pronounced in the absence of regularization ($\\lambda=\\infty$). Empirically, we find that setting $\\lambda=12$ yields the best trade-off across all metrics. [bansal2018can](https://arxiv.org/html/2509.16664v2#bib.bib36) optimize a soft orthogonality constraint, equal to case where $\\lambda=0$. However, this formulation does not lead to performance improvements and is outperformed by the use of a strictly orthogonal transformation. As discussed in Sec. [3.3](https://arxiv.org/html/2509.16664v2#S3.SS3) , imposing strict orthogonality may hinder the model's ability to incorporate task-specific information. In contrast, our approach relaxes this constraint by introducing a tunable hyperparameter $\\lambda$ that controls the deviation of the Gram matrix from the identity, allowing greater flexibility while preserving representational consistency.\n\nTo further validate our aproach we also study the effect of a scalar weight $w$ to the loss contributions of our $\\lambda$-orthogonal regularization compared with two different orthogonal regularizations: Soft Orthogonality (SO) [bansal2018can](https://arxiv.org/html/2509.16664v2#bib.bib36) -witch correspond to the spacial case of $\\lambda$ =0 in our aproach- and Spectral Restricted Isometry Property (SRIP) [bansal2018can](https://arxiv.org/html/2509.16664v2#bib.bib36) . We test the regularizers across different values of scalar weight: $w=1$, $w=10^{-1}$, $w=10^{-2}$, and $w=10^{-3}$. Additionally, we include a column reporting the exact value of $\\lVert W^{\\top}W-I\\rVert_{F}$ reached by the backward transformation $B_{\\lambda}$ at the end of training, to indicate the deviation from strict orthogonality.\n\nAs shown in the Tab. [9](https://arxiv.org/html/2509.16664v2#A5.T9) , for both SRIP and SO, the final value of $\\lVert W^{\\top}W-I\\rVert_{F}$ is governed by the optimization process and the chosen scalar weight $w$. Unlike our $\\lambda$-orthogonal regularization, these approaches do not provide direct control over $\\lVert W^{\\top}W-I\\rVert_{F}$; a smaller contribution of the regularizer to the total loss results in a diminished regularization effect on the backward transformation $B_{\\lambda}$. When the scalar weight $w$ of the regularizer is reduced, the optimization process is unable to fully minimize the regularization term, particularly because competing loss components (such as MSE and the contrastive loss $L_{C}$) may favor a non-orthogonal transformation. For instance, when $w=10^{-3}$ and $w=10^{-2}$, the results obtained with SO, SRIP, and our $\\lambda$-orthogonal regularization are comparable to those observed in the case of $\\lambda=\\infty$ (see Tab. [8](https://arxiv.org/html/2509.16664v2#A5.T8) ), where the orthogonality constraint is entirely ignored. This occurs because, at such a small value of $w$, the contribution of the regularizer becomes negligible during optimization. To avoid this issue, in our method we set $w=1$ for the $\\lambda$-orthogonal regularization, thereby ensuring that the regularization term is effectively incorporated into the optimization process during the training of the backward transformation. This ensures that the regularization term achieves the target threshold $\\lambda$, enabling precise control over the stability-plasticity trade-off in the backward transformation and leads to higher representation compatibility on the downstream task. As highlighted by the bold entries in the Tab. [9](https://arxiv.org/html/2509.16664v2#A5.T9) , our method produces stable results (minor fluctuations are attributable to stochastic optimization) for $w=1$ and $w=10^{-1}$ in contrast to SO and SRIP. Conversely, when $w$ is very low ($10^{-2}$ or $10^{-3}$), the regularizer cannot be fully optimized, and our method behaves similarly to SO regularization, as our introduced constrains ($\\lVert W^{\\top}W-I\\rVert_{F}\\geq\\lambda$) influences the minimum of the objective, which is never reached in practice. In contrast, due to its approximate formulation and greater complexity relative to SO, SRIP exhibits an even weaker regularization effect when $w$ is low.\n\n## Appendix F Detailed Analysis of Loss Term Contributions\n\nIn this section, we analyze the contribution of each term to the final loss (Eq. [10](https://arxiv.org/html/2509.16664v2#S3.E10) ) optimized during training. Tab. [10](https://arxiv.org/html/2509.16664v2#A6.T10) presents the results obtained when the adaptation dataset matches the dataset used to train the models from which the features were extracted, namely ImageNet1K. In this scenario, a strict orthogonal transformation $B_{\\perp}$ is employed for backward-compatibility. We observe that when used independently, $\\mathcal{L}_{F}$ ensures compatibility with the representations of the new model but significantly fails to achieve backward compatibility. This behavior highlights a pronounced forward bias inherent to $\\mathcal{L}_{F}$. The backward alignment loss $\\mathcal{L}_{B}$ alone promotes backward compatibility but degrades forward-adapted representation performance. The contrastive loss $\\mathcal{L}_{C}$ alone significantly improves inter-model alignment and intra-class clustering, supporting both backward and forward compatibility. The combination $\\mathcal{L}_{F}+\\mathcal{L}_{B}+\\mathcal{L}_{C}$ achieves the highest overall performance across compatibility scenarios, underscoring the importance of each loss component in maintaining balance between forward and backward trasformation learning.\n\nTab. [11](https://arxiv.org/html/2509.16664v2#A6.T11) shows the impact of these loss terms in a downstream task setting (CUB dataset), where $\\phi_{old}$ is ResNet-18 and $\\phi_{new}$ is ViT-L-16, using $\\lambda$-Orthogonality with $\\lambda=12$. Similar to Tab. [10](https://arxiv.org/html/2509.16664v2#A6.T10) , excluding the backward loss $\\mathcal{L}_{B}$ still yields good forward compatibility but significantly reduces backward compatibility performance. Excluding the contrastive loss $\\mathcal{L}_{C}$ substantially decreases the adaptation to the downstream task leading to lower $B_{\\lambda}(\\phi_{\\text{new}})/B_{\\lambda}(\\phi_{\\text{new}})$ values. Using all loss terms $\\mathcal{L}_{F}+\\mathcal{L}_{B}+\\mathcal{L}_{C}$ consistently achieves the best or near-best results in forward and backward compatibility, demonstrating the complementary nature of these terms.\n\nThese analyses underline that each loss term contributes uniquely and significantly to achieving comprehensive and model compatibility across various tasks.\n\n## Appendix G Distance metric for Partial Backfilling Ordering\n\nOur proposed partial backfilling strategy is guided by a distance metric $d$, which measures the dissimilarity between each embedding vector $F(\\mathbf{h}^{k})$ and its corresponding class mean $\\boldsymbol{\\mu}_{c}$. This section investigates the impact of different distance metrics on determining an effective ordering for backfilling images in the gallery set. We compare two distance metrics-Mean Squared Error (MSE) and Cosine Distance-for ranking images during partial backfilling. The performance of each metric is evaluated under two distinct experimental conditions: the Extending Classes setting (Tab. [11](https://arxiv.org/html/2509.16664v2#A7.T11) ) and the Independently Pretrained Models setting (Tab. [12](https://arxiv.org/html/2509.16664v2#A7.T12) ). MSE computes the Euclidean distance between feature vectors, capturing both angular and magnitude discrepancies. As shown in Tab. [11](https://arxiv.org/html/2509.16664v2#A7.T11) and Tab. [12](https://arxiv.org/html/2509.16664v2#A7.T12) , MSE generally yields robust performance, particularly in terms of CMC-Top1. In contrast, Cosine Distance measures the angular distance between normalized feature vectors, emphasizing directional similarity while ignoring magnitude. The results indicate that Cosine Distance achieves slightly better performance in terms of mAP and provides comparable CMC-Top1 scores relative to MSE.\n\n[Uncaptioned image]\n\n![](assets/fig06.png)\n\n## Appendix H Method Complexity and Broader Applicability\n\n#### Method Complexity.\n\nOur approach requires training only two matrices, resulting in a small number of parameters to optimize. Because our method operates solely on the extracted embeddings, it does not require any knowledge of the underlying models and is therefore applicable across different objectives (see Appendix [C](https://arxiv.org/html/2509.16664v2#A3) ), architectures, and types of learned representations.\n\nIn contrast to previous methods, which either focus solely on alignment loss without any representation clustering loss (e.g., FCT [ramanujan2022forward](https://arxiv.org/html/2509.16664v2#bib.bib25) ), or require specific architectural components of the pretrained models (e.g., FastFill [jaeckle2023fastfill](https://arxiv.org/html/2509.16664v2#bib.bib22) , which requires access to the classifier of the new model), our approach addresses these limitations. Additionally, while existing baselines provide only forward adaptation, our method is designed to achieve both forward and backward compatibility, thereby addressing practical needs that prior works do not meet. For instance:\n\n- • $B_{\\perp}(\\phi_{\\text{new}})/F(\\phi_{\\text{old}})$ yields higher retrieval values compared to the baselines.\n- • $B_{\\perp}(\\phi_{\\text{new}})/\\phi_{\\text{old}}$ can be achieved exclusively by our method. From a practical standpoint, this allows compatibility to be established even before all gallery items are forward-adapted using $F$.\n- • Since our approach provides a unified representation space, even when the gallery is in a hybrid form (i.e., with some elements already adapted by $F$ and others not), using $B_{\\perp}(\\phi_{\\text{new}})$ still ensures compatibility. This can not be achieved neither by FCT [ramanujan2022forward](https://arxiv.org/html/2509.16664v2#bib.bib25) nor FastFill [jaeckle2023fastfill](https://arxiv.org/html/2509.16664v2#bib.bib22) .\n\nThe contrastive loss defined in Eq. [8](https://arxiv.org/html/2509.16664v2#S3.E8) relies on the availability of class labels to encourage embeddings from the same class to cluster together while pushing apart embeddings from different classes. In scenarios where class labels are not available, Eq. [8](https://arxiv.org/html/2509.16664v2#S3.E8) naturally reduces to an unsupervised contrastive loss, similar to the objective used for training CLIP models [radford2021learning](https://arxiv.org/html/2509.16664v2#bib.bib62) . In this unsupervised setting, we contrast pairs of representations originating from different models, and clustering-since it cannot be enforced directly-becomes a byproduct resulting from embedding similarity. Consequently, our approach is flexible and can be applied in both supervised and unsupervised training scenarios, depending on the availability of labels for the downstream task.\n\n#### Broader Applicability.\n\nAs it is demonstrated in [bansal2018can](https://arxiv.org/html/2509.16664v2#bib.bib36) , soft orthogonalization has been applied to regularize all the weights of a CNN during training, and could benefit from the increased plasticity offered by our proposed $\\lambda$-orthogonal regularization. While retrieval is the standard scenario for evaluating compatibility [shen2020towards](https://arxiv.org/html/2509.16664v2#bib.bib15) , our approach is broadly applicable to any task that requires representation adaptation, as it focuses on model alignment and clustering of learned representations. As demonstrated in our downstream task adaptation experiments (see Sec. [4.4](https://arxiv.org/html/2509.16664v2#S4.SS4) ), our regularization approach yields improved performance compared to a strict orthogonal constraint, making it a valuable approach in domain adaptation scenarios as well. Furthermore, enforcing geometrical consistency while allowing adaptability has recently been investigated in the context of continual learning for multimodal training [liu2025c](https://arxiv.org/html/2509.16664v2#bib.bib67) . However, the authors of [liu2025c](https://arxiv.org/html/2509.16664v2#bib.bib67) promote this property indirectly through a knowledge consolidation loss, rather than by directly applying a regularization constraint. This highlights both possible future research and the potential applicability of our $\\lambda$-orthogonal regularization across various areas of representation learning.\n\n## Appendix I Limitations\n\nOur approach relies on the assumption that the new model's embedding space is more expressive (e.g., higher retrieval accuracy, stronger clustering) than that of the old model. If the updated model is not comparable or lower quality, due, for instance, to domain mismatch, insufficient training data, or architectural regressions, then both the forward and backward adapters may fail to improve performance or could even degrade compatibility. In many practical systems, this assumption is justified by scaling laws [kaplan2020scaling](https://arxiv.org/html/2509.16664v2#bib.bib68) ; [nakkiran2021deep](https://arxiv.org/html/2509.16664v2#bib.bib69) ; [prato2021scaling](https://arxiv.org/html/2509.16664v2#bib.bib70) ; [caballero2023broken](https://arxiv.org/html/2509.16664v2#bib.bib71) (i.e., larger models and more data generally yield better feature representations). For downstream tasks adaptation, while our $\\lambda$-orthogonal regularized adapter shows strong performance and compatibility across various retrieval tasks, a manual tuning of the orthogonality threshold ($\\lambda$) is needed. The trade-off between preserving the original model's geometry and allowing sufficient plasticity to adapt to new data hinges critically on the choice of $\\lambda$. In practice, this hyperparameter could be selected via cross-validation or a small hyperparameter search on a held-out portion of the downstream dataset. Although we found that $\\lambda=12$ provides a good balance in our experiments (Appendix [E](https://arxiv.org/html/2509.16664v2#A5) ), different downstream domains (e.g., fine-grained vs. coarse categories) and adapted representations may require different tuning of $\\lambda$ to achieve optimal performance. Automating or self-tuning this parameter remains an open challenge.",
+      "raw": "Ethan Caballero, Kshitij Gupta, Irina Rish, and David Krueger. Broken neural scaling laws. In The Eleventh International Conference on Learning Representations, 2023.",
       "arxiv_id": "",
       "doi": ""
     }
