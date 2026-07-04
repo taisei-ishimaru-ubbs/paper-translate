@@ -20,7 +20,7 @@ Our analysis reveals a fundamental limitation of CLIP-style contrastive models: 
 
 Figure 1: Overview of mixed modality search. (a) Problem Formulation: Mixed modality search aims to retrieve relevant information from a heterogeneous corpus containing multimodal documents. This is achieved by embedding both the query and documents, followed by similarity-based retrieval. (b) Embedding Method: Unimodal documents are embedded using CLIP's modality-specific encoder, while multimodal documents are embedded via a weighted fusion of image and text features. (c) Modality Gap: CLIP's embedding space exhibits a modality gap: embeddings form distinct clusters for each modality and remain largely separated across modalities. (d) Cosine Similarity Across Modalities: Due to this modality gap, documents that share the same modality as the query tend to have higher cosine similarity scores and are ranked higher, introducing systematic ranking bias. (e) Performance on MixBench: On our newly created MixBench benchmark-specifically designed for the task of mixed modality search-GR-CLIP, a lightweight post-hoc calibration method that closes the modality gap, significantly improves performance and outperforms the state-of-the-art VLM2Vec ( vlm2vec , ) baseline with substantially lower computational cost.
 
-<!-- image -->
+![](assets/fig01.png)
 
 To address the ranking bias and fusion failure caused by the modality gap, we introduce GR-CLIP , a lightweight post-hoc calibration method that removes the modality gap in CLIP's embedding space (GR stands for gap-removed). Prior work {{CITE:35}} ; {{CITE:36}} has shown that the modality gap in CLIP-like models can be approximated by a constant vector that is orthogonal to the image and text embedding subspaces. Based on this theory, we compute the mean embeddings of all image and text data, use their difference to estimate the modality gap, and subtract this vector from all embeddings before performing retrieval. This method requires only a single pass over the dataset to compute mean embeddings and introduces negligible computational overhead.
 
@@ -66,7 +66,7 @@ We evaluate retrieval performance using NDCG@10 (Normalized Discounted Cumulativ
 
 Figure 2: Retrieval with a heterogeneous corpus. (a) Dataset Construction: We construct a heterogeneous corpus by randomly replacing text documents with either screenshot renderings of the text or paired images with probability $p$. Since the semantic content remains unchanged, a retrieval system with perfect cross-modal alignment should maintain the same performance regardless of $p$. (b) Initial Results &amp; Simulation: Surprisingly, CLIP exhibits a U-shaped performance curve as text is replaced with screenshots. We attribute this behavior to the modality gap in CLIP's embedding space. A simulation experiment that artificially penalizes cross-modal documents reproduces the same U-shaped trend, confirming our hypothesis. (c) Method - GR-CLIP: Building on prior work, we propose GR-CLIP , a simple post-hoc calibration that removes the modality gap via mean-centering of text and image embeddings. (d) Improved Results: GR-CLIP flattens the U-shaped curve and significantly improves retrieval accuracy, achieving comparable or better performance than the VLM2Vec baseline with far less compute. (e) Generalization Across Models, Datasets, and Modalities: To evaluate generalization, we test GR-CLIP across three CLIP variants, three additional datasets, and three other modalities (detailed in the Appendix). In all cases, the findings and improvements hold consistently.
 
-<!-- image -->
+![](assets/fig02.png)
 
 As discussed in § [2](https://arxiv.org/html/2507.19054v1#S2) , we begin with an ablated setting of mixed modality search: a heterogeneous corpus composed of unimodal documents (e.g., text-only or image-only; see Figure [2](https://arxiv.org/html/2507.19054v1#S3.F2) a). This setting evaluates whether a retrieval model can effectively handle the challenge of cross-modal alignment.
 
@@ -104,7 +104,7 @@ To assess the generality of our findings, we evaluate GR-CLIP across different m
 
 Figure 3: Retrieval with multimodal documents. (a) Dataset Construction: Each document contains both image and text, and embeddings are obtained by fusing modality-specific features. We vary the fusion coefficient $\alpha$ to evaluate the model's ability to integrate multimodal information. (b) Results: GR-CLIP consistently outperforms CLIP across three model variants and four datasets, demonstrating that the modality gap hinders effective multimodal fusion-and that removing it significantly enhances retrieval performance.
 
-<!-- image -->
+![](assets/fig03.png)
 
 We now consider a complementary ablation to § [3](https://arxiv.org/html/2507.19054v1#S3) , where the retrieval corpus is homogeneous, but each document is multimodal-containing both image and text modalities (Figure [3](https://arxiv.org/html/2507.19054v1#S4.F3) a). This setup evaluates the model's ability to fuse multimodal information, where image and text together should provide richer semantic cues than either modality alone.
 
@@ -126,7 +126,7 @@ Generalization across models and datasets. These findings hold consistently acro
 
 Figure 4: Mixed modality search. (a) Dataset Construction: We introduce MixBench , a benchmark where the corpus is heterogeneous and includes multimodal documents, reflecting the most realistic setting for search engines. (b) Results: Across four MixBench subsets and five CLIP variants, GR-CLIP delivers substantial improvements over the original CLIP models by eliminating the modality gap, achieving state-of-the-art performance with significantly lower computational cost.
 
-<!-- image -->
+![](assets/fig04.png)
 
 We now unify the findings from § [3](https://arxiv.org/html/2507.19054v1#S3) and § [4](https://arxiv.org/html/2507.19054v1#S4) and extend our analysis to the most realistic scenario: mixed modality search, where documents in the corpus may be purely text, purely image, or a combination of both (Figure [4](https://arxiv.org/html/2507.19054v1#S5.F4) a). This setting mirrors real-world search engine challenges, where retrieval systems must operate over heterogeneous and variably multimodal content.
 
@@ -234,7 +234,7 @@ Figure [2](https://arxiv.org/html/2507.19054v1#S3.F2) e in the main paper presen
 
 Figure 5: Generalization across modalities. GR-CLIP consistently mitigates the U-shaped curve caused by the modality gap and significantly improves performance, demonstrating strong generalizability across diverse modality pairs.
 
-<!-- image -->
+![](assets/fig05.png)
 
 ### A.2 Generalization across Metrics
 
@@ -242,11 +242,11 @@ In the main paper, we adopt NDCG@10 as the primary evaluation metric. To further
 
 Figure 6: Reproduction of Figure 2 in the main paper using NDCG@100 as the evaluation metric.
 
-<!-- image -->
+![](assets/fig06.png)
 
 Figure 7: Reproduction of Figure 3 in the main paper using NDCG@100 and Recall@1 as evaluation metrics.
 
-<!-- image -->
+![](assets/fig07.png)
 
 ## Appendix B Details of Methods
 
@@ -384,7 +384,7 @@ Rank No.1 , Cosine Similarity = 0.3403, Modality = Image ( Ground Truth )
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig08.png)
 
 \hdashrule
 
@@ -401,7 +401,7 @@ This is a list of properties and historic districts in Winchester, Massachusetts
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig09.png)
 
 This list is of that portion of the National Register of Historic Places designated in Essex County, Massachusetts. The locations of these properties and districts for which the latitude and longitude coordinates are included below, may be seen in a map. There are more than 450 designated properties in the county, including 25 that are further designated as National Historic Landmarks. The municipalities of Andover, Gloucester, Ipswich, Lawrence, Lynn, Methuen, and Salem are to be found on a separate list of the more than 200 identified here, except two properties are split between Methuen and Lawrence, and one between Lynn and Nahant; these entries appear on more than one list. This National Park Service list is complete through NPS recent listings posted August 14, 2020.
 
@@ -423,7 +423,7 @@ A long hot dog is placed in a bun on a white paper plate, which sits on a wooden
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig10.png)
 
 The warm and cozy living room is adorned with Christmas decorations, featuring a silver tinsel Christmas tree by the fireplace. The room is filled with a variety of gift-wrapped presents scattered around on the red carpet. On the mantelpiece, festive ornaments and stockings add to the holiday spirit. A comfortable beige sofa with cushions sits alongside a coffee table with magazines. The ceiling is decorated with shimmering golden stars, and a television displaying a dartboard game adds to the lived-in, festive atmosphere. The soft lighting from lamps enhances the room's inviting ambiance.
 
@@ -440,7 +440,7 @@ Rank No.1 , Cosine Similarity = 0.3012, Modality = multimodal ( Ground Truth )
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig11.png)
 
 A woman is standing in a kitchen, smiling and holding a cat. She is wearing a brown sweater and a blue plaid skirt. The kitchen has wooden cabinets and a countertop with a potted plant and a bowl of oranges. There is a sink with dishes on one side and a white refrigerator on the other. A clock is visible on the wall, and there are various items on the counter and a small rug on the floor.
 
@@ -450,7 +450,7 @@ A woman is standing in a kitchen, smiling and holding a cat. She is wearing a br
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig12.png)
 
 A person wearing glasses and a black shirt is sitting by a window with closed blinds, brushing a cat that is sitting on a purple blanket draped over a radiator. The cat is facing away, and the brush is Magenta with a grey bristle area. The floor is wooden, and the cat seems relaxed.
 
@@ -465,7 +465,7 @@ A cat is perched on the closed lid of a toilet, appearing somewhat perturbed. Th
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig13.png)
 
 A gray armchair and a black armchair are positioned next to each other in a room. A small lamp is placed on a table next to the black chair. Partially visible from behind the armchair is a cat peeking out, adding a playful touch to the setting. In front of the chairs, there is a wooden table with a remote control on it.
 
@@ -475,7 +475,7 @@ A gray armchair and a black armchair are positioned next to each other in a room
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig14.png)
 
 ### [F.3 OVEN ( oven , )](https://arxiv.org/html/2507.19054v1#bib.bib10)
 
@@ -484,13 +484,13 @@ CLIP Top-5 Results
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig15.png)
 
 Rank No.1 , Cosine Similarity = 0.5340, Modality = multimodal
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig16.png)
 
 Clérigos Church. The Clérigos Church is a Baroque church in the city of Porto, in Portugal. Its 75-meter-tall bell tower, the Torre dos Clérigos, can be seen from various points of the city and is one of its most characteristic symbols. History: The church was built for the Brotherhood of the Clérigos (Clergy) by Nicolau Nasoni, an Italian architect and painter who left an extensive body of work in the north of Portugal during the 18th century. Construction of the church began in 1732 and was finished in 1750, while the bell tower and the monumental divided stairway...
 
@@ -500,7 +500,7 @@ Clérigos Church. The Clérigos Church is a Baroque church in the city of Porto,
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig17.png)
 
 \hdashrule
 
@@ -508,7 +508,7 @@ Clérigos Church. The Clérigos Church is a Baroque church in the city of Porto,
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig18.png)
 
 St. Peter's Basilica. The Papal Basilica of Saint Peter in the Vatican, or simply Saint Peter's Basilica, is a church built in the Renaissance style located in Vatican City. It was initially planned by Pope Nicholas V and then Pope Julius II to replace the aging Old St. Peter's Basilica, which was built in the fourth century by Roman emperor Constantine the Great. Construction of the present basilica began on 18 April 1506 and was completed on 18 November 1626. Designed principally by Donato Bramante, Michelangelo, Carlo Maderno, and Gian Lorenzo Bernini...
 
@@ -518,7 +518,7 @@ St. Peter's Basilica. The Papal Basilica of Saint Peter in the Vatican, or simpl
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig19.png)
 
 Coit Tower. Coit Tower is a 210-ft tower in the Telegraph Hill neighborhood of San Francisco, California, offering panoramic views over the city and the bay. Built between 1932 and 1933 using Lillie Hitchcock Coit's bequest to beautify the city, it was added to the National Register of Historic Places in 2008. The unpainted reinforced concrete tower, designed by Arthur Brown, Jr. and Henry Howard, features American fresco mural paintings by 25 different onsite artists...
 
@@ -528,7 +528,7 @@ Coit Tower. Coit Tower is a 210-ft tower in the Telegraph Hill neighborhood of S
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig20.png)
 
 Ilinden (Memorial). Also known as Makedonium, Ilinden is a monument in Kruševo, North Macedonia. Officially opened on August 2, 1974, it commemorates the Second Session of the Anti-fascist Assembly and the 1903 Ilinden uprising. Designed by Jordan and Iskra Grabuloski, it honors fighters in the National Liberation Struggle from 1941-1944. Description. The monument covers 12 acres and features a rounded architectural style...
 
@@ -541,7 +541,7 @@ Canadian National Vimy Memorial. The Canadian National Vimy Memorial is a war me
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig21.png)
 
 \hdashrule
 
@@ -549,7 +549,7 @@ Canadian National Vimy Memorial. The Canadian National Vimy Memorial is a war me
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig22.png)
 
 Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral or in full Mary, Queen of the World and St. James the Great Cathedral is a minor basilica in Montreal, Quebec, Canada, and the seat of the Roman Catholic archdiocese of Montreal. It is the third largest church in Quebec after Saint Joseph's Oratory (also in Montreal) and the Basilica of Sainte-Anne-de-Beaupré east of Quebec City. The building is 101 m (333 ft) in length, 46 m (150 ft) in width, and a maximum height of 77 m (252 ft) at the cupola, the diameter of which is 23 m (75 ft).
 
@@ -559,7 +559,7 @@ Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral or in ful
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig23.png)
 
 \hdashrule
 
@@ -567,7 +567,7 @@ Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral or in ful
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig24.png)
 
 Sydney Town Hall. The Sydney Town Hall is a late 19th-century heritage-listed town hall building in the city of Sydney, the capital city of New South Wales, Australia, housing the chambers of the Lord Mayor of Sydney, council offices, and venues for meetings and functions. It is located at 483 George Street, in the Sydney central business district opposite the Queen Victoria Building and alongside St Andrew's Cathedral. Sited above the Town Hall station and between the city shopping and entertainment precincts, the steps of the Town Hall are a popular meeting place. It was designed by John H. Wilson, Edward Bell, Albert Bond.
 
@@ -603,7 +603,7 @@ Rank No.1 , Cosine Similarity = 0.4265, Modality = image ( Ground truth )
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig25.png)
 
 \hdashrule
 
@@ -617,7 +617,7 @@ The image shows a former general, who has been sentenced to life in prison for h
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig26.png)
 
 MPs are raising concerns about the lack of access to inpatient mental health services for young people, highlighting cases like Nikki Mattocks, who faced significant delays and inadequate support. Despite her struggles with severe mental health issues, she experienced a fragmented care system, resulting in repeated emergency visits and admissions to distant psychiatric units. This lack of continuity and proximity to family exacerbated her condition. The parliamentary report underscores the urgent need for early intervention and better resource allocation to prevent further harm to vulnerable youths.
 

@@ -14,7 +14,7 @@ Architectural changes and additional losses to ensure compatibility can reduce t
 
 Figure 1 : Overview of the proposed approach for achieving representation compatibility during retrieval system updates. A newly independently trained model is aligned to the old representation space via an orthogonal transformation $B_{\perp}$, which preserves geometric structure. A forward transformation $F$ maps the old representations to the backward-aligned space of the new model. Only the transformation parameters are optimized during training, while model parameters remain fixed.
 
-<!-- image -->
+![](assets/fig01.png)
 
 Recent studies have focused on affine and orthogonal mappings to adapt the latent space of a base model (source space) to that of another model (target space), using specific data points as reference {{CITE:30}} ; {{CITE:28}} ; {{CITE:31}} . Within the plasticity-stability paradigm {{CITE:32}} , affine mappings offer high adaptability (plasticity) but may alter the source space's configuration {{CITE:33}} ; {{CITE:34}} . Conversely, orthogonal mappings maintain the source space's geometric structure (stability), though they offer no adaptability to a different distribution. To preserve the geometric structure of the source space, particularly when it is more informative than the target space {{CITE:28}} ; {{CITE:35}} , while enabling adaptability, we propose a novel regularization term. Different from previous work {{CITE:36}} , our term constrains a transformation to remain within a specified proximity to the orthogonality condition, controlled by a hyperparameter $\lambda$.
 
@@ -35,7 +35,7 @@ To achieve compatible representations between independently trained models, we i
 
 (a) Value of Eq. 6 at different $\lambda$.
 
-<!-- image -->
+![](assets/fig02.png)
 
 ### 3.1 Backward-Compatible Representations Definition
 
@@ -89,7 +89,7 @@ where $\sigma(\cdot)$ is the sigmoid function, and $\alpha$ is a scaling factor.
 
 (a) Source space
 
-<!-- image -->
+![](assets/fig03.png)
 
 The sigmoid function acts as a continuous switch that gradually turns the regularization term on and off near the value of $\lambda$, as shown in Fig. [2(a)](https://arxiv.org/html/2509.16664v2#S3.F2.sf1) . Instead, the scaling factor $\alpha$ controls the steepness of the sigmoid function, which in turn determines how sharply the regularization is activated or deactivated as the value of $\|WW^{T}-I\|_{F}$ approaches the threshold $\lambda$. In Fig. [2(b)](https://arxiv.org/html/2509.16664v2#S3.F2.sf2) , we illustrate different levels of steepness applied to the regularization loss. As $\alpha$ increases, its behavior converges more closely to the Heaviside step function.
 
@@ -162,7 +162,7 @@ Results for compatibility on downstream tasks are reported in Tab. [2](https://a
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig04.png)
 
 ### 4.5 Backfilling Results
 
@@ -272,7 +272,7 @@ We further extend our analysis of the Independently Pretrained Models Adapted on
 
 Figure 6 : Ablation on our $\lambda$-orthogonal regularization on CUB dataset. Displayed are the compatibility metrics on CUB and the zero-shot (ZS) improvement on ImageNet1K at different value of $\lambda$. Results correspond to those in Tab. 8 .
 
-<!-- image -->
+![](assets/fig05.png)
 
 In our experiments, we select $\lambda$ to maximize adaptability to downstream tasks while preserving the pre-trained model's performance on its original training dataset, ImageNet1K. To illustrate the impact of our approach, Tab. [8](https://arxiv.org/html/2509.16664v2#A5.T8) reports the CMC-Top1 scores obtained by applying our proposed $\lambda$-orthogonal regularizer to the new pre-trained model. The results, also reported in Fig. [6](https://arxiv.org/html/2509.16664v2#A5.F6) , indicate that increasing $\lambda$ enhances the performance of the new model's representations on the downstream task.
 
@@ -296,7 +296,7 @@ Our proposed partial backfilling strategy is guided by a distance metric $d$, wh
 
 [Uncaptioned image]
 
-<!-- image -->
+![](assets/fig06.png)
 
 ## Appendix H Method Complexity and Broader Applicability
 
