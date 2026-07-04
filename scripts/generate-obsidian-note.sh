@@ -120,6 +120,7 @@ tmp="$out.tmp.$$"
   links=()
   [[ -f "$dir/paper.pdf" ]] && links+=("[原文PDF]($rel/paper.pdf)")
   [[ -f "$dir/paper_ja.pdf" ]] && links+=("[日本語PDF]($rel/paper_ja.pdf)")
+  [[ -f "$dir/${slug}_ja.md" ]] && links+=("[[${slug}_ja|日本語MD]]")
   if [[ ${#links[@]} -gt 0 ]]; then
     line="${links[0]}"
     for link in "${links[@]:1}"; do line+=" · $link"; done

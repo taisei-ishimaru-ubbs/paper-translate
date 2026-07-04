@@ -4,12 +4,28 @@
 # Drop folder for manually obtained PDFs (successfully imported files are moved).
 inbox/
 
-# Python venv (PyMuPDF for figure cropping)
+# Python venv (PyMuPDF, Docling, LiteLLM, BeautifulSoup4) and bytecode cache
 .venv/
+__pycache__/
+*.pyc
 
-# pdf2zh intermediates
+# Local secrets (GEMINI_API_KEY etc.). Never commit.
+.env.local
+
+# pdf2zh intermediates (legacy)
 *-dual.pdf
 *-mono.pdf
+
+# Markdown translation pipeline: fetched HTML/images, per-chunk translation
+# cache, and stage-retry bookkeeping are regenerable and can be large;
+# paper_en.md, paper_ja_raw.md and bibs.json (siblings of these, inside
+# .translate/) are still committed.
+papers/**/.translate/source/
+papers/**/.translate/chunks/
+papers/**/.translate/state.json
+papers/**/.translate/failed
+papers/**/.translate/.failcount-*
+papers/**/.translate/translate.log
 
 # Obsidian local app state is machine-specific. Keep gallery.md (root),
 # per-paper notes, snippets, app.json, community-plugins.json, appearance.json.

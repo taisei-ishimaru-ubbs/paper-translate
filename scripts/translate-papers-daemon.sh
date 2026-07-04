@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Scan papers/ for untranslated PDFs and translate them via pdf2zh + Ollama.
+# Scan papers/ for untranslated PDFs and translate them via
+# translate-paper.sh (ar5iv/arXiv-HTML-or-PDF -> Docling Markdown -> LiteLLM
+# Japanese translation; see translate-paper.sh). Summaries still use Ollama;
+# see summarize-paper.sh.
 set -euo pipefail
 
 export PATH="$PATH:/Users/ishimarutaisei/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
@@ -11,8 +14,16 @@ LOG_DIR="$ROOT/.logs"
 LOG_FILE="$LOG_DIR/translate.log"
 LOCK_FILE="/tmp/translate_papers.lock"
 
+# Local secrets (OPENAI_API_KEY/GEMINI_API_KEY etc.) are kept out of git; see
+# .env.local.example. `set -a` exports everything sourced so it reaches
+# translate-paper.sh, which runs as a separate bash/python process tree.
+set -a
+[[ -f "$ROOT/.env.local" ]] && source "$ROOT/.env.local"
+set +a
+
 OLLAMA_HOST="${OLLAMA_HOST:-http://localhost:11434}"
 OLLAMA_MODEL="${OLLAMA_MODEL:-minimax-m3:cloud}"
+GEMINI_MODEL="${GEMINI_MODEL:-gemini-3.1-flash-lite}"
 
 mkdir -p "$LOG_DIR"
 exec >> "$LOG_FILE" 2>&1
@@ -29,8 +40,8 @@ trap 'rmdir "$LOCK_FILE" 2>/dev/null || true' EXIT
 
 log "=== translate-papers-daemon start ==="
 
-if ! command -v pdf2zh >/dev/null 2>&1; then
-  log "ERROR: pdf2zh not found in PATH ($PATH)"
+if [[ ! -x "$ROOT/.venv/bin/python" ]] || ! "$ROOT/.venv/bin/python" -c "import docling, litellm, bs4" 2>/dev/null; then
+  log "ERROR: docling/litellm/beautifulsoup4 not available in $ROOT/.venv. Run scripts/setup.sh"
   exit 1
 fi
 
@@ -77,18 +88,14 @@ did_work=0
 for pdf in "${papers[@]}"; do
   dir="$(dirname "$pdf")"
 
-  # 1. Translate body PDF if not already done.
-  if [[ ! -f "$dir/paper_ja.pdf" ]]; then
+  # 1. Translate to Markdown unless this paper already has a translation,
+  #    either the new Markdown output or the legacy pdf2zh PDF (papers
+  #    translated before this pipeline existed are never backfilled).
+  if [[ ! -f "$dir/paper_ja.pdf" ]] && ! compgen -G "$dir/*_ja.md" > /dev/null; then
     did_work=1
     log "translating: $pdf"
-    OLLAMA_HOST="$OLLAMA_HOST" OLLAMA_MODEL="$OLLAMA_MODEL" \
-      pdf2zh "$pdf" -li en -lo ja -s ollama -t 1 -o "$dir"
-    if [[ -f "$dir/paper-mono.pdf" ]]; then
-      mv "$dir/paper-mono.pdf" "$dir/paper_ja.pdf"
-      log "translated: $dir/paper_ja.pdf"
-    else
-      log "WARN: paper-mono.pdf not found after translation for $pdf"
-    fi
+    LOCAL_MAP_FILE="$local_map" bash "$SCRIPT_DIR/translate-paper.sh" "$dir" \
+      || log "WARN: translation failed for $dir"
   fi
 
   # 2. Generate a Japanese summary if not already done (independent of translation).
@@ -116,17 +123,24 @@ for pdf in "${papers[@]}"; do
   # 5. Rebuild this paper's Obsidian note immediately after its steps complete.
   LOCAL_MAP_FILE="$local_map" \
     bash "$SCRIPT_DIR/generate-obsidian-note.sh" "$dir" --force || log "WARN: note failed for $dir"
+  LOCAL_MAP_FILE="$local_map" \
+    "$ROOT/.venv/bin/python" "$SCRIPT_DIR/link_citations.py" "$dir" \
+    || log "WARN: link_citations failed for $dir"
 
   # 6. Refresh by-title symlink tree so the new paper is reachable right away.
   bash "$SCRIPT_DIR/update-by-title.sh" || log "WARN: update-by-title failed"
 done
 
 # A newly added paper can turn an existing external reference into a local
-# wikilink, so refresh all notes once after the full batch is known.
+# wikilink (in notes) or an in-library citation link (in translated
+# Markdown), so refresh both once after the full batch is known.
 for pdf in "${papers[@]}"; do
   dir="$(dirname "$pdf")"
   LOCAL_MAP_FILE="$local_map" \
     bash "$SCRIPT_DIR/generate-obsidian-note.sh" "$dir" --force || log "WARN: note refresh failed for $dir"
+  LOCAL_MAP_FILE="$local_map" \
+    "$ROOT/.venv/bin/python" "$SCRIPT_DIR/link_citations.py" "$dir" \
+    || log "WARN: link_citations refresh failed for $dir"
 done
 rm -f "$local_map"
 
