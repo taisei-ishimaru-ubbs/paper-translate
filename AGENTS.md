@@ -89,13 +89,17 @@ failed            # 同一ステージがTRANSLATE_MAX_FAILURES回失敗した�
      壊れていれば1回リトライ、それでも失敗したチャンクは英語原文のまま採用してWARNログを出す。チャンクは`.translate/chunks/`に
      ハッシュ付きでキャッシュされ、中断・再実行時は完了分を再送信しない。**1チャンクでも失敗すると`paper_ja_raw.md`は書き出さず**、
      次回デーモン実行時に失敗分だけ再試行させる。
+     OpenAI呼び出し前にOrganization Usage APIのUTC当日実績とrepo-local予約量を確認し、いずれかが
+     `OPENAI_DAILY_TOKEN_LIMIT`（既定240万）を超える場合、またはUsage APIを読めない場合はOpenAIを送信せずGeminiへ切り替える。
+     状態は既定で`~/.local/state/ubbs/paper-translate-openai-quota.json`に保存する。
   4. `link_citations.py`: `paper_ja_raw.md`のマーカーを、`bibs.json`＋この論文の`references.json`＋ライブラリ全体の識別子→slugマップ
      （`LOCAL_MAP_FILE`）を突き合わせてローカル論文の`[[slug|N]]`に、無ければ同一ファイル内`[[#^ref-N|N]]`ブロック参照に描画し、
      `<dir>/<snake(title)>_ja.md`を生成する。raw を書き換えないため何度でも再描画でき、新規論文追加時にデーモンが全論文を再描画すると
      外部参照がローカルwikilinkへ昇格する（ノート再生成と同じ仕組み）。
   - 同一ステージが`TRANSLATE_MAX_FAILURES`（既定3）回連続で失敗すると`.translate/failed`を置き、それ以降は`--force`を付けるまでスキップする。
   - **既存論文はバックフィルしない**: `paper_ja.pdf`（旧pdf2zh成果物）または`<snake(title)>_ja.md`が既にあればこの4段全体をスキップする。
-  - `OPENAI_API_KEY`/`GEMINI_API_KEY`は少なくとも一方が必要。両方とも git 管理外の `.env.local`（`.env.local.example` を参照）に置き、daemon が起動時に読み込む。
+  - `OPENAI_API_KEY`/`GEMINI_API_KEY`は少なくとも一方が必要。Usage API用の`OPENAI_ADMIN_API_KEY`は
+    `api.usage.read`権限だけを持たせる。すべて git 管理外の `.env.local`（`.env.local.example` を参照）に置き、daemon が起動時に読み込む。
   - Docling・LiteLLM・BeautifulSoup4・PyMuPDF は `.venv`（`setup.sh`が導入）で実行する。Doclingは torch を含み初回インストールが重い。
     LaTeX主経路の変換には `pandoc` が別途必要（`brew install pandoc`）。無い場合 tex 変換は失敗し HTML/PDF 経路へフォールバックする。
 - 要約は `summarize-paper.sh`（pdftotext → Ollama）→ `summary.md`（arq view が読む名前）。

@@ -38,6 +38,21 @@ import sys
 import time
 from pathlib import Path
 
+try:
+    from .openai_daily_quota import (
+        DailyQuotaGuard,
+        estimate_request_tokens,
+        is_openai_model,
+        response_total_tokens,
+    )
+except ImportError:  # Direct script execution.
+    from openai_daily_quota import (
+        DailyQuotaGuard,
+        estimate_request_tokens,
+        is_openai_model,
+        response_total_tokens,
+    )
+
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from convert_to_markdown import REFERENCES_HEADING  # noqa: E402
 
@@ -137,7 +152,7 @@ def redact_secrets(text: str) -> str:
     return _MASKED_KEY_RE.sub("<redacted-key>", text)
 
 
-def call_llm(chunk: str, primary: str, fallback: str, retry_hint: str = "") -> str:
+def call_llm(chunk: str, primary: str, fallback: str, log, retry_hint: str = "") -> str:
     import litellm
 
     # LiteLLM's own logger prints errors (API key echoes included) straight to
@@ -148,19 +163,41 @@ def call_llm(chunk: str, primary: str, fallback: str, retry_hint: str = "") -> s
         logging.getLogger(name).setLevel(logging.CRITICAL)
 
     user_content = chunk if not retry_hint else f"{retry_hint}\n\n---\n\n{chunk}"
-    response = litellm.completion(
-        model=primary,
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": user_content},
-        ],
-        fallbacks=[fallback],
-        num_retries=2,
-        # Japanese text plus reasoning-model "thinking" tokens can easily
-        # exceed a chunk's source length; leave generous headroom so the
-        # visible answer is never truncated for token-budget reasons.
-        max_tokens=16000,
-    )
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        {"role": "user", "content": user_content},
+    ]
+
+    def complete(model: str):
+        guard = DailyQuotaGuard("paper-translate", model) if is_openai_model(model) else None
+        reservation = None
+        settled = False
+        try:
+            if guard is not None:
+                estimated = estimate_request_tokens(litellm, model, messages, max_tokens=16000)
+                reservation = guard.reserve(estimated)
+            response = litellm.completion(
+                model=model,
+                messages=messages,
+                num_retries=2,
+                # Japanese text plus reasoning-model "thinking" tokens can easily
+                # exceed a chunk's source length; leave generous headroom so the
+                # visible answer is never truncated for token-budget reasons.
+                max_tokens=16000,
+            )
+            if reservation is not None:
+                guard.settle(reservation, response_total_tokens(response, reservation.estimated_tokens))
+                settled = True
+            return response
+        finally:
+            if reservation is not None and not settled:
+                guard.release(reservation)
+
+    try:
+        response = complete(primary)
+    except Exception as exc:
+        log(f"WARN: primary model {primary} unavailable ({exc}); using {fallback}")
+        response = complete(fallback)
     return response.choices[0].message.content or ""
 
 
@@ -169,7 +206,7 @@ def translate_chunk(chunk: str, primary: str, fallback: str, log) -> tuple[str, 
     being used as a placeholder and should NOT be cached, so the next run
     retries the real translation instead of freezing the fallback forever."""
     try:
-        translated = call_llm(chunk, primary, fallback)
+        translated = call_llm(chunk, primary, fallback, log)
     except Exception as e:
         log(f"WARN: translation call failed, keeping English: {e}")
         return chunk, False
@@ -183,6 +220,7 @@ def translate_chunk(chunk: str, primary: str, fallback: str, log) -> tuple[str, 
             chunk,
             primary,
             fallback,
+            log,
             retry_hint=(
                 "Your previous translation altered one of the protected markers/links/math/code."
                 " Redo the translation, preserving {{CITE:N}}, {{BIBSTART:N}}, image references,"

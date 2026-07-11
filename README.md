@@ -74,8 +74,11 @@ gallery.md                       # Dataview ギャラリー
 | `OLLAMA_HOST` | `http://localhost:11434` | Ollama エンドポイント |
 | `OLLAMA_MODEL` | `minimax-m3:cloud` | 要約モデル |
 | `OPENAI_API_KEY` / `GEMINI_API_KEY` | 未設定 | 翻訳用。少なくとも一方が必須 |
+| `OPENAI_ADMIN_API_KEY` | 未設定 | Usage API読取専用。未設定・権限不足時はOpenAIを使わずGeminiへフォールバック |
 | `TRANSLATE_MODEL` | `openai/gpt-5.6-terra` | 翻訳の第一候補モデル（LiteLLM形式） |
 | `TRANSLATE_FALLBACK_MODEL` | `gemini/gemini-3.1-flash-lite` | 第一候補が失敗した場合のフォールバック |
+| `OPENAI_DAILY_TOKEN_LIMIT` | `2400000` | Usage API実績とローカル予約のUTC日次上限。`0`で明示的に無効化 |
+| `OPENAI_DAILY_QUOTA_STATE` | `~/.local/state/ubbs/paper-translate-openai-quota.json` | リポジトリ独立の使用量・予約状態 |
 | `TRANSLATE_SLEEP` | `5` | 翻訳チャンク間の待機秒数 |
 | `TRANSLATE_MAX_FAILURES` | `3` | 同一ステージがこの回数連続失敗すると`.translate/failed`を書いてスキップ |
 | `PAPER_METADATA_MAX_CHARS` | `20000` | 手動PDFのメタデータ推定に渡す最大文字数 |
@@ -83,6 +86,9 @@ gallery.md                       # Dataview ギャラリー
 | `PAPER_LIBRARY_AUTO_PUSH` | `1` | `0` で自動 commit/push を無効化 |
 | `PAPER_LIBRARY_GIT_REMOTE` | `origin` | push 先 remote |
 | `PAPER_LIBRARY_GIT_BRANCH` | 現在のブランチ | push 先ブランチ（detached HEAD 時は指定必須） |
+
+日次使用量は `scripts/openai_daily_quota.py --repo paper-translate` で確認できる。Organization Ownerが
+`api.usage.read` 権限を持つ Admin API Key を作成し、推論用キーとは分離して設定すること。
 
 その他のチューニング変数（`S2_*` / `FIGURE_*` / `SUMMARY_MAX_CHARS` など）は `scripts/com.taisei.translate-papers.plist` の `EnvironmentVariables` で設定できる。
 
