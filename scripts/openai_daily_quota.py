@@ -7,9 +7,11 @@ import argparse
 import fcntl
 import json
 import os
+import sys
 import tempfile
 import time
 import uuid
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -211,21 +213,25 @@ class DailyQuotaGuard:
             if os.path.exists(temp_name):
                 os.unlink(temp_name)
 
-    def _locked_state(self):
+    @contextmanager
+    def _locked(self):
         self.state_path.parent.mkdir(parents=True, exist_ok=True, mode=0o700)
         lock_path = Path(str(self.state_path) + ".lock")
         lock_handle = lock_path.open("a+", encoding="utf-8")
         os.chmod(lock_path, 0o600)
         fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
-        return lock_handle
+        try:
+            yield
+        finally:
+            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
+            lock_handle.close()
 
     def reserve(self, estimated_tokens: int) -> Reservation | None:
         if self.limit == 0 or not is_openai_model(self.model):
             return None
         global_used = self.usage_reader(self.model)
         day, _, _ = utc_day(self.now())
-        lock_handle = self._locked_state()
-        try:
+        with self._locked():
             state = self._load_state(day)
             local_used = int(state.get("used_tokens", 0))
             active = sum(int(item.get("tokens", 0)) for item in state["reservations"].values())
@@ -243,46 +249,31 @@ class DailyQuotaGuard:
             }
             self._write_state(state)
             return Reservation(reservation_id, estimated_tokens, global_used, local_used + active)
-        finally:
-            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-            lock_handle.close()
 
     def settle(self, reservation: Reservation | None, actual_tokens: int) -> None:
         if reservation is None:
             return
         day, _, _ = utc_day(self.now())
-        lock_handle = self._locked_state()
-        try:
+        with self._locked():
             state = self._load_state(day)
             if state["reservations"].pop(reservation.reservation_id, None) is not None:
                 state["used_tokens"] = int(state.get("used_tokens", 0)) + max(0, actual_tokens)
                 self._write_state(state)
-        finally:
-            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-            lock_handle.close()
 
     def release(self, reservation: Reservation | None) -> None:
         if reservation is None:
             return
         day, _, _ = utc_day(self.now())
-        lock_handle = self._locked_state()
-        try:
+        with self._locked():
             state = self._load_state(day)
             if state["reservations"].pop(reservation.reservation_id, None) is not None:
                 self._write_state(state)
-        finally:
-            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-            lock_handle.close()
 
     def status(self) -> dict[str, Any]:
         global_used = self.usage_reader(self.model) if self.limit else 0
         day, _, _ = utc_day(self.now())
-        lock_handle = self._locked_state()
-        try:
+        with self._locked():
             state = self._load_state(day)
-        finally:
-            fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-            lock_handle.close()
         active = sum(int(item.get("tokens", 0)) for item in state["reservations"].values())
         local_used = int(state.get("used_tokens", 0))
         return {
@@ -300,14 +291,14 @@ class DailyQuotaGuard:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("status", nargs="?", default="status")
+    parser.add_argument("status", nargs="?", choices=["status"], default="status")
     parser.add_argument("--repo", required=True)
     parser.add_argument("--model", default="openai/gpt-5.6-terra")
     args = parser.parse_args()
     try:
         print(json.dumps(DailyQuotaGuard(args.repo, args.model).status(), ensure_ascii=False, indent=2))
     except QuotaError as exc:
-        print(f"openai-quota: {exc}", file=__import__("sys").stderr)
+        print(f"openai-quota: {exc}", file=sys.stderr)
         return 1
     return 0
 
