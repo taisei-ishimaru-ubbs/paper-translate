@@ -8,7 +8,7 @@ ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 PAPERS_DIR="$ROOT/papers"
 LOG_DIR="$ROOT/.logs"
 
-echo "=== arq + pdf2zh setup ==="
+echo "=== arq + Markdown translation setup ==="
 
 mkdir -p "$PAPERS_DIR" "$ROOT/inbox" "$LOG_DIR"
 echo "created: $PAPERS_DIR and $ROOT/inbox"
@@ -35,6 +35,10 @@ if ! "$ROOT/.venv/bin/python" -c "import fitz, docling, litellm, tenacity, bs4" 
 fi
 echo "PyMuPDF: $("$ROOT/.venv/bin/python" -c 'import fitz; print(fitz.pymupdf_version)')"
 echo "Docling: $("$ROOT/.venv/bin/python" -c 'import docling; print(docling.__version__)' 2>/dev/null || echo installed)"
+
+if ! command -v pandoc >/dev/null 2>&1; then
+  echo "WARN: pandoc is unavailable; LaTeX papers will fall back to HTML/PDF conversion" >&2
+fi
 
 if [[ "${PREFETCH_DOCLING_MODELS:-0}" == "1" ]]; then
   echo "prefetching Docling PDF pipeline models ..."

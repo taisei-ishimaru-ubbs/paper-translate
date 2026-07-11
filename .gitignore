@@ -21,6 +21,7 @@ __pycache__/
 # paper_en.md, paper_ja_raw.md and bibs.json (siblings of these, inside
 # .translate/) are still committed.
 papers/**/.translate/source/
+papers/**/.translate/source-tex/
 papers/**/.translate/chunks/
 papers/**/.translate/state.json
 papers/**/.translate/failed

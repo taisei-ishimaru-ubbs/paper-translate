@@ -272,6 +272,7 @@ def main() -> int:
         md, doc = convert_pdf(paper_dir)
 
     md = replace_image_placeholders(md, doc, paper_dir / "assets")
+    md = restore_math_entities(md)
     final_md, style, bibs = annotate_citations(md)
 
     translate_dir.mkdir(parents=True, exist_ok=True)

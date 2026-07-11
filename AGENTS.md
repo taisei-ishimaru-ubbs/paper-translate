@@ -2,7 +2,7 @@
 
 ## 目的
 
-arq で取得した arXiv 論文と手動取得PDFを、ar5iv/arXiv HTML（無ければPDF）→ Docling → LiteLLM 翻訳で
+arq で取得した arXiv 論文と手動取得PDFを、LaTeXソース(e-print)→pandoc（無ければ arXiv HTML/PDF→Docling）→ LiteLLM 翻訳で
 日本語 Markdown 化し、Ollama で要約するための基盤。
 `uchidalab/paper-translate` の fork として、スクリプト・設定・launchd agent・論文ライブラリを管理する。
 論文本体と生成画像は `papers/` に置いて git 管理し、PDF/PNG は Git LFS で追跡する。
@@ -15,9 +15,10 @@ scripts/
   translate-papers-watch.sh    # watchexec ラッパー
   commit-paper-library.sh      # 論文ライブラリだけを安全に自動 commit/push
   translate-paper.sh           # 1論文分の翻訳オーケストレータ（fetch→convert→translate→render、各段冪等）
-  fetch-paper-source.sh        # arxiv.org/html → ar5iv の順でHTML取得・画像ローカル化
+  fetch-paper-source.sh        # e-print(LaTeX) → arxiv.org/html → ar5iv の順で取得。tarball展開または画像ローカル化
+  convert_tex_to_markdown.py   # LaTeXソース → pandoc → $...$数式付き英語MD + bibs.json（主経路、.venv）
   localize_html_images.py      # HTML内<img>をダウンロードしローカル相対パスに書換（.venv）
-  convert_to_markdown.py       # HTML/PDF → Docling → 引用マーカー付き英語MD + bibs.json（.venv）
+  convert_to_markdown.py       # HTML/PDF → Docling → 引用マーカー付き英語MD + bibs.json（フォールバック、.venv）
   translate_markdown.py        # 英語MD → LiteLLM(openai→gemini) → 日本語MD（チャンク永続化・再開可、.venv）
   link_citations.py            # 引用マーカーをwikilink/ブロック参照に描画（冪等、.venv）
   import-paper.sh              # 手動PDFをメタデータ付きでpapers/manualへ取り込む
@@ -55,10 +56,11 @@ gallery.md                     # ルート直下の Dataview ギャラリー（�
 ### `<paper_dir>/.translate/`（翻訳パイプラインの中間状態）
 
 ```
-paper_en.md       # Docling変換直後の英語Markdown（{{CITE:N}}/{{BIBSTART:N}}マーカー付き。追跡）
+paper_en.md       # pandoc/Docling変換直後の英語Markdown（{{CITE:N}}/{{BIBSTART:N}}マーカー付き。追跡）
 paper_ja_raw.md   # 翻訳済みMarkdown（マーカーは未解決のまま保持。追跡）
 bibs.json         # 参考文献リストから抽出した{N: {raw, arxiv_id, doi}}（追跡）
-state.json        # HTML取得元の判定結果 {source, url, checked_at}（git管理外・再判定不要のキャッシュ）
+state.json        # 取得元の判定結果 {source: latex|arxiv_html|ar5iv|pdf_only, url, checked_at}（git管理外・再判定不要のキャッシュ）
+source-tex/       # 展開したe-print(LaTeXソース)一式（git管理外・再取得すれば復元可能）
 source/           # 取得したHTML原文＋ローカル化画像（git管理外・再取得すれば復元可能）
 chunks/NNN.json   # 翻訳チャンクごとのキャッシュ（ハッシュ照合で再開・再翻訳を判定、git管理外）
 failed            # 同一ステージがTRANSLATE_MAX_FAILURES回失敗した印（git管理外。削除か--forceで再試行）
@@ -66,30 +68,40 @@ failed            # 同一ステージがTRANSLATE_MAX_FAILURES回失敗した�
 
 ## 翻訳・要約・引用・図
 
-- 本文翻訳は `translate-paper.sh` が統括する4段パイプライン（各段は出力ファイルの有無で判定する冪等ステップ）:
-  1. `fetch-paper-source.sh`: arXiv IDがあれば `arxiv.org/html/<id>` → `ar5iv.labs.arxiv.org/html/<id>` の順でHTML化済み本文を探す
-     （`class="ltx_document"` の有無で判定）。無ければ `pdf_only` として `paper.pdf` を使う。判定結果は `.translate/state.json` にキャッシュされ、
-     `--force` を付けない限り再判定しない。HTML採用時は画像もダウンロードしローカル参照に書き換える（`localize_html_images.py`）。
-  2. `convert_to_markdown.py`: Docling で HTML/PDF を Markdown 化。HTML経由は数式`<math alttext>`をLaTeXへ事前置換し
-     `escape_underscores=False`で出力（Doclingの数式二重出力・アンダースコア破壊を回避）。図はDoclingの`PictureItem`から
-     個別に保存し`<dir>/assets/figNN.png`に配置。引用は「`[label](#bib.bibN)`形式のリンクをDoclingが保持していればそれを機械的に
-     `{{CITE:N}}`へ変換」「無ければ`[12]`等のブラケット数字を参考文献リストと突き合わせて`{{CITE:N}}`へ変換（PDF経由のフォールバック、
-     著者年引用はスコープ外で安全にノーオプ）」の2方式。参考文献リストの各項目には`{{BIBSTART:N}}`を付与し、生テキスト・arXiv ID・DOIを
-     `.translate/bibs.json`に保存（この論文自身の`references.json`とのマッチングは次段のlink_citations.pyが行う）。
+- 本文翻訳は `translate-paper.sh` が統括する4段パイプライン fetch→convert→translate→render（各段は出力ファイルの有無で判定する冪等ステップ。convert は `state.source` で tex/HTML 経路に分岐）:
+  1. `fetch-paper-source.sh`: arXiv IDがあれば **`arxiv.org/e-print/<id>`（LaTeXソース）を最優先**で取り、tarball を `.translate/source-tex/`
+     へ展開して main tex（`\documentclass`＋`\begin{document}`）と番号付き参考文献（`.bbl` か inline `thebibliography`）が揃えば `latex` を採用する。
+     使えなければ `arxiv.org/html/<id>` → `ar5iv.labs.arxiv.org/html/<id>`（`class="ltx_document"` で判定）→ `pdf_only` の順にフォールバックする。
+     判定結果は `.translate/state.json` にキャッシュされ、`--force` を付けない限り再判定しない。HTML採用時は画像もローカル化する（`localize_html_images.py`）。
+     `PAPER_FETCH_NO_TEX=1` で e-print を飛ばして HTML/PDF 経路を強制でき、次段の tex 変換失敗時のフォールバックに使う。
+  2. **変換（`state.source` で分岐）**:
+     - `source==latex` → `convert_tex_to_markdown.py`（主経路）: main tex を平坦化し、`\cite` を `.bbl` の `\bibitem` 出現順（unsrt=引用順）で採番して
+       `{{CITE:N}}` に置換、figure 環境は `\includegraphics` を PyMuPDF/コピーで `<dir>/assets/figNN.png` 化し画像マーカー＋caption 段落に事前置換
+       （caption 内数式を保つため）、`pandoc -f latex -t markdown` で **数式を素の `$...$`/`$$...$$`** に保って変換する。参考文献は `.bbl` から `{{BIBSTART:N}}`
+       付きで自前生成。pandoc 失敗・本文が短すぎる等なら exit≠0 で `translate-paper.sh` が HTML/PDF 経路へフォールバックする。
+     - それ以外 → `convert_to_markdown.py`（フォールバック）: Docling で HTML/PDF を Markdown 化。HTML経由は `<math alttext>` を LaTeX へ事前置換し、
+       番号付き数式の `<table class="ltx_equation">` は丸ごと `$$...$$` 段落へ置換（テーブル化に伴う `|`/`<` のエンティティ破壊を回避）、残存エンティティも
+       export 後に復元する。`escape_underscores=False` で出力。図は `PictureItem` から `assets/figNN.png` に保存。引用は `[label](#bib.bibN)` リンク→`{{CITE:N}}`、
+       無ければブラケット数字を参考文献と突合して `{{CITE:N}}`。各参考文献に `{{BIBSTART:N}}` を付与し生テキスト・arXiv ID・DOI を `.translate/bibs.json` に保存。
   3. `translate_markdown.py`: 見出し境界でチャンク分割（上限12000字）し、参考文献セクションは翻訳せず英語のまま素通し。
-     LiteLLM経由で`TRANSLATE_MODEL`（既定`openai/gpt-5.1-mini`）→`TRANSLATE_FALLBACK_MODEL`（既定`gemini/gemini-3.1-flash-lite`）の
+     LiteLLM経由で`TRANSLATE_MODEL`（既定`openai/gpt-5.6-terra`）→`TRANSLATE_FALLBACK_MODEL`（既定`gemini/gemini-3.1-flash-lite`）の
      順にフォールバック。`{{CITE:N}}`/`{{BIBSTART:N}}`マーカー・画像参照・LaTeX・コードフェンスの保持をチャンクごとに検証し、
      壊れていれば1回リトライ、それでも失敗したチャンクは英語原文のまま採用してWARNログを出す。チャンクは`.translate/chunks/`に
      ハッシュ付きでキャッシュされ、中断・再実行時は完了分を再送信しない。**1チャンクでも失敗すると`paper_ja_raw.md`は書き出さず**、
      次回デーモン実行時に失敗分だけ再試行させる。
+     OpenAI呼び出し前にOrganization Usage APIのUTC当日実績とrepo-local予約量を確認し、いずれかが
+     `OPENAI_DAILY_TOKEN_LIMIT`（既定240万）を超える場合、またはUsage APIを読めない場合はOpenAIを送信せずGeminiへ切り替える。
+     状態は既定で`~/.local/state/ubbs/paper-translate-openai-quota.json`に保存する。
   4. `link_citations.py`: `paper_ja_raw.md`のマーカーを、`bibs.json`＋この論文の`references.json`＋ライブラリ全体の識別子→slugマップ
      （`LOCAL_MAP_FILE`）を突き合わせてローカル論文の`[[slug|N]]`に、無ければ同一ファイル内`[[#^ref-N|N]]`ブロック参照に描画し、
      `<dir>/<snake(title)>_ja.md`を生成する。raw を書き換えないため何度でも再描画でき、新規論文追加時にデーモンが全論文を再描画すると
      外部参照がローカルwikilinkへ昇格する（ノート再生成と同じ仕組み）。
   - 同一ステージが`TRANSLATE_MAX_FAILURES`（既定3）回連続で失敗すると`.translate/failed`を置き、それ以降は`--force`を付けるまでスキップする。
   - **既存論文はバックフィルしない**: `paper_ja.pdf`（旧pdf2zh成果物）または`<snake(title)>_ja.md`が既にあればこの4段全体をスキップする。
-  - `OPENAI_API_KEY`/`GEMINI_API_KEY`は少なくとも一方が必要。両方とも git 管理外の `.env.local`（`.env.local.example` を参照）に置き、daemon が起動時に読み込む。
-  - Docling・LiteLLM・BeautifulSoup4 は `.venv`（`setup.sh`が導入）で実行する。Doclingは torch を含み初回インストールが重い。
+  - `OPENAI_API_KEY`/`GEMINI_API_KEY`は少なくとも一方が必要。Usage API用の`OPENAI_ADMIN_API_KEY`は
+    `api.usage.read`権限だけを持たせる。すべて git 管理外の `.env.local`（`.env.local.example` を参照）に置き、daemon が起動時に読み込む。
+  - Docling・LiteLLM・BeautifulSoup4・PyMuPDF は `.venv`（`setup.sh`が導入）で実行する。Doclingは torch を含み初回インストールが重い。
+    LaTeX主経路の変換には `pandoc` が別途必要（`brew install pandoc`）。無い場合 tex 変換は失敗し HTML/PDF 経路へフォールバックする。
 - 要約は `summarize-paper.sh`（pdftotext → Ollama）→ `summary.md`（arq view が読む名前）。
 - 引用は `fetch-references.sh`（Semantic Scholar Graph API）→ `references.json`。429 が出やすいので指数バックオフ必須。
 - 図は `extract-figures.sh`（PyMuPDF）が「Figure N」キャプションごとにクロップ → `figures/fig-NN.png`。
