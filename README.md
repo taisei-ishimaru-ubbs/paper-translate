@@ -74,7 +74,7 @@ gallery.md                       # Dataview ギャラリー
 | `OLLAMA_HOST` | `http://localhost:11434` | Ollama エンドポイント |
 | `OLLAMA_MODEL` | `minimax-m3:cloud` | 要約モデル |
 | `OPENAI_API_KEY` / `GEMINI_API_KEY` | 未設定 | 翻訳用。少なくとも一方が必須 |
-| `TRANSLATE_MODEL` | `openai/gpt-5.1-mini` | 翻訳の第一候補モデル（LiteLLM形式） |
+| `TRANSLATE_MODEL` | `openai/gpt-5.6-terra` | 翻訳の第一候補モデル（LiteLLM形式） |
 | `TRANSLATE_FALLBACK_MODEL` | `gemini/gemini-3.1-flash-lite` | 第一候補が失敗した場合のフォールバック |
 | `TRANSLATE_SLEEP` | `5` | 翻訳チャンク間の待機秒数 |
 | `TRANSLATE_MAX_FAILURES` | `3` | 同一ステージがこの回数連続失敗すると`.translate/failed`を書いてスキップ |

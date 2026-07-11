@@ -25,12 +25,13 @@ Writes:
 
 Env vars (see .env.local.example):
   OPENAI_API_KEY, GEMINI_API_KEY   at least one must be set
-  TRANSLATE_MODEL                  default: openai/gpt-5.1-mini
+  TRANSLATE_MODEL                  default: openai/gpt-5.6-terra
   TRANSLATE_FALLBACK_MODEL         default: gemini/gemini-3.1-flash-lite
   TRANSLATE_SLEEP                  seconds between chunk calls, default 5
 """
 import hashlib
 import json
+import logging
 import os
 import re
 import sys
@@ -54,6 +55,7 @@ Rules you must follow exactly:
 - Preserve LaTeX math delimited by `$...$` or `$$...$$` exactly; do not translate or alter anything inside the delimiters.
 - Preserve fenced code blocks (```...```) exactly, including their contents.
 - Preserve URLs and Markdown link syntax exactly.
+- Preserve table structure exactly: keep every pipe (`|`) and separator row of Markdown tables, and keep all `<table>`/`<tr>`/`<td>`/`<th>` HTML tags and their attributes unchanged. Translate only the visible cell text, never the tags, alignment rows, or math inside cells.
 - Keep heading levels (#, ##, ...) unchanged.
 - Keep proper nouns, model/method names, and dataset names in English.
 - Translate all other prose into natural, precise academic Japanese.
@@ -109,7 +111,9 @@ def split_translatable(md: str) -> tuple[str, str]:
 
 
 def validate_preserved(source: str, translated: str) -> bool:
-    if CITE_RE.findall(source) != CITE_RE.findall(translated):
+    # Order-insensitive: Japanese clause reordering legitimately swaps adjacent
+    # citations, and link_citations.py resolves each {{CITE:N}} by N alone.
+    if sorted(CITE_RE.findall(source)) != sorted(CITE_RE.findall(translated)):
         return False
     if BIBSTART_RE.findall(source) != BIBSTART_RE.findall(translated):
         return False
@@ -120,8 +124,28 @@ def validate_preserved(source: str, translated: str) -> bool:
     return True
 
 
+# Provider error messages echo the API key back (partially masked); keep both
+# the literal env values and anything key-shaped out of every log line.
+_MASKED_KEY_RE = re.compile(r"[A-Za-z0-9_\-]{4,}\*{3,}[A-Za-z0-9_\-]{2,}")
+
+
+def redact_secrets(text: str) -> str:
+    for var in ("OPENAI_API_KEY", "GEMINI_API_KEY"):
+        val = os.environ.get(var)
+        if val:
+            text = text.replace(val, f"<{var}>")
+    return _MASKED_KEY_RE.sub("<redacted-key>", text)
+
+
 def call_llm(chunk: str, primary: str, fallback: str, retry_hint: str = "") -> str:
     import litellm
+
+    # LiteLLM's own logger prints errors (API key echoes included) straight to
+    # stderr, which the daemon redirects into .logs/translate.log; silence it
+    # and rely on our redacted log() lines instead.
+    litellm.suppress_debug_info = True
+    for name in ("LiteLLM", "LiteLLM Router", "LiteLLM Proxy", "httpx"):
+        logging.getLogger(name).setLevel(logging.CRITICAL)
 
     user_content = chunk if not retry_hint else f"{retry_hint}\n\n---\n\n{chunk}"
     response = litellm.completion(
@@ -205,7 +229,7 @@ def main() -> int:
         print("ERROR: neither OPENAI_API_KEY nor GEMINI_API_KEY is set", file=sys.stderr)
         return 1
 
-    primary = os.environ.get("TRANSLATE_MODEL", "openai/gpt-5.1-mini")
+    primary = os.environ.get("TRANSLATE_MODEL", "openai/gpt-5.6-terra")
     fallback = os.environ.get("TRANSLATE_FALLBACK_MODEL", "gemini/gemini-3.1-flash-lite")
     sleep_s = float(os.environ.get("TRANSLATE_SLEEP", "5"))
 
@@ -213,7 +237,7 @@ def main() -> int:
     translate_dir.mkdir(parents=True, exist_ok=True)
 
     def log(msg: str):
-        line = f"[{time.strftime('%Y-%m-%dT%H:%M:%S%z')}] {msg}"
+        line = f"[{time.strftime('%Y-%m-%dT%H:%M:%S%z')}] {redact_secrets(msg)}"
         print(line, file=sys.stderr)
         with log_file.open("a", encoding="utf-8") as f:
             f.write(line + "\n")

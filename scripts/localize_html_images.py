@@ -58,6 +58,12 @@ def main() -> int:
     html = Path(input_html).read_text(encoding="utf-8", errors="replace")
     soup = BeautifulSoup(html, "html.parser")
 
+    # arxiv.org/html pages declare <base href="/html/<id>v<N>/"> and use
+    # relative img paths; resolve against it like a browser would.
+    base_tag = soup.find("base")
+    if base_tag and base_tag.get("href"):
+        source_url = urljoin(source_url, base_tag["href"])
+
     total = 0
     downloaded = 0
     for i, img in enumerate(soup.find_all("img")):

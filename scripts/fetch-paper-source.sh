@@ -106,6 +106,56 @@ fetch_candidate() {
 
 is_ltx_document() { grep -q 'class="ltx_document' "$1" 2>/dev/null; }
 
+# Does an extracted tarball look like a convertible LaTeX source? Needs a main
+# .tex (\documentclass + \begin{document}) and a numbered bibliography we can
+# turn into {{CITE:N}} markers (a .bbl file or an inline thebibliography).
+tex_source_is_usable() {
+  local d="$1" main="" f
+  while IFS= read -r f; do
+    if grep -ql '\\documentclass' "$f" 2>/dev/null && grep -ql '\\begin{document}' "$f" 2>/dev/null; then
+      main="$f"; break
+    fi
+  done < <(find "$d" -name '*.tex' -type f)
+  [[ -n "$main" ]] || { log "e-print: no main .tex found"; return 1; }
+  if find "$d" -name '*.bbl' -type f | grep -q .; then return 0; fi
+  grep -rql '\\begin{thebibliography}' "$d" --include='*.tex' 2>/dev/null && return 0
+  log "e-print: no .bbl or thebibliography (cannot number citations)"
+  return 1
+}
+
+# Try the arXiv e-print (LaTeX source) tarball. On success extracts it to
+# source-tex/ and returns 0; caller then marks state=latex. Skipped entirely
+# when PAPER_FETCH_NO_TEX is set (used by translate-paper.sh's fallback path).
+try_eprint() {
+  [[ -n "${PAPER_FETCH_NO_TEX:-}" ]] && return 1
+  local tmp="$translate_dir/.eprint-tmp.$$" result code
+  result="$(fetch_candidate "https://arxiv.org/e-print/$arxiv_id" "$tmp" || true)"
+  code="$(sed -n '1p' <<<"$result")"
+  [[ "$code" == 2* ]] || { rm -f "$tmp"; return 1; }
+  # arXiv e-prints are gzipped tar (most papers), a lone gzipped .tex, or a
+  # bare PDF (no source available). Only the first two are usable.
+  local kind; kind="$(file -b "$tmp" 2>/dev/null || echo unknown)"
+  if [[ "$kind" == *"PDF"* ]]; then rm -f "$tmp"; log "e-print: PDF only, no source"; return 1; fi
+  local tex_dir="$translate_dir/source-tex"
+  rm -rf "$tex_dir"; mkdir -p "$tex_dir"
+  if tar -xzf "$tmp" -C "$tex_dir" 2>/dev/null || tar -xf "$tmp" -C "$tex_dir" 2>/dev/null; then
+    :
+  elif gunzip -c "$tmp" > "$tex_dir/main.tex" 2>/dev/null; then
+    :
+  else
+    rm -f "$tmp"; rm -rf "$tex_dir"; log "e-print: could not unpack archive"; return 1
+  fi
+  rm -f "$tmp"
+  tex_source_is_usable "$tex_dir" || { rm -rf "$tex_dir"; return 1; }
+  return 0
+}
+
+if try_eprint; then
+  write_state "latex" "https://arxiv.org/e-print/$arxiv_id"
+  log "fetched latex e-print for $arxiv_id"
+  exit 0
+fi
+
 source_name=""
 source_url=""
 raw_html="$translate_dir/.fetch-tmp.$$.html"
