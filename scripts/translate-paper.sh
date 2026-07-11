@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Orchestrate the ar5iv/arXiv-HTML-or-PDF -> Docling Markdown -> LiteLLM
-# Japanese translation -> Obsidian citation-linked Markdown pipeline for one
+# Orchestrate LaTeX e-print (preferred), arXiv HTML, or PDF -> Markdown ->
+# LiteLLM Japanese translation -> Obsidian citation-linked Markdown for one
 # paper. Replaces the old pdf2zh step.
 #
 # Usage: translate-paper.sh <paper_dir> [--force]
@@ -36,8 +36,8 @@ if [[ -z "$dir" || ! -d "$dir" ]]; then
   exit 2
 fi
 
-if [[ ! -x "$PYBIN" ]] || ! "$PYBIN" -c "import docling, litellm, bs4" 2>/dev/null; then
-  log "ERROR: docling/litellm/beautifulsoup4 not available in $PYBIN. Run scripts/setup.sh"
+if [[ ! -x "$PYBIN" ]] || ! "$PYBIN" -c "import docling, litellm, bs4, fitz" 2>/dev/null; then
+  log "ERROR: docling/litellm/beautifulsoup4/PyMuPDF not available in $PYBIN. Run scripts/setup.sh"
   exit 1
 fi
 if [[ -z "${OPENAI_API_KEY:-}" && -z "${GEMINI_API_KEY:-}" ]]; then
@@ -80,9 +80,27 @@ run_stage() {
   return 1
 }
 
-run_stage fetch bash "$SCRIPT_DIR/fetch-paper-source.sh" "$dir" || exit 1
-run_stage convert "$PYBIN" "$SCRIPT_DIR/convert_to_markdown.py" "$dir" || exit 1
-run_stage translate "$PYBIN" "$SCRIPT_DIR/translate_markdown.py" "$dir" || exit 1
+stage_args=("$dir")
+[[ "$force" -eq 1 ]] && stage_args+=(--force)
+
+run_stage fetch bash "$SCRIPT_DIR/fetch-paper-source.sh" "${stage_args[@]}" || exit 1
+
+source_kind="$(jq -r '.source // "pdf_only"' "$translate_dir/state.json" 2>/dev/null || echo pdf_only)"
+if [[ "$source_kind" == "latex" ]]; then
+  if "$PYBIN" "$SCRIPT_DIR/convert_tex_to_markdown.py" "${stage_args[@]}"; then
+    clear_failure convert
+  else
+    log "WARN: LaTeX conversion failed for $dir; retrying through HTML/PDF"
+    rm -f "$translate_dir/paper_en.md" "$translate_dir/bibs.json"
+    PAPER_FETCH_NO_TEX=1 bash "$SCRIPT_DIR/fetch-paper-source.sh" "$dir" --force \
+      || { bump_failure fetch; exit 1; }
+    run_stage convert "$PYBIN" "$SCRIPT_DIR/convert_to_markdown.py" "${stage_args[@]}" || exit 1
+  fi
+else
+  run_stage convert "$PYBIN" "$SCRIPT_DIR/convert_to_markdown.py" "${stage_args[@]}" || exit 1
+fi
+
+run_stage translate "$PYBIN" "$SCRIPT_DIR/translate_markdown.py" "${stage_args[@]}" || exit 1
 run_stage render "$PYBIN" "$SCRIPT_DIR/link_citations.py" "$dir" || exit 1
 
 log "done: $dir"

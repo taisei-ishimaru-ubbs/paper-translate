@@ -7,7 +7,7 @@ trap 'rm -rf "$TMP_ROOT"' EXIT
 
 WORK="$TMP_ROOT/work"
 BIN="$TMP_ROOT/bin"
-mkdir -p "$WORK/scripts" "$WORK/tests" "$WORK/papers" "$WORK/inbox" "$BIN"
+mkdir -p "$WORK/scripts" "$WORK/tests" "$WORK/papers" "$WORK/inbox" "$WORK/.venv/bin" "$BIN"
 cp "$PROJECT_ROOT"/scripts/{paper-metadata.sh,semantic-scholar.sh,import-paper.sh,import-inbox.sh,fetch-references.sh,generate-obsidian-note.sh,update-by-title.sh,translate-papers-daemon.sh} "$WORK/scripts/"
 chmod +x "$WORK/scripts/"*.sh
 
@@ -59,7 +59,13 @@ cat > "$BIN/pdf2zh" <<'EOF'
 echo 'pdf2zh should not run in this test' >&2
 exit 1
 EOF
-chmod +x "$BIN/"*
+cat > "$WORK/.venv/bin/python" <<'EOF'
+#!/usr/bin/env bash
+# The daemon only needs the project interpreter for dependency checks and
+# citation relinking in this integration test; both are outside its scope.
+exit 0
+EOF
+chmod +x "$BIN/"* "$WORK/.venv/bin/python"
 
 export PATH="$BIN:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 export OLLAMA_MODEL="mock-model"
