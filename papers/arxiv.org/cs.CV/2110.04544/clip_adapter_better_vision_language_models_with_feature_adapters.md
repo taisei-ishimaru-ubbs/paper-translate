@@ -686,7 +686,7 @@ tags: [paper]
 - [Generalizing vision-language models to novel domains: A comprehensive survey](https://arxiv.org/abs/2506.18504)
 - [Orthogonal Projection Subspace to Aggregate Online Prior-knowledge for Continual Test-time Adaptation](https://arxiv.org/abs/2506.19022)
 - [Continual Retinal Vision-Language Pre-training upon Incremental Imaging Modalities](https://arxiv.org/abs/2506.19320)
-- [Few-Shot, Now for Real: Medical VLMs Adaptation without Balanced Sets or Validation](https://arxiv.org/abs/2506.17500)
+- [[few_shot_now_for_real_medical_vlms_adaptation_without_balanced_sets_or_validation|Few-Shot, Now for Real: Medical VLMs Adaptation without Balanced Sets or Validation]]
 - [Trustworthy Few-Shot Transfer of Medical VLMs through Split Conformal Prediction](https://arxiv.org/abs/2506.17503)
 - [Fine-grained Image Retrieval via Dual-Vision Adaptation](https://arxiv.org/abs/2506.16273)
 - [GoalLadder: Incremental Goal Discovery with Vision-Language Models](https://arxiv.org/abs/2506.16396)

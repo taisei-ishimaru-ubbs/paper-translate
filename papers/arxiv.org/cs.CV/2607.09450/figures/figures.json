@@ -1,0 +1,58 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Augmented views retain more semantic cues under adver- sarial perturbations, enabeling a cache for distribution alignment that improves adversarial performance. (a) Visualization of adver- sarially perturbed images, where each point represents an image and different colors denote ground-tr",
+    "score": 97.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. Overview of the proposed RITA framework. Given an adversarial test image, RITA extracts multi-view visual features and class-specific textual prototypes using a frozen CLIP encoder. Both modalities are modeled as discrete distributions and aligned via entropy-regularized optimal transport.",
+    "score": 54.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Ablation studies of key hyperparameters in DTD dataset using ViT-B/16 with ϵ = 1.0. (a) Performance variation with respect to the number of learnable prompts. (b) Impact of the number of augmentation views during inference.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4. Sensitivity analysis of the cache integration coefficient α. Classification accuracy (%) on (a) DTD and (b) ImageNet is evaluated across α values using ViT-B/16 with ϵ = 1.0.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5. Adversarial robustness (%) under varying perturba- tion budgets and TTA steps on (a) fine-grained datasets and (b) ImageNet. Robust accuracy is evaluated using ViT-B/16 under ϵ ∈{1.0, 2.0, 4.0} and TTA steps ∈{1, 2, 4}. +x.x indicates the increment relative to the case where TTA step = 1.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6. Evolution of adversarial robustness with respect to TTA steps across model architectures, where (a) presents the average robust accuracy over fine-grained datasets and (b) displays results on ImageNet. TTA step = 0 denotes the CLIP baseline.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. Comparison of KL divergence distributions for semantic alignment between original visual features and augmented features from the cache mechanism. Kernel Density Estimation (KDE) curves are presented for (a) DTD and (b) Caltech101 datasets. Lower KL values signify more deterministic vision",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 15,
+    "caption": "Figure 8. KL divergence per class on (a) DTD and (b) Caltech101. Lower KL values signify superior vision-text alignment.",
+    "score": 0.0
+  }
+]

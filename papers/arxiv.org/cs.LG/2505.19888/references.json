@@ -1,0 +1,374 @@
+{
+  "id": "2505.19888",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "e598a6535fdaac5338ef5bc4b7921d62f11d8548",
+    "externalIds": {
+      "ArXiv": "2505.19888",
+      "CorpusId": 286573225
+    },
+    "url": "https://www.semanticscholar.org/paper/e598a6535fdaac5338ef5bc4b7921d62f11d8548",
+    "title": "Generalized and Personalized Federated Learning with Black-Box Foundation Models via Orthogonal Transformations"
+  },
+  "references": [
+    {
+      "paper_id": "38679e4679a5d7ec9879b57b99b3b52b8215e4fc",
+      "arxiv_id": "",
+      "doi": "10.1016/j.imavis.2025.105607",
+      "title": "SATA: Style Agnostic Test time Adaptation for domain generalization",
+      "url": "https://www.semanticscholar.org/paper/38679e4679a5d7ec9879b57b99b3b52b8215e4fc"
+    },
+    {
+      "paper_id": "23b4b6a1fb31ce5da29ca05ba30caeebb9d40d04",
+      "arxiv_id": "",
+      "doi": "10.1016/j.sysarc.2025.103338",
+      "title": "Adapter-guided knowledge transfer for heterogeneous federated learning",
+      "url": "https://www.semanticscholar.org/paper/23b4b6a1fb31ce5da29ca05ba30caeebb9d40d04"
+    },
+    {
+      "paper_id": "7a4a6e596e3a80c856bf4fca82a8afad7d6b0f7a",
+      "arxiv_id": "2411.10063",
+      "doi": "10.48550/arXiv.2411.10063",
+      "title": "Federated Domain Generalization via Prompt Learning and Aggregation",
+      "url": "https://www.semanticscholar.org/paper/7a4a6e596e3a80c856bf4fca82a8afad7d6b0f7a"
+    },
+    {
+      "paper_id": "8f3dbf093f02ba8d0cd317cd2708a7f445815de7",
+      "arxiv_id": "2405.10913",
+      "doi": "10.48550/arXiv.2405.10913",
+      "title": "Blackbox Adaptation for Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/8f3dbf093f02ba8d0cd317cd2708a7f445815de7"
+    },
+    {
+      "paper_id": "46a81d17a4f1b4c4fc3f3215ccfb2fc2921cecaa",
+      "arxiv_id": "2311.06243",
+      "doi": "10.48550/arXiv.2311.06243",
+      "title": "Parameter-Efficient Orthogonal Finetuning via Butterfly Factorization",
+      "url": "https://www.semanticscholar.org/paper/46a81d17a4f1b4c4fc3f3215ccfb2fc2921cecaa"
+    },
+    {
+      "paper_id": "c8d5c5ebc1aaada257141aa4f65e890bb8224b4d",
+      "arxiv_id": "2310.05143",
+      "doi": "10.48550/arXiv.2310.05143",
+      "title": "ZooPFL: Exploring Black-box Foundation Models for Personalized Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/c8d5c5ebc1aaada257141aa4f65e890bb8224b4d"
+    },
+    {
+      "paper_id": "97dd91310930c3f3384ca15586ccf6b67a89d0be",
+      "arxiv_id": "",
+      "doi": "10.24963/ijcai.2023/187",
+      "title": "Black-box Prompt Tuning for Vision-Language Model as a Service",
+      "url": "https://www.semanticscholar.org/paper/97dd91310930c3f3384ca15586ccf6b67a89d0be"
+    },
+    {
+      "paper_id": "669a95efbb9a1388ef465c7d6eb891705842fa1c",
+      "arxiv_id": "2306.07280",
+      "doi": "10.48550/arXiv.2306.07280",
+      "title": "Controlling Text-to-Image Diffusion by Orthogonal Finetuning",
+      "url": "https://www.semanticscholar.org/paper/669a95efbb9a1388ef465c7d6eb891705842fa1c"
+    },
+    {
+      "paper_id": "7793a12d91a725d80c34fd2aacf7a671ccc6885c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.00385",
+      "title": "Federated Domain Generalization with Generalization Adjustment",
+      "url": "https://www.semanticscholar.org/paper/7793a12d91a725d80c34fd2aacf7a671ccc6885c"
+    },
+    {
+      "paper_id": "e55fff3d7e59a7192b59b4b497c17ea9c77a9d16",
+      "arxiv_id": "2305.16876",
+      "doi": "10.48550/arXiv.2305.16876",
+      "title": "CombLM: Adapting Black-Box Language Models through Small Fine-Tuned Models",
+      "url": "https://www.semanticscholar.org/paper/e55fff3d7e59a7192b59b4b497c17ea9c77a9d16"
+    },
+    {
+      "paper_id": "7f2ddb3dabaf779d45766b458d5b51f7a4b877cc",
+      "arxiv_id": "2304.01752",
+      "doi": "10.1109/ICCV51070.2023.01424",
+      "title": "Black Box Few-Shot Adaptation for Vision-Language models",
+      "url": "https://www.semanticscholar.org/paper/7f2ddb3dabaf779d45766b458d5b51f7a4b877cc"
+    },
+    {
+      "paper_id": "f79657b29383f43c2d70897e724c9c89330b1557",
+      "arxiv_id": "2303.15833",
+      "doi": "10.1109/ICCV51070.2023.01051",
+      "title": "Complementary Domain Adaptation and Generalization for Unsupervised Continual Domain Shift Learning",
+      "url": "https://www.semanticscholar.org/paper/f79657b29383f43c2d70897e724c9c89330b1557"
+    },
+    {
+      "paper_id": "6d4a520935e17aca0763630c271293cac63edbf5",
+      "arxiv_id": "2303.13137",
+      "doi": "10.1145/3581783.3611781",
+      "title": "FedGH: Heterogeneous Federated Learning with Generalized Global Header",
+      "url": "https://www.semanticscholar.org/paper/6d4a520935e17aca0763630c271293cac63edbf5"
+    },
+    {
+      "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "arxiv_id": "2303.08774",
+      "doi": "",
+      "title": "GPT-4 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/163b4d6a79a5b19af88b8585456363340d9efd04"
+    },
+    {
+      "paper_id": "922729f3c8bebc4dea35c1b0dcc2769345759c8c",
+      "arxiv_id": "2302.13485",
+      "doi": "10.48550/arXiv.2302.13485",
+      "title": "FedCLIP: Fast Generalization and Personalization for CLIP in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/922729f3c8bebc4dea35c1b0dcc2769345759c8c"
+    },
+    {
+      "paper_id": "cd443cd5eb139eb1a1a059896351d4d62e4506fb",
+      "arxiv_id": "2302.05441",
+      "doi": "10.48550/arXiv.2302.05441",
+      "title": "Project and Probe: Sample-Efficient Domain Adaptation by Interpolating Orthogonal Features",
+      "url": "https://www.semanticscholar.org/paper/cd443cd5eb139eb1a1a059896351d4d62e4506fb"
+    },
+    {
+      "paper_id": "0e3d1457a66e442fae46c8f96886dc76aef3b085",
+      "arxiv_id": "2302.04870",
+      "doi": "10.48550/arXiv.2302.04870",
+      "title": "Offsite-Tuning: Transfer Learning without Full Model",
+      "url": "https://www.semanticscholar.org/paper/0e3d1457a66e442fae46c8f96886dc76aef3b085"
+    },
+    {
+      "paper_id": "8319aa06ed1bdc7e455bbc29c07a409f76250a6d",
+      "arxiv_id": "2208.11625",
+      "doi": "10.1109/TMC.2023.3302410",
+      "title": "PromptFL: Let Federated Participants Cooperatively Learn Prompts Instead of Models – Federated Learning in Age of Foundation Model",
+      "url": "https://www.semanticscholar.org/paper/8319aa06ed1bdc7e455bbc29c07a409f76250a6d"
+    },
+    {
+      "paper_id": "a32887af7eb1fcfd3b3d892ad41f3516a37f11c1",
+      "arxiv_id": "2207.09519",
+      "doi": "10.48550/arXiv.2207.09519",
+      "title": "Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification",
+      "url": "https://www.semanticscholar.org/paper/a32887af7eb1fcfd3b3d892ad41f3516a37f11c1"
+    },
+    {
+      "paper_id": "134e5566cc2d542039414c0de88e5e2f10dc8704",
+      "arxiv_id": "2204.03809",
+      "doi": "10.48550/arXiv.2204.03809",
+      "title": "Federated Learning with Partial Model Personalization",
+      "url": "https://www.semanticscholar.org/paper/134e5566cc2d542039414c0de88e5e2f10dc8704"
+    },
+    {
+      "paper_id": "adb272fbdea3631059cf88ab764bb6c2ce29f965",
+      "arxiv_id": "2203.12119",
+      "doi": "10.48550/arXiv.2203.12119",
+      "title": "Visual Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/adb272fbdea3631059cf88ab764bb6c2ce29f965"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "002c58077a1f1b296468b117230a1199e91f35c2",
+      "arxiv_id": "2201.03514",
+      "doi": "",
+      "title": "Black-Box Tuning for Language-Model-as-a-Service",
+      "url": "https://www.semanticscholar.org/paper/002c58077a1f1b296468b117230a1199e91f35c2"
+    },
+    {
+      "paper_id": "bb9dd7d082bbcaad569d878b07e69631b5c43bc0",
+      "arxiv_id": "2112.00734",
+      "doi": "10.1109/TBDATA.2022.3177197",
+      "title": "Personalized Federated Learning With Adaptive Batchnorm for Healthcare",
+      "url": "https://www.semanticscholar.org/paper/bb9dd7d082bbcaad569d878b07e69631b5c43bc0"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "arxiv_id": "2106.09685",
+      "doi": "",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "141a5033d9994242b18bb3b217e79582f1ee9306",
+      "arxiv_id": "2102.05918",
+      "doi": "",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/141a5033d9994242b18bb3b217e79582f1ee9306"
+    },
+    {
+      "paper_id": "4281dca5489a0fb49f6bc5b9bff440ef5e44ae44",
+      "arxiv_id": "2102.05082",
+      "doi": "",
+      "title": "Domain Invariant Representation Learning with Domain Density Transformations",
+      "url": "https://www.semanticscholar.org/paper/4281dca5489a0fb49f6bc5b9bff440ef5e44ae44"
+    },
+    {
+      "paper_id": "0b8a5e2e6590e019e7bcd2a4c6c10bcaf86f2fcd",
+      "arxiv_id": "2102.03448",
+      "doi": "",
+      "title": "Federated Reconstruction: Partially Local Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/0b8a5e2e6590e019e7bcd2a4c6c10bcaf86f2fcd"
+    },
+    {
+      "paper_id": "115bbc50cf015990dc6f35bc8f99575ad2a68253",
+      "arxiv_id": "2010.03978",
+      "doi": "10.1007/978-3-030-71704-9_65",
+      "title": "A Brief Review of Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/115bbc50cf015990dc6f35bc8f99575ad2a68253"
+    },
+    {
+      "paper_id": "7b42ee98bc212a4055b156844f63be94d95171c6",
+      "arxiv_id": "2008.06767",
+      "doi": "",
+      "title": "Heterogeneous Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/7b42ee98bc212a4055b156844f63be94d95171c6"
+    },
+    {
+      "paper_id": "6a5efb990b6558c21d9fdded4884c00ba152cb7c",
+      "arxiv_id": "2007.01434",
+      "doi": "",
+      "title": "In Search of Lost Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/6a5efb990b6558c21d9fdded4884c00ba152cb7c"
+    },
+    {
+      "paper_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "arxiv_id": "2005.14165",
+      "doi": "",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+    },
+    {
+      "paper_id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+      "arxiv_id": "1912.01703",
+      "doi": "",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "url": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+    },
+    {
+      "paper_id": "1dac467c4a1c84c50ccb664e83272d893647a980",
+      "arxiv_id": "1902.00113",
+      "doi": "10.1109/ICCV.2019.00153",
+      "title": "Episodic Training for Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/1dac467c4a1c84c50ccb664e83272d893647a980"
+    },
+    {
+      "paper_id": "3dd8bf5cca76b1690a2642b73b509fb3a27e4f36",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "MetaReg: Towards Domain Generalization using Meta-Regularization",
+      "url": "https://www.semanticscholar.org/paper/3dd8bf5cca76b1690a2642b73b509fb3a27e4f36"
+    },
+    {
+      "paper_id": "8dcbcaaf337d7bd22e580f1bb7a795ed4bb604fd",
+      "arxiv_id": "1812.01097",
+      "doi": "",
+      "title": "LEAF: A Benchmark for Federated Settings",
+      "url": "https://www.semanticscholar.org/paper/8dcbcaaf337d7bd22e580f1bb7a795ed4bb604fd"
+    },
+    {
+      "paper_id": "2d15a7546c16d5821ffa8f769eb7ec18e435e64d",
+      "arxiv_id": "1807.04975",
+      "doi": "10.1007/978-3-030-01270-0_28",
+      "title": "Recognition in Terra Incognita",
+      "url": "https://www.semanticscholar.org/paper/2d15a7546c16d5821ffa8f769eb7ec18e435e64d"
+    },
+    {
+      "paper_id": "b1e7f07965a53491690bd31fdab626bfac606eae",
+      "arxiv_id": "1710.03077",
+      "doi": "10.1109/ICCV.2017.591",
+      "title": "Deeper, Broader and Artier Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/b1e7f07965a53491690bd31fdab626bfac606eae"
+    },
+    {
+      "paper_id": "b8ebda42e272d3617375118542d4675a0c0e501d",
+      "arxiv_id": "1706.07522",
+      "doi": "10.1109/CVPR.2017.572",
+      "title": "Deep Hashing Network for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b8ebda42e272d3617375118542d4675a0c0e501d"
+    },
+    {
+      "paper_id": "7fcb90f68529cbfab49f471b54719ded7528d0ef",
+      "arxiv_id": "1610.05492",
+      "doi": "",
+      "title": "Federated Learning: Strategies for Improving Communication Efficiency",
+      "url": "https://www.semanticscholar.org/paper/7fcb90f68529cbfab49f471b54719ded7528d0ef"
+    },
+    {
+      "paper_id": "561269a24f2f2a06409109723a8ab93a01696efc",
+      "arxiv_id": "1610.02527",
+      "doi": "",
+      "title": "Federated Optimization: Distributed Machine Learning for On-Device Intelligence",
+      "url": "https://www.semanticscholar.org/paper/561269a24f2f2a06409109723a8ab93a01696efc"
+    },
+    {
+      "paper_id": "d1dbf643447405984eeef098b1b320dee0b3b8a7",
+      "arxiv_id": "1602.05629",
+      "doi": "",
+      "title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+      "url": "https://www.semanticscholar.org/paper/d1dbf643447405984eeef098b1b320dee0b3b8a7"
+    },
+    {
+      "paper_id": "10478ed2892f24c49ca0be1588c1c0e29841abb1",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2013.208",
+      "title": "Unbiased Metric Learning: On the Utilization of Multiple Datasets and Web Images for Softening Bias",
+      "url": "https://www.semanticscholar.org/paper/10478ed2892f24c49ca0be1588c1c0e29841abb1"
+    },
+    {
+      "paper_id": "79c286bf03ed97fb94d33511f3355770dcee0aec",
+      "arxiv_id": "1301.2115",
+      "doi": "",
+      "title": "Domain Generalization via Invariant Feature Representation",
+      "url": "https://www.semanticscholar.org/paper/79c286bf03ed97fb94d33511f3355770dcee0aec"
+    },
+    {
+      "paper_id": "9405cc0d6169988371b2755e573cc28650d14dfe",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "url": "https://www.semanticscholar.org/paper/9405cc0d6169988371b2755e573cc28650d14dfe"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Sur quelques propriétés des déterminants",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A survey on heterogeneous",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Improved",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "2794a765de7551a4bd97b34a90690892fdc3b5da",
+      "arxiv_id": "2609.05403",
+      "doi": "",
+      "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
+      "url": "https://www.semanticscholar.org/paper/2794a765de7551a4bd97b34a90690892fdc3b5da"
+    }
+  ]
+}

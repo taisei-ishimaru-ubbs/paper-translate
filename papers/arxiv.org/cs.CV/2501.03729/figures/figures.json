@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. We advocate for evaluating transductive or online TTA methods on more extensive realistic scenarios.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Illustration of two realistic scenarios: (a) batch adapta- tion with limited number of effective classes and (b) online test- time adaptation with a correlated, non-i.i.d. data stream.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3. Ablation study on the impact of the anchor weighting α across various numbers of effective classes (Keff). The line corresponding to α = 1 (used in all our experiments) is highlighted with a wider stroke. Each reported performance is averaged over 1,000 tasks.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 15,
+    "caption": "Figure 4. Correlation matrix of per-batch ℓ2 normalized vectors of class proportions for batch size 128. x and y axis of each plot is the batch index corresponding to the order in which the batches are processed. This illustrates the inter-batch correlation increasing as the Dirichlet parameter γ de",
+    "score": 0.0
+  }
+]

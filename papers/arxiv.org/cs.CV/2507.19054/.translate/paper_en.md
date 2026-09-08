@@ -196,22 +196,21 @@ Figure [\[fig:setting1\]](#fig:setting1)e in the main paper presents results fo
 
 In the main paper, we adopt NDCG@10 as the primary evaluation metric. To further assess the robustness of GR-CLIP, we extend our analysis to additional metrics, including NDCG@100 and Recall@1. Table 1 reports results on MixBench across all three metrics, demonstrating that the improvements observed with GR-CLIP are consistent regardless of the evaluation criterion. Figure [\[app:fig:ndcg100\]](#app:fig:ndcg100) and Figure [\[app:fig:recall1\]](#app:fig:recall1) further extend the analysis in §3 and §4 using NDCG@100 and Recall@1, respectively, and similarly confirm the consistency of our findings.
 
-  **Method**                                   **MSCOCO**              **OVEN**                **VisualNews**
-  -------------------- ----------------------- ----------------------- ----------------------- -----------------------
-  CLIP-B/16            0.478/0.505/0.443       0.388/0.426/0.292       0.354/0.398/0.209       0.563/0.604/0.498
-  CLIP-L/14            0.505/0.516/0.454       0.426/0.490/0.329       0.389/0.431/0.253       0.596/0.656/0.525
-  OpenCLIP-B/16        0.551/0.563/0.519       0.570/0.615/0.489       0.385/0.426/0.229       0.643/0.693/0.543
-  OpenCLIP-L/14        0.566/0.585/0.536       0.605/0.662/0.540       0.387/0.445/0.265       0.653/0.733/0.567
-  SigLIP-400m          0.546/0.566/0.523       0.327/0.374/0.260       0.372/0.428/0.271       0.385/0.475/0.366
-  VLM2Vec(LLaVANext)   0.586/0.616/0.481       **0.769/0.798/0.645**   0.398/0.443/0.254       0.744/0.794/0.662
-  VLM2Vec(Qwen)        0.632/0.660/0.519       0.753/0.778/0.633       0.412/0.467/0.244       0.734/0.784/0.653
-  GR-CLIP-B/16         0.603/0.642/0.524       0.636/0.690/0.523       0.406/0.459/0.240       0.726/0.768/0.645
-  GR-CLIP-L/14         0.648/0.678/0.555       0.656/0.708/0.547       0.465/0.523/0.296       0.754/0.770/0.661
-  GR-OpenCLIP-B/16     0.636/0.666/0.572       0.668/0.751/0.589       0.434/0.490/0.253       0.758/0.783/0.664
-  GR-OpenCLIP-L/14     0.678/0.704/0.604       0.699/0.784/0.629       0.467/0.525/0.282       **0.796/0.814/0.715**
-  GR-SigLIP-400m       **0.692/0.722/0.608**   0.696/0.732/0.548       **0.532/0.581/0.328**   0.769/0.793/0.671
-
-  : **Detailed results across all metrics on MixBench.** Each cell reports NDCG@10, NDCG@100, and Recall@1. Best results are highlighted in bold. The consistent performance across metrics demonstrates the robustness of our approach to different evaluation criteria. GR-CLIP underperforms VLM2Vec on MSCOCO because VLM2Vec was trained on MSCOCO. 
+| **Method** |  | **MSCOCO** | **OVEN** | **VisualNews** |
+|:---|:---|:---|:---|:---|
+| CLIP-B/16 | 0.478/0.505/0.443 | 0.388/0.426/0.292 | 0.354/0.398/0.209 | 0.563/0.604/0.498 |
+| CLIP-L/14 | 0.505/0.516/0.454 | 0.426/0.490/0.329 | 0.389/0.431/0.253 | 0.596/0.656/0.525 |
+| OpenCLIP-B/16 | 0.551/0.563/0.519 | 0.570/0.615/0.489 | 0.385/0.426/0.229 | 0.643/0.693/0.543 |
+| OpenCLIP-L/14 | 0.566/0.585/0.536 | 0.605/0.662/0.540 | 0.387/0.445/0.265 | 0.653/0.733/0.567 |
+| SigLIP-400m | 0.546/0.566/0.523 | 0.327/0.374/0.260 | 0.372/0.428/0.271 | 0.385/0.475/0.366 |
+| VLM2Vec(LLaVANext) | 0.586/0.616/0.481 | **0.769/0.798/0.645** | 0.398/0.443/0.254 | 0.744/0.794/0.662 |
+| VLM2Vec(Qwen) | 0.632/0.660/0.519 | 0.753/0.778/0.633 | 0.412/0.467/0.244 | 0.734/0.784/0.653 |
+| GR-CLIP-B/16 | 0.603/0.642/0.524 | 0.636/0.690/0.523 | 0.406/0.459/0.240 | 0.726/0.768/0.645 |
+| GR-CLIP-L/14 | 0.648/0.678/0.555 | 0.656/0.708/0.547 | 0.465/0.523/0.296 | 0.754/0.770/0.661 |
+| GR-OpenCLIP-B/16 | 0.636/0.666/0.572 | 0.668/0.751/0.589 | 0.434/0.490/0.253 | 0.758/0.783/0.664 |
+| GR-OpenCLIP-L/14 | 0.678/0.704/0.604 | 0.699/0.784/0.629 | 0.467/0.525/0.282 | **0.796/0.814/0.715** |
+| GR-SigLIP-400m | **0.692/0.722/0.608** | 0.696/0.732/0.548 | **0.532/0.581/0.328** | 0.769/0.793/0.671 |
+****Detailed results across all metrics on MixBench.** Each cell reports NDCG@10, NDCG@100, and Recall@1. Best results are highlighted in bold. The consistent performance across metrics demonstrates the robustness of our approach to different evaluation criteria. GR-CLIP underperforms VLM2Vec on MSCOCO because VLM2Vec was trained on MSCOCO. **
 
 ![](assets/fig06.png)
 
@@ -347,19 +346,18 @@ In this section, we provide additional details on how each dataset is processed 
 
 Table 2 summarizes the key characteristics of each dataset, including the retrieval setting, the modality composition of queries and corpora, and the total number of evaluation examples.
 
-  **Dataset**                 **Queries**   **Documents**   **Setting No.**   **\# of Queries**   **\# of Documents**
-  -------------------------- ------------- --------------- ----------------- ------------------- ---------------------
-  Google WIT {{CITE:27}}          T        T / I / I + T        1,2,3              1000                 4423
-  OVEN {{CITE:10}}                   T + I      T / I / I + T        1,2,3              1000                 1000
-  MSCOCO {{CITE:18}}                 T        T / I / I + T        1,2,3               984                  984
-  VisualNews {{CITE:19}}         T        T / I / I + T        1,2,3               981                  981
-  SciFact {{CITE:30}}               T            T / S              1                 300                 5183
-  NFCorpus {{CITE:3}}             T            T / S              1                 323                 3633
-  MSVD {{CITE:4}}                     T            T / V              1                 670                  670
-  Clotho {{CITE:6}}                 T            T / A              1                1046                 1046
-  Nights {{CITE:8}}                 I            I / T              1                1000                 1000
-
-  : **Overview of datasets used in our experiments.** For each dataset, we indicate the retrieval setting, the modalities involved in queries and documents (T = text, I = image, S = screenshot, V = video, A = audio), and the number of query-document pairs used for evaluation. 
+| **Dataset** | **Queries** | **Documents** | **Setting No.** | **\# of Queries** | **\# of Documents** |
+|:---|:--:|:--:|:--:|:--:|:--:|
+| Google WIT {{CITE:27}} | T | T / I / I + T | 1,2,3 | 1000 | 4423 |
+| OVEN {{CITE:10}} | T + I | T / I / I + T | 1,2,3 | 1000 | 1000 |
+| MSCOCO {{CITE:18}} | T | T / I / I + T | 1,2,3 | 984 | 984 |
+| VisualNews {{CITE:19}} | T | T / I / I + T | 1,2,3 | 981 | 981 |
+| SciFact {{CITE:30}} | T | T / S | 1 | 300 | 5183 |
+| NFCorpus {{CITE:3}} | T | T / S | 1 | 323 | 3633 |
+| MSVD {{CITE:4}} | T | T / V | 1 | 670 | 670 |
+| Clotho {{CITE:6}} | T | T / A | 1 | 1046 | 1046 |
+| Nights {{CITE:8}} | I | I / T | 1 | 1000 | 1000 |
+****Overview of datasets used in our experiments.** For each dataset, we indicate the retrieval setting, the modalities involved in queries and documents (T = text, I = image, S = screenshot, V = video, A = audio), and the number of query-document pairs used for evaluation. **
 
 # Case Studies 
 

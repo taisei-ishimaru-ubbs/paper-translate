@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. Overview of our proposed FL framework, FEDOT. We leverage a pre-trained vision encoder in a strictly black-box FL environment. The image encoder, deployed via API or as a compiled binary, operates with client-specific orthogonal transformations (local parameters) applied externally to the ",
+    "score": 125.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 7,
+    "caption": "Figure 2. Comparison of DOF and personalization accuracy on FEMNIST and OfficeHome. We vary the number of blocks R = 2N. The left axis depicts the change in personalization accuracy relative to N = 0 (R = 1). The optimal DOF balances adaptability and structural preservation, varying with dataset com",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Comparison of generalization and personalization performance for local-only, global-only, and FEDOT. FEDOT consistently outperforms both ablated methods, highlighting the synergistic effect of global and local components.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. Comparison of comprehensive accuracy on PACS across different communication rounds (varying local epochs E) using FEDOT and FedCLIP. FEDOT maintains stability and performance, whereas FedCLIP tends to degrade with more communication rounds, highlighting FEDOT’s robustness.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5. Scalability analysis on FEMNIST. Average general- ization performance on 5 unseen test clients as the number of participating clients increases from 1 to 75. FEDOT consistently improves over the CLIP Zero-Shot baseline and generally outper- forms PromptFL, demonstrating robust scalability ",
+    "score": 3.0
+  }
+]

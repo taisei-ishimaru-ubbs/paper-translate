@@ -1,0 +1,16 @@
+{
+  "id": "2505.19888",
+  "title": "Generalized and Personalized Federated Learning with Black-Box Foundation Models via Orthogonal Transformations",
+  "authors": [
+    "Eun Gyung Kong",
+    "Je Won Yeom",
+    "Yonghoon Jeon",
+    "Taesup Kim"
+  ],
+  "abstract": "Federated Learning (FL) facilitates decentralized model training while preserving data privacy. However, achieving both robust generalization and effective personalization simultaneously in heterogeneous (non-IID) environments remains a formidable challenge. Furthermore, the widespread adoption of proprietary Foundation Models (FMs) introduces a critical requirement for dual privacy: (a) protecting sensitive client data and (b) securing the server's valuable intellectual property. This mandates strictly black-box access to the FM. To address these multifaceted challenges, we introduce FedOT, a novel FL framework optimized for black-box FMs. FedOT employs a shared global task-dependent classifier while facilitating local adaptation through client-specific orthogonal transformations applied externally to the FM embeddings. This architecture inherently guarantees that the FM's internal parameters remain inaccessible and unmodified. By enforcing orthogonality, FedOT effectively mitigates gradient conflicts across diverse clients, which is theoretically bounded, preserves the semantic integrity of the FM representations, and achieves robust performance under significant data heterogeneity. The synergy of global and local parameters optimally balances generalization and personalization, markedly outperforming baseline FL methods across diverse benchmarks. Extensive empirical analysis, including rigorous multi-seed validation and scalability assessments, substantiates the robustness, efficiency, and superior performance of FedOT.",
+  "published": "2025-05-26",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2505.19888v3",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-09-08T08:20:08Z"
+}

@@ -273,7 +273,7 @@ tags: [paper]
 - [Context-Aware Multimodal Pretraining](https://arxiv.org/abs/2411.15099)
 - [A Novel Multi-Modal Learning Approach for Cross-Process Defect Classification in TFT-LCD Array Manufacturing](https://doi.org/10.1109/TSM.2024.3448359)
 - [Aggregate-and-Adapt Natural Language Prompts for Downstream Generalization of CLIP](https://arxiv.org/abs/2410.23698)
-- [Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting](https://arxiv.org/abs/2410.19294)
+- [[enhancing_zero_shot_vision_models_by_label_free_prompt_distribution_learning_and_bias_correcting|Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting]]
 - [Scene Graph Generation with Role-Playing Large Language Models](https://arxiv.org/abs/2410.15364)
 - [BoostAdapter: Improving Vision-Language Test-Time Adaptation via Regional Bootstrapping](https://arxiv.org/abs/2410.15430)
 - [Interpreting and Analysing CLIP's Zero-Shot Image Classification via Mutual Knowledge](https://arxiv.org/abs/2410.13016)

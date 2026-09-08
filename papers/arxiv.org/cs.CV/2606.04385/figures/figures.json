@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. t-SNE visualization of foundation-model representations on the Pets. (a) The original CLIP space exhibits a pronounced modality gap between image-text embeddings. (b) VFM features yield more compact intra-class clusters, yet lack globally consistent alignment to semantic concepts. (c) GPUA",
+    "score": 86.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. The pipeline of GPUA. Stage 1: An unsupervised correspondence estimation module infers soft assignments (P) by jointly enforcing structural consistency and semantic alignment between visual features and semantic prototypes. Stage 2: These correspondences are used to derive the optimal orth",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3. Qualitative comparison on open-vocabulary semantic seg- mentation. (a) Predictions produced by SC-CLIP; (b) Predictions after incorporating GPUA; (c) Ground-truth segmentation masks. By aligning geometry-aware DINOv3 patch features with the VLM semantic space, GPUA enhances patch-level vis",
+    "score": 12.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 15,
+    "caption": "Figure 4. Sensitivity analysis of the fusion coefficient λ. Classification accuracy (%) versus λ across 11 datasets, showing optimal performance around λ = 0.9.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 15,
+    "caption": "Figure 5. Convergence of the proposed method on 11 datasets. The method converges within a few iterations, indicating efficient and stable optimization.",
+    "score": 19.0
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: (a) We train a linear mapping W to align the image and text embeddings of CLIP toward a dataset. (b) On inference, we employ the mapping to retrieve captions from a datastore that are similar to the input image and provide these along with a prompt to a FLAN-T5 model to generate a new capt",
+    "score": 89.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: T-SNE visualization of CLIP- embeddings before (left) and after (right) linear re-alignment on the Flickr30k dataset.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 20,
+    "caption": "Figure 3: Pearson correlation between commonly used image captioning metrics for captions gener- ated via ReCap on the MS-COCO test set.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 20,
+    "caption": "Figure 4: Development of CIDEr-D, SPICE, aCLIP-S, and RefaCLIP-S for DAL on the MS-COCO validation set where we use RefaCLIP-S for quality filtering.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 20,
+    "caption": "Figure 5: Development of the hyperparameter k and the number of synthetic captions per image during DAL on the MS-COCO dataset.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 21,
+    "caption": "Figure 6: Captions generated via ReCap (bottom) and ReCap+DAL (top). Images were taken from the MS-COCO validation set.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 22,
+    "caption": "Figure 7: Sample images and retrieved captions with (bottom) and without (top) our linear alignment to MS-COCO training data. We show three of the closest captions to an image. Images are taken from the MS-COCO validation set.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 25,
+    "caption": "Figure 8: Captions generated via ReCap (bottom) and ReCap+DAL (top). Images were taken from the MS-COCO validation set.",
+    "score": 0.0
+  }
+]

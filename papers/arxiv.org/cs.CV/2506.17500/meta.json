@@ -1,0 +1,17 @@
+{
+  "id": "2506.17500",
+  "title": "Few-Shot, Now for Real: Medical VLMs Adaptation without Balanced Sets or Validation",
+  "authors": [
+    "Julio Silva-Rodríguez",
+    "Fereshteh Shakeri",
+    "Houda Bahig",
+    "Jose Dolz",
+    "Ismail Ben Ayed"
+  ],
+  "abstract": "Vision-language models (VLMs) are gaining attention in medical image analysis. These are pre-trained on large, heterogeneous data sources, yielding rich and transferable representations. Notably, the combination of modality-specialized VLMs with few-shot adaptation has provided fruitful results, enabling the efficient deployment of high-performing solutions. However, previous works on this topic make strong assumptions about the distribution of adaptation data, which are unrealistic in the medical domain. First, prior art assumes access to a balanced support set, a condition that breaks the natural imbalance in disease prevalence found in real-world scenarios. Second, these works typically assume the presence of an additional validation set to fix critical hyper-parameters, which is highly data-inefficient. This work challenges these favorable deployment scenarios and introduces a realistic, imbalanced, validation-free adaptation setting. Our extensive benchmark across various modalities and downstream tasks demonstrates that current methods systematically compromise their performance when operating under realistic conditions, occasionally even performing worse than zero-shot inference. Also, we introduce a training-free linear probe that adaptively blends visual and textual supervision. Detailed studies demonstrate that the proposed solver is a strong, efficient baseline, enabling robust adaptation in challenging scenarios.",
+  "published": "2025-06-20",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2506.17500v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-09-08T12:38:29Z"
+}

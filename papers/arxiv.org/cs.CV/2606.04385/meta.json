@@ -1,0 +1,17 @@
+{
+  "id": "2606.04385",
+  "title": "Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models",
+  "authors": [
+    "Shuwen Yu",
+    "Zhanxuan Hu",
+    "Yi Zhao",
+    "Yonghang Tai",
+    "Huafeng Li"
+  ],
+  "abstract": "Foundation models have driven rapid progress in computer vision, yet the two dominant paradigms, vision-language foundation models (VLMs) and vision-only foundation models (VFMs), remain only partially compatible. VLMs offer language-grounded semantic alignment but are often visually coarse, while VFMs learn discriminative perceptual geometry but lack semantic grounding. We propose GPUA (Geometry-Preserving Unsupervised Alignment), a framework that integrates the complementary strengths of VFMs and VLMs. Inspired by cross-lingual alignment, GPUA treats VFM features as a visual language and learns an orthogonal mapping that translates the VFM space into the VLM semantic space, preserving geometry and narrowing the modality gap without labels or model parameter updates. GPUA is task-agnostic and requires only feature-level access to pretrained models. Experiments across diverse benchmarks demonstrate improved cross-model compatibility and strong gains in downstream zero-shot recognition and segmentation with negligible overhead. Code is available at https://github.com/Yuteam14/GPUA",
+  "published": "2026-06-03",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2606.04385v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-09-08T08:20:04Z"
+}

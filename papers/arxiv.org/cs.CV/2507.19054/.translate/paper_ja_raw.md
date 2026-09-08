@@ -1,276 +1,274 @@
 # Introduction
 
-デジタル世界における情報は、text、images、video、audio、およびそれらのさまざまな組合せという複数のモダリティにまたがって存在する。従来の検索システムは主として、**homogeneous** なコーパス内での検索、すなわち text-to-text や text-to-image retrieval に焦点を当ててきた {{CITE:26}}{{CITE:13}}{{CITE:15}}{{CITE:25}} が、現実の応用では、**heterogeneous** なモダリティを横断して関連コンテンツを検索・取得する能力、すなわち text-to-{text, image, or both} retrieval がますます求められている {{CITE:29}}。たとえば、ユーザが "Mountain Fuji" を検索する場合、その山を説明する text 文書、単独の images、ならびに両モダリティを組み合わせた multimodal webpages のすべてを見つけられることを期待するであろう（Figure [\[fig:pull\]](#fig:pull)a）。
+デジタル世界における情報は、テキスト、画像、動画、音声、そしてそれらのさまざまな組み合わせという複数のモダリティにまたがって存在する。従来の検索システムは主として、同種のコーパス内での検索、すなわち text-to-text や text-to-image retrieval に焦点を当ててきたが {{CITE:26}}{{CITE:13}}{{CITE:15}}{{CITE:25}}、現実世界の応用では、異種モダリティ間で関連コンテンツを検索・取得する能力、すなわち text-to-{text, image, or both} retrieval がますます求められている {{CITE:29}}。たとえば、ユーザが「Mountain Fuji」を検索した場合、山を説明するテキスト文書、独立した画像、ならびに両モダリティを組み合わせたマルチモーダルなウェブページを見つけることを期待するであろう（Figure [\[fig:pull\]](#fig:pull)a）。
 
-この実用的重要性にもかかわらず、**mixed modality search** の課題は依然として十分に研究されていない {{CITE:29}}。中心的な課題は、画像と "Mountain Fuji" の textual description のように、モダリティをまたいで意味的に類似する内容を近接した位置に写像できる、統一された embedding space を構築することにある。これにより、クエリと文書のモダリティに依存せず、意味的類似度を正確に測定できる。近年の multimodal contrastive learning、特に CLIP-based models {{CITE:25}}{{CITE:33}}{{CITE:34}} の進展は、大規模な paired image-text datasets での学習を通じて text と image の embeddings を整列させることにより、有望な解決策を与える。
+その実用的重要性にもかかわらず、**mixed modality search** の課題は依然として十分に探究されていない {{CITE:29}}。中心的な課題は、異なるモダリティにまたがる意味的に類似したコンテンツ――たとえば、画像と「Mountain Fuji」のテキスト説明――を近接した位置に写像できる統一埋め込み空間を構築することにある。これにより、クエリと文書のモダリティに依存せず、意味的類似性を正確に測定できる。近年のマルチモーダル対照学習の進展、とりわけ CLIP ベースのモデル {{CITE:25}}{{CITE:33}}{{CITE:34}} は、大規模な画像・テキスト対ペアデータセットで学習することによりテキストと画像の埋め込みを整列させる有望な解決策を提供している。
 
-本研究では、これらの contrastive models が現実的な mixed modality search シナリオでどの程度機能するかを検討する。具体的には、CLIP は vision と language のための 2 つの独立した encoder から構成される {{CITE:25}}。各 corpus item については、image-only および text-only documents をそれぞれの encoder で encode する。image と text の両方を含む multimodal documents については、それらを表現するために image と text の embeddings の線形結合を計算する（Figure [\[fig:pull\]](#fig:pull)b）。embedding が得られた後は、query embedding と各 corpus item の cosine similarity を計算して similarity search を行い、relevance に基づく上位10件の結果の品質を測る NDCG@10 {{CITE:11}} などの標準的な retrieval metrics を用いて性能を評価する。
+本研究では、これらの対照モデルが現実的な mixed modality search シナリオにおいてどの程度機能するかを検討する。具体的には、CLIP は視覚と言語のための二つの別個のエンコーダから構成される {{CITE:25}}。各コーパス項目について、画像のみの文書とテキストのみの文書はそれぞれ対応するエンコーダで埋め込む。画像とテキストの両方を含むマルチモーダル文書については、画像埋め込みとテキスト埋め込みの線形結合によってそれらを表現する（Figure [\[fig:pull\]](#fig:pull)b）。埋め込みが得られた後は、クエリ埋め込みと各コーパス項目とのコサイン類似度を計算して類似性検索を行い、関連性に基づく上位10件の順位付けの質を測る NDCG@10 などの標準的な検索指標 {{CITE:11}} を用いて性能を評価する。
 
-我々の分析は、CLIP-style contrastive models の根本的な限界を明らかにする。すなわち、それらの embedding space には顕著な **modality gap** {{CITE:17}}{{CITE:35}}{{CITE:36}} が存在し、mixed modality 設定における retrieval performance を大きく低下させる。これらのモデルは image-text pairs を整列させるように学習されているにもかかわらず、image と text の embeddings は separate clusters を形成し、embedding space 上で依然として大きく離れている（Figure [\[fig:pull\]](#fig:pull)c）。この clustering は強い *intra-modal ranking bias*（§3）を引き起こし、同一モダリティ間の類似度（たとえば image-to-image や text-to-text）が異なるモダリティ間の類似度（たとえば image-to-text）よりはるかに高くなり、retrieval rankings を歪める（Figure [\[fig:pull\]](#fig:pull)d）。たとえば、text query "Mountain Fuji" が与えられた場合、Mountain Fuji を描写した image は、"this is a great paper." のような無関係な text snippet よりも下位にランク付けされてしまう。さらに、modality gap は *inter-modal fusion*（§4）を損なう。すなわち、image と text の embeddings を linear interpolation により結合すると、しばしば features が最適でない領域へ押しやられ、意味表現が弱まり、image あるいは text のみを用いる場合よりも性能が低下する。
+我々の分析は、CLIP スタイルの対照モデルの根本的な限界を明らかにする。すなわち、埋め込み空間において顕著な **modality gap** {{CITE:17}}{{CITE:35}}{{CITE:36}} を示し、その結果 mixed modality 設定での検索性能が大きく低下する。これらのモデルは画像とテキストの対を整列させるよう訓練されるものの、画像埋め込みとテキスト埋め込みは別々のクラスターを形成し、埋め込み空間内で大きく離れたままである（Figure [\[fig:pull\]](#fig:pull)c）。このクラスタリングは強い *intra-modal ranking bias*（§3）を引き起こす。すなわち、同一モダリティ間の項目（たとえば image-to-image や text-to-text）の類似度が、異なるモダリティ間（たとえば image-to-text）よりもはるかに高くなり、検索順位に系統的な偏りが生じる（Figure [\[fig:pull\]](#fig:pull)d）。たとえば、「Mountain Fuji」というテキストクエリが与えられたとき、Mountain Fuji を描写する画像が、「this is a great paper.」のような無関係なテキスト断片よりも下位に順位付けされることがある。さらに、modality gap は *inter-modal fusion*（§4）も損なう。すなわち、画像埋め込みとテキスト埋め込みを線形補間で結合すると、特徴が最適でない領域へ押しやられ、意味情報が弱まり、画像のみあるいはテキストのみを用いる場合よりも性能が悪化することがある。
 
 ![](assets/fig01.png)
 
-**Overview of mixed modality search.** **(a) Problem Formulation:** Mixed modality search aims to retrieve relevant information from a heterogeneous corpus containing multimodal documents. This is achieved by embedding both the query and documents, followed by similarity-based retrieval. **(b) Embedding Method:** Unimodal documents are embedded using CLIP's modality-specific encoder, while multimodal documents are embedded via a weighted fusion of image and text features. **(c) Modality Gap:** CLIP's embedding space exhibits a modality gap: embeddings form distinct clusters for each modality and remain largely separated across modalities. **(d) Cosine Similarity Across Modalities:** Due to this modality gap, documents that share the same modality as the query tend to have higher cosine similarity scores and are ranked higher, introducing systematic ranking bias. **(e) Performance on MixBench:** On our newly created MixBench benchmark---specifically designed for the task of mixed modality search---GR-CLIP, a lightweight post-hoc calibration method that closes the modality gap, significantly improves performance and outperforms the state-of-the-art VLM2Vec  {{CITE:12}} baseline with substantially lower computational cost.
+**mixed modality search の概要.** **(a) 問題設定:** mixed modality search は、マルチモーダル文書を含む異種コーパスから関連情報を検索することを目的とする。これは、クエリと文書の双方を埋め込み、その後に類似度に基づく検索を行うことで実現される。**(b) 埋め込み手法:** 単一モダリティ文書は CLIP のモダリティ固有エンコーダで埋め込まれ、マルチモーダル文書は画像特徴とテキスト特徴の重み付き融合によって埋め込まれる。**(c) Modality Gap:** CLIP の埋め込み空間には modality gap が見られ、埋め込みは各モダリティごとに異なるクラスターを形成し、モダリティ間で大きく分離したままである。**(d) モダリティ間のコサイン類似度:** この modality gap により、クエリと同じモダリティを共有する文書はコサイン類似度スコアが高くなりやすく、より上位に順位付けされるため、系統的な順位バイアスが導入される。**(e) MixBench における性能:** mixed modality search のために新たに作成した MixBench ベンチマークにおいて、modality gap を解消する軽量な後処理キャリブレーション手法である GR-CLIP は、性能を大幅に改善し、計算コストを大きく抑えつつ、最先端の VLM2Vec  {{CITE:12}} ベースラインを上回る。
 
-modality gap に起因する ranking bias と fusion failure に対処するため，我々は **GR-CLIP** を導入する。これは CLIP の embedding space から modality gap を除去する軽量な post-hoc calibration method である（GR は gap-removed を表す）。先行研究 {{CITE:35}}{{CITE:36}} は、CLIP-like models における modality gap が、image と text の embedding subspace に直交する定数ベクトルによって近似できることを示している。この理論に基づき，我々はすべての image および text データの mean embeddings を計算し，その差分を用いて modality gap を推定し，retrieval を行う前にこのベクトルを全 embeddings から減算する。この方法は mean embeddings を計算するためにデータセットを 1 回走査するだけでよく，計算オーバーヘッドは無視できるほど小さい。
+modality gap に起因する順位バイアスと融合失敗に対処するため、我々は **GR-CLIP** を導入する。これは、CLIP の埋め込み空間から modality gap を除去する軽量な後処理キャリブレーション手法である（GR は gap-removed を意味する）。先行研究 {{CITE:35}}{{CITE:36}} は、CLIP 系モデルにおける modality gap は、画像およびテキスト埋め込み部分空間に直交する定数ベクトルによって近似できることを示している。この理論に基づき、我々はすべての画像データとテキストデータの平均埋め込みを計算し、その差を用いて modality gap を推定し、検索を行う前にこのベクトルをすべての埋め込みから差し引く。この手法は、平均埋め込みを計算するためにデータセット全体を一度走査するだけでよく、計算オーバーヘッドは無視できるほど小さい。
 
-mixed modality search のために明示的に設計された 4 つの subset（Google-WIT {{CITE:27}}, MSCOCO {{CITE:18}}, OVEN {{CITE:10}}, VisualNews {{CITE:19}}）から成る **MixBench** で評価したところ，GR-CLIP は元の CLIP models を一貫して上回り，NDCG@10 において最大 26 percentage points の改善を達成した。また，最新の vision-language generative embedding methods である VLM2Vec {{CITE:12}} を 4 percentage points 上回り，かつ計算コストを 75$\times$ 削減した。さらに，本手法が異なる CLIP variants（たとえば OpenAI CLIP {{CITE:25}}, OpenCLIP {{CITE:33}}, SigLIP {{CITE:34}}）およびモダリティ（たとえば text-to-image, text-to-audio, text-to-video）にまたがって汎化することも示す。
+**MixBench** で評価した結果、すなわち mixed modality search のために明示的に設計された 4 つのサブセット（Google-WIT {{CITE:27}}, MSCOCO {{CITE:18}}, OVEN {{CITE:10}}, VisualNews {{CITE:19}}）からなるベンチマークにおいて、GR-CLIP は一貫して元の CLIP モデルを上回り、NDCG@10 において最大 26 パーセントポイントの改善を達成した。また、VLM2Vec {{CITE:12}} のような近年の vision-language generative embedding 手法を 4 パーセントポイント上回りつつ、計算コストを 75$\times$ 削減した。さらに、我々の手法は異なる CLIP 変種（たとえば OpenAI CLIP {{CITE:25}}, OpenCLIP {{CITE:33}}, SigLIP {{CITE:34}}）および異なるモダリティ（たとえば text-to-image, text-to-audio, text-to-video）にまたがって一般化することを示す。
 
-要するに，我々は、ユーザが多様なモダリティ型を含む heterogeneous corpus を検索する web search engines のような現実世界のシナリオを反映する **mixed modality search** の問題を定式化し，検討する。最先端の contrastive models が modality gap に起因して ranking bias と fusion failure に苦しむことを示し，これに対処する軽量な post-hoc calibration method を提案する。我々の知見は，有効な mixed modality search のためには，真に統一された embedding space を構築することが重要であることを強調している。
+要するに、本研究は、ユーザが多様なモダリティ型を含む異種コーパスを検索するウェブ検索エンジンのような現実的シナリオを反映する **mixed modality search** の問題を定式化し、その性質を検討した。我々は、最先端の対照モデルが modality gap に起因して順位バイアスと融合失敗に苦しむことを示し、この問題に対処する軽量な後処理キャリブレーション手法を提案した。本研究の知見は、効果的な mixed modality search を実現するためには、真に統一された埋め込み空間を構築することの重要性を浮き彫りにする。
 
 # Preliminaries 
 
-本節では，mixed modality search タスクを定義し，その課題および課題に関連する 3 つの設定を導入し，さらに用いる手法と評価指標を説明する。
+本節では、mixed modality search のタスクを定義し、その課題と課題に関連する三つの設定を導入し、さらに用いる手法と評価指標を記述する。
 
 ## Problem Formulation
 
-Mixed modality search は，クエリと文書の双方が text，image，audio，video など異なるモダリティの組合せから構成され得るときに，意味的に関連するコンテンツを検索することを目的とする。$\mathcal{M}$ をサポートされるモダリティの集合（たとえば，$\mathcal{M} = \{\text{text}, \text{image}, \text{audio}, \text{video}\}$）とする。クエリは $q$ で表し，そのモダリティ集合を $m_q \subseteq \mathcal{M}$ とする。retrieval corpus は $\mathcal{C} = \{d_i\}_{i=1}^N$ と定義され，各文書 $d_i$ はモダリティ集合 $m_i \subseteq \mathcal{M}$ を伴う。目的は，各文書に対する similarity score $s(q, d_i)$ を計算し，クエリと文書の間でモダリティがどのように分布していても，意味的関連性に基づいて ranked list を返すことである。
+Mixed modality search は、クエリと文書がテキスト、画像、音声、動画など異なるモダリティの組合せから構成され得るときに、意味的に関連するコンテンツを検索することを目的とする。$\mathcal{M}$ をサポートされるモダリティの集合とする（たとえば、$\mathcal{M} = \{\text{text}, \text{image}, \text{audio}, \text{video}\}$）。クエリは $q$ で表し、そのモダリティ集合を $m_q \subseteq \mathcal{M}$ とする。検索コーパスは $\mathcal{C} = \{d_i\}_{i=1}^N$ と定義され、各文書 $d_i$ はモダリティ集合 $m_i \subseteq \mathcal{M}$ に関連付けられる。目的は、モダリティがクエリと文書の間でどのように分布しているかに依存せず、各文書に対する類似度スコア $s(q, d_i)$ を計算し、意味的関連性に基づく順位付きリストを返すことである。
 
-mixed modality search は従来の retrieval task と比べて 2 つの性質によって特徴づけられる。**1) heterogeneous corpus:** 文書ごとにモダリティ構成が異なる，すなわち $d_i, d_j \in \mathcal{C}$ であって $m_i \ne m_j$ を満たすものが存在する。たとえば，一つの文書は text-only（$m_i = \{\text{text}\}$），別の文書は image-only（$m_j = \{\text{image}\}$），さらに別の文書は multimodal（$m_k = \{\text{text}, \text{image}\}$）であり得る。**b) multimodal documents:** 一部の文書は 1 つのエントリ内に複数のモダリティを含み，すなわち $|m_i| > 1$ である。これらのモダリティはしばしば相補的な情報を提供し，効果的な理解のためには統合する必要がある（たとえば，説明的な caption を伴う image）。
+二つの性質が mixed modality search を従来の検索タスクと区別する。**1) heterogeneous corpus:** 文書ごとにモダリティ構成が異なる、すなわち $d_i, d_j \in \mathcal{C}$ であって $m_i \ne m_j$ となるものが存在する。たとえば、一つの文書はテキストのみ（$m_i = \{\text{text}\}$）、別の文書は画像のみ（$m_j = \{\text{image}\}$）、さらに別の文書はマルチモーダル（$m_k = \{\text{text}, \text{image}\}$）であり得る。**b) multimodal documents:** 一部の文書は単一エントリ内に複数モダリティを含み、すなわち $|m_i| > 1$ である。これらのモダリティはしばしば相補的な情報を提供し、効果的な理解のためには融合が必要となる（たとえば、画像と説明的キャプションの対）。
 
 ## Settings
 
-heterogeneous corpus と multimodal documents の組合せは，2 つの中心的な modeling challenge を生み出す。**1) cross-modal alignment:** たとえば "Mount Fuji" の text と image が representation space 内で近接した位置に埋め込まれるように，異なるモダリティ間で類似した概念の表現を比較可能に保つこと。**2) multimodal fusion:** たとえば "Mount Fuji" の text と image を統合して，その概念のより豊かな表現を生成するように，文書内の複数モダリティを効果的に結合し，統一された意味的に妥当な表現を形成すること。これらの課題を体系的に調べるため，以下の 3 つの設定を定義する。
+異種コーパスとマルチモーダル文書の組合せは、二つの中心的なモデリング課題を導入する。**1) cross-modal alignment:** 「Mount Fuji」のテキストと画像のような類似概念の表現が、異なるモダリティ間で比較可能となるようにすることである。すなわち、これらが表現空間内の近接した位置に埋め込まれる必要がある。**2) multimodal fusion:** 文書内の複数モダリティを効果的に結合し、統一された意味的に有意な表現を形成することである。たとえば、「Mount Fuji」のテキストと画像を統合して、より豊かな概念表現を生成することが挙げられる。これらの課題を体系的に検討するため、我々は三つの設定を定義する。
 
-**Ablated setting 1: only heterogeneous corpus (§3).** 各文書は unimodal（$|m_i| = 1$）であるが，コーパスは複数のモダリティにまたがる（$|\mathcal{M}| > 1$）。たとえば，Figure [\[fig:pull\]](#fig:pull)a の $d_1$ と $d_2$ に対応するように，同一概念の text-only および image-only の記述を含み得る。これは cross-modal alignment のみを検証する設定であり，モデルがモダリティ間で比較可能な表現を符号化できるかを問う。
+**Ablated setting 1: only heterogeneous corpus (§3).** 各文書は単一モダリティであるが（$|m_i| = 1$）、コーパスは複数モダリティにまたがる（$|\mathcal{M}| > 1$）。たとえば、Figure [\[fig:pull\]](#fig:pull)a の $d_1$ と $d_2$ に対応するように、同一概念に関するテキストのみと画像のみの記述を含み得る。これは cross-modal alignment のみを検証する設定であり、モデルがモダリティ間で比較可能な表現を符号化できるかどうかを問う。
 
-**Ablated setting 2: only multimodal documents (§4).** すべての文書が同一のモダリティ集合を含む（$m_i = \mathcal{M}$ かつ $|m_i| > 1$）。たとえば，Figure [\[fig:pull\]](#fig:pull)a の $d_3$ に対応するように，各文書は image とそれに対応する caption の両方を含む。この設定は純粋に multimodal fusion に焦点を当て，モデルが複数モダリティを効果的に結合できるかを評価する。
+**Ablated setting 2: only multimodal documents (§4).** すべての文書が同じモダリティ集合を含む（$m_i = \mathcal{M}$ かつ $|m_i| > 1$）。たとえば、各文書が画像と対応するキャプションの両方を含み、Figure [\[fig:pull\]](#fig:pull)a の $d_3$ に対応する。この設定は純粋に multimodal fusion に焦点を当て、モデルが複数モダリティを効果的に結合できるかを評価する。
 
-**Full setting: mixed modality search (§5).** 文書は unimodal または multimodal のいずれでもあり得（$|m_i| \ge 1$），かつコーパスは heterogeneous である。たとえば，一部の文書は text-only，別の文書は image-only，さらに別の文書はそれらの組合せであり，Figure [\[fig:pull\]](#fig:pull)a の $d_1$，$d_2$，$d_3$ がすべて存在する状況に対応する。これは最も現実的かつ一般的な設定であり，ニュース記事，商品リスト，科学データセットのような実世界のコーパスを反映している。これは 2 つの核心的課題を統合し，我々の主要な評価シナリオとなる。
+**Full setting: mixed modality search (§5).** 文書は単一モダリティまたはマルチモーダルのいずれかであり得（$|m_i| \ge 1$）、コーパスは異種である。たとえば、ある文書はテキストのみ、別の文書は画像のみ、さらに別の文書はそれらの組合せであり、Figure [\[fig:pull\]](#fig:pull)a において $d_1$, $d_2$, $d_3$ がすべて存在する場合に相当する。これは最も現実的で一般的な設定であり、ニュース記事、商品リスト、科学データセットのような実世界のコーパスを反映する。これは両方の中心課題を統合し、我々の主要評価シナリオとなる。
 
 ## Methods 
 
-クエリ $q$ と文書 $d_i$ が与えられたとき，我々は embedding model $f$ を用いてそれらの embeddings $e_q = f(q)$ および $e_i = f(d_i)$ を計算し，cosine similarity により文書を順位付けする：$s(q, d_i) = \frac{e_q \cdot e_i}{\|e_q\| \cdot \|e_i\|}$。以下の embedding approaches を評価する。
+クエリ $q$ と文書 $d_i$ が与えられたとき、我々は埋め込みモデル $f$ を用いてそれらの埋め込み $e_q = f(q)$ と $e_i = f(d_i)$ を計算し、コサイン類似度 $s(q, d_i) = \frac{e_q \cdot e_i}{\|e_q\| \cdot \|e_i\|}$ により文書を順位付けする。以下の埋め込み手法を評価する。
 
-**CLIP (baseline) {{CITE:25}}.** CLIP は，paired image-text inputs を整列させるよう学習された contrastive vision-language model である。image encoder $f^I$ と text encoder $f^T$ を用いて，各モダリティを別々に符号化する。unimodal な text または image documents $d_i$ および $d_j$ については，モダリティ固有の encoder を用いて embedding を計算する：$e_i = f^I(d_i)$ および $e_j = f^T(d_j)$。image と text の入力 $d_k^I$ および $d_k^T$ を含む multimodal documents $d_k$ については，weighted interpolation を計算する：$e_k = \alpha \cdot f^T(d_k^T) + (1 - \alpha) \cdot f^I(d_k^I)$，ここで $\alpha \in [0, 1]$ は各モダリティの寄与を調整する。
+**CLIP (baseline) {{CITE:25}}.** CLIP は、対になった画像・テキスト入力を整列させるよう訓練された対照的 vision-language model である。画像エンコーダ $f^I$ とテキストエンコーダ $f^T$ を用いて、各モダリティを別々に符号化する。単一モダリティのテキスト文書または画像文書 $d_i$ と $d_j$ については、モダリティ固有のエンコーダを用いて埋め込みを計算する：$e_i = f^I(d_i)$ および $e_j = f^T(d_j)$。画像入力 $d_k^I$ とテキスト入力 $d_k^T$ を含むマルチモーダル文書 $d_k$ については、重み付き補間を計算する：$e_k = \alpha \cdot f^T(d_k^T) + (1 - \alpha) \cdot f^I(d_k^I)$、ここで $\alpha \in [0, 1]$ は各モダリティの寄与を調整する。
 
-**VLM2Vec (baseline) {{CITE:12}}.** VLM2Vecは、最先端のマルチモーダル生成埋め込み手法であり、大規模視覚言語モデル$f$（たとえばLLaVA {{CITE:21}}、Qwen-VL {{CITE:1}}）を自己回帰的に適応させて文書埋め込みを生成する。各文書$d_i$は、テキスト入力と画像入力を組み合わせた指示形式プロンプト$p_i$（たとえば*"Generate the embedding for the document: \[image tokens\] \[text tokens\]"*）として整形され、その後、自己回帰的に処理される。最終デコーダ層から得られるプール表現を埋め込みとして用い、$e_i = f(p_i)$と定義する。本手法は、二つのモダリティの共同モデリングとインストラクション・チューニングを通じて、高次の意味的整合を捉える。
+**VLM2Vec (baseline) {{CITE:12}}.** VLM2Vec は、LLaVA {{CITE:21}} や Qwen-VL {{CITE:1}} などの大規模視覚言語モデル $f$ を適応させ、自己回帰的手法により文書埋め込みを生成する最先端のマルチモーダル生成埋め込み手法である。各文書 $d_i$ は、テキスト入力と画像入力を組み合わせた instruction-style prompt $p_i$（例: *"Generate the embedding for the document: \[image tokens\] \[text tokens\]"*）として整形され、その後自己回帰的に処理される。最終デコーダ層の pooled representation を埋め込み $e_i = f(p_i)$ として用いる。本手法は、2つのモダリティを共同でモデル化し instruction tuning を行うことで、高次の意味的整合を捉える。
 
-**GR-CLIP (ours).** CLIPはモダリティ間整合を目的としているにもかかわらず、先行研究は、その埋め込み空間に持続的なモダリティギャップが存在することを示している。すなわち、画像埋め込みとテキスト埋め込みは別々のクラスターを形成し、互いに離れたままである {{CITE:17}}。対応する画像・テキストの埋め込み$e_i^T$と$e_i^I$が与えられたとき、その関係は$e_i^T - e_i^I \approx c_\perp$とモデル化できる。ここで$c_\perp$は共有埋め込み部分空間に直交する定数ベクトルであり、モダリティギャップを表す {{CITE:36}}。GR-CLIP（GRはgap-removedの略）は、このギャップをモダリティ固有の平均を差し引くことで除去する軽量な事後較正手法である：$e_i^{\prime T} = e_i^T - \mathbb{E}_i[e_i^T], e_i^{\prime I} = e_i^I - \mathbb{E}_i[e_i^I]$。このゼロ中心化によりモダリティギャップは消失する {{CITE:36}}。なぜなら、$e_i^{\prime T} - e_i^{\prime I} = (e_i^T - e_i^I) - (\mathbb{E}_i[e_i^T] - \mathbb{E}_i[e_i^I]) \approx c_\perp - c_\perp = 0$となり、推論コストをほとんど増やさずにクロスモーダル整合が改善されるからである。マルチモーダル文書に対しては、較正後の埋め込みに同じ補間を適用する。Figure [\[fig:setting1\]](#fig:setting1)bはこの過程を示している。実際には、この単純な較正によってCLIPの性能が大幅に向上し、計算量を大きく削減しながらVLM2Vecをも上回ることが分かった。
+**GR-CLIP (ours).** CLIP はモダリティの整合を目的とするにもかかわらず、先行研究はその埋め込み空間に持続的なモダリティギャップが存在することを示している。すなわち、画像埋め込みとテキスト埋め込みは別々のクラスターを形成し、互いに距離を保ったままである {{CITE:17}}。対応する画像・テキスト埋め込み $e_i^T$ と $e_i^I$ の関係は、共有埋め込み部分空間に直交する定数ベクトル $c_\perp$ を用いて $e_i^T - e_i^I \approx c_\perp$ とモデル化でき、これはモダリティギャップを表す {{CITE:36}}。GR-CLIP（GR は gap-removed の略）は、このギャップをモダリティ固有の平均を差し引くことで除去する軽量な事後較正手法である: $e_i^{\prime T} = e_i^T - \mathbb{E}_i[e_i^T], e_i^{\prime I} = e_i^I - \mathbb{E}_i[e_i^I]$。このゼロ中心化によりモダリティギャップが消失し {{CITE:36}}、$e_i^{\prime T} - e_i^{\prime I} = (e_i^T - e_i^I) - (\mathbb{E}_i[e_i^T] - \mathbb{E}_i[e_i^I]) \approx c_\perp - c_\perp = 0$ となるため、推論コストをほぼ増やすことなくクロスモーダル整合が改善される。マルチモーダル文書に対しては、較正後の埋め込み上で同じ補間を適用する。図 [\[fig:setting1\]](#fig:setting1)b はこの過程を示している。実際に、この単純な較正が CLIP の性能を大きく向上させ、計算量を大幅に抑えつつ VLM2Vec をも上回ることを確認した。
 
 ## Evaluation Metrics
 
-我々は、検索性能を**NDCG@10**（Normalized Discounted Cumulative Gain {{CITE:11}}）を用いて評価する。これは、上位10件の検索文書の関連性と順位の双方を反映する広く用いられている指標である。NDCG@10が高いほど性能が良いことを意味する。詳細はAppendixに示す。
+Retrieval 性能は、上位10件の検索文書の関連性と順位の双方を反映する広く用いられている指標である **NDCG@10**（Normalized Discounted Cumulative Gain {{CITE:11}}）を用いて評価する。NDCG@10 の値が高いほど性能が良いことを意味する。詳細は Appendix に示す。
 
 # Retrieval with Heterogeneous Corpus 
 
 ![](assets/fig02.png)
 
-**異種コーパスにおける検索。** **(a) Dataset Construction:** テキスト文書を、そのテキストのスクリーンショット表現または対応する画像で確率$p$によりランダムに置換することで、異種コーパスを構築する。意味内容は不変であるため、完全なクロスモーダル整合を備えた検索システムであれば、$p$に依存せず同一の性能を維持すべきである。**(b) Initial Results & Simulation:** 驚くべきことに、CLIPはテキストがスクリーンショットに置換されるにつれてU字型の性能曲線を示す。この挙動は、CLIPの埋め込み空間におけるモダリティギャップに起因すると考えられる。クロスモーダル文書に人工的なペナルティを課すシミュレーション実験は同じU字型傾向を再現し、この仮説を確認する。**(c) Method --- GR-CLIP:** 先行研究に基づき、我々は**GR-CLIP**を提案する。これは、テキストおよび画像埋め込みの平均中心化によりモダリティギャップを除去する、単純な事後較正である。**(d) Improved Results:** GR-CLIPはU字型曲線を平坦化し、検索精度を大幅に改善し、はるかに少ない計算量でVLM2Vecベースラインに匹敵またはそれ以上の性能を達成する。**(e) Generalization Across Models, Datasets, and Modalities:** 一般化性能を評価するため、GR-CLIPを3種類のCLIP変種、3つの追加データセット、および3つの他モダリティに対して検証する（詳細はAppendix参照）。すべての場合において、所見と改善は一貫して成立する。
+**異種コーパスにおける retrieval.** **(a) Dataset Construction:** 確率 $p$ で、テキスト文書をそのテキストのスクリーンショット表現、または対になる画像にランダム置換することにより、異種コーパスを構築する。意味内容は不変であるため、完全なクロスモーダル整合を持つ retrieval system であれば、$p$ に依存せず同一の性能を維持すべきである。 **(b) Initial Results & Simulation:** 驚くべきことに、CLIP はテキストがスクリーンショットに置換されるにつれて U 字型の性能曲線を示す。この挙動は、CLIP の埋め込み空間におけるモダリティギャップに起因すると考える。クロスモーダル文書に人工的なペナルティを課すシミュレーション実験も同じ U 字型の傾向を再現し、この仮説を裏づける。 **(c) Method --- GR-CLIP:** 先行研究に基づき、テキスト埋め込みと画像埋め込みの平均中心化によりモダリティギャップを除去する単純な事後較正 **GR-CLIP** を提案する。 **(d) Improved Results:** GR-CLIP は U 字型曲線を平坦化し、retrieval 精度を大幅に改善して、はるかに少ない計算量で VLM2Vec baseline と同等以上の性能を達成する。 **(e) Generalization Across Models, Datasets, and Modalities:** 汎化性を評価するため、3種類の CLIP 変種、追加の3データセット、さらに3種類の他モダリティ（詳細は Appendix）にわたって GR-CLIP を検証する。いずれの場合も、知見と改善は一貫して成り立つ。
 
-§2で議論したように、我々はまず、混合モダリティ検索というアブレーション設定から出発する。すなわち、単一モダリティ文書（たとえばテキストのみ、あるいは画像のみ；Figure [\[fig:setting1\]](#fig:setting1)a参照）から構成される異種コーパスである。この設定は、検索モデルがクロスモーダル整合の課題を効果的に扱えるかを評価する。
+§2 で議論したように、まずは混合モダリティ検索という ablated setting から始める。これは、単一モダリティ文書（すなわちテキストのみ、あるいは画像のみ。図 [\[fig:setting1\]](#fig:setting1)a を参照）から成る異種コーパスである。この設定は、retrieval model がクロスモーダル整合の課題を効果的に処理できるかを評価するものである。
 
 ## Dataset Construction 
 
-既存データセットの中にこの設定に従うものはないため、我々はこのタスクに特化した新規データセットを、合成スクリーンショットに基づく手法と画像置換に基づく手法という相補的な2つの戦略で構築する。
+この設定に一致する既存データセットは存在しないため、我々はこのタスクに適した新規データセットを、合成スクリーンショットと画像置換という相補的な2つの戦略を用いて構築する。
 
-**Screenshot replacement.** クエリとコーパス文書の双方がテキストである標準的なテキスト検索データセットから出発し、テキスト文書を画像ベースのスクリーンショットとして合成的にレンダリングする。具体的には、各テキスト文書$d_i^T$について、同一内容を含むスクリーンショット版$d_i^I$を生成し、確率$p$でそれに置換する（Figure [\[fig:setting1\]](#fig:setting1)a）。この合成設定は意味内容を厳密に保存するため、制御された実験に理想的である。完全なクロスモーダル整合を持つモデルであれば、対応するテキスト文書とスクリーンショット文書を埋め込み空間で同様に表現できるはずであり、したがって$p$の値が変化しても検索性能は不変であるべきである。我々はこの変換を2つのデータセット、NFCorpus {{CITE:3}}とSciFact  {{CITE:30}}に適用する。
+**Screenshot replacement.** クエリとコーパス文書の双方がテキストである標準的なテキスト専用 retrieval データセットから出発し、テキスト文書を画像ベースのスクリーンショットとして合成的に描画する。具体的には、各テキスト文書 $d_i^T$ について、同一内容を含むスクリーンショット版 $d_i^I$ を生成し、確率 $p$ でそれに置換する（図 [\[fig:setting1\]](#fig:setting1)a）。この合成設定は意味内容を厳密に保存するため、制御された実験に理想的である。完全なクロスモーダル整合を持つモデルであれば、テキスト文書とスクリーンショット文書を埋め込み空間で類似に表現でき、したがって $p$ の変化にかかわらず retrieval 性能は不変であるべきである。この変換を NFCorpus {{CITE:3}} と SciFact {{CITE:30}} の2データセットに適用する。
 
-**Real image replacement.** 画像・キャプション対を含むデータセットに対しては、テキストキャプション$d_i^T$を対応する画像$d_i^I$で確率$p$により置換する。この設定はより現実的である一方、モダリティ間にわずかな意味差を導入する。それでも、基礎にある意味的整合を踏まえれば、検索性能は異なる置換比率$p$の下でも安定していると期待される。我々はこの手法を用いて2つのデータセット、Google WIT {{CITE:27}}、MSCOCO {{CITE:18}}を構築する。
+**Real image replacement.** 画像・キャプション対を含むデータセットについては、確率 $p$ でテキストキャプション $d_i^T$ を対応する画像 $d_i^I$ に置換する。この設定はより現実的である一方、モダリティ間にわずかな意味差を導入する。それでも、基盤にある意味的整合を考えれば、retrieval 性能は置換比率 $p$ の違いに対して安定に保たれると期待される。この手法を用いて Google WIT {{CITE:27}} と MSCOCO {{CITE:18}} の2データセットを構築する。
 
 ## Initial Results & Simulation
 
-我々はまず、意味内容が厳密に保存されるため、合成スクリーンショットに基づく設定に注目する。理想的には、完全なクロスモーダル整合を持つモデルであれば、スクリーンショットに置換された文書数にかかわらず一貫した検索性能を示すはずである。
+まず、意味保存が厳密であるため、合成スクリーンショットを用いる設定に焦点を当てる。理想的には、完全なクロスモーダル整合を持つモデルであれば、スクリーンショットに置換された文書数にかかわらず、一貫した retrieval 性能を示すはずである。
 
-**Models exhibit a U-shaped performance curve when mixing texts and screenshots.** 驚くべきことに、期待された平坦な傾向ではなく、U字型の性能曲線が観測された（Figure [\[fig:setting1\]](#fig:setting1)b）。スクリーンショットがテキスト文書を置換する割合が増えるにつれて（$p$の増加）、性能は当初低下する。すなわち、$p=0$（すべてテキスト）で0.22から、$p=0.99$（99%がスクリーンショット）で0.02まで落ち込む。しかし、$p=1$（すべてスクリーンショット）では性能が再び0.36へと改善し、$p$の関数として明瞭なU字型を形成する。興味深いことに、CLIPはテキストから画像への検索（$p=1$）において、テキストからテキストへの検索（$p=0$）よりも高い性能を示す。これは、おそらくその学習目的がクロスモーダル対照損失であり、単一モダリティ検索の明示的最適化を伴わないためである。
+**Models exhibit a U-shaped performance curve when mixing texts and screenshots.** 驚くべきことに、期待された平坦な傾向ではなく、U 字型の性能曲線（図 [\[fig:setting1\]](#fig:setting1)b）を観測した。スクリーンショットがテキスト文書をより多く置換するにつれて（$p$ が増加するにつれて）、性能は最初に低下する――$p=0$（全てテキスト）での 0.22 から、$p=0.99$（99% がスクリーンショット）での 0.02 までである。しかし、$p=1$（全てスクリーンショット）では性能が再び 0.36 に改善し、$p$ の関数として明確な U 字型を形成する。興味深いことに、CLIP は text-to-text retrieval（$p=0$）よりも text-to-image retrieval（$p=1$）で良い性能を示す。これは、おそらく訓練目的が cross-modal contrastive loss であり、unimodal retrieval に対する明示的最適化を含まないためである。
 
-**The U-shape arises from the modality gap.** 我々は、このU字型性能をモダリティギャップに起因すると考える。第一に、モダリティギャップはモダリティ内類似度の偏りを生む。CLIPは共有空間でテキスト埋め込みと画像埋め込みを整合させる一方で、テキストと画像のクラスターは依然として分離したままである（Figure [\[fig:pull\]](#fig:pull)c）。その結果、モダリティ内類似度スコアが体系的に高くなる（Figure [\[fig:pull\]](#fig:pull)d）。第二に、この偏りが順位の歪みを引き起こす。スクリーンショットがより多くのテキスト項目を置換するにつれ、関連するスクリーンショットは低いクロスモーダル類似度のために不利に扱われ、一方で無関係なテキスト文書は、単にモダリティ内整合を持つという理由だけでより高く順位付けされうる。$p=0.99$では、残存するわずかなテキスト文書が、関連性にかかわらず順位を支配する。$p=1$では、すべての文書が画像となりモダリティバイアスが消失するため、性能が改善する。したがってU字型曲線が生じる。
+**The U-shape arises from the modality gap.** この U 字型性能をモダリティギャップに起因すると考える。第一に、モダリティギャップは intra-modal similarity のバイアスを生む。CLIP はテキスト埋め込みと画像埋め込みを共有空間で整合させるものの、テキストと画像のクラスターは依然として分離している（図 [\[fig:pull\]](#fig:pull)c）。その結果、intra-modal similarity スコアが体系的に高くなる（図 [\[fig:pull\]](#fig:pull)d）。第二に、このバイアスがランキングの歪みを引き起こす。スクリーンショットがより多くのテキスト項目を置換するにつれ、関連するスクリーンショットは低いクロスモーダル類似度のために不利になり、無関係なテキスト文書は単に intra-modal 整合性が高いという理由だけで上位に来る可能性がある。$p=0.99$ では、残存する少数のテキスト文書が関連性にかかわらずランキングを支配する。$p=1$ では全文書が画像となり、モダリティバイアスが消失するため性能が改善し――その結果として U 字型曲線が生じる。
 
-**Push-down simulation confirms the hypothesis.** この説明を検証するため、我々はすべてのスクリーンショットに固定類似度0を割り当てることで、モダリティ起因の順位バイアスをシミュレートし、スクリーンショットをランキングの最下位へ押し下げる。得られた性能曲線（Figure [\[fig:setting1\]](#fig:setting1)b）は実際のCLIP曲線と極めてよく一致し、U字型がモダリティギャップに起因する順位歪みから生じるという仮説を裏づける。
+**Push-down simulation confirms the hypothesis.** この説明を検証するため、全スクリーンショットに固定の類似度スコア 0 を割り当て、実質的にランキングリストの最下位へ押し下げることで、モダリティに起因するランキングバイアスをシミュレートした。その結果得られた性能曲線（図 [\[fig:setting1\]](#fig:setting1)b）は実際の CLIP 曲線と非常に近く、一致しており、U 字型はモダリティギャップに起因するランキング歪みによって生じるという仮説を裏づける。
 
 ## GR-CLIP with Improved Results
 
-モダリティギャップが性能低下を引き起こす以上、我々はこのギャップを緩和して性能を改善する。
+モダリティギャップが性能低下を引き起こすのであれば、このギャップを緩和して性能を改善すべきである。
 
-**Closing the modality gap via mean-shift calibration.** 埋め込み空間における平均シフトとしてモダリティギャップを特徴づけた先行研究 {{CITE:36}}に従い、我々はGR-CLIPという軽量な事後較正手法を提案する。テキストおよび画像モダリティの平均埋め込みを計算し、それぞれの表現から差し引くことで、共有空間において両モダリティを中心化する。これにより、モダリティ間の分離が低減される（Figure [\[fig:setting1\]](#fig:setting1)d；導出は§2参照）。
+**Closing the modality gap via mean-shift calibration.** モダリティギャップを埋め込み空間における平均シフトとして特徴づけた先行研究 {{CITE:36}} に従い、我々は軽量な事後較正手法 GR-CLIP を提案する。テキストモダリティと画像モダリティの平均埋め込みを計算し、それぞれの表現から差し引くことで、共有空間において両モダリティを中心化する。これによりモダリティ間の分離が低減される（図 [\[fig:setting1\]](#fig:setting1)d；導出は §2 を参照）。
 
-**Flattened curves and improved performance after removing the modality gap.** GR-CLIPを適用すると、検索性能は大幅に向上し、異なる$p$値にわたってU字型曲線は平坦化される（Figure [\[fig:setting1\]](#fig:setting1)e）。GR-CLIPはまた、最近の生成埋め込み手法であるVLM2Vec {{CITE:12}}を上回る。VLM2Vecは同程度に平坦な性能を達成するが、75$\times$多くの計算資源を要する。これらの結果は、モダリティギャップの低減が、混合モダリティ検索設定におけるCLIPベースモデルの性能向上に対して、効率的かつ有効であることを示している。
+**Flattened curves and improved performance after removing the modality gap.** GR-CLIP を適用した後、retrieval 性能は大きく改善し、U 字型曲線は異なる $p$ 値にわたって平坦化する（図 [\[fig:setting1\]](#fig:setting1)e）。GR-CLIP はまた、VLM2Vec {{CITE:12}} を上回る。VLM2Vec は同様に平坦な性能を達成する近年の生成埋め込み手法であるが、75$\times$ 多い計算資源を要する。これらの結果は、モダリティギャップの低減が、混合モダリティ retrieval 設定において CLIP ベースのモデルを改善するうえで、効率的かつ有効であることを示している。
 
 ## Generalization across Models, Datasets, and Modalities
 
-我々の所見の一般性を評価するため、GR-CLIPを異なるモデル、データセット、モダリティにわたって検証する。**1) Across models:** Figure [\[fig:setting1\]](#fig:setting1)f（上段）に示すように、U字型曲線は3種類のCLIP変種、すなわちOpenAI CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}}にわたって観測される。GR-CLIPは一貫して曲線を平坦化し、性能を改善する。**2) Across datasets:** Figure [\[fig:setting1\]](#fig:setting1)f（中段）に示すように、我々の所見は合成スクリーンショット設定（NFCorpus {{CITE:3}}およびSciFact {{CITE:30}}）を超えて、実世界データセット（Google WIT {{CITE:27}}およびMSCOCO {{CITE:18}}）にも拡張される。**3) Across modalities.** 我々はさらに、テキストから動画、テキストから音声への検索への一般化も検証する。結果はAppendixに示す。
+我々の知見の一般性を評価するため、GR-CLIP を異なるモデル、データセット、モダリティにわたって検証する。**1) Across models:** 図 [\[fig:setting1\]](#fig:setting1)f（最上段）に示すように、U 字型曲線は OpenAI CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}} の3つの CLIP 変種で観測される。GR-CLIP は一貫して曲線を平坦化し、性能を改善する。**2) Across datasets:** 図 [\[fig:setting1\]](#fig:setting1)f（2段目）に示すように、本研究の知見は合成スクリーンショット設定（NFCorpus {{CITE:3}} と SciFact {{CITE:30}}）を超えて、現実世界のデータセット（Google WIT {{CITE:27}} と MSCOCO {{CITE:18}}）にも拡張される。**3) Across modalities.** また、text-to-video および text-to-audio retrieval への一般化も検証する。結果は Appendix に示す。
 
 # Retrieval with Multimodal Documents 
 
 ![](assets/fig03.png)
 
-**マルチモーダル文書における検索。** **(a) Dataset Construction:** 各文書は画像とテキストの両方を含み、埋め込みはモダリティ固有特徴の融合によって得られる。モデルがマルチモーダル情報を統合する能力を評価するため、融合係数$\alpha$を変化させる。**(b) Results:** GR-CLIPは3つのモデル変種と4つのデータセットにわたって一貫してCLIPを上回り、モダリティギャップが効果的なマルチモーダル融合を妨げていること、そしてそれを除去することで検索性能が大幅に向上することを示している。
+**マルチモーダル文書における retrieval.** **(a) Dataset Construction:** 各文書は画像とテキストの両方を含み、埋め込みはモダリティ固有特徴を融合して得る。モデルがマルチモーダル情報を統合する能力を評価するため、融合係数 $\alpha$ を変化させる。 **(b) Results:** GR-CLIP は3つのモデル変種および4つのデータセットにわたり一貫して CLIP を上回り、モダリティギャップがマルチモーダル融合を妨げること、そしてそれを除去することが retrieval 性能を大きく向上させることを示している。
 
-ここでは§3とは補完的なアブレーションを考える。すなわち、検索コーパスは一様であるが、各文書は画像とテキストの両方のモダリティを含むマルチモーダル文書である（Figure [\[fig:setting2\]](#fig:setting2)a）。この設定は、画像とテキストがいずれか単独よりも豊かな意味的手掛かりを提供しうる状況において、モデルがマルチモーダル情報を融合する能力を評価する。
+ここでは §3 の補完的な ablation を考える。この場合、retrieval コーパスは homogeneous であるが、各文書は画像とテキストの両方のモダリティを含むマルチモーダル文書である（図 [\[fig:setting2\]](#fig:setting2)a）。この設定は、画像とテキストを併用することでどちらか一方のみより豊かな意味的手がかりが得られる状況において、モデルがマルチモーダル情報を融合する能力を評価するものである。
 
 ## Dataset Construction
 
-我々は、各文書が画像成分とテキスト成分の両方を含む、4つの実世界のマルチモーダルデータセットを用いる。**OVEN** {{CITE:10}} は、クエリからマルチモーダル文書への形式を採用した既存の検索ベンチマークである。**MSCOCO** {{CITE:18}} と **VisualNews** {{CITE:19}} では、各画像が1つ以上の短いキャプションと対応付けられている。我々は短いキャプションのうち1つをクエリとしてランダムにサンプリングし、画像と短いキャプションを条件としてGPTを用いて長いキャプションを生成し、それを文書として構成する。**Google WIT** {{CITE:27}} では、各画像にタイトル、短いキャプション、長いキャプションが付与されている。我々はタイトルと短いキャプションの連結をクエリとし、画像と長いキャプションを組み合わせたものを文書とする。これらのデータセットは、自然に対応づけられた画像・テキストデータを含む多様なドメインにまたがっている。各文書は視覚的信号とテキスト的信号を相補的に提供するため、モダリティ融合の評価に適している。
+我々は、各文書が画像成分とテキスト成分の両方を含む、4つの実世界マルチモーダルデータセットを用いる。**OVEN** {{CITE:10}} は、クエリからマルチモーダル文書への形式を採用した既存の検索ベンチマークである。**MSCOCO** {{CITE:18}} および **VisualNews** {{CITE:19}} では、各画像に1つ以上の短いキャプションが対応付けられている。そこで、短いキャプションのうち1つをクエリとしてランダムにサンプルし、画像と短いキャプションを条件としてGPTにより長いキャプションを生成して文書を構成する。**Google WIT** {{CITE:27}} では、各画像にタイトル、短いキャプション、長いキャプションが付与されている。ここでは、タイトルと短いキャプションの連結をクエリとし、画像と長いキャプションを結合したものを文書として用いる。これらのデータセットは、多様なドメインにまたがる自然に対応付けられた画像・テキストデータを含む。各文書は相補的な視覚的・言語的シグナルを提供するため、モダリティ融合の評価に適している。
 
 ## Results
 
-モダリティギャップがモダリティ融合に与える影響を分析するため、融合重み $\alpha \in [0, 1]$ を変化させる。これは、融合埋め込みに対する各モダリティの寄与を制御するものであり、$e_i = \alpha \cdot e_i^T + (1 - \alpha) \cdot e_i^I$ で与えられる。
+モダリティギャップがモダリティ融合に与える影響を分析するため、融合埋め込みに対する各モダリティの寄与を制御する融合重み $\alpha \in [0, 1]$ を変化させる。すなわち、$e_i = \alpha \cdot e_i^T + (1 - \alpha) \cdot e_i^I$ である。
 
-**モダリティギャップは有効な融合を妨げる。** Figure [\[fig:setting2\]](#fig:setting2)b の青い曲線に示すように、元のCLIP埋め込みでは、性能は通常どちらか一方の単モダリティ端点（$\alpha = 0$ または $\alpha = 1$）で最大となり、中間の $\alpha$ による融合はこれらの単モダリティベースラインを上回れない。これは、モダリティギャップがモダリティ間の有効な統合を妨げていることを示唆する。線形補間はしばしば融合特徴を埋め込み空間内の準最適領域へ押し込み、意味的品質を低下させ、その結果、画像のみまたはテキストのみを用いる場合よりも性能が悪化する。
+**モダリティギャップは有効な融合を妨げる。** Figure [\[fig:setting2\]](#fig:setting2)b の青い曲線に示すように、元のCLIP埋め込みでは、性能は通常、単一モダリティの両端（$\alpha = 0$ または $\alpha = 1$）のいずれかで最大となり、中間の $\alpha$ による融合はこれらの単一モダリティベースラインを上回れない。これは、モダリティギャップがモダリティ間の有効な統合を妨げていることを示唆する。すなわち、線形補間はしばしば融合特徴を埋め込み空間内の準最適領域へ押しやり、意味的品質を劣化させ、その結果、画像のみまたはテキストのみを用いる場合よりも性能が悪化する。
 
-**モダリティギャップを閉じた後、融合は大幅に改善する。** 一度モダリティギャップが除去されると（§3で述べた平均シフト較正による）、融合は著しく効果的になる。Figure [\[fig:setting2\]](#fig:setting2)b の橙色の曲線に示すように、性能は中間の $\alpha$ で最大となり、両方の単モダリティベースラインを上回る。これは、ギャップを除去したモデルであるGR-CLIPが、画像とテキストの相補的情報をうまく統合し、より強力な全体表現を獲得していることを示す。
+**モダリティギャップを解消すると融合は大幅に改善する。** モダリティギャップが除去されると（§3で述べた平均シフト校正による）、融合は大幅に有効になる。Figure [\[fig:setting2\]](#fig:setting2)b の橙色の曲線に示すように、性能は中間の $\alpha$ で最大となり、両方の単一モダリティベースラインを上回る。これは、ギャップ除去モデルであるGR-CLIPが、画像とテキストからの相補的情報を適切に統合し、より強力な全体表現を獲得していることを示している。
 
-**モデルおよびデータセットをまたぐ一般化。** これらの結果は、OpenAI CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}} を含む複数のCLIP変種、および OVEN {{CITE:10}}、VisualNews {{CITE:19}}、Google WIT {{CITE:27}}、MSCOCO {{CITE:18}} といった様々なデータセットにわたって一貫して成り立つ。いずれの場合も、モダリティギャップを除去することで融合品質が向上し、検索性能が改善される。
+**モデルおよびデータセットをまたいだ一般化。** これらの知見は、OpenAI CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}} を含む複数のCLIP系モデルにわたり、また OVEN {{CITE:10}}、VisualNews {{CITE:19}}、Google WIT {{CITE:27}}、MSCOCO {{CITE:18}} といった多様なデータセットにわたって一貫して成り立つ。いずれの場合も、モダリティギャップを除去することで融合品質が改善し、それにより検索性能が向上する。
 
 # Mixed Modality Search 
 
 ![](assets/fig04.png)
 
-**Mixed modality search.** **(a) Dataset Construction:** 我々は、コーパスが異種でありマルチモーダル文書を含むベンチマークである **MixBench** を導入する。これは検索エンジンにとって最も現実的な設定を反映している。**(b) Results:** 4つのMixBenchサブセットと5つのCLIP変種において、GR-CLIPはモダリティギャップを除去することで元のCLIPモデルに対して大幅な改善をもたらし、計算コストを大きく抑えつつ最先端性能を達成する。
+**Mixed modality search.** **(a) Dataset Construction:** 我々は、コーパスが異種でありマルチモーダル文書を含むベンチマーク **MixBench** を導入する。これは、検索エンジンにとって最も現実的な設定を反映したものである。**(b) Results:** 4つのMixBenchサブセットと5つのCLIP系モデル全体において、GR-CLIPはモダリティギャップを除去することで元のCLIPモデルに対して大幅な改善を達成し、計算コストを大幅に抑えつつ最先端性能を実現する。
 
-ここでは、§3と§4の知見を統合し、最も現実的なシナリオである mixed modality search へ分析を拡張する。すなわち、コーパス中の文書が純粋なテキスト、純粋な画像、あるいはその両方の組合せでありうる設定である（Figure [\[fig:setting3\]](#fig:setting3)a）。この設定は、検索システムが異種かつ可変的にマルチモーダルなコンテンツ全体に対して動作しなければならない、現実の検索エンジンの課題を反映している。
+ここでは、§3と§4の知見を統合し、最も現実的なシナリオへと分析を拡張する。すなわち、コーパス内の文書が純粋なテキスト、純粋な画像、あるいはその両方の組み合わせであり得る mixed modality search である（Figure [\[fig:setting3\]](#fig:setting3)a）。この設定は、検索システムが異種かつ可変的にマルチモーダルなコンテンツを対象に動作しなければならない、実世界の検索エンジンの課題を反映している。
 
 ## MixBench: Dataset Construction 
 
-この現実的な設定における研究を支援するため、我々は mixed modality search に特化して設計した新しいベンチマーク **MixBench** を導入する。MixBench は、4つの実世界マルチモーダルデータセット---**OVEN** {{CITE:10}}、**MSCOCO** {{CITE:18}}、**Google WIT** {{CITE:27}}、**VisualNews** {{CITE:19}}---から構築されており、これらは多様なドメインにまたがり、自然に対応づけられた画像・テキスト内容を含む。これらのデータセットをクエリ・文書検索形式へ変換する手順は§4で詳述する。MixBenchでは、文書は画像のみ、テキストのみ、または画像・テキスト対から構成されうる。分布の均衡を確保するため、文書タイプ（純画像、純テキスト、マルチモーダル）を1:1:1の比率でサンプリングする。
+この現実的設定における研究を支えるため、我々は mixed modality search 専用に設計された新たなベンチマーク **MixBench** を導入する。MixBench は、4つの実世界マルチモーダルデータセット---**OVEN** {{CITE:10}}、**MSCOCO** {{CITE:18}}、**Google WIT** {{CITE:27}}、**VisualNews** {{CITE:19}}---から構築されており、これらは多様なドメインにまたがり、自然に整合した画像・テキスト内容を含む。これらのデータセットをクエリ・文書検索形式へ変換する手順は §4 に詳述する。MixBench では、文書は画像のみ、テキストのみ、または画像・テキスト対から構成され得る。バランスの取れた分布を保証するため、文書タイプ（純画像、純テキスト、マルチモーダル）を 1:1:1 の比率でサンプリングする。
 
 ## Results
 
-Figure [\[fig:setting3\]](#fig:setting3)b は、元のCLIP変種とギャップ除去後の対応モデル（GR-CLIP）の両方を用いた、4つのMixBenchサブセットでの結果を示す。
+Figure [\[fig:setting3\]](#fig:setting3)b は、元のCLIP系モデルおよびギャップ除去版（GR-CLIP）を用いた、4つのMixBenchサブセットにおける結果を示す。
 
-**GR-CLIPはモダリティギャップ除去後に元のCLIPを大幅に上回る。** 先の知見と整合的に、平均シフト較正によってモダリティギャップを閉じると、CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}} を含む、試験したすべてのモデルにおいてMixBench上で有意な性能向上が得られる。これらの改善は、OVEN {{CITE:10}}、VisualNews {{CITE:19}}、Google WIT {{CITE:27}}、MSCOCO {{CITE:18}} の4データセット全体に一般化する。平均すると、GR-CLIPは追加の計算コストをほとんど伴わずに、NDCG@10 を最大26ポイント向上させる。これらの改善は、§3および§4で示した、クロスモーダル整合とマルチモーダル融合の改善によってもたらされており、これらは mixed modality retrieval における性能にとって不可欠である。
+**GR-CLIPはモダリティギャップを解消した後、元のCLIPに対して大幅な改善を示す。** 先の知見と一貫して、平均シフト校正によってモダリティギャップを除去すると、CLIP {{CITE:25}}、OpenCLIP {{CITE:33}}、SigLIP {{CITE:34}} を含む全ての評価モデルにおいて、MixBenchで有意な性能向上が得られる。これらの改善は、OVEN {{CITE:10}}、VisualNews {{CITE:19}}、Google WIT {{CITE:27}}、MSCOCO {{CITE:18}} という4つのデータセット全体に一般化される。平均すると、GR-CLIPは NDCG@10 において最大26ポイントの向上を達成し、追加の計算コストはほぼ無視できる。これらの向上は、§3および§4で示した、クロスモーダル整合とマルチモーダル融合の改善によって駆動されており、これは mixed modality retrieval における性能にとって極めて重要である。
 
-**GR-CLIPは大幅に少ない計算量で最先端性能を達成する。** 特筆すべきことに、GR-CLIPは、計算資源を75$\times$少なく用いながらも、強力なベースラインであるVLM2Vecを上回る。ただし、論文で報告されている通り、VLM2Vecが学習されたMSCOCOは例外である。これらの結果は、mixed modality search において真に共有された埋め込み空間を構築することの重要性を強調している。この能力は効果的な検索システムに不可欠である一方、見過ごされがちである。
+**GR-CLIPは大幅に低い計算量で最先端性能を達成する。** 注目すべきことに、GR-CLIPは、75$\times$ 少ない計算資源しか用いずに、強力なベースラインであるVLM2Vecを上回る。唯一の例外はMSCOCOであり、これは論文中で報告されている通りVLM2Vecが学習済みのデータセットである。これらの結果は、mixed modality search のために真に共有された埋め込み空間を構築することの重要性を強調する。これは有効な検索システムにとって本質的である一方、しばしば見落とされがちな能力である。
 
 # Related Work
 
-**単モダリティおよびクロスモーダル検索。** 単モダリティ検索（例えば、テキスト対テキスト、画像対画像）およびクロスモーダル検索（例えば、テキスト対画像、画像対テキスト）は、先行研究において広く研究されてきた {{CITE:26}}{{CITE:13}}{{CITE:14}}{{CITE:15}}{{CITE:25}}。そして現在では、GoogleやBingのような大規模検索エンジンの多くを支えている。これらの設定における核心的課題は、クエリと文書の間で正確な類似度比較を可能にする、有効な表現空間を構築することである。これに対し、本研究では、クエリと文書の双方が複数モダリティにまたがりうる、より複雑な mixed modality retrieval 設定に焦点を当てる {{CITE:29}}。この設定は十分に探究されていないが、非常に実用的である。そこでは、モダリティ境界をまたいで意味的類似性を有意に測定できる共有表現空間の設計という新たな課題が生じる。
+**単一モダリティおよびクロスモーダル検索。** 単一モダリティ検索（例: text-to-text, image-to-image）およびクロスモーダル検索（例: text-to-image, image-to-text）は、先行研究において広く研究されてきた {{CITE:26}}{{CITE:13}}{{CITE:14}}{{CITE:15}}{{CITE:25}}。そして現在では、Google や Bing など多くの大規模検索エンジンを支えている。これらの設定における中心的課題は、クエリと文書の間で正確な類似度比較を可能にする有効な表現空間を構築することである。これに対し我々は、クエリと文書の双方が複数モダリティにまたがり得る、より複雑な mixed modality retrieval 設定に焦点を当てる {{CITE:29}}。この設定は十分に探究されていないが、極めて実用的である。そこでは、モダリティ境界をまたいで意味的類似度を有意味に測定できる共有表現空間を設計するという新たな課題が生じる。
 
-**マルチモーダル表現学習。** マルチモーダル表現学習は、異なるモダリティの情報を一貫した埋め込み空間へ統合することを長らく目指してきた。初期の研究では、early fusion と late fusion の手法が探究されてきた {{CITE:24}}{{CITE:28}}{{CITE:16}}{{CITE:22}}{{CITE:5}}。近年では、対照学習に基づいて画像・テキスト対の表現を整合させるマルチモーダル対照学習が強力な枠組みとして台頭している {{CITE:9}}{{CITE:25}}{{CITE:34}}{{CITE:33}}。CLIP {{CITE:25}} のようなモデルは、数百万の対になった例で学習され、モダリティ間で意味的に整合した埋め込みを学習する顕著な能力を示してきた。さらに最近では、生成的 vision-language model（VLMs）を検索に適用する研究への関心が高まっている {{CITE:12}}{{CITE:7}}。これは、それらを埋め込みモデルとして再利用することによって実現される {{CITE:2}}{{CITE:23}}。これらのモデルはより柔軟で、多様なマルチモーダル入力を扱う能力を持つが、しばしば大幅に多くの計算を要する。本研究では、CLIP {{CITE:25}} と VLM2Vec {{CITE:12}} の両パラダイムを mixed modality retrieval 設定の下で評価する。驚くべきことに、我々は、CLIP に適用した単純な較正法が、はるかに少ない計算量でVLM2Vecを上回りうることを見出す。
+**マルチモーダル表現学習。** マルチモーダル表現学習は長らく、異なるモダリティの情報を一貫した埋め込み空間へ統合することを目指しており、初期の研究では early fusion と late fusion の技術が検討されてきた {{CITE:24}}{{CITE:28}}{{CITE:16}}{{CITE:22}}{{CITE:5}}。近年では、マルチモーダル対照学習が強力な枠組みとして現れ、対照目的関数を通じて対応する画像・テキスト表現を整列させている {{CITE:9}}{{CITE:25}}{{CITE:34}}{{CITE:33}}。CLIP {{CITE:25}} のような、数百万組の対応例で学習されたモデルは、モダリティ間で意味的に整列した埋め込みを学習する卓越した能力を示している。さらに最近では、生成的 vision-language models（VLMs）を検索へ適用することへの関心が高まっており {{CITE:12}}{{CITE:7}}、それらを埋め込みモデルとして再利用する試みが進んでいる {{CITE:2}}{{CITE:23}}。これらのモデルはより柔軟で多様なマルチモーダル入力を扱える一方、しばしばより大きな計算量を要する。本研究では、CLIP {{CITE:25}} と VLM2Vec {{CITE:12}} という二つのパラダイムを mixed modality retrieval 設定の下で評価する。驚くべきことに、我々は、CLIPに適用した単純な校正手法が、はるかに少ない計算量にもかかわらずVLM2Vecを上回り得ることを見出した。
 
-**マルチモーダル対照学習におけるモダリティギャップ。** 近年の研究 {{CITE:17}}{{CITE:36}}{{CITE:35}} は、対照的マルチモーダル埋め込み空間に持続的なモダリティギャップが存在することを明らかにした。すなわち、対照学習が画像とテキストを整合させるよう設計されているにもかかわらず、画像埋め込みとテキスト埋め込みは分離してクラスタリングする傾向がある。このギャップは、モデル初期化と対照最適化の組合せに起因するとされている。理論的には、モダリティギャップは、画像およびテキストの両部分空間にほぼ直交する定数オフセットベクトルとして特徴づけられてきた {{CITE:36}}{{CITE:35}}。この知見に基づき、我々は単純だが効果的な平均減算較正を採用する。これは、類似度を計算する前に埋め込みからモダリティ特有の平均を除去するものである。この軽量な事後処理はモダリティギャップを除去し、mixed modality search 設定において大きな性能向上をもたらす。
+**マルチモーダル対照学習におけるモダリティギャップ。** 近年の研究 {{CITE:17}}{{CITE:36}}{{CITE:35}} は、対照的マルチモーダル埋め込み空間において持続的なモダリティギャップが存在することを明らかにした。すなわち、対照学習がそれらを整列させるよう設計されているにもかかわらず、画像埋め込みとテキスト埋め込みは別々にクラスタ化する傾向がある。このギャップは、モデル初期化と対照最適化の組み合わせに起因するとされている。理論的には、モダリティギャップは、画像およびテキストの部分空間の双方にほぼ直交する定数オフセットベクトルとして特徴付けられている {{CITE:36}}{{CITE:35}}。この知見に基づき、我々は単純だが有効な mean-reduction calibration を採用する。これは、類似度を計算する前に埋め込みからモダリティ固有の平均を除去するものである。この軽量な後処理手法はモダリティギャップを除去し、mixed modality search 設定において大幅な性能向上をもたらす。
 
 # Conclusion
 
-本研究は、現実的である一方で十分に探究されていない mixed modality search の問題に取り組んだ。ここでは、クエリが、マルチモーダル文書を含む異種コーパスから意味的に関連するコンテンツを検索しなければならない。我々はこの設定におけるCLIPベースモデルの挙動を分析し、重要な制約を特定した。すなわち、埋め込み空間におけるモダリティギャップが、クロスモーダル整合とマルチモーダル融合の双方を妨げるのである。これに対処するため、我々はモダリティギャップを除去し、検索性能を大幅に改善する、単純でありながら効果的な手法である **GR-CLIP** を導入した。我々の結果は、信頼性が高く効率的な mixed modality search のためには、真に統一されたマルチモーダル表現が重要であることを示している。
+本研究は、現実的でありながら十分に探究されていない mixed modality search の問題に取り組んだ。ここでは、クエリが、マルチモーダル文書を含む異種コーパスから意味的に関連するコンテンツを検索しなければならない。我々はこの設定におけるCLIPベースモデルの挙動を分析し、重要な制約を特定した。すなわち、埋め込み空間におけるモダリティギャップが、クロスモーダル整合とマルチモーダル融合の双方を妨げているのである。これに対処するため、我々はモダリティギャップを除去し、検索性能を大幅に向上させる単純かつ有効な手法 **GR-CLIP** を導入した。我々の知見は、信頼性が高く効率的な mixed modality search のためには、真に統一されたマルチモーダル表現が重要であることを示している。
 
 # Acknowledgments 
 
-本研究の一部は Hoffman-Yee Research Grants により支援された。S.Y. は Chan Zuckerberg Biohub --- San Francisco Investigator である。
+本研究は Hoffman-Yee Research Grants により一部支援された。S.Y. は Chan Zuckerberg Biohub --- San Francisco Investigator である。
 
 # Limitations 
 
-本研究は、モダリティギャップの除去により、GR-CLIP が多様なデータセット、モデル変種、モダリティにわたる mixed modality search 設定で大きな性能向上を達成できることを示したが、なおいくつかの限界が残されており、今後の研究に向けた有益な方向性を示している。第一に、我々は文書が画像モダリティとテキストモダリティの両方を含む現実的なシナリオを扱っているものの、各文書は1枚の画像と1つのテキスト断片に制限されている。Webページや科学論文のような、より複雑で画像とテキストが交錯する複数画像・複数テキスト文書へ評価を拡張すれば、より厳密かつ包括的な評価が可能になるだろう。第二に、GR-CLIP は、著しく少ない計算量で生成的埋め込みモデル VLM2Vec を上回るが、CLIP を基盤としているため、きめ細かなモダリティ相互作用をモデル化しない。そのため、生成的埋め込みモデルが捉えられるより深いクロスモーダル統合の機会を取り逃している可能性がある。したがって、VLM2Vec のような生成的埋め込みモデルにおけるモダリティギャップの原因を調査し、それを低減する手法を開発することは、より強力で統一的なマルチモーダル表現に向けた重要かつ未開拓な研究方向である。それでもなお、本研究は、現実的設定における mixed modality search の問題を定義し対処する上で重要な第一歩を踏み出しており、効果的な検索のために真に統一された埋め込み空間を構築することの重要性を強調し、この新興分野における将来の進展の基盤を築いている。
+本研究は、モダリティギャップを除去することで、GR-CLIP が多様なデータセット、モデル変種、およびモダリティにわたる mixed modality search 設定において大幅な性能向上を達成できることを示したが、なおいくつかの限界が残されており、これは将来研究の有望な方向性を示している。第一に、画像とテキストの両モダリティを含む現実的シナリオを考慮しているものの、各文書は1枚の画像と1つのテキストセグメントに制限されている。Webページや科学論文のような、より複雑で画像とテキストが交錯した複数画像・複数テキスト文書へ評価を拡張すれば、より厳密で包括的な評価が可能となるであろう。第二に、GR-CLIP は生成的埋め込みモデル VLM2Vec を、はるかに少ない計算量で上回るものの、CLIP を基盤としており、きめ細かなモダリティ相互作用をモデル化しない。そのため、生成的埋め込みモデルが捉え得るより深いクロスモーダル統合の機会を取り逃がす可能性がある。これを踏まえると、VLM2Vec のような生成的埋め込みモデルにおけるモダリティギャップの原因を調査し、それを低減する方法を開発することは、より強力で統一的なマルチモーダル表現に向けた重要かつ未開拓の研究方向である。それにもかかわらず、本研究は、現実的設定における mixed modality search の問題を定義し、それに対処する重要な第一歩を踏み出しており、効果的な検索のために真に統一された埋め込み空間を構築することの重要性を示し、この新興分野における将来の進展の基盤を築くものである。
 
 # Code Availability 
 
-すべてのコードは匿名のGitHubリポジトリで公開されており、論文中の全実験を再現できる: <https://github.com/yuhui-zh15/MixedModalitySearch/>.
+全てのコードは匿名のGitHubリポジトリで公開されており、本論文の全実験を再現できる: <https://github.com/yuhui-zh15/MixedModalitySearch/>.
 
 # Data Availability 
 
-本研究で使用したすべてのデータセットは、この新興分野における今後の研究を促進するため、匿名でHugging Face上に公開されている: <https://huggingface.co/datasets/mixed-modality-search/MixBench2025>.
+本研究で使用した全データセットは、この新興分野における今後の研究を促進するため、匿名でHugging Face上にホストされている: <https://huggingface.co/datasets/mixed-modality-search/MixBench2025>。
 
 # Compute Resource 
 
-すべての実験は、40GBのメモリを備えた単一のNVIDIA A100 GPUを用いて実施した。すべての実験は推論のみであり、必要とする計算資源は最小限である。
+全実験は、40GBのメモリを持つ単一のNVIDIA A100 GPUを用いて実施した。全実験は推論のみであり、必要な計算資源は最小限である。
 
 # Overview 
 
-付録の概要を以下に示す。
+以下にAppendixの概要を示す。
 
-- §8 は、モダリティおよび評価指標をまたぐ追加の一般化結果を示す。
+- §8 では、モダリティおよび評価指標をまたぐ追加の一般化結果を示す。
 
-- §9では方法の詳細を述べ、再現性のための擬似コードを含む。
+- §9では、方法の詳細を述べ、再現性のための擬似コードを含める。
 
-- §10では使用したモデルの詳細を記述する。
+- §10では、使用したモデルの詳細を説明する。
 
 - §11では、NDCGを含む評価指標を説明する。
 
-- §12では使用したデータセットと、それに伴う前処理手順の概要を示す。
+- §12では、使用したデータセットと関連する前処理手順を概説する。
 
-- §13では、MixBench上でCLIPとGR-CLIPを比較するケーススタディを含む。
+- §13では、MixBenchにおけるCLIPとGR-CLIPの比較ケーススタディを含める。
 
-# モダリティおよび評価指標をまたぐ一般化
+# モダリティおよび指標をまたぐ一般化
 
-本文では、NDCG@10を評価指標として用い、モダリティ間ギャップを解消することが画像-テキストデータにおける混合モダリティ検索性能を大幅に改善することを示した。ここでは、(1) 画像とテキストを超えるモダリティへの本手法の一般化、ならびに(2) 代替評価指標の下でも結論が頑健であることを示す追加結果を示す。
+本論文では、評価指標としてNDCG@10を用い、モダリティ間ギャップを解消することが画像-テキストデータにおける混合モダリティ検索性能を大幅に改善することを示した。ここでは、追加結果として、(1) 画像とテキスト以外のモダリティへの本手法の一般化可能性、および (2) 代替評価指標の下での結論の頑健性を示す。
 
 ## モダリティをまたぐ一般化
 
-本文の図[\[fig:setting1\]](#fig:setting1)eは、画像-テキストモダリティに関する結果を示している。図[\[fig:figone_add\]](#fig:figone_add)では、この分析を追加のモダリティ対へ拡張する。具体的には、video-text（MSVDデータセット上のViCLIP {{CITE:31}}）、audio-text（Clotho {{CITE:6}}データセット上のCLAP {{CITE:32}}）、および追加のimage-text設定（Nights {{CITE:8}}データセット上のOpenAI CLIP {{CITE:25}}）に対する検索性能（NDCG@10）を報告する。いずれのケースにおいても、元のCLIPベースの結果では一貫してU字型曲線が観察されるが、モダリティ間ギャップを除去するためにGR-CLIPを適用すると、この曲線は大幅に平坦化する。この傾向は、図[\[fig:setting1\]](#fig:setting1)eの画像-テキストおよびスクリーンショット実験で観察された挙動と密接に一致しており、モダリティ間ギャップの影響と、多様なモダリティにわたる本手法の広範な適用可能性を強く支持するものである。
+本論文の図[\[fig:setting1\]](#fig:setting1)eは、画像-テキストモダリティに対する結果を示している。図[\[fig:figone_add\]](#fig:figone_add)では、この分析を追加のモダリティ対へ拡張する。具体的には、video-text（MSVDデータセット上のViCLIP {{CITE:31}}）、audio-text（Clotho {{CITE:6}}データセット上のCLAP {{CITE:32}}）、および追加のimage-text設定（Nights {{CITE:8}}データセット上のOpenAI CLIP {{CITE:25}}）に対する検索性能（NDCG@10）を報告する。すべての場合において、元のCLIPベースの結果には一貫してU字型曲線が観察されるが、GR-CLIPを適用してモダリティ間ギャップを除去すると、この曲線は著しく平坦化する。この傾向は、図[\[fig:setting1\]](#fig:setting1)eにおける画像-テキストおよびスクリーンショット実験で観察された挙動と非常によく一致しており、モダリティ間ギャップの影響と、多様なモダリティにわたる本手法の広範な適用可能性を強く裏付けるものである。
 
 ![](assets/fig05.png)
 
-**モダリティをまたぐ一般化.** GR-CLIPは、モダリティ間ギャップに起因するU字型曲線を一貫して緩和し、性能を大幅に改善する。これにより、多様なモダリティ対に対する高い一般化可能性が示される。
+**モダリティをまたぐ一般化。** GR-CLIPは、モダリティ間ギャップに起因するU字型曲線を一貫して緩和し、性能を大幅に改善する。これにより、多様なモダリティ対に対する高い一般化可能性が示される。
 
 ## 指標をまたぐ一般化
 
-本文では、NDCG@10を主要な評価指標として採用した。GR-CLIPの頑健性をさらに評価するため、NDCG@100およびRecall@1を含む追加指標へ分析を拡張する。表1は、3つすべての指標にわたるMixBench上の結果を報告しており、GR-CLIPで観測される改善が評価基準に依存せず一貫していることを示している。図[\[app:fig:ndcg100\]](#app:fig:ndcg100)および図[\[app:fig:recall1\]](#app:fig:recall1)は、それぞれNDCG@100とRecall@1を用いて§3および§4の分析をさらに拡張したものであり、同様に本研究の知見の一貫性を確認している。
+本論文では、主要な評価指標としてNDCG@10を採用した。GR-CLIPの頑健性をさらに評価するため、NDCG@100およびRecall@1を含む追加指標へ分析を拡張する。表1は、3つの指標すべてにわたるMixBenchでの結果を示しており、GR-CLIPによって観測される改善が、評価基準に依存せず一貫していることを示している。図[\[app:fig:ndcg100\]](#app:fig:ndcg100)および図[\[app:fig:recall1\]](#app:fig:recall1)は、それぞれNDCG@100およびRecall@1を用いて§3および§4の分析をさらに拡張したものであり、同様に我々の結果の一貫性を確認している。
 
-  **Method**                                   **MSCOCO**              **OVEN**                **VisualNews**
-  -------------------- ----------------------- ----------------------- ----------------------- -----------------------
-  CLIP-B/16            0.478/0.505/0.443       0.388/0.426/0.292       0.354/0.398/0.209       0.563/0.604/0.498
-  CLIP-L/14            0.505/0.516/0.454       0.426/0.490/0.329       0.389/0.431/0.253       0.596/0.656/0.525
-  OpenCLIP-B/16        0.551/0.563/0.519       0.570/0.615/0.489       0.385/0.426/0.229       0.643/0.693/0.543
-  OpenCLIP-L/14        0.566/0.585/0.536       0.605/0.662/0.540       0.387/0.445/0.265       0.653/0.733/0.567
-  SigLIP-400m          0.546/0.566/0.523       0.327/0.374/0.260       0.372/0.428/0.271       0.385/0.475/0.366
-  VLM2Vec(LLaVANext)   0.586/0.616/0.481       **0.769/0.798/0.645**   0.398/0.443/0.254       0.744/0.794/0.662
-  VLM2Vec(Qwen)        0.632/0.660/0.519       0.753/0.778/0.633       0.412/0.467/0.244       0.734/0.784/0.653
-  GR-CLIP-B/16         0.603/0.642/0.524       0.636/0.690/0.523       0.406/0.459/0.240       0.726/0.768/0.645
-  GR-CLIP-L/14         0.648/0.678/0.555       0.656/0.708/0.547       0.465/0.523/0.296       0.754/0.770/0.661
-  GR-OpenCLIP-B/16     0.636/0.666/0.572       0.668/0.751/0.589       0.434/0.490/0.253       0.758/0.783/0.664
-  GR-OpenCLIP-L/14     0.678/0.704/0.604       0.699/0.784/0.629       0.467/0.525/0.282       **0.796/0.814/0.715**
-  GR-SigLIP-400m       **0.692/0.722/0.608**   0.696/0.732/0.548       **0.532/0.581/0.328**   0.769/0.793/0.671
-
-  : **MixBenchにおける全指標での詳細結果.** 各セルはNDCG@10、NDCG@100、Recall@1を報告する。最良結果は太字で示す。指標全体にわたる一貫した性能は、異なる評価基準に対する本手法の頑健性を示している。GR-CLIPがMSCOCOでVLM2Vecを下回るのは、VLM2VecがMSCOCOで学習されているためである。 
+| **Method** |  | **MSCOCO** | **OVEN** | **VisualNews** |
+|:---|:---|:---|:---|:---|
+| CLIP-B/16 | 0.478/0.505/0.443 | 0.388/0.426/0.292 | 0.354/0.398/0.209 | 0.563/0.604/0.498 |
+| CLIP-L/14 | 0.505/0.516/0.454 | 0.426/0.490/0.329 | 0.389/0.431/0.253 | 0.596/0.656/0.525 |
+| OpenCLIP-B/16 | 0.551/0.563/0.519 | 0.570/0.615/0.489 | 0.385/0.426/0.229 | 0.643/0.693/0.543 |
+| OpenCLIP-L/14 | 0.566/0.585/0.536 | 0.605/0.662/0.540 | 0.387/0.445/0.265 | 0.653/0.733/0.567 |
+| SigLIP-400m | 0.546/0.566/0.523 | 0.327/0.374/0.260 | 0.372/0.428/0.271 | 0.385/0.475/0.366 |
+| VLM2Vec(LLaVANext) | 0.586/0.616/0.481 | **0.769/0.798/0.645** | 0.398/0.443/0.254 | 0.744/0.794/0.662 |
+| VLM2Vec(Qwen) | 0.632/0.660/0.519 | 0.753/0.778/0.633 | 0.412/0.467/0.244 | 0.734/0.784/0.653 |
+| GR-CLIP-B/16 | 0.603/0.642/0.524 | 0.636/0.690/0.523 | 0.406/0.459/0.240 | 0.726/0.768/0.645 |
+| GR-CLIP-L/14 | 0.648/0.678/0.555 | 0.656/0.708/0.547 | 0.465/0.523/0.296 | 0.754/0.770/0.661 |
+| GR-OpenCLIP-B/16 | 0.636/0.666/0.572 | 0.668/0.751/0.589 | 0.434/0.490/0.253 | 0.758/0.783/0.664 |
+| GR-OpenCLIP-L/14 | 0.678/0.704/0.604 | 0.699/0.784/0.629 | 0.467/0.525/0.282 | **0.796/0.814/0.715** |
+| GR-SigLIP-400m | **0.692/0.722/0.608** | 0.696/0.732/0.548 | **0.532/0.581/0.328** | 0.769/0.793/0.671 |
+****MixBenchにおける全指標の詳細結果。** 各セルはNDCG@10、NDCG@100、Recall@1を報告する。最良結果は太字で示している。指標をまたぐ一貫した性能は、我々の手法が異なる評価基準に対して頑健であることを示す。GR-CLIPがMSCOCO上でVLM2Vecを下回るのは、VLM2VecがMSCOCOで学習されているためである。 **
 
 ![](assets/fig06.png)
 
-**主論文の図[\[fig:setting1\]](#fig:setting1)を、評価指標としてNDCG@100を用いて再現したもの。**
+**NDCG@100を評価指標として用いた、本論文の図[\[fig:setting1\]](#fig:setting1)の再現。**
 
 ![](assets/fig07.png)
 
-**主論文の図[\[fig:setting2\]](#fig:setting2)を、評価指標としてNDCG@100およびRecall@1を用いて再現したもの。**
+**NDCG@100およびRecall@1を評価指標として用いた、本論文の図[\[fig:setting2\]](#fig:setting2)の再現。**
 
 # 方法の詳細
 
-§2.3で導入したように、GR-CLIPは各モダリティのグローバル平均ベクトルを差し引くことでモダリティ間ギャップを緩和する。具体的には、クエリ平均$\bar{e}_q$、文書テキスト平均$\bar{e}^T$、文書画像平均$\bar{e}^I$の3つの平均ベクトルを計算する。
+§2.3で導入したように、GR-CLIPは各モダリティのグローバル平均ベクトルを減算することでモダリティ間ギャップを緩和する。具体的には、クエリ平均$\bar{e}_q$、文書テキスト平均$\bar{e}^T$、文書画像平均$\bar{e}^I$の3つの平均ベクトルを計算する：
 
 $$\bar{e}_q = \mathbb{E}_{q \sim \mathcal{Q}} [f^T(q)], \quad
 \bar{e}^T = \mathbb{E}_{d^T \sim \mathcal{D}_{\text{text}}} [f^T(d^T)], \quad
 \bar{e}^I = \mathbb{E}_{d^I \sim \mathcal{D}_{\text{image}}} [f^I(d^I)].$$
 
-クエリはしばしば短く疑問的である一方、文書は通常より長く記述的であるため、構造的・意味的差異を考慮して、クエリ平均$\bar{e}_q$をテキスト文書平均$\bar{e}^T$と区別する。この区別は、アライメントの偏りを低減し、検索性能を向上させるうえで重要である。
+我々は、構造的・意味的差異を考慮するため、クエリ平均$\bar{e}_q$とテキスト文書平均$\bar{e}^T$を区別する。クエリはしばしば短く疑問文的である一方、文書は通常より長く記述的である。この区別は、アライメントバイアスを低減し、検索性能を向上させるうえで重要である。
 
-データセット間での一般化を確保し、テストセットへの情報漏洩を防ぐため、各データセットのテストセットごとに別個の平均を推定するのではなく、複数データセットの訓練セットから統一的な平均ベクトルを計算する。この統一平均は、その後すべてのテストセットに対して一貫して適用される。
+データセット横断での一般化を保証し、テストセットの情報漏洩を防ぐために、我々は各データセットのテストセットを用いて個別に平均を推定するのではなく、複数データセットの訓練セットから統一平均ベクトルを計算する。これらの統一平均は、その後すべてのテストセットに一貫して適用する。
 
-**クエリ平均（$\bar{e}_q$）:** MSCOCO、Google WIT、NFCorpus、VisualNewsの訓練分割から約10000件のテキストクエリをサンプリングする。これらを$f^T$でエンコードして平均し、グローバルなクエリ平均$\bar{e}_q$を得る。
+**クエリ平均（$\bar{e}_q$）:** MSCOCO、Google WIT、NFCorpus、VisualNewsの訓練分割から、約10000個のテキストクエリをサンプルする。これらを$f^T$で符号化し、平均化することでグローバルなクエリ平均$\bar{e}_q$を得る。
 
-**文書テキスト平均（$\bar{e}^T$）:** MSCOCO、OVEN、Google WIT、VisualNewsの訓練分割から約10000件の長文テキスト文書または記述的キャプションをサンプリングする。これらを$f^T$でエンコードして平均し、文書テキスト平均$\bar{e}^T$を得る。
+**文書テキスト平均（$\bar{e}^T$）:** MSCOCO、OVEN、Google WIT、VisualNewsの訓練分割から、約10000個の長文テキスト文書または記述的キャプションをサンプルする。これらを$f^T$で符号化し、平均化することで文書テキスト平均$\bar{e}^T$を得る。
 
-**文書画像平均（$\bar{e}^I$）:** $\bar{e}^I$を計算するため、MSCOCO、OVEN、Google WIT、VisualNewsの訓練分割から10000枚の画像をサンプリングする。これらを$f^I$でエンコードして平均し、文書画像平均を得る。
+**文書画像平均（$\bar{e}^I$）:** $\bar{e}^I$を計算するために、MSCOCO、OVEN、Google WIT、VisualNewsの訓練分割から10000枚の画像をサンプルする。これらを$f^I$で符号化し、平均化することで文書画像平均を得る。
 
-**OVEN固有のクエリ平均（$\bar{e}_q^{\text{OVEN}}$）:** OVENにおけるクエリは特に短いため、OVENの訓練分割から2000件のクエリをサンプリングして、データセット固有のクエリ平均を構築する。
+**OVEN固有のクエリ平均（$\bar{e}_q^{\text{OVEN}}$）:** OVENのクエリは特に短いため、OVENの訓練分割から2000個のクエリをサンプルして、データセット固有のクエリ平均を構成する。
 
-**その他のモダリティ平均:** MSVD（video-text）、Clotho（audio-text）、およびSciFactとNFCorpusにおけるスクリーンショット風文書（screenshot-text）など、画像-テキスト以外のデータセットについては、モダリティごとに2500件の訓練例を用いてモダリティ固有の平均を計算する。
+**その他のモダリティ平均:** MSVD（video-text）、Clotho（audio-text）、およびSciFactとNFCorpusにおけるスクリーンショット形式の文書（screenshot-text）などの非画像-テキストデータセットについては、モダリティごとに2500個の訓練例を用いてモダリティ固有の平均を計算する。
 
-GR-CLIPの完全なアルゴリズムを以下に要約する。
+完全な**GR-CLIP**アルゴリズムを以下に要約する：
 
 2
 
 \
-Calibration sets: $\mathcal{Q}'$, $\mathcal{D}'$\
-Query set $\mathcal{Q} = \{q_1, \dots, q_n\}$ (text only)\
-Document set $\mathcal{D} = \{d_1, \dots, d_m\}$ (text, image, or both for each)\
-Pretrained encoders $f^T$, $f^I$, interpolation factor $\alpha \in [0,1]$
+キャリブレーション集合：$\mathcal{Q}'$、$\mathcal{D}'$\
+クエリ集合 $\mathcal{Q} = \{q_1, \dots, q_n\}$（テキストのみ）\
+文書集合 $\mathcal{D} = \{d_1, \dots, d_m\}$（各文書はテキスト、画像、またはその両方）\
+事前学習済みエンコーダ $f^T$, $f^I$, 補間係数 $\alpha \in [0,1]$
 
-*// Step 1: Pre-compute global means from $\mathcal{Q}', \mathcal{D}'$* $\bar{e}_q \gets \mathbb{E}_{q \sim \mathcal{Q}'} [f^T(q)]$ $\bar{e}^T \gets \mathbb{E}_{d^T \sim \mathcal{D}'_{\text{text}}} [f^T(d^T)]$ $\bar{e}^I \gets \mathbb{E}_{d^I \sim \mathcal{D}'_{\text{image}}} [f^I(d^I)]$
+*// Step 1: $\mathcal{Q}', \mathcal{D}'$ からグローバル平均を事前計算する* $\bar{e}_q \gets \mathbb{E}_{q \sim \mathcal{Q}'} [f^T(q)]$ $\bar{e}^T \gets \mathbb{E}_{d^T \sim \mathcal{D}'_{\text{text}}} [f^T(d^T)]$ $\bar{e}^I \gets \mathbb{E}_{d^I \sim \mathcal{D}'_{\text{image}}} [f^I(d^I)]$
 
-*// Step 2: Encode query embeddings* $e_{q_i} \gets f^T(q_i) - \bar{e}_q$
+*// Step 2: クエリ埋め込みを符号化する* $e_{q_i} \gets f^T(q_i) - \bar{e}_q$
 
-*// Step 3: Encode document embeddings* $e_{d_j} \gets f^T(d_j) - \bar{e}^T$ $e_{d_j} \gets f^I(d_j) - \bar{e}^I$ $e_{d_j} \gets \alpha f^T(d_j^T) +(1{-}\alpha) f^I(d_j^I)$
-$- [\alpha \bar{e}^T + (1{-}\alpha) \bar{e}^I]$
+*// Step 3: 文書埋め込みを符号化する* $e_{d_j} \gets f^T(d_j) - \bar{e}^T$ $e_{d_j} \gets f^I(d_j) - \bar{e}^I$ $e_{d_j} \gets \alpha f^T(d_j^T) +(1{-}\alpha) f^I(d_j^I)$ $- [\alpha \bar{e}^T + (1{-}\alpha) \bar{e}^I]$
 
-*// Step 4: Retrieval* $s(q_i,d_j) \gets \frac{e_{q_i} \cdot e_{d_j}}{\|e_{q_i}\| \cdot \|e_{d_j}\|}$ $\text{Ranks} \gets \text{argsort}(s, \text{descending})$ $\text{Ranks}$
+*// Step 4: 検索* $s(q_i,d_j) \gets \frac{e_{q_i} \cdot e_{d_j}}{\|e_{q_i}\| \cdot \|e_{d_j}\|}$ $\text{Ranks} \gets \text{argsort}(s, \text{descending})$ $\text{Ranks}$
 
 # モデルの詳細
 
-本節では、実験で使用した全モデルについて、正確なバージョンとチェックポイントへのリンクを提示する。CLIPベースのモデルとしては、**OpenAI CLIP** {{CITE:25}}の2種、**OpenCLIP** {{CITE:33}}の2種、ならびに**SigLIP-400M** {{CITE:34}}を含める。
+本節では、実験で使用したすべてのモデルについて、正確なバージョンとチェックポイントへのリンクを示す。CLIPベースのモデルについては、**OpenAI CLIP** {{CITE:25}}の2種類、**OpenCLIP** {{CITE:33}}の2種類、および**SigLIP-400M** {{CITE:34}}を含める。
 
-VLM2Vecフレームワークについては、2種を用いる。1つは**LLaVA-Next** {{CITE:20}}に基づくもので、主論文で報告した結果のバックボーンである{{CITE:12}}。もう1つは、公式リポジトリによればMMEB {{CITE:12}}ベンチマークで最良性能を達成する、最新の公式公開版**Qwen-VL** {{CITE:1}}に基づくものである。
+VLM2Vecフレームワークについては、2種類を用いる。1つは**LLaVA-Next** {{CITE:20}}に基づくものであり、これは本論文で報告した結果のバックボーンとして用いられている {{CITE:12}}。もう1つは最新の公式リリースである**Qwen-VL** {{CITE:1}}に基づくものであり、公式リポジトリによればMMEB {{CITE:12}}ベンチマークで最高性能を達成する。
 
-さらに、画像-テキスト以外のモダリティについては、video-text検索タスクに**ViCLIP**{{CITE:31}}、audio-text検索タスクに**CLAP**{{CITE:32}}を用いる。
+さらに、非画像-テキストモダリティについては、video-text検索タスクに**ViCLIP**{{CITE:31}}を、audio-text検索タスクに**CLAP**{{CITE:32}}を用いる。
 
-各モデルのチェックポイントリンクは以下のとおりである。
+すべてのモデルのチェックポイントリンクを以下に示す。
 
 - **OpenAI CLIP-B/16**: <https://huggingface.co/openai/clip-vit-base-patch16>
 
@@ -292,81 +290,81 @@ VLM2Vecフレームワークについては、2種を用いる。1つは**LLaVA-
 
 # 評価指標の詳細
 
-本文では、広く採用されているNDCG@10を評価指標として用いた。ここでは、この指標の詳細な計算過程を示す。
+本論文では、広く採用されているNDCG@10を評価指標として用いる。ここでは、この指標の詳細な計算過程を示す。
 
-位置$K$までの検索結果ランキングリストが与えられたとき、NDCG@$K$は次式で計算される。
+位置$K$までの検索結果のランキングリストが与えられたとき、NDCG@$K$は次式で計算される：
 
 $$\text{NDCG@}K = \frac{1}{\text{IDCG@}K} \sum_{i=1}^{K} \frac{2^{\text{rel}_i} - 1}{\log_2(i + 1)}$$
 
-ここで$\text{rel}_i$は順位$i$のアイテムの関連性スコアを表し、IDCG@$K$は理想的なDCG、すなわち上位$K$件に対して達成可能な最大のDCGであり、関連性の降順にアイテムを並べ替えることで計算される。
+ここで$\text{rel}_i$は順位$i$にあるアイテムの関連度スコアを表し、IDCG@$K$は理想的なDCG、すなわち上位$K$件について可能な最大のDCGであり、アイテムを関連度の降順に並べ替えて計算される：
 
 $$\text{IDCG@}K = \sum_{i=1}^{K} \frac{2^{\text{rel}_i^\star} - 1}{\log_2(i + 1)}$$
 
-ここで$\text{rel}_i^\star$は、理想ランキングにおける$i$番目に高い関連性スコアである。
+ここで$\text{rel}_i^\star$は、理想ランキングにおける$i$番目に高い関連度スコアである。
 
-NDCG@10の値域は0から1であり、1は完全なランキングを表す。
+NDCG@10の値域は0から1であり、1は完全なランキングを意味する。
 
 # データセットの詳細
 
-本節では、§3、4、5における検索実験を支えるために、各データセットがどのように処理されるかについて追加の詳細を示す。各データセットについて、元のデータ形式（*Before*）と、本フレームワークで用いた修正版（*After*）を区別する。また、主要な後処理手順も説明する。
+本節では、§3、4、および5における検索実験を支えるために、各データセットがどのように処理されるかについて追加の詳細を示す。各データセットについて、元のデータ形式（*Before*）と、本フレームワークで用いた修正版（*After*）を区別する。また、主要な後処理手順についても述べる。
 
-**NFCorpus {{CITE:3}}, SciFact {{CITE:30}}:**\
-*Before:* 短いテキストクエリと、それに対応する関連長文テキスト文書の組。\
-*After:* 短いテキストクエリは保持し、長文テキスト文書をOpenCVを用いてスクリーンショットとしてレンダリングする。これにより、クエリに応じて元のテキスト文書またはレンダリング済みスクリーンショットのいずれかを検索できる。
+**NFCorpus {{CITE:3}}, SciFact {{CITE:30}}:**\
+*Before:* 短いテキストクエリと、関連する長文テキスト文書の組。\
+*After:* 短いテキストクエリは保持し、長文テキスト文書はOpenCVを用いてスクリーンショットとしてレンダリングする。これにより、クエリに対して元のテキスト文書またはそのレンダリング済みスクリーンショットのいずれかを検索対象とできる。
 
-**Google WIT {{CITE:27}}:**\
-*Before:* 各サンプルは、ページタイトル、長いページ説明、参照画像、およびその画像に対する参照説明を含む。\
-*After:* ページタイトルと画像参照説明を連結してクエリを形成する。ページ説明は長文テキスト文書として用い、関連画像は画像文書として利用する。
+**Google WIT {{CITE:27}}:**\
+*Before:* 各サンプルは、ページタイトル、長いページ説明、参照画像、および画像の参照説明を含む。\
+*After:* ページタイトルと画像参照説明を連結してクエリを形成する。ページ説明は長文テキスト文書として用い、関連する画像は画像文書として用いる。
 
-**OVEN {{CITE:10}}:**\
-*Before:* 各クエリは画像とテキストのペアから成り、検索対象もまた画像記述ペアである。\
-*After:* 画像またはテキストのいずれか一方だけでクエリに独立に答えられるため、画像とキャプションの双方を有効な単独文書として扱う。クエリは変更しない。
+**OVEN {{CITE:10}}:**\
+*Before:* 各クエリは画像-テキスト対から成り、検索対象も画像-説明対である。\
+*After:* 画像成分またはテキスト成分のいずれかが単独でクエリに回答しうるため、画像とキャプションの両方を有効な独立文書として扱う。クエリは変更しない。
 
 **MSCOCO {{CITE:18}}:**\
-*Before:* 各画像は5つのキャプションと対応付けられている。\
-*After:* 1つのキャプションをクエリとしてサンプルする。残りのキャプションは、サンプルしたキャプションの内容を保持したまま、GPT-4o により長文記述を構成するために用いる。この長文記述をテキスト文書とし、対応する画像を画像文書として用いる。
+*以前:* 各画像は5つのキャプションと対応している。\
+*以後:* 1つのキャプションをクエリとしてサンプリングする。残りのキャプションは、サンプリングしたキャプションの内容を保持したまま、GPT-4o により長文記述を構成するために用いる。この長文記述をテキスト文書とし、対応する画像を画像文書とする。
 
 **VisualNews {{CITE:19}}:**\
-*Before:* 各画像は短いニュース風キャプションと対応付けられている。\
-*After:* GPT-4o を用いて、画像と元の VisualNews データセットに含まれる記事を同時に分析する。視覚的内容と記事テキストの双方に基づき、GPT-4o は元のキャプションを拡張する詳細な記述段落を生成し、これをテキスト文書として用いる。画像は画像文書として用い、元のキャプションはクエリとして保持する。
+*以前:* 各画像は短いニュース風キャプションと対応している。\
+*以後:* 元の VisualNews データセットに含まれる画像と、それに対応する記事を GPT-4o により共同で解析する。視覚的内容と記事本文の双方に基づき、GPT-4o は元のキャプションを拡張した詳細な説明段落を生成し、これをテキスト文書として用いる。画像を画像文書とし、元のキャプションをクエリとして保持する。
 
 **Clotho {{CITE:6}}:**\
-*Before:* 各音声クリップは、意味的に類似した複数のキャプションと対応付けられている。\
-*After:* 1つのキャプションをクエリとして選択し、意味的に類似する別のキャプション（GPT-4o により選択）をテキスト文書として用いる。音声クリップ自体は音声文書として用いる。
+*以前:* 各音声クリップは、意味的に類似した複数のキャプションと対応している。\
+*以後:* 1つのキャプションをクエリとして選択し、別の意味的に類似したキャプション（GPT-4o が選択したもの）をテキスト文書として用いる。音声クリップ自体を音声文書として用いる。
 
 **MSVD {{CITE:4}}:**\
-*Before:* 各動画は、意味的に類似した複数のキャプションと対応付けられている。\
-*After:* 1つのキャプションをクエリとして用い、意味的に類似する別のキャプション（GPT-4o により選択）をテキスト文書として用いる。動画は動画文書として扱う。
+*以前:* 各動画は、意味的に類似した複数のキャプションと対応している。\
+*以後:* 1つのキャプションをクエリとして用い、別の意味的に類似したキャプション（GPT-4o が選択したもの）をテキスト文書として用いる。動画を動画文書として扱う。
 
 **Nights {{CITE:8}}:**\
-*Before:* 各画像は視覚的に類似した別画像と対応付けられている。\
-*After:* 1つの画像をクエリとして用いる。GPT-4o はこの画像を観察して簡潔なタイトルを生成し、これをテキスト文書として用いる。対となる画像は画像文書として用いる。
+*以前:* 各画像は視覚的に類似した画像と対応している。\
+*以後:* 1つの画像をクエリとして用いる。GPT-4o がこの画像を観察して簡潔なタイトルを生成し、これをテキスト文書として用いる。対応する画像を画像文書とする。
 
-**VLM2Vec input format:** **VLM2Vec** {{CITE:12}}では、埋め込み生成のための指示としてプロンプトが必要である。具体的には、各 *Query* に対して、多モダリティから成る異種コーパスから検索を行う setting 1 および 3 では、プロンプト `‘‘Retrieve a relevant item that represents: {Query}\n’’` を用いる。Setting 2 では、融合された画像-テキストペアから成る同種コーパスを対象に検索を行うため、`‘‘Retrieve an image-description pair that represents: {Query}\n’’` を用いる。Documents は元のデータセットで規定された形式に従う。
+**VLM2Vec input format:** **VLM2Vec** {{CITE:12}} では、埋め込み生成の指示としてプロンプトを必要とする。具体的には、各 *Query* に対して、複数モダリティからなる異種コーパスから検索を行う setting 1 および 3 では、`‘‘Retrieve a relevant item that represents: {Query}\n’’` を用いる。Setting 2 のように、検索対象が image-text ペアからなる同種コーパスである場合には、`‘‘Retrieve an image-description pair that represents: {Query}\n’’` を用いる。Documents は元のデータセットで指定された形式に従う。
 
-**CLIP input format:** **CLIP** ベースのモデル {{CITE:25}}{{CITE:34}}{{CITE:33}}{{CITE:31}}{{CITE:32}} および **GR-CLIP** については、いかなる指示も適用しない。Queries と documents は、それぞれ対応する CLIP の text encoder および image encoder にそのまま変更なく入力する。
+**CLIP input format:** **CLIP** ベースのモデル {{CITE:25}}{{CITE:34}}{{CITE:33}}{{CITE:31}}{{CITE:32}} および **GR-CLIP** については、指示文を適用しない。Queries と documents は、変更を加えずにそれぞれの CLIP text encoder および image encoder に直接入力する。
 
-Table 2 は、検索設定、クエリとコーパスのモダリティ構成、ならびに評価例の総数を含む、各データセットの主要特性を要約したものである。
+Table 2 は、各データセットの主要な特徴、すなわち retrieval setting、queries と corpora のモダリティ構成、および評価例の総数を要約したものである。
 
-  **Dataset**                 **Queries**   **Documents**   **Setting No.**   **\# of Queries**   **\# of Documents**
-  -------------------------- ------------- --------------- ----------------- ------------------- ---------------------
-  Google WIT {{CITE:27}}          T        T / I / I + T        1,2,3              1000                 4423
-  OVEN {{CITE:10}}                   T + I      T / I / I + T        1,2,3              1000                 1000
-  MSCOCO {{CITE:18}}                 T        T / I / I + T        1,2,3               984                  984
-  VisualNews {{CITE:19}}         T        T / I / I + T        1,2,3               981                  981
-  SciFact {{CITE:30}}               T            T / S              1                 300                 5183
-  NFCorpus {{CITE:3}}             T            T / S              1                 323                 3633
-  MSVD {{CITE:4}}                     T            T / V              1                 670                  670
-  Clotho {{CITE:6}}                 T            T / A              1                1046                 1046
-  Nights {{CITE:8}}                 I            I / T              1                1000                 1000
+| **Dataset** | **Queries** | **Documents** | **Setting No.** | **\# of Queries** | **\# of Documents** |
+|:---|:--:|:--:|:--:|:--:|:--:|
+| Google WIT {{CITE:27}} | T | T / I / I + T | 1,2,3 | 1000 | 4423 |
+| OVEN {{CITE:10}} | T + I | T / I / I + T | 1,2,3 | 1000 | 1000 |
+| MSCOCO {{CITE:18}} | T | T / I / I + T | 1,2,3 | 984 | 984 |
+| VisualNews {{CITE:19}} | T | T / I / I + T | 1,2,3 | 981 | 981 |
+| SciFact {{CITE:30}} | T | T / S | 1 | 300 | 5183 |
+| NFCorpus {{CITE:3}} | T | T / S | 1 | 323 | 3633 |
+| MSVD {{CITE:4}} | T | T / V | 1 | 670 | 670 |
+| Clotho {{CITE:6}} | T | T / A | 1 | 1046 | 1046 |
+| Nights {{CITE:8}} | I | I / T | 1 | 1000 | 1000 |
 
-  : **実験で用いたデータセットの概要。** 各データセットについて、検索設定、クエリおよび文書に含まれるモダリティ（T = text, I = image, S = screenshot, V = video, A = audio）、ならびに評価に用いたクエリ-文書対の数を示す。
+**本実験で用いたデータセットの概要。** 各データセットについて、retrieval setting、クエリと文書に含まれるモダリティ（T = text, I = image, S = screenshot, V = video, A = audio）、および評価に用いた query-document ペア数を示す。 **
 
 # Case Studies 
 
-以下では、MixBench の各サブセットからの case study を示す。これは同時に我々のデータセットの可視化としても機能する。各例示クエリについて、ベースラインである OpenAI CLIP-L/14 と提案手法 GR-CLIP-L/14 の双方から得られた Top-5 の検索結果を示す。各検索文書には、そのモダリティ（[text]{style="color: Orange"}、[image]{style="color: Magenta"}、または [multimodal]{style="color: Green"}）、クエリに対する cosine similarity、ならびに **ground-truth** の関連項目であるかどうかを付記する。
+以下では、MixBench の各サブセットに関する case study を示す。これは同時に、本データセットの可視化としても機能する。各例のクエリについて、ベースラインである OpenAI CLIP-L/14 と提案手法 GR-CLIP-L/14 の双方における Top-5 の検索結果を示す。各検索文書には、そのモダリティ（[text]{style="color: Orange"}, [image]{style="color: Magenta"}, または [multimodal]{style="color: Green"}）、クエリに対する cosine similarity、ならびに **ground-truth** の関連項目であるか否かを付記する。
 
-これらの例示結果は、MixBench データセットの多様性と、混合モダリティ検索における GR-CLIP の有効性の双方を示している。クエリのモダリティに一致する文書を返しがちな元の CLIP モデルとは異なり、GR-CLIP はモダリティの差異をうまく架橋し、モダリティにかかわらずクエリの意味的意図をより正確に反映する結果を検索する。
+これらの例示結果は、MixBench データセットの多様性と、mixed modality search における GR-CLIP の有効性の双方を示している。クエリのモダリティに一致する文書を取得しがちな元来の CLIP モデルとは異なり、GR-CLIP はモダリティ間の隔たりを効果的に橋渡しし、モダリティに依存せず、クエリの意味的意図をより正確に反映する結果を取得する。
 
 ## Google WIT {{CITE:27}}
 
@@ -405,7 +403,7 @@ Puthenchira is a village in Thrissur district in the state of Kerala, India.\
 This is a list of notable Austrians.\
 *Rank No.3*, *Cosine Similarity* = 0.1774, *Modality* = [text]{style="color: Orange"}
 
-The Lebanon national football team, controlled by the Lebanese Football Association, have represented Lebanon in association football since their inception in 1933. The squad is governed by the Asian Football Confederation continentally, and FIFA worldwide. While Lebanon have yet to qualify for the FIFA World Cup, they have participated twice in the Asian Cup: in 2000, when they hosted the event, and in 2019, the first time through regular qualification. Lebanon's main venue is the Camille Chamoun Sports City Stadium in Beirut; however they also play in other locations such as the Saida International Stadium in Sidon. In 1934, Lebanon played their first match against the Romanian side CA Timișoara, but it was not ratified by FIFA. Lebanon played their first FIFA-recognised game in 1940 against Mandatory Palestine. During their 2014 qualification campaign for the World Cup, Lebanon reached the final qualifying round for the first time thanks to a 2--1 victory against South Korea at home in 2011, but failed to qualify for the 2014 FIFA World Cup finishing bottom of their group. At the 2019 Asian Cup, Lebanon were close to qualifying to the knock-out stages for the first time.\
+レバノン代表サッカーチームは、レバノンサッカー協会によって統括され、1933年の結成以来、アソシエーション・フットボールにおいてレバノンを代表してきた。チームは大陸レベルではアジアサッカー連盟、世界的にはFIFAの管轄下にある。レバノンは FIFA ワールドカップ出場権をまだ獲得していないが、アジアカップには2度出場している。すなわち、開催国であった2000年大会と、予選を通過して初めて出場した2019年大会である。レバノンの主要会場はベイルートの Camille Chamoun Sports City Stadium であるが、Sidon の Saida International Stadium など他の会場でも試合を行う。1934年、レバノンはルーマニアの CA Timișoara と初戦を戦ったが、これは FIFA により公認されなかった。レバノンが FIFA 公認の試合を行ったのは、1940年に Mandatory Palestine と対戦したのが最初である。2014年ワールドカップ予選では、2011年にホームで South Korea に 2--1 で勝利したことにより、レバノンは初めて最終予選ラウンドに進出したが、グループ最下位に終わり、2014 FIFA World Cup 出場はならなかった。2019 Asian Cup では、レバノンは初めてノックアウトステージ進出にあと一歩まで迫った。\
 *Rank No.4*, *Cosine Similarity* = 0.1723, *Modality* = [text]{style="color: Orange"}
 
 This is a list of properties and historic districts in Winchester, Massachusetts, that are listed on the National Register of Historic Places. The locations of National Register properties and districts may be seen in an online map by clicking on \"Map of all coordinates.\" This National Park Service list is complete through NPS recent listings posted July 17, 2020.\
@@ -417,29 +415,30 @@ This list is of that portion of the National Register of Historic Places designa
 
 ## MSCOCO {{CITE:18}}
 
-*[Query:]{style="color: blue"}* ひとりの女性が猫のいる部屋にいる。\
+*[Query:]{style="color: blue"}* A woman in a room with a cat.\
+
 ------------------------------------------------------------------------
 
 **CLIP Top-5 Results**
 
 *Rank No.1*, *Cosine Similarity* = 0.5044, *Modality* = [text]{style="color: Orange"}
 
-淡色の木製キャビネットと黒い御影石のカウンタートップを備えたキッチンである。4口コンロ付きの黒いストーブ、レンジ上部に設置された電子レンジ、黒い冷蔵庫が含まれている。床は暖かみのある木目調である。\
+木目調の明るいキャビネットと黒い御影石のカウンタートップを備えたキッチンである。4口コンロ付きの黒いストーブ、上部に設置された電子レンジ、黒い冷蔵庫が含まれている。床は温かみのある木の色調である。\
 *Rank No.2*, *Cosine Similarity* = 0.4605, *Modality* = [text]{style="color: Orange"}
 
-猫がトイレの閉じたふたの上に乗っており、やや不機嫌そうに見える。トイレは淡い色の壁のある浴室に置かれている。トイレの横にはかごまたは容器がある。猫の尾が見えており、警戒しているか、あるいは驚いているように見える。\
+猫が閉じた便器の蓋の上に乗っており、やや不快そうに見える。便器は淡い色の壁のある浴室にある。便器のそばにはかごまたは容器がある。猫の尾が見えており、警戒しているか、あるいは驚いているように見える。\
 *Rank No.3*, *Cosine Similarity* = 0.4445, *Modality* = [text]{style="color: Orange"}
 
-長いホットドッグが白い紙皿の上のバンズに挟まれており、その紙皿は木製のテーブルの上に置かれている。ホットドッグはバンズの両端からはみ出している。\
+長いホットドッグが、木製のテーブルの上に置かれた白い紙皿の上のバンズに載っている。ホットドッグはバンズの両端からはみ出している。\
 *Rank No.4*, *Cosine Similarity* = 0.4160, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig10.png)
 
-暖かく居心地のよい居間はクリスマス装飾で彩られており、暖炉のそばには銀色のティンセルのクリスマスツリーがある。部屋のあちこちには包装された贈り物が赤いカーペットの上に散らばっている。マントルピースの上には祝祭的な装飾品や靴下が置かれ、ホリデーの雰囲気を添えている。クッション付きの快適なベージュ色のソファが、雑誌の置かれたコーヒーテーブルのそばにある。天井はきらめく金色の星で飾られ、ダーツボードのゲームを映すテレビが、生活感のある祝祭的な雰囲気を加えている。ランプの柔らかな照明が、部屋の招待的な空気をいっそう高めている。
+温かく居心地のよいリビングルームにはクリスマス装飾が施され、暖炉のそばには銀色のティンセルで飾られたクリスマスツリーがある。部屋には、赤いカーペットの上に散らばったラッピング済みの贈り物が多数置かれている。マントルピースには、祝祭感を添えるオーナメントや靴下が飾られている。クッションの置かれた快適なベージュのソファが、雑誌の載ったコーヒーテーブルのそばにある。天井はきらめく金色の星で飾られ、ダーツボードのゲームを映したテレビが、生活感のある祝祭的な雰囲気を加えている。ランプからの柔らかな照明が、部屋の居心地のよい雰囲気を高めている。
 
 *Rank No.5*, *Cosine Similarity* = 0.4126, *Modality* = [text]{style="color: Orange"}
 
-新鮮なトマト、緑のオリーブ、薄くスライスしたタマネギをのせたおいしそうなイタリアンピザが、白い皿の上に盛り付けられている。ハーブと調味料が添えられ、料理に色彩豊かで風味豊かなアクセントを加えている。\
+新鮮なトマトのスライス、緑のオリーブ、薄切りの玉ねぎをのせたおいしそうなイタリアンピザが、白い皿に盛られている。ハーブと調味料が添えられ、料理に彩りと風味豊かなアクセントを加えている。\
 ------------------------------------------------------------------------
 
 **GR-CLIP Top-5 Results**
@@ -448,22 +447,22 @@ This list is of that portion of the National Register of Historic Places designa
 
 ![](assets/fig11.png)
 
-女性が台所に立っており、微笑みながら猫を抱いている。彼女は茶色のセーターと青いチェック柄のスカートを着用している。台所には木製のキャビネットがあり、カウンターの上には鉢植えとオレンジの入ったボウルが置かれている。片側には食器のあるシンクがあり、反対側には白い冷蔵庫がある。壁には時計が見え、カウンター上にはさまざまな物品があり、床には小さなラグが敷かれている。
+女性がキッチンに立ち、微笑みながら猫を抱いている。彼女は茶色のセーターと青いチェック柄のスカートを着ている。キッチンには木製のキャビネットと、鉢植えの植物とオレンジの入ったボウルが置かれたカウンターがある。片側には食器のあるシンクがあり、反対側には白い冷蔵庫がある。壁には時計が見え、カウンターの上にはさまざまな物があり、床には小さなラグが敷かれている。
 
 *Rank No.2*, *Cosine Similarity* = 0.2924, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig12.png)
 
-眼鏡をかけた黒いシャツの人物が、閉じたブラインドのある窓際に座り、ラジエーターに掛けられた紫の毛布の上にいる猫をブラッシングしている。猫は背を向けており、ブラシはマゼンタ色で、ブラシ毛の部分は灰色である。床は木製で、猫はくつろいでいるように見える。
+眼鏡をかけ、黒いシャツを着た人物が、閉じたブラインドのある窓際で、ラジエーターの上に敷かれた紫の毛布の上に座る猫をブラッシングしている。猫は背を向けており、ブラシは Magenta 色で、毛の部分は灰色である。床は木製であり、猫は落ち着いているように見える。
 
 *Rank No.3*, *Cosine Similarity* = 0.2780, *Modality* = [text]{style="color: Orange"}
 
-猫が閉じた便器のふたの上に乗っており、やや動揺しているように見える。便器は淡い色の壁を持つ浴室に置かれている。便器の隣にはかごまたは容器がある。猫の尾が見えており、警戒している、あるいは驚いている可能性がある。\
+閉じた便器のふたの上に猫が乗っており、やや動揺しているように見える。便器は、淡い色の壁のある浴室内に置かれている。便器のそばには、かごまたは容器がある。猫の尾が見えており、警戒している、あるいは驚いている可能性がある。\
 *Rank No.4*, *Cosine Similarity* = 0.2745, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig13.png)
 
-灰色のアームチェアと黒いアームチェアが部屋の中で互いに並んで配置されている。黒い椅子の隣のテーブルには小さなランプが置かれている。アームチェアの後ろから猫が半分見えており、場面に遊び心を添えている。椅子の前には木製のテーブルがあり、その上にリモコンが置かれている。
+灰色のアームチェアと黒いアームチェアが、室内で並んで配置されている。黒い椅子のそばのテーブルには小さなランプが置かれている。アームチェアの背後からは猫が顔をのぞかせており、場面に遊び心を添えている。椅子の前には木製のテーブルがあり、その上にリモコンが置かれている。
 
 *Rank No.5*, *Cosine Similarity* = 0.2612, *Modality* = [image]{style="color: Magenta"}
 
@@ -475,7 +474,7 @@ This list is of that portion of the National Register of Historic Places designa
 
 ![](assets/fig15.png)
 
-この建物の名称は何か。
+この建物の名称は何か？
 
 \
 
@@ -487,7 +486,7 @@ This list is of that portion of the National Register of Historic Places designa
 
 ![](assets/fig16.png)
 
-**Clérigos Church.** Clérigos Church は、ポルトガルのポルト市にあるバロック様式の教会である。その高さ75メートルの鐘楼 Torre dos Clérigos は市内のさまざまな地点から見ることができ、同市を代表する象徴の一つである。歴史：この教会は、18世紀にポルトガル北部で多くの作品を残したイタリア人建築家・画家 Nicolau Nasoni によって、Clérigos（聖職者）兄弟団のために建設された。教会の建設は1732年に始まり1750年に完成したが、鐘楼および記念碑的な分節階段\...
+**Clérigos Church.** Clérigos Church は、ポルトガルのポルト市にあるバロック様式の教会である。75メートルの鐘楼 Torre dos Clérigos は市内のさまざまな地点から見ることができ、市を代表する最も特徴的な象徴の一つである。歴史：この教会は、18世紀にポルトガル北部で広範な業績を残したイタリア人建築家・画家 Nicolau Nasoni により、聖職者同信会（Brotherhood of the Clérigos）のために建設された。教会の建設は1732年に始まり1750年に完成し、鐘楼と壮大な分岐階段\...
 
 \
 *Rank No.2*, *Cosine Similarity* = 0.5321, *Modality* = [image]{style="color: Magenta"}
@@ -498,21 +497,21 @@ This list is of that portion of the National Register of Historic Places designa
 
 ![](assets/fig18.png)
 
-**St. Peter's Basilica.** Vatican の Saint Peter の Papal Basilica、あるいは単に Saint Peter's Basilica は、Vatican City に所在するルネサンス様式の教会である。これは当初、ローマ皇帝 Constantine the Great により4世紀に建設された老朽化した Old St. Peter's Basilica に代わるものとして、Pope Nicholas V、続いて Pope Julius II によって計画された。現存する大聖堂の建設は1506年4月18日に始まり、1626年11月18日に完成した。主として Donato Bramante、Michelangelo、Carlo Maderno、Gian Lorenzo Bernini によって設計され\...
+**St. Peter's Basilica.** Vatican にある Papal Basilica of Saint Peter、すなわち単に St. Peter's Basilica は、ルネサンス様式で建てられた教会である。これは、4世紀にローマ皇帝 Constantine the Great によって建てられた古い St. Peter's Basilica に代わるものとして、当初 Pope Nicholas V、続いて Pope Julius II によって計画された。現在の大聖堂の建設は1506年4月18日に始まり、1626年11月18日に完成した。主として Donato Bramante、Michelangelo、Carlo Maderno、Gian Lorenzo Bernini により設計され\...
 
 \
 *Rank No.4*, *Cosine Similarity* = 0.5274, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig19.png)
 
-**Coit Tower.** Coit Tower は、カリフォルニア州サンフランシスコの Telegraph Hill 地区にある高さ210フィートの塔であり、市街と湾を一望できる。都市美化のための Lillie Hitchcock Coit の遺贈を用いて1932年から1933年にかけて建設され、2008年に National Register of Historic Places に登録された。Arthur Brown, Jr. と Henry Howard によって設計された、塗装されていない鉄筋コンクリート製の塔には、25人の現地アーティストによるアメリカン・フレスコ壁画が施されている\...
+**Coit Tower.** Coit Tower は、カリフォルニア州サンフランシスコの Telegraph Hill 地区にある210フィートの塔であり、市街と湾を一望できる。Lillie Hitchcock Coit の遺贈を用いて1932年から1933年にかけて建設され、2008年に National Register of Historic Places に追加された。Arthur Brown, Jr. と Henry Howard によって設計された、この塗装されていない鉄筋コンクリートの塔には、25人の現地アーティストによるアメリカン・フレスコ壁画が施されている\...
 
 \
 *Rank No.5*, *Cosine Similarity* = 0.5252, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig20.png)
 
-**Ilinden (Memorial).** Makedonium としても知られる Ilinden は、北マケドニアの Kruševo にある記念碑である。1974年8月2日に正式に公開され、反ファシスト会議の第二会期および1903年の Ilinden 蜂起を記念している。Jordan と Iskra Grabuloski によって設計され、1941--1944年の National Liberation Struggle の戦士たちを顕彰している。説明。この記念碑は12エーカーを占め、丸みを帯びた建築様式を特徴とする\...
+**Ilinden (Memorial).** Makedonium としても知られる Ilinden は、北マケドニアの Kruševo にある記念碑である。1974年8月2日に正式に開館し、反ファシスト人民解放会議第二会期と1903年の Ilinden 蜂起を記念している。Jordan and Iskra Grabuloski によって設計され、1941--1944年の National Liberation Struggle の戦士を顕彰している。Description. この記念碑は12エーカーの敷地を占め、丸みを帯びた建築様式を特徴とする\...
 
 ------------------------------------------------------------------------
 
@@ -520,7 +519,7 @@ This list is of that portion of the National Register of Historic Places designa
 
 *Rank No.1*, *Cosine Similarity* = 0.3153, *Modality* = [text]{style="color: Orange"} (**Ground Truth**)
 
-Canadian National Vimy Memorial. Canadian National Vimy Memorial は、第一次世界大戦中に戦死した Canadian Expeditionary Force の隊員を追悼するためにフランスに設けられた戦争記念施設である。また、フランスで戦死した、または戦死したとみなされており、墓所が判明していない第一次世界大戦のカナダ兵の追悼の場でもある。この記念碑は、Battle of Arras の Battle of Vimy Ridge 初期攻勢において Canadian Corps が突撃した地の一部を含む、100（ha）の保存戦場公園の中心的存在である。\
+Canadian National Vimy Memorial. Canadian National Vimy Memorial は、第一次世界大戦中に戦死した Canadian Expeditionary Force の隊員を追悼するためにフランスに設けられた戦争記念施設である。また、フランスで戦死した、あるいは戦死したものとみなされる、墓所不明の第一次世界大戦カナダ兵士の慰霊の場でもある。この記念碑は、Arras の戦いにおける Vimy Ridge 攻勢の初期段階で Canadian Corps が突撃した地の一部を含む、100 (ha) の保存された戦場公園の中心的存在である。\
 *Rank No.2*, *Cosine Similarity* = 0.2795, *Modality* = [image]{style="color: Magenta"}
 
 ![](assets/fig21.png)
@@ -529,7 +528,7 @@ Canadian National Vimy Memorial. Canadian National Vimy Memorial は、第一次
 
 ![](assets/fig22.png)
 
-Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral、正式には Mary, Queen of the World and St. James the Great Cathedral は、カナダのケベック州モントリオールにある小バシリカであり、モントリオールのローマ・カトリック大司教区の座所である。ケベック州では、Saint Joseph's Oratory（同じくモントリオール）およびケベック市東方の Basilica of Sainte-Anne-de-Beaupré に次いで3番目に大きな教会である。建物の長さは101 m（333 ft）、幅は46 m（150 ft）で、クーポラの最大高さは77 m（252 ft）、その直径は23 m（75 ft）である。
+Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral、正式には Mary, Queen of the World and St. James the Great Cathedral は、カナダ・ケベック州モントリオールにある小バシリカであり、Montreal のローマ・カトリック大司教区の司教座聖堂である。これは、Saint Joseph's Oratory（同じくモントリオールに所在）および Quebec City の東にある Basilica of Sainte-Anne-de-Beaupré に次いで、ケベック州で3番目に大きな教会である。建物の長さは101 m (333 ft)、幅は46 m (150 ft) であり、ドーム部での最大高さは77 m (252 ft)、その直径は23 m (75 ft) である。
 
 \
 *Rank No.4*, *Cosine Similarity* = 0.2744, *Modality* = [image]{style="color: Magenta"}
@@ -540,11 +539,11 @@ Mary, Queen of the World Cathedral. Mary, Queen of the World Cathedral、正式�
 
 ![](assets/fig24.png)
 
-Sydney Town Hall. Sydney Town Hall は、オーストラリアのニューサウスウェールズ州の州都シドニーにある19世紀後半の歴史的建造物指定の市庁舎であり、Sydney の Lord Mayor の議場、評議会事務所、会議および催事の会場を擁している。Queen Victoria Building の向かい、St Andrew's Cathedral に隣接する Sydney central business district の 483 George Street に位置する。Town Hall 駅の上にあり、市内のショッピング地区と娯楽地区の間に立地するため、Town Hall の階段は人気の待ち合わせ場所となっている。John H. Wilson、Edward Bell、Albert Bond によって設計された。
+Sydney Town Hall. Sydney Town Hall は、オーストラリアの New South Wales 州の州都 Sydney にある19世紀後半の歴史的建造物に指定された市庁舎であり、Sydney のロード・メイヤーの議場、市議会事務所、会議・催事の会場を収容している。483 George Street に位置し、Sydney 中央業務地区において Queen Victoria Building の向かい、St Andrew's Cathedral に隣接している。Town Hall station の上に位置し、市内の商業・娯楽地区の間にあることから、Town Hall の階段は人気の集合場所となっている。John H. Wilson、Edward Bell、Albert Bond により設計された。
 
 ## VisualNews {{CITE:19}}
 
-*[Query:]{style="color: blue"}* 元カリフォルニア州警官の Jay Cicinelli が、ホームレス男性殺害裁判で無罪評決を聞いた直後に頭を両手で抱える。
+*[Query:]{style="color: blue"}* 住宅を失った男性の殺人裁判で無罪評決を聞いた直後、元カリフォルニア州警察官 Jay Cicinelli が両手で頭を抱えている。
 
 ------------------------------------------------------------------------
 
@@ -552,23 +551,23 @@ Sydney Town Hall. Sydney Town Hall は、オーストラリアのニューサウ
 
 *Rank No.1*, *Cosine Similarity* = 0.4364, *Modality* = [text]{style="color: Orange"}
 
-この法廷スケッチでは、注目度の高い裁判の量刑段階において、その人物が描かれている厳粛な場面が展開されている。その人物には死刑が宣告され、司法手続における重要な局面を示している。緊張と重みを帯びた法廷は、手続の深刻さを反映している。このスケッチは、裁判所によって下された判断の雰囲気と重さを捉えている。\
+この法廷スケッチでは、著名な裁判の判決段階において、その人物が描かれ、厳粛な場面が展開している。その人物は死刑を宣告され、司法手続きにおける重要な局面を示している。緊張と厳粛さに満ちた法廷は、手続きの重大さを反映している。このスケッチは、裁判所によって下された決定の雰囲気と重みを捉えている。\
 
 *Rank No.2*, *Cosine Similarity* = 0.4186, *Modality* = [text]{style="color: Orange"}
 
-画像には、アルゼンチンの1976--83年軍事独裁政権下でカトリック司教殺害に関与したとして終身刑を言い渡された元将軍が映っている。この裁判では、フランシスコ教皇が提供したバチカン文書館の書簡を含む文書が明らかにされ、司教が政権の虐待を告発していたことが示された。この将軍は、1976年に Enrique Angelelli 司教の殺害を命じた罪で有罪とされ、軍政時代の高位聖職者殺害に関わる元当局者に対する重要な有罪判決となった。\
+この画像は、アルゼンチンの1976--83年軍事独裁政権下でのカトリック司教殺害に関与したとして終身刑を宣告された元将軍を示している。裁判では、Pope Francis が提供した Vatican archives の書簡を含む文書が明らかにされ、それにより司教が政権の虐待を告発していたことが示された。この将軍は、1976年に Bishop Enrique Angelelli を殺害するよう命じた罪で有罪とされ、軍政期の高官が高位聖職者殺害で有罪判決を受けた重要な事例となった。\
 
 *Rank No.3*, *Cosine Similarity* = 0.3994, *Modality* = [text]{style="color: Orange"}
 
-2011年10月3日、感情的緊張に満ちた法廷で、Amanda Knox が殺人罪の有罪判決に対する控訴に勝訴したとの発表を受けて、Amanda Knox の父親が妻に抱きしめられている。支持者や家族が判決に反応し、安堵と歓喜が漂う。画像は、広く報道された劇的な法廷闘争の文脈の中で、家族的支援と祝福の痛切な瞬間を捉えている。\
+2011年10月3日、感情の張り詰めた法廷で、Amanda Knox が殺人罪の有罪判決に対する控訴で勝訴したとの発表を受け、Amanda Knox の父親が妻に抱きしめられている。支持者や家族が判決に反応し、安堵と喜びに満ちた雰囲気が広がっている。この画像は、広く報道された劇的な法廷闘争のなかで、家族の支えと祝福の重要な瞬間を捉えている。\
 
 *Rank No.4*, *Cosine Similarity* = 0.3718, *Modality* = [text]{style="color: Orange"}
 
-Sudheendra Kulkarni は黒インクを浴びせられ、顔と頭が覆われた。この事件は公の場で発生し、画像に見られるようにメディアの注目と警察の出動を招いた。その後 Kulkarni はインクを除去するため病院に搬送された。この出来事は緊張を浮き彫りにし、広範な反応を引き起こしており、公的言説の不安定さを強調するものであった。\
+Sudheendra Kulkarni は黒インクを浴びせられ、顔と頭が覆われた。この事件は公共の場で発生し、画像に見られるようにメディアの注目と警察の উপস্থিতを引き寄せた。Kulkarni はその後、インクを除去するために病院へ搬送された。この出来事は緊張を浮き彫りにし、広範な反応を引き起こすとともに、公共言説の不安定な性質を強調した。\
 
 *Rank No.5*, *Cosine Similarity* = 0.3698, *Modality* = [text]{style="color: Orange"}
 
-Rev Sidney Davis は、9人の黒人礼拝者の命を奪った悲劇的な銃撃事件を受けて、Charleston の Second Presbyterian Church における地域祈祷会で弔問客を導いている。この集まりは、哀悼の参加者が手を取り合って祈る中で、暴力に直面した共同体の悲嘆と連帯を表している。この出来事は、Obama 大統領時代に強調された人種問題と銃規制をめぐる継続的な議論を浮き彫りにしている。沈痛な雰囲気は、アメリカにおける人種的緊張と銃暴力をめぐる課題と未解決問題を想起させる。
+Rev Sidney Davis は、チャールストンの Second Presbyterian Church で行われた共同祈祷会において、9人の黒人礼拝者の命を奪った悲劇的な銃撃事件の後、参列者を導いている。この集いは、参列者が手を取り合って祈るなかで、暴力に直面した共同体の悲嘆と連帯を反映している。この出来事は、オバマ大統領の在任中に強調された、人種と銃規制に関する継続的議論を浮き彫りにしている。厳粛な雰囲気は、アメリカにおける人種的緊張と銃暴力に関する課題と未解決問題を想起させる。
 
 ------------------------------------------------------------------------
 
@@ -580,21 +579,21 @@ Rev Sidney Davis は、9人の黒人礼拝者の命を奪った悲劇的な銃�
 
 *Rank No.2*, *Cosine Similarity* = 0.3605, *Modality* = [text]{style="color: Orange"}
 
-この法廷スケッチでは、注目度の高い裁判の量刑段階において、その人物が描かれている厳粛な場面が展開されている。その人物には死刑が宣告され、司法手続における重要な局面を示している。緊張と重みを帯びた法廷は、手続の深刻さを反映している。このスケッチは、裁判所によって下された判断の雰囲気と重さを捉えている。\
+この法廷スケッチでは、著名な裁判の判決段階において、その人物が描かれ、厳粛な場面が展開している。その人物は死刑を宣告され、司法手続きにおける重要な局面を示している。緊張と厳粛さに満ちた法廷は、手続きの重大さを反映している。このスケッチは、裁判所によって下された決定の雰囲気と重みを捉えている。\
 
 *Rank No.3*, *Cosine Similarity* = 0.3365, *Modality* = [text]{style="color: Orange"}
 
-画像には、アルゼンチンの1976--83年軍事独裁政権下でカトリック司教殺害に関与したとして終身刑を言い渡された元将軍が映っている。この裁判では、フランシスコ教皇が提供したバチカン文書館の書簡を含む文書が明らかにされ、司教が政権の虐待を告発していたことが示された。この将軍は、1976年に Enrique Angelelli 司教の殺害を命じた罪で有罪とされ、軍政時代の高位聖職者殺害に関わる元当局者に対する重要な有罪判決となった。\
+この画像は、アルゼンチンの1976--83年軍事独裁政権下でのカトリック司教殺害に関与したとして終身刑を宣告された元将軍を示している。裁判では、Pope Francis が提供した Vatican archives の書簡を含む文書が明らかにされ、それにより司教が政権の虐待を告発していたことが示された。この将軍は、1976年に Bishop Enrique Angelelli を殺害するよう命じた罪で有罪とされ、軍政期の高官が高位聖職者殺害で有罪判決を受けた重要な事例となった。\
 
 *Rank No.4*, *Cosine Similarity* = 0.3224, *Modality* = [multimodal]{style="color: ForestGreen"}
 
 ![](assets/fig26.png)
 
-国会議員らは、若者向け入院精神保健サービスへのアクセス不足について懸念を表明しており、Nikki Mattocks の事例のように、著しい遅延と不十分な支援に直面したケースを指摘している。重篤な精神健康上の問題に苦しみながらも、彼女は断片化されたケア体制に置かれ、その結果、救急外来への繰り返しの受診や遠方の精神科病棟への入院を余儀なくされた。この継続性の欠如と家族からの地理的な隔離は、彼女の状態をさらに悪化させた。議会報告書は、脆弱な若者へのさらなる被害を防ぐため、早期介入とより適切な資源配分の緊急性を強調している。
+国会議員らは、若者に対する入院型精神保健サービスへのアクセス不足について懸念を表明しており、長期の遅延と不十分な支援に直面した Nikki Mattocks の事例などを挙げている。重篤な精神健康問題に苦しみながらも、彼女は断片化したケア体制のなかに置かれ、その結果、救急受診の反復や遠方の精神科病棟への入院を余儀なくされた。こうした家族との連続性と近接性の欠如は、彼女の状態を悪化させた。この議会報告は、脆弱な若者へのさらなる害を防ぐために、早期介入とより適切な資源配分が急務であることを強調している。
 
 *Rank No.5*, *Cosine Similarity* = 0.2956, *Modality* = [text]{style="color: Orange"}
 
-2011年10月3日、感情的な緊張に満ちた法廷で、Amanda Knox の父親は、Amanda が殺人罪の有罪判決に対する控訴で勝訴したとの発表の後、妻に抱きしめられている。支援者や家族が評決に反応する中、場内は安堵と喜びに満ちた雰囲気に包まれている。この画像は、世間の注目を集めた劇的な法廷闘争という広い文脈の中で、家族による支援と祝意の感動的な瞬間を捉えている。
+2011年10月3日、感情の張り詰めた法廷で、Amanda Knox が殺人罪の有罪判決に対する控訴で勝訴したとの発表を受け、Amanda Knox の父親が妻に抱きしめられている。支持者や家族が判決に反応し、安堵と喜びに満ちた雰囲気が広がっている。この画像は、広く報道された劇的な法廷闘争のなかで、家族の支えと祝福の重要な瞬間を捉えている。
 
 ## References
 

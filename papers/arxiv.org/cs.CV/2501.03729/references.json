@@ -1,0 +1,474 @@
+{
+  "id": "2501.03729",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "d9a639523324e0cce9376cee7e190e503cecbe1c",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2501-03729",
+      "ArXiv": "2501.03729",
+      "DOI": "10.1109/CVPR52734.2025.02337",
+      "CorpusId": 275342705
+    },
+    "url": "https://www.semanticscholar.org/paper/d9a639523324e0cce9376cee7e190e503cecbe1c",
+    "title": "Realistic Test-Time Adaptation of Vision-Language Models"
+  },
+  "references": [
+    {
+      "paper_id": "da0f7da39fe0cd4589e260583aa7977227a013d2",
+      "arxiv_id": "2409.01883",
+      "doi": "10.48550/arXiv.2409.01883",
+      "title": "Boosting Vision-Language Models for Histopathology Classification: Predict all at once",
+      "url": "https://www.semanticscholar.org/paper/da0f7da39fe0cd4589e260583aa7977227a013d2"
+    },
+    {
+      "paper_id": "df61ae3e99c2333e5aede04fa601045c881ce50c",
+      "arxiv_id": "2409.00698",
+      "doi": "10.1109/ICASSP49660.2025.10888395",
+      "title": "Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification",
+      "url": "https://www.semanticscholar.org/paper/df61ae3e99c2333e5aede04fa601045c881ce50c"
+    },
+    {
+      "paper_id": "7097e1bfbb6143574d2db30577e52a4a397ac4ae",
+      "arxiv_id": "2406.13875",
+      "doi": "10.48550/arXiv.2406.13875",
+      "title": "WATT: Weight Average Test-Time Adaptation of CLIP",
+      "url": "https://www.semanticscholar.org/paper/7097e1bfbb6143574d2db30577e52a4a397ac4ae"
+    },
+    {
+      "paper_id": "389d092f5d04e09416ab86cd3096d8ddc767e254",
+      "arxiv_id": "2406.01837",
+      "doi": "10.48550/arXiv.2406.01837",
+      "title": "Boosting Vision-Language Models with Transduction",
+      "url": "https://www.semanticscholar.org/paper/389d092f5d04e09416ab86cd3096d8ddc767e254"
+    },
+    {
+      "paper_id": "4f861f449cc9078989b91b2bca681f58d9b3b071",
+      "arxiv_id": "2405.18330",
+      "doi": "10.48550/arXiv.2405.18330",
+      "title": "Frustratingly Easy Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/4f861f449cc9078989b91b2bca681f58d9b3b071"
+    },
+    {
+      "paper_id": "42012c4e9dc8d787adb101548cefc42b8a4507d9",
+      "arxiv_id": "2405.18541",
+      "doi": "10.1109/CVPRW63382.2024.00166",
+      "title": "Low-Rank Few-Shot Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/42012c4e9dc8d787adb101548cefc42b8a4507d9"
+    },
+    {
+      "paper_id": "1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc",
+      "arxiv_id": "2405.02266",
+      "doi": "10.1109/CVPR52733.2024.02245",
+      "title": "On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?",
+      "url": "https://www.semanticscholar.org/paper/1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc"
+    },
+    {
+      "paper_id": "0d195623869c759f19d11f079793767bdff4d277",
+      "arxiv_id": "2405.18437",
+      "doi": "10.1109/CVPR52733.2024.02722",
+      "title": "Transductive Zero-Shot and Few-Shot CLIP",
+      "url": "https://www.semanticscholar.org/paper/0d195623869c759f19d11f079793767bdff4d277"
+    },
+    {
+      "paper_id": "0e1edb328b02e4a98072dcf22357ee78dfdec3c4",
+      "arxiv_id": "2404.04072",
+      "doi": "10.1109/CVPR52733.2024.02190",
+      "title": "Label Propagation for Zero-shot Classification with Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/0e1edb328b02e4a98072dcf22357ee78dfdec3c4"
+    },
+    {
+      "paper_id": "390b2aa03672d33c760a151bb056b1397bf40cc0",
+      "arxiv_id": "2403.18293",
+      "doi": "10.1109/CVPR52733.2024.01343",
+      "title": "Efficient Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/390b2aa03672d33c760a151bb056b1397bf40cc0"
+    },
+    {
+      "paper_id": "427c1f7e70712ec4433e859c493bfb4d8d18c713",
+      "arxiv_id": "2403.17589",
+      "doi": "10.1109/CVPR52733.2024.02713",
+      "title": "Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/427c1f7e70712ec4433e859c493bfb4d8d18c713"
+    },
+    {
+      "paper_id": "7906164bdffd8555cb413d1d0bea2c946055fe05",
+      "arxiv_id": "2402.04087",
+      "doi": "10.48550/arXiv.2402.04087",
+      "title": "A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7906164bdffd8555cb413d1d0bea2c946055fe05"
+    },
+    {
+      "paper_id": "734101311a8ae392ded894696ca070b04b82575f",
+      "arxiv_id": "2308.06038",
+      "doi": "10.1109/ICCV51070.2023.00255",
+      "title": "Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/734101311a8ae392ded894696ca070b04b82575f"
+    },
+    {
+      "paper_id": "7f2ddb3dabaf779d45766b458d5b51f7a4b877cc",
+      "arxiv_id": "2304.01752",
+      "doi": "10.1109/ICCV51070.2023.01424",
+      "title": "Black Box Few-Shot Adaptation for Vision-Language models",
+      "url": "https://www.semanticscholar.org/paper/7f2ddb3dabaf779d45766b458d5b51f7a4b877cc"
+    },
+    {
+      "paper_id": "e6357834e6145b607c350b92238b5bc4d662e920",
+      "arxiv_id": "2303.13899",
+      "doi": "10.1109/CVPR52729.2023.01528",
+      "title": "Robust Test-Time Adaptation in Dynamic Scenarios",
+      "url": "https://www.semanticscholar.org/paper/e6357834e6145b607c350b92238b5bc4d662e920"
+    },
+    {
+      "paper_id": "527a295facd12acf1935ae5798bf7a0871af0831",
+      "arxiv_id": "2210.14545",
+      "doi": "10.48550/arXiv.2210.14545",
+      "title": "Towards Practical Few-Shot Query Sets: Transductive Minimum Description Length Inference",
+      "url": "https://www.semanticscholar.org/paper/527a295facd12acf1935ae5798bf7a0871af0831"
+    },
+    {
+      "paper_id": "0d0dbfb1b315a43216020abaf74d289456198219",
+      "arxiv_id": "2210.03117",
+      "doi": "10.1109/CVPR52729.2023.01832",
+      "title": "MaPLe: Multi-modal Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/0d0dbfb1b315a43216020abaf74d289456198219"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "62c29e503d18ac3a6a08aef4d4f076621a99504a",
+      "arxiv_id": "2208.05117",
+      "doi": "10.52202/068431-1976",
+      "title": "NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation",
+      "url": "https://www.semanticscholar.org/paper/62c29e503d18ac3a6a08aef4d4f076621a99504a"
+    },
+    {
+      "paper_id": "a32887af7eb1fcfd3b3d892ad41f3516a37f11c1",
+      "arxiv_id": "2207.09519",
+      "doi": "10.48550/arXiv.2207.09519",
+      "title": "Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification",
+      "url": "https://www.semanticscholar.org/paper/a32887af7eb1fcfd3b3d892ad41f3516a37f11c1"
+    },
+    {
+      "paper_id": "b4362fe4e0cf17ea212448b2ab683a162dc38489",
+      "arxiv_id": "2204.10377",
+      "doi": "10.1109/CVPR52688.2022.00039",
+      "title": "Contrastive Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b4362fe4e0cf17ea212448b2ab683a162dc38489"
+    },
+    {
+      "paper_id": "170676e3d7a8cd5606a7643ff72948e502af0e49",
+      "arxiv_id": "2201.05718",
+      "doi": "10.1109/CVPR52688.2022.00816",
+      "title": "Parameter-free Online Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/170676e3d7a8cd5606a7643ff72948e502af0e49"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "5242a0e057364817c4adc4c02029588e315c7b50",
+      "arxiv_id": "2006.15486",
+      "doi": "",
+      "title": "Laplacian Regularized Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/5242a0e057364817c4adc4c02029588e315c7b50"
+    },
+    {
+      "paper_id": "db0a9d3db22e002186e76e90ab10bbd8a47db2b8",
+      "arxiv_id": "1805.10002",
+      "doi": "",
+      "title": "Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/db0a9d3db22e002186e76e90ab10bbd8a47db2b8"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "3e2f630410f1de9f5821a03fecc727dfc9f7562c",
+      "arxiv_id": "1505.00218",
+      "doi": "10.1109/ICCV.2015.206",
+      "title": "Volumetric Bias in Segmentation and Reconstruction: Secrets and Solutions",
+      "url": "https://www.semanticscholar.org/paper/3e2f630410f1de9f5821a03fecc727dfc9f7562c"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "a83cec6a91701bd8500f8c43ad731d4353c71d55",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW.2013.77",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "url": "https://www.semanticscholar.org/paper/a83cec6a91701bd8500f8c43ad731d4353c71d55"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "da9e411fcf740569b6b356f330a1d0fc077c8d7c",
+      "arxiv_id": "1212.0402",
+      "doi": "",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+      "url": "https://www.semanticscholar.org/paper/da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+    },
+    {
+      "paper_id": "908091b4a8757c3b2f7d9cfa2c4f616ee12c5157",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2010.5539970",
+      "title": "SUN database: Large-scale scene recognition from abbey to zoo",
+      "url": "https://www.semanticscholar.org/paper/908091b4a8757c3b2f7d9cfa2c4f616ee12c5157"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "d58e04d7288bf30e566fa2f77438ca7c111f1222",
+      "arxiv_id": "",
+      "doi": "10.7551/mitpress/7503.003.0009",
+      "title": "Learning on Graph with Laplacian Regularization",
+      "url": "https://www.semanticscholar.org/paper/d58e04d7288bf30e566fa2f77438ca7c111f1222"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "46770a8e7e2af28f5253e5961f709be74e34c1f6",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning with Local and Global Consistency",
+      "url": "https://www.semanticscholar.org/paper/46770a8e7e2af28f5253e5961f709be74e34c1f6"
+    },
+    {
+      "paper_id": "f0bf18fc90674fbef616e8c54bdefb3adc237e4d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The Concave-Convex Procedure (CCCP)",
+      "url": "https://www.semanticscholar.org/paper/f0bf18fc90674fbef616e8c54bdefb3adc237e4d"
+    },
+    {
+      "paper_id": "c4c631b245971eb5fde9cbd6d3575e4ac4e41c49",
+      "arxiv_id": "1302.1552",
+      "doi": "10.1007/978-94-011-5014-9_18",
+      "title": "An Information-Theoretic Analysis of Hard and Soft Assignment Methods for Clustering",
+      "url": "https://www.semanticscholar.org/paper/c4c631b245971eb5fde9cbd6d3575e4ac4e41c49"
+    },
+    {
+      "paper_id": "51ac2dceecc75431eab5b2c320822e081b282b27",
+      "arxiv_id": "",
+      "doi": "10.52202/075280-2847",
+      "title": "SwapPrompt: Test-Time Prompt Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/51ac2dceecc75431eab5b2c320822e081b282b27"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "ac4cb6f51b0378f05b04892be04e7210d9843459",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Information Maximization for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/ac4cb6f51b0378f05b04892be04e7210d9843459"
+    },
+    {
+      "paper_id": "9682782c26bb418741304436bb3a721ffc96c0f0",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The Matrix Cookbook",
+      "url": "https://www.semanticscholar.org/paper/9682782c26bb418741304436bb3a721ffc96c0f0"
+    },
+    {
+      "paper_id": "336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "cats and dogs",
+      "url": "https://www.semanticscholar.org/paper/336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Restrictions apply",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "95d32f6aaef22b6add61fb5cb9d8a9b28e6010ed",
+      "arxiv_id": "2608.25653",
+      "doi": "",
+      "title": "Towards Purified Multi-Label Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/95d32f6aaef22b6add61fb5cb9d8a9b28e6010ed"
+    },
+    {
+      "paper_id": "dc2937efd95ef1b9e5f40d99bcd8a4b125fe88d7",
+      "arxiv_id": "2608.23903",
+      "doi": "",
+      "title": "Continual Visual Learning under Evolving Semantic Concept Shift",
+      "url": "https://www.semanticscholar.org/paper/dc2937efd95ef1b9e5f40d99bcd8a4b125fe88d7"
+    },
+    {
+      "paper_id": "1fe4f567c31e4ec9bcaa63ed21a99a2d947736a5",
+      "arxiv_id": "2607.15556",
+      "doi": "10.48550/arXiv.2607.15556",
+      "title": "When Can Test-Time Adaptation Help Zero-Shot CT Vision-Language Models?",
+      "url": "https://www.semanticscholar.org/paper/1fe4f567c31e4ec9bcaa63ed21a99a2d947736a5"
+    },
+    {
+      "paper_id": "c942f649b7b7f6f318e0076df05399bb27f1af44",
+      "arxiv_id": "2606.14299",
+      "doi": "10.48550/arXiv.2606.14299",
+      "title": "What Drives Test-Time Adaptation for CLIP? A Controlled Empirical Study from an Update Perspective",
+      "url": "https://www.semanticscholar.org/paper/c942f649b7b7f6f318e0076df05399bb27f1af44"
+    },
+    {
+      "paper_id": "9e0c499d08f598d7eb416fbee2ae5abaf23c523c",
+      "arxiv_id": "2606.04385",
+      "doi": "10.48550/arXiv.2606.04385",
+      "title": "Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/9e0c499d08f598d7eb416fbee2ae5abaf23c523c"
+    },
+    {
+      "paper_id": "50c9e30dcb4777d438ea21ce315295ec807b66b7",
+      "arxiv_id": "2605.18653",
+      "doi": "10.48550/arXiv.2605.18653",
+      "title": "Will It Go Viral? Grounding Micro-Video Popularity Prediction on the Open Web",
+      "url": "https://www.semanticscholar.org/paper/50c9e30dcb4777d438ea21ce315295ec807b66b7"
+    },
+    {
+      "paper_id": "4e53a0ab785135b181742f00e3c8defe28f78bc2",
+      "arxiv_id": "2604.21728",
+      "doi": "10.48550/arXiv.2604.21728",
+      "title": "Ramen: Robust Test-Time Adaptation of Vision-Language Models with Active Sample Selection",
+      "url": "https://www.semanticscholar.org/paper/4e53a0ab785135b181742f00e3c8defe28f78bc2"
+    },
+    {
+      "paper_id": "cb307dd14123485df33de3b6cae2a7780907d20f",
+      "arxiv_id": "2603.22070",
+      "doi": "10.48550/arXiv.2603.22070",
+      "title": "Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning",
+      "url": "https://www.semanticscholar.org/paper/cb307dd14123485df33de3b6cae2a7780907d20f"
+    },
+    {
+      "paper_id": "33d655ff215bdd12ebc48e9acc5822905ca61ec3",
+      "arxiv_id": "2602.23653",
+      "doi": "10.48550/arXiv.2602.23653",
+      "title": "ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/33d655ff215bdd12ebc48e9acc5822905ca61ec3"
+    },
+    {
+      "paper_id": "93eec3ff6dc19cf77c945a6f244b0d46a10e5bbb",
+      "arxiv_id": "2602.19530",
+      "doi": "10.48550/arXiv.2602.19530",
+      "title": "ORION: ORthonormal Text Encoding for Universal VLM AdaptatION",
+      "url": "https://www.semanticscholar.org/paper/93eec3ff6dc19cf77c945a6f244b0d46a10e5bbb"
+    },
+    {
+      "paper_id": "f3452ebd1f2d3eaa503831f7f810d7c3b4af5917",
+      "arxiv_id": "2602.02150",
+      "doi": "10.48550/arXiv.2602.02150",
+      "title": "ECHO: Entropy-Confidence Hybrid Optimization for Test-Time Reinforcement Learning",
+      "url": "https://www.semanticscholar.org/paper/f3452ebd1f2d3eaa503831f7f810d7c3b4af5917"
+    },
+    {
+      "paper_id": "b47c279b82ddf5f996cedc0c86a1b086110a1403",
+      "arxiv_id": "2511.12446",
+      "doi": "10.48550/arXiv.2511.12446",
+      "title": "CoTBox-TTT: Grounding Medical VQA with Visual Chain-of-Thought Boxes During Test-time Training",
+      "url": "https://www.semanticscholar.org/paper/b47c279b82ddf5f996cedc0c86a1b086110a1403"
+    },
+    {
+      "paper_id": "0731c68ca1b4bc1337e39a0e0413e84f94dde708",
+      "arxiv_id": "2508.15568",
+      "doi": "10.48550/arXiv.2508.15568",
+      "title": "Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment",
+      "url": "https://www.semanticscholar.org/paper/0731c68ca1b4bc1337e39a0e0413e84f94dde708"
+    },
+    {
+      "paper_id": "d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8",
+      "arxiv_id": "2508.05547",
+      "doi": "10.1007/s11263-026-02987-w",
+      "title": "Adapting Vision-Language Models Without Labels: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8"
+    },
+    {
+      "paper_id": "833a169d8ae0c81ac1159c6d222929a52feb0d22",
+      "arxiv_id": "2505.12912",
+      "doi": "10.48550/arXiv.2505.12912",
+      "title": "Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption",
+      "url": "https://www.semanticscholar.org/paper/833a169d8ae0c81ac1159c6d222929a52feb0d22"
+    },
+    {
+      "paper_id": "7988795ac29b7ffa48238b4b36ff5031e57ca5b7",
+      "arxiv_id": "2412.02837",
+      "doi": "10.1109/ICCV51701.2025.00154",
+      "title": "BATCLIP: Bimodal Online Test-Time Adaptation for CLIP",
+      "url": "https://www.semanticscholar.org/paper/7988795ac29b7ffa48238b4b36ff5031e57ca5b7"
+    },
+    {
+      "paper_id": "aa5a5fdeb42f81a9d606bd793abe545626264d7f",
+      "arxiv_id": "2407.12492",
+      "doi": "",
+      "title": "Temporal Test-Time Adaptation with State-Space Models",
+      "url": "https://www.semanticscholar.org/paper/aa5a5fdeb42f81a9d606bd793abe545626264d7f"
+    },
+    {
+      "paper_id": "105cf68f36f441003e6b79ea642524c875fac8bf",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-0230",
+      "title": "Statistics Caching Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/105cf68f36f441003e6b79ea642524c875fac8bf"
+    }
+  ]
+}

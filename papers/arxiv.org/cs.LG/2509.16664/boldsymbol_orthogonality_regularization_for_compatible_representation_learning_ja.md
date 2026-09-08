@@ -5,35 +5,35 @@ tags: [paper-translation]
 
 [[boldsymbol_orthogonality_regularization_for_compatible_representation_learning|← 論文ノート]]
 
-# はじめに 
+# Introduction 
 
-検索タスクは、顔認識 [[#^ref-1|1]][[#^ref-2|2]][[#^ref-3|3]]、画像位置特定 [[#^ref-4|4]][[#^ref-5|5]][[#^ref-6|6]]、物体同定 [[#^ref-7|7]][[#^ref-8|8]][[#^ref-9|9]] といった実世界の応用において、ますます重要性を増している。画像検索では、ラベル付き画像からなるギャラリーとクエリ画像を照合し、関連する画像、理想的には同一クラスの画像を同定する。高次元画像の代わりに、検索では埋め込みモデルから得られる低次元の特徴ベクトルを用いる。検索性能の向上には、より表現力の高いネットワークアーキテクチャ [[#^ref-12|12]]、新しい学習技術（例えば損失関数）や学習パラダイム [[#^ref-13|13]][[#^ref-14|14]][[#^ref-15|15]] を活用するために、埋め込みモデル [[#^ref-10|10]][[#^ref-11|11]] を更新することがしばしば含まれる。しかし、ニューラルネットワークは、同一データを同一手法および同一アーキテクチャで学習した場合であっても、互換性のある特徴をほとんど生成しない [[#^ref-16|16]]。その結果、新規クエリの特徴と旧ギャラリーの特徴との照合は、非互換性のために検索性能を低下させうる [[#^ref-15|15]]。これに対処するには、旧モデルによって生成されたギャラリー特徴を新モデルによって生成された特徴で置き換える必要があるが、これは backfilling と呼ばれる計算コストの高い処理である。基盤モデルを更新しつつ、その後方互換性を保証し、backfilling を回避するという課題は、広範に研究されてきた [[#^ref-17|17]][[#^ref-15|15]][[#^ref-18|18]][[#^ref-19|19]][[#^ref-20|20]][[#^ref-21|21]]。さらに、gallery 更新の最適戦略――partial backfilling として知られる――も近年注目を集め始めている [[#^ref-22|22]]。
+検索タスクは、顔認識 [[#^ref-1|1]][[#^ref-2|2]][[#^ref-3|3]]、画像ローカライゼーション [[#^ref-4|4]][[#^ref-5|5]][[#^ref-6|6]]、および物体同定 [[#^ref-7|7]][[#^ref-8|8]][[#^ref-9|9]] といった実世界アプリケーションにおいてますます重要になっている。画像検索では、ラベル付き画像からなるギャラリーとクエリ画像を対応付け、関連する画像、理想的には同一クラスの画像を同定する。高次元の画像そのものではなく、検索では埋め込みモデルによって得られる低次元の特徴ベクトルを用いる。検索性能の向上には、より表現力の高いネットワークアーキテクチャ [[#^ref-12|12]]、新たな学習手法（例：損失関数）や学習パラダイム [[#^ref-13|13]][[#^ref-14|14]][[#^ref-15|15]] を活用するために、埋め込みモデル [[#^ref-10|10]][[#^ref-11|11]] を更新することがしばしば含まれる。しかし、ニューラルネットワークは、同一データに対し同一の手法とアーキテクチャで学習された場合であっても、互換性のある特徴をほとんど生成しない [[#^ref-16|16]]。その結果、新規クエリの特徴と旧来のギャラリーの特徴を対応付ける際に、不整合により検索性能が低下しうる [[#^ref-15|15]]。これに対処するためには、旧モデルによって生成されたギャラリー特徴を新モデルが生成したものに置き換える必要があるが、このバックフィリングと呼ばれる処理は計算コストが高い。基盤モデルを更新しつつ後方互換性を確保し、バックフィリングを回避する課題は広く研究されてきた [[#^ref-17|17]][[#^ref-15|15]][[#^ref-18|18]][[#^ref-19|19]][[#^ref-20|20]][[#^ref-21|21]]。さらに、ギャラリー更新の最適戦略、すなわち partial backfilling も近年注目を集め始めている [[#^ref-22|22]]。
 
-互換性を確保するためのアーキテクチャ変更や追加損失は、更新後モデルの性能を低下させる可能性がある [[#^ref-23|23]][[#^ref-24|24]]。この問題に対処するため、研究はパラメータ効率の高い adapter を用いて、基盤モデルの表現を、別途独立に学習された改良版モデルの表現に整合させることに焦点を当ててきた [[#^ref-22|22]][[#^ref-25|25]]。一方、manifold hypothesis [[#^ref-26|26]][[#^ref-27|27]] は、ニューラルネットワークが通常、同一データ分布の潜在空間表現を生成し、その違いは主として変換によるものであることを示唆する。したがって、関数的に等価なモデルは同一の潜在多様体を近似するため、ある表現を別の表現へ写像するのに必要なパラメータはごく少数である [[#^ref-28|28]][[#^ref-29|29]][[#^ref-27|27]]。ゆえに、新しい表現空間を以前の表現空間に整合させる単純な変換によって、更新後モデルの後方互換性を与えることができる。
+互換性を確保するためのアーキテクチャ変更や追加損失は、更新後モデルの性能を低下させうる [[#^ref-23|23]][[#^ref-24|24]]。この問題に対処するため、研究は、パラメータ効率の高いアダプタ [[#^ref-22|22]][[#^ref-25|25]] を用いて、基盤モデルの表現を独立に学習された改良モデルの表現に整合させることに焦点を当ててきた。一方、manifold hypothesis [[#^ref-26|26]][[#^ref-27|27]] は、ニューラルネットワークが通常、同一データ分布の潜在空間表現を生成し、その差異は主として変換によって記述できることを示唆する。したがって、機能的に等価なモデルは同一の潜在多様体を近似するため、ある表現を別の表現へ写像するのに必要なパラメータはごく少数で済む [[#^ref-28|28]][[#^ref-29|29]][[#^ref-27|27]]。ゆえに、新しい表現空間を以前の表現空間に整合させる単純な変換によって、更新後モデルの後方互換性を実現できる。
 
 ![](assets/fig01.png)
 
-検索システム更新時に表現互換性を実現するための提案手法の概要。新たに独立学習されたモデルは、幾何学的構造を保持する直交変換 $B_{\perp}$ を介して旧表現空間に整合される。順方向変換 $F$ は、旧表現を新モデルの後方整合済み空間へ写像する。学習時に最適化されるのは変換パラメータのみであり、モデルパラメータは固定されたままである。
+検索システム更新時に表現互換性を実現するための提案手法の概要。新たに独立学習されたモデルは、幾何構造を保持する直交変換 $B_{\perp}$ により旧表現空間へ整合される。順方向変換 $F$ は、旧表現を新モデルの後方整合済み空間へ写像する。学習時に最適化されるのは変換パラメータのみであり、モデルパラメータは固定されたままである。
 
-近年の研究では、特定のデータ点を参照として用い、基盤モデルの潜在空間（source space）を他のモデルの潜在空間（target space）へ適応させるために、アフィン写像および直交写像が検討されている [[#^ref-30|30]][[#^ref-28|28]][[#^ref-31|31]]。plasticity-stability paradigm [[#^ref-32|32]] の観点では、アフィン写像は高い適応性（plasticity）を提供する一方で、source space の配置を変えてしまう可能性がある [[#^ref-33|33]][[#^ref-34|34]]。これに対し、直交写像は source space の幾何学的構造（stability）を維持するが、異なる分布への適応性は持たない。source space の幾何学的構造を保持しつつ、特にそれが target space よりも情報量が多い場合 [[#^ref-28|28]][[#^ref-35|35]] に適応性も実現するため、本研究では新たな正則化項を提案する。先行研究 [[#^ref-36|36]] と異なり，本項は、変換が直交条件から所定の近接範囲内に留まるよう制約するものであり、その程度はハイパーパラメータ $\lambda$ により制御される。
+近年の研究では、基盤モデルの潜在空間（source space）を別のモデルの潜在空間（target space）へ適応させるために、特定のデータ点を参照として affine mapping および orthogonal mapping が検討されてきた [[#^ref-30|30]][[#^ref-28|28]][[#^ref-31|31]]。plasticity-stability paradigm [[#^ref-32|32]] において、affine mapping は高い適応性（plasticity）を提供する一方で、source space の配置を変化させる可能性がある [[#^ref-33|33]][[#^ref-34|34]]。逆に、orthogonal mapping は source space の幾何構造を維持する（stability）ものの、異なる分布への適応性は持たない。source space の幾何構造、特にそれが target space よりも情報量に富む場合 [[#^ref-28|28]][[#^ref-35|35]] を保持しつつ適応性も実現するために、本研究では新たな正則化項を提案する。先行研究 [[#^ref-36|36]] と異なり、本項は、ハイパーパラメータ $\lambda$ により制御される所定の近傍に変換を制約し、直交条件の近傍に留まるようにする。
 
-本論文では、Fig. [\[fig:compatible_adapters\]](#fig:compatible_adapters) に示すように、独立に学習されたモデル間で表現空間をまたいだ異なる変換を学習することで、互換性を保証する課題に取り組む。本研究の貢献は以下の通りである。
+本論文では、Fig. [\[fig:compatible_adapters\]](#fig:compatible_adapters) に示すように、異なる表現空間間で変換を学習することにより、独立学習されたモデル間の互換性を確保する課題に取り組む。貢献は以下のとおりである。
 
-- $\lambda$-Orthogonality regularization を提案する。これは、元の表現空間の大域構造を保持しつつ、下流タスクに対してわずかな局所適応を可能にする、緩和された直交制約である。
+- $\lambda$-Orthogonality regularization を提案する。これは、元の表現空間の大域構造を保持しつつ、下流タスクに対する局所的な微調整を可能にする緩和直交制約である。
 
-- supervised contrastive loss を用いることで表現互換性を高める。これにより、モデルアーキテクチャに依存せず、クラス内クラスタリングとモデル間の特徴整合を促進する。
+- supervised contrastive loss を用いて表現互換性を向上させる。これにより、クラス内クラスタリングとモデル間の特徴表現整合を促進しつつ、モデルアーキテクチャに依存しない枠組みを実現する。
 
-- 多様なアーキテクチャとデータセットにわたる大規模実験を行い、本手法がモデル間の互換性を保証するだけでなく、基盤モデルの潜在空間の幾何構造の保持も促進し、その結果として下流タスクの精度を向上させることを示す。
+- 多様なアーキテクチャとデータセットにわたる広範な実験を行い、本手法がモデル間の互換性を確保するだけでなく、基盤モデルの潜在空間幾何の保持も促進し、下流タスクの精度向上につながることを示す。
 
-- 検索性能を改善しつつ gallery 更新プロセスを最適化する、新しいアーキテクチャ非依存の backfilling 戦略を提案する。
+- 検索性能を改善しつつギャラリー更新プロセスを最適化する、新しいアーキテクチャ非依存の backfilling 戦略を提案する。
 
-# 関連研究
+# Related Works
 
-[[#^ref-16|16]] により示されているように、二つのモデルから得られる特徴表現は――同一データで学習されていたとしても――一般には一致せず、検索システムにおいて高コストな backfilling を生じさせる。これを回避するため、[[#^ref-15|15]] は Backward Compatible Training (BCT) を導入した。これは、旧分類器を基準として固定し、新しい埋め込みが既存のクラスプロトタイプに整合するようにするものである。さらに同研究は、モデル表現間の互換性の形式的定義も与えた。その後の研究はこの基盤を拡張し、追加の正則化技法を組み込んで新しい表現を以前の表現により良く整合させる試み [[#^ref-21|21]][[#^ref-37|37]][[#^ref-20|20]][[#^ref-38|38]][[#^ref-39|39]] や、特定のアーキテクチャ設計の実装 [[#^ref-18|18]][[#^ref-13|13]][[#^ref-40|40]] を行ってきた。しかし、更新後の後方互換モデルの性能は、しばしば独立に学習されたモデルの性能に達しない [[#^ref-23|23]]。これは互換性を実現するために課される正則化の帰結である。これを避けるため、[[#^ref-23|23]] および [[#^ref-24|24]] は、新クラスを含むように表現空間を拡張しつつ、更新時には旧クラスの表現が整合したままであるようにすることを提案した。独立に学習されたモデル間の互換性を保証するため、写像ベースの戦略も開発されている [[#^ref-41|41]][[#^ref-42|42]][[#^ref-43|43]]。[[#^ref-25|25]] が詳述する Forward Compatible Training (FCT) は、追加の補助情報を各データ点に組み込みつつ、旧モデルの埋め込みを新モデルの空間へ整合させる関数を導入する。[[#^ref-25|25]] が指摘するように、これらの変換に伴う計算オーバーヘッドは、画像を埋め込みモデルに通す処理要求と比べて非常に小さい。FastFill [[#^ref-22|22]] は、新モデル分類器を用いることで順方向変換学習を改善し、新モデルを活用して gallery backfilling プロセスを最適化するベイズ戦略を提案する。これに対し，本研究では、モデル更新時に forward 互換性だけでなく backward 互換性も保証する一連の変換関数を提案し、とりわけ backward mapping における直交性に着目する。さらに、クラス内クラスタリングとモダリティ間整合を促進する supervised contrastive loss を提案し、これにより適応を向上させる。最後に、事前抽出された gallery 表現に対して直接動作する距離尺度に基づく新しい gallery backfilling 戦略を提案し、基盤アーキテクチャに依存しないことを実現する。
+[[#^ref-16|16]] によれば、同一データで学習された場合であっても、2つのモデルから得られる特徴表現は一般には一致せず、検索システムにおいて高コストなバックフィリングを生じさせる。これを回避するために、[[#^ref-15|15]] は Backward Compatible Training (BCT) を導入し、旧分類器を参照として固定することで、新しい埋め込みが従来のクラスプロトタイプに整合するようにした。さらに、同研究はモデル表現間の互換性の形式的定義を与えた。その後の研究はこの基盤を拡張し、新しい表現を従来のものによりよく整合させるための追加正則化手法 [[#^ref-21|21]][[#^ref-37|37]][[#^ref-20|20]][[#^ref-38|38]][[#^ref-39|39]] や、特定のアーキテクチャ設計 [[#^ref-18|18]][[#^ref-13|13]][[#^ref-40|40]] を導入してきた。しかし、更新された backward-compatible model の性能は、しばしば独立に学習されたモデルの性能に届かない [[#^ref-23|23]]。これは、互換性を達成するために課される正則化の帰結である。これを避けるために、[[#^ref-23|23]] と [[#^ref-24|24]] は、古いクラスの表現整合を更新中に維持しつつ、新しいクラスを含めるよう表現空間を拡張することを提案した。独立に学習されたモデル間の互換性を確保するために、mapping-based strategy も開発されている [[#^ref-41|41]][[#^ref-42|42]][[#^ref-43|43]]。[[#^ref-25|25]] で詳述される Forward Compatible Training (FCT) は、旧モデルの埋め込みを新モデル空間の埋め込みへ整合させる関数を導入し、各データ点に対する追加の補助情報を組み込む。[[#^ref-25|25]] が指摘するように、これらの変換に伴う計算オーバーヘッドは、埋め込みモデルを通じて画像を処理する負荷と比べればごく小さい。FastFill [[#^ref-22|22]] は、新モデル分類器を用いることで順方向変換学習を改善し、新モデルを活用してギャラリーバックフィリング過程を最適化する Bayesian strategy を提案する。これに対し本研究では、モデル更新時に forward compatibility だけでなく backward compatibility も確保するための一連の変換関数を提案し、特に backward mapping における orthogonality property に焦点を当てる。さらに、クラス内クラスタリングと相互モダリティ整合を促進する supervised contrastive loss を提案し、適応を強化する。最後に、事前抽出されたギャラリー表現に対して直接動作する距離尺度に基づく新しいギャラリーバックフィリング戦略を提案し、基盤アーキテクチャに依存しないものとする。
 
-# 方法 
+# Method 
 
-独立に学習されたモデル間で互換な表現を実現するために、本研究では、複数の変換から成る理論的基盤に裏打ちされたパイプラインを導入する。まず、Sec. 3.1 において [[#^ref-15|15]] により導入された互換性の定義を述べる。Sec. 3.2 および 3.3 では、厳密な直交変換、あるいは下流タスクに適応する場合には提案する $\lambda$-Orthogonality 制約によって正則化された変換のいずれかを用いて、新モデルの表現を前モデルの表現に整合させる新しい backward-compatibility 手法を導入する。次に、Sec. 3.4 では forward trasformation learning を示し、アフィン変換またはより複雑な変換を介して前モデルの表現を新たに適応されたモデルの表現へ整合させ、効率的な gallery set 更新を可能にする。さらに、変換学習の際には supervised contrastive loss（Sec. 3.5）を適用し、モデル表現間の整合を改善するとともに、クラス内クラスタのコンパクトさを高めることで、Def. 1 で定義された互換性基準を満たす。最後に、Sec. 3.6 では、改良された表現を最適化された順序で gallery に backfilling するための新しい順序付け戦略を提案する。本手法全体を通して、すべてのモデルはパラメータを凍結した固定特徴抽出器として機能し、学習されるのは変換層のみである。
+独立に学習されたモデル間で互換的な表現を実現するために、我々は複数の変換から構成される理論的基盤を有するパイプラインを導入する。まず、Sec. 3.1 では [[#^ref-15|15]] により導入された互換性の定義を述べる。Sec. 3.2 および 3.3 では、新しい backward-ompatibility 手法を導入する。これは、厳密な直交変換、あるいは下流タスクへ適応する際には我々が提案する $\lambda$-Orthogonality 制約で正則化された変換のいずれかを用いて、新モデルの表現を以前のモデルの表現へ整合させるものである。次に、Sec. 3.4 では forward trasformation learning を示す。これは、前モデルの表現を、更新・適応後の新モデルの表現へ affine またはより複雑な変換により整合させ、ギャラリー集合の有効な更新を可能にする。さらに、変換学習の際に supervised contrastive loss（Sec. 3.5）を適用し、モデル表現間の整合を改善するとともに、クラス内クラスタのコンパクト性を高め、Def. 1 で定義された互換性基準を満たすようにする。最後に、Sec. 3.6 では、改善された表現を最適化された順序でギャラリーに backfilling するための新しい順序付け戦略を提案する。本手法全体を通じて、すべてのモデルはパラメータを固定した特徴抽出器として機能し、学習されるのは変換層のみである。
 
 ![](assets/fig02.png)
 
@@ -43,23 +43,23 @@ tags: [paper-translation]
 
 異なる $\lambda$ における Eq. [\[eq:orth_smooth\]](#eq:orth_smooth) の値。
 
-## 後方互換表現の定義 
+## Backward-Compatible Representations Definition 
 
-[[#^ref-15|15]] により導入された表現間の Backward-Compatibility の定式化は、異なるモデル間の潜在空間通信の概念と密接に関連している [[#^ref-30|30]]。後方互換表現の形式的定義は次の通りである。
+[[#^ref-15|15]] により導入された表現間の Backward-Compatibility の定式化は、異なるモデル間の潜在空間通信の概念と密接に関係している [[#^ref-30|30]]。Backward-compatible representations の形式的定義は以下のとおりである。
 
-**Definition 1** (***Backward-Compatibility***). ステップ $k$ で学習されたあるモデルの表現は、より後のステップ $t$ で学習された別のモデルの表現と互換である。ここで $k < t$ とする。この互換性は、次の条件が満たされるときに成立する：$$\forall\,i,j:\;\bigl(y_i=y_j\implies d(\mathbf h_i^t,\mathbf h_j^k)\le d(\mathbf h_i^k,\mathbf h_j^k)\bigr)\;\wedge\;\bigl(y_i\neq y_j\implies d(\mathbf h_i^t,\mathbf h_j^k)\ge d(\mathbf h_i^k,\mathbf h_j^k)\bigr)$$ ここで $d(\cdot, \cdot)$ は距離関数であり、$y_i$ および $y_j$ は、それぞれ抽出された表現ベクトル $\mathbf{h}_{i}$ および $\mathbf{h}_{j}$ に対応するクラスラベルである。Def. 1 における不等式は、新しいモデルの表現が古い表現と比較されたとき、同一クラスの画像をクラスタリングし、異なるクラスの画像から分離するという点で、少なくとも旧モデルと同等以上に機能すべきことを示している。
+**Definition 1** (***Backward-Compatibility***). ステップ $k$ で学習されたモデルの表現が、後続ステップ $t$ で学習された異なるモデルの表現と互換的であるとは、$k < t$ のとき、次の条件が満たされる場合をいう。$$\forall\,i,j:\;\bigl(y_i=y_j\implies d(\mathbf h_i^t,\mathbf h_j^k)\le d(\mathbf h_i^k,\mathbf h_j^k)\bigr)\;\wedge\;\bigl(y_i\neq y_j\implies d(\mathbf h_i^t,\mathbf h_j^k)\ge d(\mathbf h_i^k,\mathbf h_j^k)\bigr)$$ ここで $d(\cdot, \cdot)$ は距離関数であり、$y_i$ と $y_j$ は、それぞれ抽出された表現ベクトル $\mathbf{h}_{i}$ と $\mathbf{h}_{j}$ に対応するクラスラベルである。Def. 1 の不等式は、新モデルの表現が旧表現と比較したとき、同一クラス画像のクラスタリングおよび異なるクラス画像の分離において、少なくとも従来モデルと同等以上に機能すべきであることを示している。
 
-## 後方変換 
+## Backward Transformation 
 
-relative encoding [[#^ref-30|30]] の貢献の一つは、実際には、表現空間は同一あるいは類似のデータ意味論を共有する場合、しばしば角度保存変換によってのみ異なるという観察である。さらに [[#^ref-28|28]] は、学習された意味論に差異がある場合、Procrustes analysis [[#^ref-44|44]] により学習された、角度と距離の双方を保存する変換が、角度保存写像のみよりも cross-architecture および cross-modality の分類タスクにおいて優れた性能を示すことを明らかにしている。変換 $T$ は、空間内の任意の二点 $a$ と $b$ の間の角度と距離を保存するならば isometry であると定義される。形式的には、写像 $T: \mathbb{R}^n \to \mathbb{R}^n$ が isometry であるとは、次の条件が成り立つことである：$\| T(a) - T(b) \|_2 = \| a - b \|_2, \quad \forall a, b \in \mathbb{R}^n$。ここで $\| \cdot \|_2$ はユークリッドノルムを表し、他の空間では同値に一般の距離尺度を意味する。本研究ではこの性質を利用して、直交変換を用いることで更新後モデルの空間を基盤モデルの空間に整合させ、後方互換表現を実現する。これにより、変換の等長性に由来して幾何学的性質と更新後モデルの性能を維持しつつ、更新を通じて統一された表現空間を保つことができる。
+relative encoding [[#^ref-30|30]] の貢献の一つは、実際には、表現空間は同じあるいは類似したデータセマンティクスを共有する場合、しばしば角度保存変換によってのみ異なるという観察である。さらに [[#^ref-28|28]] は、学習されたセマンティクスに差異がある場合、角度と距離の双方を保存する変換――Procrustes analysis [[#^ref-44|44]] により学習される――が、角度保存のみの写像よりも、クロスアーキテクチャおよびクロスモダリティの分類タスクで優れた性能を与えることを示している。変換 $T$ は、空間内の任意の2点 $a$ と $b$ の間の角度と距離を保存するなら等長写像（isometry）と定義される。形式的には、写像 $T: \mathbb{R}^n \to \mathbb{R}^n$ が等長写像であるとは、次の条件が成り立つ場合である：$\| T(a) - T(b) \|_2 = \| a - b \|_2, \quad \forall a, b \in \mathbb{R}^n$。ここで $\| \cdot \|_2$ はユークリッドノルムを表し、他の空間では同値な一般距離尺度を意味する。我々はこの性質を利用して、直交変換により更新後モデルの空間を基盤モデルの空間に整合させ、後方互換表現を実現する。これにより、更新をまたいで統一された表現空間が維持され、変換の等長性により更新後モデルの幾何学的性質と性能が保持される。
 
-基底モデル $\phi^k$ とその更新版 $\phi^t$ があり、$k < t$ であるとする。これらに対応する表現ベクトル $\mathbf{h}^k \in \mathbb{R}^d$ および $\mathbf{h}^t \in \mathbb{R}^n$ に対して、更新モデルの埋め込み空間を基底モデルの空間へ写像する直交変換 $B_{\perp}: \mathbb{R}^n \rightarrow \mathbb{R}^n$ を学習する。厳密な直交性を課すために、一般の変換 $B$ は反対称行列 $P$ の行列指数としてパラメータ化され、$B = e^P$ とする。このとき、$P$ の上三角成分が学習可能パラメータである [[#^ref-45|45]]。更新表現空間と基底表現空間の整合を強制するため、変換後の $\mathbf{h}^t$ と $\mathbf{h}^k$ の間の平均二乗誤差損失を最小化することで変換 $B_{\perp}$ を最適化する: $$\mathcal{L}_{B} = ||B_{\perp}(\mathbf{h}^t) - \mathbf{h}^k||_2^2$$ 変換 $B_{\perp}$ は正方行列であるため、二つの表現空間の次元数が異なる場合には、高次元側の特徴ベクトルを切り詰めて低次元側の表現に合わせる。
+与えられたベースモデル $\phi^k$ とその更新版 $\phi^t$（ただし $k < t$）、およびそれぞれに対応する表現ベクトル $\mathbf{h}^k \in \mathbb{R}^d$ と $\mathbf{h}^t \in \mathbb{R}^n$ に対し、更新モデルの埋め込み空間をベースモデルの空間へ写像する直交変換 $B_{\perp}: \mathbb{R}^n \rightarrow \mathbb{R}^n$ を学習する。厳密な直交性を課すため、一般的な変換 $B$ は歪対称行列 $P$ の行列指数としてパラメータ化され、$B = e^P$ とする。このとき、$P$ の上三角成分を学習可能パラメータとする [[#^ref-45|45]]。更新モデルとベースモデルの表現空間間の整合を強制するため、$\mathbf{h}^k$ と変換後の $\mathbf{h}^t$ の間の平均二乗誤差損失を最小化することにより、変換 $B_{\perp}$ を最適化する： $$\mathcal{L}_{B} = ||B_{\perp}(\mathbf{h}^t) - \mathbf{h}^k||_2^2$$ 変換 $B_{\perp}$ は正方行列であるため、二つの表現空間の次元が異なる場合には、高次元側の特徴ベクトルを切り詰めて、より小さい表現空間の次元に合わせる。
 
 ## $\boldsymbol{\lambda}$-Orthogonality Regularization 
 
-変換 $B$ に対して厳密な直交制約（高い安定性）を課すことは、モデル分布がアダプタの学習対象から逸脱する場合には必ずしも望ましくない。たとえば、抽出済み埋め込みのみをユーザに提供するプライベートモデルがこれに該当する。このような制約を課すと、下流タスクに必要な新規かつ関連性の高い情報の統合が制限されうる。逆に、幾何学的正則化を伴わないアフィン変換（高い可塑性）は、更新モデルの表現を破壊しうる [[#^ref-46|46]][[#^ref-47|47]]。[[#^ref-36|36]] で述べられているように、重み行列 $W \in \mathbb{R}^{n \times n}$ とバイアス項 $b \in  \mathbb{R}^n$ から成る変換 $B: \mathbb{R}^n \rightarrow \mathbb{R}^n$ に対して、ソフトな直交制約を適用できる。先行研究 [[#^ref-48|48]][[#^ref-49|49]][[#^ref-50|50]] では、重み行列の Gram 行列を恒等行列に近づけるよう制約するため、次の損失関数を最小化することが提案されている: $$\mathcal{L}_{orth} = ||W^T W - I||_F$$ ここで $||\cdot||_F$ は Frobenius ノルムを表し、$W$ は変換 $B$ の重みである。これは、パラメータ集合を Stiefel manifold [[#^ref-50|50]] に近接するよう制限する weight decay 項として解釈できる。しかし、この方法では、変換にどの程度の直交性を課すかという具体的な制御は与えられない。
+変換 $B$ に対する厳密な直交制約（高い安定性）は、アダプタが訓練された分布と実際の分布が異なる場合には必ずしも理想的ではない。すなわち、抽出済み埋め込みのみをユーザに提供する private models の場合である。このような制約を課すと、下流タスクに必要な新たな関連情報の統合が制限され得る。これに対して、幾何学的正則化を伴わないアフィン変換（高い可塑性）は、更新モデルの表現を攪乱し得る [[#^ref-46|46]][[#^ref-47|47]]。[[#^ref-36|36]] で述べられているように、重み行列 $W \in \mathbb{R}^{n \times n}$ とバイアス項 $b \in  \mathbb{R}^n$ からなる変換 $B: \mathbb{R}^n \rightarrow \mathbb{R}^n$ に対して、ソフトな直交制約を適用できる。先行研究 [[#^ref-48|48]][[#^ref-49|49]][[#^ref-50|50]] は、次のように定義される損失関数を最小化することで、重み行列の Gram 行列が単位行列に近くなるよう制約することを提案している： $$\mathcal{L}_{orth} = ||W^T W - I||_F$$ ここで $||\cdot||_F$ は Frobenius ノルムを表し、$W$ は変換 $B$ の重みである。これは、パラメータ集合を Stiefel manifold [[#^ref-50|50]] の近傍に制限する重み減衰項として解釈できる。しかし、このアプローチでは、変換に対して具体的にどの程度の直交性を課すかを制御できない。
 
-そこで我々は、重み行列の Gram 行列が恒等行列にどれだけ近いべきかを規定する閾値 $\lambda$ を導入する。素朴な解としては、損失が Gram 行列に直接影響することから、重み行列の Gram 行列が閾値 $\lambda$ に達した時点で $\mathcal{L}_{orth}$ の最適化を停止する方法が考えられる: $$\min_{W} \; ||W^T W - I||_F \quad \text{s.t.} \quad ||W^T W - I||_F \geq \lambda$$ この目的は、$\lambda$ パラメータで平行移動された Heaviside step function [[#^ref-51|51]][[#^ref-52|52]] を用いて直接達成できる: $H(x-\lambda)=\mathbf{1}_{\{x\ge\lambda\}}$ この関数 $H$ は、最小化過程における直交性の度合いを制御する効率的な機構を提供し、Frobenius ノルムが閾値 $\lambda$ を超えたときに、式 [\[eq:ortho\]](#eq:ortho) の正則化項を事実上無効化する: $$\mathcal{L}_{\lambda} = H ( \| WW^T - I \|_F - \lambda) \cdot \| WW^T - I \|_F.$$ しかし、この手法は [[#^ref-53|53]] が指摘するように、損失関数に不連続性を導入する。とりわけ彼らの研究は、これらの sigmoid 関数が Heaviside step function にどれだけ近いかを評価することに焦点を当て、Hausdorff 距離に対する厳密な上界および下界を与えている。こうした理論的・実証的分析を踏まえ、我々は、閾値 $\lambda$ からの距離に応じてペナルティの重要度が増減し、制約の効果が徐々に調整されるような滑らかな調整関数を提案する。具体的には、次式で定義される損失関数を最適化することで、新たな $\lambda$-Orthogonality Regularization 項を定式化する: $$\mathcal{L}_{\lambda} = \sigma \left( \alpha \left( \| WW^T - I \|_F - \lambda \right) \right) \cdot \| WW^T - I \|_F$$ ここで $\sigma(\cdot)$ は sigmoid 関数、$\alpha$ はスケーリング係数である。
+そこで本研究では、重み行列の Gram 行列が単位行列にどの程度近いかを指定する閾値 $\lambda$ を導入する。素朴な解決策としては、損失が Gram 行列に直接影響することから、重み行列の Gram 行列が閾値 $\lambda$ に到達した時点で $\mathcal{L}_{orth}$ の最適化を停止する方法が考えられる： $$\min_{W} \; ||W^T W - I||_F \quad \text{s.t.} \quad ||W^T W - I||_F \geq \lambda$$ この目的は、パラメータ $\lambda$ によってシフトされた Heaviside step function [[#^ref-51|51]][[#^ref-52|52]] を用いることで直接実現できる：$H(x-\lambda)=\mathbf{1}_{\{x\ge\lambda\}}$ この関数 $H$ は、最小化過程における直交性の程度を制御する効率的な機構を提供し、Frobenius ノルムが閾値 $\lambda$ を超えると、式 [\[eq:ortho\]](#eq:ortho) の正則化項を実質的に無効化する： $$\mathcal{L}_{\lambda} = H ( \| WW^T - I \|_F - \lambda) \cdot \| WW^T - I \|_F.$$ しかし、このアプローチは [[#^ref-53|53]] で指摘されているように、損失関数に不連続性を導入する。特に同研究では、これらの sigmoid 関数が Heaviside step function にどれほど近いかの評価に焦点を当て、Hausdorff 距離に対する厳密な上界および下界を与えている。これらの理論的・実証的分析を踏まえ、本研究では、制約の効果が徐々に調整され、$\lambda$ からの距離に応じて罰則の強さが増減するような滑らかなモジュレーション関数を提案する。具体的には、次の損失関数を最適化することで、新規の $\lambda$-Orthogonality Regularization 項を定式化する： $$\mathcal{L}_{\lambda} = \sigma \left( \alpha \left( \| WW^T - I \|_F - \lambda \right) \right) \cdot \| WW^T - I \|_F$$ ここで $\sigma(\cdot)$ は sigmoid 関数であり、$\alpha$ はスケーリング係数である。
 
 ![](assets/fig05.png)
 
@@ -73,13 +73,13 @@ relative encoding [[#^ref-30|30]] の貢献の一つは、実際には、表現�
 
 Source space
 
-sigmoid 関数は連続的なスイッチとして機能し、Fig. [\[fig:lambda\]](#fig:lambda) に示すように、$\lambda$ の値の近傍で正則化項を徐々に有効・無効化する。一方、スケーリング係数 $\alpha$ は sigmoid 関数の傾きを制御し、これにより $\| WW^T - I \|_F$ の値が閾値 $\lambda$ に近づく際に、正則化がどれほど急峻に有効化または無効化されるかが決まる。Fig. [\[fig:alpha\]](#fig:alpha) では、正則化損失に適用される異なる傾きの水準を示している。$\alpha$ が増加するにつれて、その挙動は Heaviside step function により近く収束する。
+sigmoid 関数は、図 [\[fig:lambda\]](#fig:lambda) に示すように、$\lambda$ の値付近で正則化項を徐々にオン・オフする連続的なスイッチとして機能する。一方、スケーリング係数 $\alpha$ は sigmoid 関数の急峻さを制御し、それにより $\| WW^T - I \|_F$ の値が閾値 $\lambda$ に近づく際に正則化がどの程度急激に有効化・無効化されるかが決まる。図 [\[fig:alpha\]](#fig:alpha) では、正則化損失に適用した異なる急峻さのレベルを示す。$\alpha$ が増加するにつれて、その挙動は Heaviside step function により近く収束する。
 
-$\lambda$-orthogonality regularization の挙動をさらに分析するため、ランダム初期化された重み行列 $W$ をもつ変換 $B$ に対して式 [\[eq:orth_smooth\]](#eq:orth_smooth) を最適化する。Fig. [\[fig:angle\]](#fig:angle) に示すように、これらの角度の kernel density estimation (KDE) は、正則化に用いる $\lambda$ の値に応じて変化する。$\lambda$ の値が小さいほど、列ベクトルはより直交的になり、特に $\lambda=0$ のとき、我々の正則化は式 [\[eq:ortho\]](#eq:ortho) に等しい。Fig. [\[fig:mnist\]](#fig:mnist) は、MNIST データセット全体で学習した source representation space（Fig. [\[fig:source\]](#fig:source)）と、MNIST の最初の 5 クラスで学習した target representation space（Fig. [\[fig:target\]](#fig:target)）を整合させるために学習した、アフィン変換（Fig. [\[fig:affine\]](#fig:affine)）、厳密直交変換（Fig. [\[fig:sorth\]](#fig:sorth)）、および $\lambda$-orthogonality regularized 変換（Fig. [\[fig:near_orth_mnist\]](#fig:near_orth_mnist)）の効果を示している。この玩具実験は、$\lambda$-orthogonal 制約が、厳密な直交性を緩和しつつ source feature space の構造の保存を促進することで、制約なし変換に比べて整合を改善することを示している。
+$\lambda$-orthogonality regularization の挙動をさらに解析するため、ランダム初期化された重み行列 $W$ をもつ変換 $B$ に Eq. [\[eq:orth_smooth\]](#eq:orth_smooth) を適用して最適化する。図 [\[fig:angle\]](#fig:angle) に示すように、これらの角度の kernel density estimation (KDE) は、正則化に用いる $\lambda$ の値に応じて変化する。$\lambda$ の値が小さいほど、列ベクトルはより強く直交化される。特に $\lambda=0$ のとき、本正則化は Eq.[\[eq:ortho\]](#eq:ortho) と等価である。図 [\[fig:mnist\]](#fig:mnist) は、full MNIST dataset で学習された source representation space（図 [\[fig:source\]](#fig:source)）と、MNIST の最初の 5 クラスで学習された target representation space（図 [\[fig:target\]](#fig:target)）を整合させるために学習した、アフィン変換（図 [\[fig:affine\]](#fig:affine)）、厳密直交変換（図 [\[fig:sorth\]](#fig:sorth)）、および $\lambda$-orthogonality regularized 変換（図 [\[fig:near_orth_mnist\]](#fig:near_orth_mnist)）の効果を示している。この toy experiment は、$\lambda$-orthogonal 制約が、厳密直交性を緩和しつつ source feature space の構造保持を促進することで整合を改善することを示しており、これは無制約変換とは対照的である。
 
 ## Forward Transformation 
 
-新しいモデルの表現を前のモデルの表現へ写像する backward transformation に加えて、forward transformation $F: \mathbb{R}^d \rightarrow \mathbb{R}^n$ を定式化することも可能である。この変換は、前のモデルの表現ベクトル $\mathbf{h}^k \in \mathbb{R}^d$ を新しいモデルの表現 $\mathbf{h}^t \in \mathbb{R}^n$ に写像する。新しいモデルの表現は前のモデルの表現よりも優れているため、変換 $F$ は、改善された表現によりよく適応できるよう、アフィン変換（高い可塑性）または複数の投影層であるべきである。変換 $F$ は、[[#^ref-25|25]] で述べられたアプローチに従い、二つの表現間の平均二乗誤差 $|| F(\mathbf{h}^k) - \mathbf{h}^t ||_2^2$ を最小化することで学習される。この概念は latent space communication [[#^ref-30|30]][[#^ref-31|31]] と密接に関連しており、そこでは $\mathcal{T}$ を一般的な変換として $d \big(\mathbf{h}^k_{i}, \mathbf{h}^k_{j} \big) = d \big(\mathcal{T}\ \mathbf{h}^t_{i}, \mathcal{T}\ \mathbf{h}^t_{j} \big)$ が成り立つ。先行手法 [[#^ref-25|25]][[#^ref-22|22]] では、古い表現 $\mathbf{h}^k$ を変換 $F$ を通じて新しい $\mathbf{h}^t$ に直接整合させるが、その結果 $\mathbf{h}^k$ と $F(\mathbf{h}^k)$ の間に非互換性が生じる。Sec. 3.2 で述べたように、backward orthogonal transformation $B_{\perp}$ は新しい表現を古い表現へ再整合させる。古い特徴を新しい表現 $\mathbf{h}^t$ に直接適応させる代わりに、我々はそれらを $B_{\perp}(\mathbf{h}^t)$ に適応させ、モデル更新を通じて統一的な整合を保証する。さらに、変換 $F$ と $B_{\perp}$ は同一の学習データを用いるため、共同で学習可能である。したがって、我々の手法における forward alignment loss は次式で定義される:
+新しいモデルの表現を以前のモデルの表現へ写像する backward transformation に加え、forward transformation $F: \mathbb{R}^d \rightarrow \mathbb{R}^n$ を定式化することも可能である。この変換は、以前のモデルの表現ベクトル $\mathbf{h}^k \in \mathbb{R}^d$ を、新しいモデルの表現 $\mathbf{h}^t \in \mathbb{R}^n$ へ写像する。新しいモデルの表現は以前のモデルのそれより優れているため、変換 $F$ は、改善された表現により適切に適応できるよう、アフィン（高い可塑性）であるか、あるいは複数の射影層から構成されるべきである。変換 $F$ は、[[#^ref-25|25]] で述べられたアプローチに従い、二つの表現間の Mean Squared Error を $|| F(\mathbf{h}^k) - \mathbf{h}^t ||_2^2$ として最小化することによって学習される。この概念は latent space communication [[#^ref-30|30]][[#^ref-31|31]] と密接に関連しており、そこでは $\mathcal{T}$ を一般的な変換とすると、$d \big(\mathbf{h}^k_{i}, \mathbf{h}^k_{j} \big) = d \big(\mathcal{T}\ \mathbf{h}^t_{i}, \mathcal{T}\ \mathbf{h}^t_{j} \big)$ が成り立つ。先行手法 [[#^ref-25|25]][[#^ref-22|22]] では、古い表現 $\mathbf{h}^k$ を変換 $F$ を通じて新しい $\mathbf{h}^t$ に直接整合させているが、$\mathbf{h}^k$ と $F(\mathbf{h}^k)$ の間に非整合が生じる。Sec. 3.2 で述べたように、backward orthogonal transformation $B_{\perp}$ は新しい表現を古いものに再整合させる。古い特徴を新しい表現 $\mathbf{h}^t$ に直接適応させる代わりに、$B_{\perp}(\mathbf{h}^t)$ に適応させることで、モデル更新全体を通じて統一的な整合を保証する。さらに、変換 $F$ と $B_{\perp}$ は同一の訓練データを利用するため、同時に学習可能である。したがって、我々の方法論における forward alignment loss は次のように定義される：
 
 $$\mathcal{L}_F = || F(\mathbf{h}^k) - B_{\perp}(\mathbf{h}^t) ||_2^2$$
 
@@ -87,48 +87,365 @@ $$\mathcal{L}_F = || F(\mathbf{h}^k) - B_{\perp}(\mathbf{h}^t) ||_2^2$$
 
 ## Intra-class Clustering and Inter-Model Alignment 
 
-Sec. 3.1 で議論したように、Def. 1 で定義された互換性不等式は、整合だけでなく、互換性を達成するためのより高いクラスタ集中度も要求する。この目的のために、[[#^ref-22|22]] は追加の訓練損失 $\mathcal{L}_{disc}$ を導入している。これは、[[#^ref-15|15]] の influence loss とは異なり、旧モデルではなく新モデルの分類器に直接依拠する。しかし、$\mathcal{L}_{disc}$ は新モデルの分類器および訓練損失へのアクセスを必要とするため、特に新モデルのアーキテクチャが未知である場合（たとえば、private model や online model から得られる埋め込みベクトル）には適用性が制限される。これを克服するため、我々は表現ベクトルに直接適用する supervised contrastive loss の利用を提案する。この損失は、整合とクラスタリングのために表現ベクトルを直接活用するため、分類器やアーキテクチャに関する知識を一切必要としない。supervised contrastive loss [[#^ref-54|54]] は、$\mathbf{q}_i$ と $\mathbf{p}_i$ の間の cross-entropy loss を最小化する: $$\mathcal{L_{\text{contr}}} = -\sum_{i=1}^K \mathbf{p}_i \log \mathbf{q}_i$$ ここで $\mathbf{q}_i$ は、L2 正規化された特徴 $\mathbf{h}$ と各候補との dot-product similarities に対して temperature-scaled softmax を適用することで、サンプル $i$ に割り当てられる確率を表し、$\mathbf{p}_i$ は、意味的に一致する（同一クラスの）候補すべてに等しい質量を与え、それ以外を 0 とする正規化された ground-truth indicator distribution である。具体的には、この損失関数の組合せを利用し、目的関数 $\mathcal{L}_{\text{C}}$ を次のように定義する: $$\begin{aligned}
+Sec. 3.1 で議論したように、Def. 1 で定義された compatibility inequalities は、整合だけでなく、compatibility を達成するためのより高いクラスタ集中度も要求する。この目的のために、[[#^ref-22|22]] は追加の訓練損失 $\mathcal{L}_{disc}$ を導入しているが、[[#^ref-15|15]] の influence loss とは異なり、これは旧モデルではなく新モデルの分類器に直接依拠する。しかし、$\mathcal{L}_{disc}$ は新モデルの分類器および訓練損失へのアクセスに依存するため、特に新モデルのアーキテクチャが不明な場合（たとえば private models や online models から得られる埋め込みベクトル）には適用可能性が制限される。これを克服するため、本研究では表現ベクトルに直接適用する supervised contrastive loss の利用を提案する。この損失は、整合とクラスタリングのために表現ベクトルを直接活用するため、分類器やアーキテクチャに関する知識を必要としない。supervised contrastive loss [[#^ref-54|54]] は、$\mathbf{q}_i$ と $\mathbf{p}_i$ の間の cross-entropy loss を最小化する： $$\mathcal{L_{\text{contr}}} = -\sum_{i=1}^K \mathbf{p}_i \log \mathbf{q}_i$$ ここで $\mathbf{q}_i$ は、L2 正規化された特徴 $\mathbf{h}$ と各候補との内積類似度に対して温度スケール付き softmax を適用することによりサンプル $i$ に割り当てられる確率を表し、$\mathbf{p}_i$ は、意味的に一致する（同一クラスの）候補すべてに等しい重みを与え、それ以外を 0 とする正規化済みの真値指示分布である。具体的には、本損失関数の組合せを利用し、目的関数 $\mathcal{L}_{\text{C}}$ を次のように定義する： $$\begin{aligned}
 \mathcal{L}_{\text{C}} = \mathcal{L}_{\text{contr}}(F(\mathbf{h}^k), B_{\perp}(\mathbf{h}^t))\ + \mathcal{L}_{\text{contr}}(F(\mathbf{h}^k),\mathbf{h}^k)
-\end{aligned}$$ この損失は、適応後の表現間でのクラスタリングを促進すると同時に、それらを前のモデルの表現とも整合させることで、特徴表現の intra-class clustering および inter-model alignment を促進する。
+\end{aligned}$$ この損失は、適応後表現のクラスタリングを促進すると同時に、それらを以前のモデルの表現と整合させることで、特徴表現のクラス内クラスタリングとモデル間整合を促進する。
 
-我々の枠組みにおける全体損失関数は、四つの構成要素、すなわち forward alignment loss $\mathcal{L}_F$、backward alignment loss $\mathcal{L}_{B}$、contrastive loss $\mathcal{L}_{\text{C}}$、および $\lambda$-Orthogonality regularization 項 $\mathcal{L}_{\lambda}$ の加重和として定義される。形式的には、総損失は次式で表される: $$\mathcal{L} = w_1 \cdot \mathcal{L}_F + w_2 \cdot \mathcal{L}_{B} + w_3 \cdot \mathcal{L}_C + \mathcal{L}_{\lambda}$$[] ここで $w_1$, $w_2$, および $w_3$ は、各項の寄与をバランスさせるためのスカラー重みを表す。
+我々のフレームワークにおける全体損失関数は、forward alignment loss $\mathcal{L}_F$、backward alignment loss $\mathcal{L}_{B}$、contrastive loss $\mathcal{L}_{\text{C}}$、および $\lambda$-Orthogonality regularization 項 $\mathcal{L}_{\lambda}$ の 4 成分の重み付き和として定義される。形式的には、総損失は次式で表される： $$\mathcal{L} = w_1 \cdot \mathcal{L}_F + w_2 \cdot \mathcal{L}_{B} + w_3 \cdot \mathcal{L}_C + \mathcal{L}_{\lambda}$$[] ここで $w_1$、$w_2$、および $w_3$ は、各項の寄与を調整するためのスカラー重みである。
 
 ## Partial Backfilling Strategy
 
-forward-adapted gallery set におけるサンプルの backfilling の有効な順序を決定することは、旧モデルの $F(\mathbf{h}^k)$ を $B_{\perp}(\mathbf{h}^t)$ に置き換える操作を通じて、新たに独立に学習されたモデルの性能に可能な限り効率よく到達するうえで極めて重要である。しかし、backfilling の最適順序の同定は、計算的に困難な組合せ最適化問題である [[#^ref-22|22]]。この課題に対処するため、FastFill [[#^ref-22|22]] は Bayesian Deep Learning に着想を得た順序付けを導入している。この手法は、alignment error を多変量ガウス分布としてモデル化し、mapping function $F$ の学習中にこの分布の負の対数尤度を最小化する。しかし、retrieval の観点からは、最も代表的なインスタンス、すなわち異なるクラス間の分離を大きく高めるインスタンスは、それぞれのクラス平均に最も近い embedding として同定される [[#^ref-55|55]][[#^ref-56|56]]。したがって、情報量の少ない embedding を優先的に backfilling することで、クラス間の差異を強化し、システム性能を向上させることができる。この目的のために、我々は既に抽出された representation vector $F(\mathbf{h}^k)$ に直接基づいて backfill 順序を推定する新たな手法を提案する。まず、forward-adapted gallery set における各クラス $c$ の平均 representation vector $\boldsymbol{\mu}_c$ を計算する。次に、各 embedding vector $F(\mathbf{h}^k)$ と対応するクラス平均 $\boldsymbol{\mu}_c$ との距離指標 $d$ を算出する。例えば、$d$ には Mean Squared Error を用いることができ、$d = \| F(\mathbf{h}^k) - \boldsymbol{\mu}_c \|_2$ と表される。$\boldsymbol{\mu}$ からの距離 $d$ が最大となる gallery embedding を backfilling の優先対象とすることで、新たに backward-adapted された独立学習モデル $B_{\perp}(\mathbf{h}^t)$ により生成された query とのマッチングが容易になる。
+順方向に適応されたgallery setにおけるbackfillingサンプルの有効な順序を決定することは、旧モデルの $F(\mathbf{h}^k)$ を $B_{\perp}(\mathbf{h}^t)$ に置き換えたとき、新たに独立学習されたモデルの性能を可能な限り効率的に達成するうえで極めて重要である。しかし、backfilling の最適順序を同定することは、計算的に扱いにくい組合せ最適化問題である [[#^ref-22|22]]。この課題に対処するため、FastFill [[#^ref-22|22]] は Bayesian Deep Learning に着想を得た順序付けを導入する。この手法は、アライメント誤差を多変量ガウス分布としてモデル化し、マッピング関数 $F$ の学習中にこの分布の負の対数尤度を最小化する。しかし、retrieval の観点からは、最も代表的なインスタンス、すなわち異なるクラス間の分離を大きく向上させるものは、それぞれのクラス平均に最も近い埋め込みとして同定される [[#^ref-55|55]][[#^ref-56|56]]。したがって、情報量の最も少ない埋め込みを優先的に backfilling することにより、クラス間の識別性が強化され、システム性能は向上する。そこで我々は、既に抽出された表現ベクトル $F(\mathbf{h}^k)$ に直接基づいて backfill 順序を推定する新しい手法を提案する。まず、順方向に適応されたgallery setにおける各クラス $c$ の平均表現ベクトル $\boldsymbol{\mu}_c$ を計算する。次に、各埋め込みベクトル $F(\mathbf{h}^k)$ について、その対応するクラス平均 $\boldsymbol{\mu}_c$ からの距離指標 $d$ を計算する。例えば、$d$ は平均二乗誤差でよく、$d = \| F(\mathbf{h}^k) - \boldsymbol{\mu}_c \|_2$ と表される。$\boldsymbol{\mu}$ からの距離 $d$ が最も大きいgallery埋め込みを backfilling の優先対象とすることで、新たに backward-adapted された独立学習モデル $B_{\perp}(\mathbf{h}^t)$ によって生成された query とのマッチングを促進する。
 
-# Experiments 
+# 実験
+
+0.48
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">43.56</td>
+<td style="text-align: center;">25.18</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">61.61</td>
+<td style="text-align: center;">35.69</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">50.13</td>
+<td style="text-align: center;">30.93</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">57.21</td>
+<td style="text-align: center;">33.00</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">50.63</td>
+<td style="text-align: center;">31.48</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">57.21</td>
+<td style="text-align: center;">33.19</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>44.59</strong></td>
+<td style="text-align: center;"><strong>26.70</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>51.46</strong></td>
+<td style="text-align: center;"><strong>33.75</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>57.41</strong></td>
+<td style="text-align: center;"><strong>34.53</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>43.94</strong></td>
+<td style="text-align: center;"><strong>25.75</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">61.61</td>
+<td style="text-align: center;">35.69</td>
+</tr>
+</tbody>
+</table>
 
 0.48
 
-0.48
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">76.62</td>
+<td style="text-align: center;">56.84</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">59.39</td>
+<td style="text-align: center;">42.65</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">72.54</td>
+<td style="text-align: center;">49.85</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>61.17</strong></td>
+<td style="text-align: center;"><strong>46.28</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">73.33</td>
+<td style="text-align: center;"><strong>52.83</strong></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>60.83</strong></td>
+<td style="text-align: center;"><strong>40.69</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">61.10</td>
+<td style="text-align: center;">45.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>73.53</strong></td>
+<td style="text-align: center;">52.06</td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>65.54</strong></td>
+<td style="text-align: center;"><strong>38.55</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">76.62</td>
+<td style="text-align: center;">56.84</td>
+</tr>
+</tbody>
+</table>
 
 ## Image Retrieval Compatibility
 
-Backward compatibility は、gallery set $\mathcal{G} = \{(\mathbf{x}_i, y_i)\}_{i=1}^{N_g}$ と query set $\mathcal{Q}=\{(\mathbf{x}_i, y_i)\}_{i=1}^{N_q}$ を含む retrieval タスクにおいて重要であり、それぞれ $N_g$ および $N_q$ 枚の画像と、それに対応するクラスラベルを有する。base model は画像から特徴ベクトルを抽出して gallery を index 化し、retrieval タスクにおいて query set のベクトルとの照合に用いる。Def. 1 で提示された compatibility の定義では、データセット内の全データ点間の pairwise distance を計算する。この処理は、データセット規模が大きくなるにつれて計算負荷が著しく増大する。つぎに、ステップ $t$ で更新されたモデルが、ステップ $k$ で学習された base model と backward-compatible であるとは、Empirical Compatibility Criterion [[#^ref-15|15]] が満たされる場合を指す: $$M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big) > 
-M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big), \quad \text{with } k < t$$ ここで $M$ は性能指標を表し、$\Phi^\mathcal{G}$ と $\Phi^\mathcal{Q}$ はそれぞれ抽出された gallery set と query set を表す。具体的には、$M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ は、ステップ $t$ の更新モデルの gallery 特徴とステップ $k$ の query 特徴を用いた cross-model retrieval を評価する。対照的に、$M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ は same-model retrieval を意味し、gallery と query の両特徴がともにステップ $k$ の同一モデルに由来する。
+backward compatibility は、gallery set $\mathcal{G} = \{(\mathbf{x}_i, y_i)\}_{i=1}^{N_g}$ と query set $\mathcal{Q}=\{(\mathbf{x}_i, y_i)\}_{i=1}^{N_q}$ を含む retrieval タスクにおいて極めて重要である。これらはそれぞれ $N_g$ 枚および $N_q$ 枚の画像を含み、対応するクラスラベルを有する。base model は、画像から特徴ベクトルを抽出して gallery を索引付けし、retrieval タスクにおいて query set のベクトルと照合する。Def. 1 で提示された compatibility の定義では、データセット内の全データ点間のペアワイズ距離を計算する必要がある。この処理は、データセット規模が大きくなるにつれてますます計算負荷が高くなる。さらに、ステップ $t$ で更新されたモデルが、ステップ $k$ で学習された base model と backward-compatible であると見なされるのは、Empirical Compatibility Criterion [[#^ref-15|15]] が満たされる場合である: $$M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big) > 
+M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big), \quad \text{with } k < t$$ ここで $M$ は性能指標を表し、$\Phi^\mathcal{G}$ および $\Phi^\mathcal{Q}$ は、それぞれ抽出されたgalleryおよびqueryの特徴を表す。具体的には、$M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ は、ステップ $t$ の更新済みモデルからのgallery特徴とステップ $k$ のquery特徴を用いた異種モデル間 retrieval を評価する。これに対し、$M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ は同一モデル内 retrieval を指し、gallery と query の両特徴がともにステップ $k$ の同一モデルに由来する。
 
-#### Partial Backfilling.
+<table id="table:cub">
+<caption>ImageNet1Kで事前学習され下流タスクへ適応された2つのモデルに対する互換性結果：$\phi_{\text{old}}$（ResNet-18）および $\phi_{\text{new}}$（ViT-L-16）について、逆方向アダプタとして $\lambda=12$ の $B_\lambda$ を用いている。ZS列はImageNet1KにおけるCMC-Top1性能の増加を示し、括弧内の値は新たに独立に学習したモデルと比較した増分を示す。各Query/Galleryの組合せは、結果の比較を容易にするため異なる色で強調されている。</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th colspan="4" style="text-align: center;">Dataset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: center;"></td>
+<td colspan="2" style="text-align: center;"><strong>CUB</strong></td>
+<td colspan="2" style="text-align: center;"><strong>CIFAR100</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">44.82</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">51.13</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.78</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">74.08</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">51.10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">57.35</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">62.13</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">69.80</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">54.50</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">66.17</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">61.49</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">67.23</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>51.12</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>67.29</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>59.92</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>67.72</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>70.72</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>72.08</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>60.64</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>71.85</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"><table id="table:cub">
+<caption>ImageNet1Kで事前学習され下流タスクへ適応された2つのモデルに対する互換性結果：$\phi_{\text{old}}$（ResNet-18）および $\phi_{\text{new}}$（ViT-L-16）について、逆方向アダプタとして $\lambda=12$ の $B_\lambda$ を用いている。ZS列はImageNet1KにおけるCMC-Top1性能の増加を示し、括弧内の値は新たに独立に学習したモデルと比較した増分を示す。各Query/Galleryの組合せは、結果の比較を容易にするため異なる色で強調されている。</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>75.44</strong> (<strong>+3.66</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.025</strong></td>
+<td style="text-align: center;"><table id="table:cub">
+<caption>ImageNet1Kで事前学習され下流タスクへ適応された2つのモデルに対する互換性結果：$\phi_{\text{old}}$（ResNet-18）および $\phi_{\text{new}}$（ViT-L-16）について、逆方向アダプタとして $\lambda=12$ の $B_\lambda$ を用いている。ZS列はImageNet1KにおけるCMC-Top1性能の増加を示し、括弧内の値は新たに独立に学習したモデルと比較した増分を示す。各Query/Galleryの組合せは、結果の比較を容易にするため異なる色で強調されている。</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>78.23</strong> (<strong>+4.15</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.112</strong></td>
+</tr>
+</tbody>
+</table>
 
-gallery set $\Phi^\mathcal{G}$ の画像の順序 $\pi$、すなわち $\mathbf{x}_{\pi_1}, \mathbf{x}_{\pi_2}, \dots, \mathbf{x}_{\pi_n}$ と backfilling fraction $\beta \in [0,1]$ が与えられたとき、部分的に backfill された gallery set $\Phi^\mathcal{G}_{\pi, \beta}$ を以下のように定義する。順序の先頭から $N_{g,\beta} = \lfloor \beta N_g \rfloor$ 枚の画像は更新モデルで処理し、残りの画像は旧モデルで処理する。ここで $N_g$ は gallery の総画像数を表す。異なる backfilling 戦略を評価するために、[[#^ref-22|22]] で導入された backfilling metric $\widetilde{M}$ を用いる。これは次式で定義される: $\widetilde{M}(\Phi^\mathcal{G},\Phi^\mathcal{Q}, \pi) = \mathbb{E}_{\beta \sim [0,1]} M(\Phi^\mathcal{G}_{\pi, \beta},\Phi^\mathcal{Q}).$ この指標は、$M$ を用いて性能を評価したときの backfilling curve の下の面積に相当する。
+#### 部分的バックフィリング。
 
-## Evaluation Metrics and Datasets 
+ギャラリー集合 $\Phi^\mathcal{G}$ 内の画像の順序 $\pi$ を、$\mathbf{x}_{\pi_1}, \mathbf{x}_{\pi_2}, \dots, \mathbf{x}_{\pi_n}$ と表す。また、バックフィリング比率 $\beta \in [0,1]$ を与えると、部分的にバックフィルされたギャラリー集合 $\Phi^\mathcal{G}_{\pi, \beta}$ を以下のように定義する。順序の先頭 $N_{g,\beta} = \lfloor \beta N_g \rfloor$ 枚の画像は更新後のモデルで処理し、残りの画像は旧モデルで処理する。ここで $N_g$ はギャラリー内の画像総数を表す。異なるバックフィリング戦略を評価するために、[[#^ref-22|22]]で導入されたバックフィリング指標 $\widetilde{M}$ を用いる。これは $\widetilde{M}(\Phi^\mathcal{G},\Phi^\mathcal{Q}, \pi) = \mathbb{E}_{\beta \sim [0,1]} M(\Phi^\mathcal{G}_{\pi, \beta},\Phi^\mathcal{Q}).$ と定義される。これは、$M$ によって性能を評価した際のバックフィリング曲線の下の面積である。
 
-先行研究の model compatibility [[#^ref-15|15]][[#^ref-25|25]] に従い、我々は2つの指標を用いて性能を評価する。Cumulative Matching Characteristics (CMC) は、query 特徴と gallery 特徴の距離を計算することで top-$k$ retrieval accuracy を測定し、$k$ 個の最近傍 gallery 画像の少なくとも1枚が query のラベルと一致すれば retrieval 成功と見なす。mean Average Precision (mAP) は、全 recall 範囲 $[0,1]$ にわたる precision-recall curve の下の面積を測定する。
+## 評価指標とデータセット 
 
-我々の手法を検証するために、以下のデータセットを用いる: ImageNet1K [[#^ref-57|57]]、CIFAR100 [[#^ref-58|58]]、および CUB200 [[#^ref-59|59]]。各データセットの validation/test set を query と gallery の両方として使用し、探索における自明な一致を避けるため、各 query 画像は gallery から除外する。表中の 'Query/Gallery' という表記は、それぞれ embedding 抽出に用いたモデルを示す。CUB200 と CIFAR100 は downstream task として用いる。
+モデル互換性に関する先行研究 [[#^ref-15|15]][[#^ref-25|25]] に従い、本研究では2つの指標を用いて性能を評価する。Cumulative Matching Characteristics（CMC）は、クエリ特徴とギャラリー特徴の距離を計算することにより top-$k$ の検索精度を測定し、$k$ 個の最も近いギャラリー画像の少なくとも1枚がクエリのラベルを共有していれば検索成功と見なす。mean Average Precision（mAP）は、再現率全域 $[0,1]$ にわたる精度再現率曲線の下の面積を測定する。
 
-## Extending Classes Setting
+提案手法を検証するため、以下のデータセットを用いる：ImageNet1K [[#^ref-57|57]]、CIFAR100 [[#^ref-58|58]]、CUB200 [[#^ref-59|59]]。各データセットのvalidation/test set をクエリおよびギャラリーの両方として用い、検索時の自明な一致を避けるため、各クエリ画像はギャラリーから除外する。記法 'Query/Gallery' は、各表において埋め込みを抽出するために用いたモデルを、それぞれ示す。CUB200 と CIFAR100 は下流タスクとして用いる。
 
-この設定では、クラス数を拡張することで base model を更新する。ImageNet1K の最初の500クラスで $\phi_{\text{old}}$ を、全1000クラスで $\phi_{\text{new}}$ を、それぞれ ResNet-34 アーキテクチャと embedding 次元128を用いて、PyTorch の標準学習レシピ[^2]に従って独立に学習する。2つのモデルを独立に学習した後、モデル層を凍結したまま、adapter を Adam と学習率 $0.001$ で最適化する。我々の手法を、互換表現を実現するための mapping method である FCT [[#^ref-25|25]] および FastFill [[#^ref-22|22]] と比較する。Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) では、Sec. 4.2 の指標に従って各手法の性能を要約している。結果は、新しいモデル $\phi_{\text{new}}$ が古いモデル $\phi_{\text{old}}$ と直接には互換でないことを示している。さらに、2つの mapping method である FCT と FastFill は、gallery と query set の適応済み representation に対して両指標で性能を向上させる。しかし、これらの手法が達成するのは新たに学習されたモデルとの backward compatibility であり、元のモデルとの互換性ではない。これに対して、我々の手法は orthogonal transformation $B_{\perp}$ を通じて新モデルを旧モデルに整合させる。これにより、新旧の representation 間の互換性が確保されると同時に、forward adapter $F$ が提供する性能も向上する。Appendix 6 では、Places365 [[#^ref-60|60]] データセットに関する追加結果を示す。
+## クラス拡張設定
 
-## Independently Pretrained Models adapted on Downstream Task 
+この設定では、クラス数を拡張することによってベースモデルを更新する。PyTorchの標準的な学習レシピ[^2]に従い、埋め込み次元128の ResNet-34 アーキテクチャを用いて、ImageNet1K の最初の500クラスで $\phi_{\text{old}}$ を、全1000クラスで $\phi_{\text{new}}$ を独立に学習する。2つのモデルを独立に学習した後、モデル層を凍結したまま、学習率 $0.001$ の Adam を用いてアダプタを最適化する。互換表現を実現するための2つの写像手法である FCT [[#^ref-25|25]] および FastFill [[#^ref-22|22]] と、本手法を比較する。Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) では、Sec. 4.2 の指標に従って各手法の性能を要約する。結果は、新しいモデル $\phi_{\text{new}}$ が旧モデル $\phi_{\text{old}}$ と直接互換ではないことを示している。さらに、2つの写像手法 FCT と FastFill は、適応後のギャラリー集合およびクエリ集合の表現について、両指標にわたり性能を向上させる。しかし、これらの手法は新たに学習されたモデルとの後方互換性は達成するが、元のモデルとの互換性は達成しない。これに対し、本手法は直交変換 $B_{\perp}$ によって新モデルと旧モデルを整合させる。これにより、新旧表現間の互換性が保証されるとともに、前方向アダプタ $F$ が提供する性能も向上する。Appendix 6 では Places365 [[#^ref-60|60]] データセットに関する追加結果を示す。
 
-訓練コストの増大に伴い、特に局所データセットを用いた downstream task への適応において、pretrained model の利用が増加している。この文脈で、我々は PyTorch hub で利用可能な、ImageNet1K データセットで事前学習された2つのモデルを用いる。すなわち、embedding サイズ512の ResNet-18 と、embedding サイズ1024のより高度な Vision Transformer (ViT-L-16) [[#^ref-61|61]] である。ViT モデルは、その強化されたアーキテクチャのため、ResNet-18 に対する更新版と見なされる。Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) は、2つの pretrained model と同じデータセットを用いた adapter 学習結果を示しており、Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) と同様の傾向を示すとともに、我々の手法が他の baseline と同等の性能を示しつつ、更新モデルと旧モデルの互換性を実現することを示している。FastFill とは異なり、我々の手法は新モデルの classifier を必要とせず、抽出された embedding vector に直接依拠する。Appendix 7 では、我々の手法をさらに検証するため、pretrained model として用いられる異なるアーキテクチャに対して本手法を適用する。さらに Appendix 8 では、CLIP-like [[#^ref-62|62]] モデルや DINOv2 [[#^ref-63|63]] のような self-supervised architecture を用いて、distribution shift または objective shift を伴う更新シナリオを検討する。
+## 独立に事前学習されたモデルを下流タスクへ適応する場合 
 
-downstream task における互換性の結果は Tab. [\[table:cub\]](#table:cub) に報告する。そこでは、ローカルデータセット（CUB200 または CIFAR100）の表現に対して、学習データセットとは異なるデータ上で adapter を学習している。$\lambda$-Orthogonality regularization を伴う transformation $B_{\lambda}$ を用いることで、我々の手法は local task 性能と model compatibility を向上させ、baseline を上回る。追加の downstream データセット（Flower102 [[#^ref-64|64]] および Places365）の結果は Appendix 9 に示す。Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) および Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) から、厳密な orthogonal transformation である $B_{\perp}$ は、独立に学習されたモデル $\phi_{\text{new}}$ に対して性能向上をもたらさないことが分かる。これに対し、$B_{\perp}$ よりも高い plasticity を与える $B_{\lambda}$ は、新モデルが downstream task において性能を向上させることを可能にする。
+訓練コストの増大に伴い、事前学習済みモデルは、特にローカルデータセットへの下流タスク適応において、ますます利用されている。この文脈では、PyTorch hub で利用可能な、ImageNet1K データセットで事前学習された2つのモデルを用いる。すなわち、埋め込みサイズ512の ResNet-18 と、より高度な Vision Transformer（ViT-L-16）[[#^ref-61|61]] で埋め込みサイズは1024である。ViTモデルは、その強化されたアーキテクチャにより、ResNet-18 の更新版と見なされる。Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) は、2つの事前学習済みモデルと同じデータセットを用いたアダプタ学習結果を示しており、Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) と同様の傾向を示すとともに、本手法が他のベースラインと同等の性能を達成しつつ、更新モデルと旧モデルの間の互換性を実現することを示している。FastFill と異なり、本手法は新モデルの分類器を必要とせず、抽出された埋め込みベクトルに直接依拠する。Appendix 7 では、本手法のさらなる検証のため、事前学習モデルとして用いられる異なるアーキテクチャに対して本手法を適用する。さらに Appendix 8 では、CLIP-like [[#^ref-62|62]] モデルや DINOv2 [[#^ref-63|63]] のような自己教師ありアーキテクチャを用いて、分布シフトまたは目的関数シフトを含む更新シナリオを検討する。
 
-ハイパーパラメータ $\lambda$ に関する ablation study を Appendix 10 に示し、Eq. [\[eq:total_loss\]](#eq:total_loss) における損失項の構成要素ごとの ablation を Appendix 11 に詳述する。
+下流タスクにおける互換性の結果は Tab. 3 に示す。ここでは、アダプタを訓練データセットとは異なるローカルデータセット（CUB200 または CIFAR100）の表現上で学習している。$\lambda$-Orthogonality 正則化を伴う変換 $B_{\lambda}$ を用いることで、提案手法はローカルタスク性能とモデル互換性を向上させ、ベースラインを上回る。追加の下流データセット（Flower102 [[#^ref-64|64]] および Places365）に関する結果は Appendix 9 に報告する。Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) および Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) から、厳密な直交変換 $B_{\perp}$ は、独立に訓練されたモデル $\phi_{\text{new}}$ と比べて性能向上をもたらさないことが分かる。これに対し、$B_{\perp}$ に比べてより高い可塑性を与える $B_{\lambda}$ は、新しいモデルが下流タスクで性能を向上させることを可能にする。
+
+ハイパーパラメータ $\lambda$ に関するアブレーション研究は Appendix 10 に示し、Eq. [\[eq:total_loss\]](#eq:total_loss) における損失項の構成要素ごとのアブレーションは Appendix 11 に詳述する。
 
 <figure>
 <p>![](assets/fig10.png)</p>
@@ -140,17 +457,36 @@ downstream task における互換性の結果は Tab. [\[table:cub\]](#table:c
 
 []
 
-+---------------------------------+-----------------------+
-| Method                          | $\widetilde{M}$       |
-+:================================+:=========:+:=========:+
-| 2-3                             | CMC-Top1  | mAP       |
-+---------------------------------+-----------+-----------+
-| FCT [[#^ref-25|25]]     | 58.72     | 33.57     |
-+---------------------------------+-----------+-----------+
-| FastFill [[#^ref-22|22]] | 60.49     | 35.59     |
-+---------------------------------+-----------+-----------+
-| Ours                            | **61.20** | **36.46** |
-+---------------------------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">58.72</td>
+<td style="text-align: center;">33.57</td>
+</tr>
+<tr>
+<td style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">60.49</td>
+<td style="text-align: center;">35.59</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ours</td>
+<td style="text-align: center;"><strong>61.20</strong></td>
+<td style="text-align: center;"><strong>36.46</strong></td>
+</tr>
+</tbody>
+</table>
 
 <figure>
 <p>![](assets/fig12.png)</p>
@@ -162,53 +498,528 @@ downstream task における互換性の結果は Tab. [\[table:cub\]](#table:c
 
 []
 
-+---------------------------------+-----------------------+
-| Method                          | $\widetilde{M}$       |
-+:================================+:=========:+:=========:+
-| 2-3                             | CMC-Top1  | mAP       |
-+---------------------------------+-----------+-----------+
-| FCT [[#^ref-25|25]]     | 73.86     | 52.02     |
-+---------------------------------+-----------+-----------+
-| FastFill [[#^ref-22|22]] | 75.06     | 55.34     |
-+---------------------------------+-----------+-----------+
-| Ours                            | **76.59** | **57.72** |
-+---------------------------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">73.86</td>
+<td style="text-align: center;">52.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">75.06</td>
+<td style="text-align: center;">55.34</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ours</td>
+<td style="text-align: center;"><strong>76.59</strong></td>
+<td style="text-align: center;"><strong>57.72</strong></td>
+</tr>
+</tbody>
+</table>
 
 []
 
 ## Backfilling Results
 
-本節では、Sec. 3.6 で議論した新規の backfill 戦略を評価する。ここでは、Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) および Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) に詳述した実験設定を考慮する。FCT には特定の backfilling 戦略が存在しないため、[[#^ref-22|22]] と同様にランダム順序を用いる。Fig. [\[fig:backfill\]](#fig:backfill)、Tab. [\[tab:b_ext\]](#tab:b_ext)、および Tab. [\[tab:b_arch\]](#tab:b_arch) に示す結果は、我々の backfilling 戦略が他の baseline を一定の差で上回ることを示している。特に、Fig. [\[fig:backfill\]](#fig:backfill) は、gallery の50%未満を backfill した段階で、新たに独立に学習されたモデルと同等の性能を達成できることを示している。Appendix 12 では、主実験で用いた Mean Squared Error とは異なる距離指標を用いた ablation study を提示する。
+本節では、Sec. 3.6 で議論した新規の backfill 戦略を評価する。実験設定は Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) および Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) に詳述したものを用いる。FCT には特定の backfilling 戦略が存在しないため、[[#^ref-22|22]] と同様にランダムな順序付けを用いる。Fig. [\[fig:backfill\]](#fig:backfill)、Tab. [\[tab:b_ext\]](#tab:b_ext)、および Tab. [\[tab:b_arch\]](#tab:b_arch) に示す結果は、提案する backfilling 戦略が他のベースラインを一定の差で上回ることを示している。特に、Fig. [\[fig:backfill\]](#fig:backfill) は、ギャラリーの 50% 未満を backfill した時点で、新たに独立に学習したモデルと同等の性能を達成できることを示している。Appendix 12 では、主実験で用いた Mean Squared Error に代わる距離尺度を用いたアブレーション研究を提示する。
 
-# Conclusion
+# Conclusion 
 
-モデル互換性は、多くの大規模検索システムにおける重要な課題であり、これが達成されない場合にはシステム更新を妨げうる。本論文では、独立に学習された表現を統一空間に整列させる写像変換を導入し、さらに教師ありコントラスト損失によってより良い特徴クラスタリングを実現する。また、新たに学習された独立モデルの完全性を損なうことなく、下流タスクへの適応を支援するために、直交制約の緩和も提案する。加えて、ギャラリー集合の効率的な部分バックフィルを可能にする新規のバックフィル順序戦略を提案し、ギャラリーの半分未満をバックフィルするだけで、新たに独立学習したモデルと同等の性能を達成する。本手法は、モデルが学習された同一分布および異なる分布の双方において、既存手法を上回る優れた性能を示す。これらの結果を文脈づけるため、手法の限界については Appendix 14 で詳細に検討する。さらに、その実用的有用性を評価するため、方法論的複雑性とより広範な適用可能性を Appendix 13 で分析する。
+モデル互換性は、多くの大規模検索システムにおける重要な課題であり、達成されない場合にはシステム更新を妨げうる。本論文では、独立に学習された表現を統一空間に整列させる写像変換を導入し、さらに supervised contrastive loss により、より強い特徴クラスタリングも実現する。また、新たに訓練された独立モデルの完全性を損なうことなく下流タスクへの適応を助けるため、直交制約の緩和を提案する。加えて、ギャラリー集合の効率的な部分 backfilling を可能にし、ギャラリーの半分未満を backfill するだけで新たに独立に学習したモデルと同等の性能を達成する、新規の backfill 順序付け戦略を提案する。提案手法は、モデルが学習された同一分布および異分布の双方において、従来手法を上回る優れた性能を示す。これらの結果を文脈化するため、手法の限界は Appendix 14 で詳細に検討する。さらに、その実用的有用性を評価するため、方法論的複雑性とより広範な適用可能性を Appendix 13 で分析する。
 
-# 謝辞
+# Acknowledgments 
 
-本論文は、プロジェクト \"Collaborative Explainable neuro-symbolic AI for Decision Support Assistant\"、CAI4DSA、CUP B13C23005640006 により一部助成を受けた。
+本論文は、プロジェクト "Collaborative Explainable neuro-symbolic AI for Decision Support Assistant"、CAI4DSA、CUP B13C23005640006 の支援を一部受けた。
 
-# Places365 におけるクラス拡張設定
+# Extending Classes Setting on Places365 
 
-本手法をさらに検証するため、ImageNet1K とは異なるデータセットで学習されたモデルを用いて評価を行う。具体的には、Places205 で事前学習された ResNet-50（[ViSSL](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md#supervised)）を旧モデルとし、Places365 で事前学習された ResNet-50（[CSAILVision](https://github.com/CSAILVision/places365#pre-trained-cnn-models-on-places365-standard)）を新モデルとする。Tab. [\[tab:app_places\]](#tab:app_places) は、Sec.4.2 で定義した評価指標を用いた各手法の性能を要約している。結果は、新モデル $\phi_{\text{new}}$ が旧モデル $\phi_{\text{old}}$ と本質的に互換ではないことを示している。さらに、FCT により提供される適応 $F(\phi_{\text{old}})$ は、新モデル単独と比較しても性能が劣る。これに対し、FastFill や本提案手法のように、より良いクラスタリングを促進する手法は、単独の新モデルを上回る性能を達成する。この改善は、旧モデルと新モデルの双方からの情報を活用し、順方向アダプタの学習中に知識蒸留の一形態を効果的に実装することに起因する。ベースラインとは異なり、本手法は適応後のすべての表現を統一された表現空間に整列させ、それにより旧モデルとの互換性を一貫して維持する。
+提案手法をさらに検証するため、ImageNet1K とは異なるデータセットで学習されたモデルを用いて評価を行う。具体的には、Places205 で事前学習された ResNet-50（[ViSSL](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md#supervised)）を old model とし、Places365 で事前学習された ResNet-50（[CSAILVision](https://github.com/CSAILVision/places365#pre-trained-cnn-models-on-places365-standard)）を new model とする。Tab. 4 は、Sec.4.2 で定義した評価指標を用いた各手法の性能を要約している。結果は、新しいモデル $\phi_{\text{new}}$ が本質的に old model $\phi_{\text{old}}$ と互換ではないことを示している。さらに、FCT によって与えられる適応 $F(\phi_{\text{old}})$ は、新しいモデル単体と比較して性能が劣る。これに対し、FastFill や提案手法のように、より良いクラスタリングを促進する手法は、単体の新しいモデルをさらに上回る性能を達成する。この改善は、old model と new model の双方からの情報を活用し、forward adapter の学習中に知識蒸留の一形態を実質的に実現していることに起因する。ベースラインとは異なり、提案手法はすべての適応済み表現を統一された表現空間に整列させ、それにより old model との互換性を一貫して維持する。
 
-# 独立事前学習モデル設定における追加アーキテクチャ
+<table id="tab:app_places">
+<caption>Compatibility evaluation on Places365 under the Extending Classes setting. We use two independently trained ResNet-50 models: $\phi_{\text{old}}$ trained on the first 205 classes, and $\phi_{\text{new}}$ trained on all classes of Places365.</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">33.86</td>
+<td style="text-align: center;">15.76</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">37.37</td>
+<td style="text-align: center;">19.11</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">36.43</td>
+<td style="text-align: center;">19.02</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">37.04</td>
+<td style="text-align: center;">18.99</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">39.71</td>
+<td style="text-align: center;">23.98</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">38.42</td>
+<td style="text-align: center;">19.94</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>38.65</strong></td>
+<td style="text-align: center;"><strong>21.88</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>39.96</strong></td>
+<td style="text-align: center;"><strong>26.19</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>38.50</strong></td>
+<td style="text-align: center;"><strong>21.77</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>35.47</strong></td>
+<td style="text-align: center;"><strong>17.98</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">37.37</td>
+<td style="text-align: center;">19.11</td>
+</tr>
+</tbody>
+</table>
 
-旧モデル $\phi_{\text{old}}$ として DenseNet-121 を、新モデル $\phi_{\text{new}}$ として EfficientNet-B3 を用いた追加実験を行う。いずれも ImageNet1K で事前学習されており、PyTorch Hub から取得したものである。これらの ImageNet1K データセット上での実験結果を Tab. [\[tab:abl_arch\]](#tab:abl_arch) に示す。本手法はすべての指標において最良の性能を達成し、クロスモデル検索および同一モデル検索の双方においてベースラインを上回る。
+# Additional Architecture for Independently Pretrained Models Setting 
 
-# DINOv2 と CLIP を独立事前学習モデルとして用いた追加実験
+追加実験として、old model $\phi_{\text{old}}$ に DenseNet-121 を、new model $\phi_{\text{new}}$ に EfficientNet-B3 を用いる。両者はいずれも ImageNet1K で事前学習され、PyTorch Hub から取得した。これらの実験結果を ImageNet1K データセット上で Tab. 5 に示す。提案手法は全指標において最良性能を達成し、cross-model および same-model の双方の検索シナリオでベースラインを上回る。
 
-データ分布または目的のシフトを伴う更新シナリオを調査するため、旧モデルとして ImageNet1K で事前学習された ResNet-18 を用い、新モデルとしては CC12M [[#^ref-65|65]] データセットで事前学習された CLIP  [[#^ref-62|62]] と DINOv2  [[#^ref-63|63]] ($vit\_small\_patch14\_dinov2$) の双方を用いて追加実験を行う。順方向変換と逆方向変換の両方を学習するために、ImageNet1K データセットと Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) と同一のハイパーパラメータを用いる。この設定は、新モデルに対してデータ分布とモデル目的の両面で大きな変化を表している。特筆すべき点として、CLIP と DINOv2 のいずれも分類器を持たないため、この文脈では FastFill を適用できない。Tab. [\[table:dino\]](#table:dino) では、新たに独立学習されたモデルとして DINOv2 を用いた結果を報告する。本手法は FCT より良い結果を達成し、実世界の問題への実用的適用可能性をさらに裏づける。
+<table id="tab:abl_arch">
+<caption>Independently pretrained models設定におけるImageNet1K上の互換性結果である。旧モデル$\phi_{\text{old}}$としてDenseNet-121を、新モデル$\phi_{\text{new}}$としてEfficientNet-B3を用いた。両者ともImageNet1Kで事前学習され、PyTorch Hubから取得した。</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">62.02</td>
+<td style="text-align: center;">32.95</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.60</td>
+<td style="text-align: center;">54.90</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">68.16</td>
+<td style="text-align: center;">53.22</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">70.64</td>
+<td style="text-align: center;">54.63</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">67.76</td>
+<td style="text-align: center;">57.22</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">69.47</td>
+<td style="text-align: center;">57.43</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>69.25</strong></td>
+<td style="text-align: center;"><strong>50.20</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>69.29</strong></td>
+<td style="text-align: center;"><strong>57.36</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>71.33</strong></td>
+<td style="text-align: center;"><strong>57.50</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>67.23</strong></td>
+<td style="text-align: center;"><strong>44.34</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">71.60</td>
+<td style="text-align: center;">54.90</td>
+</tr>
+</tbody>
+</table>
 
-一方、Tab. [\[table:clip\]](#table:clip) では、CC12M で事前学習された CLIP を新たに独立学習されたモデルとして用いた結果を報告する。このシナリオでは、事前学習済み CLIP モデルは ImageNet1K 上で ResNet-18 と比べて低い検索性能を示す。これはマルチモーダル学習におけるよく知られた制約であり、モダリティ内の不整合が単一モダリティ表現の品質に悪影響を及ぼしうる [[#^ref-66|66]]。具体的には、CLIP モデルは単一モダリティ検索タスクではなく、クロスモーダル検索に最適化されているのに対し、DINOv2 や ResNet-18 は単一モダリティのみに基づいて学習されている。このように新モデルの性能が旧モデルを下回ると、FCT は旧モデルの高品質な表現を新モデルの低性能な表現へ変換しようとするため、互換性を達成できず、システム全体の検索能力を低下させる。これに対し、本手法は追加損失を導入し、特定の学習データセット上でクラス内クラスタリングとモデル間整列の双方を促進する。その結果、より高い柔軟性を持つ順方向変換は、旧モデルの表現性能を改善する。この困難なシナリオにおいても、本手法は FCT を上回り、手法の頑健性をさらに検証する。
+# DINOv2およびCLIPを独立事前学習モデルとして用いた追加実験
+
+データ分布または目的関数の変化を伴う更新シナリオを調査するため，追加実験として，ImageNet1Kで事前学習されたResNet-18を旧モデルとし，CC12M [[#^ref-65|65]]データセットで事前学習されたCLIP [[#^ref-62|62]]およびDINOv2 [[#^ref-63|63]]（$vit\_small\_patch14\_dinov2$）を新モデルとして用いた。forward変換およびbackward変換の両方を訓練するために，ImageNet1Kデータセットと表[\[table:imagenet_arch\]](#table:imagenet_arch)と同じハイパーパラメータを用いた。この設定は，新モデルに対して，データ分布とモデル目的の両方において大きな変化を表している。なお，CLIPとDINOv2はいずれも分類器を持たないため，FastFillはこの文脈では適用できない。表[\[table:dino\]](#table:dino)では，新たな独立訓練モデルとしてDINOv2を用いた結果を報告する。我々の手法はFCTよりも良好な結果を達成しており，実世界の問題への実用的適用可能性をさらに裏付けている。
+
+一方，表[\[table:clip\]](#table:clip)では，CC12Mで事前学習されたCLIPを新たな独立訓練モデルとして用いた結果を報告する。このシナリオでは，事前学習済みCLIPモデルはResNet-18と比較して，ImageNet1K上でより低い検索性能を示す。これはマルチモーダル学習におけるよく知られた制約であり，モダリティ内の不整合が単一モダリティ表現の品質に悪影響を及ぼし得る[[#^ref-66|66]]。具体的には，DINOv2やResNet-18が単一モダリティのみに対して学習されているのに対し，CLIPモデルは単一モダリティ検索タスクではなく，クロスモーダル検索に最適化されている。このように新モデルの性能が旧モデルより低下すると，FCTは，旧モデルの高品質な表現を新モデルの低性能な表現へ変換しようとするため，システム全体の検索能力を低下させ，互換性の達成に失敗する。対照的に，我々の手法は，特定の訓練データセット上でクラス内クラスタリングとモデル間の特徴表現整合の両方を促進する追加損失を導入する。その結果，より高い柔軟性を持つforward変換は，旧モデルの表現性能を改善する。この困難なシナリオにおいても，我々の手法はFCTを上回り，手法の頑健性をさらに検証している。
 
 0.48
 
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.92</td>
+<td style="text-align: center;">44.07</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">59.33</td>
+<td style="text-align: center;">37.53</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">67.97</td>
+<td style="text-align: center;">41.07</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>54.82</strong></td>
+<td style="text-align: center;"><strong>32.14</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>61.30</strong></td>
+<td style="text-align: center;"><strong>41.95</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>68.74</strong></td>
+<td style="text-align: center;"><strong>43.78</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>58.73</strong></td>
+<td style="text-align: center;"><strong>31.50</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">71.92</td>
+<td style="text-align: center;">44.07</td>
+</tr>
+</tbody>
+</table>
+
 0.48
 
-# 下流タスク設定に適応した独立事前学習モデルのための追加データセット
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">44.29</td>
+<td style="text-align: center;">16.15</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">42.58</td>
+<td style="text-align: center;">16.93</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">42.96</td>
+<td style="text-align: center;">16.88</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>61.13</strong></td>
+<td style="text-align: center;"><strong>41.22</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>57.69</strong></td>
+<td style="text-align: center;"><strong>41.08</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>44.93</strong></td>
+<td style="text-align: center;"><strong>29.26</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>30.02</strong></td>
+<td style="text-align: center;"><strong>16.68</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">44.29</td>
+<td style="text-align: center;">16.15</td>
+</tr>
+</tbody>
+</table>
 
-我々は、さらに二つの追加データセット、すなわちより大規模な Places365 と、きめ細かな Flowers102 を加えることで、Independently Pretrained Models Adapted on Downstream Task 設定に関する分析を拡張する。これにより、より困難なシナリオにおける本手法の有効性を評価できる。結果は Tab. [\[table:places-flowers\]](#table:places-flowers) に報告する。これらの実験では、旧モデルは ResNet-18、新モデルは ViT-L-16 であり、いずれも ImageNet-1K で事前学習されている。$\lambda = 12$ のアフィンアダプタを用いる。追加の両データセットにおいて、本手法は一貫してベースライン手法を上回る。提案する $\lambda$-Orthogonality 正則化は、下流タスクにおける検索性能を改善するだけでなく、適応後の新モデル表現 $B_{\lambda}(\phi_{\text{new}})$ が元の形を維持するよう促進する。その結果、ImageNet1K 上での検索性能が保持される。
+# Downstream Task settingに適用された独立事前学習モデルのための追加データセット
+
+我々は、Independently Pretrained Models Adapted on Downstream Task 設定に関する分析をさらに拡張し、より大規模な Places365 と、より細粒度な Flowers102 という2つの追加データセットを含めた。これらの追加により、より困難なシナリオにおける本手法の有効性を評価できる。結果は Tab. 8 に示す。これらの実験では、旧モデルは ResNet-18、新モデルは ViT-L-16 であり、いずれも ImageNet-1K で事前学習されている。我々は $\lambda = 12$ の affine adapter を用いる。追加の両データセットにおいて、提案手法は一貫してベースライン手法を上回る。提案する $\lambda$-Orthogonality 正則化は、下流タスクにおける retrieval 性能を向上させるだけでなく、適応後の新モデル表現 $B_{\lambda}(\phi_{\text{new}})$ が元の形を維持するようにも促す。その結果、ImageNet1K における retrieval 性能が保持される。
+
+<table id="table:places-flowers">
+<caption>ImageNet1K で事前学習され下流タスクに適応された2つのモデル、すなわち $\phi_{\text{old}}$ である ResNet-18 と $\phi_{\text{new}}$ である ViT-L-16 について、$\lambda=12$ の backward adapter $B_\lambda$ を用いた際の Places365 および Flowers102 における互換性結果。ZS 列は ImageNet1K における CMC-Top1 の性能増加を示し、括弧内の値は新たに独立学習したモデルと比較した増分を示す。</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th colspan="2" style="text-align: center;"><strong>Places365</strong></th>
+<th colspan="2" style="text-align: center;"><strong>Flowers102</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">22.41</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">84.35</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">35.15</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">99.39</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT <span class="citation" data-cites="ramanujan2022forward"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">28.17</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">86.71</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">32.12</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">99.07</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill <span class="citation" data-cites="jaeckle2023fastfill"></span></td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">26.38</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">53.78</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">33.04</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">11.12</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>28.84</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>83.36</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>29.80</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>89.90</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>33.27</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>99.41</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>29.94</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>98.17</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"><table id="table:places-flowers">
+<caption>ImageNet1K で事前学習され下流タスクに適応された2つのモデル、すなわち $\phi_{\text{old}}$ である ResNet-18 と $\phi_{\text{new}}$ である ViT-L-16 について、$\lambda=12$ の backward adapter $B_\lambda$ を用いた際の Places365 および Flowers102 における互換性結果。ZS 列は ImageNet1K における CMC-Top1 の性能増加を示し、括弧内の値は新たに独立学習したモデルと比較した増分を示す。</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>36.38</strong> (<strong>+1.23</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.38</strong></td>
+<td style="text-align: center;"><table id="table:places-flowers">
+<caption>ImageNet1K で事前学習され下流タスクに適応された2つのモデル、すなわち $\phi_{\text{old}}$ である ResNet-18 と $\phi_{\text{new}}$ である ViT-L-16 について、$\lambda=12$ の backward adapter $B_\lambda$ を用いた際の Places365 および Flowers102 における互換性結果。ZS 列は ImageNet1K における CMC-Top1 の性能増加を示し、括弧内の値は新たに独立学習したモデルと比較した増分を示す。</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>99.54</strong> (<strong>+0.15</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.01</strong></td>
+</tr>
+</tbody>
+</table>
 
 # ハイパーパラメータ $\boldsymbol{\lambda}$ に関するアブレーション
 
@@ -216,25 +1027,256 @@ r0.5
 
 ![](assets/fig14.png)
 
-本実験では、下流タスクへの適応性を最大化しつつ、事前学習済みモデルの元の学習データセットである ImageNet1K 上での性能を保持するように $\lambda$ を選択する。提案手法の影響を示すため、Tab. [\[table:lambda_ablation\]](#table:lambda_ablation) では、新しい事前学習済みモデルに対して提案する $\lambda$-orthogonal regularizer を適用した際の CMC-Top1 スコアを報告する。Fig. [\[fig:lambda ablation\]](#fig:lambda ablation) にも示されるように、$\lambda$ を増加させると、下流タスクにおける新モデル表現の性能が向上する。
+我々の実験では、事前学習済みモデルの元の学習データセットである ImageNet1K における性能を保持しつつ、下流タスクへの適応性を最大化するように $\lambda$ を選択する。本手法の影響を示すため、Tab. 9 では、新たに事前学習したモデルに対して我々が提案する $\lambda$-orthogonal regularizer を適用して得られた CMC-Top1 スコアを報告する。結果は Fig. [\[fig:lambda ablation\]](#fig:lambda ablation) にも示されており、$\lambda$ を増加させることで新モデル表現の下流タスク性能が向上することを示している。
 
-しかし、この改善は元のデータセット上での性能低下を伴い、特に正則化がない場合（$\lambda = \infty$）にはゼロショット（ZS）スコアの低下として顕著に現れる。経験的には、$\lambda = 12$ が全指標にわたって最良のトレードオフを与えることが分かる。[[#^ref-36|36]] はソフト直交制約を最適化しており、これは $\lambda = 0$ の場合に相当する。しかし、この定式化では性能向上は得られず、厳密な直交変換を用いた場合に劣る。Sec. 3.3 で議論したように、厳密な直交性の課すことは、モデルがタスク固有情報を取り込む能力を妨げうる。これに対し、本手法は、Gram 行列の単位行列からの逸脱を制御する調整可能なハイパーパラメータ $\lambda$ を導入することでこの制約を緩和し、表現の一貫性を保ちながらより高い柔軟性を可能にする。
+しかし、この改善は元データセットにおける性能低下を伴い、特に正則化がない場合（$\lambda = \infty$）には zero-shot（ZS）スコアの低下として顕著である。経験的には、$\lambda = 12$ に設定することが全指標にわたって最良のトレードオフを与えることが分かった。[[#^ref-36|36]] は、$\lambda = 0$ の場合に等しい soft orthogonality constraint を最適化している。しかし、この定式化は性能向上につながらず、厳密に orthogonal な変換の利用に劣る。Sec. 3.3 で議論したように、厳密な orthogonality を課すことは、モデルがタスク固有の情報を取り込む能力を妨げる可能性がある。これに対して我々の手法は、Gram 行列の単位行列からのずれを制御する調整可能なハイパーパラメータ $\lambda$ を導入することでこの制約を緩和し、表現の一貫性を保ちながら、より大きな柔軟性を許容する。
 
-本手法をさらに検証するため、$\lambda$-orthogonal regularization の損失寄与に対するスカラー重み $w$ の効果を、二つの異なる直交正則化、すなわち Soft Orthogonality (SO)[[#^ref-36|36]]――本手法における $\lambda =0$ の特別場合に対応する――および Spectral Restricted Isometry Property (SRIP)[[#^ref-36|36]] と比較して調べる。正則化項のスカラー重みとして、$w = 1$, $w = 10^{-1}$, $w = 10^{-2}$, $w = 10^{-3}$ を試す。さらに、厳密直交性からの逸脱を示すため、学習終了時点で逆方向変換 $B_{\lambda}$ が到達した $\lVert W^{\top} W-I \rVert_F$ の厳密な値を報告する列も設ける。
+| $\lambda$ | $F(\phi_{\text{old}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$ |  | ZS |
+|:---|:--:|:--:|:--:|:--:|
+| $\perp$ (strict orth.) | 57.52 | 66.89 | 71.78 (+0.000) | +0.000 |
+| 0 | 57.49 | 66.79 | 71.54 (--0.241) | --0.001 |
+| 3 | 57.52 | 66.72 | 72.00 (+0.224) | +0.008 |
+| 6 | 58.09 | 68.77 | 73.07 (+1.294) | +0.028 |
+| **12** | [59.92]{.underline} | **70.72** | 75.44 (+3.659) | [+0.028]{.underline} |
+| 16 | 59.68 | [70.21]{.underline} | 76.40 (+4.625) | **+0.062** |
+| 22 | **60.20** | 69.50 | 77.89 (+6.109) | --0.318 |
+| 36 | 59.32 | 63.34 | [78.77]{.underline} (+6.990) | --3.008 |
+| $\infty$ (no reg.) | 59.26 | 62.84 | **78.89** (+7.110) | --3.526 |
+**CUB データセットにおける orthogonal regularization 強度 $\lambda$ のアブレーション。対象タスク上の互換性指標と、ImageNet1K における zero-shot（ZS）CMC-Top1 の増分を示す。括弧内は、CUB データセットにおける独立学習済み新モデルに対する CMC-Top1 の増分を示す。**
 
-Tab. [\[table:method_comparison\]](#table:method_comparison) に示すように、SRIP と SO の双方において、$\lVert W^{\top}W - I \rVert_F$ の最終値は最適化過程と選択したスカラー重み $w$ に支配される。本手法の $\lambda$-orthogonal regularization とは異なり、これらの手法は $\lVert W^{\top}W - I \rVert_F$ を直接制御できない。総損失に対する正則化項の寄与が小さいほど、逆方向変換 $B_{\lambda}$ に対する正則化効果は弱まる。正則化項のスカラー重み $w$ を減少させると、特に MSE やコントラスト損失 $L_C$ のような競合する損失成分が非直交変換を支持しうるため、最適化過程は正則化項を十分に最小化できなくなる。例えば、$w = 10^{-3}$ および $w = 10^{-2}$ の場合、SO、SRIP、および本手法の $\lambda$-orthogonal regularization による結果は、直交性制約が完全に無視される $\lambda = \infty$ の場合（Tab. [\[table:lambda_ablation\]](#table:lambda_ablation) を参照）と同程度である。これは、そのように小さい $w$ では、最適化中に正則化項の寄与が無視できるほど小さくなるためである。この問題を避けるため、本手法では $\lambda$-orthogonal regularization に対して $w = 1$ を設定し、逆方向変換の学習中に正則化項が最適化過程に効果的に組み込まれるようにしている。これにより、正則化項は目標閾値 $\lambda$ に到達し、逆方向変換における安定性--可塑性トレードオフを精密に制御できるようになり、下流タスクにおける表現互換性が向上する。Tab. [\[table:method_comparison\]](#table:method_comparison) の太字エントリが示すように、本手法は $w = 1$ および $w = 10^{-1}$ において、SO や SRIP とは対照的に安定した結果を生成する（わずかな変動は確率的最適化に起因する）。逆に、$w$ が非常に低い場合（$10^{-2}$ または $10^{-3}$）、正則化項は十分に最適化されず、本手法は SO 正則化と同様に振る舞う。これは、本手法で導入した制約（$\lVert W^{\top}W - I \rVert_F\geq\lambda$）が目的関数の最小値に影響を与えるが、実際にはその最小値に到達しないためである。対照的に、その近似的定式化と SO に比べてより高い複雑性のため、SRIP は $w$ が低いときにさらに弱い正則化効果しか示さない。
+本手法をさらに検証するため、$\lambda$-orthogonal regularization の損失寄与に対するスカラー重み $w$ の効果についても、2つの異なる orthogonal regularization、すなわち Soft Orthogonality（SO）[[#^ref-36|36]]——これは本手法における $\lambda = 0$ の特殊ケースに対応する——および Spectral Restricted Isometry Property（SRIP）[[#^ref-36|36]] と比較して調べる。正則化は、スカラー重みとして $w = 1$, $w = 10^{-1}$, $w = 10^{-2}$, $w = 10^{-3}$ の各値で検証する。さらに、厳密な orthogonality からのずれを示すため、学習終了時に backward transformation $B_{\lambda}$ によって達成された $\lVert W^{\top} W-I \rVert_F$ の正確な値を報告する列も追加する。
 
-# 損失項寄与の詳細分析
+| $w$ | Method | $F(\phi_{\text{old}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ | ZS | $\lVert W^{\top}W - I\rVert_F$ |
+|:--:|:---|:--:|:--:|:--:|:--:|:--:|
+| 1 | SO | 57.48 | 66.79 | 71.54 (--0.241) | --0.001 | 0.09 |
+| 1 | SRIP | 57.38 | 66.57 | 71.66 (--0.120) | --0.001 | 0.08 |
+| 1 | **Ours ($\lambda=12$)** | **59.92** | **70.72** | **75.44 (+3.659)** | **+0.028** | **12.05** |
+| $10^{-1}$ | SO | 59.11 | 69.56 | 74.88 (+3.106) | +0.022 | 9.50 |
+| $10^{-1}$ | SRIP | 58.88 | 63.58 | 78.77 (+6.990) | --1.467 | 29.55 |
+| $10^{-1}$ | **Ours ($\lambda=12$)** | **59.93** | **70.70** | **75.20 (+3.419)** | **+0.076** | **12.12** |
+| $10^{-2}$ | SO | 59.06 | 63.54 | 79.06 (+7.283) | --1.344 | 29.27 |
+| $10^{-2}$ | SRIP | 59.23 | 63.42 | 78.73 (+6.955) | --3.077 | 35.42 |
+| $10^{-2}$ | **Ours ($\lambda=12$)** | 59.06 | 63.54 | 79.06 (+7.283) | --1.344 | 29.27 |
+| $10^{-3}$ | SO | 58.71 | 62.91 | 78.78 (+7.007) | --3.162 | 35.54 |
+| $10^{-3}$ | SRIP | 58.83 | 63.18 | 78.92 (+7.145) | --3.457 | 38.63 |
+| $10^{-3}$ | **Ours ($\lambda=12$)** | 58.71 | 62.91 | 78.78 (+7.007) | --3.162 | 35.54 |
+**重みスケール $w$ が異なる直交正則化手法の比較である。下流タスク CUB200 における適合性指標と、ImageNet1K 上でのゼロショット（ZS）CMC-Top1 の向上を示す。括弧内は、独立に学習した新しいモデルに対する CMC-Top1 の増分を表す。最終列は $\lVert W^{\top}W - I\rVert_F$ の最終値を報告する。**
 
-本節では、学習時に最適化される最終損失（Eq. [\[eq:total_loss\]](#eq:total_loss)）に対して、各項の寄与を解析する。Tab. [\[tab:loss_combo_cmc_tick\]](#tab:loss_combo_cmc_tick) は、特徴が抽出されたモデルの学習に用いたデータセット、すなわち ImageNet1K と適応データセットが一致する場合の結果を示している。このシナリオでは、後方互換性のために厳密な直交変換 $B_{\perp}$ を用いる。単独で用いた場合、$\mathcal{L}_{F}$ は新しいモデルの表現との互換性は保証するものの、後方互換性の達成には著しく失敗することが観察される。この挙動は、$\mathcal{L}_{F}$ に固有の顕著な前方バイアスを示している。後方整列損失 $\mathcal{L}_{B}$ のみでは後方互換性を促進する一方で、前方適応済み表現の性能を低下させる。対照損失 $\mathcal{L}_{C}$ のみでは、モデル間整列およびクラス内クラスタリングが大幅に改善され、後方互換性と前方互換性の双方を支える。$\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ の組み合わせは、互換性の各シナリオにおいて総合的に最も高い性能を達成しており、前方変換学習と後方変換学習のバランスを維持するうえで各損失成分が重要であることを強調している。
+Tab. 10 に示すように、SRIP および SO のいずれにおいても、$\lVert W^{\top}W - I \rVert_F$ の最終値は最適化過程と選択されたスカラー重み $w$ によって左右される。我々の $\lambda$-orthogonal regularization とは異なり、これらの手法は $\lVert W^{\top}W - I \rVert_F$ を直接制御できない。すなわち、正則化項が総損失に占める寄与が小さくなると、逆変換 $B_{\lambda}$ に対する正則化効果も弱まる。正則化項のスカラー重み $w$ を小さくすると、特に MSE や contrastive loss $L_C$ のような競合する損失項が非直交変換を支持し得るため、最適化過程は正則化項を十分に最小化できなくなる。例えば、$w = 10^{-3}$ および $w = 10^{-2}$ のとき、SO、SRIP、そして我々の $\lambda$-orthogonal regularization による結果は、直交性制約が完全に無視される $\lambda = \infty$ の場合（Tab. 9 を参照）で観測される結果と同程度である。これは、$w$ が非常に小さい場合、最適化中における正則化項の寄与が無視できるほど小さくなるためである。こうした問題を回避するため、本手法では $\lambda$-orthogonal regularization に対して $w = 1$ と設定し、逆変換の学習中に正則化項が最適化過程へ実質的に組み込まれるようにしている。これにより、正則化項は目標しきい値 $\lambda$ を達成でき、逆変換における stability--plasticity のトレードオフを精密に制御し、下流タスクにおける表現適合性を向上させる。Tab. 10 の太字で示したように、本手法は SO および SRIP と比べて、$w = 1$ および $w = 10^{-1}$ において安定した結果を示す（小さな変動は確率的最適化に起因する）。一方、$w$ が非常に低い場合（$10^{-2}$ または $10^{-3}$）、正則化項を十分に最適化できず、本手法は SO 正則化と同様に振る舞う。これは、我々が導入した制約（$\lVert W^{\top}W - I\rVert_F\geq\lambda$）が目的関数の最小値に影響を与えるものの、実際にはその最小値が到達されないためである。対照的に、近似的な定式化であり、SO と比べて複雑性も高い SRIP は、$w$ が低いときにさらに弱い正則化効果しか示さない。
 
-Tab. [\[tab:loss_combo_cmc_tick_2\]](#tab:loss_combo_cmc_tick_2) は、下流タスク設定（CUB dataset）におけるこれら損失項の影響を示している。このとき、$\phi_{old}$ は ResNet-18、$\phi_{new}$ は ViT-L-16 であり、$\lambda = 12$ の $\lambda$-Orthogonality を用いている。Tab. [\[tab:loss_combo_cmc_tick\]](#tab:loss_combo_cmc_tick) と同様に、後方損失 $\mathcal{L}_{B}$ を除外しても前方互換性は良好に保たれるが、後方互換性の性能は著しく低下する。対照損失 $\mathcal{L}_{C}$ を除外すると、下流タスクへの適応が大きく低下し、$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ の値が低下する。すべての損失項 $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ を用いると、前方・後方互換性の双方において一貫して最良またはそれに近い結果が得られ、これらの項が相補的であることが示される。
+# 損失項の寄与に関する詳細分析 
 
-これらの分析は、各損失項が、さまざまなタスクにわたる包括的なモデル互換性の達成に向けて、それぞれ独自かつ重要な寄与を持つことを示している。
+本節では、学習中に最適化される最終損失（Eq. [\[eq:total_loss\]](#eq:total_loss)）に対する各項の寄与を分析する。Tab. 11 は、適応データセットが、抽出された特徴の学習に用いられたモデルの訓練データセット、すなわち ImageNet1K と一致する場合の結果を示す。この設定では、逆方向の互換性のために厳密な直交変換 $B_{\perp}$ を用いる。このとき、$\mathcal{L}_{F}$ を単独で用いると、新しいモデルの表現との互換性は確保されるが、逆方向の互換性の達成には著しく失敗することが分かる。この挙動は、$\mathcal{L}_{F}$ に内在する顕著な forward bias を示している。逆方向整列損失 $\mathcal{L}_{B}$ のみでは、逆方向の互換性は促進されるが、forward-adapted な表現性能は低下する。contrastive loss $\mathcal{L}_{C}$ のみでは、モデル間整列およびクラス内クラスタリングが大幅に改善され、逆方向と順方向の双方の互換性を支援する。$\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ の組合せは、互換性シナリオ全体にわたって最も高い総合性能を達成し、forward transformation learning と backward transformation learning の均衡を維持する上で各損失成分が重要であることを示している。
 
-# Distance metric for Partial Backfilling Ordering 
+Tab. 12 は、下流タスク設定（CUB データセット）におけるこれらの損失項の影響を示す。このとき $\phi_{old}$ は ResNet-18、$\phi_{new}$ は ViT-L-16 であり、$\lambda = 12$ の $\lambda$-Orthogonality を用いている。Tab. 11 と同様に、逆方向損失 $\mathcal{L}_{B}$ を除外しても forward compatibility は良好に保たれるが、backward compatibility の性能は著しく低下する。contrastive loss $\mathcal{L}_{C}$ を除外すると、下流タスクへの適応が大幅に低下し、$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ の値が低くなる。すべての損失項 $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ を用いると、forward および backward compatibility の双方で一貫して最良またはほぼ最良の結果が得られ、これらの項が相補的であることが示される。
 
-提案する partial backfilling 戦略は、距離指標 $d$ によって導かれる。この指標は、各埋め込みベクトル $F(\mathbf{h}^k)$ と対応するクラス平均 $\boldsymbol{\mu}_c$ との非類似度を測定する。本節では、gallery set における画像の backfilling の有効な順序付けを決定するうえで、異なる距離指標が与える影響を調べる。partial backfilling における画像の順位付けのために、2 つの距離指標――Mean Squared Error (MSE) と Cosine Distance――を比較する。各指標の性能は、Extending Classes 設定（Tab. [\[tab:b_ext_abl\]](#tab:b_ext_abl)）と Independently Pretrained Models 設定（Tab. [\[tab:b_arch_abl\]](#tab:b_arch_abl)）という 2 つの異なる実験条件の下で評価される。MSE は特徴ベクトル間のユークリッド距離を計算し、角度差と大きさの差の双方を捉える。Tab. [\[tab:b_ext_abl\]](#tab:b_ext_abl) および Tab. [\[tab:b_arch_abl\]](#tab:b_arch_abl) に示すように、MSE は一般に堅牢な性能を示し、とりわけ CMC-Top1 の観点で優れている。対照的に、Cosine Distance は正規化された特徴ベクトル間の角度距離を測定し、大きさを無視して方向の類似性を強調する。結果は、Cosine Distance が mAP の観点でわずかに良好な性能を達成し、MSE と同等の CMC-Top1 スコアを与えることを示している。
+これらの分析は、各損失項が、さまざまなタスクにわたって包括的なモデル互換性を達成するうえで、それぞれ独自かつ有意に寄与していることを示している。
+
+<table id="tab:loss_combo_cmc_tick">
+<caption>CMC-Top1 (%) on ImageNet1K for different loss combinations ($\checkmark$ = included, $\times$ = excluded). The setting is the same of Tab. <a href="#table:imagenet_arch" data-reference-type="ref" data-reference="table:imagenet_arch">[table:imagenet_arch]</a>, where the first model, $\phi_{\text{old}}$, is a ResNet-18, whereas the second, $\phi_{\text{new}}$, is a ViT-L-16.</caption>
+<thead>
+<tr>
+<th colspan="3" style="text-align: center;">Losses</th>
+<th colspan="5" style="text-align: center;">Query/Gallery (CMC-Top1 %)</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">$\mathcal{L}_F$</td>
+<td style="text-align: center;">$\mathcal{L}_{B}$</td>
+<td style="text-align: center;">$\mathcal{L}_C$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">59.09</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">72.27</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">49.34</td>
+<td style="text-align: center;">62.75</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">61.24</td>
+<td style="text-align: center;">58.63</td>
+<td style="text-align: center;">64.97</td>
+<td style="text-align: center;">60.83</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">54.18</td>
+<td style="text-align: center;">59.29</td>
+<td style="text-align: center;">62.77</td>
+<td style="text-align: center;">72.46</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;"><strong>61.25</strong></td>
+<td style="text-align: center;">60.43</td>
+<td style="text-align: center;">65.13</td>
+<td style="text-align: center;">73.44</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">60.85</td>
+<td style="text-align: center;">59.09</td>
+<td style="text-align: center;">65.42</td>
+<td style="text-align: center;">57.90</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">60.83</td>
+<td style="text-align: center;"><strong>61.10</strong></td>
+<td style="text-align: center;"><strong>65.54</strong></td>
+<td style="text-align: center;"><strong>73.53</strong></td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="tab:loss_combo_cmc_tick_2">
+<caption>異なる損失の組合せに対するCUB上のCMC-Top1 (%)（$\checkmark$ = 含む, $\times$ = 除外）。設定はTab. <a href="#table:cub" data-reference-type="ref" data-reference="table:cub">3</a>と同一であり、1つ目のモデル $\phi_{\text{old}}$ は ResNet-18、2つ目の $\phi_{\text{new}}$ は ViT-L-16 である。改善されたモデルを下流タスクに適応させるため、$\lambda=12$ の backward adapter $B_\lambda$ を用いる。</caption>
+<thead>
+<tr>
+<th colspan="3" style="text-align: center;">損失</th>
+<th colspan="5" style="text-align: center;">Query/Gallery (CMC-Top1 %)</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">$\mathcal{L}_F$</td>
+<td style="text-align: center;">$\mathcal{L}_{B}$</td>
+<td style="text-align: center;">$\mathcal{L}_C$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">51.72</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">63.82</td>
+<td style="text-align: center;">72.14</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">35.27</td>
+<td style="text-align: center;">45.80</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">71.91</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">37.15</td>
+<td style="text-align: center;">47.56</td>
+<td style="text-align: center;">46.56</td>
+<td style="text-align: center;">60.70</td>
+<td style="text-align: center;">69.76</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">52.79</td>
+<td style="text-align: center;">59.14</td>
+<td style="text-align: center;">58.38</td>
+<td style="text-align: center;">66.46</td>
+<td style="text-align: center;">73.36</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">50.43</td>
+<td style="text-align: center;">59.88</td>
+<td style="text-align: center;">58.57</td>
+<td style="text-align: center;">70.13</td>
+<td style="text-align: center;">74.86</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;"><strong>53.27</strong></td>
+<td style="text-align: center;">58.66</td>
+<td style="text-align: center;">60.45</td>
+<td style="text-align: center;">59.44</td>
+<td style="text-align: center;">73.12</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">51.12</td>
+<td style="text-align: center;"><strong>59.92</strong></td>
+<td style="text-align: center;"><strong>60.64</strong></td>
+<td style="text-align: center;"><strong>70.72</strong></td>
+<td style="text-align: center;"><strong>75.44</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+# 部分バックフィリング順序のための距離尺度
+
+我々が提案する部分バックフィリング戦略は、各埋め込みベクトル $F(\mathbf{h}^k)$ と対応するクラス平均 $\boldsymbol{\mu}_c$ との非類似度を測る距離尺度 $d$ によって導かれる。本節では、ギャラリー集合内の画像をバックフィリングする際に有効な順序を決定するうえで、異なる距離尺度が与える影響を検討する。部分バックフィリングにおける画像の順位付けについて、2つの距離尺度、すなわち Mean Squared Error (MSE) と Cosine Distance を比較する。各尺度の性能は、Extending Classes 設定（Tab. [\[tab:b_ext_abl\]](#tab:b_ext_abl)）および Independently Pretrained Models 設定（Tab. [\[tab:b_arch_abl\]](#tab:b_arch_abl)）という2つの異なる実験条件の下で評価する。MSE は特徴ベクトル間のユークリッド距離を計算し、角度的差異と大きさの差異の両方を捉える。Tab. [\[tab:b_ext_abl\]](#tab:b_ext_abl) および Tab. [\[tab:b_arch_abl\]](#tab:b_arch_abl) に示すとおり、MSE は一般に堅牢な性能を示し、とりわけ CMC-Top1 の観点で優れている。これに対し、Cosine Distance は正規化された特徴ベクトル間の角度距離を測定し、大きさを無視して方向の類似性を強調する。結果から、Cosine Distance は mAP の観点でわずかに良好な性能を示し、CMC-Top1 スコアにおいては MSE と同等の性能を達成することが示される。
 
 <figure>
 <p>![](assets/fig15.png)</p>
@@ -246,15 +1288,31 @@ Tab. [\[tab:loss_combo_cmc_tick_2\]](#tab:loss_combo_cmc_tick_2) は、下流�
 
 []
 
-+-----------------+-----------------------+
-| Method          | $\widetilde{M}$       |
-+:================+:=========:+:=========:+
-| 2-3             | CMC-Top1  | mAP       |
-+-----------------+-----------+-----------+
-| MSE             | 61.20     | 36.46     |
-+-----------------+-----------+-----------+
-| Cosine Distance | **61.68** | **37.10** |
-+-----------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">MSE</td>
+<td style="text-align: center;">61.20</td>
+<td style="text-align: center;">36.46</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cosine Distance</td>
+<td style="text-align: center;"><strong>61.68</strong></td>
+<td style="text-align: center;"><strong>37.10</strong></td>
+</tr>
+</tbody>
+</table>
 
 <figure>
 <p>![](assets/fig17.png)</p>
@@ -266,41 +1324,57 @@ Tab. [\[tab:loss_combo_cmc_tick_2\]](#tab:loss_combo_cmc_tick_2) は、下流�
 
 []
 
-+-----------------+-----------------------+
-| Method          | $\widetilde{M}$       |
-+:================+:=========:+:=========:+
-| 2-3             | CMC-Top1  | mAP       |
-+-----------------+-----------+-----------+
-| MSE             | **76.59** | 57.72     |
-+-----------------+-----------+-----------+
-| Cosine Distance | 76.49     | **58.18** |
-+-----------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">MSE</td>
+<td style="text-align: center;"><strong>76.59</strong></td>
+<td style="text-align: center;">57.72</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cosine Distance</td>
+<td style="text-align: center;">76.49</td>
+<td style="text-align: center;"><strong>58.18</strong></td>
+</tr>
+</tbody>
+</table>
 
 []
 
-# Method Complexity and Broader Applicability 
+# 方法の複雑性とより広い適用可能性
 
-#### Method Complexity.
+#### 方法の複雑性.
 
-我々の手法は 2 つの行列のみの学習を必要とし、最適化すべきパラメータ数は少ない。さらに、本手法は抽出済み埋め込みのみに基づいて動作するため、基盤となるモデルに関する知識を一切必要とせず、したがって異なる目的関数（Appendix 8 参照）、アーキテクチャ、および学習された表現の種類にまたがって適用可能である。
+我々の手法では、学習すべき行列は2つのみであり、最適化すべきパラメータ数は少ない。さらに、本手法は抽出済み埋め込みのみを用いて動作するため、基盤となるモデルに関する知識を一切必要とせず、したがって異なる目的関数（Appendix 8 参照）、アーキテクチャ、ならびに学習された表現の種類をまたいで適用可能である。
 
-表現クラスタリング損失を伴わない整列損失のみに焦点を当てる手法（例えば FCT [[#^ref-25|25]]）や、事前学習済みモデルの特定のアーキテクチャ要素を必要とする手法（例えば FastFill [[#^ref-22|22]] は新しいモデルの classifier へのアクセスを必要とする）とは対照的に、本手法はこれらの制約に対処する。加えて、既存のベースラインが前方適応のみを提供するのに対し、本手法は前方互換性と後方互換性の双方を達成するよう設計されており、従来研究が満たしていない実用上の要請に対応している。例えば以下の通りである。
+先行手法が、いずれも整列損失のみに焦点を当て、表現クラスタリング損失を持たない場合（例えば FCT [[#^ref-25|25]]）、あるいは事前学習済みモデルの特定のアーキテクチャ構成要素を必要とする場合（例えば FastFill [[#^ref-22|22]] は新しいモデルの分類器へのアクセスを必要とする）とは対照的に、我々の手法はこれらの制約を解消する。加えて、既存のベースラインが前方適応のみを提供するのに対し、本手法は前方互換性と後方互換性の双方を達成するよう設計されており、先行研究が満たしていない実用上の要請に対応する。例えば以下が挙げられる。
 
-- $B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$ は、ベースラインと比較してより高い retrieval 値を与える。
+- $B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$ は、ベースラインと比較してより高い検索値を与える。
 
-- $B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$ は、本手法によってのみ達成可能である。実用上、これは gallery の全要素が $F$ によって前方適応される前であっても互換性を確立できることを意味する。
+- $B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$ は我々の手法によってのみ実現可能である。実用上、これは、すべてのギャラリー項目が $F$ によって前方適応される前であっても互換性を確立できることを意味する。
 
-- 本手法は統一された表現空間を提供するため、gallery がハイブリッド形式、すなわち一部の要素はすでに $F$ により適応済みで、他は未適応である場合でも、$B_{\perp}(\phi_{\text{new}})$ を用いることで互換性を依然として保証できる。これは FCT [[#^ref-25|25]] によっても FastFill [[#^ref-22|22]] によっても達成できない。
+- 我々の手法は統一的な表現空間を提供するため、ギャラリーがハイブリッドな形態、すなわち一部の要素はすでに $F$ によって適応され、他はまだ適応されていない状態であっても、$B_{\perp}(\phi_{\text{new}})$ を用いることで互換性はなお保証される。これは FCT [[#^ref-25|25]] によっても FastFill [[#^ref-22|22]] によっても実現できない。
 
-Eq. [\[eq:contr\]](#eq:contr) で定義される対照損失は、同一クラスの埋め込みを互いに近づけ、異なるクラスの埋め込みを引き離すために、クラスラベルの利用に依拠している。クラスラベルが利用できないシナリオでは、Eq. [\[eq:contr\]](#eq:contr) は自然に教師なし対照損失へと帰着し、これは CLIP モデルの学習に用いられる目的関数 [[#^ref-62|62]] に類似している。この教師なし設定では、異なるモデルに由来する表現のペアを対比し、クラスタリングは――直接的に強制できないため――埋め込みの類似性に起因する副産物となる。したがって、本手法は柔軟であり、下流タスクにおけるラベルの有無に応じて、教師あり学習と教師なし学習の双方のシナリオに適用可能である。
+式[\[eq:contr\]](#eq:contr)で定義される対比損失は、同一クラスの埋め込みを互いに近づけ、異なるクラスの埋め込みを引き離すよう促すために、クラスラベルの利用に依拠している。クラスラベルが利用できないシナリオでは、式[\[eq:contr\]](#eq:contr)は自然に教師なし対比損失へと還元され、CLIPモデルの学習に用いられる目的関数 [[#^ref-62|62]] に類似する。この教師なし設定では、異なるモデルに由来する表現の対を対比させるが、クラスタリングは直接的には強制できないため、埋め込みの類似性の結果として副次的に生じる。したがって、本手法は柔軟であり、下流タスクにおけるラベルの利用可能性に応じて、教師あり学習と教師なし学習の双方に適用可能である。
 
-#### Broader Applicability.
+#### より広い適用可能性.
 
-[[#^ref-36|36]] で示されているように、soft orthogonalization は学習中の CNN の全重みを正則化するために適用されており、我々が提案する $\lambda$-orthogonal regularization がもたらす高い可塑性の恩恵を受け得る。retrieval は互換性評価の標準的シナリオであるが [[#^ref-15|15]]、本手法は学習された表現のモデル整列とクラスタリングに焦点を当てているため、表現適応を必要とするあらゆるタスクに広く適用可能である。下流タスク適応実験（Sec. 4.4 参照）で示されるように、我々の正則化手法は厳密な直交制約と比較して性能を改善し、domain adaptation シナリオにおいても価値ある手法である。さらに、幾何学的一貫性を保ちつつ適応性を許容することは、近年 multimodal training における continual learning の文脈で検討されている [[#^ref-67|67]]。しかし [[#^ref-67|67]] の著者らは、この性質を正則化制約を直接適用するのではなく、知識統合損失を通じて間接的に促進している。これは、今後の研究可能性と、さまざまな表現学習分野における我々の $\lambda$-orthogonal regularization の潜在的適用可能性の双方を浮き彫りにしている。
+[[#^ref-36|36]] で示されているように、soft orthogonalization は学習中の CNN の全重みを正則化するために適用されており、我々が提案する $\lambda$-orthogonal regularization によって与えられる高い可塑性の恩恵を受けうる。検索は互換性評価の標準的なシナリオであるが [[#^ref-15|15]]、我々の手法は、モデル整列と学習表現のクラスタリングに焦点を当てているため、表現適応を必要とするあらゆるタスクに広く適用可能である。下流タスク適応の実験（Sec. 4.4 参照）で示したように、我々の正則化手法は厳格な直交制約と比べてより良い性能を達成し、ドメイン適応シナリオにおいても有用である。さらに、適応性を許容しつつ幾何学的一貫性を強制することは、近年 multimodal training における continual learning の文脈で検討されている [[#^ref-67|67]]。しかし、[[#^ref-67|67]] の著者らは、この性質を正則化制約を直接適用するのではなく、知識集約損失を通じて間接的に促進している。これは、今後の研究の可能性と、表現学習のさまざまな分野における我々の $\lambda$-orthogonal regularization の潜在的適用可能性の双方を示している。
 
-# Limitations 
+# 制約事項
 
-本手法は、新しいモデルの埋め込み空間が古いモデルのそれよりも表現力に富む（例えば、retrieval 精度が高い、クラスタリングが強い）という仮定に依拠している。更新後のモデルが同等でない、あるいは品質が低い場合、たとえば domain mismatch、学習データ不足、アーキテクチャ上の劣化などに起因して、前方・後方の両方のアダプタが性能向上に寄与しないか、あるいは互換性をさらに損なう可能性がある。多くの実用システムでは、大規模化則 [[#^ref-68|68]][[#^ref-69|69]][[#^ref-70|70]][[#^ref-71|71]]（すなわち、より大きなモデルとより多くのデータは一般により良い特徴表現をもたらす）により、この仮定は正当化される。下流タスク適応については、我々の $\lambda$-orthogonal regularized adapter はさまざまな retrieval タスクにわたり高い性能と互換性を示す一方で、直交閾値（$\lambda$）の手動調整が必要である。元のモデルの幾何構造を保持することと、新しいデータへ適応するのに十分な可塑性を許容することのトレードオフは、$\lambda$ の選択に決定的に依存する。実際には、このハイパーパラメータは、交差検証または下流データセットの保留部分に対する小規模なハイパーパラメータ探索によって選択できる。我々の実験では $\lambda=12$ が良好なバランスを与えることが分かったが（Appendix 10）、異なる下流ドメイン（例えば、fine-grained カテゴリと coarse カテゴリ）や適応済み表現では、最適性能を達成するために $\lambda$ の異なる調整が必要となる可能性がある。このパラメータの自動化または自己調整は未解決課題として残されている。
+我々の手法は、新しいモデルの埋め込み空間が旧モデルのそれよりも表現力が高い（例えば、検索精度が高い、クラスタリング性能が強い）という仮定に依拠している。更新後のモデルが同等でない、あるいは品質が低い場合、たとえばドメイン不一致、訓練データ不足、あるいはアーキテクチャ上の退行による場合には、順方向および逆方向の両アダプタはいずれも性能向上に失敗し、互換性をむしろ低下させる可能性がある。多くの実用システムでは、この仮定はスケーリング則 [[#^ref-68|68]][[#^ref-69|69]][[#^ref-70|70]][[#^ref-71|71]]（すなわち、より大きなモデルとより多くのデータは一般により優れた特徴表現をもたらす）によって正当化される。下流タスクへの適応については、我々の$\lambda$-orthogonal正則化アダプタは、さまざまな検索タスクにわたって高い性能と互換性を示す一方で、直交性しきい値（$\lambda$）の手動調整が必要である。元のモデルの幾何構造を保持することと、新しいデータへ適応するための十分な可塑性を許容することとのトレードオフは、$\lambda$ の選択に決定的に依存する。実運用では、このハイパーパラメータは、交差検証または下流データセットの保持部分に対する小規模なハイパーパラメータ探索によって選択できる。我々の実験では $\lambda=12$ が良好なバランスを与えることを確認したが（Appendix 10）、異なる下流ドメイン（例えば、細粒度カテゴリと粗粒度カテゴリ）や適応後の表現では、最適性能を達成するために $\lambda$ の別個の調整が必要となる場合がある。このパラメータの自動化または自己調整は、なお未解決の課題である。
 
 [^1]: Corresponding author: `simone.ricci@unifi.it`.
 

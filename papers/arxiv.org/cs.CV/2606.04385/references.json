@@ -1,0 +1,404 @@
+{
+  "id": "2606.04385",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "9e0c499d08f598d7eb416fbee2ae5abaf23c523c",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2606-04385",
+      "ArXiv": "2606.04385",
+      "DOI": "10.48550/arXiv.2606.04385",
+      "CorpusId": 288939399
+    },
+    "url": "https://www.semanticscholar.org/paper/9e0c499d08f598d7eb416fbee2ae5abaf23c523c",
+    "title": "Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models"
+  },
+  "references": [
+    {
+      "paper_id": "b49c1adc847c8e2cb9f1b97358366e4887e532ce",
+      "arxiv_id": "2508.10104",
+      "doi": "",
+      "title": "DINOv3",
+      "url": "https://www.semanticscholar.org/paper/b49c1adc847c8e2cb9f1b97358366e4887e532ce"
+    },
+    {
+      "paper_id": "5a53b3dc68040e4e57ab711f8d2fb4859c4d611a",
+      "arxiv_id": "2506.13723",
+      "doi": "",
+      "title": "SOTA: Self-adaptive Optimal Transport for Zero-Shot Classification with Multiple Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/5a53b3dc68040e4e57ab711f8d2fb4859c4d611a"
+    },
+    {
+      "paper_id": "887d7b9bbce38f2df1d5b583a51bc59ca04fba0c",
+      "arxiv_id": "2503.23388",
+      "doi": "10.1109/CVPR52734.2025.00913",
+      "title": "COSMIC: Clique-Oriented Semantic Multi-space Integration for Robust CLIP Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/887d7b9bbce38f2df1d5b583a51bc59ca04fba0c"
+    },
+    {
+      "paper_id": "016f0a920ad8bc5ac925cc20917fc1e436f71702",
+      "arxiv_id": "2503.19777",
+      "doi": "10.1109/CVPR52734.2025.00915",
+      "title": "LPOSS: Label Propagation Over Patches and Pixels for Open-vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/016f0a920ad8bc5ac925cc20917fc1e436f71702"
+    },
+    {
+      "paper_id": "9fcc63cfee0977455b6444abd5c497a0617a7a56",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2025.3546840",
+      "title": "Task-to-Instance Prompt Learning for Vision-Language Models at Test Time",
+      "url": "https://www.semanticscholar.org/paper/9fcc63cfee0977455b6444abd5c497a0617a7a56"
+    },
+    {
+      "paper_id": "d9a639523324e0cce9376cee7e190e503cecbe1c",
+      "arxiv_id": "2501.03729",
+      "doi": "10.1109/CVPR52734.2025.02337",
+      "title": "Realistic Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d9a639523324e0cce9376cee7e190e503cecbe1c"
+    },
+    {
+      "paper_id": "04315a45024d76d2434d1dbba86ca1b5579b0bf7",
+      "arxiv_id": "2412.16334",
+      "doi": "10.1109/CVPR52734.2025.02319",
+      "title": "DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment",
+      "url": "https://www.semanticscholar.org/paper/04315a45024d76d2434d1dbba86ca1b5579b0bf7"
+    },
+    {
+      "paper_id": "7ff1d4625bdcb11961632c19ef034bfddfc50289",
+      "arxiv_id": "2412.10817",
+      "doi": "10.48550/arXiv.2412.10817",
+      "title": "Enhance Vision-Language Alignment with Noise",
+      "url": "https://www.semanticscholar.org/paper/7ff1d4625bdcb11961632c19ef034bfddfc50289"
+    },
+    {
+      "paper_id": "f46d9fe6243d4d2a95ca4d915d20c8882803eb59",
+      "arxiv_id": "2411.19331",
+      "doi": "10.1109/ICCV51701.2025.02045",
+      "title": "Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/f46d9fe6243d4d2a95ca4d915d20c8882803eb59"
+    },
+    {
+      "paper_id": "dc2a78a9665625bea8a085e38b13efeb1a1723b7",
+      "arxiv_id": "2411.15869",
+      "doi": "10.1109/TIP.2025.3639996",
+      "title": "Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/dc2a78a9665625bea8a085e38b13efeb1a1723b7"
+    },
+    {
+      "paper_id": "de8c74724509c698901be681616d42d14fd654cf",
+      "arxiv_id": "2411.10086",
+      "doi": "10.1109/ICCV51701.2025.02288",
+      "title": "CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/de8c74724509c698901be681616d42d14fd654cf"
+    },
+    {
+      "paper_id": "712e7c876fe8eb3116b185559496fcadede486b8",
+      "arxiv_id": "2410.12790",
+      "doi": "10.48550/arXiv.2410.12790",
+      "title": "Dual Prototype Evolving for Test-Time Generalization of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/712e7c876fe8eb3116b185559496fcadede486b8"
+    },
+    {
+      "paper_id": "afeb798580785059b1875c6ba20447627ebcdce8",
+      "arxiv_id": "2408.04883",
+      "doi": "10.48550/arXiv.2408.04883",
+      "title": "ProxyCLIP: Proxy Attention Improves CLIP for Open-Vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/afeb798580785059b1875c6ba20447627ebcdce8"
+    },
+    {
+      "paper_id": "4f861f449cc9078989b91b2bca681f58d9b3b071",
+      "arxiv_id": "2405.18330",
+      "doi": "10.48550/arXiv.2405.18330",
+      "title": "Frustratingly Easy Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/4f861f449cc9078989b91b2bca681f58d9b3b071"
+    },
+    {
+      "paper_id": "36e13954aa081f5a46ab92654921f95670207f0b",
+      "arxiv_id": "2405.14294",
+      "doi": "10.1109/ACCESS.2024.3512379",
+      "title": "Tuning-Free Universally-Supervised Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/36e13954aa081f5a46ab92654921f95670207f0b"
+    },
+    {
+      "paper_id": "1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc",
+      "arxiv_id": "2405.02266",
+      "doi": "10.1109/CVPR52733.2024.02245",
+      "title": "On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?",
+      "url": "https://www.semanticscholar.org/paper/1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc"
+    },
+    {
+      "paper_id": "0e1edb328b02e4a98072dcf22357ee78dfdec3c4",
+      "arxiv_id": "2404.04072",
+      "doi": "10.1109/CVPR52733.2024.02190",
+      "title": "Label Propagation for Zero-shot Classification with Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/0e1edb328b02e4a98072dcf22357ee78dfdec3c4"
+    },
+    {
+      "paper_id": "390b2aa03672d33c760a151bb056b1397bf40cc0",
+      "arxiv_id": "2403.18293",
+      "doi": "10.1109/CVPR52733.2024.01343",
+      "title": "Efficient Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/390b2aa03672d33c760a151bb056b1397bf40cc0"
+    },
+    {
+      "paper_id": "427c1f7e70712ec4433e859c493bfb4d8d18c713",
+      "arxiv_id": "2403.17589",
+      "doi": "10.1109/CVPR52733.2024.02713",
+      "title": "Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/427c1f7e70712ec4433e859c493bfb4d8d18c713"
+    },
+    {
+      "paper_id": "0746410e1250576cc1b9621ef602e4bceb1c07ca",
+      "arxiv_id": "",
+      "doi": "10.1038/s41591-024-02856-4",
+      "title": "A visual-language foundation model for computational pathology",
+      "url": "https://www.semanticscholar.org/paper/0746410e1250576cc1b9621ef602e4bceb1c07ca"
+    },
+    {
+      "paper_id": "bacdcd622dabe746005d6713e6d40c3ee15c158f",
+      "arxiv_id": "2312.12856",
+      "doi": "10.48550/arXiv.2312.12856",
+      "title": "SkyScript: A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing",
+      "url": "https://www.semanticscholar.org/paper/bacdcd622dabe746005d6713e6d40c3ee15c158f"
+    },
+    {
+      "paper_id": "d38a00348487b02dad98782506fb8ebe31aef477",
+      "arxiv_id": "2312.12359",
+      "doi": "10.48550/arXiv.2312.12359",
+      "title": "CLIP-DINOiser: Teaching CLIP a few DINO tricks",
+      "url": "https://www.semanticscholar.org/paper/d38a00348487b02dad98782506fb8ebe31aef477"
+    },
+    {
+      "paper_id": "f4cacee297bc7727de713571cdacdd832224d6b2",
+      "arxiv_id": "2312.07661",
+      "doi": "10.1109/CVPR52733.2024.01251",
+      "title": "CLIP as RNN: Segment Countless Visual Concepts without Training Endeavor",
+      "url": "https://www.semanticscholar.org/paper/f4cacee297bc7727de713571cdacdd832224d6b2"
+    },
+    {
+      "paper_id": "db26827a859ab3d63c84d151e6c2356c68560480",
+      "arxiv_id": "2312.01597",
+      "doi": "10.48550/arXiv.2312.01597",
+      "title": "SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference",
+      "url": "https://www.semanticscholar.org/paper/db26827a859ab3d63c84d151e6c2356c68560480"
+    },
+    {
+      "paper_id": "d92c797f587ce7f1b001920ab9e6b7d31960bd77",
+      "arxiv_id": "2306.11029",
+      "doi": "10.1109/TGRS.2024.3390838",
+      "title": "RemoteCLIP: A Vision Language Foundation Model for Remote Sensing",
+      "url": "https://www.semanticscholar.org/paper/d92c797f587ce7f1b001920ab9e6b7d31960bd77"
+    },
+    {
+      "paper_id": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "arxiv_id": "2304.07193",
+      "doi": "10.48550/arXiv.2304.07193",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "url": "https://www.semanticscholar.org/paper/5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+    },
+    {
+      "paper_id": "7f2ddb3dabaf779d45766b458d5b51f7a4b877cc",
+      "arxiv_id": "2304.01752",
+      "doi": "10.1109/ICCV51070.2023.01424",
+      "title": "Black Box Few-Shot Adaptation for Vision-Language models",
+      "url": "https://www.semanticscholar.org/paper/7f2ddb3dabaf779d45766b458d5b51f7a4b877cc"
+    },
+    {
+      "paper_id": "c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0",
+      "arxiv_id": "2303.05499",
+      "doi": "10.48550/arXiv.2303.05499",
+      "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+      "url": "https://www.semanticscholar.org/paper/c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0"
+    },
+    {
+      "paper_id": "1114863be2a713a14771ccacb5c9436fb4a375e2",
+      "arxiv_id": "2208.12262",
+      "doi": "10.1109/CVPR52729.2023.01058",
+      "title": "MaskCLIP: Masked Self-Distillation Advances Contrastive Language-Image Pretraining",
+      "url": "https://www.semanticscholar.org/paper/1114863be2a713a14771ccacb5c9436fb4a375e2"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "a6ad47f7b4dc6c5f8791fa9f4db1118586eff891",
+      "arxiv_id": "1808.08773",
+      "doi": "10.1162/tacl_a_00257",
+      "title": "Learning Multilingual Word Embeddings in Latent Metric Space: A Geometric Approach",
+      "url": "https://www.semanticscholar.org/paper/a6ad47f7b4dc6c5f8791fa9f4db1118586eff891"
+    },
+    {
+      "paper_id": "7127158ba15c6be10f10d5b754733cd75b8f5cc8",
+      "arxiv_id": "1805.11222",
+      "doi": "",
+      "title": "Unsupervised Alignment of Embeddings with Wasserstein Procrustes",
+      "url": "https://www.semanticscholar.org/paper/7127158ba15c6be10f10d5b754733cd75b8f5cc8"
+    },
+    {
+      "paper_id": "dda2cee72ffa3e5c70db302a87595ba9e5e72910",
+      "arxiv_id": "1805.06297",
+      "doi": "10.18653/v1/P18-1073",
+      "title": "A robust self-learning method for fully unsupervised cross-lingual mappings of word embeddings",
+      "url": "https://www.semanticscholar.org/paper/dda2cee72ffa3e5c70db302a87595ba9e5e72910"
+    },
+    {
+      "paper_id": "562c09c112df56c5696c010d90a815d6018a86c8",
+      "arxiv_id": "1710.04087",
+      "doi": "",
+      "title": "Word Translation Without Parallel Data",
+      "url": "https://www.semanticscholar.org/paper/562c09c112df56c5696c010d90a815d6018a86c8"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "0095b9f73c000f2609fc81ffb7769df7cd77bda1",
+      "arxiv_id": "1612.03716",
+      "doi": "10.1109/CVPR.2018.00132",
+      "title": "COCO-Stuff: Thing and Stuff Classes in Context",
+      "url": "https://www.semanticscholar.org/paper/0095b9f73c000f2609fc81ffb7769df7cd77bda1"
+    },
+    {
+      "paper_id": "88512be44744615f4baa8e14f600f036db4c2433",
+      "arxiv_id": "1608.05442",
+      "doi": "10.1007/s11263-018-1140-0",
+      "title": "Semantic Understanding of Scenes Through the ADE20K Dataset",
+      "url": "https://www.semanticscholar.org/paper/88512be44744615f4baa8e14f600f036db4c2433"
+    },
+    {
+      "paper_id": "c8c494ee5488fe20e0aa01bddf3fc4632086d654",
+      "arxiv_id": "1604.01685",
+      "doi": "10.1109/CVPR.2016.350",
+      "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+      "url": "https://www.semanticscholar.org/paper/c8c494ee5488fe20e0aa01bddf3fc4632086d654"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "3419ccd5c94d301ee08d716d037f0c3c6a62e78e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2014.119",
+      "title": "The Role of Context for Object Detection and Semantic Segmentation in the Wild",
+      "url": "https://www.semanticscholar.org/paper/3419ccd5c94d301ee08d716d037f0c3c6a62e78e"
+    },
+    {
+      "paper_id": "a83cec6a91701bd8500f8c43ad731d4353c71d55",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW.2013.77",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "url": "https://www.semanticscholar.org/paper/a83cec6a91701bd8500f8c43ad731d4353c71d55"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "0157dcd6122c20b5afc359a799b2043453471f7f",
+      "arxiv_id": "1309.4168",
+      "doi": "",
+      "title": "Exploiting Similarities among Languages for Machine Translation",
+      "url": "https://www.semanticscholar.org/paper/0157dcd6122c20b5afc359a799b2043453471f7f"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "0080118b0eb02af581ff32b85a1bb6aed7081f45",
+      "arxiv_id": "1306.0895",
+      "doi": "",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/0080118b0eb02af581ff32b85a1bb6aed7081f45"
+    },
+    {
+      "paper_id": "da9e411fcf740569b6b356f330a1d0fc077c8d7c",
+      "arxiv_id": "1212.0402",
+      "doi": "",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+      "url": "https://www.semanticscholar.org/paper/da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+    },
+    {
+      "paper_id": "908091b4a8757c3b2f7d9cfa2c4f616ee12c5157",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2010.5539970",
+      "title": "SUN database: Large-scale scene recognition from abbey to zoo",
+      "url": "https://www.semanticscholar.org/paper/908091b4a8757c3b2f7d9cfa2c4f616ee12c5157"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "bc792429df30dbdb02af63129e08c21e17907c9f",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2404.07983",
+      "title": "Two Effects, One Trigger: On the Modality Gap, Object Bias, and Information Imbalance in Contrastive Vision-Language Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/bc792429df30dbdb02af63129e08c21e17907c9f"
+    },
+    {
+      "paper_id": "13ef25201af7f2a7e401ef31a6197f66357f6f01",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The PASCAL Visual Object Classes Challenge",
+      "url": "https://www.semanticscholar.org/paper/13ef25201af7f2a7e401ef31a6197f66357f6f01"
+    },
+    {
+      "paper_id": "336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "cats and dogs",
+      "url": "https://www.semanticscholar.org/paper/336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Geometry-Preserving Unsupervised Alignment for Heterogeneous Foundation Models",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "f3904aa74993a86512c0e705538cd3c7b3d83ae8",
+      "arxiv_id": "",
+      "doi": "10.1016/j.sigpro.2026.110794",
+      "title": "Beneficial noise as neighborhood uncertainty for few-shot vision-language medical classification",
+      "url": "https://www.semanticscholar.org/paper/f3904aa74993a86512c0e705538cd3c7b3d83ae8"
+    }
+  ]
+}

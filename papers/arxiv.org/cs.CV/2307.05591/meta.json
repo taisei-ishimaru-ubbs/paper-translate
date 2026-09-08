@@ -1,0 +1,16 @@
+{
+  "id": "2307.05591",
+  "title": "Linear Alignment of Vision-language Models for Image Captioning",
+  "authors": [
+    "Fabian Paischer",
+    "Markus Hofmarcher",
+    "Sepp Hochreiter",
+    "Thomas Adler"
+  ],
+  "abstract": "Recently, vision-language models like CLIP have advanced the state of the art in a variety of multi-modal tasks including image captioning and caption evaluation. Many approaches leverage CLIP for cross-modal retrieval to condition pre-trained language models on visual input. However, CLIP generally suffers from a mis-alignment of image and text modalities in the joint embedding space. We investigate efficient methods to linearly re-align the joint embedding space for the downstream task of image captioning. This leads to an efficient training protocol that merely requires computing a closed-form solution for a linear mapping in the joint CLIP space. Consequently, we propose a lightweight captioning method called ReCap, which can be trained up to 1000 times faster than existing lightweight methods. Moreover, we propose two new learning-based image-captioning metrics built on CLIP score along with our proposed alignment. We evaluate ReCap on MS-COCO, Flickr30k, VizWiz and MSRVTT. On the former two, ReCap performs comparably to state-of-the-art lightweight methods using rule-based metrics while outperforming them on most of the CLIP-based metrics. On the latter two benchmarks, ReCap consistently outperforms competitors across all metrics and exhibits strong transfer capabilities and resilience to noise. Finally, we demonstrate that our proposed metrics correlate stronger with human judgement than existing metrics on the Flickr8k-Expert, Flickr8k-Crowdflower, and THumB datasets.",
+  "published": "2023-07-10",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2307.05591v4",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-09-08T08:20:28Z"
+}

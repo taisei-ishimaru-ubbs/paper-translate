@@ -1,0 +1,19 @@
+{
+  "id": "2607.09450",
+  "title": "Robustifying Vision-Language Models via Test-Time Prompt Adaptation",
+  "authors": [
+    "Xingyu Zhu",
+    "Huanshen Wu",
+    "Shuo Wang",
+    "Beier Zhu",
+    "Jiannan Ge",
+    "Jiaheng Zhang",
+    "Long Chen"
+  ],
+  "abstract": "Pre-trained Vision-Language Models (VLMs) such as CLIP achieve strong zero-shot generalization, but their performance degrades sharply under adversarial perturbations. Existing test-time adaptation methods typically rely on sample-level confidence heuristics, overlooking the intrinsic distributional structure of the data. This sample-centric approach limits robustness, as it fails to distinguish confident adversarial mispredictions from true semantic consistency. In this work, we observe that adversarial distortion is structurally brittle: while holistic representations are corrupted, semantic integrity is often preserved in the distribution of augmented views. Motivated by this insight, we propose RITA, a Robust test-tIme prompt-TAdaptation framework that shifts from sample-level estimates to distribution-level alignment. Specifically, RITA employs optimal transport to align the distribution of augmented visual features with textual prototypes, mitigating adversarial outliers and rectifying cross-modal semantic misalignment. Furthermore, we introduce a dynamic cache to progressively accumulate reliable cues from the test stream for online refinement. Extensive experiments demonstrate that RITA significantly improves adversarial robustness without compromising clean accuracy.",
+  "published": "2026-07-10",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2607.09450v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-09-08T08:20:32Z"
+}

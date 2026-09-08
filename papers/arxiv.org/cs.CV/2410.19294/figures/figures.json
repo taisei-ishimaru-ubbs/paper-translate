@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Illustration of prompt distribution learning and label bias correction on ImageNet using CLIP ViT-B/16. (a) Existing zero-shot models [1, 27]. (b) Our prompt distribution learning (c) Average probability prediction of original CLIP. (d) Average probability prediction of our Frolic.",
+    "score": 86.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: Comparison of confidence.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 9,
+    "caption": "Figure 3: Relation between gains and confi- dence differences.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 9,
+    "caption": "Figure 4: Convergence of accuracy and ℓ1 error of on ImageNet.",
+    "score": 0.0
+  }
+]

@@ -94,12 +94,329 @@ Determining an effective ordering for backfilling samples in the forward-adapted
 
 0.48
 
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">43.56</td>
+<td style="text-align: center;">25.18</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">61.61</td>
+<td style="text-align: center;">35.69</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">50.13</td>
+<td style="text-align: center;">30.93</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">57.21</td>
+<td style="text-align: center;">33.00</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.10</td>
+<td style="text-align: center;">0.15</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">50.63</td>
+<td style="text-align: center;">31.48</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">57.21</td>
+<td style="text-align: center;">33.19</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>44.59</strong></td>
+<td style="text-align: center;"><strong>26.70</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>51.46</strong></td>
+<td style="text-align: center;"><strong>33.75</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>57.41</strong></td>
+<td style="text-align: center;"><strong>34.53</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>43.94</strong></td>
+<td style="text-align: center;"><strong>25.75</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">61.61</td>
+<td style="text-align: center;">35.69</td>
+</tr>
+</tbody>
+</table>
+
 0.48
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">76.62</td>
+<td style="text-align: center;">56.84</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">59.39</td>
+<td style="text-align: center;">42.65</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">72.54</td>
+<td style="text-align: center;">49.85</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>61.17</strong></td>
+<td style="text-align: center;"><strong>46.28</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">73.33</td>
+<td style="text-align: center;"><strong>52.83</strong></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>60.83</strong></td>
+<td style="text-align: center;"><strong>40.69</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">61.10</td>
+<td style="text-align: center;">45.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>73.53</strong></td>
+<td style="text-align: center;">52.06</td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>65.54</strong></td>
+<td style="text-align: center;"><strong>38.55</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">76.62</td>
+<td style="text-align: center;">56.84</td>
+</tr>
+</tbody>
+</table>
 
 ## Image Retrieval Compatibility
 
 Backward compatibility is crucial in retrieval tasks involving a gallery set $\mathcal{G} = \{(\mathbf{x}_i, y_i)\}_{i=1}^{N_g}$ and a query set $\mathcal{Q}=\{(\mathbf{x}_i, y_i)\}_{i=1}^{N_q}$, each containing $N_g$ and $N_q$ images respectively, with associated class labels. A base model indexes the gallery by extracting feature vectors from the images, which are then used to match with vectors from the query set in retrieval tasks. The compatibility definition presented in Def. 1 involves computing pairwise distances between all datapoints in the dataset. This process becomes increasingly computationally demanding as the dataset size grows. Then, a model updated at step $t$ is considered backward-compatible with the base model trained at step $k$ if the Empirical Compatibility Criterion {{CITE:15}} is satisfied: $$M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big) > 
 M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big), \quad \text{with } k < t$$ where $M$ denote a performance metric, $\Phi^\mathcal{G}$ and $\Phi^\mathcal{Q}$ represent the extracted gallery and query sets, respectively. Specifically, $M \big( \Phi_t^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ assesses cross-model retrieval with gallery features from the updated model at step $t$ and query features from step $k$. In contrast, $M \big( \Phi_k^\mathcal{Q}, \Phi_k^\mathcal{G} \big)$ refers to same-model retrieval, where both gallery and query features originate from the same model at step $k$.
+
+<table id="table:cub">
+<caption>Compatibility results for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using as backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses indicating the increment compared to the newly independently trained model. Each Query/Gallery case is highlighted with a different color to facilitate comparison of results. </caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th colspan="4" style="text-align: center;">Dataset</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: center;"></td>
+<td colspan="2" style="text-align: center;"><strong>CUB</strong></td>
+<td colspan="2" style="text-align: center;"><strong>CIFAR100</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">44.82</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">51.13</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.78</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">74.08</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">51.10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">57.35</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">62.13</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">69.80</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">54.50</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">66.17</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">61.49</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">67.23</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>51.12</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>67.29</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>59.92</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>67.72</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>70.72</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>72.08</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>60.64</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>71.85</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"><table id="table:cub">
+<caption>Compatibility results for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using as backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses indicating the increment compared to the newly independently trained model. Each Query/Gallery case is highlighted with a different color to facilitate comparison of results. </caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>75.44</strong> (<strong>+3.66</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.025</strong></td>
+<td style="text-align: center;"><table id="table:cub">
+<caption>Compatibility results for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using as backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses indicating the increment compared to the newly independently trained model. Each Query/Gallery case is highlighted with a different color to facilitate comparison of results. </caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>78.23</strong> (<strong>+4.15</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.112</strong></td>
+</tr>
+</tbody>
+</table>
 
 #### Partial Backfilling.
 
@@ -119,7 +436,7 @@ In this setting, we update a base model by extending the number of classes. We t
 
 Due to escalating training costs, pretrained models are increasingly used, especially for adapting to downstream tasks with local datasets. In this context, we employ two models---available in the PyTorch hub---pretrained on the ImageNet1K dataset: a ResNet-18 with an embedding size of 512, and a more advanced Vision Transformer (ViT-L-16) {{CITE:61}} with an embedding size of 1024. The ViT model is considered an update over the ResNet-18 due to its enhanced architecture. Tab. [\[table:imagenet_arch\]](#table:imagenet_arch) shows adapter training results using the same dataset as the two pretrained models, revealing a trend similar to Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) and demonstrating our method's comparable performance to other baselines, but with compatibility between the updated model and the previous one. Unlike FastFill, our approach does not require the new model's classifier, relying directly on the extracted embedding vectors. In Appendix 7, to further validate our method, we apply our approach to different architectures used as pretrained models. Instead, in Appendix 8, we investigate update scenarios involving distribution or objective shifts using CLIP-like {{CITE:62}} models and self-supervised architectures such as DINOv2 {{CITE:63}}.
 
-Results for compatibility on downstream tasks are reported in Tab. [\[table:cub\]](#table:cub), where adapters are trained on representations from local datasets (CUB200 or CIFAR100) different from the training dataset. Employing a transformation $B_{\lambda}$ with $\lambda$-Orthogonality regularization, our method enhances local task performance and model compatibility, outperforming the baselines. Results on additional downstream datasets (Flower102 {{CITE:64}} and Places365) are reported in Appendix 9. From Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) and Tab. [\[table:imagenet_arch\]](#table:imagenet_arch), we observe that a strict orthogonal transformation, $B_{\perp}$, does not result in performance improvements relative to the independently trained model $\phi_{\text{new}}$. Conversely, $B_{\lambda}$, which provides more plasticity with respect to $B_{\perp}$, enables the new model to enhance performance in the downstream task.
+Results for compatibility on downstream tasks are reported in Tab. 3, where adapters are trained on representations from local datasets (CUB200 or CIFAR100) different from the training dataset. Employing a transformation $B_{\lambda}$ with $\lambda$-Orthogonality regularization, our method enhances local task performance and model compatibility, outperforming the baselines. Results on additional downstream datasets (Flower102 {{CITE:64}} and Places365) are reported in Appendix 9. From Tab. [\[table:imagenet_ext\]](#table:imagenet_ext) and Tab. [\[table:imagenet_arch\]](#table:imagenet_arch), we observe that a strict orthogonal transformation, $B_{\perp}$, does not result in performance improvements relative to the independently trained model $\phi_{\text{new}}$. Conversely, $B_{\lambda}$, which provides more plasticity with respect to $B_{\perp}$, enables the new model to enhance performance in the downstream task.
 
 An ablation study on the hyperparameter $\lambda$ is presented in Appendix 10, and a component-wise ablation of the loss terms in Eq. [\[eq:total_loss\]](#eq:total_loss) is detailed in Appendix 11.
 
@@ -133,17 +450,36 @@ An ablation study on the hyperparameter $\lambda$ is presented in Appendix 10, a
 
 []
 
-+---------------------------------+-----------------------+
-| Method                          | $\widetilde{M}$       |
-+:================================+:=========:+:=========:+
-| 2-3                             | CMC-Top1  | mAP       |
-+---------------------------------+-----------+-----------+
-| FCT {{CITE:25}}     | 58.72     | 33.57     |
-+---------------------------------+-----------+-----------+
-| FastFill {{CITE:22}} | 60.49     | 35.59     |
-+---------------------------------+-----------+-----------+
-| Ours                            | **61.20** | **36.46** |
-+---------------------------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">58.72</td>
+<td style="text-align: center;">33.57</td>
+</tr>
+<tr>
+<td style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">60.49</td>
+<td style="text-align: center;">35.59</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ours</td>
+<td style="text-align: center;"><strong>61.20</strong></td>
+<td style="text-align: center;"><strong>36.46</strong></td>
+</tr>
+</tbody>
+</table>
 
 <figure>
 <p>![](assets/fig12.png)</p>
@@ -155,17 +491,36 @@ An ablation study on the hyperparameter $\lambda$ is presented in Appendix 10, a
 
 []
 
-+---------------------------------+-----------------------+
-| Method                          | $\widetilde{M}$       |
-+:================================+:=========:+:=========:+
-| 2-3                             | CMC-Top1  | mAP       |
-+---------------------------------+-----------+-----------+
-| FCT {{CITE:25}}     | 73.86     | 52.02     |
-+---------------------------------+-----------+-----------+
-| FastFill {{CITE:22}} | 75.06     | 55.34     |
-+---------------------------------+-----------+-----------+
-| Ours                            | **76.59** | **57.72** |
-+---------------------------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">73.86</td>
+<td style="text-align: center;">52.02</td>
+</tr>
+<tr>
+<td style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">75.06</td>
+<td style="text-align: center;">55.34</td>
+</tr>
+<tr>
+<td style="text-align: left;">Ours</td>
+<td style="text-align: center;"><strong>76.59</strong></td>
+<td style="text-align: center;"><strong>57.72</strong></td>
+</tr>
+</tbody>
+</table>
 
 []
 
@@ -183,11 +538,187 @@ This paper was partially funded by the project \"Collaborative Explainable neuro
 
 # Extending Classes Setting on Places365 
 
-To validate our approach further, we evaluate it using a model trained on a dataset different from ImageNet1K. Specifically, we use a ResNet-50 pretrained on Places205 (from [ViSSL](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md#supervised)) as the old model, and a ResNet-50 pretrained on Places365 (from [CSAILVision](https://github.com/CSAILVision/places365#pre-trained-cnn-models-on-places365-standard)) as the new model. Tab. [\[tab:app_places\]](#tab:app_places) summarizes the performance of each method using the evaluation metrics defined in Sec.4.2. The results demonstrate that the new model $\phi_{\text{new}}$ is not inherently compatible with the old model, $\phi_{\text{old}}$. Moreover, the adaptation $F(\phi_{\text{old}})$ provided by FCT underperforms when compared to the new model alone. In contrast, methods that promote better clustering, such as FastFill and our proposed approach, achieve even higher performance than the standalone new model. This improvement arises from leveraging information from both the old and new models, effectively implementing a form of knowledge distillation during the learning of the forward adapter. Unlike the baselines, our method aligns all adapted representations within a unified representation space, thereby consistently maintaining compatibility with the old model.
+To validate our approach further, we evaluate it using a model trained on a dataset different from ImageNet1K. Specifically, we use a ResNet-50 pretrained on Places205 (from [ViSSL](https://github.com/facebookresearch/vissl/blob/main/MODEL_ZOO.md#supervised)) as the old model, and a ResNet-50 pretrained on Places365 (from [CSAILVision](https://github.com/CSAILVision/places365#pre-trained-cnn-models-on-places365-standard)) as the new model. Tab. 4 summarizes the performance of each method using the evaluation metrics defined in Sec.4.2. The results demonstrate that the new model $\phi_{\text{new}}$ is not inherently compatible with the old model, $\phi_{\text{old}}$. Moreover, the adaptation $F(\phi_{\text{old}})$ provided by FCT underperforms when compared to the new model alone. In contrast, methods that promote better clustering, such as FastFill and our proposed approach, achieve even higher performance than the standalone new model. This improvement arises from leveraging information from both the old and new models, effectively implementing a form of knowledge distillation during the learning of the forward adapter. Unlike the baselines, our method aligns all adapted representations within a unified representation space, thereby consistently maintaining compatibility with the old model.
+
+<table id="tab:app_places">
+<caption>Compatibility evaluation on Places365 under the Extending Classes setting. We use two independently trained ResNet-50 models: $\phi_{\text{old}}$ trained on the first 205 classes, and $\phi_{\text{new}}$ trained on all classes of Places365.</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">33.86</td>
+<td style="text-align: center;">15.76</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">37.37</td>
+<td style="text-align: center;">19.11</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">36.43</td>
+<td style="text-align: center;">19.02</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">37.04</td>
+<td style="text-align: center;">18.99</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.21</td>
+<td style="text-align: center;">0.33</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">39.71</td>
+<td style="text-align: center;">23.98</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">38.42</td>
+<td style="text-align: center;">19.94</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>38.65</strong></td>
+<td style="text-align: center;"><strong>21.88</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>39.96</strong></td>
+<td style="text-align: center;"><strong>26.19</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>38.50</strong></td>
+<td style="text-align: center;"><strong>21.77</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>35.47</strong></td>
+<td style="text-align: center;"><strong>17.98</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">37.37</td>
+<td style="text-align: center;">19.11</td>
+</tr>
+</tbody>
+</table>
 
 # Additional Architecture for Independently Pretrained Models Setting 
 
-We conduct additional experiments using a DenseNet-121 as the old model, $\phi_{\text{old}}$, and an EfficientNet-B3 as the new model, $\phi_{\text{new}}$, both pretrained on ImageNet1K and obtained from the PyTorch Hub. The results of these experiments on the ImageNet1K dataset are presented in Tab. [\[tab:abl_arch\]](#tab:abl_arch). Our approach achieves the best performance across all metrics, outperforming the baselines in both cross-model and same-model retrieval scenarios.
+We conduct additional experiments using a DenseNet-121 as the old model, $\phi_{\text{old}}$, and an EfficientNet-B3 as the new model, $\phi_{\text{new}}$, both pretrained on ImageNet1K and obtained from the PyTorch Hub. The results of these experiments on the ImageNet1K dataset are presented in Tab. 5. Our approach achieves the best performance across all metrics, outperforming the baselines in both cross-model and same-model retrieval scenarios.
+
+<table id="tab:abl_arch">
+<caption>Compatibility results on ImageNet1K under the Independently Pretrained Models setting. We use two independently trained models: DenseNet-121 as the old model, $\phi_{\text{old}}$, and an EfficientNet-B3 as the new model, $\phi_{\text{new}}$, both pretrained on ImageNet1K and obtained from the PyTorch Hub.</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">62.02</td>
+<td style="text-align: center;">32.95</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.60</td>
+<td style="text-align: center;">54.90</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">68.16</td>
+<td style="text-align: center;">53.22</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">70.64</td>
+<td style="text-align: center;">54.63</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.11</td>
+<td style="text-align: center;">0.16</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">67.76</td>
+<td style="text-align: center;">57.22</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">69.47</td>
+<td style="text-align: center;">57.43</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>69.25</strong></td>
+<td style="text-align: center;"><strong>50.20</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>69.29</strong></td>
+<td style="text-align: center;"><strong>57.36</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>71.33</strong></td>
+<td style="text-align: center;"><strong>57.50</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>67.23</strong></td>
+<td style="text-align: center;"><strong>44.34</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">71.60</td>
+<td style="text-align: center;">54.90</td>
+</tr>
+</tbody>
+</table>
 
 # Additional Experiments with DINOv2 and CLIP as Independently Pretrained Models 
 
@@ -197,11 +728,291 @@ Instead, in Tab. [\[table:clip\]](#table:clip), we report the results obtained 
 
 0.48
 
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">71.92</td>
+<td style="text-align: center;">44.07</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">59.33</td>
+<td style="text-align: center;">37.53</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">67.97</td>
+<td style="text-align: center;">41.07</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>54.82</strong></td>
+<td style="text-align: center;"><strong>32.14</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>61.30</strong></td>
+<td style="text-align: center;"><strong>41.95</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>68.74</strong></td>
+<td style="text-align: center;"><strong>43.78</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>58.73</strong></td>
+<td style="text-align: center;"><strong>31.50</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">71.92</td>
+<td style="text-align: center;">44.07</td>
+</tr>
+</tbody>
+</table>
+
 0.48
+
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th style="text-align: center;">CMC-Top1</th>
+<th style="text-align: center;">mAP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" style="text-align: center;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">55.62</td>
+<td style="text-align: center;">26.91</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">44.29</td>
+<td style="text-align: center;">16.15</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: center;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">0.17</td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">42.58</td>
+<td style="text-align: center;">16.93</td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">42.96</td>
+<td style="text-align: center;">16.88</td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: center;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>61.13</strong></td>
+<td style="text-align: center;"><strong>41.22</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>57.69</strong></td>
+<td style="text-align: center;"><strong>41.08</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>44.93</strong></td>
+<td style="text-align: center;"><strong>29.26</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>30.02</strong></td>
+<td style="text-align: center;"><strong>16.68</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;">44.29</td>
+<td style="text-align: center;">16.15</td>
+</tr>
+</tbody>
+</table>
 
 # Additional Datasets for Independently Pretrained Models adapted on Downstream Task setting 
 
-We further extend our analysis of the Independently Pretrained Models Adapted on Downstream Task setting by including two additional datasets: the larger Places365 and the fine-grained Flowers102. These additions allow us to evaluate our method's effectiveness in more challenging scenarios. The results are reported in Tab. [\[table:places-flowers\]](#table:places-flowers). In these experiments, the old model is a ResNet-18 and the new model is a ViT-L-16, both pretrained on ImageNet-1K. We employ an affine adapter with $\lambda = 12$. On both additional datasets, our approach consistently outperforms the baseline methods. The proposed $\lambda$-Orthogonality regularization not only improves retrieval performance on the downstream tasks but also encourages the adapted new model representation, $B_{\lambda}(\phi_{\text{new}})$, to remain consistent with its original form. As a result, retrieval performance on ImageNet1K is preserved.
+We further extend our analysis of the Independently Pretrained Models Adapted on Downstream Task setting by including two additional datasets: the larger Places365 and the fine-grained Flowers102. These additions allow us to evaluate our method's effectiveness in more challenging scenarios. The results are reported in Tab. 8. In these experiments, the old model is a ResNet-18 and the new model is a ViT-L-16, both pretrained on ImageNet-1K. We employ an affine adapter with $\lambda = 12$. On both additional datasets, our approach consistently outperforms the baseline methods. The proposed $\lambda$-Orthogonality regularization not only improves retrieval performance on the downstream tasks but also encourages the adapted new model representation, $B_{\lambda}(\phi_{\text{new}})$, to remain consistent with its original form. As a result, retrieval performance on ImageNet1K is preserved.
+
+<table id="table:places-flowers">
+<caption>Compatibility results on Places365 and Flowers102 for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using a backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses showing the increment compared to the newly independently trained model.</caption>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th style="text-align: center;">Query/Gallery</th>
+<th colspan="2" style="text-align: center;"><strong>Places365</strong></th>
+<th colspan="2" style="text-align: center;"><strong>Flowers102</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>3-6</span></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">ZS</td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">Ind. Train.</td>
+<td style="text-align: center;">$\phi_{\text{old}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">22.41</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">84.35</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/\phi_{\text{new}}$</td>
+<td style="text-align: center;">35.15</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">99.39</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FCT {{CITE:25}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">28.17</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">86.71</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">32.12</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">99.07</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="3" style="text-align: left;">FastFill {{CITE:22}}</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">0.20</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1.20</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">26.38</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">53.78</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\phi_{\text{new}}/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">33.04</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">11.12</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td rowspan="5" style="text-align: left;">Ours</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>28.84</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>83.36</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>29.80</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>89.90</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;"><strong>33.27</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>99.41</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;"><strong>29.94</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>98.17</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"><table id="table:places-flowers">
+<caption>Compatibility results on Places365 and Flowers102 for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using a backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses showing the increment compared to the newly independently trained model.</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>36.38</strong> (<strong>+1.23</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.38</strong></td>
+<td style="text-align: center;"><table id="table:places-flowers">
+<caption>Compatibility results on Places365 and Flowers102 for two models pretrained on ImageNet1K and adapted to downstream tasks: $\phi_{\text{old}}$, a ResNet-18, and $\phi_{\text{new}}$, a ViT-L-16, using a backward adapter $B_\lambda$ with $\lambda=12$. The ZS column indicates the CMC-Top1 performance increase on ImageNet1K, with values in parentheses showing the increment compared to the newly independently trained model.</caption>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>99.54</strong> (<strong>+0.15</strong>)</td>
+</tr>
+</tbody>
+</table></td>
+<td style="text-align: center;"><strong>+0.01</strong></td>
+</tr>
+</tbody>
+</table>
 
 # Ablation on the hyperparameter $\boldsymbol{\lambda}$ 
 
@@ -209,21 +1020,252 @@ r0.5
 
 ![](assets/fig14.png)
 
-In our experiments, we select $\lambda$ to maximize adaptability to downstream tasks while preserving the pre-trained model's performance on its original training dataset, ImageNet1K. To illustrate the impact of our approach, Tab. [\[table:lambda_ablation\]](#table:lambda_ablation) reports the CMC-Top1 scores obtained by applying our proposed $\lambda$-orthogonal regularizer to the new pre-trained model. The results, also reported in Fig. [\[fig:lambda ablation\]](#fig:lambda ablation), indicate that increasing $\lambda$ enhances the performance of the new model's representations on the downstream task.
+In our experiments, we select $\lambda$ to maximize adaptability to downstream tasks while preserving the pre-trained model's performance on its original training dataset, ImageNet1K. To illustrate the impact of our approach, Tab. 9 reports the CMC-Top1 scores obtained by applying our proposed $\lambda$-orthogonal regularizer to the new pre-trained model. The results, also reported in Fig. [\[fig:lambda ablation\]](#fig:lambda ablation), indicate that increasing $\lambda$ enhances the performance of the new model's representations on the downstream task.
 
 However, this improvement comes at the expense of reduced performance on the original dataset, as evidenced by a decrease in zero-shot (ZS) scores, particularly pronounced in the absence of regularization ($\lambda = \infty$). Empirically, we find that setting $\lambda = 12$ yields the best trade-off across all metrics. {{CITE:36}} optimize a soft orthogonality constraint, equal to case where $\lambda = 0$. However, this formulation does not lead to performance improvements and is outperformed by the use of a strictly orthogonal transformation. As discussed in Sec. 3.3, imposing strict orthogonality may hinder the model's ability to incorporate task-specific information. In contrast, our approach relaxes this constraint by introducing a tunable hyperparameter $\lambda$ that controls the deviation of the Gram matrix from the identity, allowing greater flexibility while preserving representational consistency.
 
+| $\lambda$ | $F(\phi_{\text{old}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$ |  | ZS |
+|:---|:--:|:--:|:--:|:--:|
+| $\perp$ (strict orth.) | 57.52 | 66.89 | 71.78 (+0.000) | +0.000 |
+| 0 | 57.49 | 66.79 | 71.54 (--0.241) | --0.001 |
+| 3 | 57.52 | 66.72 | 72.00 (+0.224) | +0.008 |
+| 6 | 58.09 | 68.77 | 73.07 (+1.294) | +0.028 |
+| **12** | [59.92]{.underline} | **70.72** | 75.44 (+3.659) | [+0.028]{.underline} |
+| 16 | 59.68 | [70.21]{.underline} | 76.40 (+4.625) | **+0.062** |
+| 22 | **60.20** | 69.50 | 77.89 (+6.109) | --0.318 |
+| 36 | 59.32 | 63.34 | [78.77]{.underline} (+6.990) | --3.008 |
+| $\infty$ (no reg.) | 59.26 | 62.84 | **78.89** (+7.110) | --3.526 |
+**Ablation over orthogonal regularization strength $\lambda$ on CUB dataset. Compatibility metrics on the target task and zero‐shot (ZS) CMC‐Top1 gain on ImageNet1K. Parentheses show the increment in CMC‐Top1 over the independently trained new model on CUB dataset. **
+
 To further validate our aproach we also study the effect of a scalar weight $w$ to the loss contributions of our $\lambda$-orthogonal regularization compared with two different orthogonal regularizations: Soft Orthogonality (SO){{CITE:36}}---witch correspond to the spacial case of $\lambda$ =0 in our aproach--- and Spectral Restricted Isometry Property (SRIP){{CITE:36}}. We test the regularizers across different values of scalar weight: $w = 1$, $w = 10^{-1}$, $w = 10^{-2}$, and $w = 10^{-3}$. Additionally, we include a column reporting the exact value of $\lVert W^{\top} W-I \rVert_F$ reached by the backward transformation $B_{\lambda}$ at the end of training, to indicate the deviation from strict orthogonality.
 
-As shown in the Tab. [\[table:method_comparison\]](#table:method_comparison), for both SRIP and SO, the final value of $\lVert W^{\top}W - I \rVert_F$ is governed by the optimization process and the chosen scalar weight $w$. Unlike our $\lambda$-orthogonal regularization, these approaches do not provide direct control over $\lVert W^{\top}W - I \rVert_F$; a smaller contribution of the regularizer to the total loss results in a diminished regularization effect on the backward transformation $B_{\lambda}$. When the scalar weight $w$ of the regularizer is reduced, the optimization process is unable to fully minimize the regularization term, particularly because competing loss components (such as MSE and the contrastive loss $L_C$) may favor a non-orthogonal transformation. For instance, when $w = 10^{-3}$ and $w = 10^{-2}$, the results obtained with SO, SRIP, and our $\lambda$-orthogonal regularization are comparable to those observed in the case of $\lambda = \infty$ (see Tab. [\[table:lambda_ablation\]](#table:lambda_ablation)), where the orthogonality constraint is entirely ignored. This occurs because, at such a small value of $w$, the contribution of the regularizer becomes negligible during optimization. To avoid this issue, in our method we set $w = 1$ for the $\lambda$-orthogonal regularization, thereby ensuring that the regularization term is effectively incorporated into the optimization process during the training of the backward transformation. This ensures that the regularization term achieves the target threshold $\lambda$, enabling precise control over the stability--plasticity trade-off in the backward transformation and leads to higher representation compatibility on the downstream task. As highlighted by the bold entries in the Tab. [\[table:method_comparison\]](#table:method_comparison), our method produces stable results (minor fluctuations are attributable to stochastic optimization) for $w = 1$ and $w = 10^{-1}$ in contrast to SO and SRIP. Conversely, when $w$ is very low ($10^{-2}$ or $10^{-3}$), the regularizer cannot be fully optimized, and our method behaves similarly to SO regularization, as our introduced constrains ($\lVert W^{\top}W - I \rVert_F\geq\lambda$) influences the minimum of the objective, which is never reached in practice. In contrast, due to its approximate formulation and greater complexity relative to SO, SRIP exhibits an even weaker regularization effect when $w$ is low.
+| $w$ | Method | $F(\phi_{\text{old}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$ | $B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ | ZS | $\lVert W^{\top}W - I\rVert_F$ |
+|:--:|:---|:--:|:--:|:--:|:--:|:--:|
+| 1 | SO | 57.48 | 66.79 | 71.54 (--0.241) | --0.001 | 0.09 |
+| 1 | SRIP | 57.38 | 66.57 | 71.66 (--0.120) | --0.001 | 0.08 |
+| 1 | **Ours ($\lambda=12$)** | **59.92** | **70.72** | **75.44 (+3.659)** | **+0.028** | **12.05** |
+| $10^{-1}$ | SO | 59.11 | 69.56 | 74.88 (+3.106) | +0.022 | 9.50 |
+| $10^{-1}$ | SRIP | 58.88 | 63.58 | 78.77 (+6.990) | --1.467 | 29.55 |
+| $10^{-1}$ | **Ours ($\lambda=12$)** | **59.93** | **70.70** | **75.20 (+3.419)** | **+0.076** | **12.12** |
+| $10^{-2}$ | SO | 59.06 | 63.54 | 79.06 (+7.283) | --1.344 | 29.27 |
+| $10^{-2}$ | SRIP | 59.23 | 63.42 | 78.73 (+6.955) | --3.077 | 35.42 |
+| $10^{-2}$ | **Ours ($\lambda=12$)** | 59.06 | 63.54 | 79.06 (+7.283) | --1.344 | 29.27 |
+| $10^{-3}$ | SO | 58.71 | 62.91 | 78.78 (+7.007) | --3.162 | 35.54 |
+| $10^{-3}$ | SRIP | 58.83 | 63.18 | 78.92 (+7.145) | --3.457 | 38.63 |
+| $10^{-3}$ | **Ours ($\lambda=12$)** | 58.71 | 62.91 | 78.78 (+7.007) | --3.162 | 35.54 |
+**Comparison of orthogonal regularization methods with different weight scales $w$. Compatibility metrics on the downstream task CUB200 and zero‐shot (ZS) CMC‐Top1 gain on ImageNet1K. Parentheses show the increment in CMC‐Top1 over the independently trained new model. The last column reports the final value of $\lVert W^{\top}W - I\rVert_F$. **
+
+As shown in the Tab. 10, for both SRIP and SO, the final value of $\lVert W^{\top}W - I \rVert_F$ is governed by the optimization process and the chosen scalar weight $w$. Unlike our $\lambda$-orthogonal regularization, these approaches do not provide direct control over $\lVert W^{\top}W - I \rVert_F$; a smaller contribution of the regularizer to the total loss results in a diminished regularization effect on the backward transformation $B_{\lambda}$. When the scalar weight $w$ of the regularizer is reduced, the optimization process is unable to fully minimize the regularization term, particularly because competing loss components (such as MSE and the contrastive loss $L_C$) may favor a non-orthogonal transformation. For instance, when $w = 10^{-3}$ and $w = 10^{-2}$, the results obtained with SO, SRIP, and our $\lambda$-orthogonal regularization are comparable to those observed in the case of $\lambda = \infty$ (see Tab. 9), where the orthogonality constraint is entirely ignored. This occurs because, at such a small value of $w$, the contribution of the regularizer becomes negligible during optimization. To avoid this issue, in our method we set $w = 1$ for the $\lambda$-orthogonal regularization, thereby ensuring that the regularization term is effectively incorporated into the optimization process during the training of the backward transformation. This ensures that the regularization term achieves the target threshold $\lambda$, enabling precise control over the stability--plasticity trade-off in the backward transformation and leads to higher representation compatibility on the downstream task. As highlighted by the bold entries in the Tab. 10, our method produces stable results (minor fluctuations are attributable to stochastic optimization) for $w = 1$ and $w = 10^{-1}$ in contrast to SO and SRIP. Conversely, when $w$ is very low ($10^{-2}$ or $10^{-3}$), the regularizer cannot be fully optimized, and our method behaves similarly to SO regularization, as our introduced constrains ($\lVert W^{\top}W - I \rVert_F\geq\lambda$) influences the minimum of the objective, which is never reached in practice. In contrast, due to its approximate formulation and greater complexity relative to SO, SRIP exhibits an even weaker regularization effect when $w$ is low.
 
 # Detailed Analysis of Loss Term Contributions 
 
-In this section, we analyze the contribution of each term to the final loss (Eq. [\[eq:total_loss\]](#eq:total_loss)) optimized during training. Tab. [\[tab:loss_combo_cmc_tick\]](#tab:loss_combo_cmc_tick) presents the results obtained when the adaptation dataset matches the dataset used to train the models from which the features were extracted, namely ImageNet1K. In this scenario, a strict orthogonal transformation $B_{\perp}$ is employed for backward-compatibility. We observe that when used independently, $\mathcal{L}_{F}$ ensures compatibility with the representations of the new model but significantly fails to achieve backward compatibility. This behavior highlights a pronounced forward bias inherent to $\mathcal{L}_{F}$. The backward alignment loss $\mathcal{L}_{B}$ alone promotes backward compatibility but degrades forward-adapted representation performance. The contrastive loss $\mathcal{L}_{C}$ alone significantly improves inter-model alignment and intra-class clustering, supporting both backward and forward compatibility. The combination $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ achieves the highest overall performance across compatibility scenarios, underscoring the importance of each loss component in maintaining balance between forward and backward trasformation learning.
+In this section, we analyze the contribution of each term to the final loss (Eq. [\[eq:total_loss\]](#eq:total_loss)) optimized during training. Tab. 11 presents the results obtained when the adaptation dataset matches the dataset used to train the models from which the features were extracted, namely ImageNet1K. In this scenario, a strict orthogonal transformation $B_{\perp}$ is employed for backward-compatibility. We observe that when used independently, $\mathcal{L}_{F}$ ensures compatibility with the representations of the new model but significantly fails to achieve backward compatibility. This behavior highlights a pronounced forward bias inherent to $\mathcal{L}_{F}$. The backward alignment loss $\mathcal{L}_{B}$ alone promotes backward compatibility but degrades forward-adapted representation performance. The contrastive loss $\mathcal{L}_{C}$ alone significantly improves inter-model alignment and intra-class clustering, supporting both backward and forward compatibility. The combination $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ achieves the highest overall performance across compatibility scenarios, underscoring the importance of each loss component in maintaining balance between forward and backward trasformation learning.
 
-Tab. [\[tab:loss_combo_cmc_tick_2\]](#tab:loss_combo_cmc_tick_2) shows the impact of these loss terms in a downstream task setting (CUB dataset), where $\phi_{old}$ is ResNet-18 and $\phi_{new}$ is ViT-L-16, using $\lambda$-Orthogonality with $\lambda = 12$. Similar to Tab. [\[tab:loss_combo_cmc_tick\]](#tab:loss_combo_cmc_tick), excluding the backward loss $\mathcal{L}_{B}$ still yields good forward compatibility but significantly reduces backward compatibility performance. Excluding the contrastive loss $\mathcal{L}_{C}$ substantially decreases the adaptation to the downstream task leading to lower $B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ values. Using all loss terms $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ consistently achieves the best or near-best results in forward and backward compatibility, demonstrating the complementary nature of these terms.
+Tab. 12 shows the impact of these loss terms in a downstream task setting (CUB dataset), where $\phi_{old}$ is ResNet-18 and $\phi_{new}$ is ViT-L-16, using $\lambda$-Orthogonality with $\lambda = 12$. Similar to Tab. 11, excluding the backward loss $\mathcal{L}_{B}$ still yields good forward compatibility but significantly reduces backward compatibility performance. Excluding the contrastive loss $\mathcal{L}_{C}$ substantially decreases the adaptation to the downstream task leading to lower $B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$ values. Using all loss terms $\mathcal{L}_{F} + \mathcal{L}_{B} + \mathcal{L}_{C}$ consistently achieves the best or near-best results in forward and backward compatibility, demonstrating the complementary nature of these terms.
 
 These analyses underline that each loss term contributes uniquely and significantly to achieving comprehensive and model compatibility across various tasks.
+
+<table id="tab:loss_combo_cmc_tick">
+<caption>CMC-Top1 (%) on ImageNet1K for different loss combinations ($\checkmark$ = included, $\times$ = excluded). The setting is the same of Tab. <a href="#table:imagenet_arch" data-reference-type="ref" data-reference="table:imagenet_arch">[table:imagenet_arch]</a>, where the first model, $\phi_{\text{old}}$, is a ResNet-18, whereas the second, $\phi_{\text{new}}$, is a ViT-L-16.</caption>
+<thead>
+<tr>
+<th colspan="3" style="text-align: center;">Losses</th>
+<th colspan="5" style="text-align: center;">Query/Gallery (CMC-Top1 %)</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">$\mathcal{L}_F$</td>
+<td style="text-align: center;">$\mathcal{L}_{B}$</td>
+<td style="text-align: center;">$\mathcal{L}_C$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\perp}(\phi_{\text{new}})/B_{\perp}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">59.09</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">72.27</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">49.34</td>
+<td style="text-align: center;">62.75</td>
+<td style="text-align: center;">0.04</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">61.24</td>
+<td style="text-align: center;">58.63</td>
+<td style="text-align: center;">64.97</td>
+<td style="text-align: center;">60.83</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">54.18</td>
+<td style="text-align: center;">59.29</td>
+<td style="text-align: center;">62.77</td>
+<td style="text-align: center;">72.46</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;"><strong>61.25</strong></td>
+<td style="text-align: center;">60.43</td>
+<td style="text-align: center;">65.13</td>
+<td style="text-align: center;">73.44</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">60.85</td>
+<td style="text-align: center;">59.09</td>
+<td style="text-align: center;">65.42</td>
+<td style="text-align: center;">57.90</td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">60.83</td>
+<td style="text-align: center;"><strong>61.10</strong></td>
+<td style="text-align: center;"><strong>65.54</strong></td>
+<td style="text-align: center;"><strong>73.53</strong></td>
+<td style="text-align: center;">76.63</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="tab:loss_combo_cmc_tick_2">
+<caption>CMC-Top1 (%) on CUB for different loss combinations ($\checkmark$ = included, $\times$ = excluded). The setting is the same of Tab. <a href="#table:cub" data-reference-type="ref" data-reference="table:cub">3</a>, where the first model, $\phi_{\text{old}}$, is a ResNet-18, whereas the second, $\phi_{\text{new}}$, is a ViT-L-16. A backward adapter $B_\lambda$ with $\lambda=12$ is used to adapt the improved model on the downstream task.</caption>
+<thead>
+<tr>
+<th colspan="3" style="text-align: center;">Losses</th>
+<th colspan="5" style="text-align: center;">Query/Gallery (CMC-Top1 %)</th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">$\mathcal{L}_F$</td>
+<td style="text-align: center;">$\mathcal{L}_{B}$</td>
+<td style="text-align: center;">$\mathcal{L}_C$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$F(\phi_{\text{old}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/\phi_{\text{old}}$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/F(\phi_{\text{old}})$</td>
+<td style="text-align: center;">$B_{\lambda}(\phi_{\text{new}})/B_{\lambda}(\phi_{\text{new}})$</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">51.72</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">63.82</td>
+<td style="text-align: center;">72.14</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">35.27</td>
+<td style="text-align: center;">45.80</td>
+<td style="text-align: center;">0.0</td>
+<td style="text-align: center;">71.91</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">37.15</td>
+<td style="text-align: center;">47.56</td>
+<td style="text-align: center;">46.56</td>
+<td style="text-align: center;">60.70</td>
+<td style="text-align: center;">69.76</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">52.79</td>
+<td style="text-align: center;">59.14</td>
+<td style="text-align: center;">58.38</td>
+<td style="text-align: center;">66.46</td>
+<td style="text-align: center;">73.36</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">50.43</td>
+<td style="text-align: center;">59.88</td>
+<td style="text-align: center;">58.57</td>
+<td style="text-align: center;">70.13</td>
+<td style="text-align: center;">74.86</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\times$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;"><strong>53.27</strong></td>
+<td style="text-align: center;">58.66</td>
+<td style="text-align: center;">60.45</td>
+<td style="text-align: center;">59.44</td>
+<td style="text-align: center;">73.12</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">$\checkmark$</td>
+<td style="text-align: center;">51.12</td>
+<td style="text-align: center;"><strong>59.92</strong></td>
+<td style="text-align: center;"><strong>60.64</strong></td>
+<td style="text-align: center;"><strong>70.72</strong></td>
+<td style="text-align: center;"><strong>75.44</strong></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
 
 # Distance metric for Partial Backfilling Ordering 
 
@@ -239,15 +1281,31 @@ Our proposed partial backfilling strategy is guided by a distance metric $d$, wh
 
 []
 
-+-----------------+-----------------------+
-| Method          | $\widetilde{M}$       |
-+:================+:=========:+:=========:+
-| 2-3             | CMC-Top1  | mAP       |
-+-----------------+-----------+-----------+
-| MSE             | 61.20     | 36.46     |
-+-----------------+-----------+-----------+
-| Cosine Distance | **61.68** | **37.10** |
-+-----------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">MSE</td>
+<td style="text-align: center;">61.20</td>
+<td style="text-align: center;">36.46</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cosine Distance</td>
+<td style="text-align: center;"><strong>61.68</strong></td>
+<td style="text-align: center;"><strong>37.10</strong></td>
+</tr>
+</tbody>
+</table>
 
 <figure>
 <p>![](assets/fig17.png)</p>
@@ -259,15 +1317,31 @@ Our proposed partial backfilling strategy is guided by a distance metric $d$, wh
 
 []
 
-+-----------------+-----------------------+
-| Method          | $\widetilde{M}$       |
-+:================+:=========:+:=========:+
-| 2-3             | CMC-Top1  | mAP       |
-+-----------------+-----------+-----------+
-| MSE             | **76.59** | 57.72     |
-+-----------------+-----------+-----------+
-| Cosine Distance | 76.49     | **58.18** |
-+-----------------+-----------+-----------+
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Method</th>
+<th colspan="2" style="text-align: center;">$\widetilde{M}$</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span>2-3</span></td>
+<td style="text-align: center;">CMC-Top1</td>
+<td style="text-align: center;">mAP</td>
+</tr>
+<tr>
+<td style="text-align: left;">MSE</td>
+<td style="text-align: center;"><strong>76.59</strong></td>
+<td style="text-align: center;">57.72</td>
+</tr>
+<tr>
+<td style="text-align: left;">Cosine Distance</td>
+<td style="text-align: center;">76.49</td>
+<td style="text-align: center;"><strong>58.18</strong></td>
+</tr>
+</tbody>
+</table>
 
 []
 

@@ -715,7 +715,7 @@ tags: [paper]
 - [PromptStyler: Prompt-driven Style Generation for Source-free Domain Generalization](https://arxiv.org/abs/2307.15199)
 - [Jailbreak in pieces: Compositional Adversarial Attacks on Multi-Modal Language Models](https://arxiv.org/abs/2307.14539)
 - [(Ab)using Images and Sounds for Indirect Instruction Injection in Multi-Modal LLMs](https://arxiv.org/abs/2307.10490)
-- [Linear Alignment of Vision-language Models for Image Captioning](https://arxiv.org/abs/2307.05591)
+- [[linear_alignment_of_vision_language_models_for_image_captioning|Linear Alignment of Vision-language Models for Image Captioning]]
 - [Fooling Contrastive Language-Image Pre-Trained Models with CLIPMasterPrints](https://arxiv.org/abs/2307.03798)
 - [Multimodal Prompt Learning for Product Title Generation with Extremely Limited Labels](https://arxiv.org/abs/2307.01969)
 - [Together Yet Apart: Multimodal Representation Learning for Personalised Visual Art Recommendation](https://doi.org/10.1145/3565472.3592964)
