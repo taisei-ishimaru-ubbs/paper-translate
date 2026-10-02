@@ -1,0 +1,1153 @@
+{
+  "id": "2306.09316",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "fd6d5e39d4e6641f3a1b7bdebd9f649c2c3705a8",
+    "externalIds": {
+      "DBLP": "conf/eccv/KarazijaLVR24",
+      "ArXiv": "2306.09316",
+      "DOI": "10.1007/978-3-031-72652-1_18",
+      "CorpusId": 259171746
+    },
+    "url": "https://www.semanticscholar.org/paper/fd6d5e39d4e6641f3a1b7bdebd9f649c2c3705a8",
+    "title": "Diffusion Models for Open-Vocabulary Segmentation"
+  },
+  "references": [
+    {
+      "paper_id": "1040127769d297a724cad802aa74af9945fae097",
+      "arxiv_id": "2404.06542",
+      "doi": "10.1109/CVPR52733.2024.00354",
+      "title": "Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation",
+      "url": "https://www.semanticscholar.org/paper/1040127769d297a724cad802aa74af9945fae097"
+    },
+    {
+      "paper_id": "745deb9da875f301046e2117406a3f67dec6624b",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV57701.2024.00149",
+      "title": "FOSSIL: Free Open-Vocabulary Semantic Segmentation through Synthetic References Retrieval",
+      "url": "https://www.semanticscholar.org/paper/745deb9da875f301046e2117406a3f67dec6624b"
+    },
+    {
+      "paper_id": "22d19c592ff3cc41f48a92ad9dbf743caba5b6c3",
+      "arxiv_id": "2309.14289",
+      "doi": "10.1109/WACV57701.2024.00143",
+      "title": "CLIP-DIY: CLIP Dense Inference Yields Open-Vocabulary Semantic Segmentation For-Free",
+      "url": "https://www.semanticscholar.org/paper/22d19c592ff3cc41f48a92ad9dbf743caba5b6c3"
+    },
+    {
+      "paper_id": "4702d5a163477c734a54f3ed2d171dca1504eaae",
+      "arxiv_id": "2303.16203",
+      "doi": "10.1109/ICCV51070.2023.00210",
+      "title": "Your Diffusion Model is Secretly a Zero-Shot Classifier",
+      "url": "https://www.semanticscholar.org/paper/4702d5a163477c734a54f3ed2d171dca1504eaae"
+    },
+    {
+      "paper_id": "1bba2a9c6db3b356b8ae6ef2efff5645e4d96c2b",
+      "arxiv_id": "2303.15233",
+      "doi": "10.48550/arXiv.2303.15233",
+      "title": "Text-to-Image Diffusion Models are Zero-Shot Classifiers",
+      "url": "https://www.semanticscholar.org/paper/1bba2a9c6db3b356b8ae6ef2efff5645e4d96c2b"
+    },
+    {
+      "paper_id": "f9badd638eb683f2ba39fd089fbabb87c9a63787",
+      "arxiv_id": "2303.14396",
+      "doi": "10.1109/CVPR52729.2023.00290",
+      "title": "IFSeg: Image-free Semantic Segmentation via Vision-Language Model",
+      "url": "https://www.semanticscholar.org/paper/f9badd638eb683f2ba39fd089fbabb87c9a63787"
+    },
+    {
+      "paper_id": "5b84bab8a8f18e803db8d3db7ab6e4fe08fc3959",
+      "arxiv_id": "2303.11681",
+      "doi": "10.1109/ICCV51070.2023.00117",
+      "title": "DiffuMask: Synthesizing Images with Pixel-level Annotations for Semantic Segmentation Using Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/5b84bab8a8f18e803db8d3db7ab6e4fe08fc3959"
+    },
+    {
+      "paper_id": "aef10182026764b376256ece8e4381a34f808980",
+      "arxiv_id": "2303.09813",
+      "doi": "10.48550/arXiv.2303.09813",
+      "title": "DiffusionSeg: Adapting Diffusion Towards Unsupervised Object Discovery",
+      "url": "https://www.semanticscholar.org/paper/aef10182026764b376256ece8e4381a34f808980"
+    },
+    {
+      "paper_id": "323400245885e08ad498cd108e30e18020662278",
+      "arxiv_id": "2303.04803",
+      "doi": "10.1109/CVPR52729.2023.00289",
+      "title": "Open-Vocabulary Panoptic Segmentation with Text-to-Image Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/323400245885e08ad498cd108e30e18020662278"
+    },
+    {
+      "paper_id": "be7b764fe1c9c32cbe349bde1fbb19321fd1d71c",
+      "arxiv_id": "2303.02151",
+      "doi": "10.1109/CVPR52729.2023.01460",
+      "title": "Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/be7b764fe1c9c32cbe349bde1fbb19321fd1d71c"
+    },
+    {
+      "paper_id": "bd4d6f8c0935d4bb7a4ec5f426bac7bbb0f50fd4",
+      "arxiv_id": "2302.10307",
+      "doi": "10.48550/arXiv.2302.10307",
+      "title": "ViewCo: Discovering Text-Supervised Segmentation Masks via Multi-View Semantic Consistency",
+      "url": "https://www.semanticscholar.org/paper/bd4d6f8c0935d4bb7a4ec5f426bac7bbb0f50fd4"
+    },
+    {
+      "paper_id": "c74b5d298cd5fe735f2c8bc18a94f28010a2ccfc",
+      "arxiv_id": "2301.11320",
+      "doi": "10.1109/CVPR52729.2023.00305",
+      "title": "Cut and Learn for Unsupervised Object Detection and Instance Segmentation",
+      "url": "https://www.semanticscholar.org/paper/c74b5d298cd5fe735f2c8bc18a94f28010a2ccfc"
+    },
+    {
+      "paper_id": "4626890a6cbaa92f20d0bb181a499d23c2cf01a1",
+      "arxiv_id": "2301.09121",
+      "doi": "10.1109/CVPR52729.2023.00287",
+      "title": "Learning Open-Vocabulary Semantic Segmentation Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/4626890a6cbaa92f20d0bb181a499d23c2cf01a1"
+    },
+    {
+      "paper_id": "9b6d703561b59adc24476234df0bdde607445289",
+      "arxiv_id": "2301.05221",
+      "doi": "10.1109/ICCV51070.2023.00705",
+      "title": "Open-vocabulary Object Segmentation with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/9b6d703561b59adc24476234df0bdde607445289"
+    },
+    {
+      "paper_id": "5ff0932c8686c2129f43245f35bb62fdbf5f2173",
+      "arxiv_id": "2212.07834",
+      "doi": "10.1109/CVPR52729.2023.00310",
+      "title": "Unsupervised Object Localization: Observing the Background to Discover Objects",
+      "url": "https://www.semanticscholar.org/paper/5ff0932c8686c2129f43245f35bb62fdbf5f2173"
+    },
+    {
+      "paper_id": "8ca316a10a2749e4c6bf3d0284e8cce2f56a4543",
+      "arxiv_id": "2212.04994",
+      "doi": "10.1109/CVPR52729.2023.01860",
+      "title": "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning",
+      "url": "https://www.semanticscholar.org/paper/8ca316a10a2749e4c6bf3d0284e8cce2f56a4543"
+    },
+    {
+      "paper_id": "9245ea27d258a3511c94460e5adeef5418e77010",
+      "arxiv_id": "2212.00785",
+      "doi": "10.1109/CVPR52729.2023.01074",
+      "title": "Learning to Generate Text-Grounded Mask for Open-World Semantic Segmentation from Only Image-Text Pairs",
+      "url": "https://www.semanticscholar.org/paper/9245ea27d258a3511c94460e5adeef5418e77010"
+    },
+    {
+      "paper_id": "ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79",
+      "arxiv_id": "2211.16198",
+      "doi": "10.1109/ICCV51070.2023.00257",
+      "title": "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79"
+    },
+    {
+      "paper_id": "4bae689ade260c1624406b5bf2d58d637a0c5aa9",
+      "arxiv_id": "2211.14813",
+      "doi": "10.48550/arXiv.2211.14813",
+      "title": "SegCLIP: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/4bae689ade260c1624406b5bf2d58d637a0c5aa9"
+    },
+    {
+      "paper_id": "0231f2aed9a96cb516242fb57f2cb63f5651c4d8",
+      "arxiv_id": "2211.05105",
+      "doi": "10.1109/CVPR52729.2023.02157",
+      "title": "Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/0231f2aed9a96cb516242fb57f2cb63f5651c4d8"
+    },
+    {
+      "paper_id": "baa4f95081e9663fb045d145acc70049ace16ac9",
+      "arxiv_id": "2211.01095",
+      "doi": "10.1007/s11633-025-1562-4",
+      "title": "DPM-Solver++: Fast Solver for Guided Sampling of Diffusion Probabilistic Models",
+      "url": "https://www.semanticscholar.org/paper/baa4f95081e9663fb045d145acc70049ace16ac9"
+    },
+    {
+      "paper_id": "ec7bc3f54074bb73109b8e2348c1b4d822e7ee72",
+      "arxiv_id": "2210.12148",
+      "doi": "10.48550/arXiv.2210.12148",
+      "title": "Unsupervised Multi-object Segmentation by Predicting Probable Motion Patterns",
+      "url": "https://www.semanticscholar.org/paper/ec7bc3f54074bb73109b8e2348c1b4d822e7ee72"
+    },
+    {
+      "paper_id": "ed3d86bab24ae0414602785e63b89944b58c0918",
+      "arxiv_id": "2210.09996",
+      "doi": "10.1109/ICCV51070.2023.00513",
+      "title": "Perceptual Grouping in Contrastive Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ed3d86bab24ae0414602785e63b89944b58c0918"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "a8e15878456958207a600fc83ff402c141ebc9aa",
+      "arxiv_id": "2210.07920",
+      "doi": "10.48550/arXiv.2210.07920",
+      "title": "MOVE: Unsupervised Movable Object Segmentation and Detection",
+      "url": "https://www.semanticscholar.org/paper/a8e15878456958207a600fc83ff402c141ebc9aa"
+    },
+    {
+      "paper_id": "77d4100d6fe291352e705147467f9acb1e308c60",
+      "arxiv_id": "2210.07224",
+      "doi": "10.48550/arXiv.2210.07224",
+      "title": "Exploring Long-Sequence Masked Autoencoders",
+      "url": "https://www.semanticscholar.org/paper/77d4100d6fe291352e705147467f9acb1e308c60"
+    },
+    {
+      "paper_id": "37d626720f5003373336098ce7c01a1a38e6b63d",
+      "arxiv_id": "2210.04885",
+      "doi": "10.48550/arXiv.2210.04885",
+      "title": "What the DAAM: Interpreting Stable Diffusion Using Cross Attention",
+      "url": "https://www.semanticscholar.org/paper/37d626720f5003373336098ce7c01a1a38e6b63d"
+    },
+    {
+      "paper_id": "29c2d3d77b6d6f24f4356d5ba20c1a6ab4229c76",
+      "arxiv_id": "2210.04150",
+      "doi": "10.1109/CVPR52729.2023.00682",
+      "title": "Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP",
+      "url": "https://www.semanticscholar.org/paper/29c2d3d77b6d6f24f4356d5ba20c1a6ab4229c76"
+    },
+    {
+      "paper_id": "04e541391e8dce14d099d00fb2c21dbbd8afe87f",
+      "arxiv_id": "2208.01626",
+      "doi": "10.48550/arXiv.2208.01626",
+      "title": "Prompt-to-Prompt Image Editing with Cross Attention Control",
+      "url": "https://www.semanticscholar.org/paper/04e541391e8dce14d099d00fb2c21dbbd8afe87f"
+    },
+    {
+      "paper_id": "af9f365ed86614c800f082bd8eb14be76072ad16",
+      "arxiv_id": "2207.12598",
+      "doi": "10.48550/arXiv.2207.12598",
+      "title": "Classifier-Free Diffusion Guidance",
+      "url": "https://www.semanticscholar.org/paper/af9f365ed86614c800f082bd8eb14be76072ad16"
+    },
+    {
+      "paper_id": "c034a46b8ed5a814a299b28d0be198b9be5128d7",
+      "arxiv_id": "2207.08455",
+      "doi": "10.48550/arXiv.2207.08455",
+      "title": "Open-world Semantic Segmentation via Contrasting and Clustering Vision-Language Embedding",
+      "url": "https://www.semanticscholar.org/paper/c034a46b8ed5a814a299b28d0be198b9be5128d7"
+    },
+    {
+      "paper_id": "4b23a0f7ded1e4201dbb9a2d61397d86d2ad7c48",
+      "arxiv_id": "2206.07045",
+      "doi": "10.48550/arXiv.2206.07045",
+      "title": "ReCo: Retrieve and Co-segment for Zero-shot Transfer",
+      "url": "https://www.semanticscholar.org/paper/4b23a0f7ded1e4201dbb9a2d61397d86d2ad7c48"
+    },
+    {
+      "paper_id": "9695824d7a01fad57ba9c01d7d76a519d78d65e7",
+      "arxiv_id": "2205.11487",
+      "doi": "10.48550/arXiv.2205.11487",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "url": "https://www.semanticscholar.org/paper/9695824d7a01fad57ba9c01d7d76a519d78d65e7"
+    },
+    {
+      "paper_id": "c4c0cfc77796131e012ecf267cad13eecdf85572",
+      "arxiv_id": "2205.07844",
+      "doi": "10.48550/arXiv.2205.07844",
+      "title": "Guess What Moves: Unsupervised Video and Image Segmentation by Anticipating Motion",
+      "url": "https://www.semanticscholar.org/paper/c4c0cfc77796131e012ecf267cad13eecdf85572"
+    },
+    {
+      "paper_id": "4f1e89f51bbc67bb61d69a1ee7ff1277322e1959",
+      "arxiv_id": "2205.07839",
+      "doi": "10.1109/CVPR52688.2022.00818",
+      "title": "Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization",
+      "url": "https://www.semanticscholar.org/paper/4f1e89f51bbc67bb61d69a1ee7ff1277322e1959"
+    },
+    {
+      "paper_id": "c57293882b2561e1ba03017902df9fc2f289dea2",
+      "arxiv_id": "2204.06125",
+      "doi": "10.48550/arXiv.2204.06125",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "url": "https://www.semanticscholar.org/paper/c57293882b2561e1ba03017902df9fc2f289dea2"
+    },
+    {
+      "paper_id": "f9efe25bed090d81ad506a314f62ef144970b4c0",
+      "arxiv_id": "2203.12614",
+      "doi": "10.1109/CVPRW56347.2022.00442",
+      "title": "Unsupervised Salient Object Detection with Spectral Cluster Voting",
+      "url": "https://www.semanticscholar.org/paper/f9efe25bed090d81ad506a314f62ef144970b4c0"
+    },
+    {
+      "paper_id": "918646809c7e22c94994fe80c3a2840b4c951a3c",
+      "arxiv_id": "2203.08414",
+      "doi": "10.48550/arXiv.2203.08414",
+      "title": "Unsupervised Semantic Segmentation by Distilling Feature Correspondences",
+      "url": "https://www.semanticscholar.org/paper/918646809c7e22c94994fe80c3a2840b4c951a3c"
+    },
+    {
+      "paper_id": "67b78f31f149970aafc5cce3c7b2382cd9142fa3",
+      "arxiv_id": "2202.12181",
+      "doi": "10.1109/CVPR52688.2022.01378",
+      "title": "FreeSOLO: Learning to Segment Objects without Annotations",
+      "url": "https://www.semanticscholar.org/paper/67b78f31f149970aafc5cce3c7b2382cd9142fa3"
+    },
+    {
+      "paper_id": "67804a5870b8a3a997c615784e17465889192bf6",
+      "arxiv_id": "2202.11539",
+      "doi": "10.1109/CVPR52688.2022.01414",
+      "title": "Self-Supervised Transformers for Unsupervised Object Discovery using Normalized Cut",
+      "url": "https://www.semanticscholar.org/paper/67804a5870b8a3a997c615784e17465889192bf6"
+    },
+    {
+      "paper_id": "0b5f27a5766c5d1394a6282ad94fec21d620bd6b",
+      "arxiv_id": "2202.11094",
+      "doi": "10.1109/CVPR52688.2022.01760",
+      "title": "GroupViT: Semantic Segmentation Emerges from Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/0b5f27a5766c5d1394a6282ad94fec21d620bd6b"
+    },
+    {
+      "paper_id": "cc9826c222ac1e81b4b374dd9e0df130f298b1e8",
+      "arxiv_id": "2201.03546",
+      "doi": "",
+      "title": "Language-driven Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/cc9826c222ac1e81b4b374dd9e0df130f298b1e8"
+    },
+    {
+      "paper_id": "ae92c1fd30ba49212e16152646e9f7f1ae385b08",
+      "arxiv_id": "2112.14757",
+      "doi": "10.1007/978-3-031-19818-2_42",
+      "title": "A Simple Baseline for Open-Vocabulary Semantic Segmentation with Pre-trained Vision-Language Model",
+      "url": "https://www.semanticscholar.org/paper/ae92c1fd30ba49212e16152646e9f7f1ae385b08"
+    },
+    {
+      "paper_id": "8d737dc6a91a7bfde20aed7bb13d100476de5ae3",
+      "arxiv_id": "2112.12143",
+      "doi": "10.1007/978-3-031-20059-5_31",
+      "title": "Scaling Open-Vocabulary Image Segmentation with Image-Level Labels",
+      "url": "https://www.semanticscholar.org/paper/8d737dc6a91a7bfde20aed7bb13d100476de5ae3"
+    },
+    {
+      "paper_id": "f58acfeb022ba15282ec5fc047c98010311fa9da",
+      "arxiv_id": "2112.10752",
+      "doi": "10.1109/CVPR52688.2022.01042",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/f58acfeb022ba15282ec5fc047c98010311fa9da"
+    },
+    {
+      "paper_id": "eef9b31e672cfa18d323ebd653d11f204ee80039",
+      "arxiv_id": "2112.07910",
+      "doi": "10.1109/CVPR52688.2022.01129",
+      "title": "Decoupling Zero-Shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/eef9b31e672cfa18d323ebd653d11f204ee80039"
+    },
+    {
+      "paper_id": "42f2271cebb7f272b0066c1f22d33381f139ee68",
+      "arxiv_id": "2112.03126",
+      "doi": "",
+      "title": "Label-Efficient Semantic Segmentation with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/42f2271cebb7f272b0066c1f22d33381f139ee68"
+    },
+    {
+      "paper_id": "1c8008a343dff523f1b52d9ae3d71f59ad64fdc9",
+      "arxiv_id": "2112.01502",
+      "doi": "10.1109/3DV57658.2022.00057",
+      "title": "Dimensions of Motion: Monocular Prediction through Flow Subspaces",
+      "url": "https://www.semanticscholar.org/paper/1c8008a343dff523f1b52d9ae3d71f59ad64fdc9"
+    },
+    {
+      "paper_id": "0a7e7347e16bf13d710f6f3d30748baabdbb96ad",
+      "arxiv_id": "2112.01071",
+      "doi": "10.1007/978-3-031-19815-1_40",
+      "title": "Extract Free Dense Labels from CLIP",
+      "url": "https://www.semanticscholar.org/paper/0a7e7347e16bf13d710f6f3d30748baabdbb96ad"
+    },
+    {
+      "paper_id": "6351ebb4a3287f5f3e1273464b3b91e5df5a16d7",
+      "arxiv_id": "2111.06377",
+      "doi": "10.1109/CVPR52688.2022.01553",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "url": "https://www.semanticscholar.org/paper/6351ebb4a3287f5f3e1273464b3b91e5df5a16d7"
+    },
+    {
+      "paper_id": "9d0340708906b5cea55ea4ef1f9a69b5b5c2ca75",
+      "arxiv_id": "2109.14279",
+      "doi": "10.5244/c.35.365",
+      "title": "Localizing Objects with Self-supervised Transformers and no Labels",
+      "url": "https://www.semanticscholar.org/paper/9d0340708906b5cea55ea4ef1f9a69b5b5c2ca75"
+    },
+    {
+      "paper_id": "f531733697754b45d57dd0fb9fed00ff577b0f97",
+      "arxiv_id": "2108.12517",
+      "doi": "10.1109/ICCV48922.2021.00942",
+      "title": "SIGN: Spatial-information Incorporated Generative Network for Generalized Zero-shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/f531733697754b45d57dd0fb9fed00ff577b0f97"
+    },
+    {
+      "paper_id": "6470d56e2b96542d191067a258261f92aa8ed82c",
+      "arxiv_id": "2105.08127",
+      "doi": "",
+      "title": "Finding an Unsupervised Image Segmenter in Each of Your Deep Generative Models",
+      "url": "https://www.semanticscholar.org/paper/6470d56e2b96542d191067a258261f92aa8ed82c"
+    },
+    {
+      "paper_id": "ad4a0938c48e61b7827869e4ac3baffd0aefab35",
+      "arxiv_id": "2104.14294",
+      "doi": "10.1109/ICCV48922.2021.00951",
+      "title": "Emerging Properties in Self-Supervised Vision Transformers",
+      "url": "https://www.semanticscholar.org/paper/ad4a0938c48e61b7827869e4ac3baffd0aefab35"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "633e2fbfc0b21e959a244100937c5853afca4853",
+      "arxiv_id": "2011.13456",
+      "doi": "",
+      "title": "Score-Based Generative Modeling through Stochastic Differential Equations",
+      "url": "https://www.semanticscholar.org/paper/633e2fbfc0b21e959a244100937c5853afca4853"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "cb009fb9de457878a996390ebc493875501d8d1f",
+      "arxiv_id": "2008.06893",
+      "doi": "10.1145/3394171.3413593",
+      "title": "Context-aware Feature Generation For Zero-shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/cb009fb9de457878a996390ebc493875501d8d1f"
+    },
+    {
+      "paper_id": "5c126ae3421f05768d8edd97ecd44b1364e2c99a",
+      "arxiv_id": "2006.11239",
+      "doi": "",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://www.semanticscholar.org/paper/5c126ae3421f05768d8edd97ecd44b1364e2c99a"
+    },
+    {
+      "paper_id": "4a186df58f062bccb54304d8991bfeed402bddff",
+      "arxiv_id": "2006.04988",
+      "doi": "",
+      "title": "Object Segmentation Without Labels with Large-Scale Generative Models",
+      "url": "https://www.semanticscholar.org/paper/4a186df58f062bccb54304d8991bfeed402bddff"
+    },
+    {
+      "paper_id": "ff715c7e13bd9ac62da50c6190d1a7ca2de00485",
+      "arxiv_id": "2005.08104",
+      "doi": "10.1109/cvpr42600.2020.00431",
+      "title": "Single-Stage Semantic Segmentation From Image Labels",
+      "url": "https://www.semanticscholar.org/paper/ff715c7e13bd9ac62da50c6190d1a7ca2de00485"
+    },
+    {
+      "paper_id": "12bc71022e2c3128b09f8bfcc6b36a178d89e56e",
+      "arxiv_id": "1912.13471",
+      "doi": "10.1007/978-3-030-58574-7_31",
+      "title": "OneGAN: Simultaneous Unsupervised Learning of Conditional Image Generation, Foreground Segmentation, and Fine-Grained Clustering",
+      "url": "https://www.semanticscholar.org/paper/12bc71022e2c3128b09f8bfcc6b36a178d89e56e"
+    },
+    {
+      "paper_id": "ff24ced52576b5da970c1397227e2c14933e7891",
+      "arxiv_id": "1906.00817",
+      "doi": "",
+      "title": "Zero-Shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/ff24ced52576b5da970c1397227e2c14933e7891"
+    },
+    {
+      "paper_id": "ea8d6c2de162e0f9ad89af7b950333cb29e94622",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2019.00845",
+      "title": "Semantic Projection Network for Zero- and Few-Label Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/ea8d6c2de162e0f9ad89af7b950333cb29e94622"
+    },
+    {
+      "paper_id": "24bae1dbad640d81306d106a380261eb7d6063fb",
+      "arxiv_id": "1905.13539",
+      "doi": "",
+      "title": "Unsupervised Object Segmentation by Redrawing",
+      "url": "https://www.semanticscholar.org/paper/24bae1dbad640d81306d106a380261eb7d6063fb"
+    },
+    {
+      "paper_id": "c002ceaeee6fb74bebbdc2012a877ba78f1fd4de",
+      "arxiv_id": "1905.12663",
+      "doi": "",
+      "title": "Emergence of Object Segmentation in Perturbed Generative Models",
+      "url": "https://www.semanticscholar.org/paper/c002ceaeee6fb74bebbdc2012a877ba78f1fd4de"
+    },
+    {
+      "paper_id": "1183d6d59020415854c1e782a5d788a400d1a9dc",
+      "arxiv_id": "1904.00566",
+      "doi": "10.1109/CVPR.2019.00623",
+      "title": "Multi-Source Weak Supervision for Saliency Detection",
+      "url": "https://www.semanticscholar.org/paper/1183d6d59020415854c1e782a5d788a400d1a9dc"
+    },
+    {
+      "paper_id": "9f295c2dd41c9dec1c0e866c1701b4cf48ff807d",
+      "arxiv_id": "1803.10910",
+      "doi": "10.1109/CVPR.2018.00941",
+      "title": "Deep Unsupervised Saliency Detection: A Multiple Noisy Labeling Perspective",
+      "url": "https://www.semanticscholar.org/paper/9f295c2dd41c9dec1c0e866c1701b4cf48ff807d"
+    },
+    {
+      "paper_id": "2a5667702b0f1ff77dde8fb3e2e10d4e05e8de9d",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2017.544",
+      "title": "Scene Parsing through ADE20K Dataset",
+      "url": "https://www.semanticscholar.org/paper/2a5667702b0f1ff77dde8fb3e2e10d4e05e8de9d"
+    },
+    {
+      "paper_id": "1a0912bb76777469295bb2c059faee907e7f3258",
+      "arxiv_id": "1703.06870",
+      "doi": "",
+      "title": "Mask R-CNN",
+      "url": "https://www.semanticscholar.org/paper/1a0912bb76777469295bb2c059faee907e7f3258"
+    },
+    {
+      "paper_id": "0095b9f73c000f2609fc81ffb7769df7cd77bda1",
+      "arxiv_id": "1612.03716",
+      "doi": "10.1109/CVPR.2018.00132",
+      "title": "COCO-Stuff: Thing and Stuff Classes in Context",
+      "url": "https://www.semanticscholar.org/paper/0095b9f73c000f2609fc81ffb7769df7cd77bda1"
+    },
+    {
+      "paper_id": "c8c494ee5488fe20e0aa01bddf3fc4632086d654",
+      "arxiv_id": "1604.01685",
+      "doi": "10.1109/CVPR.2016.350",
+      "title": "The Cityscapes Dataset for Semantic Urban Scene Understanding",
+      "url": "https://www.semanticscholar.org/paper/c8c494ee5488fe20e0aa01bddf3fc4632086d654"
+    },
+    {
+      "paper_id": "6364fdaa0a0eccd823a779fcdd489173f938e91a",
+      "arxiv_id": "1505.04597",
+      "doi": "10.1007/978-3-319-24574-4_28",
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/6364fdaa0a0eccd823a779fcdd489173f938e91a"
+    },
+    {
+      "paper_id": "2dcef55a07f8607a819c21fe84131ea269cc2e3c",
+      "arxiv_id": "1503.03585",
+      "doi": "",
+      "title": "Deep Unsupervised Learning using Nonequilibrium Thermodynamics",
+      "url": "https://www.semanticscholar.org/paper/2dcef55a07f8607a819c21fe84131ea269cc2e3c"
+    },
+    {
+      "paper_id": "3419ccd5c94d301ee08d716d037f0c3c6a62e78e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2014.119",
+      "title": "The Role of Context for Object Detection and Semantic Segmentation in the Wild",
+      "url": "https://www.semanticscholar.org/paper/3419ccd5c94d301ee08d716d037f0c3c6a62e78e"
+    },
+    {
+      "paper_id": "87f40e6f3022adbc1f1905e3e506abad05a9964f",
+      "arxiv_id": "1310.4546",
+      "doi": "",
+      "title": "Distributed Representations of Words and Phrases and their Compositionality",
+      "url": "https://www.semanticscholar.org/paper/87f40e6f3022adbc1f1905e3e506abad05a9964f"
+    },
+    {
+      "paper_id": "a074c93f8e74f8aff906bb1bea1c971fd737c4b3",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-642-33712-3_3",
+      "title": "Geodesic Saliency Using Background Priors",
+      "url": "https://www.semanticscholar.org/paper/a074c93f8e74f8aff906bb1bea1c971fd737c4b3"
+    },
+    {
+      "paper_id": "7670e3c493126c8b2f211ddfc45f89de905f1d38",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2011.5995344",
+      "title": "Global contrast based salient region detection",
+      "url": "https://www.semanticscholar.org/paper/7670e3c493126c8b2f211ddfc45f89de905f1d38"
+    },
+    {
+      "paper_id": "b80914dbbee9f6b2455742d8117417731e6ecf12",
+      "arxiv_id": "",
+      "doi": "10.6688/JISE.2001.17.5.1",
+      "title": "A Fast Algorithm for Multilevel Thresholding",
+      "url": "https://www.semanticscholar.org/paper/b80914dbbee9f6b2455742d8117417731e6ecf12"
+    },
+    {
+      "paper_id": "6dfcd4c74eed69efe582fabc239ad0d92a74d5fe",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2301.05221",
+      "title": "Guiding Text-to-Image Diffusion Model Towards Grounded Generation",
+      "url": "https://www.semanticscholar.org/paper/6dfcd4c74eed69efe582fabc239ad0d92a74d5fe"
+    },
+    {
+      "paper_id": "ef4f5a50837a7c1b3e87b9300ffc7ba00d461a0f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "AUTO-ENCODING VARIATIONAL BAYES",
+      "url": "https://www.semanticscholar.org/paper/ef4f5a50837a7c1b3e87b9300ffc7ba00d461a0f"
+    },
+    {
+      "paper_id": "888a154c5660b08ea1cf61b78d8b3ad21a0bf2ad",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Consistent Structural Relation Learning for Zero-Shot Segmentation",
+      "url": "https://www.semanticscholar.org/paper/888a154c5660b08ea1cf61b78d8b3ad21a0bf2ad"
+    },
+    {
+      "paper_id": "2d062c8ab1afb34cf345d6c8c667e14ec0740e56",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "DeepUSPS: Deep Robust Unsupervised Saliency Prediction via Self-supervision",
+      "url": "https://www.semanticscholar.org/paper/2d062c8ab1afb34cf345d6c8c667e14ec0740e56"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The PASCAL visual object classes challenge 2006 (VOC2006) results",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Edinburgh Research Explorer The PASCAL Visual Object Classes (VOC) Challenge",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Introducing chatgpt",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Diffusion Models for Open-Vocabulary Segmentation 17",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "1f24ad7aba5bcf390d41b4e9ef3e7224d2f34cb7",
+      "arxiv_id": "2608.05878",
+      "doi": "",
+      "title": "MAVISEG: Manifold Propagation and Visual Prototypes for Zero-Shot Open-Vocabulary Segmentation in Diffusion Transformers",
+      "url": "https://www.semanticscholar.org/paper/1f24ad7aba5bcf390d41b4e9ef3e7224d2f34cb7"
+    },
+    {
+      "paper_id": "e72095b671cf601ce0a8b08d19d01e55e7e841fa",
+      "arxiv_id": "2608.05627",
+      "doi": "",
+      "title": "SCI-CLIP: Segment-Centric Inference with Reference Memory for Training-Free Open-Vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/e72095b671cf601ce0a8b08d19d01e55e7e841fa"
+    },
+    {
+      "paper_id": "e6ebf972511ec5ec91840175485902251efb8a06",
+      "arxiv_id": "2608.03991",
+      "doi": "",
+      "title": "Perceptual Anchoring: Prototype-Guided Text Calibration for Training-free Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/e6ebf972511ec5ec91840175485902251efb8a06"
+    },
+    {
+      "paper_id": "cce13fd56f14e3650b27e1f2e9c38da1af900bc0",
+      "arxiv_id": "2606.15590",
+      "doi": "10.48550/arXiv.2606.15590",
+      "title": "Unlocking Diffusion Hierarchies: Adaptive Timestep Selection for Zero-Shot Segmentation",
+      "url": "https://www.semanticscholar.org/paper/cce13fd56f14e3650b27e1f2e9c38da1af900bc0"
+    },
+    {
+      "paper_id": "d1512d7e830389f7e45c2910126ef43b2f435061",
+      "arxiv_id": "2606.00987",
+      "doi": "10.48550/arXiv.2606.00987",
+      "title": "An Open-Source Benchmark and Baseline for Multi-temporal Referring Segmentation",
+      "url": "https://www.semanticscholar.org/paper/d1512d7e830389f7e45c2910126ef43b2f435061"
+    },
+    {
+      "paper_id": "c6a8317c3e38c4d7f1280baf562676c48c8fee60",
+      "arxiv_id": "2605.04593",
+      "doi": "10.1109/TIP.2026.3692055",
+      "title": "DiCLIP: Diffusion Model Enhances CLIP’s Dense Knowledge for Weakly Supervised Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/c6a8317c3e38c4d7f1280baf562676c48c8fee60"
+    },
+    {
+      "paper_id": "5fe7fb9eb6c00356f623b0b4f10a77f6b7568b6a",
+      "arxiv_id": "2604.02252",
+      "doi": "10.48550/arXiv.2604.02252",
+      "title": "SPAR: Single-Pass Any-Resolution ViT for Open-vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/5fe7fb9eb6c00356f623b0b4f10a77f6b7568b6a"
+    },
+    {
+      "paper_id": "bc300e5780f3eda3abd0c97a09dee57a24f0b80d",
+      "arxiv_id": "2604.01361",
+      "doi": "10.48550/arXiv.2604.01361",
+      "title": "IGLOSS: Image Generation for Lidar Open-vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/bc300e5780f3eda3abd0c97a09dee57a24f0b80d"
+    },
+    {
+      "paper_id": "6355837480b0d0ee8a4e7ac5a26e87d721f64674",
+      "arxiv_id": "2603.29271",
+      "doi": "10.48550/arXiv.2603.29271",
+      "title": "ConInfer: Context-Aware Inference for Training-Free Open-Vocabulary Remote Sensing Segmentation",
+      "url": "https://www.semanticscholar.org/paper/6355837480b0d0ee8a4e7ac5a26e87d721f64674"
+    },
+    {
+      "paper_id": "f009c408d40a87d723b9c242bd4f451c67643686",
+      "arxiv_id": "2601.20524",
+      "doi": "10.48550/arXiv.2601.20524",
+      "title": "AnomalyVFM - Transforming Vision Foundation Models into Zero-Shot Anomaly Detectors",
+      "url": "https://www.semanticscholar.org/paper/f009c408d40a87d723b9c242bd4f451c67643686"
+    },
+    {
+      "paper_id": "9493e92a8cb3720d52da11a4f094a004fb977aa1",
+      "arxiv_id": "2601.12779",
+      "doi": "10.48550/arXiv.2601.12779",
+      "title": "Open Vocabulary Panoptic Segmentation With Retrieval Augmentation",
+      "url": "https://www.semanticscholar.org/paper/9493e92a8cb3720d52da11a4f094a004fb977aa1"
+    },
+    {
+      "paper_id": "0e0133595eb4ba1cf142801fcacc3b29144d5d81",
+      "arxiv_id": "",
+      "doi": "10.1109/TNNLS.2025.3626567",
+      "title": "Chain-of-Detection: Enhancing Cross-Granularity Robotic Perception for Object Manipulation",
+      "url": "https://www.semanticscholar.org/paper/0e0133595eb4ba1cf142801fcacc3b29144d5d81"
+    },
+    {
+      "paper_id": "fb1a5410fddc82a1a68cb668eaeab2048d268e45",
+      "arxiv_id": "2511.07923",
+      "doi": "10.48550/arXiv.2511.07923",
+      "title": "Exploring the Underwater World Segmentation without Extra Training",
+      "url": "https://www.semanticscholar.org/paper/fb1a5410fddc82a1a68cb668eaeab2048d268e45"
+    },
+    {
+      "paper_id": "0836de6d392f4b4ce3a36963b0be94e509a921f0",
+      "arxiv_id": "2511.01517",
+      "doi": "10.48550/arXiv.2511.01517",
+      "title": "NSYNC: Negative Synthetic Image Generation for Contrastive Training to Improve Stylized Text-To-Image Translation",
+      "url": "https://www.semanticscholar.org/paper/0836de6d392f4b4ce3a36963b0be94e509a921f0"
+    },
+    {
+      "paper_id": "11e8aacbe78e4ee42fa1b4140826cacb80857af7",
+      "arxiv_id": "2510.21605",
+      "doi": "10.48550/arXiv.2510.21605",
+      "title": "S3OD: Towards Generalizable Salient Object Detection with Synthetic Data",
+      "url": "https://www.semanticscholar.org/paper/11e8aacbe78e4ee42fa1b4140826cacb80857af7"
+    },
+    {
+      "paper_id": "9cdc36debadb01d499ddf4911f492f9c33f47b78",
+      "arxiv_id": "2510.18437",
+      "doi": "10.1109/ICCV51701.2025.02055",
+      "title": "Beyond Single Images: Retrieval Self-Augmented Unsupervised Camouflaged Object Detection",
+      "url": "https://www.semanticscholar.org/paper/9cdc36debadb01d499ddf4911f492f9c33f47b78"
+    },
+    {
+      "paper_id": "037b67ceaea322820f574568312cfbccd0985697",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.02248",
+      "title": "Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/037b67ceaea322820f574568312cfbccd0985697"
+    },
+    {
+      "paper_id": "e9ff532642bc1cab1cfe0e6b3ad7472592fb3053",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.02116",
+      "title": "𝒟ℐℋ-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/e9ff532642bc1cab1cfe0e6b3ad7472592fb3053"
+    },
+    {
+      "paper_id": "c25fc4d31efe08194225613a880dde097950f30e",
+      "arxiv_id": "2509.18096",
+      "doi": "10.48550/arXiv.2509.18096",
+      "title": "Seg4Diff: Unveiling Open-Vocabulary Segmentation in Text-to-Image Diffusion Transformers",
+      "url": "https://www.semanticscholar.org/paper/c25fc4d31efe08194225613a880dde097950f30e"
+    },
+    {
+      "paper_id": "e98cf7588e83aca33981f342a2ea900b144aeda7",
+      "arxiv_id": "2508.04211",
+      "doi": "10.1109/ICCVW69036.2025.00448",
+      "title": "What Holds Back Open-Vocabulary Segmentation?",
+      "url": "https://www.semanticscholar.org/paper/e98cf7588e83aca33981f342a2ea900b144aeda7"
+    },
+    {
+      "paper_id": "836a7577f6deb3491a57f9cd6adcf49e7c9da841",
+      "arxiv_id": "2508.00557",
+      "doi": "10.1109/ICCV51701.2025.02147",
+      "title": "Training-Free Class Purification for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/836a7577f6deb3491a57f9cd6adcf49e7c9da841"
+    },
+    {
+      "paper_id": "e1e8d2f216d7425dcc44e9fde334cc789ddc247f",
+      "arxiv_id": "2507.16240",
+      "doi": "10.1109/ICCV51701.2025.01408",
+      "title": "Scale Your Instructions: Enhance the Instruction-Following Fidelity of Unified Image Generation Model by Self-Adaptive Attention Scaling",
+      "url": "https://www.semanticscholar.org/paper/e1e8d2f216d7425dcc44e9fde334cc789ddc247f"
+    },
+    {
+      "paper_id": "76984343cc3b22abc48c329e02b23109ba353953",
+      "arxiv_id": "2506.23323",
+      "doi": "10.1016/j.neucom.2025.131844",
+      "title": "FA-Seg: A fast and accurate diffusion-based method for open-vocabulary segmentation",
+      "url": "https://www.semanticscholar.org/paper/76984343cc3b22abc48c329e02b23109ba353953"
+    },
+    {
+      "paper_id": "a308c8e05e0642610a0439ae27a5a2db1defeec3",
+      "arxiv_id": "2506.21233",
+      "doi": "10.1109/ICCV51701.2025.01948",
+      "title": "ReME: A Data-Centric Framework for Training-Free Open-Vocabulary Segmentation",
+      "url": "https://www.semanticscholar.org/paper/a308c8e05e0642610a0439ae27a5a2db1defeec3"
+    },
+    {
+      "paper_id": "b20927f5e599fbfb5e0f38d0aa5854983fd92019",
+      "arxiv_id": "2506.09740",
+      "doi": "10.1109/TIP.2026.3709461",
+      "title": "ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-Level Text-Image Alignment in Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/b20927f5e599fbfb5e0f38d0aa5854983fd92019"
+    },
+    {
+      "paper_id": "9ffe2dac38933b2edc81c584ed5588574960e82c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.01795",
+      "title": "Shift the Lens: Environment-Aware Unsupervised Camouflaged Object Detection",
+      "url": "https://www.semanticscholar.org/paper/9ffe2dac38933b2edc81c584ed5588574960e82c"
+    },
+    {
+      "paper_id": "cbfd33c94657a0682c089b322e8c5d2f7e51c113",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.01882",
+      "title": "Dual Semantic Guidance for Open Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/cbfd33c94657a0682c089b322e8c5d2f7e51c113"
+    },
+    {
+      "paper_id": "216552116e8aaab0b40387a525c361bf7e94e7e1",
+      "arxiv_id": "2505.17994",
+      "doi": "10.48550/arXiv.2505.17994",
+      "title": "Segment Anyword: Mask Prompt Inversion for Open-Set Grounded Segmentation",
+      "url": "https://www.semanticscholar.org/paper/216552116e8aaab0b40387a525c361bf7e94e7e1"
+    },
+    {
+      "paper_id": "5efc56fc1d9b77cda84321b3bc0650ef346bb949",
+      "arxiv_id": "2504.17253",
+      "doi": "10.1109/TMM.2025.3623508",
+      "title": "DIVE: Inverting Conditional Diffusion Models for Discriminative Tasks",
+      "url": "https://www.semanticscholar.org/paper/5efc56fc1d9b77cda84321b3bc0650ef346bb949"
+    },
+    {
+      "paper_id": "dc79a579300a20d70f738aa7ed8e26cb085a3141",
+      "arxiv_id": "2503.17071",
+      "doi": "10.1109/ICCV51701.2025.01931",
+      "title": "Superpowering Open-Vocabulary Object Detectors for X-ray Vision",
+      "url": "https://www.semanticscholar.org/paper/dc79a579300a20d70f738aa7ed8e26cb085a3141"
+    },
+    {
+      "paper_id": "7cbae0ed1ca8ddffa14b162afef9927350526b97",
+      "arxiv_id": "2507.09008",
+      "doi": "10.1109/TVCG.2025.3535896",
+      "title": "VISTA: A Visual Analytics Framework to Enhance Foundation Model-Generated Data Labels",
+      "url": "https://www.semanticscholar.org/paper/7cbae0ed1ca8ddffa14b162afef9927350526b97"
+    },
+    {
+      "paper_id": "04315a45024d76d2434d1dbba86ca1b5579b0bf7",
+      "arxiv_id": "2412.16334",
+      "doi": "10.1109/CVPR52734.2025.02319",
+      "title": "DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment",
+      "url": "https://www.semanticscholar.org/paper/04315a45024d76d2434d1dbba86ca1b5579b0bf7"
+    },
+    {
+      "paper_id": "8091747db58da1b6c5a39b857d0293766c5a112d",
+      "arxiv_id": "2412.16277",
+      "doi": "10.48550/arXiv.2412.16277",
+      "title": "Mapping the Mind of an Instruction-based Image Editing using SMILE",
+      "url": "https://www.semanticscholar.org/paper/8091747db58da1b6c5a39b857d0293766c5a112d"
+    },
+    {
+      "paper_id": "f2268420c27faf42a49cadb6df31f573b38f79b3",
+      "arxiv_id": "2408.14826",
+      "doi": "10.48550/arXiv.2408.14826",
+      "title": "Alfie: Democratising RGBA Image Generation With No $$$",
+      "url": "https://www.semanticscholar.org/paper/f2268420c27faf42a49cadb6df31f573b38f79b3"
+    },
+    {
+      "paper_id": "04daf8046d036a5d92c52c0fa890f763ee38662e",
+      "arxiv_id": "2408.12957",
+      "doi": "10.48550/arXiv.2408.12957",
+      "title": "Image Segmentation in Foundation Model Era: A Survey",
+      "url": "https://www.semanticscholar.org/paper/04daf8046d036a5d92c52c0fa890f763ee38662e"
+    },
+    {
+      "paper_id": "9b77dd63ee13953147317fb779fa04f5f9272b6c",
+      "arxiv_id": "2408.04961",
+      "doi": "10.48550/arXiv.2408.04961",
+      "title": "In Defense of Lazy Visual Grounding for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/9b77dd63ee13953147317fb779fa04f5f9272b6c"
+    },
+    {
+      "paper_id": "6ff612a18622bc197a4035bc52dd1845dc62471e",
+      "arxiv_id": "2407.07077",
+      "doi": "10.48550/arXiv.2407.07077",
+      "title": "ConceptExpress: Harnessing Diffusion Models for Single-image Unsupervised Concept Extraction",
+      "url": "https://www.semanticscholar.org/paper/6ff612a18622bc197a4035bc52dd1845dc62471e"
+    },
+    {
+      "paper_id": "5c860521d6931bc7a849c16f84ceb0b0b24bca5f",
+      "arxiv_id": "2407.05352",
+      "doi": "10.48550/arXiv.2407.05352",
+      "title": "Exploring Phrase-Level Grounding with Text-to-Image Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/5c860521d6931bc7a849c16f84ceb0b0b24bca5f"
+    },
+    {
+      "paper_id": "8d2fbf6314c411e959467ec86853f9e9c6a3318a",
+      "arxiv_id": "2407.03636",
+      "doi": "10.1109/TCSVT.2025.3629686",
+      "title": "Diff-Restorer: Unleashing Visual Prompts for Diffusion-Based Universal Image Restoration",
+      "url": "https://www.semanticscholar.org/paper/8d2fbf6314c411e959467ec86853f9e9c6a3318a"
+    },
+    {
+      "paper_id": "e26f7120b9a0698a9873db3cd653a16dcf0ed1e4",
+      "arxiv_id": "2404.09447",
+      "doi": "10.48550/arXiv.2404.09447",
+      "title": "kNN-CLIP: Retrieval Enables Training-Free Segmentation on Continually Expanding Large Vocabularies",
+      "url": "https://www.semanticscholar.org/paper/e26f7120b9a0698a9873db3cd653a16dcf0ed1e4"
+    },
+    {
+      "paper_id": "1040127769d297a724cad802aa74af9945fae097",
+      "arxiv_id": "2404.06542",
+      "doi": "10.1109/CVPR52733.2024.00354",
+      "title": "Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation",
+      "url": "https://www.semanticscholar.org/paper/1040127769d297a724cad802aa74af9945fae097"
+    },
+    {
+      "paper_id": "6bce4e0955bf89d1505b456c89576b6a0dcac498",
+      "arxiv_id": "2404.05667",
+      "doi": "10.1007/978-3-031-72775-7_9",
+      "title": "AlignZeg: Mitigating Objective Misalignment for Zero-shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/6bce4e0955bf89d1505b456c89576b6a0dcac498"
+    },
+    {
+      "paper_id": "c91b2c65da5e50df129b877da57ec07bb7f9c363",
+      "arxiv_id": "2403.15382",
+      "doi": "10.48550/arXiv.2403.15382",
+      "title": "DragAPart: Learning a Part-Level Motion Prior for Articulated Objects",
+      "url": "https://www.semanticscholar.org/paper/c91b2c65da5e50df129b877da57ec07bb7f9c363"
+    },
+    {
+      "paper_id": "f2c5e51b88dab7edb6031e415efb468e77cb08c9",
+      "arxiv_id": "2403.01381",
+      "doi": "10.1109/TGRS.2024.3514839",
+      "title": "SA-MixNet: Structure-Aware Mixup and Invariance Learning for Scribble-Supervised Road Extraction in Remote Sensing Images",
+      "url": "https://www.semanticscholar.org/paper/f2c5e51b88dab7edb6031e415efb468e77cb08c9"
+    },
+    {
+      "paper_id": "c291a1ac4759364f66f29c6b6cc486446448830a",
+      "arxiv_id": "2403.00644",
+      "doi": "10.1109/CVPR52733.2024.00402",
+      "title": "Diff-Plugin: Revitalizing Details for Diffusion-Based Low-Level Tasks",
+      "url": "https://www.semanticscholar.org/paper/c291a1ac4759364f66f29c6b6cc486446448830a"
+    },
+    {
+      "paper_id": "6b9f6e85e75af36a787c98b57c41a049a9c4fc8d",
+      "arxiv_id": "2402.16392",
+      "doi": "10.48550/arXiv.2402.16392",
+      "title": "Placing Objects in Context via Inpainting for Out-of-distribution Segmentation",
+      "url": "https://www.semanticscholar.org/paper/6b9f6e85e75af36a787c98b57c41a049a9c4fc8d"
+    },
+    {
+      "paper_id": "9438ad95da7e57a24fd291f8c260b2a1cfdf1059",
+      "arxiv_id": "2402.16421",
+      "doi": "10.48550/arXiv.2402.16421",
+      "title": "Outline-Guided Object Inpainting with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/9438ad95da7e57a24fd291f8c260b2a1cfdf1059"
+    },
+    {
+      "paper_id": "b195a77512558e3158accabfc9bcf498aba12173",
+      "arxiv_id": "2401.16459",
+      "doi": "10.48550/arXiv.2401.16459",
+      "title": "Bridging Generative and Discriminative Models for Unified Visual Perception with Diffusion Priors",
+      "url": "https://www.semanticscholar.org/paper/b195a77512558e3158accabfc9bcf498aba12173"
+    },
+    {
+      "paper_id": "42e483b1985945b571ce6c40596136f6c685bab2",
+      "arxiv_id": "2401.11739",
+      "doi": "10.48550/arXiv.2401.11739",
+      "title": "EmerDiff: Emerging Pixel-level Semantic Knowledge in Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/42e483b1985945b571ce6c40596136f6c685bab2"
+    },
+    {
+      "paper_id": "745deb9da875f301046e2117406a3f67dec6624b",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV57701.2024.00149",
+      "title": "FOSSIL: Free Open-Vocabulary Semantic Segmentation through Synthetic References Retrieval",
+      "url": "https://www.semanticscholar.org/paper/745deb9da875f301046e2117406a3f67dec6624b"
+    },
+    {
+      "paper_id": "d38a00348487b02dad98782506fb8ebe31aef477",
+      "arxiv_id": "2312.12359",
+      "doi": "10.48550/arXiv.2312.12359",
+      "title": "CLIP-DINOiser: Teaching CLIP a few DINO tricks",
+      "url": "https://www.semanticscholar.org/paper/d38a00348487b02dad98782506fb8ebe31aef477"
+    },
+    {
+      "paper_id": "2b9b308ae9b7a63b4d74c6a295ece9ffead54778",
+      "arxiv_id": "2312.09788",
+      "doi": "10.1109/CVPR52733.2024.00300",
+      "title": "Collaborating Foundation Models for Domain Generalized Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/2b9b308ae9b7a63b4d74c6a295ece9ffead54778"
+    },
+    {
+      "paper_id": "2dbaf84d12e40c9dcedb577c2be7a68faf5715d7",
+      "arxiv_id": "2312.10113",
+      "doi": "10.1109/CVPR52733.2024.00667",
+      "title": "Focus on Your Instruction: Fine-grained and Multi-instruction Image Editing by Attention Modulation",
+      "url": "https://www.semanticscholar.org/paper/2dbaf84d12e40c9dcedb577c2be7a68faf5715d7"
+    },
+    {
+      "paper_id": "298d5bd2912270f4e53d6e6cbd1ff2df5422482d",
+      "arxiv_id": "2312.09128",
+      "doi": "10.48550/arXiv.2312.09128",
+      "title": "Tokenize Anything via Prompting",
+      "url": "https://www.semanticscholar.org/paper/298d5bd2912270f4e53d6e6cbd1ff2df5422482d"
+    },
+    {
+      "paper_id": "abce8b1145155c7499b0c02880147b2426047727",
+      "arxiv_id": "2312.10065",
+      "doi": "10.48550/arXiv.2312.10065",
+      "title": "Exploring Social Bias in Downstream Applications of Text-to-Image Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/abce8b1145155c7499b0c02880147b2426047727"
+    },
+    {
+      "paper_id": "db26827a859ab3d63c84d151e6c2356c68560480",
+      "arxiv_id": "2312.01597",
+      "doi": "10.48550/arXiv.2312.01597",
+      "title": "SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference",
+      "url": "https://www.semanticscholar.org/paper/db26827a859ab3d63c84d151e6c2356c68560480"
+    },
+    {
+      "paper_id": "ff1715c4a33a58cc8069b86be8b99e760134eb78",
+      "arxiv_id": "2311.12886",
+      "doi": "",
+      "title": "AnimateAnything: Fine-Grained Open Domain Image Animation with Motion Guidance",
+      "url": "https://www.semanticscholar.org/paper/ff1715c4a33a58cc8069b86be8b99e760134eb78"
+    },
+    {
+      "paper_id": "3bdf4c079e916b923646bff0776db7ca27f55005",
+      "arxiv_id": "2310.15308",
+      "doi": "10.1109/CVPRW63382.2024.00367",
+      "title": "SAM-CLIP: Merging Vision Foundation Models towards Semantic and Spatial Understanding",
+      "url": "https://www.semanticscholar.org/paper/3bdf4c079e916b923646bff0776db7ca27f55005"
+    },
+    {
+      "paper_id": "9595711143fed4758110a39af73c724a6f491a4d",
+      "arxiv_id": "2310.14374",
+      "doi": "10.48550/arXiv.2310.14374",
+      "title": "OV-VG: A Benchmark for Open-Vocabulary Visual Grounding",
+      "url": "https://www.semanticscholar.org/paper/9595711143fed4758110a39af73c724a6f491a4d"
+    },
+    {
+      "paper_id": "0b349cac39f1c521af21fd6aac7f9b7372fa8a66",
+      "arxiv_id": "2310.07972",
+      "doi": "10.48550/arXiv.2310.07972",
+      "title": "Interpretable Diffusion via Information Decomposition",
+      "url": "https://www.semanticscholar.org/paper/0b349cac39f1c521af21fd6aac7f9b7372fa8a66"
+    },
+    {
+      "paper_id": "3c80da85fcc8eb01f4287ef9d4ec8e6de8c0bcef",
+      "arxiv_id": "2310.01830",
+      "doi": "10.48550/arXiv.2310.01830",
+      "title": "AI-Generated Images as Data Source: The Dawn of Synthetic Era",
+      "url": "https://www.semanticscholar.org/paper/3c80da85fcc8eb01f4287ef9d4ec8e6de8c0bcef"
+    },
+    {
+      "paper_id": "5d7982e88ad9297f017e7aa3e87c5e213142d574",
+      "arxiv_id": "2309.13097",
+      "doi": "10.48550/arXiv.2309.13097",
+      "title": "Zero-Shot Object Counting with Language-Vision Models",
+      "url": "https://www.semanticscholar.org/paper/5d7982e88ad9297f017e7aa3e87c5e213142d574"
+    },
+    {
+      "paper_id": "616e2783f7e5f2b879a0d3171a73a31d99189259",
+      "arxiv_id": "2309.02773",
+      "doi": "10.1109/TIP.2025.3551648",
+      "title": "Diffusion Model is Secretly a Training-Free Open Vocabulary Semantic Segmenter",
+      "url": "https://www.semanticscholar.org/paper/616e2783f7e5f2b879a0d3171a73a31d99189259"
+    },
+    {
+      "paper_id": "8f252ae273e0ae603eb75a593f99372c414f5ff4",
+      "arxiv_id": "2309.01141",
+      "doi": "10.1109/ICASSP48485.2024.10445945",
+      "title": "VGDIFFZERO: Text-To-Image Diffusion Models Can Be Zero-Shot Visual Grounders",
+      "url": "https://www.semanticscholar.org/paper/8f252ae273e0ae603eb75a593f99372c414f5ff4"
+    },
+    {
+      "paper_id": "437cfee2a7f7beadf09ad712f71b3265740e44a0",
+      "arxiv_id": "2308.12960",
+      "doi": "10.48550/arXiv.2308.12960",
+      "title": "Towards Realistic Zero-Shot Classification via Self Structural Semantic Alignment",
+      "url": "https://www.semanticscholar.org/paper/437cfee2a7f7beadf09ad712f71b3265740e44a0"
+    },
+    {
+      "paper_id": "f52293edcaccf33cc16c372175a69ffa63cf3460",
+      "arxiv_id": "2306.15880",
+      "doi": "10.1109/TPAMI.2024.3361862",
+      "title": "Towards Open Vocabulary Learning: A Survey",
+      "url": "https://www.semanticscholar.org/paper/f52293edcaccf33cc16c372175a69ffa63cf3460"
+    },
+    {
+      "paper_id": "ed3d86bab24ae0414602785e63b89944b58c0918",
+      "arxiv_id": "2210.09996",
+      "doi": "10.1109/ICCV51070.2023.00513",
+      "title": "Perceptual Grouping in Contrastive Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ed3d86bab24ae0414602785e63b89944b58c0918"
+    },
+    {
+      "paper_id": "472d423fbaa4af4a8dc1faa4593ba0d4b9bc897a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Segmentation From Attention: Training-Free Layer Selection and One-Shot Tuning for Segmentation in VLMs",
+      "url": "https://www.semanticscholar.org/paper/472d423fbaa4af4a8dc1faa4593ba0d4b9bc897a"
+    },
+    {
+      "paper_id": "be7b45c232426eea04871f5065f9c1c701755053",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2026.3656497",
+      "title": "Dual Visual–Textual Graph Construction for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/be7b45c232426eea04871f5065f9c1c701755053"
+    },
+    {
+      "paper_id": "ed830430e72c2ba547f5f16fd53adce6878cf5bd",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2026.3663647",
+      "title": "Robust Vision-Language Alignment Using Multi-Modal Large Language Models for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/ed830430e72c2ba547f5f16fd53adce6878cf5bd"
+    },
+    {
+      "paper_id": "11c4240227a8ed37e161d4506f723065141ce9a1",
+      "arxiv_id": "",
+      "doi": "10.1109/TGRS.2026.3677380",
+      "title": "Exploiting Foundation Models for Costless Open-Vocabulary Semantic Segmentation of Optical Remote Sensing Images",
+      "url": "https://www.semanticscholar.org/paper/11c4240227a8ed37e161d4506f723065141ce9a1"
+    },
+    {
+      "paper_id": "d3abd54c43f0952b49bd0c5d9304f2b053ac5d33",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3691679",
+      "title": "RA-COD: Retrieval-Augmented Camouflaged Object Detection",
+      "url": "https://www.semanticscholar.org/paper/d3abd54c43f0952b49bd0c5d9304f2b053ac5d33"
+    },
+    {
+      "paper_id": "81f531d92c0516b97e022a885a01858fb3135f8d",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2506.23323",
+      "title": "FastSeg: Efficient Training-Free Open-Vocabulary Segmentation via Hierarchical Attention Refinement Method",
+      "url": "https://www.semanticscholar.org/paper/81f531d92c0516b97e022a885a01858fb3135f8d"
+    },
+    {
+      "paper_id": "36c009f875a4a646bb46c443bc51d0f66ad6983e",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2311.12886",
+      "title": "Fine-Grained Open Domain Image Animation with Motion Guidance",
+      "url": "https://www.semanticscholar.org/paper/36c009f875a4a646bb46c443bc51d0f66ad6983e"
+    },
+    {
+      "paper_id": "1a9170e828426f348b92dabef4881a609214ba07",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Superpowering Open-Vocabulary Object Detectors for X-ray Vision Supplementary Material",
+      "url": "https://www.semanticscholar.org/paper/1a9170e828426f348b92dabef4881a609214ba07"
+    }
+  ]
+}

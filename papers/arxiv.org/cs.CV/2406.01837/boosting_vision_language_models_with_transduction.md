@@ -26,7 +26,7 @@ tags: [paper]
 - [Low-Rank Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18541)
 - [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [Transductive Zero-Shot and Few-Shot CLIP](https://arxiv.org/abs/2405.18437)
-- [No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance](https://arxiv.org/abs/2404.04125)
+- [[no_zero_shot_without_exponential_data_pretraining_concept_frequency_determines_multimodal_model_performance|No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance]]
 - [A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation](https://arxiv.org/abs/2402.04087)
 - [Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization](https://arxiv.org/abs/2311.01459)
 - [Distribution-Aware Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2309.03406)

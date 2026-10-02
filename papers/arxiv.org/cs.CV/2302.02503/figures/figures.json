@@ -1,0 +1,86 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1: Overview of our approach. Our method creates generated dataset using a conditional generative model. The real dataset is then augmented with the generated dataset to train a classifier.",
+    "score": 121.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: Accuracy of ImageNet-1K classifiers on its validation set and its natural distribution shift (NDS) datasets. The classifiers are trained (a) solely on the real data (Green), (b) solely on the generated data of equal size as the real data (Blue), and (c) full real data augmented with the co",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3: Accuracy and the Effective robustness as we vary the proportion of the real ImageNet-100 data and the generated data created using its class labels. Here 100% refers to 130K training size. While calculating effective robustness, standard training is performed on 100% real data.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 17,
+    "caption": "Figure 4: Overview of our generation strategies. We use Stable Diffusion (SD) to create the generated dataset. (a) We can create images by conditioning on either the proxy caption for the class label (Generation via Class Labels), or conditioning on the images from the source dataset (Generation via",
+    "score": 15.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 18,
+    "caption": "Figure 5: Survey screenshot",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 20,
+    "caption": "Figure 6: Visualization of samples from the real dataset and various generation strategies using Stable Diffusion (SD).",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 20,
+    "caption": "Figure 7: Variation in the accuracy and the effective robustness on ImageNet-Sketch as we vary the proportion of the real ImageNet-100 data and the generated data created using its class labels in the training set. Here 100% refers to 130K training size. While calculating effective robustness, stand",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 21,
+    "caption": "Figure 8: Variation in the accuracy and the effective robustness on ImageNet-R as we vary the proportion of the real ImageNet-100 data and the generated data created using its class labels in the training set. Here 100% refers to 130K training size. While calculating effective robustness, standard t",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 21,
+    "caption": "Figure 9: Variation in the accuracy and the effective robustness on ImageNet-V2 as we vary the proportion of the real ImageNet-100 data and the generated data created using its class labels in the training set. Here 100% refers to 130K training size. While calculating effective robustness, standard ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 22,
+    "caption": "Figure 10: Variation in the accuracy and the effective robustness on ObjectNet as we vary the proportion of the real ImageNet-100 data and the generated data created using its class labels in the training set. Here 100% refers to 130K training size. While calculating effective robustness, standard t",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 22,
+    "caption": "Figure 11: Variation in the accuracy and the effective robustness as we vary the proportion of the generated ImageNet1K data by fixing the number of training samples to 1.3M. While calculating effective robustness, standard training is performed on 1.3M real data. We report the results for the ResNe",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 22,
+    "caption": "Figure 12: Comparison of the Loss Curve for ResNeXt-50 while training with the real and the generated data. The number of training samples in the real data is 1.3M whereas the number of training samples in the real and generated data scenario is 2.6M.",
+    "score": 0.0
+  }
+]

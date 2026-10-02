@@ -28,7 +28,7 @@ tags: [paper]
 ## 参考文献 (references)
 
 - [CPT: Colorful Prompt Tuning for pre-trained vision-language models](https://doi.org/10.1016/j.aiopen.2024.01.004)
-- [Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners](https://arxiv.org/abs/2303.02151)
+- [[prompt_generate_then_cache_cascade_of_foundation_models_makes_strong_few_shot_learners|Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners]]
 - [Exploiting Category Names for Few-Shot Classification with Vision-Language Models](https://arxiv.org/abs/2211.16594)
 - [SgVA-CLIP: Semantic-Guided Visual Adapting of Vision-Language Models for Few-Shot Image Classification](https://arxiv.org/abs/2211.16191)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)

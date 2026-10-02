@@ -1,0 +1,219 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1: Concept Extraction and Frequency Estimation. (left) We compile 4, 029 concepts from 27 evaluation datasets. (right) We construct efficient indices for text-search (unigram indexing (1)) and image-search (RAM++ (2)); intersecting hits from both gives (3) image-text matched frequencies.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: Log-linear relationships between concept frequency and CLIP zero-shot performance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s zero-sho",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: Log-linear relationships between concept frequency and T2I aesthetic scores. Across all tested T2I models pretrained on LAION-Aesthetics, we observe a consistent linear relationship be- tween aesthetic score (averaged across 8 datasets) on a concept and the log-scaled concept frequency.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: Stress-testing the log-linear scaling trends. We provide further evidence for the log- linear relationship between performance and concept frequency, across different scenarios: (left) we control for “similarity” between downstream test sets and pretraining datasets, and (right) we conduct",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5: Concept distribution of pre-training datasets is highly long-tailed. We showcase the distribution of pretraining frequencies of all concepts aggregated across all 17 of our downstream classification datasets. Across all the pretraining datasets, we observe very heavy tails. We normalize th",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6: Large-drops in accuracy on “Let It Wag!”. Across 40 tested CLIP models, we note large performance drops compared to ImageNet. Further, the per- formance gap seems to decrease for high- capacity models as demonstrated by larger positive slope (1.58) for those models.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 9,
+    "caption": "Figure 7: Qualitative results on “Let It Wag!” concepts demonstrate failure cases of T2I models on the long-tail. We created 4 prompts for each concept using Gemini [121] and GPT-4 [12] which are fed to 3 Stable Diffusion [104] models. Generations with red border are incorrect, green border are corr",
+    "score": 3.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 19,
+    "caption": "Figure 8: Log-linear relationships between concept frequency and CLIP zero-shot performance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s zero-sho",
+    "score": 18.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 20,
+    "caption": "Figure 9: Log-linear relationships between concept frequency and CLIP I2T retrieval per- formance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s re",
+    "score": 12.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 21,
+    "caption": "Figure 10: Log-linear relationships between concept frequency and CLIP T2I retrieval per- formance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s r",
+    "score": 12.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 22,
+    "caption": "Figure 11: Log-linear relationships between concept frequency and T2I Max aesthetic scores. Across all tested models pretrained on the LAION-Aesthetics dataset, we observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequency",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 23,
+    "caption": "Figure 12: Log-linear relationships between concept frequency and T2I human aesthetic scores. Across all tested models pretrained on the LAION-Aesthetics dataset, we observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequen",
+    "score": 0.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 23,
+    "caption": "Figure 13: Log-linear relationships between concept frequency and T2I human alignment scores. Across all tested models pretrained on the LAION-Aesthetics dataset, we observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequen",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 23,
+    "caption": "Figure 14: Log-linear relationships between concept frequency and T2I Avg. CLIP scores. Across all tested models pretrained on the LAION-Aesthetics dataset, we observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequency.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 15,
+    "page": 24,
+    "caption": "Figure 15: Log-linear relationships between concept frequency and T2I Max CLIP scores. Across all tested models pretrained on the LAION-Aesthetics dataset, we observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequency.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 16,
+    "page": 24,
+    "caption": "Figure 16: User Interface for T2I human evaluation for text-image alignment for people concepts. See Appx. C for further details.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-16.png",
+    "figure_no": 17,
+    "page": 24,
+    "caption": "Figure 17: Log-linear relationship between concept frequency and T2I human evaluation for text-image alignment for people concepts. We observe a consistent linear relationship between T2I zero-shot performance on a concept and the log-scaled concept pretraining frequency.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-17.png",
+    "figure_no": 18,
+    "page": 25,
+    "caption": "Figure 18: Log-linear relationships between image concept frequency and CLIP performance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s zero-shot a",
+    "score": 12.0
+  },
+  {
+    "file": "fig-18.png",
+    "figure_no": 19,
+    "page": 25,
+    "caption": "Figure 19: Log-linear relationships between text concept frequency and CLIP performance. Across all tested architectures (RN50, RN101, ViT-B-32, ViT-B-16, ViT-L-14) and pretraining datasets (CC-3M, CC-12M, YFCC-15M, LAION-400M), we observe a consistent linear relationship between CLIP’s zero-shot ac",
+    "score": 12.0
+  },
+  {
+    "file": "fig-19.png",
+    "figure_no": 20,
+    "page": 26,
+    "caption": "Figure 20: Log-linear scaling trends for SLIP and CyCLIP models",
+    "score": 0.0
+  },
+  {
+    "file": "fig-20.png",
+    "figure_no": 21,
+    "page": 30,
+    "caption": "Figure 21: Histogram of concept frequencies for Let-It-Wag! Dataset",
+    "score": 0.0
+  },
+  {
+    "file": "fig-21.png",
+    "figure_no": 22,
+    "page": 32,
+    "caption": "Figure 22: Qualitative Results comparing OWL-v2, RAM++ and CLIP. We show qualitative examples across three different models: OWL-v2, RAM++ and CLIP on fine-grained concepts.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-22.png",
+    "figure_no": 23,
+    "page": 33,
+    "caption": "Figure 23: Qualitative Results with different RAM++ thresholds. We show qualitative examples across three different thresholds: {0.5, 0.6, 0.7} for estimating concept frequency using the RAM++ model. We note the significantly better concepts identified by the higher threshold (0.7) compared to the l",
+    "score": 6.0
+  },
+  {
+    "file": "fig-23.png",
+    "figure_no": 24,
+    "page": 33,
+    "caption": "Figure 24: Effect of different thresholds for determining concept frequency using RAM++. We test three different thresholds: {0.5, 0.6, 0.7} for estimating concept frequency using the RAM++ model. Note that the lower the threshold, the lower precision are the tagged concepts since lower thresholds (",
+    "score": 6.0
+  },
+  {
+    "file": "fig-24.png",
+    "figure_no": 25,
+    "page": 35,
+    "caption": "Figure 25: Main Results with 0-frequency concepts. We re-plot all our main classification results from Fig. 2 by including concepts which have zero-frequencies. Note that the 0-frequency points are assimilated into the 100 bin—in each plot, the 100 bin (leftmost) consists of about 60 −70% 0-frequenc",
+    "score": 0.0
+  },
+  {
+    "file": "fig-25.png",
+    "figure_no": 26,
+    "page": 36,
+    "caption": "Figure 26: Qualitative examples of misaligned image-text pairs identified. We present 4 samples from the CC-3M pretraining dataset that are identified as misaligned by our analysis. Here, the text captions clearly do not entail the images, and hence do not provide a meaningful signal for learning.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-26.png",
+    "figure_no": 27,
+    "page": 39,
+    "caption": "Figure 27: Variance in performance per point in the zero-shot classification plots",
+    "score": 0.0
+  },
+  {
+    "file": "fig-27.png",
+    "figure_no": 28,
+    "page": 42,
+    "caption": "Figure 28: Qualitative results on the Aircraft cluster.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-28.png",
+    "figure_no": 29,
+    "page": 43,
+    "caption": "Figure 29: Qualitative results on the Activity cluster.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-29.png",
+    "figure_no": 30,
+    "page": 44,
+    "caption": "Figure 30: Qualitative results on the Animal cluster.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-30.png",
+    "figure_no": 31,
+    "page": 45,
+    "caption": "Figure 31: Qualitative results for other selected failure cases.",
+    "score": 0.0
+  }
+]

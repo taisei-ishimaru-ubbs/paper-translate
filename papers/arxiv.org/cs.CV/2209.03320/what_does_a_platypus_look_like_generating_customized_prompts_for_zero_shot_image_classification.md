@@ -380,7 +380,7 @@ tags: [paper]
 - [Videoprompter: an ensemble of foundational models for zero-shot video understanding](https://arxiv.org/abs/2310.15324)
 - [3D-GPT: Procedural 3D Modeling with Large Language Models](https://arxiv.org/abs/2310.12945)
 - [Prompting Scientific Names for Zero-Shot Species Recognition](https://arxiv.org/abs/2310.09929)
-- [Vision-by-Language for Training-Free Compositional Image Retrieval](https://arxiv.org/abs/2310.09291)
+- [[vision_by_language_for_training_free_compositional_image_retrieval|Vision-by-Language for Training-Free Compositional Image Retrieval]]
 - [Prompt Prototype Learning Based on Ranking Instruction For Few-Shot Visual Tasks](https://doi.org/10.1109/ICIP49359.2023.10222039)
 - [Exploring CLIP for Real World, Text-based Image Retrieval](https://doi.org/10.1109/AIPR60534.2023.10440710)
 - [TAP: Targeted Prompting for Task Adaptive Generation of Textual Training Instances for Visual Classification](https://arxiv.org/abs/2309.06809)
@@ -398,16 +398,16 @@ tags: [paper]
 - [CREPE: Learnable Prompting With CLIP Improves Visual Relationship Prediction](https://arxiv.org/abs/2307.04838)
 - [Distilling Large Vision-Language Model with Out-of-Distribution Generalizability](https://arxiv.org/abs/2307.03135)
 - [Neural Priming for Sample-Efficient Adaptation](https://arxiv.org/abs/2306.10191)
-- [Waffling around for Performance: Visual Classification with Random Words and Broad Concepts](https://arxiv.org/abs/2306.07282)
+- [[waffling_around_for_performance_visual_classification_with_random_words_and_broad_concepts|Waffling around for Performance: Visual Classification with Random Words and Broad Concepts]]
 - [Multi-Modal Classifiers for Open-Vocabulary Object Detection](https://arxiv.org/abs/2306.05493)
 - [Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey](https://arxiv.org/abs/2305.18703)
 - [LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections](https://arxiv.org/abs/2305.18287)
 - [Exposing and Mitigating Spurious Correlations for Cross-Modal Retrieval](https://arxiv.org/abs/2304.03391)
 - [[vision_language_models_for_vision_tasks_a_survey|Vision-Language Models for Vision Tasks: A Survey]]
-- [Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement](https://arxiv.org/abs/2304.01195)
+- [[not_all_features_matter_enhancing_few_shot_clip_with_adaptive_prior_refinement|Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement]]
 - [Investigating the Role of Attribute Context in Vision-Language Models for Object Recognition and Detection](https://arxiv.org/abs/2303.10093)
 - [M-Tuning: Prompt Tuning With Mitigated Label Bias in Open-Set Scenarios](https://arxiv.org/abs/2303.05122)
-- [Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners](https://arxiv.org/abs/2303.02151)
+- [[prompt_generate_then_cache_cascade_of_foundation_models_makes_strong_few_shot_learners|Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners]]
 - [Agile Modeling: From Concept to Classifier in Minutes](https://arxiv.org/abs/2302.12948)
 - [K-Diag: Knowledge-enhanced Disease Diagnosis in Radiographic Imaging](https://arxiv.org/abs/2302.11557)
 - [Diversity is Definitely Needed: Improving Model-Agnostic Zero-shot Classification via Stable Diffusion](https://arxiv.org/abs/2302.03298)

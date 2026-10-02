@@ -32,8 +32,8 @@ tags: [paper]
 
 ## 参考文献 (references)
 
-- [Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement](https://arxiv.org/abs/2304.01195)
-- [Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners](https://arxiv.org/abs/2303.02151)
+- [[not_all_features_matter_enhancing_few_shot_clip_with_adaptive_prior_refinement|Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement]]
+- [[prompt_generate_then_cache_cascade_of_foundation_models_makes_strong_few_shot_learners|Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners]]
 - [Learning 3D Representations from 2D Pre-Trained Models via Image-to-Point Masked Autoencoders](https://arxiv.org/abs/2212.06785)
 - [Scaling & Shifting Your Features: A New Baseline for Efficient Model Tuning](https://arxiv.org/abs/2210.08823)
 - [Image as a Foreign Language: BEiT Pretraining for All Vision and Vision-Language Tasks](https://arxiv.org/abs/2208.10442)

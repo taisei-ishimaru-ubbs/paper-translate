@@ -1,0 +1,51 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Substituting GPT-3 generated fine-grained de- scriptors with random word or character sequences yields competitive performance. High-level concepts further re- solve classname ambiguities for additional gains.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: Visual classification with WaffleCLIP using random characters/words. WaffleCLIP utilizes a collection of prompt variations by simply injecting character-level and word-level noise around the classname (top left, orange). Simple averaging consequently raises the robustness of the extracted ",
+    "score": 24.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3: Label flipping experiment from CLIP to DCLIP or WaffleCLIP. Each bar indicates the percentage of data points getting either positively or negatively flipped (i.e. labelled correctly or incorrectly adjusted) when switching from CLIP to either DCLIP or WaffleCLIP. The consis- tently higher f",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: Study of the semantic impact of GPT-3 generated high-level concepts through a semantic confusion matrix, where we cycle high-level concepts between each bench- mark. We find that interchanging the concepts generally re- duces performance, indicating that high-level concepts pro- vide compl",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5: We evaluate changes in the performance of the CLIP baseline when using latent space noise (modeled us- ing vMF distributions centered around the default, unaltered CLIP language embeddings) and thus also provide an im- plicit comparison against WaffleCLIP). However, as can be seen, reducin",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 9,
+    "caption": "Figure 6: Ablation study on the number of randomized word and character descriptors used in WaffleCLIP. We find consistent competitive performance gains with just four randomized descriptor pairs (both random words and ran- dom characters, c.f. DCLIP Tab. 2). Note that the CLIP ref- erence (blue lin",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 15,
+    "caption": "Figure 7: To get an intuition of the different visual classification tasks, we showcase samples of four randomly selected classes for each of the eleven utilized visual classification benchmarks.",
+    "score": 0.0
+  }
+]

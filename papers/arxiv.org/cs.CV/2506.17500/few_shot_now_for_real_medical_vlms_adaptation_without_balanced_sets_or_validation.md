@@ -29,7 +29,7 @@ tags: [paper]
 - [In Search of Forgotten Domain Generalization](https://arxiv.org/abs/2410.08258)
 - [A Competition for the Diagnosis of Myopic Maculopathy by Artificial Intelligence Algorithms.](https://doi.org/10.1001/jamaophthalmol.2024.3707)
 - [Few-shot Adaptation of Medical Vision-Language Models](https://arxiv.org/abs/2409.03868)
-- [No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance](https://arxiv.org/abs/2404.04125)
+- [[no_zero_shot_without_exponential_data_pretraining_concept_frequency_determines_multimodal_model_performance|No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance]]
 - [LP++: A Surprisingly Strong Linear Probe for Few-Shot CLIP](https://arxiv.org/abs/2404.02285)
 - [A visual-language foundation model for computational pathology](https://doi.org/10.1038/s41591-024-02856-4)
 - [A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models](https://arxiv.org/abs/2312.12730)

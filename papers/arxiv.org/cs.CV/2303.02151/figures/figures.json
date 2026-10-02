@@ -1,0 +1,100 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. The Cascade Paradigm of CaFo. We adaptively incor- porate the knowledge from four types of pre-training methods and achieve a strong few-shot learner.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Prompt with GPT-3 [4]. As the ﬁrst step in CaFo, we utilize the pre-trained GPT-3 to produce prompts with rich linguis- tic semantics for CLIP’s textual encoder.",
+    "score": 27.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. Generate via DALL-E [57], then Cache by CLIP [56] and DINO [7]. We adopt DALL-E to generate synthetic images to expand the limited few-shot training samples. Then, we construct the cache model with two kinds of keys to adaptively fuse the knowledge from CLIP and DINO.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 5,
+    "caption": "Figure 4. Adaptive Inference with Cache Model. We regard the test image as a query and retrieves CLIP and DINO’s knowledge from the corresponding two keys in the cache model. Then, we calculate the distribution similarities between different classiﬁcation logits for adaptive ensemble.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 6,
+    "caption": "Figure 5. Performance (%) Comparison on ImageNet. We compare CaFo with other methods for different few-shot settings.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 7,
+    "caption": "Figure 6. Performance (%) Comparison on 10 Datasets. Our method shows state-of-the-art performance for all few-shot settings on different datasets, which indicates superior generalization capacity.",
+    "score": 14.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. Visualizations of DALL-E’s Generated Images. Ex- amples are from ImageNet, OxfordPets and Caltech101 datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 8,
+    "caption": "Figure 8. Visualization of GPT-3’s Prompts for CLIP. The ex- ample shown is from the ImageNet dataset.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 14,
+    "caption": "Figure 9. Performance (%) Comparison on 10 Datasets. Our method shows state-of-the-art performance for all few-shot settings on different datasets. ‘CaFo w/o D.&G.’ denotes CaFo without DALL-E’s generated images and GPT3’s created prompts.",
+    "score": 17.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 14,
+    "caption": "Figure 10. t-SNE Visualization. Different colors represent differ- ent categories on 16-shot ImageNet.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 14,
+    "caption": "Figure 11. Learning Curves of Test Accuracy (%) for different combinations of pre-trained models on 16-shot ImageNet.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 15,
+    "caption": "Figure 12. Additional Visualization of GPT-3’s Prompts for CLIP. Above examples are from the ImageNet dataset.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 16,
+    "caption": "Figure 13. Additional Visualization of GPT-3’s Prompts for CLIP. Above examples are from the ImageNet dataset.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 17,
+    "caption": "Figure 14. Additional Visualization of DALL-E’s Generated Images. Examples are from ImageNet, OxfordPets and Caltech101 datasets.",
+    "score": 0.0
+  }
+]

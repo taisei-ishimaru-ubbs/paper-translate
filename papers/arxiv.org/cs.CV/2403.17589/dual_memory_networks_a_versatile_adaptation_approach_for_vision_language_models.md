@@ -36,10 +36,10 @@ tags: [paper]
 - [Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning](https://arxiv.org/abs/2308.06038)
 - [Self-regulating Prompts: Foundational Model Adaptation without Forgetting](https://arxiv.org/abs/2307.06948)
 - [Segment Anything](https://arxiv.org/abs/2304.02643)
-- [Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement](https://arxiv.org/abs/2304.01195)
+- [[not_all_features_matter_enhancing_few_shot_clip_with_adaptive_prior_refinement|Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement]]
 - [MDQE: Mining Discriminative Query Embeddings to Segment Occluded Instances on Challenging Videos](https://arxiv.org/abs/2303.14395)
 - [One-to-Few Label Assignment for End-to-End Dense Detection](https://arxiv.org/abs/2303.11567)
-- [Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners](https://arxiv.org/abs/2303.02151)
+- [[prompt_generate_then_cache_cascade_of_foundation_models_makes_strong_few_shot_learners|Prompt, Generate, Then Cache: Cascade of Foundation Models Makes Strong Few-Shot Learners]]
 - [CHiLS: Zero-Shot Image Classification with Hierarchical Label Sets](https://arxiv.org/abs/2302.02551)
 - [Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models](https://arxiv.org/abs/2301.06267)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)

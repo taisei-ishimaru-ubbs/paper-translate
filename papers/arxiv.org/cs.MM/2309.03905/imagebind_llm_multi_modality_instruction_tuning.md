@@ -52,7 +52,7 @@ tags: [paper]
 - [Multimodal C4: An Open, Billion-scale Corpus of Images Interleaved With Text](https://arxiv.org/abs/2304.06939)
 - [DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-Efficient Fine-Tuning](https://arxiv.org/abs/2304.06648)
 - [Instruction Tuning with GPT-4](https://arxiv.org/abs/2304.03277)
-- [Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement](https://arxiv.org/abs/2304.01195)
+- [[not_all_features_matter_enhancing_few_shot_clip_with_adaptive_prior_refinement|Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement]]
 - [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)
 - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
 - [Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis](https://arxiv.org/abs/2303.08134)

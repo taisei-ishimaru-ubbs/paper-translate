@@ -1,0 +1,114 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Comparison of Accuracy, Training GFLOPs, and Learnable Parameters on 16-shot ImageNet [16] classiﬁca- tion. We compare the training GFLOPs including gradient back- propagation, and the icon sizes denote the number of learnable parameters. Our APE and APE-T achieve superior performance with",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2. Comparison of Existing CLIP-based Few-shot Methods. We only show the training-required model variants of prior-based methods and our APE-T. EV , ET denote CLIP’s pre-trained visual and textual encoders, respectively.",
+    "score": 27.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 2,
+    "caption": "Figure 3. Similarity Maps for Vision-language Alignment. We utilize CLIP with ResNet-50 [32] visual encoder and reﬁne 512 feature channels from 1024 ones, where the reﬁned features are more attentive towards object targets.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Figure 4. The Effectiveness of Prior Reﬁnement Module, which minimizes the inter-class visual similarity and improves the text-image alignment.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Figure 4 shows the beneﬁt brought by our adaptive re- ﬁnement module. We conduct the reﬁnement by textual features on ImageNet [16] validation set and visualize the statistic, where the category number C equals 1000. We experiment with ResNet-50 [32] as CLIP’s visual encoder, where we reﬁne Q = 512 ",
+    "score": 3.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 5,
+    "page": 5,
+    "caption": "Figure 5. Framework of APE. Based on the prior reﬁnement (PR), APE explores trilateral relations of vision-language repre- sentations in a training-free manner.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 6,
+    "page": 5,
+    "caption": "Figure 6. Framework of APE-T. Our training-required variant appends learnable category residuals along with RF ′W ′ on top of APE for few-shot training.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 7,
+    "page": 6,
+    "caption": "Figure 7. Few-shot Performance of APE and other Training-free Methods on 11 image classiﬁcation datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 8,
+    "page": 7,
+    "caption": "Figure 8. Few-shot Performance of APE-T and other Training-required Methods on 11 image classiﬁcation datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 9,
+    "page": 8,
+    "caption": "Figure 9. Ablation Study on Prior Reﬁnement.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 10,
+    "page": 8,
+    "caption": "Figure 10. Ablation Study on APE and APE-T.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 11,
+    "page": 14,
+    "caption": "Figure 11. Visualization of Similarity and Variance Criteria on 1024 Channels of ResNet-50 encoder.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 12,
+    "page": 15,
+    "caption": "Figure 12. More Examples of the Similarity Map. We utilize ResNet-50 [32] visual encoder and reﬁne 512 feature channels from 1024 ones. These examples are collected from ImageNet validation set [16].",
+    "score": 3.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 13,
+    "page": 16,
+    "caption": "Figure 13. Ablation Study with Different Backbones. The dashed and solid lines represent training-free and training- required methods, respectively. Totally four network structures are involved: ResNet-50 [32], ResNet-101 [32], ViT-B/16 [18], and ViT-B/32 [18].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 14,
+    "page": 16,
+    "caption": "Figure 14. More Ablation Study for Prior Reﬁnement.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 15,
+    "page": 16,
+    "caption": "Figure 15. Different Prompt for APE and APE-T.",
+    "score": 3.0
+  }
+]

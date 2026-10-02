@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1: Compositional Image Retrieval through Vision-by-Language (CIReVL). Given an input image and a text modifier, we use an off-the-shelf vision-language model to caption the image. A LLM processes the generated caption and the text modifier to generate a description of the desired target image",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2: Examples from the CIRCO validation set where our method retrieves the desired image. We see that our method is able to perform this task for a wide variety of modifier texts.",
+    "score": 46.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3: We analyze failure cases of our approach. Due to the interpretable nature, we can easily attribute errors to captioning, reasoning or the text-image retrieval. We also find examples where the model is penalized despite a plausible retrieval due to insufficient annotations in the dataset.",
+    "score": 15.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4: We demonstrate the possibility of user interventions to enhance the performance of our method. For instance, by fixing the mistakes in the generated caption, we are able to correctly retrieve the desired image without having to make any other changes.",
+    "score": 14.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5: We use TIFA (Hu et al., 2023) to compare alignment between LLM de- scr. & base caption and target image, and LLM descr. to target- and CLIP- retrieved image. It shows the impact of LLM reasoning over base captions, and CLIP retrieval as essential bottleneck.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 9,
+    "caption": "Figure 6: Leveraging our modular CIReVL to study scaling laws. For model availability and con- sistency, we use LAION-2B pretrained CLIP models provided through OpenCLIP (Ilharco et al.).",
+    "score": 6.0
+  }
+]
