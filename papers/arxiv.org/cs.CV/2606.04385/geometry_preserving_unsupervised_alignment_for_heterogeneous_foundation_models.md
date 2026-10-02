@@ -40,7 +40,7 @@ tags: [paper]
 - [ProxyCLIP: Proxy Attention Improves CLIP for Open-Vocabulary Segmentation](https://arxiv.org/abs/2408.04883)
 - [Frustratingly Easy Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18330)
 - [Tuning-Free Universally-Supervised Semantic Segmentation](https://arxiv.org/abs/2405.14294)
-- [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
+- [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [Label Propagation for Zero-shot Classification with Vision-Language Models](https://arxiv.org/abs/2404.04072)
 - [Efficient Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2403.18293)
 - [[dual_memory_networks_a_versatile_adaptation_approach_for_vision_language_models|Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]]

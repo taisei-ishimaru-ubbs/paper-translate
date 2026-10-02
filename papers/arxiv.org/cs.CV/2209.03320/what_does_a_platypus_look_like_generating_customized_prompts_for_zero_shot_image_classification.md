@@ -325,7 +325,7 @@ tags: [paper]
 - [Contextual Emotion Recognition using Large Vision Language Models](https://arxiv.org/abs/2405.08992)
 - [News Recommendation with Category Description by a Large Language Model](https://arxiv.org/abs/2405.13007)
 - [Can Better Text Semantics in Prompt Tuning Improve VLM Generalization?](https://arxiv.org/abs/2405.07921)
-- [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
+- [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [Understanding Retrieval-Augmented Task Adaptation for Vision-Language Models](https://arxiv.org/abs/2405.01468)
 - [Leveraging Cross-Modal Neighbor Representation for Improved CLIP Classification](https://arxiv.org/abs/2404.17753)
 - [Embracing Diversity: Interpretable Zero-shot Classification Beyond One Vector Per Class](https://arxiv.org/abs/2404.16717)
@@ -352,7 +352,7 @@ tags: [paper]
 - [Learning to Prompt Segment Anything Models](https://arxiv.org/abs/2401.04651)
 - [Learning to Prompt with Text Only Supervision for Vision-Language Models](https://arxiv.org/abs/2401.02418)
 - [Improved Zero-Shot Classification by Adapting VLMs with Text Descriptions](https://arxiv.org/abs/2401.02460)
-- [Few-shot adaptation of multi-modal foundation models: a survey](https://arxiv.org/abs/2401.01736)
+- [[few_shot_adaptation_of_multi_modal_foundation_models_a_survey|Few-shot adaptation of multi-modal foundation models: a survey]]
 - [Incorporating Geo-Diverse Knowledge into Prompting for Increased Geographical Robustness in Object Recognition](https://arxiv.org/abs/2401.01482)
 - [A Survey on Open-Set Image Recognition](https://arxiv.org/abs/2312.15571)
 - [CLOVA: A Closed-LOop Visual Assistant with Tool Usage and Update](https://arxiv.org/abs/2312.10908)
@@ -403,7 +403,7 @@ tags: [paper]
 - [Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey](https://arxiv.org/abs/2305.18703)
 - [LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections](https://arxiv.org/abs/2305.18287)
 - [Exposing and Mitigating Spurious Correlations for Cross-Modal Retrieval](https://arxiv.org/abs/2304.03391)
-- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685)
+- [[vision_language_models_for_vision_tasks_a_survey|Vision-Language Models for Vision Tasks: A Survey]]
 - [Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement](https://arxiv.org/abs/2304.01195)
 - [Investigating the Role of Attribute Context in Vision-Language Models for Object Recognition and Detection](https://arxiv.org/abs/2303.10093)
 - [M-Tuning: Prompt Tuning With Mitigated Label Bias in Open-Set Scenarios](https://arxiv.org/abs/2303.05122)

@@ -283,7 +283,7 @@ tags: [paper]
 - [Dynamic-Superb: Towards a Dynamic, Collaborative, and Comprehensive Instruction-Tuning Benchmark For Speech](https://arxiv.org/abs/2309.09510)
 - [PointLLM: Empowering Large Language Models to Understand Point Clouds](https://arxiv.org/abs/2308.16911)
 - [MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models](https://arxiv.org/abs/2306.13394)
-- [A survey on multimodal large language models](https://arxiv.org/abs/2306.13549)
+- [[a_survey_on_multimodal_large_language_models|A survey on multimodal large language models]]
 - [Referred by Multi-Modality: A Unified Temporal Transformer for Video Object Segmentation](https://arxiv.org/abs/2305.16318)
 - [LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention](https://arxiv.org/abs/2303.16199)
 - [On the Nature of Attention Sink that Shapes Decoding Strategy in MLLMs](https://doi.org/10.48550/arXiv.2603.14337)

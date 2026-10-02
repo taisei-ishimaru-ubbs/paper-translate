@@ -1,0 +1,100 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Fig. 1: Number of publications on visual recognition VLMs (from Google Scholar). The publications grow exponentially since the pioneer study CLIP [10] in 2021.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Fig. 2: Three DNN training paradigms in visual recognition. Compared with the paradigms in (a) and (b) that requires fine-tuning for each specific task with task-specific labelled data, the new learning paradigm with VLMs in (c) enables effective usage of web data and zero-shot predictions without t",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Fig. 3: Illustration of development of VLMs for visual recog- nition.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Fig. 4: Typology of vision-language models for visual recognition.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 6,
+    "caption": "Fig. 5: Illustration of typical VLM pre-training frameworks.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 7,
+    "caption": "Fig. 6: Illustration of the image-text contrastive learning in CLIP [10]. Figure is reproduced from [10].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 9,
+    "caption": "Fig. 7: Illustration of the image-text-label space proposed in UniCL [65]. Figure is reproduced from [65].",
+    "score": 9.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 9,
+    "caption": "Fig. 8: Illustration of masked image modelling [66]. Figure is reproduced from [66].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 10,
+    "caption": "Fig. 9: Illustration of masked language modelling [14].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 10,
+    "caption": "Fig. 10: A simplified illustration of image-to-caption gener- ation in COCA [19]. Figure is reproduced based on [19].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 10,
+    "caption": "Fig. 11: Illustration of GLIP [67] that uses word-region alignment for detection. Figure is reproduced from [67].",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 12,
+    "caption": "Fig. 12: Illustration of text prompt learning [31] in (a) and visual prompt learning [147] in (b).",
+    "score": 6.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 12,
+    "caption": "Fig. 13: Illustration of feature adapter [33].",
+    "score": 3.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 14,
+    "caption": "Fig. 14: Performance versus data size and model size. It shows that scaling up either the pre-training data [113] or the pre-training model [10] benefits VLM consistently.",
+    "score": 12.0
+  }
+]

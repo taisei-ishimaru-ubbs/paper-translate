@@ -28,7 +28,7 @@ tags: [paper]
 - [Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification](https://arxiv.org/abs/2409.00698)
 - [[boosting_vision_language_models_with_transduction|Boosting Vision-Language Models with Transduction]]
 - [Low-Rank Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18541)
-- [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
+- [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [Transductive Zero-Shot and Few-Shot CLIP](https://arxiv.org/abs/2405.18437)
 - [Label Propagation for Zero-shot Classification with Vision-Language Models](https://arxiv.org/abs/2404.04072)
 - [Efficient Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2403.18293)

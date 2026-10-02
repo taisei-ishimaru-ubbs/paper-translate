@@ -40,7 +40,7 @@ tags: [paper]
 - [[enhancing_zero_shot_vision_models_by_label_free_prompt_distribution_learning_and_bias_correcting|Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting]]
 - [Selective Vision-Language Subspace Projection for Few-shot CLIP](https://arxiv.org/abs/2407.16977)
 - [AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation](https://arxiv.org/abs/2407.04603)
-- [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
+- [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [C-TPT: Calibrated Test-Time Prompt Tuning for Vision-Language Models via Text Feature Dispersion](https://arxiv.org/abs/2403.14119)
 - [Pre-Trained Model Guided Fine-Tuning for Zero-Shot Adversarial Robustness](https://arxiv.org/abs/2401.04350)
 - [Adversarial Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2311.11261)

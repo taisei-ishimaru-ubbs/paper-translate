@@ -24,7 +24,7 @@ tags: [paper]
 ## 参考文献 (references)
 
 - [Low-Rank Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18541)
-- [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
+- [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
 - [Transductive Zero-Shot and Few-Shot CLIP](https://arxiv.org/abs/2405.18437)
 - [No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance](https://arxiv.org/abs/2404.04125)
 - [A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation](https://arxiv.org/abs/2402.04087)
@@ -33,7 +33,7 @@ tags: [paper]
 - [Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning](https://arxiv.org/abs/2308.06038)
 - [Self-regulating Prompts: Foundational Model Adaptation without Forgetting](https://arxiv.org/abs/2307.06948)
 - [Black Box Few-Shot Adaptation for Vision-Language models](https://arxiv.org/abs/2304.01752)
-- [Vision-Language Models for Vision Tasks: A Survey](https://arxiv.org/abs/2304.00685)
+- [[vision_language_models_for_vision_tasks_a_survey|Vision-Language Models for Vision Tasks: A Survey]]
 - [Visual-Language Prompt Tuning with Knowledge-Guided Context Optimization](https://arxiv.org/abs/2303.13283)
 - [Task Residual for Tuning Vision-Language Models](https://arxiv.org/abs/2211.10277)
 - [Towards Practical Few-Shot Query Sets: Transductive Minimum Description Length Inference](https://arxiv.org/abs/2210.14545)

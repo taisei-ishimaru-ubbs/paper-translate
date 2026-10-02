@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Fig. 1. Schematic diagram of prompt-based fine-tuning adaptation methods.",
+    "score": 95.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Fig. 2. Schematic diagram of adapter-based fine-tuning adaptation methods.",
+    "score": 33.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Fig. 3. Schematic diagram of external knowledge-based fine-tuning adaptation methods.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 10,
+    "caption": "Fig. 4. Key issues of the few-shot adaptation methods for multi-modal foundation models and corresponding solutions.",
+    "score": 0.0
+  }
+]
