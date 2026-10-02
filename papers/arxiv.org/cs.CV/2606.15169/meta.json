@@ -1,0 +1,19 @@
+{
+  "id": "2606.15169",
+  "title": "Label Shift Aware Adaptation for Online Zero-shot Learning with Contrastive Language-Image Pre-Training (CLIP)",
+  "authors": [
+    "Pengxiao Han",
+    "Changkun Ye",
+    "Yanshuo Wang",
+    "Jinguang Tong",
+    "Miaohua Zhang",
+    "Xuesong Li",
+    "Jie Hong",
+    "Lars Petersson"
+  ],
+  "abstract": "Vision-language models like Contrastive Language-Image Pre-Training (CLIP) have been extensively studied in data-scarce scenarios. A particularly challenging and realistic task in this area is online zero-shot learning with CLIP, where unknown test samples are predicted sequentially in random order by CLIP while keeping the feature extraction and model parameters fixed during the sequential inference phase. Most existing approaches in this setting address the problem by adapting representations online using incoming test samples, while neglecting the distribution of the data on which CLIP was initially trained. This mismatch can lead to degraded performance when the label distribution in the test data differs from that of the training domain. To address this gap, we propose Label Shift Aware (LSA), which formulates the online zero-shot classification task as a domain adaptation problem. Specifically, LSA adapts the predictions computed by CLIP, which was trained on an unknown source distribution, to a target distribution using only unlabeled test data, and applies label shift correction to mitigate the mismatch between the source and target domains. The extensive experiments across multiple datasets demonstrate that the proposed LSA consistently outperforms state-of-the-art online zero-shot learning methods based on CLIP.",
+  "published": "2026-06-13",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2606.15169v1",
+  "added_at": "2026-10-02T14:31:32Z"
+}

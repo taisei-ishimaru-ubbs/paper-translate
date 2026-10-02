@@ -63,7 +63,7 @@ tags: [paper]
 - [CPL: Counterfactual Prompt Learning for Vision and Language Models](https://arxiv.org/abs/2210.10362)
 - [Non-Contrastive Learning Meets Language-Image Pre-Training](https://arxiv.org/abs/2210.09304)
 - [LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225)
 - [Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP](https://arxiv.org/abs/2210.04150)
 - [SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models](https://arxiv.org/abs/2210.03794)
@@ -74,7 +74,7 @@ tags: [paper]
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
 - [UniCLIP: Unified Framework for Contrastive Language-Image Pre-training](https://arxiv.org/abs/2209.13430)
 - [DetCLIP: Dictionary-Enriched Visual-Concept Paralleled Pre-training for Open-world Detection](https://arxiv.org/abs/2209.09407)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [Prompt Tuning with Soft Context Sharing for Vision-Language Models](https://arxiv.org/abs/2208.13474)
@@ -984,7 +984,7 @@ tags: [paper]
 - [PiG-Adapter: Lightweight Knowledge Graph Adaptation for Few-Shot Vision-Language Tuning](https://doi.org/10.1109/SMC58881.2025.11342873)
 - [A Systematic Review of the Use of Augmented Reality in Pedestrian Navigation](https://doi.org/10.1145/3770917)
 - [MonitorVLM:A Vision Language Framework for Safety Violation Detection in Mining Operations](https://arxiv.org/abs/2510.03666)
-- [Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models](https://arxiv.org/abs/2510.02750)
+- [[bayesian_test_time_adaptation_for_object_recognition_and_detection_with_vision_language_models|Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models]]
 - [TIT-Score: Evaluating Long-Prompt Based Text-to-Image Alignment via Text-to-Image-to-Text Consistency](https://arxiv.org/abs/2510.02987)
 - [Model-Agnostic Correctness Assessment for LLM-Generated Code via Dynamic Internal Representation Selection](https://arxiv.org/abs/2510.02934)
 - [Enhancing Large Language Model Reasoning with Reward Models: An Analytical Survey](https://arxiv.org/abs/2510.01925)

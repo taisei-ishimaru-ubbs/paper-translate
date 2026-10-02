@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Fig. 1. Illustrative example of Fixed Prior vs. Adaptive Prior: Comparison of Diagnosis Outcomes. In the fixed prior scenario, patients with fever are consistently diagnosed with the common cold, regardless of whether it is a normal period or a COVID-19 period. In contrast, the adaptive prior scenar",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Fig. 2. Traditional test-time detection vs. VLM-based test-time detection. Traditional test-time detection requires training a dedicated detector (e.g., Faster R-CNN) for each specific domain. For example, a model trained on the ”Cat” domain cannot be directly applied to the ”Dog” domain and must be",
+    "score": 41.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Fig. 3. Overview of the proposed BCA+ framework. The process is divided into three main stages: (a) VLM Inference, where the pre-trained vision-language model (CLIP for recognition or Grounding DINO for detection) processes the input image xi to generate initial outputs, including visual embeddings ",
+    "score": 39.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 13,
+    "caption": "Fig. 4. Hyperparameter sensitivity analysis and cache dynamics analysis. (a) and (d) show the sensitivity of object recognition performance to the confidence threshold τ1 and the similarity threshold τ2 on the OOD and Cross-Domain benchmarks, respectively. (b) and (e) show the sensitivity of object ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 14,
+    "caption": "Fig. 5. Prior visualization on OOD benchmark.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 14,
+    "caption": "Fig. 6. Qualitative results on PASCAL-C-Brit. Green, red and blue boxes represent true positives, false negatives and false positives, respectively.",
+    "score": 0.0
+  }
+]

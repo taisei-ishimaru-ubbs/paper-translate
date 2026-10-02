@@ -46,14 +46,14 @@ tags: [paper]
 - [Understanding and Mitigating Overfitting in Prompt Tuning for Vision-Language Models](https://arxiv.org/abs/2211.02219)
 - [Chinese CLIP: Contrastive Vision-Language Pretraining in Chinese](https://arxiv.org/abs/2211.01335)
 - [LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225)
 - [SVL-Adapter: Self-Supervised Adapter for Vision-Language Pretrained Models](https://arxiv.org/abs/2210.03794)
 - [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)
 - [LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models](https://arxiv.org/abs/2210.01115)
 - [ERNIE-ViL 2.0: Multi-view Contrastive Learning for Image-Text Pre-training](https://arxiv.org/abs/2209.15270)
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [Fengshenbang 1.0: Being the Foundation of Chinese Cognitive Intelligence](https://arxiv.org/abs/2209.02970)
 - [Prompt Tuning with Soft Context Sharing for Vision-Language Models](https://arxiv.org/abs/2208.13474)
@@ -190,7 +190,7 @@ tags: [paper]
 - [HyperFlow: Gradient-Free Emulation of Few-Shot Fine-Tuning](https://arxiv.org/abs/2504.15323)
 - [Exploiting Foundation Models for Label-Efficient Few-Shot Learning via Feature Coupling: A Case Study of cardiac CT Segmentation](https://doi.org/10.1109/ICASSP49660.2025.10887805)
 - [Local Feature Alignment Prompt-Tuning for Few-shot Multimodal Aspect Sentiment Analysis](https://doi.org/10.1109/ICASSP49660.2025.10888379)
-- [Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models](https://arxiv.org/abs/2503.18334)
+- [[mitigating_cache_noise_in_test_time_adaptation_for_large_vision_language_models|Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models]]
 - [Increasing the Task Flexibility of Heavy-Duty Manipulators Using Visual 6D Pose Estimation of Objects](https://arxiv.org/abs/2502.19169)
 - [Depthanything and SAM for UIE: exploring large model information contributes to underwater image restoration](https://doi.org/10.1007/s00138-025-01662-3)
 - [LR0.FM: Low-Res Benchmark and Improving Robustness for Zero-Shot Classification in Foundation Models](https://arxiv.org/abs/2502.03950)

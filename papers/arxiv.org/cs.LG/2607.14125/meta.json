@@ -1,0 +1,19 @@
+{
+  "id": "2607.14125",
+  "title": "CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Black-Box Vision-Language Models",
+  "authors": [
+    "Ruijiang Dong",
+    "Zesheng Ye",
+    "Jianzhong Qi",
+    "Lei Feng",
+    "Feng Liu",
+    "Gang Niu",
+    "Masashi Sugiyama"
+  ],
+  "abstract": "Pre-trained vision-language models (VLMs) enable zero-shot image classification by computing the similarity score between an image and textual descriptions, typically formed by inserting a class label (e.g., \"cat\") into a prompt (e.g., \"a photo of a\"). Since the score for a given image-class pair is sensitive to the choice of prompt, existing studies ensemble multiple prompts using a weighting vector to aggregate scores across different prompts. Yet, in current strategies, the weighting vector assigned to each prompt is shared across all classes, implicitly assuming that prompts are conditionally independent of classes, which often does not hold in practice, as a prompt like \"an aerial view of\" might be apt for \"airport\" but ill-suited for \"apple\". To address this, we propose class-aware zero-shot prompt reweighting (CARPRT). This scoring scheme adjusts the weighting vector for each class label by capturing the class-specific relevance of different prompts in a training-free manner. For each class label and every available prompt, we quantify their class-specific relevance by averaging image-text relevance scores over images predicted to that class under the given prompt. These estimates are then normalized to derive class-specific weights. Evaluations on standard image classification benchmarks show that CARPRT outperforms existing class-independent reweighting methods, confirming that modeling prompt-class dependencies is crucial for effective zero-shot prediction and even broader VLM-based application settings that rely on prompt ensembling. Our code is available at https://github.com/tmlr-group/CARPRT.",
+  "published": "2026-06-19",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2607.14125v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:20Z"
+}

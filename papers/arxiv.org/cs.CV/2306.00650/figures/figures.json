@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. Illustration of universal TTA for a single or a batch of test samples and our framework ROID.",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. Difference of error for a moderate and a stronger adaptation, corresponding to a learning rate of 10−4 and 10−3, respectively. An ImageNet pre-trained ResNet-50 is adapted on one of the corruptions from ImageNet-C at severity 3 and evaluated on all corruptions and the source domain.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. Average online classification error rate (%) over 5 runs for the task of continual TTA on the highest corruption severity level 5 of ImageNet-C. Varying sequence lengths are considered for a ResNet-50.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. Online classification error rate (%) in the correlated TTA setting, where samples are sorted by class on the left and for different levels of correlation on the right.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 12,
+    "caption": "Figure 5. Difference of error for a moderate and a stronger model adaptation corresponding to a learning rate of 10−4 and 10−3, respectively. The first row examines supervised fine-tuning, while the second row considers diversity-regularized self-training. The right column further illustrates the ef",
+    "score": 18.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 14,
+    "caption": "Figure 6. Illustration of the total variation distance of TENT on CIFAR100-C and ImageNet-C at severity level 5 without (first row) and with (second row) our loss weighting. The model is adapted to a single domain (left), in the continual setting (middle) using 15 randomly ordered domain sequences, ",
+    "score": 18.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 15,
+    "caption": "Figure 7. Illustration of the batch-wise predictions in the continual TTA setting using a ResNet-50 and ImageNet-C with 50,000 samples per corruption.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 16,
+    "caption": "Figure 8. Frequency of the ResNet-50’s predictions of the last corruption (JPEG) over the continual TTA sequence using 50,000 samples per corruption.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 18,
+    "caption": "Figure 9. Source and adaptation error of ROID, EATA, and CoTTA for ImageNet-C (50,000 samples per domain) in the continual TTA setting with an alternating domain sequence. The dashed line indicates the lower bound (source error of the source model).",
+    "score": 6.0
+  }
+]

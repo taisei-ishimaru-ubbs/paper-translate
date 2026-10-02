@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Overview of the AVVP task. Audio-visual event per- ception focuses on predicting the temporal boundaries of events within a video that are exclusively visible (shown in blue), exclu- sively audible (shown in red), or both audible and visible (shown in purple).",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Overview of AV2A. The process begins with category selection, where the input video clip passes through a video-level score-level fusion module (blue) to select relevant categories based on a threshold τf. These categories guide segment-level score-level fusion, where a dynamic threshold m",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Performance analysis of AV2A, based on the LanguageBind [37] model, showcasing predictions on audio-visual events, specif- ically those occurring simultaneously in both audio and video. Comparisons highlight (a) improvements and (b) failure-cases relative to state-of-the-art weakly supervi",
+    "score": 6.0
+  }
+]

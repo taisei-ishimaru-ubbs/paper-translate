@@ -30,7 +30,7 @@ tags: [paper]
 
 - [Scaling Rectified Flow Transformers for High-Resolution Image Synthesis](https://arxiv.org/abs/2403.03206)
 - [SynthCLIP: Are We Ready for a Fully Synthetic CLIP Training?](https://arxiv.org/abs/2402.01832)
-- [The Neglected Tails in Vision-Language Models](https://arxiv.org/abs/2401.12425)
+- [[the_neglected_tails_in_vision_language_models|The Neglected Tails in Vision-Language Models]]
 - [Effective pruning of web-scale datasets based on complexity of concept clusters](https://arxiv.org/abs/2401.04578)
 - [Low-Resource Vision Challenges for Foundation Models](https://arxiv.org/abs/2401.04716)
 - [Explaining CLIP's Performance Disparities on Data from Blind/Low Vision Users](https://arxiv.org/abs/2311.17315)
@@ -77,7 +77,7 @@ tags: [paper]
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
 - [Large Language Models Struggle to Learn Long-Tail Knowledge](https://arxiv.org/abs/2211.08411)
 - [LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402)
-- [Is synthetic data from generative models ready for image recognition?](https://arxiv.org/abs/2210.07574)
+- [[is_synthetic_data_from_generative_models_ready_for_image_recognition|Is synthetic data from generative models ready for image recognition?]]
 - [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)
 - [Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP](https://arxiv.org/abs/2208.05516)
 - [Testing Relational Understanding in Text-Guided Image Generation](https://arxiv.org/abs/2208.00005)

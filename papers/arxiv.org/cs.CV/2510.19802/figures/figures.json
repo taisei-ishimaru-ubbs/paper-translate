@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1: Comparative results of CPL-NC on (a) OOD robustness using ViT-B/16 and (b) cross-dataset",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 7,
+    "caption": "Figure 2: Overview of the CPL-NC framework. Given an input image X, CPL-NC extracts visual features",
+    "score": 42.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 19,
+    "caption": "Figure 3: (a) Impact of update frequency on model performance evaluated on Aircraft, and (b) ImageNet;",
+    "score": 6.0
+  }
+]

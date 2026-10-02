@@ -30,7 +30,7 @@ tags: [paper]
 - [Efficient Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2403.18293)
 - [A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation](https://arxiv.org/abs/2402.04087)
 - [On Catastrophic Inheritance of Large Foundation Models](https://arxiv.org/abs/2402.01909)
-- [The Neglected Tails in Vision-Language Models](https://arxiv.org/abs/2401.12425)
+- [[the_neglected_tails_in_vision_language_models|The Neglected Tails in Vision-Language Models]]
 - [GPT4Vis: What Can GPT-4 Do for Zero-shot Visual Recognition?](https://arxiv.org/abs/2311.15732)
 - [Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization](https://arxiv.org/abs/2311.01459)
 - [Intra-Modal Proxy Learning for Zero-Shot Visual Categorization with CLIP](https://arxiv.org/abs/2310.19752)
@@ -41,14 +41,14 @@ tags: [paper]
 - [A Simple Zero-shot Prompt Weighting Technique to Improve Prompt Ensembling in Text-Image Models](https://arxiv.org/abs/2302.06235)
 - [Reproducible Scaling Laws for Contrastive Language-Image Learning](https://arxiv.org/abs/2212.07143)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)
 - [Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift](https://arxiv.org/abs/2207.08977)
 - [Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)
 - [Prompt Distribution Learning](https://arxiv.org/abs/2205.03340)
 - [Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557)
-- [Debiased Learning from Naturally Imbalanced Pseudo-Labels](https://arxiv.org/abs/2201.01490)
+- [[debiased_learning_from_naturally_imbalanced_pseudo_labels|Debiased Learning from Naturally Imbalanced Pseudo-Labels]]
 - [Cross-Domain Empirical Risk Minimization for Unbiased Long-tailed Classification](https://arxiv.org/abs/2112.14380)
 - [Robust fine-tuning of zero-shot models](https://arxiv.org/abs/2109.01903)
 - [Learning to Prompt for Vision-Language Models](https://arxiv.org/abs/2109.01134)
@@ -84,7 +84,7 @@ tags: [paper]
 - [PEA-DPO: Perception-Enhanced Alignment Direct Preference Optimization for MLLMs Alignment](https://arxiv.org/abs/2608.19598)
 - [Dynamic Distribution-Aware Uncertainty Tracking in Vision-Language Representation Learning](https://arxiv.org/abs/2608.09011)
 - [[robustifying_vision_language_models_via_test_time_prompt_adaptation|Robustifying Vision-Language Models via Test-Time Prompt Adaptation]]
-- [Dual Distribution Estimation for Zero-shot Noisy Test-Time Adaptation with VLMs](https://arxiv.org/abs/2606.25758)
+- [[dual_distribution_estimation_for_zero_shot_noisy_test_time_adaptation_with_vlms|Dual Distribution Estimation for Zero-shot Noisy Test-Time Adaptation with VLMs]]
 - [The Geometry of Saturation: Effective Rank Predicts When Labels Stop Helping in Few-Shot Classification](https://arxiv.org/abs/2606.24903)
 - [ CLS  is Not Enough: Multi-Label Recognition via Patch-Level Inference and Adaptive Aggregation](https://arxiv.org/abs/2605.25821)
 - [Enhancing diversity and discriminability while optimizing hard samples for source-free domain adaptation](https://doi.org/10.1007/s11760-026-05285-7)

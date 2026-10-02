@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Vision-language models (VLMs) inherit long tails from their pretraining data. (a) VLMs’ pretraining datasets, such as LAION-400M [37] and LAION-2B [38], exhibit long- tailed distributions for visual concepts defined in downstream tasks like ImageNet [10]. We sort the 1K ImageNet classes ac",
+    "score": 99.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Using large language models (LLMs) to estimate con- cept frequency in a VLM’s pretraining dataset. We conduct the frequency estimation using publicly available LAION [37] datasets. First, since a visual concept can be expressed in various ways, we ask an LLM (e.g., ChatGPT [31]) to enumera",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. Demonstration of REAL-Prompt, which replaces the given concept names (e.g., “cash machine”) with their most frequent synonyms (e.g., “ATM”) in the prompt template, e.g., “a photo of {concept}”. REAL-Prompt uses an LLM (ChatGPT) to obtain a list of synonyms for a given concept, followed by ",
+    "score": 18.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 5,
+    "caption": "Figure 4. Flowchart of REAL-Linear. First, it uses all syn- onyms of the given concepts to retrieve a class-balanced sub- set of pretraining images (e.g., 500 images per class from the dataset LAION-400M). Next, it learns a linear classifier W atop the frozen VLM using cross-modal adaptation [22], a",
+    "score": 3.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5. Improving image generation using REAL-Prompt. We show two rare concepts identified by our frequency estimation where DALL-E 3 and SD-XL struggle to generate accurate images: bank swallow (top, a bird from the CUB dataset) and thorn apple (bottom, a flower from the Flowers dataset). Using t",
+    "score": 6.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 10,
+    "page": 14,
+    "caption": "Figure 10 and 11 contains qualitative results of REAL- Prompt on state-of-the-art text-to-image generative models including DALL-E 3 [41] and Stable Diffusion XL [2]. This shows that using most frequent synonyms can help gener- ate correct images for tailed concepts. We also note that our method is ",
+    "score": 23.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 8,
+    "page": 17,
+    "caption": "Figure 8. State-of-the-art multimodal systems fail to recognize or generate tailed concepts (part 1). We show more failure cases of popular multimodal systems (GPT-4V [50], LLaVA1.5 [23], DALL-E 3 [41], and Stable Diffusion XL [2]) on tailed concepts sampled from standard benchmark datasets such as ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 9,
+    "page": 18,
+    "caption": "Figure 9. State-of-the-art multimodal systems fail to recognize or generate tailed concepts (part 2). We show more failure cases of popular multimodal systems (GPT-4V [50], LLaVA1.5 [23], DALL-E 3 [41], and Stable Diffusion XL [2]) on tailed concepts sampled from standard benchmark datasets such as ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 10,
+    "page": 19,
+    "caption": "Figure 10. Prompting with the most frequent synonym can help DALL-E 3 and Stable Diffusion generate correct images (part 1). We show more examples when DALL-E 3 [41] and Stable Diffusion XL (SD-XL) [2] initially fail to generate correct images for tailed concepts when prompted with their original co",
+    "score": 12.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 11,
+    "page": 20,
+    "caption": "Figure 11. Prompting with the most frequent synonym can help DALL-E 3 and Stable Diffusion (SD-XL) generate correct images (part 2). We show more examples when DALL-E 3 [41] and Stable Diffusion XL (SD-XL) [2] initially fail to generate correct images for tailed concepts when prompted with their ori",
+    "score": 12.0
+  }
+]

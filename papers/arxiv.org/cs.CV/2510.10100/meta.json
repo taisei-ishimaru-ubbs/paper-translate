@@ -1,0 +1,18 @@
+{
+  "id": "2510.10100",
+  "title": "Cooperative Pseudo Labeling for Unsupervised Federated Classification",
+  "authors": [
+    "Kuangpu Guo",
+    "Lijun Sheng",
+    "Yongcan Yu",
+    "Jian Liang",
+    "Zilei Wang",
+    "Ran He"
+  ],
+  "abstract": "Unsupervised Federated Learning (UFL) aims to collaboratively train a global model across distributed clients without sharing data or accessing label information. Previous UFL works have predominantly focused on representation learning and clustering tasks. Recently, vision language models (e.g., CLIP) have gained significant attention for their powerful zero-shot prediction capabilities. Leveraging this advancement, classification problems that were previously infeasible under the UFL paradigm now present promising new opportunities, yet remain largely unexplored. In this paper, we extend UFL to the classification problem with CLIP for the first time and propose a novel method, \\underline{\\textbf{Fed}}erated \\underline{\\textbf{Co}}operative \\underline{\\textbf{P}}seudo \\underline{\\textbf{L}}abeling (\\textbf{FedCoPL}). Specifically, clients estimate and upload their pseudo label distribution, and the server adjusts and redistributes them to avoid global imbalance among classes. Moreover, we introduce a partial prompt aggregation protocol for effective collaboration and personalization. In particular, visual prompts containing general image features are aggregated at the server, while text prompts encoding personalized knowledge are retained locally. Extensive experiments demonstrate the superior performance of our FedCoPL compared to baseline methods. Our code is available at \\href{https://github.com/krumpguo/FedCoPL}{https://github.com/krumpguo/FedCoPL}.",
+  "published": "2025-10-11",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2510.10100v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:26Z"
+}

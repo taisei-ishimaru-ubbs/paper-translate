@@ -25,7 +25,7 @@ tags: [paper]
 ## 参考文献 (references)
 
 - [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://arxiv.org/abs/2211.11158)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [Algorithms to estimate Shapley value feature attributions](https://arxiv.org/abs/2207.07605)
 - [Is a Caption Worth a Thousand Images? A Controlled Study for Representation Learning](https://arxiv.org/abs/2207.07635)
 - [Learning to Estimate Shapley Values with Vision Transformers](https://arxiv.org/abs/2206.05282)
@@ -184,7 +184,7 @@ tags: [paper]
 - [Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](https://arxiv.org/abs/2508.03102)
 - [Open-Vocabulary Hoi Detection With Interaction-Aware Prompt and Concept Calibration](https://arxiv.org/abs/2508.03207)
 - [Enhancing Zero-Shot Brain Tumor Subtype Classification via Fine-Grained Patch-Text Alignment](https://arxiv.org/abs/2508.01602)
-- [Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models](https://arxiv.org/abs/2508.01225)
+- [[multi_cache_enhanced_prototype_learning_for_test_time_generalization_of_vision_language_models|Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models]]
 - [Evading Data Provenance in Deep Neural Networks](https://arxiv.org/abs/2508.01074)
 - [Vocabulary-Free Fine-Grained Visual Recognition via Enriched Contextually Grounded Vision-Language Model](https://arxiv.org/abs/2507.23070)
 - [Beyond Class Tokens: LLM-guided Dominant Property Mining for Few-shot Classification](https://arxiv.org/abs/2507.20511)
@@ -224,7 +224,7 @@ tags: [paper]
 - [Self-Evolving Visual Concept Library using Vision-Language Critics](https://arxiv.org/abs/2504.00185)
 - [Attribute-formed Class-specific Concept Space: Endowing Language Bottleneck Model with Better Interpretability and Scalability](https://arxiv.org/abs/2503.20301)
 - [Training-Free Personalization via Retrieval and Reasoning on Fingerprints](https://arxiv.org/abs/2503.18623)
-- [Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models](https://arxiv.org/abs/2503.18334)
+- [[mitigating_cache_noise_in_test_time_adaptation_for_large_vision_language_models|Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models]]
 - [An iterative feedback mechanism for improving natural language class descriptions in open-vocabulary object detection](https://arxiv.org/abs/2503.17285)
 - [OSLoPrompt: Bridging Low-Supervision Challenges and Open-Set Domain Generalization in CLIP](https://arxiv.org/abs/2503.16106)
 - [Enhancing Zero-Shot Image Recognition in Vision-Language Models through Human-like Concept Guidance](https://arxiv.org/abs/2503.15886)
@@ -348,7 +348,7 @@ tags: [paper]
 - [Multimodal Unsupervised Domain Generalization by Retrieving Across the Modality Gap](https://arxiv.org/abs/2402.04416)
 - [Image-Caption Encoding for Improving Zero-Shot Generalization](https://arxiv.org/abs/2402.02662)
 - [Democratizing Fine-grained Visual Recognition with Large Language Models](https://arxiv.org/abs/2401.13837)
-- [The Neglected Tails in Vision-Language Models](https://arxiv.org/abs/2401.12425)
+- [[the_neglected_tails_in_vision_language_models|The Neglected Tails in Vision-Language Models]]
 - [Learning to Prompt Segment Anything Models](https://arxiv.org/abs/2401.04651)
 - [Learning to Prompt with Text Only Supervision for Vision-Language Models](https://arxiv.org/abs/2401.02418)
 - [Improved Zero-Shot Classification by Adapting VLMs with Text Descriptions](https://arxiv.org/abs/2401.02460)
@@ -417,7 +417,7 @@ tags: [paper]
 - [Action-GPT: Leveraging Large-scale Language Models for Improved and Generalized Action Generation](https://arxiv.org/abs/2211.15603)
 - [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://arxiv.org/abs/2211.11158)
 - [PointCLIP V2: Prompting CLIP and GPT for Powerful 3D Open-world Learning](https://arxiv.org/abs/2211.11682)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [[geodesic_multi_modal_mixup_for_robust_fine_tuning|Geodesic Multi-Modal Mixup for Robust Fine-Tuning]]
 - [Learning to Prompt With Refining Text Knowledge for Zero-Shot Video Action Recognition](https://doi.org/10.1109/TMM.2026.3660143)
 - [Evolutionary-Algorithm-Based Automatic Prompt Generation for Vision-Language Model Evaluation](https://doi.org/10.1109/ACCESS.2025.3648351)

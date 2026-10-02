@@ -1,0 +1,16 @@
+{
+  "id": "2405.18437",
+  "title": "Transductive Zero-Shot and Few-Shot CLIP",
+  "authors": [
+    "Ségolène Martin",
+    "Yunshi Huang",
+    "Fereshteh Shakeri",
+    "Jean-Christophe Pesquet",
+    "Ismail Ben Ayed"
+  ],
+  "abstract": "Transductive inference has been widely investigated in few-shot image classification, but completely overlooked in the recent, fast growing literature on adapting vision-langage models like CLIP. This paper addresses the transductive zero-shot and few-shot CLIP classification challenge, in which inference is performed jointly across a mini-batch of unlabeled query samples, rather than treating each instance independently. We initially construct informative vision-text probability features, leading to a classification problem on the unit simplex set. Inspired by Expectation-Maximization (EM), our optimization-based classification objective models the data probability distribution for each class using a Dirichlet law. The minimization problem is then tackled with a novel block Majorization-Minimization algorithm, which simultaneously estimates the distribution parameters and class assignments. Extensive numerical experiments on 11 datasets underscore the benefits and efficacy of our batch inference approach.On zero-shot tasks with test batches of 75 samples, our approach yields near 20% improvement in ImageNet accuracy over CLIP's zero-shot performance. Additionally, we outperform state-of-the-art methods in the few-shot setting. The code is available at: https://github.com/SegoleneMartin/transductive-CLIP.",
+  "published": "2024-04-08",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2405.18437v1",
+  "added_at": "2026-10-02T14:32:42Z"
+}

@@ -40,7 +40,7 @@ tags: [paper]
 - [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)
 - [LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models](https://arxiv.org/abs/2210.01115)
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)
 - [EASE: Unsupervised Discriminant Subspace Learning for Transductive Few-Shot Learning](https://doi.org/10.1109/CVPR52688.2022.00887)
 - [Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)

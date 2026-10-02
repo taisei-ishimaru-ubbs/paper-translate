@@ -1,0 +1,1685 @@
+{
+  "id": "2201.01490",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "ea408e7f7c875f60a3f99490730027c14fed21bd",
+    "externalIds": {
+      "ArXiv": "2201.01490",
+      "DBLP": "conf/cvpr/WangWLY22",
+      "DOI": "10.1109/CVPR52688.2022.01424",
+      "CorpusId": 248300157
+    },
+    "url": "https://www.semanticscholar.org/paper/ea408e7f7c875f60a3f99490730027c14fed21bd",
+    "title": "Debiased Learning from Naturally Imbalanced Pseudo-Labels"
+  },
+  "references": [
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "57119dde4f6c45b195d9768e00e441032da7a650",
+      "arxiv_id": "2104.13963",
+      "doi": "10.1109/ICCV48922.2021.00833",
+      "title": "Semi-Supervised Learning of Visual Features by Non-Parametrically Predicting View Assignments with Support Samples",
+      "url": "https://www.semanticscholar.org/paper/57119dde4f6c45b195d9768e00e441032da7a650"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "09acced5fcb49322f5a26ac7a4cbe9f1308657c4",
+      "arxiv_id": "2102.09559",
+      "doi": "10.1109/CVPR46437.2021.01071",
+      "title": "CReST: A Class-Rebalancing Self-Training Framework for Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/09acced5fcb49322f5a26ac7a4cbe9f1308657c4"
+    },
+    {
+      "paper_id": "d63e4d867d97b7de9eec6d86b25c067c0dc29489",
+      "arxiv_id": "2101.08482",
+      "doi": "10.1109/CVPR46437.2021.00026",
+      "title": "Exponential Moving Average Normalization for Self-supervised and Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/d63e4d867d97b7de9eec6d86b25c067c0dc29489"
+    },
+    {
+      "paper_id": "669cbe118d868941172dbebfcaca9a479301d23b",
+      "arxiv_id": "2011.11183",
+      "doi": "10.1109/ICCV48922.2021.00934",
+      "title": "CoMatch: Semi-supervised Learning with Contrastive Graph Regularization",
+      "url": "https://www.semanticscholar.org/paper/669cbe118d868941172dbebfcaca9a479301d23b"
+    },
+    {
+      "paper_id": "59de1799c8b4272be3e07b0bb44c934c0d846527",
+      "arxiv_id": "2011.09230",
+      "doi": "10.1109/CVPR46437.2021.00115",
+      "title": "FixBi: Bridging Domain Spaces for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/59de1799c8b4272be3e07b0bb44c934c0d846527"
+    },
+    {
+      "paper_id": "d618752d2e666d7b25f1bd6c7c3bd7c056e19d96",
+      "arxiv_id": "2010.01809",
+      "doi": "",
+      "title": "Long-tailed Recognition by Routing Diverse Distribution-Aware Experts",
+      "url": "https://www.semanticscholar.org/paper/d618752d2e666d7b25f1bd6c7c3bd7c056e19d96"
+    },
+    {
+      "paper_id": "c5e4ed93580d50c46426642cd85b93d0e64629a3",
+      "arxiv_id": "2009.12991",
+      "doi": "",
+      "title": "Long-Tailed Classification by Keeping the Good and Removing the Bad Momentum Causal Effect",
+      "url": "https://www.semanticscholar.org/paper/c5e4ed93580d50c46426642cd85b93d0e64629a3"
+    },
+    {
+      "paper_id": "cff4d87fcd98c65b352e9dabe1e6f444d99e6aad",
+      "arxiv_id": "2009.12547",
+      "doi": "",
+      "title": "Causal Intervention for Weakly-Supervised Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/cff4d87fcd98c65b352e9dabe1e6f444d99e6aad"
+    },
+    {
+      "paper_id": "975a888b018d73aa51e31ebd84daaf4ca4e0e7e6",
+      "arxiv_id": "2008.03813",
+      "doi": "10.1109/CVPR46437.2021.01240",
+      "title": "Unsupervised Feature Learning by Cross-Level Instance-Group Discrimination",
+      "url": "https://www.semanticscholar.org/paper/975a888b018d73aa51e31ebd84daaf4ca4e0e7e6"
+    },
+    {
+      "paper_id": "4f65f604d3bf5fa91634484a3232b426267b71ef",
+      "arxiv_id": "2007.07314",
+      "doi": "",
+      "title": "Long-tail learning via logit adjustment",
+      "url": "https://www.semanticscholar.org/paper/4f65f604d3bf5fa91634484a3232b426267b71ef"
+    },
+    {
+      "paper_id": "7323239fc698f3aa176b5dd39276326c945556a5",
+      "arxiv_id": "2006.10713",
+      "doi": "",
+      "title": "Zero-Shot Learning with Common Sense Knowledge Graphs",
+      "url": "https://www.semanticscholar.org/paper/7323239fc698f3aa176b5dd39276326c945556a5"
+    },
+    {
+      "paper_id": "1e1e10d75c4ebabdbfb7912ca4cc06a27ffa85af",
+      "arxiv_id": "2006.09882",
+      "doi": "",
+      "title": "Unsupervised Learning of Visual Features by Contrasting Cluster Assignments",
+      "url": "https://www.semanticscholar.org/paper/1e1e10d75c4ebabdbfb7912ca4cc06a27ffa85af"
+    },
+    {
+      "paper_id": "9a75cb455b4e70c66f3b72e6bb1498d8cab72fb2",
+      "arxiv_id": "2006.10029",
+      "doi": "",
+      "title": "Big Self-Supervised Models are Strong Semi-Supervised Learners",
+      "url": "https://www.semanticscholar.org/paper/9a75cb455b4e70c66f3b72e6bb1498d8cab72fb2"
+    },
+    {
+      "paper_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "arxiv_id": "2005.14165",
+      "doi": "",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+    },
+    {
+      "paper_id": "9c5e6395bee6c46273fec3bde416ca07c7b1ad6a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "ReMixMatch: Semi-Supervised Learning with Distribution Matching and Augmentation Anchoring",
+      "url": "https://www.semanticscholar.org/paper/9c5e6395bee6c46273fec3bde416ca07c7b1ad6a"
+    },
+    {
+      "paper_id": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+      "arxiv_id": "2002.05709",
+      "doi": "",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "url": "https://www.semanticscholar.org/paper/7af72a461ed7cda180e7eab878efd5f35d79bbf4"
+    },
+    {
+      "paper_id": "299847adf3ee558a760475ffa364facac3ebbb16",
+      "arxiv_id": "2001.07685",
+      "doi": "",
+      "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+      "url": "https://www.semanticscholar.org/paper/299847adf3ee558a760475ffa364facac3ebbb16"
+    },
+    {
+      "paper_id": "20ba55ee3229db5cb190a00e788c59f08d2a767d",
+      "arxiv_id": "1911.04252",
+      "doi": "10.1109/cvpr42600.2020.01070",
+      "title": "Self-Training With Noisy Student Improves ImageNet Classification",
+      "url": "https://www.semanticscholar.org/paper/20ba55ee3229db5cb190a00e788c59f08d2a767d"
+    },
+    {
+      "paper_id": "87f6a7c014ce206ac5b57299c07e10667d194b39",
+      "arxiv_id": "1909.13719",
+      "doi": "10.1109/CVPRW50498.2020.00359",
+      "title": "Randaugment: Practical automated data augmentation with a reduced search space",
+      "url": "https://www.semanticscholar.org/paper/87f6a7c014ce206ac5b57299c07e10667d194b39"
+    },
+    {
+      "paper_id": "0090023afc66cd2741568599057f4e82b566137c",
+      "arxiv_id": "1908.09635",
+      "doi": "10.1145/3457607",
+      "title": "A Survey on Bias and Fairness in Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/0090023afc66cd2741568599057f4e82b566137c"
+    },
+    {
+      "paper_id": "bcfba69c2fadf2efea83be12fda2601f8d4681af",
+      "arxiv_id": "1906.07413",
+      "doi": "",
+      "title": "Learning Imbalanced Datasets with Label-Distribution-Aware Margin Loss",
+      "url": "https://www.semanticscholar.org/paper/bcfba69c2fadf2efea83be12fda2601f8d4681af"
+    },
+    {
+      "paper_id": "f902a64f7d08aaa6bfca7463e8729952ddc6134e",
+      "arxiv_id": "1908.03195",
+      "doi": "10.1109/CVPR.2019.00550",
+      "title": "LVIS: A Dataset for Large Vocabulary Instance Segmentation",
+      "url": "https://www.semanticscholar.org/paper/f902a64f7d08aaa6bfca7463e8729952ddc6134e"
+    },
+    {
+      "paper_id": "c42816f497d663c681df20d48a6e66a5632600d8",
+      "arxiv_id": "1905.02249",
+      "doi": "",
+      "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/c42816f497d663c681df20d48a6e66a5632600d8"
+    },
+    {
+      "paper_id": "0feea94f89d395436bf41bd10c797447eecbc128",
+      "arxiv_id": "1904.12848",
+      "doi": "",
+      "title": "Unsupervised Data Augmentation for Consistency Training",
+      "url": "https://www.semanticscholar.org/paper/0feea94f89d395436bf41bd10c797447eecbc128"
+    },
+    {
+      "paper_id": "f6e6c948a2074e38e0a4e9099c0f63773c6013dd",
+      "arxiv_id": "",
+      "doi": "10.7551/mitpress/11578.003.0012",
+      "title": "Causality",
+      "url": "https://www.semanticscholar.org/paper/f6e6c948a2074e38e0a4e9099c0f63773c6013dd"
+    },
+    {
+      "paper_id": "73c07e0a998576bb9d9409e5eed713788c0be037",
+      "arxiv_id": "1904.05160",
+      "doi": "10.1109/CVPR.2019.00264",
+      "title": "Large-Scale Long-Tailed Recognition in an Open World",
+      "url": "https://www.semanticscholar.org/paper/73c07e0a998576bb9d9409e5eed713788c0be037"
+    },
+    {
+      "paper_id": "dafa29f1f0534448d205365796d68873a0068c6b",
+      "arxiv_id": "",
+      "doi": "10.1145/3293318",
+      "title": "A Survey of Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/dafa29f1f0534448d205365796d68873a0068c6b"
+    },
+    {
+      "paper_id": "675b96a38f37f92043189d7e90377a6b41a2a9cd",
+      "arxiv_id": "1901.00976",
+      "doi": "10.1109/CVPR.2019.00503",
+      "title": "Contrastive Adaptation Network for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/675b96a38f37f92043189d7e90377a6b41a2a9cd"
+    },
+    {
+      "paper_id": "e921f1fe057fb2cb7bc61e52390407a78aae8f62",
+      "arxiv_id": "",
+      "doi": "10.1080/24709360.2019.1670513",
+      "title": "Essential concepts of causal inference: a remarkable history and an intriguing future",
+      "url": "https://www.semanticscholar.org/paper/e921f1fe057fb2cb7bc61e52390407a78aae8f62"
+    },
+    {
+      "paper_id": "601f17d3fd2f6bc031dc945c65768099f2813784",
+      "arxiv_id": "1812.08781",
+      "doi": "10.1109/ICCVW.2019.00167",
+      "title": "Deep Metric Transfer for Label Propagation with Limited Annotated Data",
+      "url": "https://www.semanticscholar.org/paper/601f17d3fd2f6bc031dc945c65768099f2813784"
+    },
+    {
+      "paper_id": "fff34334f4a1a7afe8ddbb27911af52decbac987",
+      "arxiv_id": "1812.03253",
+      "doi": "",
+      "title": "Counterfactuals uncover the modular structure of deep generative models",
+      "url": "https://www.semanticscholar.org/paper/fff34334f4a1a7afe8ddbb27911af52decbac987"
+    },
+    {
+      "paper_id": "8f61c28cd63372e03e303714f3cb726ad79a6d62",
+      "arxiv_id": "1805.11724",
+      "doi": "10.1109/CVPR.2019.01175",
+      "title": "Rethinking Knowledge Graph Propagation for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/8f61c28cd63372e03e303714f3cb726ad79a6d62"
+    },
+    {
+      "paper_id": "f527bacebbbfc46719d50eed61a8b2114a39bb72",
+      "arxiv_id": "",
+      "doi": "10.1126/science.aau9731",
+      "title": "The Book of Why: The New Science of Cause and Effect",
+      "url": "https://www.semanticscholar.org/paper/f527bacebbbfc46719d50eed61a8b2114a39bb72"
+    },
+    {
+      "paper_id": "9fc17fa5708584fa848164461f82a69e97f6ed69",
+      "arxiv_id": "1801.05599",
+      "doi": "10.1109/LSP.2018.2822810",
+      "title": "Additive Margin Softmax for Face Verification",
+      "url": "https://www.semanticscholar.org/paper/9fc17fa5708584fa848164461f82a69e97f6ed69"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2018.00914",
+      "title": "The iNaturalist Species Classification and Detection Dataset",
+      "url": "https://www.semanticscholar.org/paper/05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628"
+    },
+    {
+      "paper_id": "4b1c6f6521da545892f3f5dc39461584d4a27ec0",
+      "arxiv_id": "1704.03976",
+      "doi": "10.1109/TPAMI.2018.2858821",
+      "title": "Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/4b1c6f6521da545892f3f5dc39461584d4a27ec0"
+    },
+    {
+      "paper_id": "1342c1e1684620c019972e2679d5131f1e8a4a13",
+      "arxiv_id": "1703.01780",
+      "doi": "",
+      "title": "Weight-averaged consistency targets improve semi-supervised deep learning results",
+      "url": "https://www.semanticscholar.org/paper/1342c1e1684620c019972e2679d5131f1e8a4a13"
+    },
+    {
+      "paper_id": "8938988d82c6eb18e47deb5e69220652446c60bd",
+      "arxiv_id": "1612.09161",
+      "doi": "10.1109/ICCV.2017.449",
+      "title": "Learning Visual N-Grams from Web Data",
+      "url": "https://www.semanticscholar.org/paper/8938988d82c6eb18e47deb5e69220652446c60bd"
+    },
+    {
+      "paper_id": "b022f2a277a4bf5f42382e86e4380b96340b9e86",
+      "arxiv_id": "1608.03983",
+      "doi": "",
+      "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+      "url": "https://www.semanticscholar.org/paper/b022f2a277a4bf5f42382e86e4380b96340b9e86"
+    },
+    {
+      "paper_id": "6fd9e3cb0cf23c8ef4aa7065d9be407c45250bff",
+      "arxiv_id": "1612.02295",
+      "doi": "",
+      "title": "Large-Margin Softmax Loss for Convolutional Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/6fd9e3cb0cf23c8ef4aa7065d9be407c45250bff"
+    },
+    {
+      "paper_id": "4c20e7f95448ca3c1042a6d7fa5fa15ec27e9aeb",
+      "arxiv_id": "1606.04586",
+      "doi": "",
+      "title": "Regularization With Stochastic Transformations and Perturbations for Deep Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/4c20e7f95448ca3c1042a6d7fa5fa15ec27e9aeb"
+    },
+    {
+      "paper_id": "1c4e9156ca07705531e45960b7a919dc473abb51",
+      "arxiv_id": "1605.07146",
+      "doi": "10.5244/C.30.87",
+      "title": "Wide Residual Networks",
+      "url": "https://www.semanticscholar.org/paper/1c4e9156ca07705531e45960b7a919dc473abb51"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "4b18303edf701e41a288da36f8f1ba129da67eb7",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-50077-5_2",
+      "title": "An embarrassingly simple approach to zero-shot learning",
+      "url": "https://www.semanticscholar.org/paper/4b18303edf701e41a288da36f8f1ba129da67eb7"
+    },
+    {
+      "paper_id": "f37e1b62a767a307c046404ca96bc140b3e68cb5",
+      "arxiv_id": "",
+      "doi": "10.3115/v1/D14-1162",
+      "title": "GloVe: Global Vectors for Word Representation",
+      "url": "https://www.semanticscholar.org/paper/f37e1b62a767a307c046404ca96bc140b3e68cb5"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+      "arxiv_id": "1409.0575",
+      "doi": "10.1007/s11263-015-0816-y",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "paper_id": "be2f5d8a7e6b415f1e22cee7dfd9be56b1afd8be",
+      "arxiv_id": "1312.5650",
+      "doi": "",
+      "title": "Zero-Shot Learning by Convex Combination of Semantic Embeddings",
+      "url": "https://www.semanticscholar.org/paper/be2f5d8a7e6b415f1e22cee7dfd9be56b1afd8be"
+    },
+    {
+      "paper_id": "4aa4069693bee00d1b0759ca3df35e59284e9845",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "DeViSE: A Deep Visual-Semantic Embedding Model",
+      "url": "https://www.semanticscholar.org/paper/4aa4069693bee00d1b0759ca3df35e59284e9845"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "370b6aa884c634fc6762907e6674046c09847085",
+      "arxiv_id": "",
+      "doi": "10.1093/ije/dyt127",
+      "title": "Mediation analysis in epidemiology: methods, interpretation and bias.",
+      "url": "https://www.semanticscholar.org/paper/370b6aa884c634fc6762907e6674046c09847085"
+    },
+    {
+      "paper_id": "755e9f43ce398ae8737366720c5f82685b0c253e",
+      "arxiv_id": "1301.3666",
+      "doi": "",
+      "title": "Zero-Shot Learning Through Cross-Modal Transfer",
+      "url": "https://www.semanticscholar.org/paper/755e9f43ce398ae8737366720c5f82685b0c253e"
+    },
+    {
+      "paper_id": "22fe619996b59c09cb73be40103a123d2e328111",
+      "arxiv_id": "",
+      "doi": "10.1109/IJCNN.2011.6033395",
+      "title": "The German Traffic Sign Recognition Benchmark: A multi-class classification competition",
+      "url": "https://www.semanticscholar.org/paper/22fe619996b59c09cb73be40103a123d2e328111"
+    },
+    {
+      "paper_id": "b8a3067d6c1fb255c9cdb5ac66037b82152ab3bb",
+      "arxiv_id": "",
+      "doi": "10.1609/aaai.v25i1.8056",
+      "title": "Controlling Selection Bias in Causal Inference",
+      "url": "https://www.semanticscholar.org/paper/b8a3067d6c1fb255c9cdb5ac66037b82152ab3bb"
+    },
+    {
+      "paper_id": "f0fa332388686497e20fca449487af2b799377ab",
+      "arxiv_id": "",
+      "doi": "10.1214/09-SS057",
+      "title": "Causal inference in statistics: An overview",
+      "url": "https://www.semanticscholar.org/paper/f0fa332388686497e20fca449487af2b799377ab"
+    },
+    {
+      "paper_id": "c6a8aef1bf134294482d8088f982d5643347d2ff",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206772",
+      "title": "Describing objects by their attributes",
+      "url": "https://www.semanticscholar.org/paper/c6a8aef1bf134294482d8088f982d5643347d2ff"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "ae6e206c8c2994e04c3fdc5bd97d81fdd0f27493",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "On the Complexity of Linear Prediction: Risk Bounds, Margin Bounds, and Regularization",
+      "url": "https://www.semanticscholar.org/paper/ae6e206c8c2994e04c3fdc5bd97d81fdd0f27493"
+    },
+    {
+      "paper_id": "d00a403028eb0786915dab7a76692e5eeadf60be",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDMW.2007.109",
+      "title": "A Comparative Study of Methods for Transductive Transfer Learning",
+      "url": "https://www.semanticscholar.org/paper/d00a403028eb0786915dab7a76692e5eeadf60be"
+    },
+    {
+      "paper_id": "d8574a62874312b81347438b1566cdb1c6d5abe5",
+      "arxiv_id": "1301.2300",
+      "doi": "10.1145/3501714.3501736",
+      "title": "Direct and Indirect Effects",
+      "url": "https://www.semanticscholar.org/paper/d8574a62874312b81347438b1566cdb1c6d5abe5"
+    },
+    {
+      "paper_id": "a46cd152ca8899a93927b2597565a0ea8b1d5297",
+      "arxiv_id": "",
+      "doi": "10.1214/SS/1009211805",
+      "title": "Confounding and Collapsibility in Causal Inference",
+      "url": "https://www.semanticscholar.org/paper/a46cd152ca8899a93927b2597565a0ea8b1d5297"
+    },
+    {
+      "paper_id": "762176d0c509fac7649ef9188b3161506f755189",
+      "arxiv_id": "",
+      "doi": "10.1080/01621459.1986.10478354",
+      "title": "Statistics and Causal Inference",
+      "url": "https://www.semanticscholar.org/paper/762176d0c509fac7649ef9188b3161506f755189"
+    },
+    {
+      "paper_id": "d41be1ed03da6eb632ad324f71b6b17945ca28e1",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Data-Centric Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/d41be1ed03da6eb632ad324f71b6b17945ca28e1"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Iasonas Kokkinos, Sammy Mohamed, and Andrea Vedaldi",
+      "url": ""
+    },
+    {
+      "paper_id": "798d9840d2439a0e5d47bcf5d164aa46d5e7dc26",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/798d9840d2439a0e5d47bcf5d164aa46d5e7dc26"
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The mnist database of handwritten digits",
+      "url": "https://www.semanticscholar.org/paper/dc52d1ede1b90bf9d296bc5b34c9310b7eaa99a2"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Causal inference using potential outcomes: Design, modeling, decisions",
+      "url": ""
+    },
+    {
+      "paper_id": "3fd90098551bf88c7509521adf1c0ba9b5dfeb57",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Attribute-Based Classification for Zero-Shot Visual Object Categorization",
+      "url": "https://www.semanticscholar.org/paper/3fd90098551bf88c7509521adf1c0ba9b5dfeb57"
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "f597ac7337cd7129e04440f141ee071ecf851b51",
+      "arxiv_id": "",
+      "doi": "10.1007/s00530-026-02678-z",
+      "title": "DMatch: distinguish confusing classes with unlabeled data for semi-supervised learning (ChinaMM 2026)",
+      "url": "https://www.semanticscholar.org/paper/f597ac7337cd7129e04440f141ee071ecf851b51"
+    },
+    {
+      "paper_id": "9d73232a8ac8385477e8cab3ad21cd4fa98ca1e7",
+      "arxiv_id": "2609.04846",
+      "doi": "",
+      "title": "LetOccVote: Learning Weakly Supervised 3D Occupancy through Consensus",
+      "url": "https://www.semanticscholar.org/paper/9d73232a8ac8385477e8cab3ad21cd4fa98ca1e7"
+    },
+    {
+      "paper_id": "d2e8ac1ab26ec4c9bafb11cff74652bf0bff0891",
+      "arxiv_id": "2608.30699",
+      "doi": "",
+      "title": "Learning Dynamics of Logits Debiasing for Long-Tailed Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/d2e8ac1ab26ec4c9bafb11cff74652bf0bff0891"
+    },
+    {
+      "paper_id": "02e9a98d8fd8632042c1e8b4cbca8b27ce814b31",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neunet.2026.109533",
+      "title": "Intrinsic logit-based debiasing for class-imbalanced semi-supervised learning.",
+      "url": "https://www.semanticscholar.org/paper/02e9a98d8fd8632042c1e8b4cbca8b27ce814b31"
+    },
+    {
+      "paper_id": "4f4f3da779179687d51ce3bc722578b8cdbccdc7",
+      "arxiv_id": "2608.20710",
+      "doi": "",
+      "title": "Geometric Regularization for Long-Tailed Semi-Supervised Learning via Gaussian Feature Bridges",
+      "url": "https://www.semanticscholar.org/paper/4f4f3da779179687d51ce3bc722578b8cdbccdc7"
+    },
+    {
+      "paper_id": "3fdb89bd94e7cd81f62d6fb3b7f117e59c51d351",
+      "arxiv_id": "2608.09052",
+      "doi": "",
+      "title": "Triple Expert Learning from Noisy Labels for Semi-Supervised Vision Foundation Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/3fdb89bd94e7cd81f62d6fb3b7f117e59c51d351"
+    },
+    {
+      "paper_id": "bd54209e66066501ac58c046911aa3d143014c21",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3715098",
+      "title": "Boosting Semi-Supervised Learning With Entropy-Guided Adaptive Reward Maximization",
+      "url": "https://www.semanticscholar.org/paper/bd54209e66066501ac58c046911aa3d143014c21"
+    },
+    {
+      "paper_id": "0b0bc577be438ecdec228662238937e74d58e663",
+      "arxiv_id": "2607.11947",
+      "doi": "10.48550/arXiv.2607.11947",
+      "title": "Generalized Distribution-Free Semi-Supervised Learning with Risk Rewrite",
+      "url": "https://www.semanticscholar.org/paper/0b0bc577be438ecdec228662238937e74d58e663"
+    },
+    {
+      "paper_id": "0f11cf242a8bc2b8816028e1e8c89096b17c1a7e",
+      "arxiv_id": "",
+      "doi": "10.1109/TCSS.2026.3659948",
+      "title": "Adaptive Contrastive Learning for Semisupervised Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/0f11cf242a8bc2b8816028e1e8c89096b17c1a7e"
+    },
+    {
+      "paper_id": "4bde526f24291fc7f663400360ce03dbbc56a201",
+      "arxiv_id": "2606.00558",
+      "doi": "10.48550/arXiv.2606.00558",
+      "title": "Semi-Supervised Noise Adaptation: Transferring Knowledge from Noise Domain",
+      "url": "https://www.semanticscholar.org/paper/4bde526f24291fc7f663400360ce03dbbc56a201"
+    },
+    {
+      "paper_id": "530a6b57d0cd838b000c7f819ddfd7b3c5f99275",
+      "arxiv_id": "",
+      "doi": "10.1109/IPDPS65963.2026.00064",
+      "title": "MosaicUFL: A Fine-grained Unlabeled Client Selection Framework for Efficient Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/530a6b57d0cd838b000c7f819ddfd7b3c5f99275"
+    },
+    {
+      "paper_id": "033f84c8f040ad565133110051eb914d29f47626",
+      "arxiv_id": "2605.12780",
+      "doi": "10.48550/arXiv.2605.12780",
+      "title": "When to Trust Confidence Thresholding: Calibration Diagnostics for Pseudo-Labelled Regression",
+      "url": "https://www.semanticscholar.org/paper/033f84c8f040ad565133110051eb914d29f47626"
+    },
+    {
+      "paper_id": "ab443489ac54e0b81658184ddefc051d45db9514",
+      "arxiv_id": "",
+      "doi": "10.1109/icassp55912.2026.11461261",
+      "title": "When Three Heads Collaborate: Attention-Driven Fusion for Long-Tailed Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/ab443489ac54e0b81658184ddefc051d45db9514"
+    },
+    {
+      "paper_id": "d2744815f0cded5524f238d05fa0327a6cee9271",
+      "arxiv_id": "2605.01309",
+      "doi": "10.48550/arXiv.2605.01309",
+      "title": "CUE: Concept-Aware Multi-Label Expansion to Mitigate Concept Confusion in Long-Tailed Learning",
+      "url": "https://www.semanticscholar.org/paper/d2744815f0cded5524f238d05fa0327a6cee9271"
+    },
+    {
+      "paper_id": "e636dbdf84cf73d73fdc6e6e328f17cd455b54e0",
+      "arxiv_id": "",
+      "doi": "10.1109/TCSVT.2025.3642144",
+      "title": "Margin-Aware Prototype Debiasing for Generalized Category Discovery",
+      "url": "https://www.semanticscholar.org/paper/e636dbdf84cf73d73fdc6e6e328f17cd455b54e0"
+    },
+    {
+      "paper_id": "5a706fdd0082087fcaace69e6f100bdce2276128",
+      "arxiv_id": "",
+      "doi": "10.1016/j.asoc.2026.115445",
+      "title": "Multi-stage cost-efficient multi-label active learning",
+      "url": "https://www.semanticscholar.org/paper/5a706fdd0082087fcaace69e6f100bdce2276128"
+    },
+    {
+      "paper_id": "064b70078aa176921956b9bdf76571f89b8c02f1",
+      "arxiv_id": "2604.26707",
+      "doi": "10.48550/arXiv.2604.26707",
+      "title": "CurEvo: Curriculum-Guided Self-Evolution for Video Understanding",
+      "url": "https://www.semanticscholar.org/paper/064b70078aa176921956b9bdf76571f89b8c02f1"
+    },
+    {
+      "paper_id": "4c259729deb757c5aaf70180e1542b97a6367875",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3672381",
+      "title": "Discriminative-Generative Positive and Unlabeled Learning",
+      "url": "https://www.semanticscholar.org/paper/4c259729deb757c5aaf70180e1542b97a6367875"
+    },
+    {
+      "paper_id": "20579c4c186a0f842b8b7c9b179944e4f8332c55",
+      "arxiv_id": "",
+      "doi": "10.1016/j.knosys.2026.115720",
+      "title": "SDSegNet: A semi-supervised debias framework for remote sensing image semantic segmentation",
+      "url": "https://www.semanticscholar.org/paper/20579c4c186a0f842b8b7c9b179944e4f8332c55"
+    },
+    {
+      "paper_id": "400fc017d7ff6f625021cfdaa4711646f429e51d",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2026.133273",
+      "title": "MBP: Rethinking class-imbalanced semi-supervised learning from the multi-binary perspective",
+      "url": "https://www.semanticscholar.org/paper/400fc017d7ff6f625021cfdaa4711646f429e51d"
+    },
+    {
+      "paper_id": "2984c40f8411a455df3a382de5d8340787bad1d6",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2026.133408",
+      "title": "Revisiting data imbalance in token-based self-supervised learning",
+      "url": "https://www.semanticscholar.org/paper/2984c40f8411a455df3a382de5d8340787bad1d6"
+    },
+    {
+      "paper_id": "a0fc2f36cc40d7125ea1eb548ff96f94bb41b383",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2026.131613",
+      "title": "SNMatch: A unified diversely sample selection framework for long-tailed semi-supervised learning",
+      "url": "https://www.semanticscholar.org/paper/a0fc2f36cc40d7125ea1eb548ff96f94bb41b383"
+    },
+    {
+      "paper_id": "4a88c244f2b6441006f79ef3d055fd8769b9a403",
+      "arxiv_id": "",
+      "doi": "10.1007/s11263-025-02701-2",
+      "title": "Bilateral Transformation of Biased Pseudo-Labels under Distribution Inconsistency",
+      "url": "https://www.semanticscholar.org/paper/4a88c244f2b6441006f79ef3d055fd8769b9a403"
+    },
+    {
+      "paper_id": "fed9c82f92c967df8d8cbf72c20070eecb7b6d45",
+      "arxiv_id": "2601.15549",
+      "doi": "10.48550/arXiv.2601.15549",
+      "title": "VIOLA: Towards Video In-Context Learning with Minimal Annotations",
+      "url": "https://www.semanticscholar.org/paper/fed9c82f92c967df8d8cbf72c20070eecb7b6d45"
+    },
+    {
+      "paper_id": "5d8ce75030f64f6220524e45424d15bb0651e2c6",
+      "arxiv_id": "",
+      "doi": "10.1109/TMI.2026.3651295",
+      "title": "Leveraging Textual Anatomical Knowledge for Class-Imbalanced Semi-Supervised Multi-Organ Segmentation",
+      "url": "https://www.semanticscholar.org/paper/5d8ce75030f64f6220524e45424d15bb0651e2c6"
+    },
+    {
+      "paper_id": "f11a5612b08e70b8efca751fb9f88ee07b01b9a5",
+      "arxiv_id": "2512.10244",
+      "doi": "10.48550/arXiv.2512.10244",
+      "title": "Solving Semi-Supervised Few-Shot Learning from an Auto-Annotation Perspective",
+      "url": "https://www.semanticscholar.org/paper/f11a5612b08e70b8efca751fb9f88ee07b01b9a5"
+    },
+    {
+      "paper_id": "ad362926c791c470c7019e7c92c9a4c7a924ba99",
+      "arxiv_id": "",
+      "doi": "10.1016/j.compmedimag.2025.102695",
+      "title": "Semi-supervised medical image classification via feature-level multi-scale consistency and adversarial training",
+      "url": "https://www.semanticscholar.org/paper/ad362926c791c470c7019e7c92c9a4c7a924ba99"
+    },
+    {
+      "paper_id": "60cc3cd235d42acedf16d82139e20d61fff0b4f9",
+      "arxiv_id": "2511.09063",
+      "doi": "10.48550/arXiv.2511.09063",
+      "title": "Human-Corrected Labels Learning: Enhancing Labels Quality via Human Correction of VLMs Discrepancies",
+      "url": "https://www.semanticscholar.org/paper/60cc3cd235d42acedf16d82139e20d61fff0b4f9"
+    },
+    {
+      "paper_id": "b2e7f664b47b4cdfb6a38cbabbf1c41a3fa53bfc",
+      "arxiv_id": "",
+      "doi": "10.1007/s11760-025-04920-z",
+      "title": "Latent manifold preservation and target prediction balance for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/b2e7f664b47b4cdfb6a38cbabbf1c41a3fa53bfc"
+    },
+    {
+      "paper_id": "736229385fea83c54a049d7b604bd9a34a9e1303",
+      "arxiv_id": "",
+      "doi": "10.1109/TNNLS.2025.3622936",
+      "title": "Kernel-Based Representation Alignment for Class Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/736229385fea83c54a049d7b604bd9a34a9e1303"
+    },
+    {
+      "paper_id": "b454c3ad24127994232ec4217276dfb0130332d9",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3755652",
+      "title": "Simple but Effective: Sub-Volume Contrastive Learning for Class-Imbalanced Semi-Supervised 3D Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/b454c3ad24127994232ec4217276dfb0130332d9"
+    },
+    {
+      "paper_id": "49bcc5049e6cb11a1f5a01c8fd0b964a9a7ab6cc",
+      "arxiv_id": "2510.20477",
+      "doi": "10.48550/arXiv.2510.20477",
+      "title": "Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/49bcc5049e6cb11a1f5a01c8fd0b964a9a7ab6cc"
+    },
+    {
+      "paper_id": "1d279a921d9a5a7e589f8aac16074e0a8f3299b0",
+      "arxiv_id": "2510.16863",
+      "doi": "10.48550/arXiv.2510.16863",
+      "title": "BARL: Bilateral Alignment in Representation and Label Spaces for Semi-Supervised Volumetric Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/1d279a921d9a5a7e589f8aac16074e0a8f3299b0"
+    },
+    {
+      "paper_id": "93038f0858c74f2ca8e097305b2edf67a2c38e16",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00256",
+      "title": "Learnable Logit Adjustment for Imbalanced Semi-Supervised Learning Under Class Distribution Mismatch",
+      "url": "https://www.semanticscholar.org/paper/93038f0858c74f2ca8e097305b2edf67a2c38e16"
+    },
+    {
+      "paper_id": "e5c2b6cd551e9bedc05a6feb200a603edb69f147",
+      "arxiv_id": "2510.02270",
+      "doi": "10.48550/arXiv.2510.02270",
+      "title": "microCLIP: Unsupervised CLIP Adaptation via Coarse-Fine Token Fusion for Fine-Grained Image Classification",
+      "url": "https://www.semanticscholar.org/paper/e5c2b6cd551e9bedc05a6feb200a603edb69f147"
+    },
+    {
+      "paper_id": "434248e44fa681c076103a62c3c07ea7235312d0",
+      "arxiv_id": "2508.08549",
+      "doi": "",
+      "title": "Diverse Teaching and Label Propagation for Generic Semi-Supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/434248e44fa681c076103a62c3c07ea7235312d0"
+    },
+    {
+      "paper_id": "311aa74ba63b2ecc6d7cf578e59c7f52094f39e8",
+      "arxiv_id": "2508.04987",
+      "doi": "10.1109/TPAMI.2025.3597436",
+      "title": "Unified Modality Separation: A Vision-Language Framework for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/311aa74ba63b2ecc6d7cf578e59c7f52094f39e8"
+    },
+    {
+      "paper_id": "78d439f6801e59917a24b5813c03329d6d39d813",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2025.3596597",
+      "title": "On Structuring Hyperspherical Manifold for Probing Novel Biomedical Entities",
+      "url": "https://www.semanticscholar.org/paper/78d439f6801e59917a24b5813c03329d6d39d813"
+    },
+    {
+      "paper_id": "670b85e4b113e1c4f7417d39f00b364ab3dc7131",
+      "arxiv_id": "2508.04924",
+      "doi": "10.1109/WACV61042.2026.00666",
+      "title": "Test-Time Adaptation for Video Highlight Detection Using Meta-Auxiliary Learning and Cross-Modality Hallucinations",
+      "url": "https://www.semanticscholar.org/paper/670b85e4b113e1c4f7417d39f00b364ab3dc7131"
+    },
+    {
+      "paper_id": "66c243280721552b00c467a84f4808e7e6914cd9",
+      "arxiv_id": "",
+      "doi": "10.1109/JBHI.2025.3592873",
+      "title": "DBANet: Dual Boundary Awareness With Confidence-Guided Pseudo Labeling for Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/66c243280721552b00c467a84f4808e7e6914cd9"
+    },
+    {
+      "paper_id": "c58c0372a9e5931d6c606c10871fc4985b72d856",
+      "arxiv_id": "2507.22075",
+      "doi": "10.48550/arXiv.2507.22075",
+      "title": "Prototype-Guided Pseudo-Labeling with Neighborhood-Aware Consistency for Unsupervised Adaptation",
+      "url": "https://www.semanticscholar.org/paper/c58c0372a9e5931d6c606c10871fc4985b72d856"
+    },
+    {
+      "paper_id": "370a2b55e0a5471db28798986849c999c2bf46cb",
+      "arxiv_id": "2507.09615",
+      "doi": "10.1109/WACV61042.2026.00569",
+      "title": "Towards Fine-Grained Adaptation of CLIP via a Self-Trained Alignment Score",
+      "url": "https://www.semanticscholar.org/paper/370a2b55e0a5471db28798986849c999c2bf46cb"
+    },
+    {
+      "paper_id": "f16c8ef92f00b20f1f67c184b46ed3b295ee0ef9",
+      "arxiv_id": "",
+      "doi": "10.1109/IJCNN64981.2025.11227447",
+      "title": "4S-Classifier: Empowering Conservation through Semi-Supervised Learning for Rare and Endangered Species",
+      "url": "https://www.semanticscholar.org/paper/f16c8ef92f00b20f1f67c184b46ed3b295ee0ef9"
+    },
+    {
+      "paper_id": "f8e0f54dd2ddb245a887eecb46923b1b82737cd5",
+      "arxiv_id": "2506.20841",
+      "doi": "10.1109/MIPR67560.2025.00027",
+      "title": "FixCLR: Negative-Class Contrastive Learning for Semi-Supervised Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/f8e0f54dd2ddb245a887eecb46923b1b82737cd5"
+    },
+    {
+      "paper_id": "8d81fc093e0a796eecc53e086957eee08340d73e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.02394",
+      "title": "Language-Assisted Debiasing and Smoothing for Foundation Model-Based Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/8d81fc093e0a796eecc53e086957eee08340d73e"
+    },
+    {
+      "paper_id": "acad8cbd165686f5046c7e25a6508e38a23bf8ce",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.02416",
+      "title": "A Semantic Knowledge Complementarity based Decoupling Framework for Semi-supervised Class-imbalanced Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/acad8cbd165686f5046c7e25a6508e38a23bf8ce"
+    },
+    {
+      "paper_id": "b46dc8234df36c971f5279363d182dd4045058ef",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.00950",
+      "title": "Towards Cost-Effective Learning: A Synergy of Semi-Supervised and Active Learning",
+      "url": "https://www.semanticscholar.org/paper/b46dc8234df36c971f5279363d182dd4045058ef"
+    },
+    {
+      "paper_id": "6772c7bdebbee089b0ccfe892d539c8ef1728057",
+      "arxiv_id": "2506.01724",
+      "doi": "10.48550/arXiv.2506.01724",
+      "title": "Active Learning via Vision-Language Model Adaptation with Open Data",
+      "url": "https://www.semanticscholar.org/paper/6772c7bdebbee089b0ccfe892d539c8ef1728057"
+    },
+    {
+      "paper_id": "fe17a0623ecd6fece4d4ae0f982ea2b9b11c73ef",
+      "arxiv_id": "2506.00467",
+      "doi": "10.1016/j.ipm.2025.104158",
+      "title": "SST: Self-training with self-adaptive thresholding for semi-supervised learning",
+      "url": "https://www.semanticscholar.org/paper/fe17a0623ecd6fece4d4ae0f982ea2b9b11c73ef"
+    },
+    {
+      "paper_id": "2fbdf9456be833f74505aec44d13a94b15e41849",
+      "arxiv_id": "2505.16341",
+      "doi": "10.48550/arXiv.2505.16341",
+      "title": "A Square Peg in a Square Hole: Meta-Expert for Long-Tailed Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/2fbdf9456be833f74505aec44d13a94b15e41849"
+    },
+    {
+      "paper_id": "4f5eed5048366f131d8b01bea3054247a9d7f1de",
+      "arxiv_id": "2505.05062",
+      "doi": "10.48550/arXiv.2505.05062",
+      "title": "ULFine: Unbiased Lightweight Fine-tuning for Foundation-Model-Assisted Long-Tailed Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/4f5eed5048366f131d8b01bea3054247a9d7f1de"
+    },
+    {
+      "paper_id": "cd7ab8fc9835ed4e0010f9ad7de889928d04faef",
+      "arxiv_id": "",
+      "doi": "10.1002/qre.3768",
+      "title": "Edge‐Side Fault Diagnosis for Machinery Health Management Based on Lightweight Model and Uncertainty Analysis",
+      "url": "https://www.semanticscholar.org/paper/cd7ab8fc9835ed4e0010f9ad7de889928d04faef"
+    },
+    {
+      "paper_id": "ce892620f3aff5d5ad7beb51395fc73e5ddba11a",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2025.128175",
+      "title": "Boundary-aware dynamic re-weighting for semi-supervised medial image segmentation",
+      "url": "https://www.semanticscholar.org/paper/ce892620f3aff5d5ad7beb51395fc73e5ddba11a"
+    },
+    {
+      "paper_id": "7f8c75e1f200ffc72d14a32a3bd83b87385b9966",
+      "arxiv_id": "",
+      "doi": "10.1117/1.JEI.34.3.033047",
+      "title": "Semi-RSTOD: toward semi-supervised remote sensing tiny object detection",
+      "url": "https://www.semanticscholar.org/paper/7f8c75e1f200ffc72d14a32a3bd83b87385b9966"
+    },
+    {
+      "paper_id": "92f8191b30acc83f49656f16ffbaff639eabfec3",
+      "arxiv_id": "2504.18666",
+      "doi": "10.48550/arXiv.2504.18666",
+      "title": "Co-Training with Active Contrastive Learning and Meta-Pseudo-Labeling on 2D Projections for Deep Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/92f8191b30acc83f49656f16ffbaff639eabfec3"
+    },
+    {
+      "paper_id": "ae02f9b8ee48a42210323a238af1cdb8bfee8342",
+      "arxiv_id": "2504.06389",
+      "doi": "10.1109/CVPR52734.2025.00917",
+      "title": "SemiDAViL: Semi-supervised Domain Adaptation with Vision-Language Guidance for Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/ae02f9b8ee48a42210323a238af1cdb8bfee8342"
+    },
+    {
+      "paper_id": "d068f05a55908b25fa2487b994354ab0ede01ca0",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49660.2025.10888036",
+      "title": "Debiased Prototype Evolving for Point Cloud Domain Adaptation via 3D Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/d068f05a55908b25fa2487b994354ab0ede01ca0"
+    },
+    {
+      "paper_id": "c0471bb329e8812cf7b08a16a828319119dbf47a",
+      "arxiv_id": "2503.14013",
+      "doi": "10.48550/arXiv.2503.14013",
+      "title": "Boosting Semi-Supervised Medical Image Segmentation via Masked Image Consistency and Discrepancy Learning",
+      "url": "https://www.semanticscholar.org/paper/c0471bb329e8812cf7b08a16a828319119dbf47a"
+    },
+    {
+      "paper_id": "71a32535bf1dd2411940a25d0cfdb066ca852b84",
+      "arxiv_id": "2503.12821",
+      "doi": "10.1109/CVPR52734.2025.00881",
+      "title": "From Head to Tail: Towards Balanced Representation in Large Vision-Language Models through Adaptive Data Calibration",
+      "url": "https://www.semanticscholar.org/paper/71a32535bf1dd2411940a25d0cfdb066ca852b84"
+    },
+    {
+      "paper_id": "d2cb8e0540566eafb2db20f96be3cf8ff020d74e",
+      "arxiv_id": "2503.00414",
+      "doi": "10.1109/CVPR52734.2025.00428",
+      "title": "SGC-Net: Stratified Granular Comparison Network for Open-Vocabulary HOI Detection",
+      "url": "https://www.semanticscholar.org/paper/d2cb8e0540566eafb2db20f96be3cf8ff020d74e"
+    },
+    {
+      "paper_id": "cadf66b3d16fe60330a000fa89f35093dc5f5e2f",
+      "arxiv_id": "",
+      "doi": "10.1016/j.asoc.2025.113087",
+      "title": "A self-adaptive framework of reducing domain bias under distribution shift for semi-supervised domain generalization",
+      "url": "https://www.semanticscholar.org/paper/cadf66b3d16fe60330a000fa89f35093dc5f5e2f"
+    },
+    {
+      "paper_id": "42c5aa8a5da51b9236e71248cc8271f24097a00f",
+      "arxiv_id": "",
+      "doi": "10.1007/s11548-024-03281-1",
+      "title": "Double-mix pseudo-label framework: enhancing semi-supervised segmentation on category-imbalanced CT volumes",
+      "url": "https://www.semanticscholar.org/paper/42c5aa8a5da51b9236e71248cc8271f24097a00f"
+    },
+    {
+      "paper_id": "11d65c9a5b8fa4fe6ad3f28212ecf406a83e9272",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ins.2024.121671",
+      "title": "Consensus-based iterative meta-pseudo-labeling for deep semi-supervised learning",
+      "url": "https://www.semanticscholar.org/paper/11d65c9a5b8fa4fe6ad3f28212ecf406a83e9272"
+    },
+    {
+      "paper_id": "1ca915d30106e2e20a11febf59bf4c4a251b0a90",
+      "arxiv_id": "2501.14148",
+      "doi": "10.48550/arXiv.2501.14148",
+      "title": "SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Robust Vision-Language Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/1ca915d30106e2e20a11febf59bf4c4a251b0a90"
+    },
+    {
+      "paper_id": "5e9c203c7a00e12fb37896aafb38b5fcd8552270",
+      "arxiv_id": "2501.13470",
+      "doi": "10.48550/arXiv.2501.13470",
+      "title": "Leveraging Textual Anatomical Knowledge for Class-Imbalanced Semi-Supervised Multi-Organ Segmentation",
+      "url": "https://www.semanticscholar.org/paper/5e9c203c7a00e12fb37896aafb38b5fcd8552270"
+    },
+    {
+      "paper_id": "f57b6ad62b0a90e5469327bd06b41e4bbc15b18a",
+      "arxiv_id": "",
+      "doi": "10.1007/s11263-024-02328-9",
+      "title": "PICK: Predict and Mask for Semi-supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/f57b6ad62b0a90e5469327bd06b41e4bbc15b18a"
+    },
+    {
+      "paper_id": "485b2edee828bb933548ba5604fc455dd8dc7ab3",
+      "arxiv_id": "",
+      "doi": "10.1093/radadv/umaf004",
+      "title": "Artificial intelligence model for automatic 3-dimensional reconstruction of ossicular chain and bony labyrinth from high-resolution CT",
+      "url": "https://www.semanticscholar.org/paper/485b2edee828bb933548ba5604fc455dd8dc7ab3"
+    },
+    {
+      "paper_id": "0a22eb490c970c07523d5196e6338d67c6eee466",
+      "arxiv_id": "",
+      "doi": "10.1155/jom/5991303",
+      "title": "SSCL‐GBM: A Semi‐Supervised Stock Prediction Approach With Custom Loss Function",
+      "url": "https://www.semanticscholar.org/paper/0a22eb490c970c07523d5196e6338d67c6eee466"
+    },
+    {
+      "paper_id": "b2d703aa07aaca78f493e5175dada25ab74f0eb3",
+      "arxiv_id": "2412.13516",
+      "doi": "10.48550/arXiv.2412.13516",
+      "title": "Learning Causal Transition Matrix for Instance-dependent Label Noise",
+      "url": "https://www.semanticscholar.org/paper/b2d703aa07aaca78f493e5175dada25ab74f0eb3"
+    },
+    {
+      "paper_id": "b4635725ec8d846828ac756718d3b33888612600",
+      "arxiv_id": "",
+      "doi": "10.1145/3696409.3700194",
+      "title": "MAFS: Modality-Aware Federated Semi-Supervised Learning with Selective Data Sharing Specified by Individual Clients",
+      "url": "https://www.semanticscholar.org/paper/b4635725ec8d846828ac756718d3b33888612600"
+    },
+    {
+      "paper_id": "96e61d6eb0eff76727d3194fe36ce5619e62ff32",
+      "arxiv_id": "",
+      "doi": "10.1007/s11704-024-40051-3",
+      "title": "Debiasing vision-language models for vision tasks: a survey",
+      "url": "https://www.semanticscholar.org/paper/96e61d6eb0eff76727d3194fe36ce5619e62ff32"
+    },
+    {
+      "paper_id": "775ddb13e2e30216fdf8d284b6ff9467e390cb79",
+      "arxiv_id": "2411.03959",
+      "doi": "10.48550/arXiv.2411.03959",
+      "title": "Energy Score-based Pseudo-Label Filtering and Adaptive Loss for Imbalanced Semi-supervised SAR target recognition",
+      "url": "https://www.semanticscholar.org/paper/775ddb13e2e30216fdf8d284b6ff9467e390cb79"
+    },
+    {
+      "paper_id": "4e6a85f656de178f913790f9755b6cb9ee2cd3ca",
+      "arxiv_id": "2410.19294",
+      "doi": "10.48550/arXiv.2410.19294",
+      "title": "Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting",
+      "url": "https://www.semanticscholar.org/paper/4e6a85f656de178f913790f9755b6cb9ee2cd3ca"
+    },
+    {
+      "paper_id": "1be0d9edb672e62cf2279de01d00b82a50996e84",
+      "arxiv_id": "2410.14242",
+      "doi": "10.48550/arXiv.2410.14242",
+      "title": "Pseudo-label Refinement for Improving Self-Supervised Learning Systems",
+      "url": "https://www.semanticscholar.org/paper/1be0d9edb672e62cf2279de01d00b82a50996e84"
+    },
+    {
+      "paper_id": "dfe9196ceb342bff84066126a19880de2d76ff15",
+      "arxiv_id": "2409.11653",
+      "doi": "10.48550/arXiv.2409.11653",
+      "title": "Enhancing Semi-Supervised Learning via Representative and Diverse Sample Selection",
+      "url": "https://www.semanticscholar.org/paper/dfe9196ceb342bff84066126a19880de2d76ff15"
+    },
+    {
+      "paper_id": "73d696570a6359ddeb3d13f7807256b2d7ab2155",
+      "arxiv_id": "2408.08855",
+      "doi": "10.1109/WACV61041.2025.00593",
+      "title": "DPA: Dual Prototypes Alignment for Unsupervised Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/73d696570a6359ddeb3d13f7807256b2d7ab2155"
+    },
+    {
+      "paper_id": "f02a2cce9ad7992347862c27ba424bb0d1a03a21",
+      "arxiv_id": "2408.00483",
+      "doi": "10.1109/TNNLS.2025.3539314",
+      "title": "A Systematic Review on Long-Tailed Learning",
+      "url": "https://www.semanticscholar.org/paper/f02a2cce9ad7992347862c27ba424bb0d1a03a21"
+    },
+    {
+      "paper_id": "cb181c4af3cea43bae90952e7a659676665917c6",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2024.128314",
+      "title": "A debiased self-training framework with graph self-supervised pre-training aided for semi-supervised rumor detection",
+      "url": "https://www.semanticscholar.org/paper/cb181c4af3cea43bae90952e7a659676665917c6"
+    },
+    {
+      "paper_id": "2e6b45d6fe53e17307858ed1fdd80172cf9ade78",
+      "arxiv_id": "",
+      "doi": "10.1109/PRML62565.2024.10779963",
+      "title": "A Novel Semi-Supervised Learning Method Using Causal Margin Adaptation for Imbalanced Classification",
+      "url": "https://www.semanticscholar.org/paper/2e6b45d6fe53e17307858ed1fdd80172cf9ade78"
+    },
+    {
+      "paper_id": "d039d9ae4a8486c65c3def26c65fad0b3d1fb0d7",
+      "arxiv_id": "2407.07763",
+      "doi": "10.1109/TMI.2025.3576163",
+      "title": "S&D Messenger: Exchanging Semantic and Domain Knowledge for Generic Semi-Supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/d039d9ae4a8486c65c3def26c65fad0b3d1fb0d7"
+    },
+    {
+      "paper_id": "59476c8652203ec465919861974621ea228a546a",
+      "arxiv_id": "",
+      "doi": "10.1109/ISITIA63062.2024.10667778",
+      "title": "Relevance Detection using Text Entailment for Health-related Question-Answer Texts with Imbalanced Data",
+      "url": "https://www.semanticscholar.org/paper/59476c8652203ec465919861974621ea228a546a"
+    },
+    {
+      "paper_id": "f4c2cf69740f00871d375d97e97829a978e8eccc",
+      "arxiv_id": "2407.05370",
+      "doi": "",
+      "title": "Imbalanced Semi-Supervised Learning via Label Refinement and Threshold Adjustment",
+      "url": "https://www.semanticscholar.org/paper/f4c2cf69740f00871d375d97e97829a978e8eccc"
+    },
+    {
+      "paper_id": "47c3676051770cf50d28ed371b11134c73404af2",
+      "arxiv_id": "2501.05272",
+      "doi": "10.1109/CVPR52733.2024.01597",
+      "title": "Solving the Catastrophic Forgetting Problem in Generalized Category Discovery",
+      "url": "https://www.semanticscholar.org/paper/47c3676051770cf50d28ed371b11134c73404af2"
+    },
+    {
+      "paper_id": "09cb7fef6233c85ecaee22ec4f2a1a484c7bae0b",
+      "arxiv_id": "2405.21070",
+      "doi": "10.52202/079017-1153",
+      "title": "What Makes CLIP More Robust to Long-Tailed Pre-Training Data? A Controlled Study for Transferable Insights",
+      "url": "https://www.semanticscholar.org/paper/09cb7fef6233c85ecaee22ec4f2a1a484c7bae0b"
+    },
+    {
+      "paper_id": "cfcdf167b3756735f230e72e4d2713bb063587b2",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2024.3404450",
+      "title": "Triplet Adaptation Framework for Robust Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/cfcdf167b3756735f230e72e4d2713bb063587b2"
+    },
+    {
+      "paper_id": "285a138a88536044fa72a2efdfb5287a9cc14f7e",
+      "arxiv_id": "2405.15228",
+      "doi": "10.48550/arXiv.2405.15228",
+      "title": "Learning from True-False Labels via Multi-modal Prompt Retrieving",
+      "url": "https://www.semanticscholar.org/paper/285a138a88536044fa72a2efdfb5287a9cc14f7e"
+    },
+    {
+      "paper_id": "fe3a6e472512e918dabae5dd3e4fdb6c2fa65181",
+      "arxiv_id": "2405.11756",
+      "doi": "10.48550/arXiv.2405.11756",
+      "title": "Erasing the Bias: Fine-Tuning Foundation Models for Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/fe3a6e472512e918dabae5dd3e4fdb6c2fa65181"
+    },
+    {
+      "paper_id": "5c5feb6ca96afc504cedcbe612f79a35e4fdf342",
+      "arxiv_id": "",
+      "doi": "10.63317/5g7dmmqtb9hx",
+      "title": "Exploring the Challenges of Behaviour Change Language Classification: A Study on Semi-Supervised Learning and the Impact of Pseudo-Labelled Data",
+      "url": "https://www.semanticscholar.org/paper/5c5feb6ca96afc504cedcbe612f79a35e4fdf342"
+    },
+    {
+      "paper_id": "335e47250bab00b8b6b18c9cd913e36fc041a975",
+      "arxiv_id": "2404.11947",
+      "doi": "10.48550/arXiv.2404.11947",
+      "title": "VCC-INFUSE: Towards Accurate and Efficient Selection of Unlabeled Examples in Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/335e47250bab00b8b6b18c9cd913e36fc041a975"
+    },
+    {
+      "paper_id": "295fe42b3fe4b58804ad07aacdc19ae6479c0ab2",
+      "arxiv_id": "2404.09585",
+      "doi": "10.1109/IJCNN60899.2024.10650805",
+      "title": "Pseudo-label Learning with Calibrated Confidence Using an Energy-based Model",
+      "url": "https://www.semanticscholar.org/paper/295fe42b3fe4b58804ad07aacdc19ae6479c0ab2"
+    },
+    {
+      "paper_id": "0a1655e25193e66ecb823126c6751b2fc2823cb7",
+      "arxiv_id": "2404.10146",
+      "doi": "10.1109/CVPRW63382.2024.00075",
+      "title": "Cross-Modal Self-Training: Aligning Images and Pointclouds to learn Classification without Labels",
+      "url": "https://www.semanticscholar.org/paper/0a1655e25193e66ecb823126c6751b2fc2823cb7"
+    },
+    {
+      "paper_id": "1032338af7a0588c86bd38fb8e67803a4bf4a9d1",
+      "arxiv_id": "",
+      "doi": "10.1007/s13042-024-02165-9",
+      "title": "Unsupervised domain specificity for knowledge transfer",
+      "url": "https://www.semanticscholar.org/paper/1032338af7a0588c86bd38fb8e67803a4bf4a9d1"
+    },
+    {
+      "paper_id": "40f3d2f7ef5e49aa4d79dfc8ed58cd4f571d331c",
+      "arxiv_id": "2403.10391",
+      "doi": "10.1109/CVPR52733.2024.02255",
+      "title": "CDMAD: Class-Distribution-Mismatch-Aware Debiasing for Class-Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/40f3d2f7ef5e49aa4d79dfc8ed58cd4f571d331c"
+    },
+    {
+      "paper_id": "b2420186a79aff2db599bf90b3b26ca2f8cbb051",
+      "arxiv_id": "2403.06946",
+      "doi": "10.1109/CVPR52733.2024.02205",
+      "title": "Split to Merge: Unifying Separated Modalities for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b2420186a79aff2db599bf90b3b26ca2f8cbb051"
+    },
+    {
+      "paper_id": "0609513205d94646c740fc219e79b01043e80ba6",
+      "arxiv_id": "2403.02899",
+      "doi": "10.1109/CVPR52733.2024.02206",
+      "title": "Domain-Agnostic Mutual Prompting for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/0609513205d94646c740fc219e79b01043e80ba6"
+    },
+    {
+      "paper_id": "c4a1d57011307c575bfa6f41d0afe9dc75fed10b",
+      "arxiv_id": "2402.13232",
+      "doi": "10.48550/arXiv.2402.13232",
+      "title": "A Touch, Vision, and Language Dataset for Multimodal Alignment",
+      "url": "https://www.semanticscholar.org/paper/c4a1d57011307c575bfa6f41d0afe9dc75fed10b"
+    },
+    {
+      "paper_id": "22ee2641c86a94eb51030cff48262c76648e4772",
+      "arxiv_id": "2402.05589",
+      "doi": "10.48550/arXiv.2402.05589",
+      "title": "RESMatch: Referring Expression Segmentation in a Semi-Supervised Manner",
+      "url": "https://www.semanticscholar.org/paper/22ee2641c86a94eb51030cff48262c76648e4772"
+    },
+    {
+      "paper_id": "f41e317309cfda9095354a56c0705b5a2cc94435",
+      "arxiv_id": "2401.12425",
+      "doi": "10.1109/CVPR52733.2024.01234",
+      "title": "The Neglected Tails in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/f41e317309cfda9095354a56c0705b5a2cc94435"
+    },
+    {
+      "paper_id": "ed65196f61fdb851725238cc76e277270a415881",
+      "arxiv_id": "2401.04435",
+      "doi": "10.48550/arXiv.2401.04435",
+      "title": "Uncertainty-aware Sampling for Long-tailed Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/ed65196f61fdb851725238cc76e277270a415881"
+    },
+    {
+      "paper_id": "43b17462b880e05b22a10bb3008273dfe1f56fde",
+      "arxiv_id": "",
+      "doi": "10.1016/j.compag.2023.108483",
+      "title": "Self-Supervised Domain-Adaptive learning for Self-Labeling unknown rice grains during actual rice transportation process",
+      "url": "https://www.semanticscholar.org/paper/43b17462b880e05b22a10bb3008273dfe1f56fde"
+    },
+    {
+      "paper_id": "7bd0002d5d0ea508315b9d4f1f7d6039f35572c0",
+      "arxiv_id": "2312.15393",
+      "doi": "10.48550/arXiv.2312.15393",
+      "title": "Debiased Learning for Remote Sensing Data",
+      "url": "https://www.semanticscholar.org/paper/7bd0002d5d0ea508315b9d4f1f7d6039f35572c0"
+    },
+    {
+      "paper_id": "a08bbdbf885c7a6fb5499dccae24982770abd909",
+      "arxiv_id": "2312.12828",
+      "doi": "10.48550/arXiv.2312.12828",
+      "title": "TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training",
+      "url": "https://www.semanticscholar.org/paper/a08bbdbf885c7a6fb5499dccae24982770abd909"
+    },
+    {
+      "paper_id": "064dcb85d67231075a768cbfed65264402c72b91",
+      "arxiv_id": "2312.12263",
+      "doi": "10.48550/arXiv.2312.12263",
+      "title": "FedDiv: Collaborative Noise Filtering for Federated Learning with Noisy Labels",
+      "url": "https://www.semanticscholar.org/paper/064dcb85d67231075a768cbfed65264402c72b91"
+    },
+    {
+      "paper_id": "122ae850e3309d7bb3a5aedbbfae2c39acbd50ad",
+      "arxiv_id": "",
+      "doi": "10.1109/IWCIA59471.2023.10335799",
+      "title": "Pseudo-Labeling With Contrastive Perturbation Using CNN & ViT for Chest X-ray Classification",
+      "url": "https://www.semanticscholar.org/paper/122ae850e3309d7bb3a5aedbbfae2c39acbd50ad"
+    },
+    {
+      "paper_id": "7c9452ea7d9f19b7f026c68169ced75995ef7268",
+      "arxiv_id": "2311.00206",
+      "doi": "10.48550/arXiv.2311.00206",
+      "title": "ChatGPT-Powered Hierarchical Comparisons for Image Classification",
+      "url": "https://www.semanticscholar.org/paper/7c9452ea7d9f19b7f026c68169ced75995ef7268"
+    },
+    {
+      "paper_id": "6a319cc32de3dc20034d83267fe9368b9167e7fd",
+      "arxiv_id": "",
+      "doi": "10.1145/3607541.3616815",
+      "title": "Semi-supervised Learning with Easy Labeled Data via Impartial Labeled Set Extension",
+      "url": "https://www.semanticscholar.org/paper/6a319cc32de3dc20034d83267fe9368b9167e7fd"
+    },
+    {
+      "paper_id": "c48f53f87e40c65463cafb9905206c100d9e163f",
+      "arxiv_id": "2310.17455",
+      "doi": "10.48550/arXiv.2310.17455",
+      "title": "OTMatch: Improving Semi-Supervised Learning with Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/c48f53f87e40c65463cafb9905206c100d9e163f"
+    },
+    {
+      "paper_id": "291f348e6a996cb84251576b66055f743baf2dda",
+      "arxiv_id": "2310.14577",
+      "doi": "10.48550/arXiv.2310.14577",
+      "title": "DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank",
+      "url": "https://www.semanticscholar.org/paper/291f348e6a996cb84251576b66055f743baf2dda"
+    },
+    {
+      "paper_id": "9a768e60bd56c3d8ac2c4a76aac58561d056a786",
+      "arxiv_id": "2310.11320",
+      "doi": "10.48550/arXiv.2310.11320",
+      "title": "Towards Generic Semi-Supervised Framework for Volumetric Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/9a768e60bd56c3d8ac2c4a76aac58561d056a786"
+    },
+    {
+      "paper_id": "144e118c0811e20cbcdb01b864a3790befcb04c6",
+      "arxiv_id": "2310.10463",
+      "doi": "10.1007/s11263-024-02324-z",
+      "title": "Combating Label Noise with a General Surrogate Model for Sample Selection",
+      "url": "https://www.semanticscholar.org/paper/144e118c0811e20cbcdb01b864a3790befcb04c6"
+    },
+    {
+      "paper_id": "ccc40946bfe525f896771c268c95b5df3a72d4a6",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51070.2023.01480",
+      "title": "PADCLIP: Pseudo-labeling with Adaptive Debiasing in CLIP for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/ccc40946bfe525f896771c268c95b5df3a72d4a6"
+    },
+    {
+      "paper_id": "838b165bcb027e2a6cedcfcac7c26b8e88796a42",
+      "arxiv_id": "",
+      "doi": "10.1002/tee.23902",
+      "title": "Disease Area Detection for Chest X‐Ray Image Diagnosis Using Deep Learning with Pseudo Labeling and Ensemble Learning",
+      "url": "https://www.semanticscholar.org/paper/838b165bcb027e2a6cedcfcac7c26b8e88796a42"
+    },
+    {
+      "paper_id": "eb1ab7e422b47f1e4974154bdd9d7378c47a113e",
+      "arxiv_id": "",
+      "doi": "10.3390/app13169166",
+      "title": "GCARe: Mitigating Subgroup Unfairness in Graph Condensation through Adversarial Regularization",
+      "url": "https://www.semanticscholar.org/paper/eb1ab7e422b47f1e4974154bdd9d7378c47a113e"
+    },
+    {
+      "paper_id": "2550405d826b94c3abba006a3c7945b4c66e4d48",
+      "arxiv_id": "2307.11960",
+      "doi": "10.48550/arXiv.2307.11960",
+      "title": "DHC: Dual-debiased Heterogeneous Co-training Framework for Class-imbalanced Semi-supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/2550405d826b94c3abba006a3c7945b4c66e4d48"
+    },
+    {
+      "paper_id": "a679c736d26dbcab41b483f2dbbc417da62c7a16",
+      "arxiv_id": "2307.11227",
+      "doi": "10.48550/arXiv.2307.11227",
+      "title": "UP-DP: Unsupervised Prompt Learning for Data Pre-Selection with Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/a679c736d26dbcab41b483f2dbbc417da62c7a16"
+    },
+    {
+      "paper_id": "93a0c4a8d26629bced436dc61968f8cc47a37d3b",
+      "arxiv_id": "2306.04621",
+      "doi": "10.1007/978-3-031-72949-2_18",
+      "title": "Flexible Distribution Alignment: Towards Long-Tailed Semi-supervised Learning with Proper Calibration",
+      "url": "https://www.semanticscholar.org/paper/93a0c4a8d26629bced436dc61968f8cc47a37d3b"
+    },
+    {
+      "paper_id": "b100bb4c40340efa87b1bfc88d1d6839127d0e86",
+      "arxiv_id": "2306.01669",
+      "doi": "10.48550/arXiv.2306.01669",
+      "title": "Enhancing CLIP with CLIP: Exploring Pseudolabeling for Limited-Label Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/b100bb4c40340efa87b1bfc88d1d6839127d0e86"
+    },
+    {
+      "paper_id": "7f5b7df22c16b67098540ba7dec153cff9bec6fe",
+      "arxiv_id": "2306.07483",
+      "doi": "10.1109/CVPR52729.2023.00311",
+      "title": "Semi-supervised learning made simple with self-supervised clustering",
+      "url": "https://www.semanticscholar.org/paper/7f5b7df22c16b67098540ba7dec153cff9bec6fe"
+    },
+    {
+      "paper_id": "3ebe07f35ba0d018b8ea4d147f03e91d26459e54",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01513",
+      "title": "CHMATCH: Contrastive Hierarchical Matching and Robust Adaptive Threshold Boosted Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/3ebe07f35ba0d018b8ea4d147f03e91d26459e54"
+    },
+    {
+      "paper_id": "8665c864d71df1e918d2010778fc06712f4e5550",
+      "arxiv_id": "2305.12715",
+      "doi": "10.48550/arXiv.2305.12715",
+      "title": "Imprecise Label Learning: A Unified Framework for Learning with Various Imprecise Label Configurations",
+      "url": "https://www.semanticscholar.org/paper/8665c864d71df1e918d2010778fc06712f4e5550"
+    },
+    {
+      "paper_id": "f6184a2e8925666017f69953ee0a9f473c1bdfb1",
+      "arxiv_id": "2305.10397",
+      "doi": "10.48550/arXiv.2305.10397",
+      "title": "RelationMatch: Matching In-batch Relationships for Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/f6184a2e8925666017f69953ee0a9f473c1bdfb1"
+    },
+    {
+      "paper_id": "a96b0f3844d436b092ff96129a4e8c080b6519cb",
+      "arxiv_id": "2304.13374",
+      "doi": "10.48550/arXiv.2304.13374",
+      "title": "SEAL: Simultaneous Label Hierarchy Exploration And Learning",
+      "url": "https://www.semanticscholar.org/paper/a96b0f3844d436b092ff96129a4e8c080b6519cb"
+    },
+    {
+      "paper_id": "fc09619d7e1376e907f5a5d6b1c35e0e62da85a8",
+      "arxiv_id": "",
+      "doi": "10.1109/TMI.2023.3263216",
+      "title": "Fundus Image-Label Pairs Synthesis and Retinopathy Screening via GANs With Class-Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/fc09619d7e1376e907f5a5d6b1c35e0e62da85a8"
+    },
+    {
+      "paper_id": "e19a93ae246127ef0f80f72496a6633c9cf5891b",
+      "arxiv_id": "2303.13556",
+      "doi": "10.1109/CVPR52729.2023.01120",
+      "title": "Protocon: Pseudo-Label Refinement via Online Clustering and Prototypical Consistency for Efficient Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/e19a93ae246127ef0f80f72496a6633c9cf5891b"
+    },
+    {
+      "paper_id": "7b5d2b10d75e4f09223193141bc2d8343c297b25",
+      "arxiv_id": "2303.12091",
+      "doi": "10.48550/arXiv.2303.12091",
+      "title": "Adaptive Negative Evidential Deep Learning for Open-set Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/7b5d2b10d75e4f09223193141bc2d8343c297b25"
+    },
+    {
+      "paper_id": "533dea0d2d76ade54d31a6c189e832ac192ea666",
+      "arxiv_id": "2303.07269",
+      "doi": "10.48550/arXiv.2303.07269",
+      "title": "InPL: Pseudo-labeling the Inliers First for Imbalanced Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/533dea0d2d76ade54d31a6c189e832ac192ea666"
+    },
+    {
+      "paper_id": "fead5283e492f93ed7324cc69adc9db392ff79ad",
+      "arxiv_id": "",
+      "doi": "10.1007/s10579-023-09637-4",
+      "title": "Label modification and bootstrapping for zero-shot cross-lingual hate speech detection",
+      "url": "https://www.semanticscholar.org/paper/fead5283e492f93ed7324cc69adc9db392ff79ad"
+    },
+    {
+      "paper_id": "92a144817376b2b8014b75a6f575e11ba75e76b0",
+      "arxiv_id": "2301.13018",
+      "doi": "10.48550/arXiv.2301.13018",
+      "title": "DELTA: degradation-free fully test-time adaptation",
+      "url": "https://www.semanticscholar.org/paper/92a144817376b2b8014b75a6f575e11ba75e76b0"
+    },
+    {
+      "paper_id": "100da279ee981960884a12dfc5a0697c24ed315a",
+      "arxiv_id": "2301.10921",
+      "doi": "10.48550/arXiv.2301.10921",
+      "title": "SoftMatch: Addressing the Quantity-Quality Trade-off in Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/100da279ee981960884a12dfc5a0697c24ed315a"
+    },
+    {
+      "paper_id": "6584892e7d0f0055ee9adabf03f36f2fa74319e5",
+      "arxiv_id": "2301.06267",
+      "doi": "10.1109/CVPR52729.2023.01852",
+      "title": "Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models",
+      "url": "https://www.semanticscholar.org/paper/6584892e7d0f0055ee9adabf03f36f2fa74319e5"
+    },
+    {
+      "paper_id": "2d1c3c76c666ba5af782f125d1c26ac961ee4879",
+      "arxiv_id": "2301.05158",
+      "doi": "10.48550/arXiv.2301.05158",
+      "title": "SemPPL: Predicting pseudo-labels for better contrastive representations",
+      "url": "https://www.semanticscholar.org/paper/2d1c3c76c666ba5af782f125d1c26ac961ee4879"
+    },
+    {
+      "paper_id": "dea92ce089809b5b9f3a57e3dbd176711c126bce",
+      "arxiv_id": "2211.11727",
+      "doi": "10.1109/ICCV51070.2023.01521",
+      "title": "Parametric Classification for Generalized Category Discovery: A Baseline Study",
+      "url": "https://www.semanticscholar.org/paper/dea92ce089809b5b9f3a57e3dbd176711c126bce"
+    },
+    {
+      "paper_id": "982fd080ff62faef5f81c6d9bf4c03e65d733475",
+      "arxiv_id": "2211.11086",
+      "doi": "10.48550/arXiv.2211.11086",
+      "title": "An Embarrassingly Simple Baseline for Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/982fd080ff62faef5f81c6d9bf4c03e65d733475"
+    },
+    {
+      "paper_id": "3877d2635d2e182d0b1ea7151df064a1c652dd5e",
+      "arxiv_id": "2210.04993",
+      "doi": "10.52202/068431-0557",
+      "title": "Continual Learning with Evolving Class Ontologies",
+      "url": "https://www.semanticscholar.org/paper/3877d2635d2e182d0b1ea7151df064a1c652dd5e"
+    },
+    {
+      "paper_id": "a0930beb423897cd56b987b55878c143135ea72a",
+      "arxiv_id": "2208.05853",
+      "doi": "10.1145/3648680",
+      "title": "MultiMatch: Multi-task Learning for Semi-supervised Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/a0930beb423897cd56b987b55878c143135ea72a"
+    },
+    {
+      "paper_id": "cad82941268526b364b8b16d374aacf4573bc4eb",
+      "arxiv_id": "2207.13856",
+      "doi": "",
+      "title": "Imbalanced Semi-supervised Learning with Bias Adaptive Classifier",
+      "url": "https://www.semanticscholar.org/paper/cad82941268526b364b8b16d374aacf4573bc4eb"
+    },
+    {
+      "paper_id": "82f2f5493dbc380363ad2b01ae75a9662666fccf",
+      "arxiv_id": "2207.10276",
+      "doi": "10.48550/arXiv.2207.10276",
+      "title": "ProMix: Combating Label Noise via Maximizing Clean Sample Utility",
+      "url": "https://www.semanticscholar.org/paper/82f2f5493dbc380363ad2b01ae75a9662666fccf"
+    },
+    {
+      "paper_id": "d51ed19fb2ca7da45021cf5728038d8f39a4bf39",
+      "arxiv_id": "2203.04560",
+      "doi": "10.1016/j.neucom.2024.128772",
+      "title": "Active Self-Semi-Supervised Learning for Few Labeled Samples Fast Training",
+      "url": "https://www.semanticscholar.org/paper/d51ed19fb2ca7da45021cf5728038d8f39a4bf39"
+    },
+    {
+      "paper_id": "1982ea74e37b4e98819fb2f4202ebb2fdf86ee97",
+      "arxiv_id": "2110.03006",
+      "doi": "10.1007/978-3-031-20056-4_25",
+      "title": "Unsupervised Selective Labeling for More Effective Semi-supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/1982ea74e37b4e98819fb2f4202ebb2fdf86ee97"
+    },
+    {
+      "paper_id": "69be09f45a34d11f5cc53f588c883e9bea539456",
+      "arxiv_id": "2106.05682",
+      "doi": "10.1109/CVPR52688.2022.00956",
+      "title": "DASO: Distribution-Aware Semantics-Oriented Pseudo-label for Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/69be09f45a34d11f5cc53f588c883e9bea539456"
+    },
+    {
+      "paper_id": "ac6e33d5d9cd7a8054c79085c0194e0d41ada9f5",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2025.104080",
+      "title": "FedExIT - missing class-agnostic semi-supervised federated learning with extreme imbalance tackling scheme",
+      "url": "https://www.semanticscholar.org/paper/ac6e33d5d9cd7a8054c79085c0194e0d41ada9f5"
+    },
+    {
+      "paper_id": "c95334db237a39bdad992167d09125b09fc483d4",
+      "arxiv_id": "",
+      "doi": "10.1109/LSP.2025.3649590",
+      "title": "Language-Prompted Dynamic Learning for Semi-Supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/c95334db237a39bdad992167d09125b09fc483d4"
+    },
+    {
+      "paper_id": "3933272fca02b34eecc65547017d470b5b04c79e",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ins.2026.123390",
+      "title": "EDRS: Extremity-density representative selection for semi-supervised learning on imbalanced data",
+      "url": "https://www.semanticscholar.org/paper/3933272fca02b34eecc65547017d470b5b04c79e"
+    },
+    {
+      "paper_id": "3be49a11a9dc81fedcf4b846489ed792ce5af742",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3683291",
+      "title": "Counterfactual Risk Minimization for Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/3be49a11a9dc81fedcf4b846489ed792ce5af742"
+    },
+    {
+      "paper_id": "c838c28943efbb6544ecda14a98a795ef8b52eff",
+      "arxiv_id": "",
+      "doi": "10.1109/TGRS.2026.3693599",
+      "title": "Mixture Distribution Modeling Pseudo-Label Propagation of Domain Adaptation for Low-Data Resource Cross-Scene Classification",
+      "url": "https://www.semanticscholar.org/paper/c838c28943efbb6544ecda14a98a795ef8b52eff"
+    },
+    {
+      "paper_id": "b3e6a5d3181f454c7148fae3428a483c382e834d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Improved Vision-Language Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b3e6a5d3181f454c7148fae3428a483c382e834d"
+    },
+    {
+      "paper_id": "ded2897551f7b0180174613fcefbcc31c7843430",
+      "arxiv_id": "",
+      "doi": "10.1109/TASE.2024.3486381",
+      "title": "ParetoSSL: Pareto Semi-Supervised Learning With Bias-Aware Gradient Preferences for Fruit Yield Estimation",
+      "url": "https://www.semanticscholar.org/paper/ded2897551f7b0180174613fcefbcc31c7843430"
+    },
+    {
+      "paper_id": "e8f6d719f1ab73f69e56239d0bd730457f8b7b8e",
+      "arxiv_id": "",
+      "doi": "10.1109/TGRS.2025.3600394",
+      "title": "CLR-DLR: A Semi-Supervised Framework for High-Fidelity Remote Sensing Segmentation",
+      "url": "https://www.semanticscholar.org/paper/e8f6d719f1ab73f69e56239d0bd730457f8b7b8e"
+    },
+    {
+      "paper_id": "07b53d211a510815ca88edd54f6bbb8fb6e33349",
+      "arxiv_id": "",
+      "doi": "10.1109/TASE.2025.3604283",
+      "title": "Semi-Supervised Privacy-Preserving EEG-Based Motor Imagery Classification via Self and Adversarial Training",
+      "url": "https://www.semanticscholar.org/paper/07b53d211a510815ca88edd54f6bbb8fb6e33349"
+    },
+    {
+      "paper_id": "c1559bb9dcbde3c90e7ca2fb37af76fa2876f8e1",
+      "arxiv_id": "",
+      "doi": "10.1109/TGRS.2025.3624481",
+      "title": "Multiview SAR Target Recognition Based on Adaptive Semantic-View Feature Embedding Fusion Network",
+      "url": "https://www.semanticscholar.org/paper/c1559bb9dcbde3c90e7ca2fb37af76fa2876f8e1"
+    },
+    {
+      "paper_id": "f8c0e917740f50c7d1ba962f3b959f59c2f27678",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-3676",
+      "title": "Fourier Clouds: Fast Bias Correction for Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/f8c0e917740f50c7d1ba962f3b959f59c2f27678"
+    },
+    {
+      "paper_id": "c4d7ef5de34e9b5a7e80efa58c94637df9cb0ab4",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2024.findings-eacl.133",
+      "title": "Unraveling the Dynamics of Semi-Supervised Hate Speech Detection: The Impact of Unlabeled Data Characteristics and Pseudo-Labeling Strategies",
+      "url": "https://www.semanticscholar.org/paper/c4d7ef5de34e9b5a7e80efa58c94637df9cb0ab4"
+    },
+    {
+      "paper_id": "f9b08086ce8d82905f5163d9b868b3fabfa99deb",
+      "arxiv_id": "",
+      "doi": "10.1109/TMM.2024.3360704",
+      "title": "DCRP: Class-Aware Feature Diffusion Constraint and Reliable Pseudo-Labeling for Imbalanced Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/f9b08086ce8d82905f5163d9b868b3fabfa99deb"
+    },
+    {
+      "paper_id": "90f30701fc4e87666cddb2ca6230672751ebbf90",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2405.21070",
+      "title": "Generalization Beyond Data Imbalance: A Controlled Study on CLIP for Transferable Insights",
+      "url": "https://www.semanticscholar.org/paper/90f30701fc4e87666cddb2ca6230672751ebbf90"
+    },
+    {
+      "paper_id": "fa2d43c4332622290aeb2691033c37da60ae49a2",
+      "arxiv_id": "",
+      "doi": "10.1109/TMM.2024.3453061",
+      "title": "VLDadaptor: Domain Adaptive Object Detection With Vision-Language Model Distillation",
+      "url": "https://www.semanticscholar.org/paper/fa2d43c4332622290aeb2691033c37da60ae49a2"
+    },
+    {
+      "paper_id": "0ee8948073c9dc0e70dca811251cd77a0b704d6c",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-031-73001-6_27",
+      "title": "Gradient-Aware for Class-Imbalanced Semi-supervised Medical Image Segmentation",
+      "url": "https://www.semanticscholar.org/paper/0ee8948073c9dc0e70dca811251cd77a0b704d6c"
+    },
+    {
+      "paper_id": "fba4bf5f3c0f7d51b78b46a69ba3451ef02912ae",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2412.17325",
+      "title": "Feature Based Methods Domain Adaptation for Object Detection: A Review Paper",
+      "url": "https://www.semanticscholar.org/paper/fba4bf5f3c0f7d51b78b46a69ba3451ef02912ae"
+    },
+    {
+      "paper_id": "2cbe82f2f1d9164ec0c6b9243e612086e785e771",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2401.12425",
+      "title": "The Neglected Tails of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/2cbe82f2f1d9164ec0c6b9243e612086e785e771"
+    },
+    {
+      "paper_id": "035747b50c379a2034c6d74386c8b3d25a5a1ad8",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Debiased Learning from Naturally Imbalanced Remote Sensing Data",
+      "url": "https://www.semanticscholar.org/paper/035747b50c379a2034c6d74386c8b3d25a5a1ad8"
+    },
+    {
+      "paper_id": "e32f79d7db7e80fc9ae0213606a18f92cef3c854",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2023.findings-emnlp.876",
+      "title": "Noise-Robust Semi-Supervised Learning for Distantly Supervised Relation Extraction",
+      "url": "https://www.semanticscholar.org/paper/e32f79d7db7e80fc9ae0213606a18f92cef3c854"
+    },
+    {
+      "paper_id": "549904f684d3f377ca6cd55c7263fa44a2460af5",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2210.04993",
+      "title": "Learning with an Evolving Class Ontology",
+      "url": "https://www.semanticscholar.org/paper/549904f684d3f377ca6cd55c7263fa44a2460af5"
+    },
+    {
+      "paper_id": "b8d818b4ba64fba9f6b391f3b79690bb5be28c9a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "W EAKLY S UPERVISED L EARNING WITH P RE -T",
+      "url": "https://www.semanticscholar.org/paper/b8d818b4ba64fba9f6b391f3b79690bb5be28c9a"
+    },
+    {
+      "paper_id": "e3cdd33a3e686753da11596d350933adcec80fe4",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "D EBIASED I MBALANCED P SEUDO -L ABELING FOR G EN - ERALIZED C ATEGORY D ISCOVERY",
+      "url": "https://www.semanticscholar.org/paper/e3cdd33a3e686753da11596d350933adcec80fe4"
+    },
+    {
+      "paper_id": "e74c8effb7bacc0c483e39a9de38b4e9bb0eac62",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Aligning Touch, Vision, and Language for Multimodal Perception",
+      "url": "https://www.semanticscholar.org/paper/e74c8effb7bacc0c483e39a9de38b4e9bb0eac62"
+    },
+    {
+      "paper_id": "81ad97349acc5c901d5f9e1630564724cd7eaa1c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "W EAK S UPERVISION FROM V ISION -L ANGUAGE M OD - ELS TO S ELF -I MPROVE ON D OWNSTREAM T ASKS",
+      "url": "https://www.semanticscholar.org/paper/81ad97349acc5c901d5f9e1630564724cd7eaa1c"
+    },
+    {
+      "paper_id": "fa0641041e7293bcc2f5ed894ca52c0db2ac89cc",
+      "arxiv_id": "",
+      "doi": "10.1016/j.bspc.2025.108297",
+      "title": "Chromosome image segmentation based on class imbalance skeleton semi-supervised model",
+      "url": "https://www.semanticscholar.org/paper/fa0641041e7293bcc2f5ed894ca52c0db2ac89cc"
+    }
+  ]
+}

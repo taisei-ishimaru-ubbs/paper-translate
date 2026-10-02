@@ -35,7 +35,7 @@ tags: [paper]
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
 - [LASP: Text-to-Text Optimization for Language-Aware Soft Prompting of Vision & Language Models](https://arxiv.org/abs/2210.01115)
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)
 - [Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)
@@ -128,7 +128,7 @@ tags: [paper]
 - [Self-Calibrated Consistency can Fight Back for Adversarial Robustness in Vision-Language Models](https://arxiv.org/abs/2510.22785)
 - [Think Twice: Test-Time Reasoning for Robust CLIP Zero-Shot Classification](https://doi.org/10.1109/ICCV51701.2025.00280)
 - [Test-Time Retrieval-Augmented Adaptation for Vision-Language Models](https://doi.org/10.1109/ICCV51701.2025.00824)
-- [Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models](https://arxiv.org/abs/2510.02750)
+- [[bayesian_test_time_adaptation_for_object_recognition_and_detection_with_vision_language_models|Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models]]
 - [EMO-TTA: Improving Test-Time Adaptation of Audio-Language Models for Speech Emotion Recognition](https://arxiv.org/abs/2509.25495)
 - [Training-Free Label Space Alignment for Universal Domain Adaptation](https://arxiv.org/abs/2509.17452)
 - [Language-Aware Information Maximization for Transductive Few-Shot CLIP](https://arxiv.org/abs/2509.00305)
@@ -141,7 +141,7 @@ tags: [paper]
 - [Unleashing the Potential of All Test Samples: Mean-Shift Guided Test-Time Adaptation](https://arxiv.org/abs/2507.00462)
 - [The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2506.24000)
 - [Generalizing Vision-Language Models to Novel Domains: A Comprehensive Survey](https://arxiv.org/abs/2506.18504)
-- [Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM](https://arxiv.org/abs/2507.06973)
+- [[free_on_the_fly_enhancing_flexibility_in_test_time_adaptation_with_online_em|Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM]]
 - [Evaluating and Improving Robustness in Large Language Models: A Survey and Future Directions](https://arxiv.org/abs/2506.11111)
 - [Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption](https://arxiv.org/abs/2505.12912)
 - [R-TPT: Improving Adversarial Robustness of Vision-Language Models through Test-Time Prompt Tuning](https://arxiv.org/abs/2504.11195)

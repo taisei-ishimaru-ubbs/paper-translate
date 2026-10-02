@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Empirical motivation for class-specific weighting on Flower102 (Nilsback & Zisserman, 2008). We showcase the results of five classes by shifting from class-agnostic WPE to class-specific WPE (using ground-truth labels), and the estimated optimal weights under two weighting schemes, confirm",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2: The CARPRT pipeline. First, the text encoder g and image encoder f yield textual class embeddings (from C classes and n prompts) and image embeddings (from m unlabeled images). Then, compute the score tensor from image-text embedding similarities, each entry sj,i,c measures the relevance b",
+    "score": 48.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3: Accuracy gains of CARPRT over CARPRT-Uniform.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 9,
+    "caption": "Figure 4: The variation of inference accuracy as the temperature τ changes, using CLIP-ViT-B/16.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 10,
+    "caption": "Figure 5: Visualization of class-specific prompt weights on Caltech101. For dalmatian and pizza, CARPRT assigns high weights to class-relevant prompts while suppressing irrelevant ones.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 31,
+    "caption": "Figure 6: Visualization of the class-aware prompt weights estimated by CARPRT on the Caltech101 dataset. (a) The heatmap shows the prompt weights across a subset of classes and prompts, revealing diverse weight patterns and confirming class-specific preferences. (b) The bar plot displays the distrib",
+    "score": 15.0
+  }
+]

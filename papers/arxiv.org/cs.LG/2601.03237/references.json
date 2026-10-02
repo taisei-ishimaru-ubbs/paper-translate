@@ -1,0 +1,336 @@
+{
+  "id": "2601.03237",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "71d1638576f541cb9446c3573bec1537c34cc142",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2601-03237",
+      "PubMedCentral": "12768512",
+      "ArXiv": "2601.03237",
+      "DOI": "10.1109/LSP.2025.3636453",
+      "CorpusId": 283327869,
+      "PubMed": "41497826"
+    },
+    "url": "https://www.semanticscholar.org/paper/71d1638576f541cb9446c3573bec1537c34cc142",
+    "title": "PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters"
+  },
+  "references": [
+    {
+      "paper_id": "9c855f3bdbc534e99f4b40d15e3354cd0a3d7518",
+      "arxiv_id": "2505.18918",
+      "doi": "10.1109/TSP.2026.3729726",
+      "title": "ALPCAHUS: Subspace Clustering for Heteroscedastic Data",
+      "url": "https://www.semanticscholar.org/paper/9c855f3bdbc534e99f4b40d15e3354cd0a3d7518"
+    },
+    {
+      "paper_id": "37183be6ff280565c8d50ff6cad46b8e82a3da40",
+      "arxiv_id": "2505.07272",
+      "doi": "10.1109/TSP.2025.3537867",
+      "title": "ALPCAH: Subspace Learning for Sample-Wise Heteroscedastic Data",
+      "url": "https://www.semanticscholar.org/paper/37183be6ff280565c8d50ff6cad46b8e82a3da40"
+    },
+    {
+      "paper_id": "a848421855c1e981b86c1ed88f0717689c3c9456",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2025.3559995",
+      "title": "Exploring the Essence of Relationships for Scene Graph Generation via Causal Features Enhancement Network",
+      "url": "https://www.semanticscholar.org/paper/a848421855c1e981b86c1ed88f0717689c3c9456"
+    },
+    {
+      "paper_id": "67294d09bed777d8ae2b493e19055d045e9bf1f2",
+      "arxiv_id": "",
+      "doi": "10.1007/s11704-024-40192-5",
+      "title": "Imbalanced multi-instance multi-label learning via tensor product-based semantic fusion",
+      "url": "https://www.semanticscholar.org/paper/67294d09bed777d8ae2b493e19055d045e9bf1f2"
+    },
+    {
+      "paper_id": "defc5eed8b2f211b18343e813e6a6ad17a50249e",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2024.102734",
+      "title": "Dynamic collaborative learning with heterogeneous knowledge transfer for long-tailed visual recognition",
+      "url": "https://www.semanticscholar.org/paper/defc5eed8b2f211b18343e813e6a6ad17a50249e"
+    },
+    {
+      "paper_id": "1828d5414c1fd0d1205de241e71e7bc3ba513cf9",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2024.128645",
+      "title": "A comprehensive survey on contrastive learning",
+      "url": "https://www.semanticscholar.org/paper/1828d5414c1fd0d1205de241e71e7bc3ba513cf9"
+    },
+    {
+      "paper_id": "e0c5f90d42d6809f6d8777b86da1ee037fedce59",
+      "arxiv_id": "2406.07236",
+      "doi": "10.48550/arXiv.2406.07236",
+      "title": "Let Go of Your Labels with Unsupervised Transfer",
+      "url": "https://www.semanticscholar.org/paper/e0c5f90d42d6809f6d8777b86da1ee037fedce59"
+    },
+    {
+      "paper_id": "e794b4c023020c4cb21d024d1115301812145f8d",
+      "arxiv_id": "2311.02940",
+      "doi": "10.48550/arXiv.2311.02940",
+      "title": "The Pursuit of Human Labeling: A New Perspective on Unsupervised Learning",
+      "url": "https://www.semanticscholar.org/paper/e794b4c023020c4cb21d024d1115301812145f8d"
+    },
+    {
+      "paper_id": "10bd38673951f5d7729568284093cbd80482ab16",
+      "arxiv_id": "2309.16588",
+      "doi": "10.48550/arXiv.2309.16588",
+      "title": "Vision Transformers Need Registers",
+      "url": "https://www.semanticscholar.org/paper/10bd38673951f5d7729568284093cbd80482ab16"
+    },
+    {
+      "paper_id": "5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891",
+      "arxiv_id": "2304.07193",
+      "doi": "10.48550/arXiv.2304.07193",
+      "title": "DINOv2: Learning Robust Visual Features without Supervision",
+      "url": "https://www.semanticscholar.org/paper/5a9cb1b3dc4655218b3deeaf4a2417a9a8cd0891"
+    },
+    {
+      "paper_id": "50bc9fbe7e36bf79da498ab4cd28add9e5b88aba",
+      "arxiv_id": "2304.07288",
+      "doi": "10.48550/arXiv.2304.07288",
+      "title": "Cross-Entropy Loss Functions: Theoretical Analysis and Applications",
+      "url": "https://www.semanticscholar.org/paper/50bc9fbe7e36bf79da498ab4cd28add9e5b88aba"
+    },
+    {
+      "paper_id": "8be831a07abe8c5475c2bd91cc41bf4c1c2be771",
+      "arxiv_id": "2210.07277",
+      "doi": "10.48550/arXiv.2210.07277",
+      "title": "The Hidden Uniform Cluster Prior in Self-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/8be831a07abe8c5475c2bd91cc41bf4c1c2be771"
+    },
+    {
+      "paper_id": "cbfcc1e9c7fab89e6360bb3910c3825411916817",
+      "arxiv_id": "",
+      "doi": "10.1148/ryai.220119",
+      "title": "On the Opportunities and Risks of Foundation Models for Natural Language Processing in Radiology.",
+      "url": "https://www.semanticscholar.org/paper/cbfcc1e9c7fab89e6360bb3910c3825411916817"
+    },
+    {
+      "paper_id": "9653c070724e44f023e8cc3ec79f0b9e6d59480d",
+      "arxiv_id": "2111.07832",
+      "doi": "",
+      "title": "iBOT: Image BERT Pre-Training with Online Tokenizer",
+      "url": "https://www.semanticscholar.org/paper/9653c070724e44f023e8cc3ec79f0b9e6d59480d"
+    },
+    {
+      "paper_id": "6351ebb4a3287f5f3e1273464b3b91e5df5a16d7",
+      "arxiv_id": "2111.06377",
+      "doi": "10.1109/CVPR52688.2022.01553",
+      "title": "Masked Autoencoders Are Scalable Vision Learners",
+      "url": "https://www.semanticscholar.org/paper/6351ebb4a3287f5f3e1273464b3b91e5df5a16d7"
+    },
+    {
+      "paper_id": "a66606a0bb11a1d5a7a14ec09df8a3481121ad6c",
+      "arxiv_id": "2110.14795",
+      "doi": "10.1038/s41597-022-01721-8",
+      "title": "MedMNIST v2 - A large-scale lightweight benchmark for 2D and 3D biomedical image classification",
+      "url": "https://www.semanticscholar.org/paper/a66606a0bb11a1d5a7a14ec09df8a3481121ad6c"
+    },
+    {
+      "paper_id": "f774c08e1b6ffb2a400043bd3c27127b06775c62",
+      "arxiv_id": "2103.09382",
+      "doi": "10.1109/TIP.2022.3221290",
+      "title": "SPICE: Semantic Pseudo-Labeling for Image Clustering",
+      "url": "https://www.semanticscholar.org/paper/f774c08e1b6ffb2a400043bd3c27127b06775c62"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "f3ebae8aea7cd5c455fef3d53f785fc627128641",
+      "arxiv_id": "",
+      "doi": "10.1016/j.dib.2020.105474",
+      "title": "A dataset of microscopic peripheral blood cell images for development of automatic recognition systems",
+      "url": "https://www.semanticscholar.org/paper/f3ebae8aea7cd5c455fef3d53f785fc627128641"
+    },
+    {
+      "paper_id": "7af72a461ed7cda180e7eab878efd5f35d79bbf4",
+      "arxiv_id": "2002.05709",
+      "doi": "",
+      "title": "A Simple Framework for Contrastive Learning of Visual Representations",
+      "url": "https://www.semanticscholar.org/paper/7af72a461ed7cda180e7eab878efd5f35d79bbf4"
+    },
+    {
+      "paper_id": "76c2679deb0b7689c658c199254963889d4d2b69",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The implicit bias of gradient descent on nonseparable data",
+      "url": "https://www.semanticscholar.org/paper/76c2679deb0b7689c658c199254963889d4d2b69"
+    },
+    {
+      "paper_id": "0655dcaa39cf41a3609974840f91300d73b4aed1",
+      "arxiv_id": "1901.04056",
+      "doi": "10.1016/j.media.2022.102680",
+      "title": "The Liver Tumor Segmentation Benchmark (LiTS)",
+      "url": "https://www.semanticscholar.org/paper/0655dcaa39cf41a3609974840f91300d73b4aed1"
+    },
+    {
+      "paper_id": "1d033b30f38642e4b6dd146bb8b464bfb58aad96",
+      "arxiv_id": "1807.05520",
+      "doi": "10.1007/978-3-030-01264-9_9",
+      "title": "Deep Clustering for Unsupervised Learning of Visual Features",
+      "url": "https://www.semanticscholar.org/paper/1d033b30f38642e4b6dd146bb8b464bfb58aad96"
+    },
+    {
+      "paper_id": "f95f5b715eb0441ca4ee1b0fac6b4bcaaba65556",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Descriptor : The HAM 10000 dataset , a large collection of multi-source dermatoscopic images of common pigmented skin lesions",
+      "url": "https://www.semanticscholar.org/paper/f95f5b715eb0441ca4ee1b0fac6b4bcaaba65556"
+    },
+    {
+      "paper_id": "11adc8bd35bd897502f9b5452ab7ac668ec9b0fb",
+      "arxiv_id": "1710.10345",
+      "doi": "10.5555/3291125.3309632",
+      "title": "The Implicit Bias of Gradient Descent on Separable Data",
+      "url": "https://www.semanticscholar.org/paper/11adc8bd35bd897502f9b5452ab7ac668ec9b0fb"
+    },
+    {
+      "paper_id": "8cb9bf13d5d4b17dd0ed29f6ad93879d17687a82",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2017.626",
+      "title": "Deep Adaptive Image Clustering",
+      "url": "https://www.semanticscholar.org/paper/8cb9bf13d5d4b17dd0ed29f6ad93879d17687a82"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2018.00914",
+      "title": "The iNaturalist Species Classification and Detection Dataset",
+      "url": "https://www.semanticscholar.org/paper/05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628"
+    },
+    {
+      "paper_id": "c1e3a26fb88c6720f4e84b7118e6f2df7dc8efa3",
+      "arxiv_id": "1602.02068",
+      "doi": "",
+      "title": "From Softmax to Sparsemax: A Sparse Model of Attention and Multi-Label Classification",
+      "url": "https://www.semanticscholar.org/paper/c1e3a26fb88c6720f4e84b7118e6f2df7dc8efa3"
+    },
+    {
+      "paper_id": "f44ff4fc0ed0142cb18472a5ba421bb538aa837e",
+      "arxiv_id": "1511.06335",
+      "doi": "",
+      "title": "Unsupervised Deep Embedding for Clustering Analysis",
+      "url": "https://www.semanticscholar.org/paper/f44ff4fc0ed0142cb18472a5ba421bb538aa837e"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "ff8a3d41bf4a3a6415d77a84ba58cd9b0b2c4869",
+      "arxiv_id": "",
+      "doi": "10.1038/nmeth.2083",
+      "title": "Annotated high-throughput microscopy image sets for validation",
+      "url": "https://www.semanticscholar.org/paper/ff8a3d41bf4a3a6415d77a84ba58cd9b0b2c4869"
+    },
+    {
+      "paper_id": "a25fbcbbae1e8f79c4360d26aa11a3abf1a11972",
+      "arxiv_id": "",
+      "doi": "10.1109/TKDE.2009.191",
+      "title": "A Survey on Transfer Learning",
+      "url": "https://www.semanticscholar.org/paper/a25fbcbbae1e8f79c4360d26aa11a3abf1a11972"
+    },
+    {
+      "paper_id": "ed7c7c079c8c54d3b82e016cc52a7a2c3a61f237",
+      "arxiv_id": "",
+      "doi": "10.1145/1390156.1390191",
+      "title": "Efficient projections onto the l1-ball for learning in high dimensions",
+      "url": "https://www.semanticscholar.org/paper/ed7c7c079c8c54d3b82e016cc52a7a2c3a61f237"
+    },
+    {
+      "paper_id": "7dcc27e011874c43463b80257d8ff3d797411844",
+      "arxiv_id": "0706.1062",
+      "doi": "10.1137/070710111",
+      "title": "Power-Law Distributions in Empirical Data",
+      "url": "https://www.semanticscholar.org/paper/7dcc27e011874c43463b80257d8ff3d797411844"
+    },
+    {
+      "paper_id": "ab25e57c716c34c02fe8f78738ffbd44fe7732fa",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "k-means++: the advantages of careful seeding",
+      "url": "https://www.semanticscholar.org/paper/ab25e57c716c34c02fe8f78738ffbd44fe7732fa"
+    },
+    {
+      "paper_id": "812355cec91fa30bb50e9e992a3549af39e4f6eb",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2006.79",
+      "title": "One-shot learning of object categories",
+      "url": "https://www.semanticscholar.org/paper/812355cec91fa30bb50e9e992a3549af39e4f6eb"
+    },
+    {
+      "paper_id": "87cbed883368d4a9efd42fdd91f47038f8d8fbe6",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "On Information and Sufficiency",
+      "url": "https://www.semanticscholar.org/paper/87cbed883368d4a9efd42fdd91f47038f8d8fbe6"
+    },
+    {
+      "paper_id": "b6a0f30260302a2001da9999096cfdd89bc1f7fb",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-540-68279-0_2",
+      "title": "The Hungarian method for the assignment problem",
+      "url": "https://www.semanticscholar.org/paper/b6a0f30260302a2001da9999096cfdd89bc1f7fb"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "“Identifying medical diagnoses and treatable diseases by image-based deep learning,”",
+      "url": ""
+    },
+    {
+      "paper_id": "e6abb255df6eb98bb178396cb3b1e489420ff3c5",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The Planar k-means Problem is NP-hard I",
+      "url": "https://www.semanticscholar.org/paper/e6abb255df6eb98bb178396cb3b1e489420ff3c5"
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "applicable license agreement with IEEE. Restrictions apply",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "9c855f3bdbc534e99f4b40d15e3354cd0a3d7518",
+      "arxiv_id": "2505.18918",
+      "doi": "10.1109/TSP.2026.3729726",
+      "title": "ALPCAHUS: Subspace Clustering for Heteroscedastic Data",
+      "url": "https://www.semanticscholar.org/paper/9c855f3bdbc534e99f4b40d15e3354cd0a3d7518"
+    }
+  ]
+}

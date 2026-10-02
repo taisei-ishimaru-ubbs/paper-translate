@@ -30,7 +30,7 @@ tags: [paper]
 - [CLIPER: A Unified Vision-Language Framework for In-the-Wild Facial Expression Recognition](https://arxiv.org/abs/2303.00193)
 - [Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning](https://arxiv.org/abs/2302.14115)
 - [Test of Time: Instilling Video-Language Models with a Sense of Time](https://arxiv.org/abs/2301.02074)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [When and why vision-language models behave like bags-of-words, and what to do about it?](https://arxiv.org/abs/2210.01936)
 - [CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Alignment](https://arxiv.org/abs/2209.06430)
 - [Frozen CLIP Models are Efficient Video Learners](https://arxiv.org/abs/2208.03550)

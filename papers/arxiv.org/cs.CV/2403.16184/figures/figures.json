@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Illustration of the underrepresentation issue in Visual Genome. We highlight the relation class “car- rying\" from the top-right imbalanced class distribution. We present various samples with their training repre- sentation levels and confidence scores for the ground truth class, where lowe",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: Illustration of our proposed architecture. left: the visual-language inputs processed from image regions xi,j and object labels (zi, zj), either provided or predicted by Faster R-CNN detector. middle: the fixed zero-shot VLM fzs and the trainable task-specific models fsg, which we use a fi",
+    "score": 39.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: The relation label distributions on Visual Genome. The upper figure illustrates the distribution across all classes, while the lower one shows the prob- ability distribution on some typical categories. Train Set: The class distribution πsg in training set. ViLT and Oscar: The estimated dis",
+    "score": 0.0
+  }
+]

@@ -39,7 +39,7 @@ tags: [paper]
 - [Black Box Few-Shot Adaptation for Vision-Language models](https://arxiv.org/abs/2304.01752)
 - [Task Residual for Tuning Vision-Language Models](https://arxiv.org/abs/2211.10277)
 - [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)
 - [Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)
 - [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649)

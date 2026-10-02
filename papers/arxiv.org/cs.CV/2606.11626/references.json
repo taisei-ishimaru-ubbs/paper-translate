@@ -1,0 +1,452 @@
+{
+  "id": "2606.11626",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "523a5b26951493859124104f102552bea82f4b5b",
+    "externalIds": {
+      "DBLP": "journals/ijcv/ChenZZL26",
+      "ArXiv": "2606.11626",
+      "DOI": "10.1007/s11263-026-02891-3",
+      "CorpusId": 288779980
+    },
+    "url": "https://www.semanticscholar.org/paper/523a5b26951493859124104f102552bea82f4b5b",
+    "title": "Adapting Vision-Language Models from Iconic to Inclusive for Multi-label Recognition Without Labels"
+  },
+  "references": [
+    {
+      "paper_id": "b1af71073286307af4fb4637314af9a5f9bc1a40",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3754878",
+      "title": "Towards Space and Semantics: Object-Purified Representation Learning for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/b1af71073286307af4fb4637314af9a5f9bc1a40"
+    },
+    {
+      "paper_id": "4c279b7a75982275572d88e8621ba2cf332de833",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3755253",
+      "title": "BAC-GCN: Background-Aware CLIP-GCN Framework for Unsupervised Multi-Label Classification",
+      "url": "https://www.semanticscholar.org/paper/4c279b7a75982275572d88e8621ba2cf332de833"
+    },
+    {
+      "paper_id": "dcaae3ee7b6a64a50f0c7d82db6780651d072748",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00451",
+      "title": "MambaMl: Exploring State Space Models for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/dcaae3ee7b6a64a50f0c7d82db6780651d072748"
+    },
+    {
+      "paper_id": "c87ca624db22b29f6bbbb7c6a5182ee29515beaa",
+      "arxiv_id": "2504.09990",
+      "doi": "10.1109/CVPR52734.2025.02368",
+      "title": "Correlative and Discriminative Label Grouping for Multi-Label Visual Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/c87ca624db22b29f6bbbb7c6a5182ee29515beaa"
+    },
+    {
+      "paper_id": "2cf09d1e7b1483677434f359d7ef2a900ddfc283",
+      "arxiv_id": "2503.15337",
+      "doi": "10.1109/CVPR52734.2025.00438",
+      "title": "Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/2cf09d1e7b1483677434f359d7ef2a900ddfc283"
+    },
+    {
+      "paper_id": "a08bbdbf885c7a6fb5499dccae24982770abd909",
+      "arxiv_id": "2312.12828",
+      "doi": "10.48550/arXiv.2312.12828",
+      "title": "TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training",
+      "url": "https://www.semanticscholar.org/paper/a08bbdbf885c7a6fb5499dccae24982770abd909"
+    },
+    {
+      "paper_id": "309966506f44969b86d40c8f219481127028968c",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51070.2023.00143",
+      "title": "Holistic Label Correction for Noisy Multi-Label Classification",
+      "url": "https://www.semanticscholar.org/paper/309966506f44969b86d40c8f219481127028968c"
+    },
+    {
+      "paper_id": "c1029a560d7fabc8b889505b8c727a8430363f09",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51070.2023.00142",
+      "title": "Scene-Aware Label Graph Learning for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/c1029a560d7fabc8b889505b8c727a8430363f09"
+    },
+    {
+      "paper_id": "90653b71fb69ce5a2e128e01e77a990aad29ad24",
+      "arxiv_id": "2308.03286",
+      "doi": "10.1109/ICCV51070.2023.00616",
+      "title": "Multi-Label Self-Supervised Learning with Scene Images",
+      "url": "https://www.semanticscholar.org/paper/90653b71fb69ce5a2e128e01e77a990aad29ad24"
+    },
+    {
+      "paper_id": "5a5ecad932ae38fd5980ba031919a46010ed47fd",
+      "arxiv_id": "2307.16634",
+      "doi": "10.1109/ICCV51070.2023.00130",
+      "title": "CDUL: CLIP-Driven Unsupervised Learning for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/5a5ecad932ae38fd5980ba031919a46010ed47fd"
+    },
+    {
+      "paper_id": "30d8d41d5551031ba5f7d64b0fb9ae130913a94c",
+      "arxiv_id": "2307.09066",
+      "doi": "10.1109/ICCV51070.2023.01408",
+      "title": "PatchCT: Aligning Patch Set and Label Set with Conditional Transport for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/30d8d41d5551031ba5f7d64b0fb9ae130913a94c"
+    },
+    {
+      "paper_id": "37ec3772c12553a0bed5e4e3d7cbbac5084ab531",
+      "arxiv_id": "2307.07680",
+      "doi": "10.1007/s11263-023-01849-z",
+      "title": "Semantic Contrastive Bootstrapping for Single-Positive Multi-label Recognition",
+      "url": "https://www.semanticscholar.org/paper/37ec3772c12553a0bed5e4e3d7cbbac5084ab531"
+    },
+    {
+      "paper_id": "ee32fe5945d43b91214642953460c94101348ffe",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.02242",
+      "title": "Revisiting Self-Similarity: Structural Embedding for Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/ee32fe5945d43b91214642953460c94101348ffe"
+    },
+    {
+      "paper_id": "ca5a44251f35897659157f020f212f617c919170",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01846",
+      "title": "RA-CLIP: Retrieval Augmented Contrastive Language-Image Pre-Training",
+      "url": "https://www.semanticscholar.org/paper/ca5a44251f35897659157f020f212f617c919170"
+    },
+    {
+      "paper_id": "5e44774b2143152b0f5021a700a1c746314bee44",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01102",
+      "title": "Annealing-based Label-Transfer Learning for Open World Object Detection",
+      "url": "https://www.semanticscholar.org/paper/5e44774b2143152b0f5021a700a1c746314bee44"
+    },
+    {
+      "paper_id": "a6139b35623e43ffa7591fb7e561071d11f7d8e6",
+      "arxiv_id": "2306.08271",
+      "doi": "10.1109/CVPR52729.2023.01890",
+      "title": "Multiclass Confidence and Localization Calibration for Object Detection",
+      "url": "https://www.semanticscholar.org/paper/a6139b35623e43ffa7591fb7e561071d11f7d8e6"
+    },
+    {
+      "paper_id": "8b9530d4102bb385032e11ff258a3151ac6128ca",
+      "arxiv_id": "2305.12476",
+      "doi": "10.48550/arXiv.2305.12476",
+      "title": "Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/8b9530d4102bb385032e11ff258a3151ac6128ca"
+    },
+    {
+      "paper_id": "c0c78ae65213be03271c77d690792fb62a2d26ca",
+      "arxiv_id": "2304.10539",
+      "doi": "10.1109/ICCV51070.2023.00137",
+      "title": "Learning in Imperfect Environment: Multi-Label Classification with Long-Tailed Distribution and Partial Labels",
+      "url": "https://www.semanticscholar.org/paper/c0c78ae65213be03271c77d690792fb62a2d26ca"
+    },
+    {
+      "paper_id": "25d0d032c76b9c09613faa35e25f2997aac261a5",
+      "arxiv_id": "2304.08491",
+      "doi": "10.1109/CVPR52729.2023.00293",
+      "title": "Delving into Shape-aware Zero-shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/25d0d032c76b9c09613faa35e25f2997aac261a5"
+    },
+    {
+      "paper_id": "a5bf8a8bed80f014415133a50e72fbb0a73e5960",
+      "arxiv_id": "2303.14960",
+      "doi": "10.1109/CVPR52729.2023.01495",
+      "title": "Ambiguity-Resistant Semi-Supervised Learning for Dense Object Detection",
+      "url": "https://www.semanticscholar.org/paper/a5bf8a8bed80f014415133a50e72fbb0a73e5960"
+    },
+    {
+      "paper_id": "3bee6efbd60fdc13bce78a2a0f92bc3af119108e",
+      "arxiv_id": "2303.13440",
+      "doi": "10.1109/CVPR52729.2023.00271",
+      "title": "CLIP for All Things Zero-Shot Sketch-Based Image Retrieval, Fine-Grained or Not",
+      "url": "https://www.semanticscholar.org/paper/3bee6efbd60fdc13bce78a2a0f92bc3af119108e"
+    },
+    {
+      "paper_id": "6e31cedc02984a564107d15716071c86894bedf0",
+      "arxiv_id": "2303.02437",
+      "doi": "10.1109/CVPR52729.2023.02247",
+      "title": "ConZIC: Controllable Zero-shot Image Captioning by Sampling-Based Polishing",
+      "url": "https://www.semanticscholar.org/paper/6e31cedc02984a564107d15716071c86894bedf0"
+    },
+    {
+      "paper_id": "bce29cc829fab288c41ae5678e1bb5b95bf218d4",
+      "arxiv_id": "2302.13996",
+      "doi": "10.1109/CVPR52729.2023.01464",
+      "title": "Aligning Bag of Regions for Open-Vocabulary Object Detection",
+      "url": "https://www.semanticscholar.org/paper/bce29cc829fab288c41ae5678e1bb5b95bf218d4"
+    },
+    {
+      "paper_id": "641d7866db6691e22aa36de5c8ba05804233c016",
+      "arxiv_id": "2302.12242",
+      "doi": "10.1109/CVPR52729.2023.00288",
+      "title": "Side Adapter Network for Open-Vocabulary Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/641d7866db6691e22aa36de5c8ba05804233c016"
+    },
+    {
+      "paper_id": "9b897a8739f04fa4eff7431fd8a3c547b49f4878",
+      "arxiv_id": "2302.03084",
+      "doi": "10.1109/CVPR52729.2023.01850",
+      "title": "Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9b897a8739f04fa4eff7431fd8a3c547b49f4878"
+    },
+    {
+      "paper_id": "3f5b31c4f7350dc88002c121aecbdc82f86eb5bb",
+      "arxiv_id": "2301.12597",
+      "doi": "10.48550/arXiv.2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/3f5b31c4f7350dc88002c121aecbdc82f86eb5bb"
+    },
+    {
+      "paper_id": "69e607d6d82438bbf424f6eea5ae43a95ced5a55",
+      "arxiv_id": "2212.04976",
+      "doi": "10.1109/CVPR52729.2023.01092",
+      "title": "Augmentation Matters: A Simple-Yet-Effective Approach to Semi-Supervised Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/69e607d6d82438bbf424f6eea5ae43a95ced5a55"
+    },
+    {
+      "paper_id": "67db43cb6cc618c873c63fe2c83025c335b7a230",
+      "arxiv_id": "2212.03588",
+      "doi": "10.1109/CVPR52729.2023.01075",
+      "title": "ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/67db43cb6cc618c873c63fe2c83025c335b7a230"
+    },
+    {
+      "paper_id": "813644fa08fe3de617bceaf1372e5f9904c9debd",
+      "arxiv_id": "2211.12739",
+      "doi": "10.1109/CVPR52729.2023.00275",
+      "title": "Texts as Images in Prompt Tuning for Multi-Label Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/813644fa08fe3de617bceaf1372e5f9904c9debd"
+    },
+    {
+      "paper_id": "f6c96d1fdb03c88c10fe88e47e953431f6db0244",
+      "arxiv_id": "2210.11469",
+      "doi": "10.48550/arXiv.2210.11469",
+      "title": "G2NetPL: Generic Game-Theoretic Network for Partial-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/f6c96d1fdb03c88c10fe88e47e953431f6db0244"
+    },
+    {
+      "paper_id": "29c2d3d77b6d6f24f4356d5ba20c1a6ab4229c76",
+      "arxiv_id": "2210.04150",
+      "doi": "10.1109/CVPR52729.2023.00682",
+      "title": "Open-Vocabulary Semantic Segmentation with Mask-adapted CLIP",
+      "url": "https://www.semanticscholar.org/paper/29c2d3d77b6d6f24f4356d5ba20c1a6ab4229c76"
+    },
+    {
+      "paper_id": "49d13f1dcaa2eac0bdb572127d5b6c89b1f9451e",
+      "arxiv_id": "2209.15323",
+      "doi": "10.1109/CVPR52729.2023.00278",
+      "title": "Smallcap: Lightweight Image Captioning Prompted with Retrieval Augmentation",
+      "url": "https://www.semanticscholar.org/paper/49d13f1dcaa2eac0bdb572127d5b6c89b1f9451e"
+    },
+    {
+      "paper_id": "b39743039412e40fef6d5b2f86db36320eab30e1",
+      "arxiv_id": "2206.09541",
+      "doi": "10.48550/arXiv.2206.09541",
+      "title": "DualCoOp: Fast Adaptation to Multi-Label Recognition with Limited Annotations",
+      "url": "https://www.semanticscholar.org/paper/b39743039412e40fef6d5b2f86db36320eab30e1"
+    },
+    {
+      "paper_id": "6b9866f772afcf721444aca93a79ae7b3e4bfa00",
+      "arxiv_id": "2206.03740",
+      "doi": "10.1109/CVPR52688.2022.01376",
+      "title": "Large Loss Matters in Weakly Supervised Multi-Label Classification",
+      "url": "https://www.semanticscholar.org/paper/6b9866f772afcf721444aca93a79ae7b3e4bfa00"
+    },
+    {
+      "paper_id": "1dbfb09b090438eef90996dfe7a275ef8f1a9a28",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52688.2022.01242",
+      "title": "Contextual Debiasing for Visual Recognition with Causal Mechanisms",
+      "url": "https://www.semanticscholar.org/paper/1dbfb09b090438eef90996dfe7a275ef8f1a9a28"
+    },
+    {
+      "paper_id": "ed680f85ec04bd4731d35d4f7e1818e5712401a9",
+      "arxiv_id": "2204.13207",
+      "doi": "10.1109/CVPR52688.2022.01616",
+      "title": "Use All The Labels: A Hierarchical Multi-Label Contrastive Learning Framework",
+      "url": "https://www.semanticscholar.org/paper/ed680f85ec04bd4731d35d4f7e1818e5712401a9"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "33bd9c2f77db502ac08ba1327e559b61cc19b5f8",
+      "arxiv_id": "2203.02172",
+      "doi": "10.48550/arXiv.2203.02172",
+      "title": "Semantic-Aware Representation Blending for Multi-Label Image Recognition with Partial Labels",
+      "url": "https://www.semanticscholar.org/paper/33bd9c2f77db502ac08ba1327e559b61cc19b5f8"
+    },
+    {
+      "paper_id": "1fe030dd8c8f0dcb35d74f2255d1e2baa166e812",
+      "arxiv_id": "2112.10941",
+      "doi": "10.1609/aaai.v36i1.19910",
+      "title": "Structured Semantic Transfer for Multi-Label Recognition with Partial Labels",
+      "url": "https://www.semanticscholar.org/paper/1fe030dd8c8f0dcb35d74f2255d1e2baa166e812"
+    },
+    {
+      "paper_id": "664cfb5d6c9bc8f739212b3269bd2fcc06c54500",
+      "arxiv_id": "2111.12172",
+      "doi": "10.1109/CVPR52688.2022.00474",
+      "title": "Multi-label Iterated Learning for Image Classification with Label Ambiguity",
+      "url": "https://www.semanticscholar.org/paper/664cfb5d6c9bc8f739212b3269bd2fcc06c54500"
+    },
+    {
+      "paper_id": "07fc2b53c6073e94b300d96a5af9ab6de09f05e5",
+      "arxiv_id": "2110.10955",
+      "doi": "10.1109/CVPR52688.2022.00472",
+      "title": "Multi-label Classification with Partial Annotations using Class-aware Selective Loss",
+      "url": "https://www.semanticscholar.org/paper/07fc2b53c6073e94b300d96a5af9ab6de09f05e5"
+    },
+    {
+      "paper_id": "4b842ba29f6d244b9f456056a2d7efab9e4903a5",
+      "arxiv_id": "2110.08263",
+      "doi": "",
+      "title": "FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling",
+      "url": "https://www.semanticscholar.org/paper/4b842ba29f6d244b9f456056a2d7efab9e4903a5"
+    },
+    {
+      "paper_id": "c04067f03fba2df0c14ea51a170f213eb2983708",
+      "arxiv_id": "2110.04544",
+      "doi": "10.1007/s11263-023-01891-x",
+      "title": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+      "url": "https://www.semanticscholar.org/paper/c04067f03fba2df0c14ea51a170f213eb2983708"
+    },
+    {
+      "paper_id": "49e84736f65645155e3976c1136627bdf85d93eb",
+      "arxiv_id": "2110.04722",
+      "doi": "10.1109/ICCV48922.2021.00023",
+      "title": "Transformer-based Dual Relation Graph for Multi-label Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/49e84736f65645155e3976c1136627bdf85d93eb"
+    },
+    {
+      "paper_id": "0ff365964b022c8f2479bc79ba7d93d69c6f209d",
+      "arxiv_id": "2106.09708",
+      "doi": "10.1109/CVPR46437.2021.00099",
+      "title": "Multi-Label Learning from Single Positive Labels",
+      "url": "https://www.semanticscholar.org/paper/0ff365964b022c8f2479bc79ba7d93d69c6f209d"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "395f76ffadf04c9711358b70928d0a313351985c",
+      "arxiv_id": "2011.14027",
+      "doi": "10.1109/CVPR46437.2021.01621",
+      "title": "General Multi-label Image Classification with Transformers",
+      "url": "https://www.semanticscholar.org/paper/395f76ffadf04c9711358b70928d0a313351985c"
+    },
+    {
+      "paper_id": "34ebd21d136dfcc6c6bee14ae142cc90f6b68110",
+      "arxiv_id": "2009.14119",
+      "doi": "10.1109/ICCV48922.2021.00015",
+      "title": "Asymmetric Loss For Multi-Label Classification",
+      "url": "https://www.semanticscholar.org/paper/34ebd21d136dfcc6c6bee14ae142cc90f6b68110"
+    },
+    {
+      "paper_id": "299847adf3ee558a760475ffa364facac3ebbb16",
+      "arxiv_id": "2001.07685",
+      "doi": "",
+      "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+      "url": "https://www.semanticscholar.org/paper/299847adf3ee558a760475ffa364facac3ebbb16"
+    },
+    {
+      "paper_id": "7ea9f9a2fe19206c45ec5c78f9fc89c8bcea2a57",
+      "arxiv_id": "1902.09720",
+      "doi": "10.1109/CVPR.2019.00074",
+      "title": "Learning a Deep ConvNet for Multi-Label Classification With Partial Labels",
+      "url": "https://www.semanticscholar.org/paper/7ea9f9a2fe19206c45ec5c78f9fc89c8bcea2a57"
+    },
+    {
+      "paper_id": "d07284a6811f1b2745d91bdb06b040b57f226882",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Decoupled Weight Decay Regularization",
+      "url": "https://www.semanticscholar.org/paper/d07284a6811f1b2745d91bdb06b040b57f226882"
+    },
+    {
+      "paper_id": "36eff562f65125511b5dfab68ce7f7a943c27478",
+      "arxiv_id": "1609.02907",
+      "doi": "",
+      "title": "Semi-Supervised Classification with Graph Convolutional Networks",
+      "url": "https://www.semanticscholar.org/paper/36eff562f65125511b5dfab68ce7f7a943c27478"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "arxiv_id": "1405.0312",
+      "doi": "10.1007/978-3-319-10602-1_48",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+    },
+    {
+      "paper_id": "b80a580a6f2eca77524302acd944fd6edf0a0611",
+      "arxiv_id": "",
+      "doi": "10.1145/1646396.1646452",
+      "title": "NUS-WIDE: a real-world web image database from National University of Singapore",
+      "url": "https://www.semanticscholar.org/paper/b80a580a6f2eca77524302acd944fd6edf0a0611"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Bomd:Bagofmulti-labeldescriptorsfornoisychestx-rayclassiﬁcation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Bridging the gap between model explanations in partially annotated multi-label classiﬁcation",
+      "url": ""
+    },
+    {
+      "paper_id": "13ef25201af7f2a7e401ef31a6197f66357f6f01",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The PASCAL Visual Object Classes Challenge",
+      "url": "https://www.semanticscholar.org/paper/13ef25201af7f2a7e401ef31a6197f66357f6f01"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The PASCAL visual object classes challenge 2006 (VOC2006) results",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "(2023c) (ml) $ ˆ2 $ p-encoder: On exploration of channel-class correlation for multi-label zero-shot learning",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Adapting Vision-Language Models from Iconic to Inclusive for Multi-Label Recognition Without Labels",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "We make an experimental analysis to reveal the intrinsic nature of vision-language models (VLMs), e.g. , CLIP, on multi-label learning",
+      "url": ""
+    }
+  ],
+  "citations": []
+}

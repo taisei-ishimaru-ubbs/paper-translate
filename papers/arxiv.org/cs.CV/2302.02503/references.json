@@ -1,0 +1,1440 @@
+{
+  "id": "2302.02503",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "f62dff69bcab1f3002f326bdb5e9c35a847c88bf",
+    "externalIds": {
+      "ArXiv": "2302.02503",
+      "DBLP": "journals/corr/abs-2302-02503",
+      "DOI": "10.48550/arXiv.2302.02503",
+      "CorpusId": 256616163
+    },
+    "url": "https://www.semanticscholar.org/paper/f62dff69bcab1f3002f326bdb5e9c35a847c88bf",
+    "title": "Leaving Reality to Imagination: Robust Classification via Generated Datasets"
+  },
+  "references": [
+    {
+      "paper_id": "ff18421b1904dbad56b0d0abcfc2d600f7695433",
+      "arxiv_id": "2306.12517",
+      "doi": "10.1109/CVPR52729.2023.01156",
+      "title": "FFCV: Accelerating Training by Removing Data Bottlenecks",
+      "url": "https://www.semanticscholar.org/paper/ff18421b1904dbad56b0d0abcfc2d600f7695433"
+    },
+    {
+      "paper_id": "cf694df964caa156ec306b45d3a3127533cb458f",
+      "arxiv_id": "2305.01569",
+      "doi": "10.48550/arXiv.2305.01569",
+      "title": "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation",
+      "url": "https://www.semanticscholar.org/paper/cf694df964caa156ec306b45d3a3127533cb458f"
+    },
+    {
+      "paper_id": "4538e353dd98f396c8facc29ebb72e9b1ba5f7c2",
+      "arxiv_id": "2304.08466",
+      "doi": "10.48550/arXiv.2304.08466",
+      "title": "Synthetic Data from Diffusion Models Improves ImageNet Classification",
+      "url": "https://www.semanticscholar.org/paper/4538e353dd98f396c8facc29ebb72e9b1ba5f7c2"
+    },
+    {
+      "paper_id": "1e05c5427d6a35a3b1bf37fb955f2ea94995a71d",
+      "arxiv_id": "2302.07944",
+      "doi": "10.48550/arXiv.2302.07944",
+      "title": "Effective Data Augmentation With Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/1e05c5427d6a35a3b1bf37fb955f2ea94995a71d"
+    },
+    {
+      "paper_id": "2e965b5d97c2d6fb4af284307735be39283792ba",
+      "arxiv_id": "2301.13188",
+      "doi": "10.48550/arXiv.2301.13188",
+      "title": "Extracting Training Data from Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/2e965b5d97c2d6fb4af284307735be39283792ba"
+    },
+    {
+      "paper_id": "2a3213cb3c755f036d5dfec7261d726a819c78c1",
+      "arxiv_id": "2301.00704",
+      "doi": "10.48550/arXiv.2301.00704",
+      "title": "Muse: Text-To-Image Generation via Masked Generative Transformers",
+      "url": "https://www.semanticscholar.org/paper/2a3213cb3c755f036d5dfec7261d726a819c78c1"
+    },
+    {
+      "paper_id": "ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79",
+      "arxiv_id": "2211.16198",
+      "doi": "10.1109/ICCV51070.2023.00257",
+      "title": "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79"
+    },
+    {
+      "paper_id": "610c2022a96ec7aef7b8716fb90d806b5e94df51",
+      "arxiv_id": "2211.13976",
+      "doi": "10.48550/arXiv.2211.13976",
+      "title": "Expanding Small-Scale Datasets with Guided Imagination",
+      "url": "https://www.semanticscholar.org/paper/610c2022a96ec7aef7b8716fb90d806b5e94df51"
+    },
+    {
+      "paper_id": "a2d2bbe4c542173662a444b33b76c66992697830",
+      "arxiv_id": "2211.09800",
+      "doi": "10.1109/CVPR52729.2023.01764",
+      "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+      "url": "https://www.semanticscholar.org/paper/a2d2bbe4c542173662a444b33b76c66992697830"
+    },
+    {
+      "paper_id": "97029b53d0252ea68472423dea33e5aa2316926d",
+      "arxiv_id": "2211.08332",
+      "doi": "10.1109/ICCV51070.2023.00713",
+      "title": "Versatile Diffusion: Text, Images and Variations All in One Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/97029b53d0252ea68472423dea33e5aa2316926d"
+    },
+    {
+      "paper_id": "e24f4b28167b05fbf7d29000490fc0a4e4c109c7",
+      "arxiv_id": "2211.01324",
+      "doi": "10.48550/arXiv.2211.01324",
+      "title": "eDiff-I: Text-to-Image Diffusion Models with an Ensemble of Expert Denoisers",
+      "url": "https://www.semanticscholar.org/paper/e24f4b28167b05fbf7d29000490fc0a4e4c109c7"
+    },
+    {
+      "paper_id": "23c818b5df6a2c8f8837f0e69741164f01946fef",
+      "arxiv_id": "2210.15230",
+      "doi": "10.48550/arXiv.2210.15230",
+      "title": "How well can Text-to-Image Generative Models understand Ethical Natural Language Interventions?",
+      "url": "https://www.semanticscholar.org/paper/23c818b5df6a2c8f8837f0e69741164f01946fef"
+    },
+    {
+      "paper_id": "8fe6a16df99a87f79fc0cb0fbd1af44f79f7885f",
+      "arxiv_id": "2210.14896",
+      "doi": "10.48550/arXiv.2210.14896",
+      "title": "DiffusionDB: A Large-scale Prompt Gallery Dataset for Text-to-Image Generative Models",
+      "url": "https://www.semanticscholar.org/paper/8fe6a16df99a87f79fc0cb0fbd1af44f79f7885f"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "2a29e1bcbed17c588ffbae1fea2af3baaab924b8",
+      "arxiv_id": "2210.07574",
+      "doi": "10.48550/arXiv.2210.07574",
+      "title": "Is synthetic data from generative models ready for image recognition?",
+      "url": "https://www.semanticscholar.org/paper/2a29e1bcbed17c588ffbae1fea2af3baaab924b8"
+    },
+    {
+      "paper_id": "b490a63c6d0cfc9549eda07891d17362e40503c1",
+      "arxiv_id": "2212.02571",
+      "doi": "10.1109/IJCB54206.2022.10007967",
+      "title": "A Dataless FaceSwap Detection Approach Using Synthetic Images",
+      "url": "https://www.semanticscholar.org/paper/b490a63c6d0cfc9549eda07891d17362e40503c1"
+    },
+    {
+      "paper_id": "f5225015bcdad0a1daf7d205c67fc297fb9ec978",
+      "arxiv_id": "2210.04133",
+      "doi": "10.48550/arXiv.2210.04133",
+      "title": "Adapting Pretrained Vision-Language Foundational Models to Medical Imaging Domains",
+      "url": "https://www.semanticscholar.org/paper/f5225015bcdad0a1daf7d205c67fc297fb9ec978"
+    },
+    {
+      "paper_id": "40b672e817624a2357f279cd3d92aa0ae8ddd330",
+      "arxiv_id": "2209.03942",
+      "doi": "10.48550/arXiv.2209.03942",
+      "title": "Data Feedback Loops: Model-driven Amplification of Dataset Biases",
+      "url": "https://www.semanticscholar.org/paper/40b672e817624a2357f279cd3d92aa0ae8ddd330"
+    },
+    {
+      "paper_id": "e221c769957a8eef2836a64cede88401129d86e9",
+      "arxiv_id": "2208.05516",
+      "doi": "10.48550/arXiv.2208.05516",
+      "title": "Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP",
+      "url": "https://www.semanticscholar.org/paper/e221c769957a8eef2836a64cede88401129d86e9"
+    },
+    {
+      "paper_id": "138b11c7ba96ad224b2fd4ade1bac18e8cfd7cb8",
+      "arxiv_id": "2205.14459",
+      "doi": "10.48550/arXiv.2205.14459",
+      "title": "CyCLIP: Cyclic Contrastive Language-Image Pretraining",
+      "url": "https://www.semanticscholar.org/paper/138b11c7ba96ad224b2fd4ade1bac18e8cfd7cb8"
+    },
+    {
+      "paper_id": "9695824d7a01fad57ba9c01d7d76a519d78d65e7",
+      "arxiv_id": "2205.11487",
+      "doi": "10.48550/arXiv.2205.11487",
+      "title": "Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding",
+      "url": "https://www.semanticscholar.org/paper/9695824d7a01fad57ba9c01d7d76a519d78d65e7"
+    },
+    {
+      "paper_id": "c57293882b2561e1ba03017902df9fc2f289dea2",
+      "arxiv_id": "2204.06125",
+      "doi": "10.48550/arXiv.2204.06125",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "url": "https://www.semanticscholar.org/paper/c57293882b2561e1ba03017902df9fc2f289dea2"
+    },
+    {
+      "paper_id": "2ad12a7be5eaf339a98c4defd8669e11fe726acc",
+      "arxiv_id": "2204.01697",
+      "doi": "10.48550/arXiv.2204.01697",
+      "title": "MaxViT: Multi-Axis Vision Transformer",
+      "url": "https://www.semanticscholar.org/paper/2ad12a7be5eaf339a98c4defd8669e11fe726acc"
+    },
+    {
+      "paper_id": "e9581d9758062f76e029bd19a58c4ae976cfb414",
+      "arxiv_id": "2112.12750",
+      "doi": "10.1007/978-3-031-19809-0_30",
+      "title": "SLIP: Self-supervision meets Language-Image Pre-training",
+      "url": "https://www.semanticscholar.org/paper/e9581d9758062f76e029bd19a58c4ae976cfb414"
+    },
+    {
+      "paper_id": "7002ae048e4b8c9133a55428441e8066070995cb",
+      "arxiv_id": "2112.10741",
+      "doi": "",
+      "title": "GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/7002ae048e4b8c9133a55428441e8066070995cb"
+    },
+    {
+      "paper_id": "f58acfeb022ba15282ec5fc047c98010311fa9da",
+      "arxiv_id": "2112.10752",
+      "doi": "10.1109/CVPR52688.2022.01042",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/f58acfeb022ba15282ec5fc047c98010311fa9da"
+    },
+    {
+      "paper_id": "fe34bca61e451a532f45c680c232cb78bdc558cf",
+      "arxiv_id": "2112.05135",
+      "doi": "10.1109/CVPR52688.2022.01628",
+      "title": "PixMix: Dreamlike Pictures Comprehensively Improve Safety Measures",
+      "url": "https://www.semanticscholar.org/paper/fe34bca61e451a532f45c680c232cb78bdc558cf"
+    },
+    {
+      "paper_id": "5f6ef846623f4088c4f4b781ab94fea64bc2c23e",
+      "arxiv_id": "2112.00854",
+      "doi": "10.1109/CVPR52688.2022.00975",
+      "title": "GANORCON: Are Generative Models Useful for Few-shot Segmentation?",
+      "url": "https://www.semanticscholar.org/paper/5f6ef846623f4088c4f4b781ab94fea64bc2c23e"
+    },
+    {
+      "paper_id": "9c8d46b59e871e18d8d2e1ec1aa9b96d2f3d7342",
+      "arxiv_id": "2110.09468",
+      "doi": "",
+      "title": "Improving Robustness using Generated Data",
+      "url": "https://www.semanticscholar.org/paper/9c8d46b59e871e18d8d2e1ec1aa9b96d2f3d7342"
+    },
+    {
+      "paper_id": "521ccc898395a2818fced22b4cf371b0e5121f94",
+      "arxiv_id": "2110.07178",
+      "doi": "10.18653/v1/2022.naacl-main.341",
+      "title": "Symbolic Knowledge Distillation: from General Language Models to Commonsense Models",
+      "url": "https://www.semanticscholar.org/paper/521ccc898395a2818fced22b4cf371b0e5121f94"
+    },
+    {
+      "paper_id": "767923635f2fd4467d848dba9655866e4f9b55c8",
+      "arxiv_id": "2110.05208",
+      "doi": "",
+      "title": "Supervision Exists Everywhere: A Data Efficient Contrastive Language-Image Pre-training Paradigm",
+      "url": "https://www.semanticscholar.org/paper/767923635f2fd4467d848dba9655866e4f9b55c8"
+    },
+    {
+      "paper_id": "267f1de5ff863ab03f8c48c7ac3df1d422de7c3b",
+      "arxiv_id": "2110.01963",
+      "doi": "",
+      "title": "Multimodal datasets: misogyny, pornography, and malignant stereotypes",
+      "url": "https://www.semanticscholar.org/paper/267f1de5ff863ab03f8c48c7ac3df1d422de7c3b"
+    },
+    {
+      "paper_id": "9289826beb6206eeaf500105f7329d6d5a495d8a",
+      "arxiv_id": "2109.01903",
+      "doi": "10.1109/CVPR52688.2022.00780",
+      "title": "Robust fine-tuning of zero-shot models",
+      "url": "https://www.semanticscholar.org/paper/9289826beb6206eeaf500105f7329d6d5a495d8a"
+    },
+    {
+      "paper_id": "6296aa7cab06eaf058f7291040b320b5a83c0091",
+      "arxiv_id": "2203.00667",
+      "doi": "10.1109/ICCCNT56998.2023.10306417",
+      "title": "Generative Adversarial Networks",
+      "url": "https://www.semanticscholar.org/paper/6296aa7cab06eaf058f7291040b320b5a83c0091"
+    },
+    {
+      "paper_id": "7cc3414b8c0791f1d5e8f82ee65cb99a7a876774",
+      "arxiv_id": "2108.04308",
+      "doi": "10.1145/3476058",
+      "title": "Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development",
+      "url": "https://www.semanticscholar.org/paper/7cc3414b8c0791f1d5e8f82ee65cb99a7a876774"
+    },
+    {
+      "paper_id": "106cc848e51ad0938e73c1b3b2ebb90d4bdea143",
+      "arxiv_id": "2107.04649",
+      "doi": "",
+      "title": "Accuracy on the Line: on the Strong Correlation Between Out-of-Distribution and In-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/106cc848e51ad0938e73c1b3b2ebb90d4bdea143"
+    },
+    {
+      "paper_id": "fc0b21675cc7ec8d9cd39c3ca5257008bbcec4df",
+      "arxiv_id": "2106.05258",
+      "doi": "",
+      "title": "Generative Models as a Data Source for Multiview Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/fc0b21675cc7ec8d9cd39c3ca5257008bbcec4df"
+    },
+    {
+      "paper_id": "e5784f6e9887f59864c92666e7611d88c259d6bf",
+      "arxiv_id": "2105.10123",
+      "doi": "10.1109/CVPR52688.2022.01298",
+      "title": "Backdoor Attacks on Self-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/e5784f6e9887f59864c92666e7611d88c259d6bf"
+    },
+    {
+      "paper_id": "0d5406775fab3e71848908327fb5504df5f60f92",
+      "arxiv_id": "2104.10972",
+      "doi": "",
+      "title": "ImageNet-21K Pretraining for the Masses",
+      "url": "https://www.semanticscholar.org/paper/0d5406775fab3e71848908327fb5504df5f60f92"
+    },
+    {
+      "paper_id": "8bcb5534227214b83255f5b9dedbc0d46a44794a",
+      "arxiv_id": "2104.09425",
+      "doi": "",
+      "title": "Robust Learning Meets Generative Models: Can Proxy Distributions Improve Adversarial Robustness?",
+      "url": "https://www.semanticscholar.org/paper/8bcb5534227214b83255f5b9dedbc0d46a44794a"
+    },
+    {
+      "paper_id": "ca2f1088d3e581b2c6c75cf0ebc96506d620f64d",
+      "arxiv_id": "",
+      "doi": "10.1145/3442188.3445922",
+      "title": "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜",
+      "url": "https://www.semanticscholar.org/paper/ca2f1088d3e581b2c6c75cf0ebc96506d620f64d"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "2cd605106b88c85d7d8b865b1ef0f8c8293debf1",
+      "arxiv_id": "2102.12092",
+      "doi": "",
+      "title": "Zero-Shot Text-to-Image Generation",
+      "url": "https://www.semanticscholar.org/paper/2cd605106b88c85d7d8b865b1ef0f8c8293debf1"
+    },
+    {
+      "paper_id": "141a5033d9994242b18bb3b217e79582f1ee9306",
+      "arxiv_id": "2102.05918",
+      "doi": "",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/141a5033d9994242b18bb3b217e79582f1ee9306"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "014576b866078524286802b1d0e18628520aa886",
+      "arxiv_id": "2010.02502",
+      "doi": "",
+      "title": "Denoising Diffusion Implicit Models",
+      "url": "https://www.semanticscholar.org/paper/014576b866078524286802b1d0e18628520aa886"
+    },
+    {
+      "paper_id": "e609165fac8e4923423f754fb82292a614395c92",
+      "arxiv_id": "2007.00644",
+      "doi": "",
+      "title": "Measuring Robustness to Natural Distribution Shifts in Image Classification",
+      "url": "https://www.semanticscholar.org/paper/e609165fac8e4923423f754fb82292a614395c92"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "5c126ae3421f05768d8edd97ecd44b1364e2c99a",
+      "arxiv_id": "2006.11239",
+      "doi": "",
+      "title": "Denoising Diffusion Probabilistic Models",
+      "url": "https://www.semanticscholar.org/paper/5c126ae3421f05768d8edd97ecd44b1364e2c99a"
+    },
+    {
+      "paper_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "arxiv_id": "2005.14165",
+      "doi": "",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+    },
+    {
+      "paper_id": "02b1607af35b48f0bd716367caf6a7428b969369",
+      "arxiv_id": "1912.02781",
+      "doi": "",
+      "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+      "url": "https://www.semanticscholar.org/paper/02b1607af35b48f0bd716367caf6a7428b969369"
+    },
+    {
+      "paper_id": "87f6a7c014ce206ac5b57299c07e10667d194b39",
+      "arxiv_id": "1909.13719",
+      "doi": "10.1109/CVPRW50498.2020.00359",
+      "title": "Randaugment: Practical automated data augmentation with a reduced search space",
+      "url": "https://www.semanticscholar.org/paper/87f6a7c014ce206ac5b57299c07e10667d194b39"
+    },
+    {
+      "paper_id": "97f4d09175705be4677d675fa27e55defac44800",
+      "arxiv_id": "1906.05849",
+      "doi": "10.1007/978-3-030-58621-8_45",
+      "title": "Contrastive Multiview Coding",
+      "url": "https://www.semanticscholar.org/paper/97f4d09175705be4677d675fa27e55defac44800"
+    },
+    {
+      "paper_id": "ca42e4d7021d4e563bbeae7db35c1ce09fe38bfa",
+      "arxiv_id": "1905.10887",
+      "doi": "",
+      "title": "Classification Accuracy Score for Conditional Generative Models",
+      "url": "https://www.semanticscholar.org/paper/ca42e4d7021d4e563bbeae7db35c1ce09fe38bfa"
+    },
+    {
+      "paper_id": "4f2eda8077dc7a69bb2b4e0a1a086cf054adb3f9",
+      "arxiv_id": "1905.11946",
+      "doi": "",
+      "title": "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/4f2eda8077dc7a69bb2b4e0a1a086cf054adb3f9"
+    },
+    {
+      "paper_id": "4ae0c4a511697e960c477ea3e37b3e11bf3e0e02",
+      "arxiv_id": "1905.13549",
+      "doi": "",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power",
+      "url": "https://www.semanticscholar.org/paper/4ae0c4a511697e960c477ea3e37b3e11bf3e0e02"
+    },
+    {
+      "paper_id": "49b64383fe36268410c430352637ed23b16820c5",
+      "arxiv_id": "1903.12261",
+      "doi": "",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "url": "https://www.semanticscholar.org/paper/49b64383fe36268410c430352637ed23b16820c5"
+    },
+    {
+      "paper_id": "4e0bb8c1c683b43357c5d5216f6b74ff2cb32434",
+      "arxiv_id": "1902.10811",
+      "doi": "",
+      "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+      "url": "https://www.semanticscholar.org/paper/4e0bb8c1c683b43357c5d5216f6b74ff2cb32434"
+    },
+    {
+      "paper_id": "ceb2ebef0b41e31c1a21b28c2734123900c005e2",
+      "arxiv_id": "1812.04948",
+      "doi": "10.1109/CVPR.2019.00453",
+      "title": "A Style-Based Generator Architecture for Generative Adversarial Networks",
+      "url": "https://www.semanticscholar.org/paper/ceb2ebef0b41e31c1a21b28c2734123900c005e2"
+    },
+    {
+      "paper_id": "22aab110058ebbd198edb1f1e7b4f69fb13c0613",
+      "arxiv_id": "1809.11096",
+      "doi": "",
+      "title": "Large Scale GAN Training for High Fidelity Natural Image Synthesis",
+      "url": "https://www.semanticscholar.org/paper/22aab110058ebbd198edb1f1e7b4f69fb13c0613"
+    },
+    {
+      "paper_id": "f445493badf53febbaeab340a4fca98d9e4ab7f7",
+      "arxiv_id": "1806.00451",
+      "doi": "",
+      "title": "Do CIFAR-10 Classifiers Generalize to CIFAR-10?",
+      "url": "https://www.semanticscholar.org/paper/f445493badf53febbaeab340a4fca98d9e4ab7f7"
+    },
+    {
+      "paper_id": "f723eb3e7159f07b97464c8d947d15e78612abe4",
+      "arxiv_id": "1805.09501",
+      "doi": "",
+      "title": "AutoAugment: Learning Augmentation Policies from Data",
+      "url": "https://www.semanticscholar.org/paper/f723eb3e7159f07b97464c8d947d15e78612abe4"
+    },
+    {
+      "paper_id": "fe9cd683c3b8ebdfd8efd1109a857cdbf9edc364",
+      "arxiv_id": "1711.04340",
+      "doi": "",
+      "title": "Data Augmentation Generative Adversarial Networks",
+      "url": "https://www.semanticscholar.org/paper/fe9cd683c3b8ebdfd8efd1109a857cdbf9edc364"
+    },
+    {
+      "paper_id": "4feef0fd284feb1233399b400eb897f59ec92755",
+      "arxiv_id": "1710.09412",
+      "doi": "",
+      "title": "mixup: Beyond Empirical Risk Minimization",
+      "url": "https://www.semanticscholar.org/paper/4feef0fd284feb1233399b400eb897f59ec92755"
+    },
+    {
+      "paper_id": "231af7dc01a166cac3b5b01ca05778238f796e41",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium",
+      "url": "https://www.semanticscholar.org/paper/231af7dc01a166cac3b5b01ca05778238f796e41"
+    },
+    {
+      "paper_id": "3647d6d0f151dc05626449ee09cc7bce55be497e",
+      "arxiv_id": "1704.04861",
+      "doi": "",
+      "title": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+      "url": "https://www.semanticscholar.org/paper/3647d6d0f151dc05626449ee09cc7bce55be497e"
+    },
+    {
+      "paper_id": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "arxiv_id": "1611.05431",
+      "doi": "10.1109/CVPR.2017.634",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/f6e0856b4a9199fa968ac00da612a9407b5cb85c"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "37b5dfe87d82ba8f310155165d5bf841dc92dea2",
+      "arxiv_id": "1506.01186",
+      "doi": "10.1109/WACV.2017.58",
+      "title": "Cyclical Learning Rates for Training Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/37b5dfe87d82ba8f310155165d5bf841dc92dea2"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "07702e25fc9867de85be588f68443d4df11dd649",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-93158-2",
+      "title": "Deep Generative Modeling",
+      "url": "https://www.semanticscholar.org/paper/07702e25fc9867de85be588f68443d4df11dd649"
+    },
+    {
+      "paper_id": "804b27dc02becf7bbbd89ba949e1e07e8677c459",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Generative Transformers",
+      "url": "https://www.semanticscholar.org/paper/804b27dc02becf7bbbd89ba949e1e07e8677c459"
+    },
+    {
+      "paper_id": "da2bb505ba1fcfa8877c008309bbed49be1332a5",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Combined Scaling for Open-Vocabulary Image Classiﬁcation",
+      "url": "https://www.semanticscholar.org/paper/da2bb505ba1fcfa8877c008309bbed49be1332a5"
+    },
+    {
+      "paper_id": "2952cb04d16c2c7c3000d042496de6ee4757c044",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2212.11237",
+      "title": "Not Just Pretty Pictures: Text-to-Image Generators Enable Interpretable Interventions for Robust Representations",
+      "url": "https://www.semanticscholar.org/paper/2952cb04d16c2c7c3000d042496de6ee4757c044"
+    },
+    {
+      "paper_id": "8ec489f5c98be74194d0ac0db852432e3a69c83c",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2205.13147",
+      "title": "Matryoshka Representations for Adaptive Deployment",
+      "url": "https://www.semanticscholar.org/paper/8ec489f5c98be74194d0ac0db852432e3a69c83c"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Diffusers: State-of-the-art diffusion models",
+      "url": ""
+    },
+    {
+      "paper_id": "639174f32a71ecfe9041ad05ff30eb39bd4977bf",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "ObjectNet: A large-scale bias-controlled dataset for pushing the limits of object recognition models",
+      "url": "https://www.semanticscholar.org/paper/639174f32a71ecfe9041ad05ff30eb39bd4977bf"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Robust Classification via Generated Datasets",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Is dall-e’s art borrowed or stolen?",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "5604d31947dc47457b40cbb685789470a21b71dd",
+      "arxiv_id": "",
+      "doi": "10.1371/journal.pone.0357260",
+      "title": "IFC-HFlowVAE: A self-enhancing generative framework with structural anchoring for imbalanced clinical data augmentation",
+      "url": "https://www.semanticscholar.org/paper/5604d31947dc47457b40cbb685789470a21b71dd"
+    },
+    {
+      "paper_id": "470bf78398a68d993686718deb16cdb4cc5779f7",
+      "arxiv_id": "2607.23835",
+      "doi": "10.48550/arXiv.2607.23835",
+      "title": "Consistent Evidence, Robust Recognition: Faithful Attribution Regularization under Geometric Transformations",
+      "url": "https://www.semanticscholar.org/paper/470bf78398a68d993686718deb16cdb4cc5779f7"
+    },
+    {
+      "paper_id": "9409c579eeca9739e16b6fe07455c7559a3e0a48",
+      "arxiv_id": "",
+      "doi": "10.1109/JCSSE68839.2026.11597043",
+      "title": "FORGE: Fidelity-Oriented Realistic Generation Enhancement for Surface Defect Synthesis",
+      "url": "https://www.semanticscholar.org/paper/9409c579eeca9739e16b6fe07455c7559a3e0a48"
+    },
+    {
+      "paper_id": "0ada97332a722a4333b92e78a3c227ff64fb1b4f",
+      "arxiv_id": "2606.00571",
+      "doi": "10.48550/arXiv.2606.00571",
+      "title": "On the Difficulty of Learning a Meta-network for Training Data Selection",
+      "url": "https://www.semanticscholar.org/paper/0ada97332a722a4333b92e78a3c227ff64fb1b4f"
+    },
+    {
+      "paper_id": "bcdfdd37f52e20119b014dc35d887c647528b4c6",
+      "arxiv_id": "",
+      "doi": "10.1109/FG67764.2026.11557001",
+      "title": "Privacy-Compliant Human Data Synthesis in Images for GDPR",
+      "url": "https://www.semanticscholar.org/paper/bcdfdd37f52e20119b014dc35d887c647528b4c6"
+    },
+    {
+      "paper_id": "3188ea80efbd2b9ffa07dd8016aed5c989bb4f58",
+      "arxiv_id": "2604.09304",
+      "doi": "10.48550/arXiv.2604.09304",
+      "title": "GeRM: A Generative Rendering Model From Physically Realistic to Photorealistic",
+      "url": "https://www.semanticscholar.org/paper/3188ea80efbd2b9ffa07dd8016aed5c989bb4f58"
+    },
+    {
+      "paper_id": "139255b20be376f2b3f0e991f5cdeb5a1e1b3ff5",
+      "arxiv_id": "2603.19575",
+      "doi": "10.1109/TPAMI.2026.3689529",
+      "title": "MagicSeg: Open-World Segmentation Pretraining via Counterfactural Diffusion-Based Auto-Generation",
+      "url": "https://www.semanticscholar.org/paper/139255b20be376f2b3f0e991f5cdeb5a1e1b3ff5"
+    },
+    {
+      "paper_id": "11ec0d1e78c9fd889bdb188843993347c0e43eef",
+      "arxiv_id": "",
+      "doi": "10.3390/ijgi14120481",
+      "title": "Impact of Synthetic Data on Deep Learning Models for Earth Observation: Photovoltaic Panel Detection Case Study",
+      "url": "https://www.semanticscholar.org/paper/11ec0d1e78c9fd889bdb188843993347c0e43eef"
+    },
+    {
+      "paper_id": "69d0119ac594a5e7f2f68fdfac82862ea81332df",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3754902",
+      "title": "DRMix: Decomposition-Recomposition Data Augmentation with Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/69d0119ac594a5e7f2f68fdfac82862ea81332df"
+    },
+    {
+      "paper_id": "672f7253ff82185a4ad6aa0b7f660715f7f5cbf7",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW69036.2025.00432",
+      "title": "Towards Reporting Bias in Visual-Language Datasets: Bi-Modal Data Augmentation by Decoupling Object-Attribute Association",
+      "url": "https://www.semanticscholar.org/paper/672f7253ff82185a4ad6aa0b7f660715f7f5cbf7"
+    },
+    {
+      "paper_id": "5816af0c30a408209e9f40eba6981015e482adf9",
+      "arxiv_id": "2510.15783",
+      "doi": "10.48550/arXiv.2510.15783",
+      "title": "ReCon: Region-Controllable Data Augmentation with Rectification and Alignment for Object Detection",
+      "url": "https://www.semanticscholar.org/paper/5816af0c30a408209e9f40eba6981015e482adf9"
+    },
+    {
+      "paper_id": "ddcf79f8b1a06307266bfdb550f4399482e49cd8",
+      "arxiv_id": "2510.15194",
+      "doi": "10.48550/arXiv.2510.15194",
+      "title": "Salient Concept-Aware Generative Data Augmentation",
+      "url": "https://www.semanticscholar.org/paper/ddcf79f8b1a06307266bfdb550f4399482e49cd8"
+    },
+    {
+      "paper_id": "5c2f606a9a29875ad30d09a2c3916652ca3f2dbd",
+      "arxiv_id": "2510.12225",
+      "doi": "10.48550/arXiv.2510.12225",
+      "title": "HoneyBee: Data Recipes for Vision-Language Reasoners",
+      "url": "https://www.semanticscholar.org/paper/5c2f606a9a29875ad30d09a2c3916652ca3f2dbd"
+    },
+    {
+      "paper_id": "df27ae9734e10fc0495ab3777bd914a209e48507",
+      "arxiv_id": "2510.02627",
+      "doi": "10.48550/arXiv.2510.02627",
+      "title": "A Trajectory Generator for High-Density Traffic and Diverse Agent-Interaction Scenarios",
+      "url": "https://www.semanticscholar.org/paper/df27ae9734e10fc0495ab3777bd914a209e48507"
+    },
+    {
+      "paper_id": "c6e3b2121ea4833ad040d8362eb902a88ff8afb1",
+      "arxiv_id": "2509.22635",
+      "doi": "10.48550/arXiv.2509.22635",
+      "title": "Training-Free Synthetic Data Generation with Dual IP-Adapter Guidance",
+      "url": "https://www.semanticscholar.org/paper/c6e3b2121ea4833ad040d8362eb902a88ff8afb1"
+    },
+    {
+      "paper_id": "e595299c8ce6eb85e0826264ed3d95cd6600be9b",
+      "arxiv_id": "2508.09550",
+      "doi": "10.48550/arXiv.2508.09550",
+      "title": "Exploring the Equivalence of Closed-Set Generative and Real Data Augmentation in Image Classification",
+      "url": "https://www.semanticscholar.org/paper/e595299c8ce6eb85e0826264ed3d95cd6600be9b"
+    },
+    {
+      "paper_id": "ba6894e071b3b1dedce1698ac6bf4fba859d51c3",
+      "arxiv_id": "2506.19360",
+      "doi": "10.48550/arXiv.2506.19360",
+      "title": "SoK: Can Synthetic Images Replace Real Data? A Survey of Utility and Privacy of Synthetic Image Generation",
+      "url": "https://www.semanticscholar.org/paper/ba6894e071b3b1dedce1698ac6bf4fba859d51c3"
+    },
+    {
+      "paper_id": "5cef6a5bd981b7c51d8a5821fd7f7b875f4a52b0",
+      "arxiv_id": "2506.09955",
+      "doi": "10.48550/arXiv.2506.09955",
+      "title": "Canonical Latent Representations in Conditional Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/5cef6a5bd981b7c51d8a5821fd7f7b875f4a52b0"
+    },
+    {
+      "paper_id": "ee4adebf2b884464a0f14221606f04f24eb3dbdb",
+      "arxiv_id": "2505.21574",
+      "doi": "",
+      "title": "Do We Need All the Synthetic Data? Targeted Image Augmentation via Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/ee4adebf2b884464a0f14221606f04f24eb3dbdb"
+    },
+    {
+      "paper_id": "8b8403129c7c77c46eb24d855d0e0d90a0db7fe9",
+      "arxiv_id": "2505.11703",
+      "doi": "10.48550/arXiv.2505.11703",
+      "title": "LoFT: LoRA-fused Training Dataset Generation with Few-shot Guidance",
+      "url": "https://www.semanticscholar.org/paper/8b8403129c7c77c46eb24d855d0e0d90a0db7fe9"
+    },
+    {
+      "paper_id": "42d1bcc151374bdeed38d75e86e0d19dd839d587",
+      "arxiv_id": "2505.04963",
+      "doi": "10.1109/ICCV51701.2025.02114",
+      "title": "ViCTr: Vital Consistency Transfer for Pathology Aware Image Synthesis",
+      "url": "https://www.semanticscholar.org/paper/42d1bcc151374bdeed38d75e86e0d19dd839d587"
+    },
+    {
+      "paper_id": "9bc09d60d3ceecfd70c74c1c69a26de2bae2776d",
+      "arxiv_id": "2504.12833",
+      "doi": "10.1109/ICCVW69036.2025.00669",
+      "title": "SPIE: Semantic and Structural Post-Training of Image Editing Diffusion Models with AI Feedback",
+      "url": "https://www.semanticscholar.org/paper/9bc09d60d3ceecfd70c74c1c69a26de2bae2776d"
+    },
+    {
+      "paper_id": "295940133cb39bb69b177b3c52ecb7bda39a2a52",
+      "arxiv_id": "2504.06432",
+      "doi": "10.1109/CVPRW67362.2025.00160",
+      "title": "D-Feat Occlusions: Diffusion Features for Robustness to Partial Visual Occlusions in Object Recognition",
+      "url": "https://www.semanticscholar.org/paper/295940133cb39bb69b177b3c52ecb7bda39a2a52"
+    },
+    {
+      "paper_id": "3f05797344d43e54daa8e98664c4920ccd21e37f",
+      "arxiv_id": "2503.12563",
+      "doi": "10.48550/arXiv.2503.12563",
+      "title": "Diffusion on Graph: Augmentation of Graph Structure for Node Classification",
+      "url": "https://www.semanticscholar.org/paper/3f05797344d43e54daa8e98664c4920ccd21e37f"
+    },
+    {
+      "paper_id": "d2abd2cd165ad72531cb7fd85e94c6d6746f9c99",
+      "arxiv_id": "2503.09122",
+      "doi": "10.1109/CVPR52734.2025.02218",
+      "title": "Training Data Provenance Verification: Did Your Model Use Synthetic Data from My Generative Model for Training?",
+      "url": "https://www.semanticscholar.org/paper/d2abd2cd165ad72531cb7fd85e94c6d6746f9c99"
+    },
+    {
+      "paper_id": "09b679ae3d0e51ace4ea1625dfa32ebc37d6f60b",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61041.2025.00864",
+      "title": "Diffusion-Based Generative Regularization for Supervised Discriminative Learning",
+      "url": "https://www.semanticscholar.org/paper/09b679ae3d0e51ace4ea1625dfa32ebc37d6f60b"
+    },
+    {
+      "paper_id": "7c865923109d4b6bf8f4b94db4e8ec11e88a476b",
+      "arxiv_id": "2502.01980",
+      "doi": "10.48550/arXiv.2502.01980",
+      "title": "Generative Data Mining with Longtail-Guided Diffusion",
+      "url": "https://www.semanticscholar.org/paper/7c865923109d4b6bf8f4b94db4e8ec11e88a476b"
+    },
+    {
+      "paper_id": "3d00f38fc7c676ee6acb664f036aeff51f5f1e1a",
+      "arxiv_id": "2501.13718",
+      "doi": "10.48550/arXiv.2501.13718",
+      "title": "A Mutual Information Perspective on Multiple Latent Variable Generative Models for Positive View Generation",
+      "url": "https://www.semanticscholar.org/paper/3d00f38fc7c676ee6acb664f036aeff51f5f1e1a"
+    },
+    {
+      "paper_id": "de6a3624a5e22cc72b6d65db6cbb706129282ec5",
+      "arxiv_id": "2412.17684",
+      "doi": "10.1109/CVPR52734.2025.01912",
+      "title": "COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation",
+      "url": "https://www.semanticscholar.org/paper/de6a3624a5e22cc72b6d65db6cbb706129282ec5"
+    },
+    {
+      "paper_id": "b7ae76b5999b73f5179071b75a3488733ea9184b",
+      "arxiv_id": "2412.16156",
+      "doi": "10.48550/arXiv.2412.16156",
+      "title": "Personalized Representation from Personalized Generation",
+      "url": "https://www.semanticscholar.org/paper/b7ae76b5999b73f5179071b75a3488733ea9184b"
+    },
+    {
+      "paper_id": "8f7c8394cb0604de03346212b6f6c6c94906e606",
+      "arxiv_id": "2412.10831",
+      "doi": "10.1109/CVPR52734.2025.02338",
+      "title": "Low-Biased General Annotated Dataset Generation",
+      "url": "https://www.semanticscholar.org/paper/8f7c8394cb0604de03346212b6f6c6c94906e606"
+    },
+    {
+      "paper_id": "afbcc3421159577e41de04849541227ab6a386ae",
+      "arxiv_id": "2412.09706",
+      "doi": "10.1007/s11263-025-02412-8",
+      "title": "Diffusion-Enhanced Test-Time Adaptation with Text and Image Augmentation",
+      "url": "https://www.semanticscholar.org/paper/afbcc3421159577e41de04849541227ab6a386ae"
+    },
+    {
+      "paper_id": "4d76ed8750d847872fdceb45b996f90002722d9d",
+      "arxiv_id": "2412.01137",
+      "doi": "10.1109/ICCV51701.2025.01622",
+      "title": "TextSSR: Diffusion-Based Data Synthesis for Scene Text Recognition",
+      "url": "https://www.semanticscholar.org/paper/4d76ed8750d847872fdceb45b996f90002722d9d"
+    },
+    {
+      "paper_id": "b3395de3b0dbdd5004c69483f761ed28653d2247",
+      "arxiv_id": "2411.17687",
+      "doi": "10.1109/CVPR52734.2025.02621",
+      "title": "GenDeg: Diffusion-based Degradation Synthesis for Generalizable All-In-One Image Restoration",
+      "url": "https://www.semanticscholar.org/paper/b3395de3b0dbdd5004c69483f761ed28653d2247"
+    },
+    {
+      "paper_id": "f7234668a88f8487c77058909b20c0ec6df01bae",
+      "arxiv_id": "2410.22944",
+      "doi": "10.48550/arXiv.2410.22944",
+      "title": "Focus On This, Not That! Steering LLMs With Adaptive Feature Specification",
+      "url": "https://www.semanticscholar.org/paper/f7234668a88f8487c77058909b20c0ec6df01bae"
+    },
+    {
+      "paper_id": "6d7da05566411cc89ed1f10369532417db8a9c8a",
+      "arxiv_id": "2411.02592",
+      "doi": "10.48550/arXiv.2411.02592",
+      "title": "Decoupled Data Augmentation for Improving Image Classification",
+      "url": "https://www.semanticscholar.org/paper/6d7da05566411cc89ed1f10369532417db8a9c8a"
+    },
+    {
+      "paper_id": "460019916dcb7cc8b2e68694e14c1d533f3841b2",
+      "arxiv_id": "2410.17606",
+      "doi": "10.1145/3664647.3680711",
+      "title": "Towards Effective Data-Free Knowledge Distillation via Diverse Diffusion Augmentation",
+      "url": "https://www.semanticscholar.org/paper/460019916dcb7cc8b2e68694e14c1d533f3841b2"
+    },
+    {
+      "paper_id": "447e6dc8e6923ce00efde3d01377c2ebb9c74086",
+      "arxiv_id": "",
+      "doi": "10.1109/ISMAR-Adjunct64951.2024.00174",
+      "title": "Benchmarking and Data Synthesis for Colorization of Manga Sequential Pages for Augmented Reality",
+      "url": "https://www.semanticscholar.org/paper/447e6dc8e6923ce00efde3d01377c2ebb9c74086"
+    },
+    {
+      "paper_id": "ff0f85ddd3e701b7b679ac8bd7d0b954684fb1b1",
+      "arxiv_id": "2410.13674",
+      "doi": "10.1109/ICCV51701.2025.00166",
+      "title": "Diffusion Curriculum: Synthetic-to-Real Data Curriculum via Image-Guided Diffusion",
+      "url": "https://www.semanticscholar.org/paper/ff0f85ddd3e701b7b679ac8bd7d0b954684fb1b1"
+    },
+    {
+      "paper_id": "3689b2a132e76af2a2ed5d2f034db14c17386f71",
+      "arxiv_id": "2410.06841",
+      "doi": "10.48550/arXiv.2410.06841",
+      "title": "Boosting Few-Shot Detection with Large Language Models and Layout-to-Image Synthesis",
+      "url": "https://www.semanticscholar.org/paper/3689b2a132e76af2a2ed5d2f034db14c17386f71"
+    },
+    {
+      "paper_id": "5f189d014ea0c9a10e1924e078fadfe36e2710e7",
+      "arxiv_id": "2410.05057",
+      "doi": "10.48550/arXiv.2410.05057",
+      "title": "SELECT: A Large-Scale Benchmark of Data Curation Strategies for Image Classification",
+      "url": "https://www.semanticscholar.org/paper/5f189d014ea0c9a10e1924e078fadfe36e2710e7"
+    },
+    {
+      "paper_id": "08996dc073af3767e8d5669d2c3d308795d175c0",
+      "arxiv_id": "2410.04634",
+      "doi": "10.48550/arXiv.2410.04634",
+      "title": "Is What You Ask For What You Get? Investigating Concept Associations in Text-to-Image Models",
+      "url": "https://www.semanticscholar.org/paper/08996dc073af3767e8d5669d2c3d308795d175c0"
+    },
+    {
+      "paper_id": "9759919588aeefbf85f42d5b8d0139a5b71f744b",
+      "arxiv_id": "2410.01322",
+      "doi": "10.48550/arXiv.2410.01322",
+      "title": "Forte : Finding Outliers with Representation Typicality Estimation",
+      "url": "https://www.semanticscholar.org/paper/9759919588aeefbf85f42d5b8d0139a5b71f744b"
+    },
+    {
+      "paper_id": "3e26d44170339d3e04320c47cac3ca2c1028a749",
+      "arxiv_id": "2409.07003",
+      "doi": "10.1109/ICRA55743.2025.11128133",
+      "title": "ODYSSEE: Oyster Detection Yielded by Sensor Systems on Edge Electronics",
+      "url": "https://www.semanticscholar.org/paper/3e26d44170339d3e04320c47cac3ca2c1028a749"
+    },
+    {
+      "paper_id": "39022bf884b473f8d08984921fa96f8f99ee7eca",
+      "arxiv_id": "2409.00547",
+      "doi": "10.1109/WACV61041.2025.00410",
+      "title": "Data Augmentation for Image Classification Using Generative AI",
+      "url": "https://www.semanticscholar.org/paper/39022bf884b473f8d08984921fa96f8f99ee7eca"
+    },
+    {
+      "paper_id": "f4641fc657af2ab1a0c304535fd1f2caa9ccc97f",
+      "arxiv_id": "2407.14765",
+      "doi": "10.48550/arXiv.2407.14765",
+      "title": "Data Augmentation in Graph Neural Networks: The Role of Generated Synthetic Graphs",
+      "url": "https://www.semanticscholar.org/paper/f4641fc657af2ab1a0c304535fd1f2caa9ccc97f"
+    },
+    {
+      "paper_id": "54e9f08eb259f946346f375a106786238471a40d",
+      "arxiv_id": "2407.10910",
+      "doi": "10.48550/arXiv.2407.10910",
+      "title": "DataDream: Few-shot Guided Dataset Generation",
+      "url": "https://www.semanticscholar.org/paper/54e9f08eb259f946346f375a106786238471a40d"
+    },
+    {
+      "paper_id": "6eaef722536d8e69ca5918ba66354a1d14c33139",
+      "arxiv_id": "2407.05546",
+      "doi": "10.48550/arXiv.2407.05546",
+      "title": "AID-AppEAL: Automatic Image Dataset and Algorithm for Content Appeal Enhancement and Assessment Labeling",
+      "url": "https://www.semanticscholar.org/paper/6eaef722536d8e69ca5918ba66354a1d14c33139"
+    },
+    {
+      "paper_id": "7ee798980cb8398c5b185898c172a0572ff83899",
+      "arxiv_id": "",
+      "doi": "10.1109/IGARSS53475.2024.10641008",
+      "title": "Synthetic Data in AI-Driven Earth Observation: an Insight Into the SD4EO Project",
+      "url": "https://www.semanticscholar.org/paper/7ee798980cb8398c5b185898c172a0572ff83899"
+    },
+    {
+      "paper_id": "6e4b3bed67d7d20178926c3f41f0a655f27c3030",
+      "arxiv_id": "2406.14551",
+      "doi": "10.48550/arXiv.2406.14551",
+      "title": "Advancing Fine-Grained Classification by Structure and Subject Preserving Augmentation",
+      "url": "https://www.semanticscholar.org/paper/6e4b3bed67d7d20178926c3f41f0a655f27c3030"
+    },
+    {
+      "paper_id": "68a7075f4157aa55bdb75e7da6778f50208b9975",
+      "arxiv_id": "2406.12368",
+      "doi": "10.1109/WACV61041.2025.00729",
+      "title": "MixDiff: Mixing Natural and Synthetic Images for Robust Self-Supervised Representations",
+      "url": "https://www.semanticscholar.org/paper/68a7075f4157aa55bdb75e7da6778f50208b9975"
+    },
+    {
+      "paper_id": "1e3d599a5bf0daf76665c45c0503f92e1677f8a9",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52733.2024.02710",
+      "title": "Domain Gap Embeddings for Generative Dataset Augmentation",
+      "url": "https://www.semanticscholar.org/paper/1e3d599a5bf0daf76665c45c0503f92e1677f8a9"
+    },
+    {
+      "paper_id": "a08e966f56b5630b1bc657134c1a315a289b32c7",
+      "arxiv_id": "2406.05432",
+      "doi": "10.48550/arXiv.2406.05432",
+      "title": "Regularized Training with Generated Datasets for Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/a08e966f56b5630b1bc657134c1a315a289b32c7"
+    },
+    {
+      "paper_id": "46313c43dcb79519c7796b27c6aef4b382539a07",
+      "arxiv_id": "2405.20469",
+      "doi": "10.1109/CVPRW63382.2024.00257",
+      "title": "Is Synthetic Data all We Need? Benchmarking the Robustness of Models Trained with Synthetic Images",
+      "url": "https://www.semanticscholar.org/paper/46313c43dcb79519c7796b27c6aef4b382539a07"
+    },
+    {
+      "paper_id": "b8a0c4d42ab90126cf6bcfc762c2622d8fc39495",
+      "arxiv_id": "2405.13580",
+      "doi": "10.48550/arXiv.2405.13580",
+      "title": "AltChart: Enhancing VLM-based Chart Summarization Through Multi-Pretext Tasks",
+      "url": "https://www.semanticscholar.org/paper/b8a0c4d42ab90126cf6bcfc762c2622d8fc39495"
+    },
+    {
+      "paper_id": "6240d914743363fe39d9a0910b48dbbf73e02a84",
+      "arxiv_id": "2405.07925",
+      "doi": "10.48550/arXiv.2405.07925",
+      "title": "Stable Diffusion-based Data Augmentation for Federated Learning with Non-IID Data",
+      "url": "https://www.semanticscholar.org/paper/6240d914743363fe39d9a0910b48dbbf73e02a84"
+    },
+    {
+      "paper_id": "be7d338b7cfb44dd1732566b8745a6097df65dcc",
+      "arxiv_id": "2404.03263",
+      "doi": "10.48550/arXiv.2404.03263",
+      "title": "On the Surprising Efficacy of Distillation as an Alternative to Pre-Training Small Models",
+      "url": "https://www.semanticscholar.org/paper/be7d338b7cfb44dd1732566b8745a6097df65dcc"
+    },
+    {
+      "paper_id": "763c375ccc81a357b951f623230c19917c347610",
+      "arxiv_id": "2403.19600",
+      "doi": "10.1109/CVPR52733.2024.01630",
+      "title": "Enhance Image Classification via Inter-Class Image Mixup with Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/763c375ccc81a357b951f623230c19917c347610"
+    },
+    {
+      "paper_id": "f13976722318054c44d5dbf2d96a1ec8ab0c76ea",
+      "arxiv_id": "2403.18775",
+      "doi": "10.1109/CVPR52733.2024.02055",
+      "title": "ImageNet-D: Benchmarking Neural Network Robustness on Diffusion Synthetic Object",
+      "url": "https://www.semanticscholar.org/paper/f13976722318054c44d5dbf2d96a1ec8ab0c76ea"
+    },
+    {
+      "paper_id": "37d7e6719d8bba723f9ca3e14282b13413d5ea94",
+      "arxiv_id": "2403.16605",
+      "doi": "10.1109/CVPR52733.2024.02615",
+      "title": "SatSynth: Augmenting Image-Mask Pairs Through Diffusion Models for Aerial Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/37d7e6719d8bba723f9ca3e14282b13413d5ea94"
+    },
+    {
+      "paper_id": "ad77ebd57bc660ed17356dceb0595ca889d6d1b9",
+      "arxiv_id": "2403.12803",
+      "doi": "10.48550/arXiv.2403.12803",
+      "title": "DreamDA: Generative Data Augmentation with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/ad77ebd57bc660ed17356dceb0595ca889d6d1b9"
+    },
+    {
+      "paper_id": "37489c2e5c694aa46aa45ecb08f83f3a88447461",
+      "arxiv_id": "2403.07356",
+      "doi": "10.48550/arXiv.2403.07356",
+      "title": "Premonition: Using Generative Models to Preempt Future Data Changes in Continual Learning",
+      "url": "https://www.semanticscholar.org/paper/37489c2e5c694aa46aa45ecb08f83f3a88447461"
+    },
+    {
+      "paper_id": "005173328f409ca2495aa891eaf3699973985231",
+      "arxiv_id": "2403.06741",
+      "doi": "10.48550/arXiv.2403.06741",
+      "title": "Distribution-Aware Data Expansion with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/005173328f409ca2495aa891eaf3699973985231"
+    },
+    {
+      "paper_id": "ce3c3004afd3f4d890edeeeab77916b2b7eab288",
+      "arxiv_id": "2403.06168",
+      "doi": "10.48550/arXiv.2403.06168",
+      "title": "DiffuMatting: Synthesizing Arbitrary Objects with Matting-level Annotation",
+      "url": "https://www.semanticscholar.org/paper/ce3c3004afd3f4d890edeeeab77916b2b7eab288"
+    },
+    {
+      "paper_id": "4352f73dbd4874aa38eb79f96ee3c6863eb76c8a",
+      "arxiv_id": "2402.19472",
+      "doi": "10.52202/079017-2357",
+      "title": "Efficient Lifelong Model Evaluation in an Era of Rapid Progress",
+      "url": "https://www.semanticscholar.org/paper/4352f73dbd4874aa38eb79f96ee3c6863eb76c8a"
+    },
+    {
+      "paper_id": "827491a5be43269cff26edd614582f581b2d9d16",
+      "arxiv_id": "2402.18607",
+      "doi": "10.1109/TIFS.2024.3453555",
+      "title": "Exploring Privacy and Fairness Risks in Sharing Diffusion Models: An Adversarial Perspective",
+      "url": "https://www.semanticscholar.org/paper/827491a5be43269cff26edd614582f581b2d9d16"
+    },
+    {
+      "paper_id": "837b55eefbeee72e580e97a7b3c7136e714134b4",
+      "arxiv_id": "2402.07043",
+      "doi": "10.48550/arXiv.2402.07043",
+      "title": "A Tale of Tails: Model Collapse as a Change of Scaling Laws",
+      "url": "https://www.semanticscholar.org/paper/837b55eefbeee72e580e97a7b3c7136e714134b4"
+    },
+    {
+      "paper_id": "2905dc5ad70b462f4f5543df3047dffadb5c0e4e",
+      "arxiv_id": "2401.16380",
+      "doi": "10.48550/arXiv.2401.16380",
+      "title": "Rephrasing the Web: A Recipe for Compute and Data-Efficient Language Modeling",
+      "url": "https://www.semanticscholar.org/paper/2905dc5ad70b462f4f5543df3047dffadb5c0e4e"
+    },
+    {
+      "paper_id": "7ada865c6a947b83e695748c78c05a918c47e91d",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCIT60459.2023.10441276",
+      "title": "Vision Transformers with Augmented Dataset using DDPM to detect Parkinson's Disease",
+      "url": "https://www.semanticscholar.org/paper/7ada865c6a947b83e695748c78c05a918c47e91d"
+    },
+    {
+      "paper_id": "a9eb3122f5f5fd98a964d8f26fcc8047773b143b",
+      "arxiv_id": "2312.05464",
+      "doi": "10.48550/arXiv.2312.05464",
+      "title": "Identifying and Mitigating Model Failures through Few-shot CLIP-aided Diffusion Generation",
+      "url": "https://www.semanticscholar.org/paper/a9eb3122f5f5fd98a964d8f26fcc8047773b143b"
+    },
+    {
+      "paper_id": "231bb72c2b5544da37b54ac76d7e23083dcdc543",
+      "arxiv_id": "2312.04566",
+      "doi": "10.48550/arXiv.2312.04566",
+      "title": "Gen2Det: Generate to Detect",
+      "url": "https://www.semanticscholar.org/paper/231bb72c2b5544da37b54ac76d7e23083dcdc543"
+    },
+    {
+      "paper_id": "596bd637e6bab16058759ebc28aba2dbc5e19fed",
+      "arxiv_id": "2311.15648",
+      "doi": "10.48550/arXiv.2311.15648",
+      "title": "Reinforcement Learning from Diffusion Feedback: Q* for Image Search",
+      "url": "https://www.semanticscholar.org/paper/596bd637e6bab16058759ebc28aba2dbc5e19fed"
+    },
+    {
+      "paper_id": "ddb453f3a3102bcbb1bdf33d572da13dcde67819",
+      "arxiv_id": "2311.11017",
+      "doi": "10.48550/arXiv.2311.11017",
+      "title": "Improving Adversarial Transferability by Stable Diffusion",
+      "url": "https://www.semanticscholar.org/paper/ddb453f3a3102bcbb1bdf33d572da13dcde67819"
+    },
+    {
+      "paper_id": "71f70b207d05ab8b784e4e3d35964631d96cf9fe",
+      "arxiv_id": "2311.00056",
+      "doi": "10.48550/arXiv.2311.00056",
+      "title": "Diversity and Diffusion: Observations on Synthetic Image Distributions with Stable Diffusion",
+      "url": "https://www.semanticscholar.org/paper/71f70b207d05ab8b784e4e3d35964631d96cf9fe"
+    },
+    {
+      "paper_id": "01843a69f5c8a66da06ca883aabaa86ffa2b3fd8",
+      "arxiv_id": "2311.16122",
+      "doi": "10.1109/WACV57701.2024.00536",
+      "title": "Semantic Generative Augmentations for Few-Shot Counting",
+      "url": "https://www.semanticscholar.org/paper/01843a69f5c8a66da06ca883aabaa86ffa2b3fd8"
+    },
+    {
+      "paper_id": "9d0e80302cdd1cfac77637591e140053d2524d7c",
+      "arxiv_id": "2310.15160",
+      "doi": "10.48550/arXiv.2310.15160",
+      "title": "FreeMask: Synthetic Images with Dense Annotations Make Stronger Segmentation Models",
+      "url": "https://www.semanticscholar.org/paper/9d0e80302cdd1cfac77637591e140053d2524d7c"
+    },
+    {
+      "paper_id": "cac79e2a65f41f63c99bb5aa6ed9317a71b21874",
+      "arxiv_id": "2310.10402",
+      "doi": "10.48550/arXiv.2310.10402",
+      "title": "Real-Fake: Effective Training Data Synthesis Through Distribution Matching",
+      "url": "https://www.semanticscholar.org/paper/cac79e2a65f41f63c99bb5aa6ed9317a71b21874"
+    },
+    {
+      "paper_id": "3c80da85fcc8eb01f4287ef9d4ec8e6de8c0bcef",
+      "arxiv_id": "2310.01830",
+      "doi": "10.48550/arXiv.2310.01830",
+      "title": "AI-Generated Images as Data Source: The Dawn of Synthetic Era",
+      "url": "https://www.semanticscholar.org/paper/3c80da85fcc8eb01f4287ef9d4ec8e6de8c0bcef"
+    },
+    {
+      "paper_id": "732ba2a13526fc828076a2e57277aed9ddcff198",
+      "arxiv_id": "2310.01330",
+      "doi": "10.48550/arXiv.2310.01330",
+      "title": "Towards reporting bias in visual-language datasets: bimodal augmentation by decoupling object-attribute association",
+      "url": "https://www.semanticscholar.org/paper/732ba2a13526fc828076a2e57277aed9ddcff198"
+    },
+    {
+      "paper_id": "2a0b45c54486d38907b60debd574ad58edcb8dbd",
+      "arxiv_id": "2310.00277",
+      "doi": "10.48550/arXiv.2310.00277",
+      "title": "A Unified Framework for Generative Data Augmentation: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/2a0b45c54486d38907b60debd574ad58edcb8dbd"
+    },
+    {
+      "paper_id": "3fa1090abbc155c5ac483e71e9f687c91e6c5509",
+      "arxiv_id": "2310.00158",
+      "doi": "10.48550/arXiv.2310.00158",
+      "title": "Feedback-guided Data Synthesis for Imbalanced Classification",
+      "url": "https://www.semanticscholar.org/paper/3fa1090abbc155c5ac483e71e9f687c91e6c5509"
+    },
+    {
+      "paper_id": "a6a13dd87672560b9e66e5cfeb25e353f3936848",
+      "arxiv_id": "2309.14303",
+      "doi": "10.48550/arXiv.2309.14303",
+      "title": "Dataset Diffusion: Diffusion-based Synthetic Dataset Generation for Pixel-Level Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/a6a13dd87672560b9e66e5cfeb25e353f3936848"
+    },
+    {
+      "paper_id": "4f670cdbc71940119bdc1b140015041eb19fa7cf",
+      "arxiv_id": "2309.13415",
+      "doi": "10.48550/arXiv.2309.13415",
+      "title": "Dream the Impossible: Outlier Imagination with Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/4f670cdbc71940119bdc1b140015041eb19fa7cf"
+    },
+    {
+      "paper_id": "c3a1a52c3964b66af9d5fc03bc7353ebe6fd2beb",
+      "arxiv_id": "2309.06358",
+      "doi": "10.48550/arXiv.2309.06358",
+      "title": "Generative Data Augmentation using LLMs improves Distributional Robustness in Question Answering",
+      "url": "https://www.semanticscholar.org/paper/c3a1a52c3964b66af9d5fc03bc7353ebe6fd2beb"
+    },
+    {
+      "paper_id": "734101311a8ae392ded894696ca070b04b82575f",
+      "arxiv_id": "2308.06038",
+      "doi": "10.1109/ICCV51070.2023.00255",
+      "title": "Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/734101311a8ae392ded894696ca070b04b82575f"
+    },
+    {
+      "paper_id": "cb712ab2b3bbaef6bff02efa7295ea420b58f654",
+      "arxiv_id": "2308.04152",
+      "doi": "",
+      "title": "Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions",
+      "url": "https://www.semanticscholar.org/paper/cb712ab2b3bbaef6bff02efa7295ea420b58f654"
+    },
+    {
+      "paper_id": "4be86923202f4a480067c54bb56e010239950e3d",
+      "arxiv_id": "2307.13697",
+      "doi": "10.1109/TPAMI.2025.3572476",
+      "title": "Benchmarking and Analyzing Generative Data for Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/4be86923202f4a480067c54bb56e010239950e3d"
+    },
+    {
+      "paper_id": "8b1ac02ae662c06de72daeac171a0a4461f1e692",
+      "arxiv_id": "2307.10350",
+      "doi": "10.48550/arXiv.2307.10350",
+      "title": "Improving Multimodal Datasets with Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/8b1ac02ae662c06de72daeac171a0a4461f1e692"
+    },
+    {
+      "paper_id": "0decd044050c122574177117dac3d7322e5762a3",
+      "arxiv_id": "2307.08526",
+      "doi": "10.1007/s11263-025-02436-0",
+      "title": "Image Captions are Natural Prompts for Training Data Synthesis",
+      "url": "https://www.semanticscholar.org/paper/0decd044050c122574177117dac3d7322e5762a3"
+    },
+    {
+      "paper_id": "ad022cd5da75637ac3e0a8f8cc4f0d394ba5ff7a",
+      "arxiv_id": "2307.01850",
+      "doi": "10.52591/lxai202312101",
+      "title": "Self-Consuming Generative Models Go MAD",
+      "url": "https://www.semanticscholar.org/paper/ad022cd5da75637ac3e0a8f8cc4f0d394ba5ff7a"
+    },
+    {
+      "paper_id": "fcaf2fa977c142496d0f8a74ed30fe4fd231c30e",
+      "arxiv_id": "2306.09192",
+      "doi": "10.52202/079017-0654",
+      "title": "DiffAug: A Diffuse-and-Denoise Augmentation for Training Robust Classifiers",
+      "url": "https://www.semanticscholar.org/paper/fcaf2fa977c142496d0f8a74ed30fe4fd231c30e"
+    },
+    {
+      "paper_id": "1a2018bde44ebd312ccb092fa8fe8006b2581c29",
+      "arxiv_id": "2306.07282",
+      "doi": "10.1109/ICCV51070.2023.01443",
+      "title": "Waffling around for Performance: Visual Classification with Random Words and Broad Concepts",
+      "url": "https://www.semanticscholar.org/paper/1a2018bde44ebd312ccb092fa8fe8006b2581c29"
+    },
+    {
+      "paper_id": "74d4de69a1a81ad9a76abbfcffa24e186e96afd3",
+      "arxiv_id": "2306.07180",
+      "doi": "10.48550/arXiv.2306.07180",
+      "title": "Diffusion Models for Black-Box Optimization",
+      "url": "https://www.semanticscholar.org/paper/74d4de69a1a81ad9a76abbfcffa24e186e96afd3"
+    },
+    {
+      "paper_id": "6b138a2288a0d72ec3031f14dc103343fa6d3912",
+      "arxiv_id": "2306.07200",
+      "doi": "10.48550/arXiv.2306.07200",
+      "title": "Fill-Up: Balancing Long-Tailed Data with Generative Models",
+      "url": "https://www.semanticscholar.org/paper/6b138a2288a0d72ec3031f14dc103343fa6d3912"
+    },
+    {
+      "paper_id": "3bdfc51afcfb62426b73814067f7ac90cfe42888",
+      "arxiv_id": "2306.01144",
+      "doi": "10.48550/arXiv.2306.01144",
+      "title": "Evaluating the Capabilities of Multi-modal Reasoning Models with Synthetic Task Data",
+      "url": "https://www.semanticscholar.org/paper/3bdfc51afcfb62426b73814067f7ac90cfe42888"
+    },
+    {
+      "paper_id": "83a252b2adfc5aaaff1e0ffc04bfc89855df19ab",
+      "arxiv_id": "2305.15316",
+      "doi": "10.48550/arXiv.2305.15316",
+      "title": "Training on Thin Air: Improve Image Classification with Generated Data",
+      "url": "https://www.semanticscholar.org/paper/83a252b2adfc5aaaff1e0ffc04bfc89855df19ab"
+    },
+    {
+      "paper_id": "43a55dbd95c9d5cd82de8db276f41adeec4a937d",
+      "arxiv_id": "2305.12799",
+      "doi": "10.48550/arXiv.2305.12799",
+      "title": "Interactive Data Synthesis for Systematic Vision Adaptation via LLMs-AIGCs Collaboration",
+      "url": "https://www.semanticscholar.org/paper/43a55dbd95c9d5cd82de8db276f41adeec4a937d"
+    },
+    {
+      "paper_id": "334a3d2cffa07ca22fc708953f922297f86ba2a0",
+      "arxiv_id": "2305.12252",
+      "doi": "10.48550/arXiv.2305.12252",
+      "title": "Boosting Human-Object Interaction Detection with Text-to-Image Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/334a3d2cffa07ca22fc708953f922297f86ba2a0"
+    },
+    {
+      "paper_id": "c22dfd7dd7364d96e03e47998819cc188a53d3f4",
+      "arxiv_id": "2304.10253",
+      "doi": "",
+      "title": "Image retrieval outperforms diffusion models on data augmentation",
+      "url": "https://www.semanticscholar.org/paper/c22dfd7dd7364d96e03e47998819cc188a53d3f4"
+    },
+    {
+      "paper_id": "4538e353dd98f396c8facc29ebb72e9b1ba5f7c2",
+      "arxiv_id": "2304.08466",
+      "doi": "10.48550/arXiv.2304.08466",
+      "title": "Synthetic Data from Diffusion Models Improves ImageNet Classification",
+      "url": "https://www.semanticscholar.org/paper/4538e353dd98f396c8facc29ebb72e9b1ba5f7c2"
+    },
+    {
+      "paper_id": "4049d388b8487e4d6c5adafbcdaa867d5f87a1a6",
+      "arxiv_id": "2302.03298",
+      "doi": "10.1109/CVPRW59228.2023.00084",
+      "title": "Diversity is Definitely Needed: Improving Model-Agnostic Zero-shot Classification via Stable Diffusion",
+      "url": "https://www.semanticscholar.org/paper/4049d388b8487e4d6c5adafbcdaa867d5f87a1a6"
+    },
+    {
+      "paper_id": "bb69b2233a6c4171d487e3fbd3d42f499da1a8a9",
+      "arxiv_id": "2212.11237",
+      "doi": "",
+      "title": "Not Just Pretty Pictures: Toward Interventional Data Augmentation Using Text-to-Image Generators",
+      "url": "https://www.semanticscholar.org/paper/bb69b2233a6c4171d487e3fbd3d42f499da1a8a9"
+    },
+    {
+      "paper_id": "e342165a614588878ad0f4bc9bacf3905df34d08",
+      "arxiv_id": "2209.00796",
+      "doi": "10.1145/3626235",
+      "title": "Diffusion Models: A Comprehensive Survey of Methods and Applications",
+      "url": "https://www.semanticscholar.org/paper/e342165a614588878ad0f4bc9bacf3905df34d08"
+    },
+    {
+      "paper_id": "912004a2c56fd5280e152fb161b95179bb8e86fc",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2026.3678513",
+      "title": "GeCHO: Generation of Contextualized Human–Object Interactions",
+      "url": "https://www.semanticscholar.org/paper/912004a2c56fd5280e152fb161b95179bb8e86fc"
+    },
+    {
+      "paper_id": "e828625d8ef11053c5a0c3756cc9ddd3a538ca86",
+      "arxiv_id": "",
+      "doi": "10.1109/TMM.2026.3668665",
+      "title": "Image Diffusion Models With Multimodal Conditional Control in Zero-Shot Semantic Segmentation Synthesis",
+      "url": "https://www.semanticscholar.org/paper/e828625d8ef11053c5a0c3756cc9ddd3a538ca86"
+    },
+    {
+      "paper_id": "8c8f66054d8dfa570a0318829fd67fe38977d5f2",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2026.3724724",
+      "title": "Diffusion-Based Generative Regularization for Cross-Modal Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/8c8f66054d8dfa570a0318829fd67fe38977d5f2"
+    },
+    {
+      "paper_id": "ce3b4a8ab607944aa485bfe5d08e7a3cf874395c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "GenDataAgent: On-the-fly Dataset Augmentation with Synthetic Data",
+      "url": "https://www.semanticscholar.org/paper/ce3b4a8ab607944aa485bfe5d08e7a3cf874395c"
+    },
+    {
+      "paper_id": "0884be907af0e5f2199e0a1d1f75ba9d5f535640",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Informative Synthetic Data Generation for Thorax Disease Classification",
+      "url": "https://www.semanticscholar.org/paper/0884be907af0e5f2199e0a1d1f75ba9d5f535640"
+    },
+    {
+      "paper_id": "bdf39017c4f084b1ab4b5a09d96b560c40f8d757",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-2301",
+      "title": "Generative Data Augmentation via Diffusion Distillation, Adversarial Alignment, and Importance Reweighting",
+      "url": "https://www.semanticscholar.org/paper/bdf39017c4f084b1ab4b5a09d96b560c40f8d757"
+    },
+    {
+      "paper_id": "a0b5a15351d618d1551a6756bd5e8dcc2ac7f71b",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2412.10831",
+      "title": "Unbiased General Annotated Dataset Generation",
+      "url": "https://www.semanticscholar.org/paper/a0b5a15351d618d1551a6756bd5e8dcc2ac7f71b"
+    },
+    {
+      "paper_id": "8b8e124699b64823ebb4d81952b7aaf73d6aee3a",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2412.17684",
+      "title": "COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/8b8e124699b64823ebb4d81952b7aaf73d6aee3a"
+    },
+    {
+      "paper_id": "52cc9fc836ef61ec65601df7adb49dc9236d5e5c",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2402.19472",
+      "title": "Lifelong Benchmarks: Efficient Model Evaluation in an Era of Rapid Progress",
+      "url": "https://www.semanticscholar.org/paper/52cc9fc836ef61ec65601df7adb49dc9236d5e5c"
+    },
+    {
+      "paper_id": "a434e06fcb605b600385829492353eb8c65bb7c7",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2410.13674",
+      "title": "Diffusion Curriculum: Synthetic-to-Real Generative Curriculum Learning via Image-Guided Diffusion",
+      "url": "https://www.semanticscholar.org/paper/a434e06fcb605b600385829492353eb8c65bb7c7"
+    },
+    {
+      "paper_id": "631f4558f685cea7c2ce0a4285e0bbb5abe7d2df",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2307.08526",
+      "title": "Image Captions are Natural Prompts for Text-to-Image Models",
+      "url": "https://www.semanticscholar.org/paper/631f4558f685cea7c2ce0a4285e0bbb5abe7d2df"
+    },
+    {
+      "paper_id": "e3fe61ce7a3c013de8770f7a43f3666f9a8e2ce5",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2308.04152",
+      "title": "Empowering Vision-Language Models to Follow Interleaved Vision-Language Instructions",
+      "url": "https://www.semanticscholar.org/paper/e3fe61ce7a3c013de8770f7a43f3666f9a8e2ce5"
+    },
+    {
+      "paper_id": "d5d3ead307ee4a90760cb97b60b0749886f7c8be",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Synthetic Data from Diﬀusion Models Improves ImageNet Classiﬁcation",
+      "url": "https://www.semanticscholar.org/paper/d5d3ead307ee4a90760cb97b60b0749886f7c8be"
+    },
+    {
+      "paper_id": "61ee0b4657f80c319c80701a486d8d3cf735cc0a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Image retrieval outperforms di � usion models on data augmentation",
+      "url": "https://www.semanticscholar.org/paper/61ee0b4657f80c319c80701a486d8d3cf735cc0a"
+    },
+    {
+      "paper_id": "7de93878ec8bd08ad0914bd59a1b2db04eee156d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Toward Understanding the Impact of Generative AI on Future Generative AI",
+      "url": "https://www.semanticscholar.org/paper/7de93878ec8bd08ad0914bd59a1b2db04eee156d"
+    },
+    {
+      "paper_id": "2623f7bd90deff545f402d56657dada09e3b4540",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Dream the Impossible:",
+      "url": "https://www.semanticscholar.org/paper/2623f7bd90deff545f402d56657dada09e3b4540"
+    },
+    {
+      "paper_id": "abf8181aba6b341c0565c29107755abab1986405",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "C LASSIFICATION -A WARE P ROMPT L EARNING FOR F EW -S HOT L EARNING VIA S TA - BLE",
+      "url": "https://www.semanticscholar.org/paper/abf8181aba6b341c0565c29107755abab1986405"
+    },
+    {
+      "paper_id": "2d0d519037a33d356ec4fe7b44a1a5b6aa92dd95",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Appendix of “Low-Biased General Annotated Dataset Generation”",
+      "url": "https://www.semanticscholar.org/paper/2d0d519037a33d356ec4fe7b44a1a5b6aa92dd95"
+    },
+    {
+      "paper_id": "ed4aaa205c79451468d5dba7d1b9427f02d5bd1e",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "I NFORMATIVE D ATA S ELECTION FOR T HORAX D IS - EASE",
+      "url": "https://www.semanticscholar.org/paper/ed4aaa205c79451468d5dba7d1b9427f02d5bd1e"
+    },
+    {
+      "paper_id": "4eb5c3713c24a5a27eaf3e4d461346f0b6940ba7",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Diversity-Enhanced and Classiﬁcation-Aware Prompt Learning for Few-Shot Learning via Stable Diﬀusion",
+      "url": "https://www.semanticscholar.org/paper/4eb5c3713c24a5a27eaf3e4d461346f0b6940ba7"
+    },
+    {
+      "paper_id": "a1e0ef4f29ceb341b10fca40b98c8cabe45ec463",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "OntoAug: Rethinking Generative Data Augmentation via Ontology Guidance",
+      "url": "https://www.semanticscholar.org/paper/a1e0ef4f29ceb341b10fca40b98c8cabe45ec463"
+    }
+  ]
+}

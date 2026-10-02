@@ -41,7 +41,7 @@ tags: [paper]
 - [Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)
 - [Fair and Optimal Classification via Post-Processing](https://arxiv.org/abs/2211.01528)
 - [Unified Optimal Transport Framework for Universal Domain Adaptation](https://arxiv.org/abs/2210.17067)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [SoLar: Sinkhorn Label Refinery for Imbalanced Partial-Label Learning](https://arxiv.org/abs/2209.10365)
 - [Learning to Re-weight Examples with Optimal Transport for Imbalanced Classification](https://arxiv.org/abs/2208.02951)
 - [Discovering Latent Concepts Learned in BERT](https://arxiv.org/abs/2205.07237)

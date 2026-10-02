@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: (a) Confusion matrix between true labels and hard pseudolabels of dataset EuroSAT, where incorrect and imbalanced pseudolabels are always generated. (b) An ex- ample illustration of a set of candidate pseudolabels, which consists of classes with the top-2 highest confidence scores.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2: Our candidate pseudolabel learning (CPL) signifi- cantly surpasses hard pseudolabel learning (Menghini et al., 2023) on the RESISC45 dataset in terms of label estimation accuracy (label estimation accuracy is defined as the rate at which the true label is included in the pseudolabels), lea",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3: Illustration of the training target generation pro- cess in our CPL method. At the beginning of each train- ing iteration, we first construct a confidence score matrix composed of confidence score vector p for each unlabeled instance. Then, candidate pseudolabels, derived from both intra- ",
+    "score": 11.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4: Visualization of the average set size of candidate pseudolabels among all unlabeled data on six datasets under the UL setting of textual prompt tuning.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5: Visualization of the performance improvement of CLIP with CPL (each class only has two labeled data) and fully supervised few-shot learning when textual prompt tuning is applied. The x-axis in blue represents the number of labeled instances, while the x-axis in red represents the proportio",
+    "score": 3.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 9,
+    "caption": "Figure 6: Hyperparameters evaluation on DTD dataset under the UL setting. We illustrate the performance of our method while keeping β = 0.95 (left) and α = 0.60 (right) constant.",
+    "score": 14.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 9,
+    "caption": "Figure 7: left: The frequency distribution of the generated pseudolabels with different strategies. right: The influence of each strategy on the class-level test accuracy for EuroSAT.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 15,
+    "caption": "Figure 8: Confusion matrix illustrating the correlation between true labels and predicted hard pseudolabels on DTD.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 16,
+    "caption": "Figure 9: (a) Illustrates the impact of the parameter α under various settings of β. (b) Illustrates the impact of the parameter β under various settings of α.",
+    "score": 0.0
+  }
+]

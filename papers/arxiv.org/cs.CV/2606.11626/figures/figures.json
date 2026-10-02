@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Fig. 1 Illustrations of our motivation. Vision-language mod- els are naturally trained for one-positive prediction, unsuit- able for unsupervised multi-label learning. Our unsupervised framework has two stages. i) Cutting: we cut and discover local object dictionaries to prevent the model from focus",
+    "score": 98.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Fig. 2 The behavior of vision-language model CLIP on the representative multi-label MS-COCO dataset. (a) and (b) show zero-shot mAP and expected mAP on MS-COCO. The black lines mark average performance. (c) shows the distri- butions of positive labels of 80 classes from model prediction (blue) and g",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Fig. 3 Pipeline of the proposed unsupervised framework. Our approach includes the cutting stage and sewing stage. (I) Cutting Stage: we present the multi-sampling response estimator to prevent the model from concentrating only on one single object. The images are sampled and fed to the vision-langua",
+    "score": 78.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Fig. 4 Correction of model prediction bias by the Cutting stage. Before correction, the model is almost unable to pre- dict non-salient objects; after correction, these objects are successfully recovered and the predictions are corrected.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Fig. 5 Illustrations of the model structures. The attention pooling layer of the VLM CLIP visual encoder is removed, and an adapter is attached for classification.",
+    "score": 15.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 11,
+    "caption": "Fig. 6 Ablation studies to hyperparameter p, q, α and L.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 8,
+    "page": 12,
+    "caption": "Fig. 8 The class activation maps by (a) ours and (b) CLIP on a complex image, containing “person”, “motorcycle”, and “car”. The overlay color indicates the areas of focus for recog- nizing the categories. We mark the inconspicuous and wrong activation areas with dotted lines in the figure.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 10,
+    "page": 14,
+    "caption": "Fig. 10 The top-1 confident images of top/bottom 10 categories on the MS-COCO dataset. We mark the main objects with dotted lines in the bottom 10. Despite our selection of CLIP’s most confident images, these categories remain unremarkable, indicating the inherent bias.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 11,
+    "page": 14,
+    "caption": "Fig. 11 The class activation maps by ours and vanilla CLIP on various images. Our method successfully finds the targets and the CAM is more accurate. The CLIP tends to focus on the dominating objects while encoding the rest as the context of them. a), b), d), e) CLIP encodes “person” as the context ",
+    "score": 14.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 12,
+    "page": 14,
+    "caption": "Fig. 12 The visualization of features by CLIP and ours via t- SNE. (a) Overlap is observed in 600 image features by CLIP. (b) Our method produces more significant features for 600 images. (c) The class-wise features of 600 images × 20 classes by our framework, further distinguish different categorie",
+    "score": 26.0
+  }
+]

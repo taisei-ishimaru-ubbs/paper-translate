@@ -1,0 +1,16 @@
+{
+  "id": "2507.19398",
+  "title": "CXR-CML: Improved zero-shot classification of long-tailed multi-label diseases in Chest X-Rays",
+  "authors": [
+    "Rajesh Madhipati",
+    "Sheethal Bhat",
+    "Lukas Buess",
+    "Andreas Maier"
+  ],
+  "abstract": "Chest radiography (CXR) plays a crucial role in the diagnosis of various diseases. However, the inherent class imbalance in the distribution of clinical findings presents a significant challenge for current self-supervised deep learning models. These models often fail to accurately classify long-tailed classes. Current Vision-Language models such as Contrastive Language Image Pre-training (CLIP) models effectively model the manifold distribution of the latent space, enabling high zero-shot classification accuracies. Although CLIP performs well on most of the primary classes in the dataset, our work reveals that its effectiveness decreases significantly for classes with a long-tailed distribution. Our approach employs a class-weighting mechanism that directly aligns with the distribution of classes within the latent space. This method ensures a substantial improvement in overall classification performance, with particular emphasis on enhancing the recognition and accuracy of rarely observed classes. We accomplish this by applying Gaussian Mixture Model (GMM) clustering to the latent space. The subsequent clusters are further refined by Student t-distribution, followed by a metric loss that utilizes the altered embeddings. Our approach facilitates stable and adaptive clustering of the features. This results in a notable average improvement of 7\\% points in zero-shot AUC scores across 40 classes in the MIMIC-CXR-JPG dataset from previous SOTA models.",
+  "published": "2025-07-25",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2507.19398v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:24Z"
+}

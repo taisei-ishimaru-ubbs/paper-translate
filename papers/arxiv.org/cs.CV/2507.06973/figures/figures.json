@@ -1,0 +1,16 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Comparison of key properties: target distribution mod- eling, availability, and training-free efficiency. (a) Prompt-based methods fail the training-free criterion due to lengthy backpropa- gation. (b) Other methods require access to source or additional test data, affecting availability. ",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. The overall framework of our FreeTTA. Given a test sample xt, we use the frozen CLIP image encoder to extract the image feature, while the text encoder, using prompt templates, generates class feature vectors. The online EM algorithm is initialized with the text features as mean vectors an",
+    "score": 39.0
+  }
+]

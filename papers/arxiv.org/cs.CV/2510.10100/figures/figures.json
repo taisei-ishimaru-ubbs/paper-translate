@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1. The overview of our FedCoPL. For pseudo labeling, FedCoPL begins by filtering the initial unlabeled samples to estimate the local distributions, which are uploaded to the server. Then, the server globally selects M pseudo labels for each category and allocates them to clients based on loca",
+    "score": 101.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2. Drift diversity and cosine distance of prompts among clients during training in CIFAR10 [19] dataset. The differences observed in textual prompts are significantly greater than those ob- served in visual prompts.",
+    "score": 27.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Results of experiments with various client numbers and different client joining rates under Dirichlet-based label skews (β = 0.1). FPL [35] is adopted as the baseline pseudo labeling method.",
+    "score": 5.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 12,
+    "caption": "Figure 4. Drift diversity and cosine distance of prompts among clients during training in DTD [4] dataset. The differences ob- served in textual prompts are significantly greater than those found in visual prompts.",
+    "score": 9.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 12,
+    "caption": "Figure 5. Drift diversity and cosine distance of prompts among clients during training in RESISC45 [3] dataset.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 13,
+    "caption": "Figure 6. (a) and (b) depict label skews of Dirichlet-based label skews and (c) presents the quantity-based label skew.",
+    "score": 0.0
+  }
+]

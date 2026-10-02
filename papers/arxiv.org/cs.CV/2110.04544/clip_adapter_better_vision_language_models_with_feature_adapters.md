@@ -164,7 +164,7 @@ tags: [paper]
 - [T-CLIP: Enabling Thermal Perception for Contrastive Language-Image Pretraining](https://arxiv.org/abs/2606.00673)
 - [Variational Adapter for Cross-modal Similarity Representation](https://arxiv.org/abs/2605.30968)
 - Cross-modal Alignment Algorithm and Dynamic Semantic Enhancement in Multimodal Translation
-- [Adapting Vision-Language Models from Iconic to Inclusive for Multi-label Recognition Without Labels](https://arxiv.org/abs/2606.11626)
+- [[adapting_vision_language_models_from_iconic_to_inclusive_for_multi_label_recognition_without_labels|Adapting Vision-Language Models from Iconic to Inclusive for Multi-label Recognition Without Labels]]
 - [HydraPrompt: An Adaptive and Asymmetric Framework of Vision-Language Models for Synthetic Image Detection](https://arxiv.org/abs/2605.26421)
 - Pixel’s Neighbors Are Noteworthy: Localized Vision–Language Attention for Remote Sensing Semantic Segmentation
 - [MAIL++: Multi-Modal Bi-directional Agent Layer for Vision-Language Models](https://arxiv.org/abs/2605.25479)
@@ -470,7 +470,7 @@ tags: [paper]
 - CLIP-based Chest X-ray Anomaly Detection
 - Federated Semantic Synergistic Alignment for Food Image Classification under Class Imbalance
 - [Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models](https://arxiv.org/abs/2510.20477)
-- [Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2510.19802)
+- [[class_aware_prototype_learning_with_negative_contrast_for_test_time_adaptation_of_vision_language_models|Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models]]
 - [Data-Centric Lessons To Improve Speech-Language Pretraining](https://arxiv.org/abs/2510.20860)
 - Mitigating Shortcut Learning in Online Action Detection and Anticipation via Cross-Modal Semantic Alignment
 - [VeFA: Vector-Based Feature Space Adaptation for Robust Model Fine-Tuning](https://arxiv.org/abs/2510.19155)
@@ -506,7 +506,7 @@ tags: [paper]
 - C2BA: Cross-Domain Consistency and Bidirectional Alignment for Cross-Modal Domain-Incremental Learning
 - PiG-Adapter: Lightweight Knowledge Graph Adaptation for Few-Shot Vision-Language Tuning
 - Cross-Lingual Multimodal Event Extraction: A Unified Framework for Parameter-Efficient Fine-Tuning
-- [Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models](https://arxiv.org/abs/2510.02750)
+- [[bayesian_test_time_adaptation_for_object_recognition_and_detection_with_vision_language_models|Bayesian Test-time Adaptation for Object Recognition and Detection with Vision-language Models]]
 - Scaling down, Powering up: A Survey on the Advancements of Small Vision-Language Models
 - [Cluster-Aware Prompt Ensemble Learning for Few-Shot Vision-Language Model Adaptation](https://arxiv.org/abs/2510.09867)
 - OV-KFA: Open-vocabulary object detection via key feature alignment
@@ -604,7 +604,7 @@ tags: [paper]
 - [Harnessing Textual Semantic Priors for Knowledge Transfer and Refinement in CLIP-Driven Continual Learning](https://arxiv.org/abs/2508.01579)
 - Logical Anomaly Detection with Text-based Logic via Component-Aware Contrastive Language-Image Training
 - Adapting Vision-Language Models for Multi-Label Aerial Image Classification with Partial Labels
-- [Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models](https://arxiv.org/abs/2508.01225)
+- [[multi_cache_enhanced_prototype_learning_for_test_time_generalization_of_vision_language_models|Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models]]
 - Cross-modal generalizable visual-language models via inter-modal bidirectional supervision for enhanced pathology image recognition
 - Transforming Product Discovery and Interpretation Using Vision-Language Models
 - Accelerating on-device visual task adaptation by exploiting hybrid sparsity in DNN training
@@ -703,7 +703,7 @@ tags: [paper]
 - Reproducible Vision-Language Models Meet Concepts Out of Pre-Training
 - AdMiT: Adaptive Multi-Source Tuning in Dynamic Environments
 - [Improving Personalized Search with Regularized Low-Rank Parameter Updates](https://arxiv.org/abs/2506.10182)
-- [Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM](https://arxiv.org/abs/2507.06973)
+- [[free_on_the_fly_enhancing_flexibility_in_test_time_adaptation_with_online_em|Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM]]
 - Joint Scheduling of Causal Prompts and Tasks for Multi-Task Learning
 - ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning
 - Once-Tuning-Multiple-Variants: Tuning Once and Expanded as Multiple Vision-Language Model Variants
@@ -822,7 +822,7 @@ tags: [paper]
 - [Exploring CLIP’s Dense Knowledge for Weakly Supervised Semantic Segmentation](https://arxiv.org/abs/2503.20826)
 - [fine-CLIP: Enhancing Zero-Shot Fine-Grained Surgical Action Recognition with Vision-Language Models](https://arxiv.org/abs/2503.19670)
 - [VTD-CLIP: Video-to-Text Discretization via Prompting CLIP](https://arxiv.org/abs/2503.18407)
-- [Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models](https://arxiv.org/abs/2503.18334)
+- [[mitigating_cache_noise_in_test_time_adaptation_for_large_vision_language_models|Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models]]
 - [SPMTrack: Spatio-Temporal Parameter-Efficient Fine-Tuning with Mixture of Experts for Scalable Visual Tracking](https://arxiv.org/abs/2503.18338)
 - [OCRT: Boosting Foundation Models in the Open World with Object-Concept-Relation Triad](https://arxiv.org/abs/2503.18695)
 - [Compositional Caching for Training-free Open-vocabulary Attribute Detection](https://arxiv.org/abs/2503.19145)
@@ -936,7 +936,7 @@ tags: [paper]
 - [COBRA: COmBinatorial Retrieval Augmentation for Few-Shot Adaptation](https://arxiv.org/abs/2412.17684)
 - Category-instance distillation based on visual-language models for rehearsal-free class incremental learning
 - [MVREC: A General Few-shot Defect Classification Model Using Multi-View Region-Context](https://arxiv.org/abs/2412.16897)
-- [UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning](https://arxiv.org/abs/2412.16739)
+- [[unem_unrolled_generalized_em_for_transductive_few_shot_learning|UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning]]
 - [Cross-Modal Few-Shot Learning with Second-Order Neural Ordinary Differential Equations](https://arxiv.org/abs/2412.15813)
 - CLIP-ViT Detector: Side Adapter with Prompt for Vision Transformer Object Detection
 - MoE-TTA: Enhancing Continual Test-Time Adaptation for Vision-Language Models through Mixture of Experts

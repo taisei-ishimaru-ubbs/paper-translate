@@ -1,0 +1,19 @@
+{
+  "id": "2306.10191",
+  "title": "Neural Priming for Sample-Efficient Adaptation",
+  "authors": [
+    "Matthew Wallingford",
+    "Vivek Ramanujan",
+    "Alex Fang",
+    "Aditya Kusupati",
+    "Roozbeh Mottaghi",
+    "Aniruddha Kembhavi",
+    "Ludwig Schmidt",
+    "Ali Farhadi"
+  ],
+  "abstract": "We propose Neural Priming, a technique for adapting large pretrained models to distribution shifts and downstream tasks given few or no labeled examples. Presented with class names or unlabeled test samples, Neural Priming enables the model to recall and conditions its parameters on relevant data seen throughout pretraining, thereby priming it for the test distribution. Neural Priming can be performed at test time, even for pretraining datasets as large as LAION-2B. Performing lightweight updates on the recalled data significantly improves accuracy across a variety of distribution shift and transfer learning benchmarks. Concretely, in the zero-shot setting, we see a 2.45% improvement in accuracy on ImageNet and 3.81% accuracy improvement on average across standard transfer learning benchmarks. Further, using Neural Priming at inference to adapt to distribution shift, we see a 1.41% accuracy improvement on ImageNetV2. These results demonstrate the effectiveness of Neural Priming in addressing the challenge of limited labeled data and changing distributions. Code is available at github.com/RAIVNLab/neural-priming.",
+  "published": "2023-06-16",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2306.10191v3",
+  "added_at": "2026-10-02T14:31:09Z"
+}

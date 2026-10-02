@@ -1,0 +1,1146 @@
+{
+  "id": "2306.00650",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "639a0a95a6f81d89cfa7d30238fd58b2fcd87d20",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2306-00650",
+      "ArXiv": "2306.00650",
+      "DOI": "10.1109/WACV57701.2024.00254",
+      "CorpusId": 258999734
+    },
+    "url": "https://www.semanticscholar.org/paper/639a0a95a6f81d89cfa7d30238fd58b2fcd87d20",
+    "title": "Universal Test-time Adaptation through Weight Ensembling, Diversity Weighting, and Prior Correction"
+  },
+  "references": [
+    {
+      "paper_id": "e6357834e6145b607c350b92238b5bc4d662e920",
+      "arxiv_id": "2303.13899",
+      "doi": "10.1109/CVPR52729.2023.01528",
+      "title": "Robust Test-Time Adaptation in Dynamic Scenarios",
+      "url": "https://www.semanticscholar.org/paper/e6357834e6145b607c350b92238b5bc4d662e920"
+    },
+    {
+      "paper_id": "f37fae71760834924f287b71ad8f7bbd026ee95b",
+      "arxiv_id": "2303.01904",
+      "doi": "10.1109/CVPR52729.2023.01147",
+      "title": "EcoTTA: Memory-Efficient Continual Test-Time Adaptation via Self-Distilled Regularization",
+      "url": "https://www.semanticscholar.org/paper/f37fae71760834924f287b71ad8f7bbd026ee95b"
+    },
+    {
+      "paper_id": "f849b873e94f28e1f2a3e1dc4d7bef17eb64adab",
+      "arxiv_id": "2302.12400",
+      "doi": "10.48550/arXiv.2302.12400",
+      "title": "Towards Stable Test-Time Adaptation in Dynamic Wild World",
+      "url": "https://www.semanticscholar.org/paper/f849b873e94f28e1f2a3e1dc4d7bef17eb64adab"
+    },
+    {
+      "paper_id": "33573a05de4d2f2fb2923fd03d586ac374aa2bfd",
+      "arxiv_id": "2211.13081",
+      "doi": "10.1109/CVPR52729.2023.00744",
+      "title": "Robust Mean Teacher for Continual and Gradual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/33573a05de4d2f2fb2923fd03d586ac374aa2bfd"
+    },
+    {
+      "paper_id": "5b105bf04de3670db92f59523c5c0a2fa914ae85",
+      "arxiv_id": "2208.07736",
+      "doi": "10.1109/IJCNN60899.2024.10651501",
+      "title": "Introducing Intermediate Domains for Effective Self-Training during Test-Time",
+      "url": "https://www.semanticscholar.org/paper/5b105bf04de3670db92f59523c5c0a2fa914ae85"
+    },
+    {
+      "paper_id": "62c29e503d18ac3a6a08aef4d4f076621a99504a",
+      "arxiv_id": "2208.05117",
+      "doi": "10.52202/068431-1976",
+      "title": "NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation",
+      "url": "https://www.semanticscholar.org/paper/62c29e503d18ac3a6a08aef4d4f076621a99504a"
+    },
+    {
+      "paper_id": "eedf4354332144a264b28885d17334b720022a9c",
+      "arxiv_id": "2208.06507",
+      "doi": "10.1109/IJCNN55064.2022.9892200",
+      "title": "Continual Unsupervised Domain Adaptation for Semantic Segmentation using a Class-Specific Transfer",
+      "url": "https://www.semanticscholar.org/paper/eedf4354332144a264b28885d17334b720022a9c"
+    },
+    {
+      "paper_id": "b4362fe4e0cf17ea212448b2ab683a162dc38489",
+      "arxiv_id": "2204.10377",
+      "doi": "10.1109/CVPR52688.2022.00039",
+      "title": "Contrastive Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b4362fe4e0cf17ea212448b2ab683a162dc38489"
+    },
+    {
+      "paper_id": "e9c9ea9c463c3a4a0589b196a7ac708698723c9c",
+      "arxiv_id": "2204.02610",
+      "doi": "10.48550/arXiv.2204.02610",
+      "title": "Efficient Test-Time Model Adaptation without Forgetting",
+      "url": "https://www.semanticscholar.org/paper/e9c9ea9c463c3a4a0589b196a7ac708698723c9c"
+    },
+    {
+      "paper_id": "0430dbcbfed0a737881d22340fb044028ed851a9",
+      "arxiv_id": "2203.13591",
+      "doi": "10.1109/CVPR52688.2022.00706",
+      "title": "Continual Test-Time Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/0430dbcbfed0a737881d22340fb044028ed851a9"
+    },
+    {
+      "paper_id": "54020e5fe48ebb250f27d744e20a63cac2988a84",
+      "arxiv_id": "2203.05482",
+      "doi": "10.48550/arXiv.2203.05482",
+      "title": "Model soups: averaging weights of multiple fine-tuned models improves accuracy without increasing inference time",
+      "url": "https://www.semanticscholar.org/paper/54020e5fe48ebb250f27d744e20a63cac2988a84"
+    },
+    {
+      "paper_id": "170676e3d7a8cd5606a7643ff72948e502af0e49",
+      "arxiv_id": "2201.05718",
+      "doi": "10.1109/CVPR52688.2022.00816",
+      "title": "Parameter-free Online Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/170676e3d7a8cd5606a7643ff72948e502af0e49"
+    },
+    {
+      "paper_id": "cb9897fa62900e73ff725a5cb6428b43f4b93ca3",
+      "arxiv_id": "2112.00463",
+      "doi": "10.1109/CVPR52688.2022.01435",
+      "title": "The Norm Must Go On: Dynamic Unsupervised Domain Adaptation by Normalization",
+      "url": "https://www.semanticscholar.org/paper/cb9897fa62900e73ff725a5cb6428b43f4b93ca3"
+    },
+    {
+      "paper_id": "6e2a5c59f8119374bc68e3dab075d660700b8155",
+      "arxiv_id": "2110.09506",
+      "doi": "10.52202/068431-2799",
+      "title": "MEMO: Test Time Robustness via Adaptation and Augmentation",
+      "url": "https://www.semanticscholar.org/paper/6e2a5c59f8119374bc68e3dab075d660700b8155"
+    },
+    {
+      "paper_id": "e3c867bc48b224f376f02f5ac31aae22978e7563",
+      "arxiv_id": "2106.14999",
+      "doi": "",
+      "title": "Test-Time Adaptation to Distribution Shift by Confidence Maximization and Input Transformation",
+      "url": "https://www.semanticscholar.org/paper/e3c867bc48b224f376f02f5ac31aae22978e7563"
+    },
+    {
+      "paper_id": "81c3c02f8d82c826833c7ac74746f65564930feb",
+      "arxiv_id": "2106.06843",
+      "doi": "10.1016/j.neucom.2021.07.098",
+      "title": "Federated Learning on Non-IID Data: A Survey",
+      "url": "https://www.semanticscholar.org/paper/81c3c02f8d82c826833c7ac74746f65564930feb"
+    },
+    {
+      "paper_id": "05a5ffa2a8835483214a9305c6865345b8e3a205",
+      "arxiv_id": "2105.02001",
+      "doi": "10.1109/IJCNN55064.2022.9892322",
+      "title": "Contrastive Learning and Self-Training for Unsupervised Domain Adaptation in Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/05a5ffa2a8835483214a9305c6865345b8e3a205"
+    },
+    {
+      "paper_id": "51cb7ff41dc6e97a83151e2b7daff87a77d14490",
+      "arxiv_id": "2103.16201",
+      "doi": "",
+      "title": "MT3: Meta Test-Time Training for Self-Supervised Test-Time Adaption",
+      "url": "https://www.semanticscholar.org/paper/51cb7ff41dc6e97a83151e2b7daff87a77d14490"
+    },
+    {
+      "paper_id": "e602ce17a993d33d114381be4dc54e7c19d01bce",
+      "arxiv_id": "2103.03571",
+      "doi": "",
+      "title": "Cycle Self-Training for Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/e602ce17a993d33d114381be4dc54e7c19d01bce"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "6af5cdb1c6d54ed75a32353f3c31097eca6cb35e",
+      "arxiv_id": "2102.11273",
+      "doi": "",
+      "title": "On Interaction Between Augmentations and Corruptions in Natural Corruption Robustness",
+      "url": "https://www.semanticscholar.org/paper/6af5cdb1c6d54ed75a32353f3c31097eca6cb35e"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "3c581408468a3cd6c5ac2d852bae3a6a70fd2491",
+      "arxiv_id": "2008.12197",
+      "doi": "10.1007/978-3-030-58574-7_25",
+      "title": "Instance Adaptive Self-Training for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/3c581408468a3cd6c5ac2d852bae3a6a70fd2491"
+    },
+    {
+      "paper_id": "277950d4c7f046f2961729ea88bd04fd1b66e7ee",
+      "arxiv_id": "2007.08702",
+      "doi": "10.1109/WACV48630.2021.00142",
+      "title": "DACS: Domain Adaptation via Cross-domain Mixed Sampling",
+      "url": "https://www.semanticscholar.org/paper/277950d4c7f046f2961729ea88bd04fd1b66e7ee"
+    },
+    {
+      "paper_id": "aa12f44062c06f90526cb128f10e829846145b1f",
+      "arxiv_id": "2006.16971",
+      "doi": "",
+      "title": "Improving robustness against common corruptions by covariate shift adaptation",
+      "url": "https://www.semanticscholar.org/paper/aa12f44062c06f90526cb128f10e829846145b1f"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "6e1bb490ae54b42f13d14d69b2012edda4664949",
+      "arxiv_id": "2002.08546",
+      "doi": "",
+      "title": "Do We Really Need to Access the Source Data? Source Hypothesis Transfer for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/6e1bb490ae54b42f13d14d69b2012edda4664949"
+    },
+    {
+      "paper_id": "6256054d09382dc9c6cb4485dcb063cf45bca4e5",
+      "arxiv_id": "1912.11976",
+      "doi": "10.1609/AAAI.V34I04.5745",
+      "title": "HoMM: Higher-order Moment Matching for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/6256054d09382dc9c6cb4485dcb063cf45bca4e5"
+    },
+    {
+      "paper_id": "3f06d02513a2763e472d2b5d5db08e9061081b9e",
+      "arxiv_id": "1912.05671",
+      "doi": "",
+      "title": "Linear Mode Connectivity and the Lottery Ticket Hypothesis",
+      "url": "https://www.semanticscholar.org/paper/3f06d02513a2763e472d2b5d5db08e9061081b9e"
+    },
+    {
+      "paper_id": "02b1607af35b48f0bd716367caf6a7428b969369",
+      "arxiv_id": "1912.02781",
+      "doi": "",
+      "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+      "url": "https://www.semanticscholar.org/paper/02b1607af35b48f0bd716367caf6a7428b969369"
+    },
+    {
+      "paper_id": "a436e41141a9d9c5dfc44d16fade67b9a3b76778",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+      "url": "https://www.semanticscholar.org/paper/a436e41141a9d9c5dfc44d16fade67b9a3b76778"
+    },
+    {
+      "paper_id": "8ebcf0b5183786978ccdb59ca8926de0457470be",
+      "arxiv_id": "1908.09822",
+      "doi": "10.1109/ICCV.2019.00608",
+      "title": "Confidence Regularized Self-Training",
+      "url": "https://www.semanticscholar.org/paper/8ebcf0b5183786978ccdb59ca8926de0457470be"
+    },
+    {
+      "paper_id": "3ba8d3060731d64cd46d27e933cbdfb8b7853f4b",
+      "arxiv_id": "1908.06112",
+      "doi": "10.1109/ICCV.2019.00041",
+      "title": "Symmetric Cross Entropy for Robust Learning With Noisy Labels",
+      "url": "https://www.semanticscholar.org/paper/3ba8d3060731d64cd46d27e933cbdfb8b7853f4b"
+    },
+    {
+      "paper_id": "4ae0c4a511697e960c477ea3e37b3e11bf3e0e02",
+      "arxiv_id": "1905.13549",
+      "doi": "",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power",
+      "url": "https://www.semanticscholar.org/paper/4ae0c4a511697e960c477ea3e37b3e11bf3e0e02"
+    },
+    {
+      "paper_id": "afb8f92870b4856646183625771f164ef3d94f06",
+      "arxiv_id": "1904.06487",
+      "doi": "10.1109/ICCV.2019.00814",
+      "title": "Semi-Supervised Domain Adaptation via Minimax Entropy",
+      "url": "https://www.semanticscholar.org/paper/afb8f92870b4856646183625771f164ef3d94f06"
+    },
+    {
+      "paper_id": "c1b5f995df6cd588bcf9360d962138b91d7666a2",
+      "arxiv_id": "1904.06268",
+      "doi": "10.1109/ICCV.2019.00221",
+      "title": "ACE: Adapting to Changing Environments for Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/c1b5f995df6cd588bcf9360d962138b91d7666a2"
+    },
+    {
+      "paper_id": "49b64383fe36268410c430352637ed23b16820c5",
+      "arxiv_id": "1903.12261",
+      "doi": "",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "url": "https://www.semanticscholar.org/paper/49b64383fe36268410c430352637ed23b16820c5"
+    },
+    {
+      "paper_id": "675b96a38f37f92043189d7e90377a6b41a2a9cd",
+      "arxiv_id": "1901.00976",
+      "doi": "10.1109/CVPR.2019.00503",
+      "title": "Contrastive Adaptation Network for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/675b96a38f37f92043189d7e90377a6b41a2a9cd"
+    },
+    {
+      "paper_id": "ef32ff21c276f1c77545a800fb07e42fab01e0a5",
+      "arxiv_id": "1812.02849",
+      "doi": "10.1145/3400066",
+      "title": "A Survey of Unsupervised Deep Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/ef32ff21c276f1c77545a800fb07e42fab01e0a5"
+    },
+    {
+      "paper_id": "3217278e346fefbd34f0727321059c7ea5792612",
+      "arxiv_id": "1812.01754",
+      "doi": "10.1109/ICCV.2019.00149",
+      "title": "Moment Matching for Multi-Source Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/3217278e346fefbd34f0727321059c7ea5792612"
+    },
+    {
+      "paper_id": "1365b4a286e607a4902ef11c84a1f309719d946c",
+      "arxiv_id": "1811.12833",
+      "doi": "10.1109/CVPR.2019.00262",
+      "title": "ADVENT: Adversarial Entropy Minimization for Domain Adaptation in Semantic Segmentation",
+      "url": "https://www.semanticscholar.org/paper/1365b4a286e607a4902ef11c84a1f309719d946c"
+    },
+    {
+      "paper_id": "9b6e4cbf1f8d6fbf09017769ae65ff90234e0aa0",
+      "arxiv_id": "1804.06516",
+      "doi": "10.1109/CVPRW.2018.00143",
+      "title": "Training Deep Networks with Synthetic Data: Bridging the Reality Gap by Domain Randomization",
+      "url": "https://www.semanticscholar.org/paper/9b6e4cbf1f8d6fbf09017769ae65ff90234e0aa0"
+    },
+    {
+      "paper_id": "b8989afff14fb630ca58b6afa917fb42574228ee",
+      "arxiv_id": "1803.05407",
+      "doi": "",
+      "title": "Averaging Weights Leads to Wider Optima and Better Generalization",
+      "url": "https://www.semanticscholar.org/paper/b8989afff14fb630ca58b6afa917fb42574228ee"
+    },
+    {
+      "paper_id": "907a90967f68da4311802247408e0515e363f930",
+      "arxiv_id": "1711.03213",
+      "doi": "",
+      "title": "CyCADA: Cycle-Consistent Adversarial Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/907a90967f68da4311802247408e0515e363f930"
+    },
+    {
+      "paper_id": "1c012e5b3ddb8a60420e8f92162d32ad135f9ba1",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Self-ensembling for visual domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/1c012e5b3ddb8a60420e8f92162d32ad135f9ba1"
+    },
+    {
+      "paper_id": "0d9decf6e3ce9c4f2239b9f0731ab9107ade9b7e",
+      "arxiv_id": "1705.00609",
+      "doi": "10.1109/CVPR.2017.107",
+      "title": "Mind the Class Weight Bias: Weighted Maximum Mean Discrepancy for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/0d9decf6e3ce9c4f2239b9f0731ab9107ade9b7e"
+    },
+    {
+      "paper_id": "15168665f4b8eb11466086e69780ed98e5280059",
+      "arxiv_id": "1704.01705",
+      "doi": "10.1109/CVPR.2018.00887",
+      "title": "Generate to Adapt: Aligning Domains Using Generative Adversarial Networks",
+      "url": "https://www.semanticscholar.org/paper/15168665f4b8eb11466086e69780ed98e5280059"
+    },
+    {
+      "paper_id": "32ceb28e45a445df4d89df281bb0e3ab5aab1a2a",
+      "arxiv_id": "1703.06907",
+      "doi": "10.1109/IROS.2017.8202133",
+      "title": "Domain randomization for transferring deep neural networks from simulation to the real world",
+      "url": "https://www.semanticscholar.org/paper/32ceb28e45a445df4d89df281bb0e3ab5aab1a2a"
+    },
+    {
+      "paper_id": "345afa0e85cb2f5cb438ae44027499ff2c392409",
+      "arxiv_id": "1702.05464",
+      "doi": "10.1109/CVPR.2017.316",
+      "title": "Adversarial Discriminative Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/345afa0e85cb2f5cb438ae44027499ff2c392409"
+    },
+    {
+      "paper_id": "7493389667058116dbc7e808987f129325ee60d7",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Mean teachers are better role models: Weight-averaged consistency targets improve semi-supervised deep learning results",
+      "url": "https://www.semanticscholar.org/paper/7493389667058116dbc7e808987f129325ee60d7"
+    },
+    {
+      "paper_id": "2e55ba6c97ce5eb55abd959909403fe8da7e9fe9",
+      "arxiv_id": "1612.00796",
+      "doi": "10.1073/pnas.1611835114",
+      "title": "Overcoming catastrophic forgetting in neural networks",
+      "url": "https://www.semanticscholar.org/paper/2e55ba6c97ce5eb55abd959909403fe8da7e9fe9"
+    },
+    {
+      "paper_id": "f6e0856b4a9199fa968ac00da612a9407b5cb85c",
+      "arxiv_id": "1611.05431",
+      "doi": "10.1109/CVPR.2017.634",
+      "title": "Aggregated Residual Transformations for Deep Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/f6e0856b4a9199fa968ac00da612a9407b5cb85c"
+    },
+    {
+      "paper_id": "12d0cf8ae5ffe1b89345e1dcead22be592d844b2",
+      "arxiv_id": "1607.01719",
+      "doi": "10.1007/978-3-319-49409-8_35",
+      "title": "Deep CORAL: Correlation Alignment for Deep Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/12d0cf8ae5ffe1b89345e1dcead22be592d844b2"
+    },
+    {
+      "paper_id": "1c4e9156ca07705531e45960b7a919dc473abb51",
+      "arxiv_id": "1605.07146",
+      "doi": "10.5244/C.30.87",
+      "title": "Wide Residual Networks",
+      "url": "https://www.semanticscholar.org/paper/1c4e9156ca07705531e45960b7a919dc473abb51"
+    },
+    {
+      "paper_id": "2a93b20bf94981667c4a1ddb3c6e726ed1e5b11f",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2015.7298746",
+      "title": "Classifier adaptation at prediction time",
+      "url": "https://www.semanticscholar.org/paper/2a93b20bf94981667c4a1ddb3c6e726ed1e5b11f"
+    },
+    {
+      "paper_id": "1d5972b32a9b5a455a6eef389de5b7fca25771ad",
+      "arxiv_id": "1505.07818",
+      "doi": "10.1007/978-3-319-58347-1_10",
+      "title": "Domain-Adversarial Training of Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/1d5972b32a9b5a455a6eef389de5b7fca25771ad"
+    },
+    {
+      "paper_id": "79c286bf03ed97fb94d33511f3355770dcee0aec",
+      "arxiv_id": "1301.2115",
+      "doi": "",
+      "title": "Domain Generalization via Invariant Feature Representation",
+      "url": "https://www.semanticscholar.org/paper/79c286bf03ed97fb94d33511f3355770dcee0aec"
+    },
+    {
+      "paper_id": "c62043a7d2537bbf40a84b9913957452a47fdb83",
+      "arxiv_id": "",
+      "doi": "10.7551/MITPRESS/9780262170055.001.0001",
+      "title": "Dataset Shift in Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/c62043a7d2537bbf40a84b9913957452a47fdb83"
+    },
+    {
+      "paper_id": "9ce101efac1e7950e41493eb6068043a913b4b74",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "MECTA: Memory-Economic Continual Test-Time Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/9ce101efac1e7950e41493eb6068043a913b4b74"
+    },
+    {
+      "paper_id": "88840b80eb43882bbf62237ec81bd9d1a942983d",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2207.03442",
+      "title": "Back to the Source: Diffusion-Driven Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/88840b80eb43882bbf62237ec81bd9d1a942983d"
+    },
+    {
+      "paper_id": "3cc55e6078b026f50e011692610cdb3c797d8805",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "ImageNet-D: A new challenging robustness dataset inspired by domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/3cc55e6078b026f50e011692610cdb3c797d8805"
+    },
+    {
+      "paper_id": "257e70eb918515135336039f5a0fb75a3fe36c31",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?",
+      "url": "https://www.semanticscholar.org/paper/257e70eb918515135336039f5a0fb75a3fe36c31"
+    },
+    {
+      "paper_id": "c8b25fab5608c3e033d34b4483ec47e68ba109b7",
+      "arxiv_id": "2103.14030",
+      "doi": "10.1109/ICCV48922.2021.00986",
+      "title": "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows",
+      "url": "https://www.semanticscholar.org/paper/c8b25fab5608c3e033d34b4483ec47e68ba109b7"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "c213af6582c0d518a6e8e14217611c733eeb1ef1",
+      "arxiv_id": "",
+      "doi": "10.1016/S0079-7421(08)60536-8",
+      "title": "Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem",
+      "url": "https://www.semanticscholar.org/paper/c213af6582c0d518a6e8e14217611c733eeb1ef1"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "applicable license agreement with IEEE. Restrictions apply",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "hyperparameters and has demonstrated success across a wide range of different datasets, models, and domain shifts, as validated by our experiments",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "d70eb293755752f645d95552452a8761cbe243af",
+      "arxiv_id": "2609.36655",
+      "doi": "",
+      "title": "Not Every Correction Helps: Gain-Guided Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/d70eb293755752f645d95552452a8761cbe243af"
+    },
+    {
+      "paper_id": "de9358daa7c0a922f1296f67a11534f12e99b787",
+      "arxiv_id": "2609.31559",
+      "doi": "",
+      "title": "Online Learning via Learned Latent Bayesian Tracking",
+      "url": "https://www.semanticscholar.org/paper/de9358daa7c0a922f1296f67a11534f12e99b787"
+    },
+    {
+      "paper_id": "46dd5d20a40806db14aab185ea707bbd42ed0f3b",
+      "arxiv_id": "2609.24111",
+      "doi": "",
+      "title": "SPeaR: Test-Time Adaptation with Steering Primitives for Realigning Representations",
+      "url": "https://www.semanticscholar.org/paper/46dd5d20a40806db14aab185ea707bbd42ed0f3b"
+    },
+    {
+      "paper_id": "7d3dd344af9f502afe84e02806069ef237a60afd",
+      "arxiv_id": "",
+      "doi": "10.1007/s44267-026-00128-y",
+      "title": "ProACT: prototype-guided anchor-based test-time adaptation for pneumoconiosis diagnosis",
+      "url": "https://www.semanticscholar.org/paper/7d3dd344af9f502afe84e02806069ef237a60afd"
+    },
+    {
+      "paper_id": "3ed9c9ac9bf9277174d9408f0f1ea1c91b763dca",
+      "arxiv_id": "2609.11235",
+      "doi": "",
+      "title": "When is Test-Time Adaptation Identifiable From Unlabeled Evidence?",
+      "url": "https://www.semanticscholar.org/paper/3ed9c9ac9bf9277174d9408f0f1ea1c91b763dca"
+    },
+    {
+      "paper_id": "093a218ef2a651f0713f7135445ece24da4246ed",
+      "arxiv_id": "2609.02507",
+      "doi": "",
+      "title": "Rethinking the Teacher-Student Framework for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/093a218ef2a651f0713f7135445ece24da4246ed"
+    },
+    {
+      "paper_id": "feb02361b9a1fd736ef896dcf132d08e81eb594b",
+      "arxiv_id": "2608.29920",
+      "doi": "",
+      "title": "Continual Test-Time Adaptation via Entropy Sensitivity-Guidance in Strict Online Setting",
+      "url": "https://www.semanticscholar.org/paper/feb02361b9a1fd736ef896dcf132d08e81eb594b"
+    },
+    {
+      "paper_id": "480615123e6a7c85b1aea2c197726c24975a3506",
+      "arxiv_id": "2608.27948",
+      "doi": "",
+      "title": "Temporal Memory-Aware Online Test-Time Adaptation on Dynamic Graphs",
+      "url": "https://www.semanticscholar.org/paper/480615123e6a7c85b1aea2c197726c24975a3506"
+    },
+    {
+      "paper_id": "de58c4e1b093d8df7735e8b20c4b38079fb216dd",
+      "arxiv_id": "2608.19858",
+      "doi": "",
+      "title": "Online Test-Time Adaptation for Generalizable Dynamic Graph Anomaly Detection",
+      "url": "https://www.semanticscholar.org/paper/de58c4e1b093d8df7735e8b20c4b38079fb216dd"
+    },
+    {
+      "paper_id": "6c3fc6430c1097b3d7c27c2bbb4518f2b4dde3ee",
+      "arxiv_id": "2608.20557",
+      "doi": "",
+      "title": "Learning Prostate Anatomy at Test Time for Cancer Detection in Micro-Ultrasound",
+      "url": "https://www.semanticscholar.org/paper/6c3fc6430c1097b3d7c27c2bbb4518f2b4dde3ee"
+    },
+    {
+      "paper_id": "4c494c78ffd97f0ee77b36ebfdac4b21f36a2d2e",
+      "arxiv_id": "2608.07062",
+      "doi": "",
+      "title": "Explanation Stability of Test-Time Adaptation in Computational Pathology: A Large-Scale Benchmark",
+      "url": "https://www.semanticscholar.org/paper/4c494c78ffd97f0ee77b36ebfdac4b21f36a2d2e"
+    },
+    {
+      "paper_id": "47bd7e5bde611b146770a9c77df5d9f9ec075eae",
+      "arxiv_id": "2607.02988",
+      "doi": "10.48550/arXiv.2607.02988",
+      "title": "Cross-device Collaborative Test-time Adaptation with Zeroth-order Optimization and Model Merging",
+      "url": "https://www.semanticscholar.org/paper/47bd7e5bde611b146770a9c77df5d9f9ec075eae"
+    },
+    {
+      "paper_id": "5b2c2a47f0f69c5e79f0c8d939ab7ab1a47b4ece",
+      "arxiv_id": "2606.26457",
+      "doi": "10.48550/arXiv.2606.26457",
+      "title": "A probabilistic framework for online test-time adaptation",
+      "url": "https://www.semanticscholar.org/paper/5b2c2a47f0f69c5e79f0c8d939ab7ab1a47b4ece"
+    },
+    {
+      "paper_id": "68ae79e541769ed6fb6e135d45edd03be338feb0",
+      "arxiv_id": "2606.20196",
+      "doi": "10.48550/arXiv.2606.20196",
+      "title": "Distill Once, Adapt Life-Long: Exploring Dataset Distillation for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/68ae79e541769ed6fb6e135d45edd03be338feb0"
+    },
+    {
+      "paper_id": "a64ab1f77a9566e10f1253ae6639657c921fb78f",
+      "arxiv_id": "2606.02339",
+      "doi": "10.48550/arXiv.2606.02339",
+      "title": "Entropy Minimization without Model Collapse: Mitigating Prediction Bias in Medical Imaging",
+      "url": "https://www.semanticscholar.org/paper/a64ab1f77a9566e10f1253ae6639657c921fb78f"
+    },
+    {
+      "paper_id": "c294afeb9226274013d91f56eafbbcfeda52307b",
+      "arxiv_id": "2605.18608",
+      "doi": "10.48550/arXiv.2605.18608",
+      "title": "Dance Across Shifts: Forward-Facilitation Continual Test-Time Adaptation through Dynamic Style Bridging",
+      "url": "https://www.semanticscholar.org/paper/c294afeb9226274013d91f56eafbbcfeda52307b"
+    },
+    {
+      "paper_id": "df0550bc20d355b849080b81bc855eec7260600a",
+      "arxiv_id": "2605.14063",
+      "doi": "10.48550/arXiv.2605.14063",
+      "title": "Reliability-Gated Source Anchoring for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/df0550bc20d355b849080b81bc855eec7260600a"
+    },
+    {
+      "paper_id": "4e53a0ab785135b181742f00e3c8defe28f78bc2",
+      "arxiv_id": "2604.21728",
+      "doi": "10.48550/arXiv.2604.21728",
+      "title": "Ramen: Robust Test-Time Adaptation of Vision-Language Models with Active Sample Selection",
+      "url": "https://www.semanticscholar.org/paper/4e53a0ab785135b181742f00e3c8defe28f78bc2"
+    },
+    {
+      "paper_id": "a6d5ef4b41f77d015cdbf309a4d55822b3bb49a0",
+      "arxiv_id": "2604.20824",
+      "doi": "",
+      "title": "Stabilizing In-Context Multi-Source Domain Adaptation for Biomedical Images Through Controls",
+      "url": "https://www.semanticscholar.org/paper/a6d5ef4b41f77d015cdbf309a4d55822b3bb49a0"
+    },
+    {
+      "paper_id": "5b91002c738e6a97a37560bae1dff774a0ce31f5",
+      "arxiv_id": "2603.26096",
+      "doi": "10.48550/arXiv.2603.26096",
+      "title": "AcTTA: Rethinking Test-Time Adaptation via Dynamic Activation",
+      "url": "https://www.semanticscholar.org/paper/5b91002c738e6a97a37560bae1dff774a0ce31f5"
+    },
+    {
+      "paper_id": "36bb154ee88390983b38b8b182fcb67bee6dc14f",
+      "arxiv_id": "2603.21135",
+      "doi": "10.48550/arXiv.2603.21135",
+      "title": "One Pool Is Not Enough: Multi-Cluster Memory for Practical Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/36bb154ee88390983b38b8b182fcb67bee6dc14f"
+    },
+    {
+      "paper_id": "b10748ed615ce86a20131c17a8da2f35606c94d7",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61042.2026.00293",
+      "title": "Learning from Unknown for Open-Set Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b10748ed615ce86a20131c17a8da2f35606c94d7"
+    },
+    {
+      "paper_id": "7119decd44be99f59dd49f8bba213acc0e589916",
+      "arxiv_id": "2603.03796",
+      "doi": "10.48550/arXiv.2603.03796",
+      "title": "When and Where to Reset Matters for Long-Term Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7119decd44be99f59dd49f8bba213acc0e589916"
+    },
+    {
+      "paper_id": "f0d82bc3621973736603442855370909bd5c9135",
+      "arxiv_id": "2603.02214",
+      "doi": "10.48550/arXiv.2603.02214",
+      "title": "Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving",
+      "url": "https://www.semanticscholar.org/paper/f0d82bc3621973736603442855370909bd5c9135"
+    },
+    {
+      "paper_id": "1ef0fe61861316a3a8856150c5d72a37aa60500f",
+      "arxiv_id": "2511.18468",
+      "doi": "10.48550/arXiv.2511.18468",
+      "title": "SloMo-Fast: Slow-Momentum and Fast-Adaptive Teachers for Source-Free Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/1ef0fe61861316a3a8856150c5d72a37aa60500f"
+    },
+    {
+      "paper_id": "ef61684cc939d81003ba41a61db18b6afb27358b",
+      "arxiv_id": "2511.18066",
+      "doi": "10.48550/arXiv.2511.18066",
+      "title": "pFedBBN: A Personalized Federated Test-Time Adaptation with Balanced Batch Normalization for Class-Imbalanced Data",
+      "url": "https://www.semanticscholar.org/paper/ef61684cc939d81003ba41a61db18b6afb27358b"
+    },
+    {
+      "paper_id": "42c514cd39da02dbe7ab70cca6d0260d7e4c22a6",
+      "arxiv_id": "",
+      "doi": "10.1016/j.isprsjprs.2025.08.022",
+      "title": "Test-time adaptation for geospatial point cloud semantic segmentation with distinct domain shifts",
+      "url": "https://www.semanticscholar.org/paper/42c514cd39da02dbe7ab70cca6d0260d7e4c22a6"
+    },
+    {
+      "paper_id": "b6b2896286205664a268aa34c3452f8aa61fddcc",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3754907",
+      "title": "EBaR: Efficient Buffer and Resetting for Single-Sample Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b6b2896286205664a268aa34c3452f8aa61fddcc"
+    },
+    {
+      "paper_id": "10c296b94686c7029895c773422f11bc6e519edb",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3754494",
+      "title": "Joint Test-time Adaptation with Refined Pseudo-labels and Latent Score Matching",
+      "url": "https://www.semanticscholar.org/paper/10c296b94686c7029895c773422f11bc6e519edb"
+    },
+    {
+      "paper_id": "42c66952bbce570491c72d847d3d062bbbf28b3e",
+      "arxiv_id": "2510.21271",
+      "doi": "10.48550/arXiv.2510.21271",
+      "title": "Buffer layers for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/42c66952bbce570491c72d847d3d062bbbf28b3e"
+    },
+    {
+      "paper_id": "08c43676b0bdcea95a48f1cff7a4b284d0913bd5",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2025.3622340",
+      "title": "Toward Efficient Test Time Adaptation With Hierarchical Distribution Alignment",
+      "url": "https://www.semanticscholar.org/paper/08c43676b0bdcea95a48f1cff7a4b284d0913bd5"
+    },
+    {
+      "paper_id": "563559dd8f10d11f63deedfb4e13cb61812243cf",
+      "arxiv_id": "2510.12150",
+      "doi": "10.48550/arXiv.2510.12150",
+      "title": "Class-aware Domain Knowledge Fusion and Fission for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/563559dd8f10d11f63deedfb4e13cb61812243cf"
+    },
+    {
+      "paper_id": "41836a176855080daf64342b4abf1deee544cc59",
+      "arxiv_id": "2510.11068",
+      "doi": "",
+      "title": "Efficient Test-Time Adaptation through Latent Subspace Coefficients Search",
+      "url": "https://www.semanticscholar.org/paper/41836a176855080daf64342b4abf1deee544cc59"
+    },
+    {
+      "paper_id": "5a156d03a0cde55ddd6902ae1f3d5e5b68ffb594",
+      "arxiv_id": "2509.23183",
+      "doi": "",
+      "title": "ZeroSiam: An Efficient Asymmetry for Test-Time Entropy Optimization without Collapse",
+      "url": "https://www.semanticscholar.org/paper/5a156d03a0cde55ddd6902ae1f3d5e5b68ffb594"
+    },
+    {
+      "paper_id": "615c1ca12ec93235286522f972e4a64c691d8059",
+      "arxiv_id": "2510.03258",
+      "doi": "10.48550/arXiv.2510.03258",
+      "title": "POEM: Explore Unexplored Reliable Samples to Enhance Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/615c1ca12ec93235286522f972e4a64c691d8059"
+    },
+    {
+      "paper_id": "8ba646e7a665361d2b5236166168baed85dc0661",
+      "arxiv_id": "2509.04977",
+      "doi": "10.48550/arXiv.2509.04977",
+      "title": "Adapt in the Wild: Test-Time Entropy Minimization with Sharpness and Feature Regularization",
+      "url": "https://www.semanticscholar.org/paper/8ba646e7a665361d2b5236166168baed85dc0661"
+    },
+    {
+      "paper_id": "fc77e1a60b868e6ad59c69f450e294e7c95ed40d",
+      "arxiv_id": "2509.04280",
+      "doi": "10.1109/OJSP.2026.3656059",
+      "title": "Test-Time Adaptation for Speech Enhancement via Domain Invariant Embedding Transformation",
+      "url": "https://www.semanticscholar.org/paper/fc77e1a60b868e6ad59c69f450e294e7c95ed40d"
+    },
+    {
+      "paper_id": "edb0ffc613fbd38d6833841d8bf9122b74b7cac1",
+      "arxiv_id": "2508.20029",
+      "doi": "10.48550/arXiv.2508.20029",
+      "title": "Segmentation Assisted Incremental Test Time Adaptation in an Open World",
+      "url": "https://www.semanticscholar.org/paper/edb0ffc613fbd38d6833841d8bf9122b74b7cac1"
+    },
+    {
+      "paper_id": "3c21199083a111f746ffeaff7c036a0fd085c5b5",
+      "arxiv_id": "",
+      "doi": "10.1007/s10489-025-06756-z",
+      "title": "OAN-DA: online adaptive learning with distribution awareness for continuous time series forecasting",
+      "url": "https://www.semanticscholar.org/paper/3c21199083a111f746ffeaff7c036a0fd085c5b5"
+    },
+    {
+      "paper_id": "6631660c936a204606798af54c5235d0c729203e",
+      "arxiv_id": "2507.08721",
+      "doi": "10.48550/arXiv.2507.08721",
+      "title": "Monitoring Risks in Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/6631660c936a204606798af54c5235d0c729203e"
+    },
+    {
+      "paper_id": "8507eff9f34df363d0e02b9d592e828aa49318ba",
+      "arxiv_id": "2507.06779",
+      "doi": "10.48550/arXiv.2507.06779",
+      "title": "Tailoring deep learning for real-time brain-computer interfaces: From offline models to calibration-free online decoding",
+      "url": "https://www.semanticscholar.org/paper/8507eff9f34df363d0e02b9d592e828aa49318ba"
+    },
+    {
+      "paper_id": "859e3c04fa0b6f886634878fb5fe0040a61d856c",
+      "arxiv_id": "2506.23724",
+      "doi": "10.48550/arXiv.2506.23724",
+      "title": "When Small Guides Large: Cross-Model Co-Learning for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/859e3c04fa0b6f886634878fb5fe0040a61d856c"
+    },
+    {
+      "paper_id": "a7d0347624cb5c1a5ba509fec29c16c22bfc5fae",
+      "arxiv_id": "",
+      "doi": "10.1109/IJCNN64981.2025.11228030",
+      "title": "Test-Time Adaptation for Cross-Subject Motor Imagery EEG Classification Using Information-Aggregation and Source-Guided Weighting",
+      "url": "https://www.semanticscholar.org/paper/a7d0347624cb5c1a5ba509fec29c16c22bfc5fae"
+    },
+    {
+      "paper_id": "929068a5f3fe1ef06aa3e91d312d21fc93f68873",
+      "arxiv_id": "2506.17307",
+      "doi": "10.48550/arXiv.2506.17307",
+      "title": "Learning to Adapt Frozen CLIP for Few-Shot Test-Time Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/929068a5f3fe1ef06aa3e91d312d21fc93f68873"
+    },
+    {
+      "paper_id": "98a58b16d9562e3986e51aad4aab763f649ca13c",
+      "arxiv_id": "2506.12481",
+      "doi": "10.1109/TCSVT.2025.3579549",
+      "title": "Exploring Audio Cues for Enhanced Test-Time Video Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/98a58b16d9562e3986e51aad4aab763f649ca13c"
+    },
+    {
+      "paper_id": "34ea4f6c20ce6c0234c7d1b3c90d6ccab306f15c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.02840",
+      "title": "Everything to the Synthetic: Diffusion-Driven Test-Time Adaptation via Synthetic-Domain Alignment",
+      "url": "https://www.semanticscholar.org/paper/34ea4f6c20ce6c0234c7d1b3c90d6ccab306f15c"
+    },
+    {
+      "paper_id": "07aca7859a08c4f0b02c860c66ea11cd42aef6d7",
+      "arxiv_id": "2506.02453",
+      "doi": "10.48550/arXiv.2506.02453",
+      "title": "PAID: Pairwise Angular-Invariant Decomposition for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/07aca7859a08c4f0b02c860c66ea11cd42aef6d7"
+    },
+    {
+      "paper_id": "38a76481679d4e150548394a1e8550fd7b833991",
+      "arxiv_id": "2505.16441",
+      "doi": "10.48550/arXiv.2505.16441",
+      "title": "Ranked Entropy Minimization for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/38a76481679d4e150548394a1e8550fd7b833991"
+    },
+    {
+      "paper_id": "4aef44e4aeaf28868ae2f1fff2c4eb19ff4df1f6",
+      "arxiv_id": "2505.15134",
+      "doi": "10.48550/arXiv.2505.15134",
+      "title": "The Unreasonable Effectiveness of Entropy Minimization in LLM Reasoning",
+      "url": "https://www.semanticscholar.org/paper/4aef44e4aeaf28868ae2f1fff2c4eb19ff4df1f6"
+    },
+    {
+      "paper_id": "9cbf9e4890faa359f58ab3e55014234f61141920",
+      "arxiv_id": "2505.14511",
+      "doi": "10.48550/arXiv.2505.14511",
+      "title": "ReservoirTTA: Prolonged Test-time Adaptation for Evolving and Recurring Domains",
+      "url": "https://www.semanticscholar.org/paper/9cbf9e4890faa359f58ab3e55014234f61141920"
+    },
+    {
+      "paper_id": "ec8123b46ccb0fe5c6425e99fd11517399dd7b49",
+      "arxiv_id": "2505.13643",
+      "doi": "10.1109/IJCNN64981.2025.11228519",
+      "title": "FedCTTA: A Collaborative Approach to Continual Test-Time Adaptation in Federated Learning",
+      "url": "https://www.semanticscholar.org/paper/ec8123b46ccb0fe5c6425e99fd11517399dd7b49"
+    },
+    {
+      "paper_id": "0b8557de38114714a232b7c8909669158a2a7204",
+      "arxiv_id": "2505.00986",
+      "doi": "10.1109/jiot.2026.3738781",
+      "title": "EmbodiTTA: Resource-Efficient Test-Time Adaptation for Embodied Visual Systems",
+      "url": "https://www.semanticscholar.org/paper/0b8557de38114714a232b7c8909669158a2a7204"
+    },
+    {
+      "paper_id": "c4c64fb657c3316fb855211816e88e20724f47f1",
+      "arxiv_id": "2503.12866",
+      "doi": "10.1109/CVPR52734.2025.02795",
+      "title": "SCAP: Transductive Test-Time Adaptation via Supportive Clique-based Attribute Prompting",
+      "url": "https://www.semanticscholar.org/paper/c4c64fb657c3316fb855211816e88e20724f47f1"
+    },
+    {
+      "paper_id": "7edebc6a07456938db2e4c3ab171a2df293ee121",
+      "arxiv_id": "2503.11650",
+      "doi": "10.48550/arXiv.2503.11650",
+      "title": "Centaur: Robust End-to-End Autonomous Driving with Test-Time Training",
+      "url": "https://www.semanticscholar.org/paper/7edebc6a07456938db2e4c3ab171a2df293ee121"
+    },
+    {
+      "paper_id": "b1c4253a24f5faecf4d198a4fc5fc6ff05cfcd29",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61041.2025.00779",
+      "title": "Disentangle Source and Target Knowledge for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b1c4253a24f5faecf4d198a4fc5fc6ff05cfcd29"
+    },
+    {
+      "paper_id": "7505ea5a589161f6cbbb1fe4efb6f973ea2ec9f3",
+      "arxiv_id": "",
+      "doi": "10.1007/s10994-025-06739-8",
+      "title": "Compression and restoration: exploring elasticity in continual test-time adaptation",
+      "url": "https://www.semanticscholar.org/paper/7505ea5a589161f6cbbb1fe4efb6f973ea2ec9f3"
+    },
+    {
+      "paper_id": "52fcf4fd1b91187e9e52860426b501f1e40ca05e",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCIT64611.2024.11022003",
+      "title": "MoE-TTA: Enhancing Continual Test-Time Adaptation for Vision-Language Models through Mixture of Experts",
+      "url": "https://www.semanticscholar.org/paper/52fcf4fd1b91187e9e52860426b501f1e40ca05e"
+    },
+    {
+      "paper_id": "efdb52ed724362eb1450821561bd12da6b8c6ba5",
+      "arxiv_id": "2412.01154",
+      "doi": "10.48550/arXiv.2412.01154",
+      "title": "R.I.P.: A Simple Black-box Attack on Continual Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/efdb52ed724362eb1450821561bd12da6b8c6ba5"
+    },
+    {
+      "paper_id": "695573eff1cc003ed97e6b97b366a4e8d0e3c178",
+      "arxiv_id": "2411.15204",
+      "doi": "10.48550/arXiv.2411.15204",
+      "title": "Label Distribution Shift-Aware Prediction Refinement for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/695573eff1cc003ed97e6b97b366a4e8d0e3c178"
+    },
+    {
+      "paper_id": "af31f6dfb6ae11a1033fc0746254b28dcf40aaef",
+      "arxiv_id": "2411.15173",
+      "doi": "",
+      "title": "Un-mixing Test-time Adaptation under Heterogeneous Data Streams",
+      "url": "https://www.semanticscholar.org/paper/af31f6dfb6ae11a1033fc0746254b28dcf40aaef"
+    },
+    {
+      "paper_id": "51b35c5f2f0cc3101378baac4a85ad4825aa0c67",
+      "arxiv_id": "2410.14729",
+      "doi": "10.1109/ICCV51701.2025.00021",
+      "title": "Is Less More? Exploring Token Condensation as Training-Free Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/51b35c5f2f0cc3101378baac4a85ad4825aa0c67"
+    },
+    {
+      "paper_id": "1e71ec1e27804f1eb0f60cade2d86f7fd34fac9d",
+      "arxiv_id": "2410.04682",
+      "doi": "10.48550/arXiv.2410.04682",
+      "title": "On the Adversarial Risk of Test Time Adaptation: An Investigation into Realistic Test-Time Data Poisoning",
+      "url": "https://www.semanticscholar.org/paper/1e71ec1e27804f1eb0f60cade2d86f7fd34fac9d"
+    },
+    {
+      "paper_id": "2bd386807b0a0f3c987dae1d4b6326df41771df7",
+      "arxiv_id": "2409.19375",
+      "doi": "10.48550/arXiv.2409.19375",
+      "title": "DOTA: Distributional Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/2bd386807b0a0f3c987dae1d4b6326df41771df7"
+    },
+    {
+      "paper_id": "44cc107842768f0519b441b4c29cd000d633af78",
+      "arxiv_id": "2408.07511",
+      "doi": "10.48550/arXiv.2408.07511",
+      "title": "Protected Test-Time Adaptation via Online Entropy Matching: A Betting Approach",
+      "url": "https://www.semanticscholar.org/paper/44cc107842768f0519b441b4c29cd000d633af78"
+    },
+    {
+      "paper_id": "3249c4aa7734787c7d4c69f927e9757eddd62bdf",
+      "arxiv_id": "",
+      "doi": "10.24963/ijcai.2024/589",
+      "title": "Navigating Continual Test-time Adaptation with Symbiosis Knowledge",
+      "url": "https://www.semanticscholar.org/paper/3249c4aa7734787c7d4c69f927e9757eddd62bdf"
+    },
+    {
+      "paper_id": "b6f9f83882c54b3c01eec2368cb4f3cb75effcce",
+      "arxiv_id": "2407.20080",
+      "doi": "10.48550/arXiv.2407.20080",
+      "title": "UniTTA: Unified Benchmark and Versatile Framework Towards Realistic Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b6f9f83882c54b3c01eec2368cb4f3cb75effcce"
+    },
+    {
+      "paper_id": "aa5a5fdeb42f81a9d606bd793abe545626264d7f",
+      "arxiv_id": "2407.12492",
+      "doi": "",
+      "title": "Temporal Test-Time Adaptation with State-Space Models",
+      "url": "https://www.semanticscholar.org/paper/aa5a5fdeb42f81a9d606bd793abe545626264d7f"
+    },
+    {
+      "paper_id": "a2e9035effd82d90adf47d17f740edfeded52c07",
+      "arxiv_id": "2407.12128",
+      "doi": "10.48550/arXiv.2407.12128",
+      "title": "Distribution Alignment for Fully Test-Time Adaptation with Dynamic Online Data Streams",
+      "url": "https://www.semanticscholar.org/paper/a2e9035effd82d90adf47d17f740edfeded52c07"
+    },
+    {
+      "paper_id": "c3fb80d1bef6a69a0d22e72d50557ee3328aa646",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52733.2024.02240",
+      "title": "A Versatile Framework for Continual Test-Time Domain Adaptation: Balancing Discriminability and Generalizability",
+      "url": "https://www.semanticscholar.org/paper/c3fb80d1bef6a69a0d22e72d50557ee3328aa646"
+    },
+    {
+      "paper_id": "246482d9758e93d0b349e2926996d887417174d8",
+      "arxiv_id": "2406.10737",
+      "doi": "",
+      "title": "DPCore: Dynamic Prompt Coreset for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/246482d9758e93d0b349e2926996d887417174d8"
+    },
+    {
+      "paper_id": "ffd1b56fb14a1a92f77a2ca70fca23c416682f55",
+      "arxiv_id": "2405.18911",
+      "doi": "10.48550/arXiv.2405.18911",
+      "title": "Exploring Human-in-the-Loop Test-Time Adaptation by Synergizing Active Learning and Model Selection",
+      "url": "https://www.semanticscholar.org/paper/ffd1b56fb14a1a92f77a2ca70fca23c416682f55"
+    },
+    {
+      "paper_id": "f134d1e9799291df54757432e64054a5ddbbceca",
+      "arxiv_id": "2405.14977",
+      "doi": "10.48550/arXiv.2405.14977",
+      "title": "A Lost Opportunity for Vision-Language Models: A Comparative Study of Online Test-time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/f134d1e9799291df54757432e64054a5ddbbceca"
+    },
+    {
+      "paper_id": "683296bd683a9f5dba9205f8fd349a5f2e88fc13",
+      "arxiv_id": "2405.05012",
+      "doi": "10.48550/arXiv.2405.05012",
+      "title": "The Entropy Enigma: Success and Failure of Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/683296bd683a9f5dba9205f8fd349a5f2e88fc13"
+    },
+    {
+      "paper_id": "0cd53dcff34a087803358fd088ed1318f5691fbd",
+      "arxiv_id": "2403.11491",
+      "doi": "10.1109/TPAMI.2025.3560696",
+      "title": "Uncertainty-Calibrated Test-Time Model Adaptation Without Forgetting",
+      "url": "https://www.semanticscholar.org/paper/0cd53dcff34a087803358fd088ed1318f5691fbd"
+    },
+    {
+      "paper_id": "91fca17867fa08cc3cb21591efc8537b829019e1",
+      "arxiv_id": "2401.08328",
+      "doi": "10.48550/arXiv.2401.08328",
+      "title": "Un-Mixing Test-Time Normalization Statistics: Combatting Label Temporal Correlation",
+      "url": "https://www.semanticscholar.org/paper/91fca17867fa08cc3cb21591efc8537b829019e1"
+    },
+    {
+      "paper_id": "066d7935a3cc1d4b90d91678c747194b543176ba",
+      "arxiv_id": "2401.08703",
+      "doi": "10.1109/TMM.2025.3535400",
+      "title": "Decoupled Prototype Learning for Reliable Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/066d7935a3cc1d4b90d91678c747194b543176ba"
+    },
+    {
+      "paper_id": "1c9010150078362152387f7805ffa6c4b29b1ad2",
+      "arxiv_id": "2401.00989",
+      "doi": "10.1109/ICASSP48485.2024.10448449",
+      "title": "Diversity-Aware Buffer for Coping with Temporally Correlated Data Streams in Online Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/1c9010150078362152387f7805ffa6c4b29b1ad2"
+    },
+    {
+      "paper_id": "bd16639504d6e34343a6d9ddb40716f67d1706b0",
+      "arxiv_id": "2311.18520",
+      "doi": "10.1109/BCI60775.2024.10480468",
+      "title": "Calibration-free online test-time adaptation for electroencephalography motor imagery decoding",
+      "url": "https://www.semanticscholar.org/paper/bd16639504d6e34343a6d9ddb40716f67d1706b0"
+    },
+    {
+      "paper_id": "41dd8090dc589d0a5b2f7f0237bd41bbbc13caa5",
+      "arxiv_id": "2311.18193",
+      "doi": "10.52202/079017-3923",
+      "title": "Persistent Test-time Adaptation in Recurring Testing Scenarios",
+      "url": "https://www.semanticscholar.org/paper/41dd8090dc589d0a5b2f7f0237bd41bbbc13caa5"
+    },
+    {
+      "paper_id": "6124b364b9bd643868edc697385cdbc1d9441548",
+      "arxiv_id": "2310.20199",
+      "doi": "10.1007/s11263-024-02213-5",
+      "title": "In Search of Lost Online Test-Time Adaptation: A Survey",
+      "url": "https://www.semanticscholar.org/paper/6124b364b9bd643868edc697385cdbc1d9441548"
+    },
+    {
+      "paper_id": "d8632779d4c292555c9c3e471f790169805dacc3",
+      "arxiv_id": "2303.15361",
+      "doi": "10.1007/s11263-024-02181-w",
+      "title": "A Comprehensive Survey on Test-Time Adaptation Under Distribution Shifts",
+      "url": "https://www.semanticscholar.org/paper/d8632779d4c292555c9c3e471f790169805dacc3"
+    },
+    {
+      "paper_id": "e3a46aa54ead0c3a6875c95a25d34d3bd4a01d52",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3684407",
+      "title": "Real-CD: Change Detection Under Real-World Complex Interference via Dynamic Distribution Correction",
+      "url": "https://www.semanticscholar.org/paper/e3a46aa54ead0c3a6875c95a25d34d3bd4a01d52"
+    },
+    {
+      "paper_id": "78be22eb3633efc849b35df82af3751a939d1520",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2026.findings-acl.350",
+      "title": "Generative-to-Discriminative Test-Time Adaptation via Manifold-Aware Diffusion and Bayesian Distillation",
+      "url": "https://www.semanticscholar.org/paper/78be22eb3633efc849b35df82af3751a939d1520"
+    },
+    {
+      "paper_id": "8ca330750dd0c5b80e8dc2256f1c80cfbcee61fa",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-2294",
+      "title": "Parameter Dynamics of Online Machine Learning and Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/8ca330750dd0c5b80e8dc2256f1c80cfbcee61fa"
+    },
+    {
+      "paper_id": "fa5b8fe47b26b53a5a5578be869b5fd4165ee21c",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-0640",
+      "title": "Lifelong Test-Time Adaptation via Online Learning in Tracked Low-Dimensional Subspace",
+      "url": "https://www.semanticscholar.org/paper/fa5b8fe47b26b53a5a5578be869b5fd4165ee21c"
+    },
+    {
+      "paper_id": "82a78aa8ce241311cd9785c39ce1fa77c1c88276",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2406.00481",
+      "title": "Effectiveness of Vision Language Models for Open-world Single Image Test Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/82a78aa8ce241311cd9785c39ce1fa77c1c88276"
+    },
+    {
+      "paper_id": "b7fa30d2768f70cfdbd7daccdb3c221e37ae2963",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2410.14729",
+      "title": "Tokens on Demand: Token Condensation as Training-free Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b7fa30d2768f70cfdbd7daccdb3c221e37ae2963"
+    },
+    {
+      "paper_id": "94992f96ab74086fcbbd63b90ee77bb64cb37457",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Uncovering the Risk of Model Collapsing in Self-Supervised Continual Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/94992f96ab74086fcbbd63b90ee77bb64cb37457"
+    },
+    {
+      "paper_id": "11f6f40b62def1e032225d4a10ac3ecc2bb3bcba",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Is Less More? Exploring Token Condensation as Training-free Adaptation for CLIP",
+      "url": "https://www.semanticscholar.org/paper/11f6f40b62def1e032225d4a10ac3ecc2bb3bcba"
+    },
+    {
+      "paper_id": "dd884acedac2ef251272ea1a06af64e1b2cc369c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Towards causal prediction on Magnetic Resonance Imaging including non-imaging data",
+      "url": "https://www.semanticscholar.org/paper/dd884acedac2ef251272ea1a06af64e1b2cc369c"
+    },
+    {
+      "paper_id": "97928bb13914fff8f6fc3e1a2658259d62d216ad",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "NTRA - MODEL E NSEMBLE L EARNING",
+      "url": "https://www.semanticscholar.org/paper/97928bb13914fff8f6fc3e1a2658259d62d216ad"
+    },
+    {
+      "paper_id": "6ab72cd6d96b0bfde56b684b3983e95e311e4fdb",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A RCHITECTURE - AGNOSTIC T EST -T IME A DAPTATION VIA B ACKPROP -F REE E MBEDDING A LIGNMENT",
+      "url": "https://www.semanticscholar.org/paper/6ab72cd6d96b0bfde56b684b3983e95e311e4fdb"
+    },
+    {
+      "paper_id": "55f2b623255c715bd34a4367fe0d6333f246b915",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "MORPHEUS: M ETA T EST -T IME A DAPTATION VIA N EURAL C OLLAPSE G EOMETRY",
+      "url": "https://www.semanticscholar.org/paper/55f2b623255c715bd34a4367fe0d6333f246b915"
+    }
+  ]
+}

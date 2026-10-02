@@ -45,12 +45,12 @@ tags: [paper]
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
 - [Task Residual for Tuning Vision-Language Models](https://arxiv.org/abs/2211.10277)
 - [CLIP-Sculptor: Zero-Shot Generation of High-Fidelity and Diverse Shapes from Natural Language](https://arxiv.org/abs/2211.01427)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [Unified Vision and Language Prompt Learning](https://arxiv.org/abs/2210.07225)
 - [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)
 - [Prompt Learning with Optimal Transport for Vision-Language Models](https://arxiv.org/abs/2210.01253)
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [Dual Modality Prompt Tuning for Vision-Language Pre-Trained Model](https://arxiv.org/abs/2208.08340)
 - [Prompt-aligned Gradient for Prompt Tuning](https://arxiv.org/abs/2205.14865)
@@ -118,7 +118,7 @@ tags: [paper]
 - [MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models](https://arxiv.org/abs/2607.27637)
 - [Style-Aware Contrastive Test-Time Adaptation: A Dual-Cache Model for Robust Vision-Language Alignment](https://doi.org/10.1109/TIP.2026.3706961)
 - [ComMem: Complementary Memory Systems for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2606.28719)
-- [Dual Distribution Estimation for Zero-shot Noisy Test-Time Adaptation with VLMs](https://arxiv.org/abs/2606.25758)
+- [[dual_distribution_estimation_for_zero_shot_noisy_test_time_adaptation_with_vlms|Dual Distribution Estimation for Zero-shot Noisy Test-Time Adaptation with VLMs]]
 - [Semantic Robustness Certification for Vision-Language Models](https://arxiv.org/abs/2606.18839)
 - [What Drives Test-Time Adaptation for CLIP? A Controlled Empirical Study from an Update Perspective](https://arxiv.org/abs/2606.14299)
 - [One Stone, Three Birds: Self-adaptive Optimal Transport for Multi-VLM Selection, Adaptation, and Ensembling](https://arxiv.org/abs/2606.08126)
@@ -134,7 +134,7 @@ tags: [paper]
 - [Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2511.09809)
 - [Improving Multimodal Sentiment Analysis via Stable Learning and Context Anchor Attention](https://doi.org/10.1109/ACIRA67680.2025.11334784)
 - [Mint: A Simple Test-Time Adaptation of Vision-Language Models against Common Corruptions](https://arxiv.org/abs/2510.22127)
-- [Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2510.19802)
+- [[class_aware_prototype_learning_with_negative_contrast_for_test_time_adaptation_of_vision_language_models|Class-Aware Prototype Learning with Negative Contrast for Test-Time Adaptation of Vision-Language Models]]
 - [Test-Time Retrieval-Augmented Adaptation for Vision-Language Models](https://doi.org/10.1109/ICCV51701.2025.00824)
 - [TopoNav: Topological Graphs as a Key Enabler for Advanced Object Navigation](https://arxiv.org/abs/2509.01364)
 - [Backpropagation-Free Test-Time Adaptation via Probabilistic Gaussian Alignment](https://arxiv.org/abs/2508.15568)
@@ -142,14 +142,14 @@ tags: [paper]
 - [Adapting Vision-Language Models Without Labels: A Comprehensive Survey](https://arxiv.org/abs/2508.05547)
 - [ETTA: Efficient Test-Time Adaptation for Vision-Language Models through Dynamic Embedding Updates](https://arxiv.org/abs/2508.05898)
 - [Causal Disentanglement and Cross-Modal Alignment for Enhanced Few-Shot Learning](https://arxiv.org/abs/2508.03102)
-- [Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models](https://arxiv.org/abs/2508.01225)
+- [[multi_cache_enhanced_prototype_learning_for_test_time_generalization_of_vision_language_models|Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models]]
 - [Latte: Collaborative Test-Time Adaptation of Vision-Language Models in Federated Learning](https://arxiv.org/abs/2507.21494)
 - [Beyond Graph Model: Reliable VLM Fine-Tuning via Random Graph Adapter](https://arxiv.org/abs/2507.10355)
 - [Dynamic Multimodal Prototype Learning in Vision-Language Models](https://arxiv.org/abs/2507.03657)
 - [The Illusion of Progress? A Critical Look at Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2506.24000)
 - [Performance Analysis of Traditional Methods for Visual Question Answering under Computational Resource Constraints](https://doi.org/10.1109/ICIPMC66319.2025.11170681)
 - [Generalizing Vision-Language Models to Novel Domains: A Comprehensive Survey](https://arxiv.org/abs/2506.18504)
-- [Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM](https://arxiv.org/abs/2507.06973)
+- [[free_on_the_fly_enhancing_flexibility_in_test_time_adaptation_with_online_em|Free on the Fly: Enhancing Flexibility in Test-Time Adaptation with Online EM]]
 - [ImagineFSL: Self-Supervised Pretraining Matters on Imagined Base Set for VLM-based Few-shot Learning](https://doi.org/10.1109/CVPR52734.2025.02794)
 - [Task-Aware Clustering for Prompting Vision-Language Models](https://doi.org/10.1109/CVPR52734.2025.01374)
 - [Enabling Validation for Robust Few-Shot Recognition](https://arxiv.org/abs/2506.04713)
@@ -157,7 +157,7 @@ tags: [paper]
 - [Uniformity First: Uniformity-aware Test-time Adaptation of Vision-language Models against Image Corruption](https://arxiv.org/abs/2505.12912)
 - [Semi-Automatic Labeling for Action Recognition by Diversity Preserving Sampling](https://doi.org/10.1109/ICASSP49660.2025.10888661)
 - [COSMIC: Clique-Oriented Semantic Multi-space Integration for Robust CLIP Test-Time Adaptation](https://arxiv.org/abs/2503.23388)
-- [Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models](https://arxiv.org/abs/2503.18334)
+- [[mitigating_cache_noise_in_test_time_adaptation_for_large_vision_language_models|Mitigating Cache Noise in Test-Time Adaptation for Large Vision-Language Models]]
 - [Bidirectional Prototype-Reward co-Evolution for Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2503.09394)
 - [Diversity Covariance-Aware Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2503.01531)
 - [Black Sheep in the Herd: Playing with Spuriously Correlated Attributes for Vision-Language Recognition](https://arxiv.org/abs/2502.15809)

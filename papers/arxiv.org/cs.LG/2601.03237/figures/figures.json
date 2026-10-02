@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Fig. 1. A visual illustration of the key idea behind unsupervised support vector machines that alternates updates between labels and hyperplane estimation.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Fig. 2. A visual comparison of the effects of regularization terms in the TURTLE and PET-TURTLE objective functions.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Fig. 3. Probability mass functions of the power law distribution at various decay rates α when C = 10 as used in Table I.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Fig. 4. Confusion matrices of the TURTLE and PET-TURTLE methods on the Food101-PL dataset (C = 101) with fixed decay rate α = 1.0.",
+    "score": 0.0
+  }
+]

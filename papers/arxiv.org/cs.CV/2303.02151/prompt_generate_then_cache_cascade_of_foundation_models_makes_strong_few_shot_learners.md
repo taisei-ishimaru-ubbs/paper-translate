@@ -34,7 +34,7 @@ tags: [paper]
 - [Joint-MAE: 2D-3D Joint Masked Autoencoders for 3D Point Cloud Pre-training](https://arxiv.org/abs/2302.14007)
 - [Learning 3D Representations from 2D Pre-Trained Models via Image-to-Point Masked Autoencoders](https://arxiv.org/abs/2212.06785)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention](https://arxiv.org/abs/2209.14169)
 - [Collaboration of Pre-trained Models Makes Better Few-shot Learner](https://arxiv.org/abs/2209.12255)
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]

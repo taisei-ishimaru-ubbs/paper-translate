@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: On the left, we show an example decision by our model in addition to its justiﬁcation (blue bars). On the right, we show how CLIP classiﬁes this image. Our model does not make the same mistake because it cannot produce a compatible justiﬁcation with the image (red bars).",
+    "score": 110.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2: (a) The standard vision-and-language model compares image embeddings (white dot) to word embeddings of the category name (colorful dots) in order to perform classiﬁcation. (b) We instead mine large language models to automatically build descriptors, and perform recognition by comparing to ",
+    "score": 24.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Figure 3: Examples of descriptor schema produced by GPT-3.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 5,
+    "caption": "Figure 4: (left, in blue) We show example decisions and their justiﬁcations from our model. (right, in red) We show the prediction from CLIP, and the justiﬁcation from our model why it did not select that answer. The bar charts show the descriptor similarity φ to the image in the CLIP latent space.",
+    "score": 30.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 6,
+    "caption": "Figure 5: Our retrieved images vs those found by CLIP for concepts popularized after CLIP’s train- ing. If CLIP has not observed a particular text-image association when it was trained, it is bound to fail when retrieving images related to that text na¨ıvely. Our approach queries the large language ",
+    "score": 15.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 6,
+    "caption": "Figure 6: (left) CLIP only compares to the word ‘wedding’, yielding biased results – it only correctly recognizes the ﬁrst row. The descriptor-based approach provides a way to address the bias, by expanding the initial set of descriptors (only the top) to be more inclusive with prior knowledge. (rig",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 7,
+    "caption": "Figure 7: (a) Examples of errors in the descriptors produced by GPT-3. (b) Examples of undesired behavior in CLIP retrievals from descriptors. The text in red annotates the error.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 16,
+    "caption": "Figure 8: We use the OPT Zhang et al. (2022) series of language models to evaluate the inﬂuence of different language models at different parameter counts. We ﬁnd that using descriptors from smaller language models can actually hurt performance, while after a certain size performance gains appear; t",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 17,
+    "caption": "Figure 9: Top retrievals for various descriptors.",
+    "score": 0.0
+  }
+]

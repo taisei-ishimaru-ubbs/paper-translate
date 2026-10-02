@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. (a) CLIP vs. DDE Classifiers: AdaND [1] uses the CLIP classifier frequently misclassifying samples that deviate significantly from textual prototypes. Other TTA methods [2] (e.g., DMN) cache high-confidence samples, which still struggle to accurately represent complete visual class distrib",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. Overview of our DDE framework. (1) Calculate the ID/OOD score for test images, dynamically caches positive and negative samples. (2) Model positive feature Gaussian distributions via inclusion and exclusion GDA estimating. (3) Filter the discriminative negative labels via negative labels d",
+    "score": 48.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 10,
+    "caption": "Figure 3. Comprehensive analysis of model components and hyperparameters. We evaluate the harmonic mean (Acc𝐻) across various settings: (a) noise ratios of positive and negative images, (b) backbones, (c) stability, and (d) fixed threshold. The bottom row shows sensitivity analysis for (e) cache siz",
+    "score": 12.0
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2. An overview of the unrolled GEM algorithm for a given iteration. Each iteration ℓcorresponds to a network layer L(ℓ). Each layer depends on the vector of hyperparameters (λ(ℓ), T (ℓ)).",
+    "score": 30.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3. Overall architecture of the designed UNEM.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 4,
+    "page": 16,
+    "caption": "Figure 4. Illustration of the learned hyper-parameters λ(ℓ) and T (ℓ) across layers for CUB (with ResNet18 model), mini-ImageNet (with ResNet18 model) and mini-ImageNet (with WRN28-10 model).",
+    "score": 18.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 5,
+    "page": 17,
+    "caption": "Figure 5. Illustration of the learned hyper-parameters λ(ℓ) and T (ℓ) across layers for some datasets with vision-language models.",
+    "score": 0.0
+  }
+]

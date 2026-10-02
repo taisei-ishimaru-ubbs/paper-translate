@@ -1,0 +1,17 @@
+{
+  "id": "2508.01225",
+  "title": "Multi-Cache Enhanced Prototype Learning for Test-Time Generalization of Vision-Language Models",
+  "authors": [
+    "Xinyu Chen",
+    "Haotian Zhai",
+    "Can Zhang",
+    "Xiupeng Shi",
+    "Ruirui Li"
+  ],
+  "abstract": "In zero-shot setting, test-time adaptation adjusts pre-trained models using unlabeled data from the test phase to enhance performance on unknown test distributions. Existing cache-enhanced TTA methods rely on a low-entropy criterion to select samples for prototype construction, assuming intra-class compactness. However, low-entropy samples may be unreliable under distribution shifts, and the resulting prototypes may not ensure compact intra-class distributions. This study identifies a positive correlation between cache-enhanced performance and intra-class compactness. Based on this observation, we propose a Multi-Cache enhanced Prototype-based Test-Time Adaptation (MCP) featuring three caches: an entropy cache for initializing prototype representations with low-entropy samples, an align cache for integrating visual and textual information to achieve compact intra-class distributions, and a negative cache for prediction calibration using high-entropy samples. We further developed MCP++, a framework incorporating cross-modal prototype alignment and residual learning, introducing prototype residual fine-tuning. Comparative and ablation experiments across 15 downstream tasks demonstrate that the proposed method and framework achieve state-of-the-art generalization performance. Project Page available at: https://zhaihaotian.github.io/MCP-ICCV25/",
+  "published": "2025-08-02",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2508.01225v2",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:15Z"
+}

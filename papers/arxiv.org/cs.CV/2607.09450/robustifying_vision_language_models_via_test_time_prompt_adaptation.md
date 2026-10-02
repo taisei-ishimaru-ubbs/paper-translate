@@ -50,7 +50,7 @@ tags: [paper]
 - [Black Box Few-Shot Adaptation for Vision-Language models](https://arxiv.org/abs/2304.01752)
 - [Understanding Zero-Shot Adversarial Robustness for Large-Scale Models](https://arxiv.org/abs/2212.07016)
 - [Adaptive Distribution Calibration for Few-Shot Learning with Hierarchical Optimal Transport](https://arxiv.org/abs/2210.04144)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [Towards Adversarial Attack on Vision-Language Pre-training Models](https://arxiv.org/abs/2206.09391)
 - [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
 - [MEMO: Test Time Robustness via Adaptation and Augmentation](https://arxiv.org/abs/2110.09506)

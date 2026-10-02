@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Test-time Prompt Tuning (TPT) for image classiﬁcation. We tune adaptive prompts on the ﬂy with a single test sample, without the need for additional training data or annotations. TPT optimizes the prompt to encourage consistent predictions across augmented views by minimizing the marginal ",
+    "score": 89.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2: Test-time Prompt Tuning (TPT) for context-dependent visual reasoning on Bongard- HOI benchmark. A test sample in Bonagrd-HOI consists of several support images that exemplify a visual concept, and the model needs to predict whether the query image contains the concept. TPT tunes the prompt",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3: Cross-dataset improvement normalized by the zero-shot baseline performance. In each matrix A, Ai,j is the normalized relative improvement on the jth dataset of using the prompt tuned on the i-th dataset. The value Ai,j stands for how well a method trained on a source dataset i performs on ",
+    "score": 11.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 10,
+    "caption": "Figure 4: Ablating the effects of different components of TPT. We evaluate the top-1 accuracy on the distribution shifts benchmarks in section 4.1. Methods are implemented based on a CLIP-RN50.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 11,
+    "caption": "Figure 5: Analysis on the trade-off between efﬁciency and accuracy. We evaluate the top-1 accuracy on the distribution shifts benchmarks in section 4.1. Results are based on a CLIP-RN50.",
+    "score": 0.0
+  }
+]

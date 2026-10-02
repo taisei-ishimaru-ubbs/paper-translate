@@ -1,0 +1,9 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Fig. 1: A Text Transformer & Vision Transformer extract embeddings from tex- tual and visual inputs. A Gaussian Mixture Model (GMM), enhanced by the Student’s t-distribution, is used to form and refine initial clusters, where Label A and Label B represent semantically & visually similar conditions. ",
+    "score": 86.0
+  }
+]

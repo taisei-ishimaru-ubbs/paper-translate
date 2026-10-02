@@ -1,0 +1,15 @@
+{
+  "id": "2609.29358",
+  "title": "Domain Recentering and Confidence-Weighted Prior Calibration for Vision-Language Models",
+  "authors": [
+    "Youngeun Seol",
+    "Jimin Shin",
+    "Heeseo Yoon",
+    "Uiwon Hwang"
+  ],
+  "abstract": "Vision-language models such as CLIP achieve strong zero-shot classification, yet under distribution shift, visual embeddings drift from fixed text embeddings. Training-free calibration avoids the per-sample optimization of prompt learning, but prior feature calibration gives each image the full bias of one hard cluster. We propose Domain Recentering with Confidence Calibration (DRC), a training-free method adapting CLIP from a set of unlabeled target images. DRC fits a Gaussian mixture once and subtracts from each embedding a posterior-weighted average of component means. It then removes residual class preference with a log-prior correction, estimating the prior from confidence-weighted predictions. Among compared methods, DRC achieves the highest average accuracy on cross-domain datasets, exceeding zero-shot CLIP by 4.13 and 5.07 points with ViT-B/16 and ResNet-50, with gains over CLIP also holding under ImageNet distribution shifts.",
+  "published": "2026-09-24",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2609.29358v1",
+  "added_at": "2026-10-02T14:31:38Z"
+}

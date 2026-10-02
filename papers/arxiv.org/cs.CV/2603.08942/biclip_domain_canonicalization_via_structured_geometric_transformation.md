@@ -29,7 +29,7 @@ tags: [paper]
 - [Self-regulating Prompts: Foundational Model Adaptation without Forgetting](https://arxiv.org/abs/2307.06948)
 - [Sigmoid Loss for Language Image Pre-Training](https://arxiv.org/abs/2303.15343)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794)
 - [Unsupervised Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2204.03649)
 - [Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557)

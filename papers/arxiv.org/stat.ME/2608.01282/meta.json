@@ -1,0 +1,15 @@
+{
+  "id": "2608.01282",
+  "title": "Multimodal domain adaptation under label shift and blockwise missing modalities",
+  "authors": [
+    "Zebin Wang",
+    "Ziang Dou",
+    "Molei Liu",
+    "Tianxi Cai"
+  ],
+  "abstract": "Multimodal domain adaptation uses labeled source datasets to predict outcomes in an unlabeled target population. Here, different sources may observe different subsets of modalities and have distribution shifts from the target. In this scenario, the cross-modal patterns used for alignment depend on the outcome distribution, so aligning unadjusted source data can misrepresent the target. Nevertheless, the distribution shift of the outcome cannot be measured directly when labels are unavailable in the target sample and the missing modality blocks prevent simple pooling. We propose a reference-anchored domain adaptation method. A reference modality observed in every source and the target is used to estimate the target outcome distribution and reweight source observations before alignment. The auxiliary modalities are then mapped to a common, target-defined representation obtained by canonical correlation analysis (CCA) in the target and reproduced in each source by ridge-regression maps. Outcome information is transferred through density-ratio models on the aligned representation. When gold-standard source labels are sparse, a surrogate-label-assisted approach is developed to enable robust domain adaptation. We establish a unified-rotation match-up result for the target CCA and source ridge maps and consistency of the target conditional outcome distribution. Simulations and a renal cell carcinoma (RCC) application show improved calibration and stable prediction under distributional shift and blockwise missing modalities.",
+  "published": "2026-08-02",
+  "category": "stat.ME",
+  "pdf_url": "https://arxiv.org/pdf/2608.01282v1",
+  "added_at": "2026-10-02T14:31:20Z"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Illustration of the average classification accuracy, test- time training GFLOPs, and FPS for different methods on cross- dataset classification tasks. For prompt-based and cache-based methods, the icon sizes denote the FPS values.",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2. The x-axis represents the compactness of test data(defined as the inverse of the average distance between each sample and its class center), and the y-axis represents the accuracy improvement of TDA [26] relative to zero-shot CLIP. A positive correlation is observed on the curve and two t-",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 4,
+    "caption": "Figure 3. An overview of our MCP++ method. The Entropy Cache stores low-entropy samples, the Align Cache retains samples closest to the prototype center, and the Negative Cache preserves high-entropy samples after pseudo-label refinement through a reflecting mechanism. We introduce textual and visua",
+    "score": 17.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. Ablation studies. (Left) Effect of retrieval strategies on ImageNet and the average performance across 10 cross-domain datasets. (Middle) Impact of cache size settings on cross-domain datasets. (Right) Performance variation across three datasets with different proto- type center weights w ",
+    "score": 0.0
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "2602.11743",
+  "title": "Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation",
+  "authors": [
+    "Xiangyu Wu",
+    "Dongming Jiang",
+    "Feng Yu",
+    "Yueying Tian",
+    "Jiaqi Tang",
+    "Qing-Guo Chen",
+    "Yang Yang",
+    "Jianfeng Lu"
+  ],
+  "abstract": "Mainstream Test-Time Adaptation (TTA) methods for adapting vision-language models, e.g., CLIP, typically rely on Shannon Entropy (SE) at test time to measure prediction uncertainty and inconsistency. However, since CLIP has a built-in bias from pretraining on highly imbalanced web-crawled data, SE inevitably results in producing biased estimates of uncertainty entropy. To address this issue, we notably find and demonstrate that Tsallis Entropy (TE), a generalized form of SE, is naturally suited for characterizing biased distributions by introducing a non-extensive parameter q, with the performance of SE serving as a lower bound for TE. Building upon this, we generalize TE into Adaptive Debiasing Tsallis Entropy (ADTE) for TTA, customizing a class-specific parameter q^l derived by normalizing the estimated label bias from continuously incoming test instances, for each category. This adaptive approach allows ADTE to accurately select high-confidence views and seamlessly integrate with a label adjustment strategy to enhance adaptation, without introducing distribution-specific hyperparameter tuning. Besides, our investigation reveals that both TE and ADTE can serve as direct, advanced alternatives to SE in TTA, without any other modifications. Experimental results show that ADTE outperforms state-of-the-art methods on ImageNet and its five variants, and achieves the highest average performance on 10 cross-domain benchmarks, regardless of the model architecture or text prompts used. Our code is available at https://github.com/Jinx630/ADTE.",
+  "published": "2026-02-12",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2602.11743v1",
+  "added_at": "2026-10-02T14:31:13Z"
+}

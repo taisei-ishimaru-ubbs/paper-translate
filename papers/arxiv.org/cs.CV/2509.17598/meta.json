@@ -1,0 +1,19 @@
+{
+  "id": "2509.17598",
+  "title": "COLA: Context-aware Language-driven Test-time Adaptation",
+  "authors": [
+    "Aiming Zhang",
+    "Tianyuan Yu",
+    "Liang Bai",
+    "Jun Tang",
+    "Yanming Guo",
+    "Yirun Ruan",
+    "Yun Zhou",
+    "Zhihe Lu"
+  ],
+  "abstract": "Test-time adaptation (TTA) has gained increasing popularity due to its efficacy in addressing ``distribution shift'' issue while simultaneously protecting data privacy. However, most prior methods assume that a paired source domain model and target domain sharing the same label space coexist, heavily limiting their applicability. In this paper, we investigate a more general source model capable of adaptation to multiple target domains without needing shared labels. This is achieved by using a pre-trained vision-language model (VLM), \\egno, CLIP, that can recognize images through matching with class descriptions. While the zero-shot performance of VLMs is impressive, they struggle to effectively capture the distinctive attributes of a target domain. To that end, we propose a novel method -- Context-aware Language-driven TTA (COLA). The proposed method incorporates a lightweight context-aware module that consists of three key components: a task-aware adapter, a context-aware unit, and a residual connection unit for exploring task-specific knowledge, domain-specific knowledge from the VLM and prior knowledge of the VLM, respectively. It is worth noting that the context-aware module can be seamlessly integrated into a frozen VLM, ensuring both minimal effort and parameter efficiency. Additionally, we introduce a Class-Balanced Pseudo-labeling (CBPL) strategy to mitigate the adverse effects caused by class imbalance. We demonstrate the effectiveness of our method not only in TTA scenarios but also in class generalisation tasks. The source code is available at https://github.com/NUDT-Bai-Group/COLA-TTA.",
+  "published": "2025-09-22",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2509.17598v1",
+  "added_at": "2026-10-02T14:37:12Z"
+}

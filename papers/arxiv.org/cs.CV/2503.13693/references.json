@@ -1,0 +1,299 @@
+{
+  "id": "2503.13693",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "a48871f98a27c3d28cac9615dbde1f8dcc9ff6ac",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2503-13693",
+      "ArXiv": "2503.13693",
+      "DOI": "10.1109/CVPR52734.2025.00299",
+      "CorpusId": 277103688
+    },
+    "url": "https://www.semanticscholar.org/paper/a48871f98a27c3d28cac9615dbde1f8dcc9ff6ac",
+    "title": "Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds"
+  },
+  "references": [
+    {
+      "paper_id": "76670d9a09e561dd5d9bfe88fe9f853199b100e9",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52733.2024.01793",
+      "title": "Weakly-Supervised Audio-Visual Video Parsing with Prototype-Based Pseudo-Labeling",
+      "url": "https://www.semanticscholar.org/paper/76670d9a09e561dd5d9bfe88fe9f853199b100e9"
+    },
+    {
+      "paper_id": "6c1b414bdc59b15e59c792a1044fed82f4846b55",
+      "arxiv_id": "2311.05152",
+      "doi": "10.48550/arXiv.2311.05152",
+      "title": "Cross-modal Prompts: Adapting Large Pre-trained Models for Audio-Visual Downstream Tasks",
+      "url": "https://www.semanticscholar.org/paper/6c1b414bdc59b15e59c792a1044fed82f4846b55"
+    },
+    {
+      "paper_id": "8eb99f1ed884356871ddbcf1377b82359071906a",
+      "arxiv_id": "2310.01852",
+      "doi": "10.48550/arXiv.2310.01852",
+      "title": "LanguageBind: Extending Video-Language Pretraining to N-modality by Language-based Semantic Alignment",
+      "url": "https://www.semanticscholar.org/paper/8eb99f1ed884356871ddbcf1377b82359071906a"
+    },
+    {
+      "paper_id": "f6c494234a818b2aec286b257ee6117f2894bcf7",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49357.2023.10095889",
+      "title": "CLAP Learning Audio Concepts from Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/f6c494234a818b2aec286b257ee6117f2894bcf7"
+    },
+    {
+      "paper_id": "8e9cc0f28d9f90c284c46362b3603bb01eba7c0b",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01805",
+      "title": "Collecting Cross-Modal Presence-Absence Evidence for Weakly-Supervised Audio- Visual Event Perception",
+      "url": "https://www.semanticscholar.org/paper/8e9cc0f28d9f90c284c46362b3603bb01eba7c0b"
+    },
+    {
+      "paper_id": "51763e4a7b9968bf284c8564c9c9954944e51a41",
+      "arxiv_id": "2210.05060",
+      "doi": "10.1109/WACV56688.2023.00513",
+      "title": "AVE-CLIP: AudioCLIP-based Multi-window Temporal Transformer for Audio Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/51763e4a7b9968bf284c8564c9c9954944e51a41"
+    },
+    {
+      "paper_id": "2f5af52609c3da4616a43d08a1578ca656f6958e",
+      "arxiv_id": "",
+      "doi": "10.1145/3503161.3548309",
+      "title": "DHHN: Dual Hierarchical Hybrid Network for Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/2f5af52609c3da4616a43d08a1578ca656f6958e"
+    },
+    {
+      "paper_id": "8fe242db15d2cd0bd6576362819d7fa78431d07a",
+      "arxiv_id": "",
+      "doi": "10.1145/3503161.3548318",
+      "title": "Span-based Audio-Visual Localization",
+      "url": "https://www.semanticscholar.org/paper/8fe242db15d2cd0bd6576362819d7fa78431d07a"
+    },
+    {
+      "paper_id": "7cb997b7d03b5bef35c992b0aaca0a8f14e7f948",
+      "arxiv_id": "2207.09966",
+      "doi": "10.48550/arXiv.2207.09966",
+      "title": "Temporal and cross-modal attention for audio-visual zero-shot learning",
+      "url": "https://www.semanticscholar.org/paper/7cb997b7d03b5bef35c992b0aaca0a8f14e7f948"
+    },
+    {
+      "paper_id": "bb14a141cade8acfed64822fc6ce7705fb395391",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52688.2022.01936",
+      "title": "Cross-modal Background Suppression for Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/bb14a141cade8acfed64822fc6ce7705fb395391"
+    },
+    {
+      "paper_id": "6d103183b706231b40a3c32d0573d8725f0decc1",
+      "arxiv_id": "2204.11573",
+      "doi": "10.48550/arXiv.2204.11573",
+      "title": "Joint-Modal Label Denoising for Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/6d103183b706231b40a3c32d0573d8725f0decc1"
+    },
+    {
+      "paper_id": "c4374bc0f17f8231e41bfbf58dfb2209bdbc7a95",
+      "arxiv_id": "2203.03598",
+      "doi": "10.1109/CVPR52688.2022.01030",
+      "title": "Audiovisual Generalised Zero-shot Learning with Cross-modal Attention and Language",
+      "url": "https://www.semanticscholar.org/paper/c4374bc0f17f8231e41bfbf58dfb2209bdbc7a95"
+    },
+    {
+      "paper_id": "ec0d0553e9a72237497a08a3c271777302e8aea3",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR46437.2021.00138",
+      "title": "Exploring Heterogeneous Clues for Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/ec0d0553e9a72237497a08a3c271777302e8aea3"
+    },
+    {
+      "paper_id": "2cc471bc4f1aaa8009c62a867ab90265c6749c19",
+      "arxiv_id": "2104.00239",
+      "doi": "10.1109/CVPR46437.2021.00833",
+      "title": "Positive Sample Propagation along the Audio-Visual Event Line",
+      "url": "https://www.semanticscholar.org/paper/2cc471bc4f1aaa8009c62a867ab90265c6749c19"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "3867340091c920dc5f8ba462197fa5bc924a98c4",
+      "arxiv_id": "2007.10558",
+      "doi": "10.1007/978-3-030-58580-8_26",
+      "title": "Unified Multisensory Perception: Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/3867340091c920dc5f8ba462197fa5bc924a98c4"
+    },
+    {
+      "paper_id": "91aea8435a9aa2409f9b279edacbfbb3fd19587b",
+      "arxiv_id": "2005.13402",
+      "doi": "10.1109/WACV48630.2021.00313",
+      "title": "AVGZSLNet: Audio-Visual Generalized Zero-Shot Learning by Reconstructing Label Features from Multi-Modal Embeddings",
+      "url": "https://www.semanticscholar.org/paper/91aea8435a9aa2409f9b279edacbfbb3fd19587b"
+    },
+    {
+      "paper_id": "380e7cc65c7be734f2179953bd921630afdee6ec",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP40776.2020.9053895",
+      "title": "What Makes the Sound?: A Dual-Modality Interacting Network for Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/380e7cc65c7be734f2179953bd921630afdee6ec"
+    },
+    {
+      "paper_id": "8d8d46588f534d45bb0bb6aba2cf1ad991965634",
+      "arxiv_id": "",
+      "doi": "10.1609/AAAI.V34I01.5361",
+      "title": "Cross-Modal Attention Network for Temporal Inconsistent Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/8d8d46588f534d45bb0bb6aba2cf1ad991965634"
+    },
+    {
+      "paper_id": "31c53acd2a43dcec4342d9c42d0ffbfbef36e855",
+      "arxiv_id": "2003.07554",
+      "doi": "",
+      "title": "A Unified View of Label Shift Estimation",
+      "url": "https://www.semanticscholar.org/paper/31c53acd2a43dcec4342d9c42d0ffbfbef36e855"
+    },
+    {
+      "paper_id": "c911d81bddb48490a02258e79379b6428246ddc2",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV45572.2020.9093616",
+      "title": "See the Sound, Hear the Pixels",
+      "url": "https://www.semanticscholar.org/paper/c911d81bddb48490a02258e79379b6428246ddc2"
+    },
+    {
+      "paper_id": "a243ee80146ca37fc296bc67043ea2a67222de68",
+      "arxiv_id": "1910.08732",
+      "doi": "10.1109/WACV45572.2020.9093438",
+      "title": "Coordinated Joint Multimodal Embeddings for Generalized Audio-Visual Zero-shot Classification and Retrieval of Videos",
+      "url": "https://www.semanticscholar.org/paper/a243ee80146ca37fc296bc67043ea2a67222de68"
+    },
+    {
+      "paper_id": "6c2b97b0e02d0b7e02fe4303a6c1894e13b27335",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2019.00639",
+      "title": "Dual Attention Matching for Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/6c2b97b0e02d0b7e02fe4303a6c1894e13b27335"
+    },
+    {
+      "paper_id": "80ef8b8a1284790e0d8f7cbf9727c9e0b2a89332",
+      "arxiv_id": "1802.03916",
+      "doi": "",
+      "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+      "url": "https://www.semanticscholar.org/paper/80ef8b8a1284790e0d8f7cbf9727c9e0b2a89332"
+    },
+    {
+      "paper_id": "89c3050522a0bb9820c32dc7444e003ef0d3e2e4",
+      "arxiv_id": "1711.11248",
+      "doi": "10.1109/CVPR.2018.00675",
+      "title": "A Closer Look at Spatiotemporal Convolutions for Action Recognition",
+      "url": "https://www.semanticscholar.org/paper/89c3050522a0bb9820c32dc7444e003ef0d3e2e4"
+    },
+    {
+      "paper_id": "5ba2218b708ca64ab556e39d5997202e012717d5",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP.2017.7952261",
+      "title": "Audio Set: An ontology and human-labeled dataset for audio events",
+      "url": "https://www.semanticscholar.org/paper/5ba2218b708ca64ab556e39d5997202e012717d5"
+    },
+    {
+      "paper_id": "59d8c68de09da69a608ceb149f40114f5538c5b1",
+      "arxiv_id": "1609.09430",
+      "doi": "10.1109/ICASSP.2017.7952132",
+      "title": "CNN architectures for large-scale audio classification",
+      "url": "https://www.semanticscholar.org/paper/59d8c68de09da69a608ceb149f40114f5538c5b1"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "66c3d69f94c90a884d3f6b5367813d51708f6ded",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Domain Adaptation under Target and Conditional Shift",
+      "url": "https://www.semanticscholar.org/paper/66c3d69f94c90a884d3f6b5367813d51708f6ded"
+    },
+    {
+      "paper_id": "57111d4896b116f1b253db54bb944118b9f26b7f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Word Sense Disambiguation with Distribution Estimation",
+      "url": "https://www.semanticscholar.org/paper/57111d4896b116f1b253db54bb944118b9f26b7f"
+    },
+    {
+      "paper_id": "fa8f7fcef8b83bf7aab4ddb26cbd0f4afd899b8e",
+      "arxiv_id": "",
+      "doi": "10.1111/j.1469-8749.2003.tb04605.x",
+      "title": "Audio‐visual",
+      "url": "https://www.semanticscholar.org/paper/fa8f7fcef8b83bf7aab4ddb26cbd0f4afd899b8e"
+    },
+    {
+      "paper_id": "bc68ec44a97b0ffb7dfc11fac3dd203b3d15c67a",
+      "arxiv_id": "",
+      "doi": "10.3115/981923.981950",
+      "title": "Parsing",
+      "url": "https://www.semanticscholar.org/paper/bc68ec44a97b0ffb7dfc11fac3dd203b3d15c67a"
+    },
+    {
+      "paper_id": "16d4b24a251b0b2c44c90f66cc4e266f770b2795",
+      "arxiv_id": "",
+      "doi": "10.52202/068431-2516",
+      "title": "Multi-modal Grouping Network for Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/16d4b24a251b0b2c44c90f66cc4e266f770b2795"
+    },
+    {
+      "paper_id": "a25300eea6a47c552fd8763343025dc914b576b8",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-031-19830-4_39",
+      "title": "Dual Perspective Network for Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/a25300eea6a47c552fd8763343025dc914b576b8"
+    },
+    {
+      "paper_id": "279ebc382e957d1172b3b4a237e99b5baaa00468",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Exploring Cross-Video and Cross-Modality Signals for Weakly-Supervised Audio-Visual Video Parsing",
+      "url": "https://www.semanticscholar.org/paper/279ebc382e957d1172b3b4a237e99b5baaa00468"
+    },
+    {
+      "paper_id": "6a43b68c63b059ca884e08c04ac7e6d167655b12",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-69544-6_17",
+      "title": "Audiovisual Transformer with Instance Attention for Audio-Visual Event Localization",
+      "url": "https://www.semanticscholar.org/paper/6a43b68c63b059ca884e08c04ac7e6d167655b12"
+    },
+    {
+      "paper_id": "fc252ca4c573c4e69758d5544ce3b55d244cd80f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "When Training and Test Sets Are Different: Characterizing Learning Transfer",
+      "url": "https://www.semanticscholar.org/paper/fc252ca4c573c4e69758d5544ce3b55d244cd80f"
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "7dc34b62ccd3b8f3f97e2195d73a75c4418e72e4",
+      "arxiv_id": "2608.07923",
+      "doi": "",
+      "title": "SCoPE: Training-Free Audio-Visual Event Perception via Sparse Cross-Modal Prior Exchange",
+      "url": "https://www.semanticscholar.org/paper/7dc34b62ccd3b8f3f97e2195d73a75c4418e72e4"
+    },
+    {
+      "paper_id": "d056253212fcaa47932e555b0ebcb510b64b34c8",
+      "arxiv_id": "",
+      "doi": "10.1016/j.asoc.2026.114699",
+      "title": "Video segment localization network based on mutual information dual-graph contrastive learning",
+      "url": "https://www.semanticscholar.org/paper/d056253212fcaa47932e555b0ebcb510b64b34c8"
+    },
+    {
+      "paper_id": "97059a8425daf968d2afbfa5571ba1bfaca3ede3",
+      "arxiv_id": "2511.15923",
+      "doi": "10.48550/arXiv.2511.15923",
+      "title": "RB-FT: Rationale-Bootstrapped Fine-Tuning for Video Classification",
+      "url": "https://www.semanticscholar.org/paper/97059a8425daf968d2afbfa5571ba1bfaca3ede3"
+    }
+  ]
+}

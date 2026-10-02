@@ -1,0 +1,79 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. We study the pseudo-labeling-based Semi-Supervised Learning (SSL) and transductive Zero-Shot Learning (ZSL), where both tasks require transferring semantic information learned from labeled source data to unlabeled target data via pseudo-labeling. Surprisingly, we ﬁnd that pseudo-labels of ",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. FixMatch’s pseudo-labels are highly imbalanced across different training stages, even though the unlabeled and labeled data it trains on is class-balanced. In contrast, DebiasPL produces nearly balanced pseudo-labels at late stages. The probability distributions of FixMatch and DebiasPL ar",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Figure 3. Per-class precision and recall of pseudo-label predictions on 1.3M ImageNet instances with a pre-trained CLIP. The majority classes with high recall often have less precise pseudo-labels.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 3,
+    "caption": "Figure 4. CLIP’s zero-shot predictions are highly biased for various datasets and benchmarks.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 4,
+    "caption": "Figure 5. The low-frequency classes of ImageNet, with the least-10 number of CLIP predictions per class, usually have strong inter-class correlations, while the high-frequency classes are the opposite. We compare the cosine similarity between each class’s image embedding centroid and embedding centr",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 4,
+    "caption": "Figure 6. The cause for pseudo-label biases can be partially at- tributed to inter-class confounding. For example, FixMatch of- ten misclassiﬁes “ship” as “plane”. The confusion matrix of Fix- Match’s and our DebiasPL’s pseudo-labels are visualized.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 5,
+    "caption": "Figure 7. Diagram of the proposed Adaptive Debiasing module and Adaptive Marginal Loss, added to the top of FixMatch.",
+    "score": 9.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 5,
+    "caption": "Figure 8. Causal graph of debiasing with counterfactual reasoning.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 8,
+    "caption": "Figure 9. DebiasPL exhibits stronger robustness to domain shift when conducting zero-shot learning on various datasets. We experiment with ResNet-50 as a backbone network. CLIP results are reproduced with ofﬁcial codes.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 11,
+    "caption": "Figure 10. The overall framework of transductive zero-shot learning with CLIP + DebiasPL. CLIP + FixMatch can be realized by removing the debiasing module and replacing the marginal loss with cross-entropy loss.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 11,
+    "caption": "Figure 11. A higher imbalanced ratio is obtained when ﬁltering CLIP’s zero-shot predictions with a larger threshold, analyzed on CLIP’s zero-shot predictions on 1.3M almost class-balanced ImageNet training samples. Per class number of predictions (row 1), precision (row 2), and recall (row 3) of sam",
+    "score": 3.0
+  }
+]

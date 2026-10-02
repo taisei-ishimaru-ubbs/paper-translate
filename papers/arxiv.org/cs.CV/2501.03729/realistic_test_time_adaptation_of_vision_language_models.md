@@ -41,7 +41,7 @@ tags: [paper]
 - [Robust Test-Time Adaptation in Dynamic Scenarios](https://arxiv.org/abs/2303.13899)
 - [Towards Practical Few-Shot Query Sets: Transductive Minimum Description Length Inference](https://arxiv.org/abs/2210.14545)
 - [MaPLe: Multi-modal Prompt Learning](https://arxiv.org/abs/2210.03117)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://arxiv.org/abs/2208.05117)
 - [Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification](https://arxiv.org/abs/2207.09519)
 - [Contrastive Test-Time Adaptation](https://arxiv.org/abs/2204.10377)

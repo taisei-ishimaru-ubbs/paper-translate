@@ -49,7 +49,7 @@ tags: [paper]
 - [Broken Neural Scaling Laws](https://arxiv.org/abs/2210.14891)
 - [Scaling Instruction-Finetuned Language Models](https://arxiv.org/abs/2210.11416)
 - [LAION-5B: An open large-scale dataset for training next generation image-text models](https://arxiv.org/abs/2210.08402)
-- [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
+- [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]
 - [[what_does_a_platypus_look_like_generating_customized_prompts_for_zero_shot_image_classification|What does a platypus look like? Generating customized prompts for zero-shot image classification]]
 - [An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion](https://arxiv.org/abs/2208.01618)
 - [Compositional Visual Generation with Composable Diffusion Models](https://arxiv.org/abs/2206.01714)

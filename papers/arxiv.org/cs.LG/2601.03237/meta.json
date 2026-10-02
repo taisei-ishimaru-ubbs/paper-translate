@@ -1,0 +1,13 @@
+{
+  "id": "2601.03237",
+  "title": "PET-TURTLE: Deep Unsupervised Support Vector Machines for Imbalanced Data Clusters",
+  "authors": [
+    "Javier Salazar Cavazos"
+  ],
+  "abstract": "Foundation vision, audio, and language models enable zero-shot performance on downstream tasks via their latent representations. Recently, unsupervised learning of data group structure with deep learning methods has gained popularity. TURTLE, a state of the art deep clustering algorithm, uncovers data labeling without supervision by alternating label and hyperplane updates, maximizing the hyperplane margin, in a similar fashion to support vector machines (SVMs). However, TURTLE assumes clusters are balanced; when data is imbalanced, it yields non-ideal hyperplanes that cause higher clustering error. We propose PET-TURTLE, which generalizes the cost function to handle imbalanced data distributions by a power law prior. Additionally, by introducing sparse logits in the labeling process, PET-TURTLE optimizes a simpler search space that in turn improves accuracy for balanced datasets. Experiments on synthetic and real data show that PET-TURTLE improves accuracy for imbalanced sources, prevents over-prediction of minority clusters, and enhances overall clustering.",
+  "published": "2026-01-06",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2601.03237v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:21Z"
+}

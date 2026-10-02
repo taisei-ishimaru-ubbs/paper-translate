@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Figure (a) shows the change in error rates for the positive cache during downstream testing with the TDA[13] method, while Figure (b) compares the performance gap between similarity-based cache models in zero-shot(TDA[13]) and few-shot (Tip-adapter[36]) settings, all using RN50 as the back",
+    "score": 88.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: Overview of the CRG Method. We introduce caches (both positive and negative) in the text and visual modalities and employ learnable residual vectors to flexibly calibrate multi-modal features. During inference, positive prototypes, negative prototypes, and text prototypes are used for simi",
+    "score": 35.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 13,
+    "caption": "Figure 3: Two classic methods of Test-Time Adaptation (top) and our cache-based approach (bot- tom).",
+    "score": 0.0
+  }
+]

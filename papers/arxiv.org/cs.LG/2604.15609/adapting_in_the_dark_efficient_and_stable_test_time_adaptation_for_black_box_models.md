@@ -52,7 +52,7 @@ tags: [paper]
 - [BlackVIP: Black-Box Visual Prompting for Robust Transfer Learning](https://arxiv.org/abs/2303.14773)
 - [BiomedCLIP: a multimodal biomedical foundation model pretrained from fifteen million scientific image-text pairs](https://arxiv.org/abs/2303.00915)
 - [Towards Stable Test-Time Adaptation in Dynamic Wild World](https://arxiv.org/abs/2302.12400)
-- [Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2209.07511)
+- [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [NOTE: Robust Continual Test-time Adaptation Against Temporal Correlation](https://arxiv.org/abs/2208.05117)
 - [Back to the Source: Diffusion-Driven Adaptation to Test-Time Corruption](https://arxiv.org/abs/2207.03442)
 - [Diffusion Models for Adversarial Purification](https://arxiv.org/abs/2205.07460)

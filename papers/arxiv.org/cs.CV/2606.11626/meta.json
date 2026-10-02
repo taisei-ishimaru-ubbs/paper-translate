@@ -1,0 +1,16 @@
+{
+  "id": "2606.11626",
+  "title": "Adapting Vision-Language Models from Iconic to Inclusive for Multi-Label Recognition Without Labels",
+  "authors": [
+    "Cheng Chen",
+    "Jingyu Zhou",
+    "Yifan Zhao",
+    "Jia Li"
+  ],
+  "abstract": "Understanding multi-label images remains a challenging task in computer vision. With the rapid progress of vision-language multimodal learning, vision-language models (VLMs) enable zero-shot recognition without labeled data. However, due to their intrinsic design, these models often prioritize the most iconic object and omit other contextual positives. This intrinsic bias conflicts with the nature of multi-label learning, thereby limiting their applicability. In this work, we propose an unsupervised framework that adapts VLMs from iconic recognition toward inclusive understanding, enabling label-free multi-label image recognition. Our approach consists of two key stages, ``cutting'' and ``sewing'': In the cutting stage, we present the multi-sampling response estimator to prevent the model from concentrating only on one single object. In the second sewing stage, the multi-object blend adaptation is introduced to adjust the labels to better conform to the multi-label distribution while preserving the intrinsic characteristics of the original model within only one epoch. Extensive experiments show that our framework significantly outperforms existing unsupervised approaches on four public datasets, even surpassing several representative weakly supervised baselines. These results demonstrate the potential of adapting pre-trained VLMs for more comprehensive visual understanding without manual annotations. Our code is publicly available at https://github.com/iCVTEAM/TailorCLIP.",
+  "published": "2026-06-10",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2606.11626v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T14:20:25Z"
+}

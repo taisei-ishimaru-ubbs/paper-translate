@@ -130,7 +130,7 @@ tags: [paper]
 - [Uncorrelated domain adaptation and its application in fault detection and identification](https://doi.org/10.1007/s11227-025-08073-1)
 - [Prompt Estimation from Prototypes for Federated Prompt Tuning of Vision Transformers](https://arxiv.org/abs/2510.25372)
 - [Tensor-Aggregated LoRA in Federated Fine-Tuning](https://doi.org/10.1109/ICCV51701.2025.00106)
-- [Cooperative Pseudo Labeling for Unsupervised Federated Classification](https://arxiv.org/abs/2510.10100)
+- [[cooperative_pseudo_labeling_for_unsupervised_federated_classification|Cooperative Pseudo Labeling for Unsupervised Federated Classification]]
 - [Communication-Efficient and Accurate Approach for Aggregation in Federated Low-Rank Adaptation](https://arxiv.org/abs/2509.26399)
 - [C2Prompt: Class-aware Client Knowledge Interaction for Federated Continual Learning](https://arxiv.org/abs/2509.19674)
 - [Global Prompt Refinement with Non-Interfering Attention Masking for One-Shot Federated Learning](https://arxiv.org/abs/2509.22700)
