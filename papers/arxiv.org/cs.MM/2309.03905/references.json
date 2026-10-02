@@ -1,0 +1,1874 @@
+{
+  "id": "2309.03905",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "54c68b8623505dc6bf7a0b08aaa77ca9165f2d7f",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2309-03905",
+      "ArXiv": "2309.03905",
+      "DOI": "10.48550/arXiv.2309.03905",
+      "CorpusId": 261582620
+    },
+    "url": "https://www.semanticscholar.org/paper/54c68b8623505dc6bf7a0b08aaa77ca9165f2d7f",
+    "title": "ImageBind-LLM: Multi-modality Instruction Tuning"
+  },
+  "references": [
+    {
+      "paper_id": "22ebfc211d184ed615729378a43fde175bf14478",
+      "arxiv_id": "2309.00615",
+      "doi": "10.48550/arXiv.2309.00615",
+      "title": "Point-Bind & Point-LLM: Aligning Point Cloud with Multi-modality for 3D Understanding, Generation, and Instruction Following",
+      "url": "https://www.semanticscholar.org/paper/22ebfc211d184ed615729378a43fde175bf14478"
+    },
+    {
+      "paper_id": "697e0add95e880bd42e00bef838181e105f91981",
+      "arxiv_id": "2306.13394",
+      "doi": "10.48550/arXiv.2306.13394",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/697e0add95e880bd42e00bef838181e105f91981"
+    },
+    {
+      "paper_id": "5d321194696f1f75cf9da045e6022b2f20ba5b9c",
+      "arxiv_id": "2306.02858",
+      "doi": "10.48550/arXiv.2306.02858",
+      "title": "Video-LLaMA: An Instruction-tuned Audio-Visual Language Model for Video Understanding",
+      "url": "https://www.semanticscholar.org/paper/5d321194696f1f75cf9da045e6022b2f20ba5b9c"
+    },
+    {
+      "paper_id": "b458fc5261595f44b36325e5eaea1f874d65138f",
+      "arxiv_id": "2305.18752",
+      "doi": "10.48550/arXiv.2305.18752",
+      "title": "GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction",
+      "url": "https://www.semanticscholar.org/paper/b458fc5261595f44b36325e5eaea1f874d65138f"
+    },
+    {
+      "paper_id": "d3f79210b54e168c76b8c311488f42d7d1048b81",
+      "arxiv_id": "2305.16355",
+      "doi": "10.48550/arXiv.2305.16355",
+      "title": "PandaGPT: One Model To Instruction-Follow Them All",
+      "url": "https://www.semanticscholar.org/paper/d3f79210b54e168c76b8c311488f42d7d1048b81"
+    },
+    {
+      "paper_id": "f9bfc6d9ba1665b73af3323d46c7642b852759ef",
+      "arxiv_id": "2305.13292",
+      "doi": "10.48550/arXiv.2305.13292",
+      "title": "VideoLLM: Modeling Video Sequence with Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/f9bfc6d9ba1665b73af3323d46c7642b852759ef"
+    },
+    {
+      "paper_id": "8bd6a2a89503be083176f2cc26fabedb79238cbd",
+      "arxiv_id": "2305.06500",
+      "doi": "10.48550/arXiv.2305.06500",
+      "title": "InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/8bd6a2a89503be083176f2cc26fabedb79238cbd"
+    },
+    {
+      "paper_id": "7dc6da87eaa6f830354feb2db14023cab8678c91",
+      "arxiv_id": "2305.05665",
+      "doi": "10.1109/CVPR52729.2023.01457",
+      "title": "ImageBind One Embedding Space to Bind Them All",
+      "url": "https://www.semanticscholar.org/paper/7dc6da87eaa6f830354feb2db14023cab8678c91"
+    },
+    {
+      "paper_id": "d6d3604f369bb0415cbe814e43ca3131323b03e2",
+      "arxiv_id": "2305.03726",
+      "doi": "10.1109/TPAMI.2025.3571946",
+      "title": "Otter: A Multi-Modal Model With In-Context Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/d6d3604f369bb0415cbe814e43ca3131323b03e2"
+    },
+    {
+      "paper_id": "570079bbdd8758dfe865097e05719313c9c1301a",
+      "arxiv_id": "2304.15010",
+      "doi": "10.48550/arXiv.2304.15010",
+      "title": "LLaMA-Adapter V2: Parameter-Efficient Visual Instruction Model",
+      "url": "https://www.semanticscholar.org/paper/570079bbdd8758dfe865097e05719313c9c1301a"
+    },
+    {
+      "paper_id": "ca6a2bc279be5a3349a22bfd6866ed633d18734b",
+      "arxiv_id": "2304.10592",
+      "doi": "10.48550/arXiv.2304.10592",
+      "title": "MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/ca6a2bc279be5a3349a22bfd6866ed633d18734b"
+    },
+    {
+      "paper_id": "a5036f31f0e629dc661f120b8c3b1f374d479ab8",
+      "arxiv_id": "2304.08485",
+      "doi": "10.48550/arXiv.2304.08485",
+      "title": "Visual Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/a5036f31f0e629dc661f120b8c3b1f374d479ab8"
+    },
+    {
+      "paper_id": "df958800014d310b6df34ad83d771314d68fbb2d",
+      "arxiv_id": "2304.06939",
+      "doi": "10.48550/arXiv.2304.06939",
+      "title": "Multimodal C4: An Open, Billion-scale Corpus of Images Interleaved With Text",
+      "url": "https://www.semanticscholar.org/paper/df958800014d310b6df34ad83d771314d68fbb2d"
+    },
+    {
+      "paper_id": "721f9afcfe45c70ba0a98f8aed833e28b278b275",
+      "arxiv_id": "2304.06648",
+      "doi": "10.1109/ICCV51070.2023.00390",
+      "title": "DiffFit: Unlocking Transferability of Large Diffusion Models via Simple Parameter-Efficient Fine-Tuning",
+      "url": "https://www.semanticscholar.org/paper/721f9afcfe45c70ba0a98f8aed833e28b278b275"
+    },
+    {
+      "paper_id": "9e8cb8c91a0acb6e661b58ad724aa758490f2bea",
+      "arxiv_id": "2304.03277",
+      "doi": "",
+      "title": "Instruction Tuning with GPT-4",
+      "url": "https://www.semanticscholar.org/paper/9e8cb8c91a0acb6e661b58ad724aa758490f2bea"
+    },
+    {
+      "paper_id": "db1c83ef73d2f7731b0dd255835f2f26db749e17",
+      "arxiv_id": "2304.01195",
+      "doi": "10.1109/ICCV51070.2023.00246",
+      "title": "Not All Features Matter: Enhancing Few-shot CLIP with Adaptive Prior Refinement",
+      "url": "https://www.semanticscholar.org/paper/db1c83ef73d2f7731b0dd255835f2f26db749e17"
+    },
+    {
+      "paper_id": "a757999ed260d7bc45484dc6b4456bf33fe6f679",
+      "arxiv_id": "2303.16199",
+      "doi": "10.48550/arXiv.2303.16199",
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention",
+      "url": "https://www.semanticscholar.org/paper/a757999ed260d7bc45484dc6b4456bf33fe6f679"
+    },
+    {
+      "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "arxiv_id": "2303.08774",
+      "doi": "",
+      "title": "GPT-4 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/163b4d6a79a5b19af88b8585456363340d9efd04"
+    },
+    {
+      "paper_id": "7d406749ec70778e07afd1cc76ab2f4e671c7d75",
+      "arxiv_id": "2303.08134",
+      "doi": "10.48550/arXiv.2303.08134",
+      "title": "Parameter is Not All You Need: Starting from Non-Parametric Networks for 3D Point Cloud Analysis",
+      "url": "https://www.semanticscholar.org/paper/7d406749ec70778e07afd1cc76ab2f4e671c7d75"
+    },
+    {
+      "paper_id": "c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0",
+      "arxiv_id": "2303.05499",
+      "doi": "10.48550/arXiv.2303.05499",
+      "title": "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection",
+      "url": "https://www.semanticscholar.org/paper/c3e5a20b844c042d2174263d2fd5b30d8cc8f0b0"
+    },
+    {
+      "paper_id": "57e849d0de13ed5f91d086936296721d4ff75a75",
+      "arxiv_id": "2302.13971",
+      "doi": "",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "url": "https://www.semanticscholar.org/paper/57e849d0de13ed5f91d086936296721d4ff75a75"
+    },
+    {
+      "paper_id": "3f5b31c4f7350dc88002c121aecbdc82f86eb5bb",
+      "arxiv_id": "2301.12597",
+      "doi": "10.48550/arXiv.2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/3f5b31c4f7350dc88002c121aecbdc82f86eb5bb"
+    },
+    {
+      "paper_id": "6d1433f3342fbee85ad1e2809e62734aec5c3853",
+      "arxiv_id": "2301.12661",
+      "doi": "10.48550/arXiv.2301.12661",
+      "title": "Make-An-Audio: Text-To-Audio Generation with Prompt-Enhanced Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/6d1433f3342fbee85ad1e2809e62734aec5c3853"
+    },
+    {
+      "paper_id": "ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79",
+      "arxiv_id": "2211.16198",
+      "doi": "10.1109/ICCV51070.2023.00257",
+      "title": "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "d3135733aa39dec20ce72aa138589dda27c8406d",
+      "arxiv_id": "2209.09513",
+      "doi": "10.48550/arXiv.2209.09513",
+      "title": "Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering",
+      "url": "https://www.semanticscholar.org/paper/d3135733aa39dec20ce72aa138589dda27c8406d"
+    },
+    {
+      "paper_id": "4302f8942bf7f93a99b9667b4a18863100e1b3d6",
+      "arxiv_id": "2208.00438",
+      "doi": "10.48550/arXiv.2208.00438",
+      "title": "Toward Understanding WordArt: Corner-Guided Transformer for Scene Text Recognition",
+      "url": "https://www.semanticscholar.org/paper/4302f8942bf7f93a99b9667b4a18863100e1b3d6"
+    },
+    {
+      "paper_id": "354b48677e314ef2f47512c5a81723cfd17dd05d",
+      "arxiv_id": "2205.00363",
+      "doi": "10.1162/tacl_a_00566",
+      "title": "Visual Spatial Reasoning",
+      "url": "https://www.semanticscholar.org/paper/354b48677e314ef2f47512c5a81723cfd17dd05d"
+    },
+    {
+      "paper_id": "26218bdcc3945c7edae7aa2adbfba4cd820a2df3",
+      "arxiv_id": "2204.14198",
+      "doi": "10.52202/068431-1723",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/26218bdcc3945c7edae7aa2adbfba4cd820a2df3"
+    },
+    {
+      "paper_id": "a3b42a83669998f65df60d7c065a70d07ca95e99",
+      "arxiv_id": "2201.12086",
+      "doi": "",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "url": "https://www.semanticscholar.org/paper/a3b42a83669998f65df60d7c065a70d07ca95e99"
+    },
+    {
+      "paper_id": "f58acfeb022ba15282ec5fc047c98010311fa9da",
+      "arxiv_id": "2112.10752",
+      "doi": "10.1109/CVPR52688.2022.01042",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/f58acfeb022ba15282ec5fc047c98010311fa9da"
+    },
+    {
+      "paper_id": "1e91743216e8b9a0a7a2908634e7412084d3fc0f",
+      "arxiv_id": "2112.06558",
+      "doi": "10.1609/aaai.v36i3.20243",
+      "title": "MAGIC: Multimodal relAtional Graph adversarIal inferenCe for Diverse and Unpaired Text-based Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/1e91743216e8b9a0a7a2908634e7412084d3fc0f"
+    },
+    {
+      "paper_id": "f3ce9ba3fcec362b70263a7ed63d9404975496a0",
+      "arxiv_id": "2112.02413",
+      "doi": "10.1109/CVPR52688.2022.00836",
+      "title": "PointCLIP: Point Cloud Understanding by CLIP",
+      "url": "https://www.semanticscholar.org/paper/f3ce9ba3fcec362b70263a7ed63d9404975496a0"
+    },
+    {
+      "paper_id": "21ec90872abd986c12afe39bebe807732ffa70c9",
+      "arxiv_id": "2111.11432",
+      "doi": "",
+      "title": "Florence: A New Foundation Model for Computer Vision",
+      "url": "https://www.semanticscholar.org/paper/21ec90872abd986c12afe39bebe807732ffa70c9"
+    },
+    {
+      "paper_id": "e70b7eb3b22f0a49eb5e645be646d5f35d1e693a",
+      "arxiv_id": "2111.03930",
+      "doi": "",
+      "title": "Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling",
+      "url": "https://www.semanticscholar.org/paper/e70b7eb3b22f0a49eb5e645be646d5f35d1e693a"
+    },
+    {
+      "paper_id": "9c9123e2589e6e23b9d6cbb19db71e1a35bdbd23",
+      "arxiv_id": "2110.13214",
+      "doi": "",
+      "title": "IconQA: A New Benchmark for Abstract Diagram Understanding and Visual Language Reasoning",
+      "url": "https://www.semanticscholar.org/paper/9c9123e2589e6e23b9d6cbb19db71e1a35bdbd23"
+    },
+    {
+      "paper_id": "738e3e0623054da29dc57fc6aee5e6711867c4e8",
+      "arxiv_id": "2110.02624",
+      "doi": "10.1109/CVPR52688.2022.01805",
+      "title": "CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation",
+      "url": "https://www.semanticscholar.org/paper/738e3e0623054da29dc57fc6aee5e6711867c4e8"
+    },
+    {
+      "paper_id": "26684f2d8f9f348078585d062a7abd3168958def",
+      "arxiv_id": "2108.09661",
+      "doi": "10.1109/ICCV48922.2021.01393",
+      "title": "From Two to One: A New Scene Text Recognizer with Visual Language Modeling Network",
+      "url": "https://www.semanticscholar.org/paper/26684f2d8f9f348078585d062a7abd3168958def"
+    },
+    {
+      "paper_id": "fda4530df9eec0e3f714dba3459ac50dab17d89c",
+      "arxiv_id": "2106.13043",
+      "doi": "10.1109/icassp43922.2022.9747631",
+      "title": "Audioclip: Extending Clip to Image, Text and Audio",
+      "url": "https://www.semanticscholar.org/paper/fda4530df9eec0e3f714dba3459ac50dab17d89c"
+    },
+    {
+      "paper_id": "339b2b711fb5b228d097b03ebc3e62a521779235",
+      "arxiv_id": "2106.10199",
+      "doi": "10.18653/v1/2022.acl-short.1",
+      "title": "BitFit: Simple Parameter-efficient Fine-tuning for Transformer-based Masked Language-models",
+      "url": "https://www.semanticscholar.org/paper/339b2b711fb5b228d097b03ebc3e62a521779235"
+    },
+    {
+      "paper_id": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "arxiv_id": "2106.09685",
+      "doi": "",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "394be105b87e9bfe72c20efe6338de10604e1a11",
+      "arxiv_id": "2102.08981",
+      "doi": "10.1109/CVPR46437.2021.00356",
+      "title": "Conceptual 12M: Pushing Web-Scale Image-Text Pre-Training To Recognize Long-Tail Visual Concepts",
+      "url": "https://www.semanticscholar.org/paper/394be105b87e9bfe72c20efe6338de10604e1a11"
+    },
+    {
+      "paper_id": "141a5033d9994242b18bb3b217e79582f1ee9306",
+      "arxiv_id": "2102.05918",
+      "doi": "",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/141a5033d9994242b18bb3b217e79582f1ee9306"
+    },
+    {
+      "paper_id": "b40bfcf339de3f0dba08fabb2b58b9368ff4c51a",
+      "arxiv_id": "2007.00398",
+      "doi": "10.1109/WACV48630.2021.00225",
+      "title": "DocVQA: A Dataset for VQA on Document Images",
+      "url": "https://www.semanticscholar.org/paper/b40bfcf339de3f0dba08fabb2b58b9368ff4c51a"
+    },
+    {
+      "paper_id": "84ef2cf4f73bb4eae7ae63fbca04a4d774b75ac7",
+      "arxiv_id": "2003.00152",
+      "doi": "",
+      "title": "Training BatchNorm and Only BatchNorm: On the Expressive Power of Random Features in CNNs",
+      "url": "https://www.semanticscholar.org/paper/84ef2cf4f73bb4eae7ae63fbca04a4d774b75ac7"
+    },
+    {
+      "paper_id": "7be8c119dbe065c52125ee7716601751f3116844",
+      "arxiv_id": "1911.00172",
+      "doi": "",
+      "title": "Generalization through Memorization: Nearest Neighbor Language Models",
+      "url": "https://www.semanticscholar.org/paper/7be8c119dbe065c52125ee7716601751f3116844"
+    },
+    {
+      "paper_id": "10eda4521c032adabaa8e70d6569e17370b29dcd",
+      "arxiv_id": "1910.07467",
+      "doi": "10.5167/UZH-177483",
+      "title": "Root Mean Square Layer Normalization",
+      "url": "https://www.semanticscholar.org/paper/10eda4521c032adabaa8e70d6569e17370b29dcd"
+    },
+    {
+      "paper_id": "1097cf8cf5961589ff693b069002e7181e24e631",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDAR.2019.00156",
+      "title": "OCR-VQA: Visual Question Answering by Reading Text in Images",
+      "url": "https://www.semanticscholar.org/paper/1097cf8cf5961589ff693b069002e7181e24e631"
+    },
+    {
+      "paper_id": "d00cbb0c05c1dc922126fe72c1078b773d01c688",
+      "arxiv_id": "2103.10213",
+      "doi": "10.1109/ICDAR.2019.00244",
+      "title": "ICDAR2019 Competition on Scanned Receipt OCR and Information Extraction",
+      "url": "https://www.semanticscholar.org/paper/d00cbb0c05c1dc922126fe72c1078b773d01c688"
+    },
+    {
+      "paper_id": "4b3b0d8d5a24630c940049442a8d824534faf8b9",
+      "arxiv_id": "1907.00490",
+      "doi": "10.1109/ICDAR.2019.00251",
+      "title": "ICDAR 2019 Competition on Scene Text Visual Question Answering",
+      "url": "https://www.semanticscholar.org/paper/4b3b0d8d5a24630c940049442a8d824534faf8b9"
+    },
+    {
+      "paper_id": "a440bcf181c7f7b072ef178a067497c55805685a",
+      "arxiv_id": "",
+      "doi": "10.1016/J.PATCOG.2019.02.002",
+      "title": "Curved scene text detection via transverse and longitudinal sequence connection",
+      "url": "https://www.semanticscholar.org/paper/a440bcf181c7f7b072ef178a067497c55805685a"
+    },
+    {
+      "paper_id": "28ad018c39d1578bea84e7cedf94459e3dbe1e70",
+      "arxiv_id": "1906.00067",
+      "doi": "10.1109/CVPR.2019.00331",
+      "title": "OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge",
+      "url": "https://www.semanticscholar.org/paper/28ad018c39d1578bea84e7cedf94459e3dbe1e70"
+    },
+    {
+      "paper_id": "af1f7739283bdbd2b7a94903041f6d6afd991907",
+      "arxiv_id": "1904.08920",
+      "doi": "10.1109/CVPR.2019.00851",
+      "title": "Towards VQA Models That Can Read",
+      "url": "https://www.semanticscholar.org/paper/af1f7739283bdbd2b7a94903041f6d6afd991907"
+    },
+    {
+      "paper_id": "a7ac99d7cf3f568ab1a741392144b646b856ae0c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2019.00686",
+      "title": "GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering",
+      "url": "https://www.semanticscholar.org/paper/a7ac99d7cf3f568ab1a741392144b646b856ae0c"
+    },
+    {
+      "paper_id": "b4df354db88a70183a64dbc9e56cf14e7669a6c0",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/P18-1238",
+      "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/b4df354db88a70183a64dbc9e56cf14e7669a6c0"
+    },
+    {
+      "paper_id": "729f20fa5928514768f4e0d848e74e5eecc33174",
+      "arxiv_id": "1710.10400",
+      "doi": "10.1109/ICDAR.2017.157",
+      "title": "Total-Text: A Comprehensive Dataset for Scene Text Detection and Recognition",
+      "url": "https://www.semanticscholar.org/paper/729f20fa5928514768f4e0d848e74e5eecc33174"
+    },
+    {
+      "paper_id": "2cbb8de53759e75411bc528518947a3094fbce3a",
+      "arxiv_id": "1702.08734",
+      "doi": "10.1109/tbdata.2019.2921572",
+      "title": "Billion-Scale Similarity Search with GPUs",
+      "url": "https://www.semanticscholar.org/paper/2cbb8de53759e75411bc528518947a3094fbce3a"
+    },
+    {
+      "paper_id": "1b80416cc2b05954941ac7e7dcbcc358c10e5ace",
+      "arxiv_id": "1611.08669",
+      "doi": "10.1109/CVPR.2017.121",
+      "title": "Visual Dialog",
+      "url": "https://www.semanticscholar.org/paper/1b80416cc2b05954941ac7e7dcbcc358c10e5ace"
+    },
+    {
+      "paper_id": "97fb4e3d45bb098e27e0071448b6152217bd35a5",
+      "arxiv_id": "1607.06450",
+      "doi": "",
+      "title": "Layer Normalization",
+      "url": "https://www.semanticscholar.org/paper/97fb4e3d45bb098e27e0071448b6152217bd35a5"
+    },
+    {
+      "paper_id": "de5e7320729f5d3cbb6709eb6329ec41ace8c95d",
+      "arxiv_id": "1606.08415",
+      "doi": "",
+      "title": "Gaussian Error Linear Units (GELUs)",
+      "url": "https://www.semanticscholar.org/paper/de5e7320729f5d3cbb6709eb6329ec41ace8c95d"
+    },
+    {
+      "paper_id": "be1bb4e4aa1fcf70281b4bd24d8cd31c04864bb6",
+      "arxiv_id": "1606.04080",
+      "doi": "",
+      "title": "Matching Networks for One Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/be1bb4e4aa1fcf70281b4bd24d8cd31c04864bb6"
+    },
+    {
+      "paper_id": "b7325b788320f96f7b152768226f16e390ab6475",
+      "arxiv_id": "1601.07140",
+      "doi": "",
+      "title": "COCO-Text: Dataset and Benchmark for Text Detection and Recognition in Natural Images",
+      "url": "https://www.semanticscholar.org/paper/b7325b788320f96f7b152768226f16e390ab6475"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "9b02f729e6d442f6872078f599fc9da5c3605cee",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDAR.2015.7333942",
+      "title": "ICDAR 2015 competition on Robust Reading",
+      "url": "https://www.semanticscholar.org/paper/9b02f729e6d442f6872078f599fc9da5c3605cee"
+    },
+    {
+      "paper_id": "696ca58d93f6404fea0fc75c62d1d7b378f47628",
+      "arxiv_id": "1504.00325",
+      "doi": "",
+      "title": "Microsoft COCO Captions: Data Collection and Evaluation Server",
+      "url": "https://www.semanticscholar.org/paper/696ca58d93f6404fea0fc75c62d1d7b378f47628"
+    },
+    {
+      "paper_id": "4077447a36920c6805387bbf25948d09180b6b17",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2014.07.008",
+      "title": "A robust arbitrary text detection system for natural scene images",
+      "url": "https://www.semanticscholar.org/paper/4077447a36920c6805387bbf25948d09180b6b17"
+    },
+    {
+      "paper_id": "33673d55b1f122cfa0ec159b2faa86dc4962ddd7",
+      "arxiv_id": "",
+      "doi": "10.1016/j.patcog.2014.03.023",
+      "title": "End-to-end scene text recognition using tree-structured models",
+      "url": "https://www.semanticscholar.org/paper/33673d55b1f122cfa0ec159b2faa86dc4962ddd7"
+    },
+    {
+      "paper_id": "5fce10b210128ab9dea6e5b8bf98324dc89c331b",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2013.76",
+      "title": "Recognizing Text with Perspective Distortion in Natural Scenes",
+      "url": "https://www.semanticscholar.org/paper/5fce10b210128ab9dea6e5b8bf98324dc89c331b"
+    },
+    {
+      "paper_id": "fcd7b547bf0a6646a282f521db880e74974aa838",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDAR.2013.221",
+      "title": "ICDAR 2013 Robust Reading Competition",
+      "url": "https://www.semanticscholar.org/paper/fcd7b547bf0a6646a282f521db880e74974aa838"
+    },
+    {
+      "paper_id": "13167f9cd8c7906ca808b01d28dca6dd951da8a5",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The ACL Anthology Network Corpus as a Resource for NLP-based Bibliometrics",
+      "url": "https://www.semanticscholar.org/paper/13167f9cd8c7906ca808b01d28dca6dd951da8a5"
+    },
+    {
+      "paper_id": "66b71064b99331f908b60cb6d138f2ebea5bdcca",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2012.6247990",
+      "title": "Top-down and bottom-up cues for scene text recognition",
+      "url": "https://www.semanticscholar.org/paper/66b71064b99331f908b60cb6d138f2ebea5bdcca"
+    },
+    {
+      "paper_id": "8e080b98efbe65c02a116439205ca2344b9f7cd4",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Im2Text: Describing Images Using 1 Million Captioned Photographs",
+      "url": "https://www.semanticscholar.org/paper/8e080b98efbe65c02a116439205ca2344b9f7cd4"
+    },
+    {
+      "paper_id": "cfdd423c8672a7b178ea85d56079328df4eea647",
+      "arxiv_id": "",
+      "doi": "10.1007/S10579-010-9124-X",
+      "title": "Steven Bird, Ewan Klein and Edward Loper: Natural Language Processing with Python, Analyzing Text with the Natural Language Toolkit",
+      "url": "https://www.semanticscholar.org/paper/cfdd423c8672a7b178ea85d56079328df4eea647"
+    },
+    {
+      "paper_id": "8a960ea40fe7b32a1ee702a84f64ec1de5c3e7fe",
+      "arxiv_id": "",
+      "doi": "10.1145/1866029.1866080",
+      "title": "VizWiz: nearly real-time answers to visual questions",
+      "url": "https://www.semanticscholar.org/paper/8a960ea40fe7b32a1ee702a84f64ec1de5c3e7fe"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Vicuna: An Open-Source Chatbot Impressing GPT-4 with 90%",
+      "url": ""
+    },
+    {
+      "paper_id": "16202038ce3979991c206bda0a17a1ec759c67f3",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2302.07937",
+      "title": "The Expressive Power of Tuning Only the Norm Layers",
+      "url": "https://www.semanticscholar.org/paper/16202038ce3979991c206bda0a17a1ec759c67f3"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Point-Bind: Align 3D Point Clouds with Multi-modalities",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "COYO-700M: Image-Text Pair Dataset",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Pandagpt: One model to 21",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "OpenFlamingo",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "b6076b829bb6db80b6bfe722797b319fc8812716",
+      "arxiv_id": "2609.29329",
+      "doi": "",
+      "title": "Hyperbolic Multimodal Continual Learning: A Closest-Admissible Solution",
+      "url": "https://www.semanticscholar.org/paper/b6076b829bb6db80b6bfe722797b319fc8812716"
+    },
+    {
+      "paper_id": "a275cdc594d55586e9447adff3707c29b4a8f23f",
+      "arxiv_id": "2608.09572",
+      "doi": "",
+      "title": "Hyperbolic Multimodal Continual Learning",
+      "url": "https://www.semanticscholar.org/paper/a275cdc594d55586e9447adff3707c29b4a8f23f"
+    },
+    {
+      "paper_id": "b6860e427e56a83f55b872d63c8dda27d05b821a",
+      "arxiv_id": "2607.08839",
+      "doi": "10.48550/arXiv.2607.08839",
+      "title": "Mixture of Probes: Learning from Privileged Modalities in Multimodal LLMs Through Probing",
+      "url": "https://www.semanticscholar.org/paper/b6860e427e56a83f55b872d63c8dda27d05b821a"
+    },
+    {
+      "paper_id": "af51cbe808ac6e3ba8d9e76fee32c2c909290799",
+      "arxiv_id": "",
+      "doi": "10.1108/ftinr-06-2025-0109",
+      "title": "Recommendation with generative models",
+      "url": "https://www.semanticscholar.org/paper/af51cbe808ac6e3ba8d9e76fee32c2c909290799"
+    },
+    {
+      "paper_id": "ec87bd23f1b3ea9e4049265099cee503d3c9e2f5",
+      "arxiv_id": "2605.18257",
+      "doi": "10.18653/v1/2026.findings-acl.987",
+      "title": "CodeBind: Decoupled Representation Learning for Multimodal Alignment with Unified Compositional Codebook",
+      "url": "https://www.semanticscholar.org/paper/ec87bd23f1b3ea9e4049265099cee503d3c9e2f5"
+    },
+    {
+      "paper_id": "56fb34a88cc772f834eb425f5454776d76080ba3",
+      "arxiv_id": "2604.23860",
+      "doi": "10.1109/icassp55912.2026.11460380",
+      "title": "Exploring Audio Hallucination in Egocentric Video Understanding",
+      "url": "https://www.semanticscholar.org/paper/56fb34a88cc772f834eb425f5454776d76080ba3"
+    },
+    {
+      "paper_id": "4b17dbf5646db2c5abbff1d351bd717a57f458db",
+      "arxiv_id": "",
+      "doi": "10.1145/3767295.3769389",
+      "title": "Efficient Multimodal Serving via Module Multiplexing",
+      "url": "https://www.semanticscholar.org/paper/4b17dbf5646db2c5abbff1d351bd717a57f458db"
+    },
+    {
+      "paper_id": "83fbcf412da9a83e1fbd65f9e73a97a8898781f2",
+      "arxiv_id": "2604.11043",
+      "doi": "10.1145/3770855.3818172",
+      "title": "EmergentBridge: Improving Zero-Shot Cross-Modal Transfer in Unified Multimodal Embedding Models",
+      "url": "https://www.semanticscholar.org/paper/83fbcf412da9a83e1fbd65f9e73a97a8898781f2"
+    },
+    {
+      "paper_id": "4a4587acd7c72bc8b56f1476031e01b553957dcb",
+      "arxiv_id": "2604.02689",
+      "doi": "10.48550/arXiv.2604.02689",
+      "title": "Efficient3D: A Unified Framework for Adaptive and Debiased Token Reduction in 3D MLLMs",
+      "url": "https://www.semanticscholar.org/paper/4a4587acd7c72bc8b56f1476031e01b553957dcb"
+    },
+    {
+      "paper_id": "3a26504efc921526772b7cb6be066e6c65269bb4",
+      "arxiv_id": "",
+      "doi": "10.1109/AIC65131.2026.11633836",
+      "title": "Gradient-Informed Mixture of Fusion Experts for Parameter-Efficient Multimodal Sentiment Analysis",
+      "url": "https://www.semanticscholar.org/paper/3a26504efc921526772b7cb6be066e6c65269bb4"
+    },
+    {
+      "paper_id": "52115285e93045c4c92e19ef5789f3e88c9f63b3",
+      "arxiv_id": "2603.27507",
+      "doi": "10.1109/TPAMI.2026.3679561",
+      "title": "Chat-Scene++: Exploiting Context-Rich Object Identification for 3D LLM",
+      "url": "https://www.semanticscholar.org/paper/52115285e93045c4c92e19ef5789f3e88c9f63b3"
+    },
+    {
+      "paper_id": "ba058b3c1b2d09c77610138beff334b858cba4a0",
+      "arxiv_id": "2603.21584",
+      "doi": "10.48550/arXiv.2603.21584",
+      "title": "SSAM: Singular Subspace Alignment for Merging Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/ba058b3c1b2d09c77610138beff334b858cba4a0"
+    },
+    {
+      "paper_id": "ead9ca51ab516fd9d82c4fe049f27f4d119d1c9c",
+      "arxiv_id": "2603.15093",
+      "doi": "10.48550/arXiv.2603.15093",
+      "title": "Beam Prediction Based on Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/ead9ca51ab516fd9d82c4fe049f27f4d119d1c9c"
+    },
+    {
+      "paper_id": "4df7473f26a871ae58448d5ad7e92811e6b8540b",
+      "arxiv_id": "2603.09809",
+      "doi": "10.1109/tmm.2026.3702530",
+      "title": "RA-SSU: Towards Fine-Grained Audio-Visual Learning with Region-Aware Sound Source Understanding",
+      "url": "https://www.semanticscholar.org/paper/4df7473f26a871ae58448d5ad7e92811e6b8540b"
+    },
+    {
+      "paper_id": "967b94cf65184cbc00d1449649fb864bc69e2868",
+      "arxiv_id": "2603.06090",
+      "doi": "10.48550/arXiv.2603.06090",
+      "title": "DeepSight: Bridging Depth Maps and Language with a Depth-Driven Multimodal Model",
+      "url": "https://www.semanticscholar.org/paper/967b94cf65184cbc00d1449649fb864bc69e2868"
+    },
+    {
+      "paper_id": "af2a24f0001635b41f455d28268839e1088ccaee",
+      "arxiv_id": "2603.03564",
+      "doi": "10.48550/arXiv.2603.03564",
+      "title": "Modeling Cross-vision Synergy for Unified Large Vision Model",
+      "url": "https://www.semanticscholar.org/paper/af2a24f0001635b41f455d28268839e1088ccaee"
+    },
+    {
+      "paper_id": "f899c214c9c782a05927ecdaf593348b5fcd9bc2",
+      "arxiv_id": "2603.01135",
+      "doi": "10.48550/arXiv.2603.01135",
+      "title": "FCN-LLM: Empower LLM for Brain Functional Connectivity Network Understanding via Graph-level Multi-task Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/f899c214c9c782a05927ecdaf593348b5fcd9bc2"
+    },
+    {
+      "paper_id": "e2b9e26d539dd8c926f62058719b224ccaaf3567",
+      "arxiv_id": "2602.03098",
+      "doi": "10.48550/arXiv.2602.03098",
+      "title": "TextME: Bridging Unseen Modalities Through Text Descriptions",
+      "url": "https://www.semanticscholar.org/paper/e2b9e26d539dd8c926f62058719b224ccaaf3567"
+    },
+    {
+      "paper_id": "55d7a568bff0562bb6fe7688dd80cb4ce036c77c",
+      "arxiv_id": "2601.21181",
+      "doi": "10.48550/arXiv.2601.21181",
+      "title": "MAD: Modality-Adaptive Decoding for Mitigating Cross-Modal Hallucinations in Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/55d7a568bff0562bb6fe7688dd80cb4ce036c77c"
+    },
+    {
+      "paper_id": "4c0f808e93482ab1d3459b6cde1e150ac79efed0",
+      "arxiv_id": "2601.19204",
+      "doi": "10.48550/arXiv.2601.19204",
+      "title": "MATA: A Trainable Hierarchical Automaton System for Multi-Agent Visual Reasoning",
+      "url": "https://www.semanticscholar.org/paper/4c0f808e93482ab1d3459b6cde1e150ac79efed0"
+    },
+    {
+      "paper_id": "d1487f24f4f3110196041a31bcddf5aa2b69032d",
+      "arxiv_id": "",
+      "doi": "10.1145/3788874",
+      "title": "Principled Evaluation of Multi-Label Persuasion in Advertisements with Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d1487f24f4f3110196041a31bcddf5aa2b69032d"
+    },
+    {
+      "paper_id": "711d83af8c72e162159e84b6373017612be73a5b",
+      "arxiv_id": "2601.13143",
+      "doi": "10.48550/arXiv.2601.13143",
+      "title": "FastAV: Efficient Token Pruning for Audio-Visual Large Language Model Inference",
+      "url": "https://www.semanticscholar.org/paper/711d83af8c72e162159e84b6373017612be73a5b"
+    },
+    {
+      "paper_id": "dbc38b769a0608f20b77efab7eea106901da5d7c",
+      "arxiv_id": "2601.04563",
+      "doi": "10.48550/arXiv.2601.04563",
+      "title": "A Vision for Multisensory Intelligence: Sensing, Science, and Synergy",
+      "url": "https://www.semanticscholar.org/paper/dbc38b769a0608f20b77efab7eea106901da5d7c"
+    },
+    {
+      "paper_id": "24d86af703aa78188e67f7ccb5e5b8548a589bb6",
+      "arxiv_id": "2601.01891",
+      "doi": "10.1109/WACVW68408.2026.00088",
+      "title": "Agentic Ai in Remote Sensing: Foundations, Taxonomy, and Emerging Systems",
+      "url": "https://www.semanticscholar.org/paper/24d86af703aa78188e67f7ccb5e5b8548a589bb6"
+    },
+    {
+      "paper_id": "1e9b548b64c873e50925adeb25aa90d2aebcbac8",
+      "arxiv_id": "",
+      "doi": "10.1007/s40747-025-02169-0",
+      "title": "Enhancing task-oriented robotic grasping via 3D affordance grounding from vision-language models",
+      "url": "https://www.semanticscholar.org/paper/1e9b548b64c873e50925adeb25aa90d2aebcbac8"
+    },
+    {
+      "paper_id": "dbdf4178ae121bf6cce414469f8ee256564bfe13",
+      "arxiv_id": "2512.03126",
+      "doi": "10.48550/arXiv.2512.03126",
+      "title": "Hierarchical Process Reward Models are Symbolic Vision Learners",
+      "url": "https://www.semanticscholar.org/paper/dbdf4178ae121bf6cce414469f8ee256564bfe13"
+    },
+    {
+      "paper_id": "cce5bb79198b74d940fd05134f4476b7e3ef5075",
+      "arxiv_id": "2511.21251",
+      "doi": "10.48550/arXiv.2511.21251",
+      "title": "AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs",
+      "url": "https://www.semanticscholar.org/paper/cce5bb79198b74d940fd05134f4476b7e3ef5075"
+    },
+    {
+      "paper_id": "68b48464bee623775f990716cbe741baae42c58e",
+      "arxiv_id": "2511.05550",
+      "doi": "",
+      "title": "Assessing Factual Music Comprehension in Large Audio Language Models",
+      "url": "https://www.semanticscholar.org/paper/68b48464bee623775f990716cbe741baae42c58e"
+    },
+    {
+      "paper_id": "83c809b241bc56d1651cc537143056e1e4422742",
+      "arxiv_id": "",
+      "doi": "10.3724/2096-7004.di.2025.0164",
+      "title": "Optimizing Cross-Modality Alignment Module for Audio Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/83c809b241bc56d1651cc537143056e1e4422742"
+    },
+    {
+      "paper_id": "60e2f72945669a555403ab3f0e5b8bf62bbd56c4",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3755296",
+      "title": "VL-DynaRefine: A Vision-Language Dynamic Refinement Approach for Visual Reasoning",
+      "url": "https://www.semanticscholar.org/paper/60e2f72945669a555403ab3f0e5b8bf62bbd56c4"
+    },
+    {
+      "paper_id": "9e951000b84fa79fd0f616b3948367729e0dac42",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00132",
+      "title": "Scaling Omni-Modal Pretraining with Multimodal Context: Advancing Universal Representation Learning Across Modalities",
+      "url": "https://www.semanticscholar.org/paper/9e951000b84fa79fd0f616b3948367729e0dac42"
+    },
+    {
+      "paper_id": "afa30854d7eaa8f32d1743e779ed0d527d343814",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00308",
+      "title": "MISSRAG: Addressing the Missing Modality Challenge in Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/afa30854d7eaa8f32d1743e779ed0d527d343814"
+    },
+    {
+      "paper_id": "fba2107050280aff366ce077dce0e4c09e359bbf",
+      "arxiv_id": "",
+      "doi": "10.1007/s11432-024-4591-x",
+      "title": "From unimodal to multimodal: a framework for generating high-quality multimodal emotional chit-chat dialogue",
+      "url": "https://www.semanticscholar.org/paper/fba2107050280aff366ce077dce0e4c09e359bbf"
+    },
+    {
+      "paper_id": "3dfb7084f85dd2d9d63717c649b71154f7f08068",
+      "arxiv_id": "2509.04606",
+      "doi": "10.48550/arXiv.2509.04606",
+      "title": "Sample-efficient Integration of New Modalities into Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/3dfb7084f85dd2d9d63717c649b71154f7f08068"
+    },
+    {
+      "paper_id": "ad256639709c474a656f018d62a5669575d4dc8c",
+      "arxiv_id": "",
+      "doi": "10.1080/17538947.2025.2545584",
+      "title": "Soundscape-to-panorama: spatialize auditory perception by linking acoustic environment to panorama",
+      "url": "https://www.semanticscholar.org/paper/ad256639709c474a656f018d62a5669575d4dc8c"
+    },
+    {
+      "paper_id": "bfe1d603af57cd644848104508bf3de862e8dd94",
+      "arxiv_id": "2508.10745",
+      "doi": "10.48550/arXiv.2508.10745",
+      "title": "Agentic Design Review System",
+      "url": "https://www.semanticscholar.org/paper/bfe1d603af57cd644848104508bf3de862e8dd94"
+    },
+    {
+      "paper_id": "5ae5b98a244e1453c3fd4b4d6f7add070e305cd6",
+      "arxiv_id": "",
+      "doi": "10.1371/journal.pone.0329590",
+      "title": "EIM: An effective solution for improving multi-modal large language models",
+      "url": "https://www.semanticscholar.org/paper/5ae5b98a244e1453c3fd4b4d6f7add070e305cd6"
+    },
+    {
+      "paper_id": "a5e711d283bd746e9d826bd737d25d4f3b6c54b0",
+      "arxiv_id": "2508.07470",
+      "doi": "10.48550/arXiv.2508.07470",
+      "title": "AURA: A Fine-Grained Benchmark and Decomposed Metric for Audio-Visual Reasoning",
+      "url": "https://www.semanticscholar.org/paper/a5e711d283bd746e9d826bd737d25d4f3b6c54b0"
+    },
+    {
+      "paper_id": "743f74e11e6287a3570752d5781ba591b0db1923",
+      "arxiv_id": "2508.05064",
+      "doi": "10.48550/arXiv.2508.05064",
+      "title": "A Study of the Framework and Real-World Applications of Language Embedding for 3D Scene Understanding",
+      "url": "https://www.semanticscholar.org/paper/743f74e11e6287a3570752d5781ba591b0db1923"
+    },
+    {
+      "paper_id": "9904772687063efc0911733fd98fb832b1197819",
+      "arxiv_id": "2507.20110",
+      "doi": "10.48550/arXiv.2507.20110",
+      "title": "NeuroVoxel-LM: Language-Aligned 3D Perception via Dynamic Voxelization and Meta-Embedding",
+      "url": "https://www.semanticscholar.org/paper/9904772687063efc0911733fd98fb832b1197819"
+    },
+    {
+      "paper_id": "adfc19ad22c2ba146e6c3bb27320564c65676256",
+      "arxiv_id": "2507.18053",
+      "doi": "",
+      "title": "Resource Consumption Red-Teaming for Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/adfc19ad22c2ba146e6c3bb27320564c65676256"
+    },
+    {
+      "paper_id": "4cb9f7534cddd907b4a6cb423c66a111da238f3d",
+      "arxiv_id": "2507.14555",
+      "doi": "10.1109/WACV61042.2026.00175",
+      "title": "Descrip3D: Enhancing Large Language Model-based 3D Scene Understanding with Object-Level Text Descriptions",
+      "url": "https://www.semanticscholar.org/paper/4cb9f7534cddd907b4a6cb423c66a111da238f3d"
+    },
+    {
+      "paper_id": "ee51a505f54a988e674e0100dd37ecbfb1f3d8eb",
+      "arxiv_id": "2507.09334",
+      "doi": "10.1145/3746027.3755119",
+      "title": "Fast3D: Accelerating 3D Multi-modal Large Language Models for Efficient 3D Scene Understanding",
+      "url": "https://www.semanticscholar.org/paper/ee51a505f54a988e674e0100dd37ecbfb1f3d8eb"
+    },
+    {
+      "paper_id": "d7e78d94099dbb98e554a318d08ee621e4e289ef",
+      "arxiv_id": "2506.23120",
+      "doi": "10.1109/ICCV51701.2025.00736",
+      "title": "Enhancing Spatial Reasoning in Multimodal Large Language Models Through Reasoning-Based Segmentation",
+      "url": "https://www.semanticscholar.org/paper/d7e78d94099dbb98e554a318d08ee621e4e289ef"
+    },
+    {
+      "paper_id": "a62e325b62112a326c4b30ffeff13f2989eae109",
+      "arxiv_id": "2506.10574",
+      "doi": "10.48550/arXiv.2506.10574",
+      "title": "DanceChat: Large Language Model-Guided Music-to-Dance Generation",
+      "url": "https://www.semanticscholar.org/paper/a62e325b62112a326c4b30ffeff13f2989eae109"
+    },
+    {
+      "paper_id": "04e8103c5049fd95eb99d218d2e9cd0c29f13dbb",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.02669",
+      "title": "Let’s Verify and Reinforce Image Generation Step by Step",
+      "url": "https://www.semanticscholar.org/paper/04e8103c5049fd95eb99d218d2e9cd0c29f13dbb"
+    },
+    {
+      "paper_id": "781b2b4ccbe094077d7ff550e3c2e54ebc6e9689",
+      "arxiv_id": "2505.20873",
+      "doi": "10.48550/arXiv.2505.20873",
+      "title": "Fork-Merge Decoding: Enhancing Multimodal Understanding in Audio-Visual Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/781b2b4ccbe094077d7ff550e3c2e54ebc6e9689"
+    },
+    {
+      "paper_id": "d45adcfac2b0a6dbbed132d216e33833be4cdea3",
+      "arxiv_id": "2505.17015",
+      "doi": "10.48550/arXiv.2505.17015",
+      "title": "Multi-SpatialMLLM: Multi-Frame Spatial Understanding with Multi-Modal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/d45adcfac2b0a6dbbed132d216e33833be4cdea3"
+    },
+    {
+      "paper_id": "c6aff8c8b1d135e4bae687204e86ebecf681b501",
+      "arxiv_id": "2505.17110",
+      "doi": "10.48550/arXiv.2505.17110",
+      "title": "Multi-Modality Expansion and Retention for LLMs through Parameter Merging and Decoupling",
+      "url": "https://www.semanticscholar.org/paper/c6aff8c8b1d135e4bae687204e86ebecf681b501"
+    },
+    {
+      "paper_id": "5595c14f379574bf4ca6d66776af3c07be0b5149",
+      "arxiv_id": "2505.11895",
+      "doi": "",
+      "title": "Adversarial Robustness for Unified Multi-Modal Encoders via Efficient Calibration",
+      "url": "https://www.semanticscholar.org/paper/5595c14f379574bf4ca6d66776af3c07be0b5149"
+    },
+    {
+      "paper_id": "859d187ca4985c42fdea4909d614e2be0785a270",
+      "arxiv_id": "2505.05446",
+      "doi": "10.1109/CVPR52734.2025.02752",
+      "title": "Adaptive Markup Language Generation for Contextually-Grounded Visual Document Understanding",
+      "url": "https://www.semanticscholar.org/paper/859d187ca4985c42fdea4909d614e2be0785a270"
+    },
+    {
+      "paper_id": "f2b03b8666ed30e5323e82e9f9910c7ef4c9815f",
+      "arxiv_id": "",
+      "doi": "10.1109/CSCWD64889.2025.11033521",
+      "title": "3D Visual Question Answering via 2D-Enhanced Multi-Modal Fusion Framework",
+      "url": "https://www.semanticscholar.org/paper/f2b03b8666ed30e5323e82e9f9910c7ef4c9815f"
+    },
+    {
+      "paper_id": "a139cbd72a4c604f8259e1f0a36f08d8ad0f977d",
+      "arxiv_id": "2505.01950",
+      "doi": "10.48550/arXiv.2505.01950",
+      "title": "Segment Any RGB-Thermal Model with Language-aided Distillation",
+      "url": "https://www.semanticscholar.org/paper/a139cbd72a4c604f8259e1f0a36f08d8ad0f977d"
+    },
+    {
+      "paper_id": "b9a5a8d78539ff55990dac5c85e2015f5b5be3b0",
+      "arxiv_id": "2504.10443",
+      "doi": "10.48550/arXiv.2504.10443",
+      "title": "Multimodal Long Video Modeling Based on Temporal Dynamic Context",
+      "url": "https://www.semanticscholar.org/paper/b9a5a8d78539ff55990dac5c85e2015f5b5be3b0"
+    },
+    {
+      "paper_id": "43dbe20602785190e064cecb5b3bda685ef96e59",
+      "arxiv_id": "2504.08865",
+      "doi": "10.1109/ISSRE66568.2025.00044",
+      "title": "An Empirical Study of Production Incidents in Generative AI Cloud Services",
+      "url": "https://www.semanticscholar.org/paper/43dbe20602785190e064cecb5b3bda685ef96e59"
+    },
+    {
+      "paper_id": "0f6036897c56e3f76b0eff12d145d3cacc35f003",
+      "arxiv_id": "2504.07454",
+      "doi": "10.1109/ICCV51701.2025.02042",
+      "title": "How Can Objects Help Video-Language Understanding?",
+      "url": "https://www.semanticscholar.org/paper/0f6036897c56e3f76b0eff12d145d3cacc35f003"
+    },
+    {
+      "paper_id": "818f0cea10975fe6392a0e660969a206a90d8d6a",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49660.2025.10888340",
+      "title": "Improving Multimodal Large Language Models through Combining Resampler and MLP Projections",
+      "url": "https://www.semanticscholar.org/paper/818f0cea10975fe6392a0e660969a206a90d8d6a"
+    },
+    {
+      "paper_id": "acf1cd65b94a06e6aaf40d1afd3a9dda52b5f6d6",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49660.2025.10889200",
+      "title": "Exploring the Role of CLIP Global Visual Features in Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/acf1cd65b94a06e6aaf40d1afd3a9dda52b5f6d6"
+    },
+    {
+      "paper_id": "0a4b41acd625e69e67c3350fbd912e255072f7ce",
+      "arxiv_id": "2504.02624",
+      "doi": "",
+      "title": "EgoLog: Ego-Centric Fine-Grained Daily Log with Ubiquitous Wearables",
+      "url": "https://www.semanticscholar.org/paper/0a4b41acd625e69e67c3350fbd912e255072f7ce"
+    },
+    {
+      "paper_id": "3da3ddecc04054930ee6a0d11fc435b124f616e2",
+      "arxiv_id": "2504.02061",
+      "doi": "10.48550/arXiv.2504.02061",
+      "title": "Aligned Better, Listen Better for Audio-Visual Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/3da3ddecc04054930ee6a0d11fc435b124f616e2"
+    },
+    {
+      "paper_id": "039d368452bb2f5cfd947352006f57864452eb3e",
+      "arxiv_id": "2503.23219",
+      "doi": "10.1109/ICCV51701.2025.02126",
+      "title": "Aurelia: Test-Time Reasoning Distillation in Audio-Visual LLMs",
+      "url": "https://www.semanticscholar.org/paper/039d368452bb2f5cfd947352006f57864452eb3e"
+    },
+    {
+      "paper_id": "8471c9950c0eda9d806e64ab785b69614efb2f91",
+      "arxiv_id": "2503.22081",
+      "doi": "10.48550/arXiv.2503.22081",
+      "title": "A Survey on Remote Sensing Foundation Models: From Vision to Multimodality",
+      "url": "https://www.semanticscholar.org/paper/8471c9950c0eda9d806e64ab785b69614efb2f91"
+    },
+    {
+      "paper_id": "2c61b877169994a339cdec8ce8dc7200358992f9",
+      "arxiv_id": "2503.21775",
+      "doi": "10.1109/ICCV51701.2025.01240",
+      "title": "StyleMotif: Multi-Modal Motion Stylization using Style-Content Cross Fusion",
+      "url": "https://www.semanticscholar.org/paper/2c61b877169994a339cdec8ce8dc7200358992f9"
+    },
+    {
+      "paper_id": "6e79f77343e8538dec8e46b103a508f3b6266f2d",
+      "arxiv_id": "",
+      "doi": "10.1145/3708359.3712106",
+      "title": "SAE: A Multimodal Sentiment Analysis Large Language Model",
+      "url": "https://www.semanticscholar.org/paper/6e79f77343e8538dec8e46b103a508f3b6266f2d"
+    },
+    {
+      "paper_id": "0cf354cafef53b5c2eea60bfb6ca8f0bde852231",
+      "arxiv_id": "2503.17827",
+      "doi": "10.1109/ICCV51701.2025.01963",
+      "title": "4D-Bench: Benchmarking Multi-Modal Large Language Models for 4D Object Understanding",
+      "url": "https://www.semanticscholar.org/paper/0cf354cafef53b5c2eea60bfb6ca8f0bde852231"
+    },
+    {
+      "paper_id": "f2cfbe7e6a5528bba217255fcb2a23c97ec17826",
+      "arxiv_id": "2503.14963",
+      "doi": "10.48550/arXiv.2503.14963",
+      "title": "Continual Multimodal Contrastive Learning",
+      "url": "https://www.semanticscholar.org/paper/f2cfbe7e6a5528bba217255fcb2a23c97ec17826"
+    },
+    {
+      "paper_id": "735a453c1511f369e5cb451064135f579c6e4517",
+      "arxiv_id": "2503.10529",
+      "doi": "10.1109/WACV61042.2026.00130",
+      "title": "PiSA: A Self-Augmented Data Engine and Training Strategy for 3D Understanding with Large Models",
+      "url": "https://www.semanticscholar.org/paper/735a453c1511f369e5cb451064135f579c6e4517"
+    },
+    {
+      "paper_id": "0a9e7f2d03003cdcf0ddd1715f75716b149c7767",
+      "arxiv_id": "2503.09321",
+      "doi": "10.48550/arXiv.2503.09321",
+      "title": "DAVE: Diagnostic benchmark for Audio Visual Evaluation",
+      "url": "https://www.semanticscholar.org/paper/0a9e7f2d03003cdcf0ddd1715f75716b149c7767"
+    },
+    {
+      "paper_id": "65f829a0943f4c5d9bc995077d5c85175dd1c39e",
+      "arxiv_id": "",
+      "doi": "10.3724/2096-7004.di.2025.0014",
+      "title": "MLLM-CTT: A Multimodal Large Language Model for Chart-to-Text Generation Based on LoRA Fine-Tuning",
+      "url": "https://www.semanticscholar.org/paper/65f829a0943f4c5d9bc995077d5c85175dd1c39e"
+    },
+    {
+      "paper_id": "46645af72afd568b02b3107635e083e02e6b4c2a",
+      "arxiv_id": "2503.00513",
+      "doi": "10.1109/CVPR52734.2025.01320",
+      "title": "Inst3D-LMM: Instance-Aware 3D Scene Understanding with Multi-modal Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/46645af72afd568b02b3107635e083e02e6b4c2a"
+    },
+    {
+      "paper_id": "1da79ca1d102a4a1d0e0caa574c3c05cdc617ffa",
+      "arxiv_id": "2502.16175",
+      "doi": "10.48550/arXiv.2502.16175",
+      "title": "Mojito: LLM-Aided Motion Instructor with Jitter-Reduced Inertial Tokens",
+      "url": "https://www.semanticscholar.org/paper/1da79ca1d102a4a1d0e0caa574c3c05cdc617ffa"
+    },
+    {
+      "paper_id": "f6075ce4db8dcc359c3ac97b85f2644dc5cadda6",
+      "arxiv_id": "2502.13508",
+      "doi": "10.48550/arXiv.2502.13508",
+      "title": "VLAS: Vision-Language-Action Model With Speech Instructions For Customized Robot Manipulation",
+      "url": "https://www.semanticscholar.org/paper/f6075ce4db8dcc359c3ac97b85f2644dc5cadda6"
+    },
+    {
+      "paper_id": "3a3bc05e68e4358404dca88c9bf8f4e18144bf6f",
+      "arxiv_id": "2501.02135",
+      "doi": "10.1109/ICCV51701.2025.00156",
+      "title": "AVTrustBench: Assessing and Enhancing Reliability and Robustness in Audio-Visual LLMs",
+      "url": "https://www.semanticscholar.org/paper/3a3bc05e68e4358404dca88c9bf8f4e18144bf6f"
+    },
+    {
+      "paper_id": "16d3049d687d8bdfecd339d996995b00da765509",
+      "arxiv_id": "2501.01426",
+      "doi": "10.48550/arXiv.2501.01426",
+      "title": "Unifying Specialized Visual Encoders for Video Language Models",
+      "url": "https://www.semanticscholar.org/paper/16d3049d687d8bdfecd339d996995b00da765509"
+    },
+    {
+      "paper_id": "6d8bfe049352982a767154d892d0fd2d7e1c7e87",
+      "arxiv_id": "2412.11694",
+      "doi": "10.18653/v1/2025.findings-acl.453",
+      "title": "From Specific-MLLMs to Omni-MLLMs: A Survey on MLLMs Aligned with Multi-modalities",
+      "url": "https://www.semanticscholar.org/paper/6d8bfe049352982a767154d892d0fd2d7e1c7e87"
+    },
+    {
+      "paper_id": "5c00d98c053b834a5e9de529376de62d4cadd5dc",
+      "arxiv_id": "2412.06967",
+      "doi": "10.1109/SLT61566.2024.10832227",
+      "title": "Effective Text Adaptation For LLM-Based ASR Through Soft Prompt Fine-Tuning",
+      "url": "https://www.semanticscholar.org/paper/5c00d98c053b834a5e9de529376de62d4cadd5dc"
+    },
+    {
+      "paper_id": "2fac048694a6bc8b817f2bbd6e54e4118ee7579b",
+      "arxiv_id": "2410.21269",
+      "doi": "10.48550/arXiv.2410.21269",
+      "title": "OmniSep: Unified Omni-Modality Sound Separation with Query-Mixup",
+      "url": "https://www.semanticscholar.org/paper/2fac048694a6bc8b817f2bbd6e54e4118ee7579b"
+    },
+    {
+      "paper_id": "2b9ca5582ab76a5ef4aeb5e36c274fa6628ab77f",
+      "arxiv_id": "2410.20034",
+      "doi": "10.1145/3699747",
+      "title": "Sensor2Text: Enabling Natural Language Interactions for Daily Activity Tracking Using Wearable Sensors",
+      "url": "https://www.semanticscholar.org/paper/2b9ca5582ab76a5ef4aeb5e36c274fa6628ab77f"
+    },
+    {
+      "paper_id": "9b05e1dfd158c307b74298df3d4608b93d2060a7",
+      "arxiv_id": "2410.18325",
+      "doi": "10.48550/arXiv.2410.18325",
+      "title": "AVHBench: A Cross-Modal Hallucination Benchmark for Audio-Visual Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/9b05e1dfd158c307b74298df3d4608b93d2060a7"
+    },
+    {
+      "paper_id": "bac4a080b5b8e0d9bbcc95328d894830a82e9703",
+      "arxiv_id": "2410.11564",
+      "doi": "10.1109/IROS60139.2025.11247667",
+      "title": "PAVLM: Advancing Point Cloud based Affordance Understanding Via Vision-Language Model",
+      "url": "https://www.semanticscholar.org/paper/bac4a080b5b8e0d9bbcc95328d894830a82e9703"
+    },
+    {
+      "paper_id": "90623aa899422b0804993a4b5a11c9b8226bd0bd",
+      "arxiv_id": "2410.08049",
+      "doi": "10.1109/TPAMI.2025.3600702",
+      "title": "Scaling Up Your Kernels: Large Kernel Design in ConvNets Toward Universal Representations",
+      "url": "https://www.semanticscholar.org/paper/90623aa899422b0804993a4b5a11c9b8226bd0bd"
+    },
+    {
+      "paper_id": "1c53ce6c7291134272a8125e13056e9bbade95a4",
+      "arxiv_id": "2410.14702",
+      "doi": "10.48550/arXiv.2410.14702",
+      "title": "Polymath: A Challenging Multi-modal Mathematical Reasoning Benchmark",
+      "url": "https://www.semanticscholar.org/paper/1c53ce6c7291134272a8125e13056e9bbade95a4"
+    },
+    {
+      "paper_id": "3c13b2eb054a3d4b4bf0f63c56fdeef746669fd0",
+      "arxiv_id": "2410.00255",
+      "doi": "10.1109/ICCV51701.2025.00372",
+      "title": "Robin3D Improving 3D Large Language Model via Robust Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/3c13b2eb054a3d4b4bf0f63c56fdeef746669fd0"
+    },
+    {
+      "paper_id": "2cdfff602a5710f0ed1aa652dd51f6e4088d731a",
+      "arxiv_id": "2409.18680",
+      "doi": "10.48550/arXiv.2409.18680",
+      "title": "Beyond Single-Audio: Advancing Multi-Audio Processing in Audio Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/2cdfff602a5710f0ed1aa652dd51f6e4088d731a"
+    },
+    {
+      "paper_id": "c0d9455a80ec53d77cbe0665c5fdfdf80e07a2c3",
+      "arxiv_id": "2409.17523",
+      "doi": "10.1145/3664647.3681618",
+      "title": "EAGLE: Egocentric AGgregated Language-video Engine",
+      "url": "https://www.semanticscholar.org/paper/c0d9455a80ec53d77cbe0665c5fdfdf80e07a2c3"
+    },
+    {
+      "paper_id": "2c0697de3deccb0fb88ca6674cfa3648943a8b00",
+      "arxiv_id": "2409.15278",
+      "doi": "10.48550/arXiv.2409.15278",
+      "title": "PixWizard: Versatile Image-to-Image Visual Assistant with Open-Language Instructions",
+      "url": "https://www.semanticscholar.org/paper/2c0697de3deccb0fb88ca6674cfa3648943a8b00"
+    },
+    {
+      "paper_id": "abf641a6e35224aa786c56dff9513a45d2976779",
+      "arxiv_id": "2409.12959",
+      "doi": "10.48550/arXiv.2409.12959",
+      "title": "MMSearch: Benchmarking the Potential of Large Models as Multi-modal Search Engines",
+      "url": "https://www.semanticscholar.org/paper/abf641a6e35224aa786c56dff9513a45d2976779"
+    },
+    {
+      "paper_id": "0b976b725b6a4df40f5f14fd295648c2bc4e3c15",
+      "arxiv_id": "2409.09564",
+      "doi": "10.48550/arXiv.2409.09564",
+      "title": "TG-LLaVA: Text Guided LLaVA via Learnable Latent Embeddings",
+      "url": "https://www.semanticscholar.org/paper/0b976b725b6a4df40f5f14fd295648c2bc4e3c15"
+    },
+    {
+      "paper_id": "6e6e5146acb0f7108c9e88dc6eb87c708ea799e1",
+      "arxiv_id": "2409.05427",
+      "doi": "10.48550/arXiv.2409.05427",
+      "title": "TextToucher: Fine-Grained Text-to-Touch Generation",
+      "url": "https://www.semanticscholar.org/paper/6e6e5146acb0f7108c9e88dc6eb87c708ea799e1"
+    },
+    {
+      "paper_id": "a64e32661c67b0501c4aef7aadc5e9cf99c9329f",
+      "arxiv_id": "2408.15980",
+      "doi": "10.1109/ICRA55743.2025.11128272",
+      "title": "ICRT: In-Context Imitation Learning via Next-Token Prediction",
+      "url": "https://www.semanticscholar.org/paper/a64e32661c67b0501c4aef7aadc5e9cf99c9329f"
+    },
+    {
+      "paper_id": "eb99bbc67f3b8d0981554298e6a4e90ccbef8624",
+      "arxiv_id": "",
+      "doi": "10.1111/exsy.13697",
+      "title": "Prospect of large language models and natural language processing for lung cancer diagnosis: A systematic review",
+      "url": "https://www.semanticscholar.org/paper/eb99bbc67f3b8d0981554298e6a4e90ccbef8624"
+    },
+    {
+      "paper_id": "4c0f64a2b3a61c33f2aadc8c3cec6e9e392e1a1c",
+      "arxiv_id": "",
+      "doi": "10.24963/ijcai.2025/1280",
+      "title": "What If LLMs Can Smell: A Prototype",
+      "url": "https://www.semanticscholar.org/paper/4c0f64a2b3a61c33f2aadc8c3cec6e9e392e1a1c"
+    },
+    {
+      "paper_id": "780827b3c1fb105b23476c0833838d4a633ae4a1",
+      "arxiv_id": "2407.20454",
+      "doi": "10.18653/v1/2025.emnlp-main.582",
+      "title": "CoMMIT: Coordinated Multimodal Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/780827b3c1fb105b23476c0833838d4a633ae4a1"
+    },
+    {
+      "paper_id": "71c7d4c7b1efe3931552274ec5b27c51844e3ad8",
+      "arxiv_id": "2407.16198",
+      "doi": "10.48550/arXiv.2407.16198",
+      "title": "INF-LLaVA: Dual-perspective Perception for High-Resolution Multimodal Large Language Model",
+      "url": "https://www.semanticscholar.org/paper/71c7d4c7b1efe3931552274ec5b27c51844e3ad8"
+    },
+    {
+      "paper_id": "079dd0b229a409341c16aff26f7b318eb2ee0a4b",
+      "arxiv_id": "2407.14020",
+      "doi": "10.48550/arXiv.2407.14020",
+      "title": "NeuroBind: Towards Unified Multimodal Representations for Neural Signals",
+      "url": "https://www.semanticscholar.org/paper/079dd0b229a409341c16aff26f7b318eb2ee0a4b"
+    },
+    {
+      "paper_id": "27ffb1e4ff862ff315263c51391b97455c0df240",
+      "arxiv_id": "2407.11895",
+      "doi": "10.48550/arXiv.2407.11895",
+      "title": "OmniBind: Large-scale Omni Multimodal Representation via Binding Spaces",
+      "url": "https://www.semanticscholar.org/paper/27ffb1e4ff862ff315263c51391b97455c0df240"
+    },
+    {
+      "paper_id": "aa0767b3b9a2b53df3913824aec23cb72f4f55c6",
+      "arxiv_id": "2407.11351",
+      "doi": "10.48550/arXiv.2407.11351",
+      "title": "Learning Modality-agnostic Representation for Semantic Segmentation from Any Modalities",
+      "url": "https://www.semanticscholar.org/paper/aa0767b3b9a2b53df3913824aec23cb72f4f55c6"
+    },
+    {
+      "paper_id": "dbaf0e52df492526a23fbdda6155929d05bd7598",
+      "arxiv_id": "2407.08739",
+      "doi": "",
+      "title": "MAVIS: Mathematical Visual Instruction Tuning with an Automatic Data Engine",
+      "url": "https://www.semanticscholar.org/paper/dbaf0e52df492526a23fbdda6155929d05bd7598"
+    },
+    {
+      "paper_id": "2e230519ef242e592b3c19765639008c7046424f",
+      "arxiv_id": "2407.07895",
+      "doi": "10.48550/arXiv.2407.07895",
+      "title": "LLaVA-NeXT-Interleave: Tackling Multi-image, Video, and 3D in Large Multimodal Models",
+      "url": "https://www.semanticscholar.org/paper/2e230519ef242e592b3c19765639008c7046424f"
+    },
+    {
+      "paper_id": "fd36c54ae4f81f1fca80c52125a14bee3a0b6711",
+      "arxiv_id": "2407.01525",
+      "doi": "10.48550/arXiv.2407.01525",
+      "title": "ScanReason: Empowering 3D Visual Grounding with Reasoning Capabilities",
+      "url": "https://www.semanticscholar.org/paper/fd36c54ae4f81f1fca80c52125a14bee3a0b6711"
+    },
+    {
+      "paper_id": "32179fd10f2c13c5566f09f1691bc15963f2289f",
+      "arxiv_id": "2406.18871",
+      "doi": "10.48550/arXiv.2406.18871",
+      "title": "DeSTA: Enhancing Speech Language Models through Descriptive Speech-Text Alignment",
+      "url": "https://www.semanticscholar.org/paper/32179fd10f2c13c5566f09f1691bc15963f2289f"
+    },
+    {
+      "paper_id": "8587aab141ace7842c5f6bcba05f4d020536d604",
+      "arxiv_id": "2406.15768",
+      "doi": "10.48550/arXiv.2406.15768",
+      "title": "MR-MLLM: Mutual Reinforcement of Multimodal Comprehension and Vision Perception",
+      "url": "https://www.semanticscholar.org/paper/8587aab141ace7842c5f6bcba05f4d020536d604"
+    },
+    {
+      "paper_id": "012f67968245090e5966122f5cf403e154ea60e5",
+      "arxiv_id": "2406.14877",
+      "doi": "10.48550/arXiv.2406.14877",
+      "title": "Sports Intelligence: Assessing the Sports Understanding Capabilities of Language Models through Question Answering from Text to Video",
+      "url": "https://www.semanticscholar.org/paper/012f67968245090e5966122f5cf403e154ea60e5"
+    },
+    {
+      "paper_id": "d019f8a137f62cd2c08ef42be54bbb980a8362f2",
+      "arxiv_id": "2406.11816",
+      "doi": "10.1109/CVPR52733.2024.01742",
+      "title": "VideoLLM-online: Online Video Large Language Model for Streaming Video",
+      "url": "https://www.semanticscholar.org/paper/d019f8a137f62cd2c08ef42be54bbb980a8362f2"
+    },
+    {
+      "paper_id": "df3dc23d8590cdad6b1462a0509180dd89bc05d2",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52733.2024.01538",
+      "title": "RILA: Reflective and Imaginative Language Agent for Zero-Shot Semantic Audio-Visual Navigation",
+      "url": "https://www.semanticscholar.org/paper/df3dc23d8590cdad6b1462a0509180dd89bc05d2"
+    },
+    {
+      "paper_id": "1c76caee0fd659253a042e91f87ea85b26a29594",
+      "arxiv_id": "2406.09412",
+      "doi": "10.48550/arXiv.2406.09412",
+      "title": "Explore the Limits of Omni-modal Pretraining at Scale",
+      "url": "https://www.semanticscholar.org/paper/1c76caee0fd659253a042e91f87ea85b26a29594"
+    },
+    {
+      "paper_id": "8f1c46e0938ed9dd4e106ede775bb8e75a8442f5",
+      "arxiv_id": "2406.08407",
+      "doi": "10.48550/arXiv.2406.08407",
+      "title": "MMWorld: Towards Multi-discipline Multi-faceted World Model Evaluation in Videos",
+      "url": "https://www.semanticscholar.org/paper/8f1c46e0938ed9dd4e106ede775bb8e75a8442f5"
+    },
+    {
+      "paper_id": "be58f40bc78b10d09adaa92bfa48788662f276d3",
+      "arxiv_id": "2406.05756",
+      "doi": "10.48550/arXiv.2406.05756",
+      "title": "EmbSpatial-Bench: Benchmarking Spatial Understanding for Embodied Tasks with Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/be58f40bc78b10d09adaa92bfa48788662f276d3"
+    },
+    {
+      "paper_id": "65a77fb005d7b378282ff2ef3fd42831a9d894a5",
+      "arxiv_id": "2406.06579",
+      "doi": "10.18653/v1/2025.naacl-long.115",
+      "title": "From Redundancy to Relevance: Information Flow in LVLMs Across Reasoning Tasks",
+      "url": "https://www.semanticscholar.org/paper/65a77fb005d7b378282ff2ef3fd42831a9d894a5"
+    },
+    {
+      "paper_id": "d4e0a19a5b0278654ec4d88cc5dc220671705faa",
+      "arxiv_id": "",
+      "doi": "10.1016/j.omtn.2024.102255",
+      "title": "Large language model to multimodal large language model: A journey to shape the biological macromolecules to biological sciences and medicine",
+      "url": "https://www.semanticscholar.org/paper/d4e0a19a5b0278654ec4d88cc5dc220671705faa"
+    },
+    {
+      "paper_id": "c728fcef84027f943311e9c95a1153450d86eb5a",
+      "arxiv_id": "",
+      "doi": "10.1016/j.compenvurbsys.2024.102122",
+      "title": "From hearing to seeing: Linking auditory and visual place perceptions with soundscape-to-image generative artificial intelligence",
+      "url": "https://www.semanticscholar.org/paper/c728fcef84027f943311e9c95a1153450d86eb5a"
+    },
+    {
+      "paper_id": "accff24f5f92e1cfbc3ef9ec5c6824e20eb73b56",
+      "arxiv_id": "2405.16108",
+      "doi": "10.48550/arXiv.2405.16108",
+      "title": "OmniBind: Teach to Build Unequal-Scale Modality Interaction for Omni-Bind of All",
+      "url": "https://www.semanticscholar.org/paper/accff24f5f92e1cfbc3ef9ec5c6824e20eb73b56"
+    },
+    {
+      "paper_id": "e1a4499ec0e70584736f6edf0579a1a12be6a5a8",
+      "arxiv_id": "2405.14040",
+      "doi": "10.48550/arXiv.2405.14040",
+      "title": "Synchronized Video Storytelling: Generating Video Narrations with Structured Storyline",
+      "url": "https://www.semanticscholar.org/paper/e1a4499ec0e70584736f6edf0579a1a12be6a5a8"
+    },
+    {
+      "paper_id": "c26c03cd1b7793be37b6dad4cd85e2d378a4c611",
+      "arxiv_id": "2405.10370",
+      "doi": "10.48550/arXiv.2405.10370",
+      "title": "Grounded 3D-LLM with Referent Tokens",
+      "url": "https://www.semanticscholar.org/paper/c26c03cd1b7793be37b6dad4cd85e2d378a4c611"
+    },
+    {
+      "paper_id": "a90560b3c9f52de21caccd82f151b092b45d9603",
+      "arxiv_id": "2405.13001",
+      "doi": "10.48550/arXiv.2405.13001",
+      "title": "Large Language Models for Education: A Survey",
+      "url": "https://www.semanticscholar.org/paper/a90560b3c9f52de21caccd82f151b092b45d9603"
+    },
+    {
+      "paper_id": "32916972d77cb09376f81176aca69eff39acdf2f",
+      "arxiv_id": "2405.04883",
+      "doi": "10.48550/arXiv.2405.04883",
+      "title": "FreeBind: Free Lunch in Unified Multimodal Space via Knowledge Fusion",
+      "url": "https://www.semanticscholar.org/paper/32916972d77cb09376f81176aca69eff39acdf2f"
+    },
+    {
+      "paper_id": "1b7492a4b813052146300fa8c03325c4ad7a0a25",
+      "arxiv_id": "2404.19543",
+      "doi": "10.48550/arXiv.2404.19543",
+      "title": "RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing",
+      "url": "https://www.semanticscholar.org/paper/1b7492a4b813052146300fa8c03325c4ad7a0a25"
+    },
+    {
+      "paper_id": "c2f3d3e847faf3a8448eabb5bd5fdb6bebbc3a05",
+      "arxiv_id": "2404.18930",
+      "doi": "10.48550/arXiv.2404.18930",
+      "title": "Hallucination of Multimodal Large Language Models: A Survey",
+      "url": "https://www.semanticscholar.org/paper/c2f3d3e847faf3a8448eabb5bd5fdb6bebbc3a05"
+    },
+    {
+      "paper_id": "e5c1e15e24708d169ef30c28d18a6d5cf3bd0836",
+      "arxiv_id": "2404.18202",
+      "doi": "10.1145/3664647.3681488",
+      "title": "WorldGPT: Empowering LLM as Multimodal World Model",
+      "url": "https://www.semanticscholar.org/paper/e5c1e15e24708d169ef30c28d18a6d5cf3bd0836"
+    },
+    {
+      "paper_id": "9738dde55ab77cc26271a5753db7dd7851176fd6",
+      "arxiv_id": "2404.07204",
+      "doi": "10.48550/arXiv.2404.07204",
+      "title": "BRAVE: Broadening the visual encoding of vision-language models",
+      "url": "https://www.semanticscholar.org/paper/9738dde55ab77cc26271a5753db7dd7851176fd6"
+    },
+    {
+      "paper_id": "a228b39e2ae168c7259911be782b2bcb9a6986e2",
+      "arxiv_id": "2403.19833",
+      "doi": "10.48550/arXiv.2403.19833",
+      "title": "ChatTracer: Large Language Model Powered Real-time Bluetooth Device Tracking System",
+      "url": "https://www.semanticscholar.org/paper/a228b39e2ae168c7259911be782b2bcb9a6986e2"
+    },
+    {
+      "paper_id": "6d017adda6b2b1ea627dde2f0e85401ebb9fe566",
+      "arxiv_id": "2403.14624",
+      "doi": "10.48550/arXiv.2403.14624",
+      "title": "MathVerse: Does Your Multi-modal LLM Truly See the Diagrams in Visual Math Problems?",
+      "url": "https://www.semanticscholar.org/paper/6d017adda6b2b1ea627dde2f0e85401ebb9fe566"
+    },
+    {
+      "paper_id": "4c4396c227c68bb89e1b937a7dadda73d41db33b",
+      "arxiv_id": "2403.13499",
+      "doi": "10.48550/arXiv.2403.13499",
+      "title": "Improved Baselines for Data-efficient Perceptual Augmentation of LLMs",
+      "url": "https://www.semanticscholar.org/paper/4c4396c227c68bb89e1b937a7dadda73d41db33b"
+    },
+    {
+      "paper_id": "d5f1391a226895faea2ef70dbd69bcf2d78547ab",
+      "arxiv_id": "2403.12884",
+      "doi": "10.48550/arXiv.2403.12884",
+      "title": "HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning",
+      "url": "https://www.semanticscholar.org/paper/d5f1391a226895faea2ef70dbd69bcf2d78547ab"
+    },
+    {
+      "paper_id": "eb6b054789ff8c9edf7c1d50667be5bdd95e019b",
+      "arxiv_id": "2403.04640",
+      "doi": "10.48550/arXiv.2403.04640",
+      "title": "CAT: Enhancing Multimodal Large Language Model to Answer Questions in Dynamic Audio-Visual Scenarios",
+      "url": "https://www.semanticscholar.org/paper/eb6b054789ff8c9edf7c1d50667be5bdd95e019b"
+    },
+    {
+      "paper_id": "904b37ae6466cc90826adce53ed23b1eee3dbde0",
+      "arxiv_id": "2402.16021",
+      "doi": "10.1109/TMM.2026.3659297",
+      "title": "TMT: Tri-Modal Translation Between Speech, Image, and Text by Processing Different Modalities as Different Languages",
+      "url": "https://www.semanticscholar.org/paper/904b37ae6466cc90826adce53ed23b1eee3dbde0"
+    },
+    {
+      "paper_id": "187de1107f760e10c52d29e9cd720fa63cb01ea8",
+      "arxiv_id": "2402.15151",
+      "doi": "10.48550/arXiv.2402.15151",
+      "title": "Where Visual Speech Meets Language: VSP-LLM Framework for Efficient and Context-Aware Visual Speech Processing",
+      "url": "https://www.semanticscholar.org/paper/187de1107f760e10c52d29e9cd720fa63cb01ea8"
+    },
+    {
+      "paper_id": "1de5b29e746bb33113b80a0997ef61a73ce70d78",
+      "arxiv_id": "2402.12750",
+      "doi": "10.48550/arXiv.2402.12750",
+      "title": "Model Composition for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/1de5b29e746bb33113b80a0997ef61a73ce70d78"
+    },
+    {
+      "paper_id": "2e467b1cf3d0dd35d92ebe7387eca7a0e48b3f7e",
+      "arxiv_id": "2402.05457",
+      "doi": "10.48550/arXiv.2402.05457",
+      "title": "It's Never Too Late: Fusing Acoustic Information into Large Language Models for Automatic Speech Recognition",
+      "url": "https://www.semanticscholar.org/paper/2e467b1cf3d0dd35d92ebe7387eca7a0e48b3f7e"
+    },
+    {
+      "paper_id": "ec8e2b45c4601730015608a58e33409224a81228",
+      "arxiv_id": "2402.05935",
+      "doi": "10.48550/arXiv.2402.05935",
+      "title": "SPHINX-X: Scaling Data and Parameters for a Family of Multi-modal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/ec8e2b45c4601730015608a58e33409224a81228"
+    },
+    {
+      "paper_id": "69e6dd39bf13d290fb9d885da90cc037f0dd2975",
+      "arxiv_id": "2402.01831",
+      "doi": "10.48550/arXiv.2402.01831",
+      "title": "Audio Flamingo: A Novel Audio Language Model with Few-Shot Learning and Dialogue Abilities",
+      "url": "https://www.semanticscholar.org/paper/69e6dd39bf13d290fb9d885da90cc037f0dd2975"
+    },
+    {
+      "paper_id": "fc4c380102d6f72657d1ab54dffd6be536bb01c7",
+      "arxiv_id": "2402.00253",
+      "doi": "10.48550/arXiv.2402.00253",
+      "title": "A Survey on Hallucination in Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/fc4c380102d6f72657d1ab54dffd6be536bb01c7"
+    },
+    {
+      "paper_id": "9e9baf1a5b76e3e9e09a06b6e1dd2c7e0f0a8402",
+      "arxiv_id": "2401.18084",
+      "doi": "10.1109/CVPR52733.2024.02488",
+      "title": "Binding Touch to Everything: Learning Unified Multimodal Tactile Representations",
+      "url": "https://www.semanticscholar.org/paper/9e9baf1a5b76e3e9e09a06b6e1dd2c7e0f0a8402"
+    },
+    {
+      "paper_id": "6b3d58d367b049532c0dd7a203eb0c17c94e734e",
+      "arxiv_id": "2401.17664",
+      "doi": "10.48550/arXiv.2401.17664",
+      "title": "Image Anything: Towards Reasoning-coherent and Training-free Multi-modal Image Generation",
+      "url": "https://www.semanticscholar.org/paper/6b3d58d367b049532c0dd7a203eb0c17c94e734e"
+    },
+    {
+      "paper_id": "ab003ca4c9479d1b155f8da9505160e8c07e83ce",
+      "arxiv_id": "2401.17221",
+      "doi": "10.48550/arXiv.2401.17221",
+      "title": "MouSi: Poly-Visual-Expert Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ab003ca4c9479d1b155f8da9505160e8c07e83ce"
+    },
+    {
+      "paper_id": "9dad4d7c6da4f3bb56a24742998c76a2629ac9fd",
+      "arxiv_id": "2401.11943",
+      "doi": "10.48550/arXiv.2401.11943",
+      "title": "Benchmarking Large Multimodal Models against Common Corruptions",
+      "url": "https://www.semanticscholar.org/paper/9dad4d7c6da4f3bb56a24742998c76a2629ac9fd"
+    },
+    {
+      "paper_id": "5502d769595981009e43344f8914e287acca2359",
+      "arxiv_id": "2401.06395",
+      "doi": "10.1109/CVPR52733.2024.02512",
+      "title": "ModaVerse: Efficiently Transforming Modalities with LLMs",
+      "url": "https://www.semanticscholar.org/paper/5502d769595981009e43344f8914e287acca2359"
+    },
+    {
+      "paper_id": "d9263ba30a16067c44884ad559802505acf2f82d",
+      "arxiv_id": "2401.03201",
+      "doi": "10.1109/ICMEW63481.2024.10645462",
+      "title": "3DMIT: 3D Multi-Modal Instruction Tuning for Scene Understanding",
+      "url": "https://www.semanticscholar.org/paper/d9263ba30a16067c44884ad559802505acf2f82d"
+    },
+    {
+      "paper_id": "6c64ddd2190909de2c680dd18abc9b92e80c39f9",
+      "arxiv_id": "2312.17172",
+      "doi": "10.1109/CVPR52733.2024.02497",
+      "title": "Unified-IO 2: Scaling Autoregressive Multimodal Models with Vision, Language, Audio, and Action",
+      "url": "https://www.semanticscholar.org/paper/6c64ddd2190909de2c680dd18abc9b92e80c39f9"
+    },
+    {
+      "paper_id": "1e1230ef1de1ba9c4f6cb4789184a295133afac0",
+      "arxiv_id": "2312.16602",
+      "doi": "10.48550/arXiv.2312.16602",
+      "title": "Visual Instruction Tuning towards General-Purpose Multimodal Model: A Survey",
+      "url": "https://www.semanticscholar.org/paper/1e1230ef1de1ba9c4f6cb4789184a295133afac0"
+    },
+    {
+      "paper_id": "0f98609d8d5caad25b90b51e92025ba2bbde1b6a",
+      "arxiv_id": "2312.14465",
+      "doi": "10.48550/arXiv.2312.14465",
+      "title": "FM-OV3D: Foundation Model-based Cross-modal Knowledge Blending for Open-Vocabulary 3D Detection",
+      "url": "https://www.semanticscholar.org/paper/0f98609d8d5caad25b90b51e92025ba2bbde1b6a"
+    },
+    {
+      "paper_id": "95d791ad14db2c779daa67ca7fdc3a75214c42eb",
+      "arxiv_id": "2312.09738",
+      "doi": "10.48550/arXiv.2312.09738",
+      "title": "3DAxiesPrompts: Unleashing the 3D Spatial Task Capabilities of GPT-4V",
+      "url": "https://www.semanticscholar.org/paper/95d791ad14db2c779daa67ca7fdc3a75214c42eb"
+    },
+    {
+      "paper_id": "a5ecfe7f961ab9a65aab033692dff71f5c70c2b6",
+      "arxiv_id": "2312.08168",
+      "doi": "10.52202/079017-3620",
+      "title": "Chat-Scene: Bridging 3D Scene and Large Language Models with Object Identifiers",
+      "url": "https://www.semanticscholar.org/paper/a5ecfe7f961ab9a65aab033692dff71f5c70c2b6"
+    },
+    {
+      "paper_id": "00b89844abecc9fb9ea687bedcd42c44421dfa23",
+      "arxiv_id": "2312.06037",
+      "doi": "10.48550/arXiv.2312.06037",
+      "title": "Multimodality of AI for Education: Towards Artificial General Intelligence",
+      "url": "https://www.semanticscholar.org/paper/00b89844abecc9fb9ea687bedcd42c44421dfa23"
+    },
+    {
+      "paper_id": "98de0a73fc32e04b58d76579aef964cf686b25da",
+      "arxiv_id": "2312.03661",
+      "doi": "10.48550/arXiv.2312.03661",
+      "title": "Reason2Drive: Towards Interpretable and Chain-based Reasoning for Autonomous Driving",
+      "url": "https://www.semanticscholar.org/paper/98de0a73fc32e04b58d76579aef964cf686b25da"
+    },
+    {
+      "paper_id": "53c3c3984649ca82a2f85629dae01087e9e72991",
+      "arxiv_id": "2312.03700",
+      "doi": "10.1109/CVPR52733.2024.02510",
+      "title": "OneLLM: One Framework to Align All Modalities with Language",
+      "url": "https://www.semanticscholar.org/paper/53c3c3984649ca82a2f85629dae01087e9e72991"
+    },
+    {
+      "paper_id": "b92289123a94f6076505487adfb4513bd3495c1d",
+      "arxiv_id": "2312.03849",
+      "doi": "10.48550/arXiv.2312.03849",
+      "title": "LEGO: Learning EGOcentric Action Frame Generation via Visual Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/b92289123a94f6076505487adfb4513bd3495c1d"
+    },
+    {
+      "paper_id": "98ef472da617c1a4f51da54b59b5ae1b07cea978",
+      "arxiv_id": "2312.00249",
+      "doi": "10.1109/TASLPRO.2025.3533375",
+      "title": "Acoustic Prompt Tuning: Empowering Large Language Models With Audition Capabilities",
+      "url": "https://www.semanticscholar.org/paper/98ef472da617c1a4f51da54b59b5ae1b07cea978"
+    },
+    {
+      "paper_id": "e263e08a20080a2543d0ca29d3d63c4717a8beb6",
+      "arxiv_id": "2311.18799",
+      "doi": "10.48550/arXiv.2311.18799",
+      "title": "X-InstructBLIP: A Framework for aligning X-Modal instruction-aware representations to LLMs and Emergent Cross-modal Reasoning",
+      "url": "https://www.semanticscholar.org/paper/e263e08a20080a2543d0ca29d3d63c4717a8beb6"
+    },
+    {
+      "paper_id": "056ccc2ebb8cd6c7195882fd9ce28b4554deb9c2",
+      "arxiv_id": "2311.15759",
+      "doi": "10.1109/TIP.2025.3649356",
+      "title": "Vision Enhancing LLMs: Empowering Multimodal Knowledge Storage and Sharing in LLMs",
+      "url": "https://www.semanticscholar.org/paper/056ccc2ebb8cd6c7195882fd9ce28b4554deb9c2"
+    },
+    {
+      "paper_id": "27e45a8aecc1fec246fd70c80d8f5104807cf0dd",
+      "arxiv_id": "2311.16081",
+      "doi": "10.1109/CVPR52733.2024.02516",
+      "title": "VIT-LENS: Towards Omni-modal Representations",
+      "url": "https://www.semanticscholar.org/paper/27e45a8aecc1fec246fd70c80d8f5104807cf0dd"
+    },
+    {
+      "paper_id": "107fb6eec2febbae12db29bf3e311aaf5680027c",
+      "arxiv_id": "2311.10122",
+      "doi": "10.48550/arXiv.2311.10122",
+      "title": "Video-LLaVA: Learning United Visual Representation by Alignment Before Projection",
+      "url": "https://www.semanticscholar.org/paper/107fb6eec2febbae12db29bf3e311aaf5680027c"
+    },
+    {
+      "paper_id": "3cc6c4e88b6135d53938315a262285a501803c48",
+      "arxiv_id": "2311.08172",
+      "doi": "10.48550/arXiv.2311.08172",
+      "title": "Vision-Language Instruction Tuning: A Review and Analysis",
+      "url": "https://www.semanticscholar.org/paper/3cc6c4e88b6135d53938315a262285a501803c48"
+    },
+    {
+      "paper_id": "76a3f4a79ae9a00db2f2b5f6877021d8deb96ada",
+      "arxiv_id": "2311.07575",
+      "doi": "10.48550/arXiv.2311.07575",
+      "title": "SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/76a3f4a79ae9a00db2f2b5f6877021d8deb96ada"
+    },
+    {
+      "paper_id": "16e5a2d85ee023544e8f2f1921e6b6176ad7c2d0",
+      "arxiv_id": "2310.20357",
+      "doi": "10.48550/arXiv.2310.20357",
+      "title": "Enhancing the Spatial Awareness Capability of Multi-Modal Large Language Model",
+      "url": "https://www.semanticscholar.org/paper/16e5a2d85ee023544e8f2f1921e6b6176ad7c2d0"
+    },
+    {
+      "paper_id": "878af64239fd43e8eb9809e31b9c2739eb2d7a6a",
+      "arxiv_id": "2310.08884",
+      "doi": "10.48550/arXiv.2310.08884",
+      "title": "Extending Multi-modal Contrastive Representations",
+      "url": "https://www.semanticscholar.org/paper/878af64239fd43e8eb9809e31b9c2739eb2d7a6a"
+    },
+    {
+      "paper_id": "91eaf9752002f6999a3bd8d33303cdcdbd135317",
+      "arxiv_id": "2310.07160",
+      "doi": "",
+      "title": "LLark: A Multimodal Instruction-Following Language Model for Music",
+      "url": "https://www.semanticscholar.org/paper/91eaf9752002f6999a3bd8d33303cdcdbd135317"
+    },
+    {
+      "paper_id": "449e130b89564b60f183190da77b8261b4af9142",
+      "arxiv_id": "2310.06311",
+      "doi": "10.48550/arXiv.2310.06311",
+      "title": "Improving Compositional Text-to-image Generation with Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/449e130b89564b60f183190da77b8261b4af9142"
+    },
+    {
+      "paper_id": "d813e7edec4836dbf9d35363a6ed02782df3d18c",
+      "arxiv_id": "2310.02569",
+      "doi": "10.1145/3664647.3681529",
+      "title": "ReForm-Eval: Evaluating Large Vision Language Models via Unified Re-Formulation of Task-Oriented Benchmarks",
+      "url": "https://www.semanticscholar.org/paper/d813e7edec4836dbf9d35363a6ed02782df3d18c"
+    },
+    {
+      "paper_id": "786294f4008732a5dac9895a8507bc4c80450075",
+      "arxiv_id": "2309.09510",
+      "doi": "10.1109/ICASSP48485.2024.10448257",
+      "title": "Dynamic-Superb: Towards a Dynamic, Collaborative, and Comprehensive Instruction-Tuning Benchmark For Speech",
+      "url": "https://www.semanticscholar.org/paper/786294f4008732a5dac9895a8507bc4c80450075"
+    },
+    {
+      "paper_id": "6bcc6ab9c28805d4067e99b2cdc7524550fe80e1",
+      "arxiv_id": "2308.16911",
+      "doi": "10.48550/arXiv.2308.16911",
+      "title": "PointLLM: Empowering Large Language Models to Understand Point Clouds",
+      "url": "https://www.semanticscholar.org/paper/6bcc6ab9c28805d4067e99b2cdc7524550fe80e1"
+    },
+    {
+      "paper_id": "697e0add95e880bd42e00bef838181e105f91981",
+      "arxiv_id": "2306.13394",
+      "doi": "10.48550/arXiv.2306.13394",
+      "title": "MME: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/697e0add95e880bd42e00bef838181e105f91981"
+    },
+    {
+      "paper_id": "ebedc4d7a2356090904baba4104ef0832bc236df",
+      "arxiv_id": "2306.13549",
+      "doi": "10.1093/nsr/nwae403",
+      "title": "A survey on multimodal large language models",
+      "url": "https://www.semanticscholar.org/paper/ebedc4d7a2356090904baba4104ef0832bc236df"
+    },
+    {
+      "paper_id": "24f9c0127dc3033e34eb9dd4ceb562ccf9bb85ad",
+      "arxiv_id": "2305.16318",
+      "doi": "10.48550/arXiv.2305.16318",
+      "title": "Referred by Multi-Modality: A Unified Temporal Transformer for Video Object Segmentation",
+      "url": "https://www.semanticscholar.org/paper/24f9c0127dc3033e34eb9dd4ceb562ccf9bb85ad"
+    },
+    {
+      "paper_id": "a757999ed260d7bc45484dc6b4456bf33fe6f679",
+      "arxiv_id": "2303.16199",
+      "doi": "10.48550/arXiv.2303.16199",
+      "title": "LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention",
+      "url": "https://www.semanticscholar.org/paper/a757999ed260d7bc45484dc6b4456bf33fe6f679"
+    },
+    {
+      "paper_id": "e2e3ea490e84e0a1355ddb2f21babf28b8a91de7",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2603.14337",
+      "title": "On the Nature of Attention Sink that Shapes Decoding Strategy in MLLMs",
+      "url": "https://www.semanticscholar.org/paper/e2e3ea490e84e0a1355ddb2f21babf28b8a91de7"
+    },
+    {
+      "paper_id": "c9a2e6beae3235adf8003cc1d9bad1b559fc7074",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2026.findings-acl.259",
+      "title": "Infinite Babble: Inflating 3D Vision-Language Model Inference Overhead via Adversarial Geometric Perturbation",
+      "url": "https://www.semanticscholar.org/paper/c9a2e6beae3235adf8003cc1d9bad1b559fc7074"
+    },
+    {
+      "paper_id": "d605def5cc5118eebd5ab73bce387e1a8dd2a7ae",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2505.00275",
+      "title": "AdCare-VLM: Leveraging Large Vision Language Model (LVLM) to Monitor Long-Term Medication Adherence and Care",
+      "url": "https://www.semanticscholar.org/paper/d605def5cc5118eebd5ab73bce387e1a8dd2a7ae"
+    },
+    {
+      "paper_id": "4814a7db3c8090b120795f7fd5c825ddf0562370",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2505.11895",
+      "title": "Adversarial Robustness for Unified Multi-Modal Encoders via Efficient Calibration",
+      "url": "https://www.semanticscholar.org/paper/4814a7db3c8090b120795f7fd5c825ddf0562370"
+    },
+    {
+      "paper_id": "d5cfa6acb4273a8157e364baad6cc3017b7f011c",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2507.18053",
+      "title": "RECALLED: An Unbounded Resource Consumption Attack on Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d5cfa6acb4273a8157e364baad6cc3017b7f011c"
+    },
+    {
+      "paper_id": "59c4152187d198965dbc2894c01538675a38c07c",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2406.06579",
+      "title": "From Redundancy to Relevance: Enhancing Explainability in Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/59c4152187d198965dbc2894c01538675a38c07c"
+    },
+    {
+      "paper_id": "1f54fdd67a6ffa99384c9c20746d839391da3834",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2407.08739",
+      "title": "MAVIS: Mathematical Visual Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/1f54fdd67a6ffa99384c9c20746d839391da3834"
+    },
+    {
+      "paper_id": "04ebbac1a75b083ec871961b0e0807f5ac24393c",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2402.14492",
+      "title": "INSTRAUG: Automatic Instruction Augmentation for Multimodal Instruction Fine-tuning",
+      "url": "https://www.semanticscholar.org/paper/04ebbac1a75b083ec871961b0e0807f5ac24393c"
+    },
+    {
+      "paper_id": "4f015f1a144940193de5aa4687ad58e2ffcbbfb1",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2409.14993",
+      "title": "Multi-Modal Generative AI: Multi-modal LLM, Diffusion and Beyond",
+      "url": "https://www.semanticscholar.org/paper/4f015f1a144940193de5aa4687ad58e2ffcbbfb1"
+    },
+    {
+      "paper_id": "ad1681f472efae5d0980edac35c8eadf9797d2cc",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2412.17052",
+      "title": "ViLBias: A Framework for Bias Detection using Linguistic and Visual Cues",
+      "url": "https://www.semanticscholar.org/paper/ad1681f472efae5d0980edac35c8eadf9797d2cc"
+    },
+    {
+      "paper_id": "3d6dd50e24a6667c582fe1241260b3c58b49035d",
+      "arxiv_id": "",
+      "doi": "10.52202/079017-4244",
+      "title": "Any2Policy: Learning Visuomotor Policy with Any-Modality",
+      "url": "https://www.semanticscholar.org/paper/3d6dd50e24a6667c582fe1241260b3c58b49035d"
+    },
+    {
+      "paper_id": "e92b04d5bb40ebd1af1573ef75f21ff409ca04dc",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2407.20454",
+      "title": "CoMMIT: Coordinated Instruction Tuning for Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/e92b04d5bb40ebd1af1573ef75f21ff409ca04dc"
+    },
+    {
+      "paper_id": "86e75cf15a838ed7d672fb114beff727d7210ca5",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2310.07160",
+      "title": "LLark: A Multimodal Foundation Model for Music",
+      "url": "https://www.semanticscholar.org/paper/86e75cf15a838ed7d672fb114beff727d7210ca5"
+    },
+    {
+      "paper_id": "ed2a6cebe1d0ebfe4dfe3fe42fd6bb5d8206a2fa",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2311.16081",
+      "title": "ViT-Lens-2: Gateway to Omni-modal Intelligence",
+      "url": "https://www.semanticscholar.org/paper/ed2a6cebe1d0ebfe4dfe3fe42fd6bb5d8206a2fa"
+    },
+    {
+      "paper_id": "8380f2082dbe3effead38b7b32e9615d6c30b381",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2312.08168",
+      "title": "Chat-3D v2: Bridging 3D Scene and Large Language Models with Object Identifiers",
+      "url": "https://www.semanticscholar.org/paper/8380f2082dbe3effead38b7b32e9615d6c30b381"
+    },
+    {
+      "paper_id": "df5e59d7dce631037b572d64f93963dba5a7a7eb",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "RILA: Reﬂective and Imaginative Language Agent for Zero-Shot Semantic Audio-Visual Navigation",
+      "url": "https://www.semanticscholar.org/paper/df5e59d7dce631037b572d64f93963dba5a7a7eb"
+    },
+    {
+      "paper_id": "42823869ae65d169b5a8f5d38c768ab72287234d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "S PATIAL 3D-LLM: P ROGRESSIVE S PATIAL A WARE - NESS FOR A DVANCED 3D V ISION -L ANGUAGE U NDER - STANDING",
+      "url": "https://www.semanticscholar.org/paper/42823869ae65d169b5a8f5d38c768ab72287234d"
+    },
+    {
+      "paper_id": "c00059467549d572a3fd02e8c2515c4e56599bca",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Efficient Generative Multimodal Integration (EGMI): Enabling Audio Generation from Text-Image Pairs through Alignment with Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/c00059467549d572a3fd02e8c2515c4e56599bca"
+    },
+    {
+      "paper_id": "e9779ab71f5d8f1e5998e2e4560b0d38a78dc9f9",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "M AT B IND : P ROBING THE MULTIMODALITY OF MATE - RIALS SCIENCE WITH CONTRASTIVE LEARNING",
+      "url": "https://www.semanticscholar.org/paper/e9779ab71f5d8f1e5998e2e4560b0d38a78dc9f9"
+    }
+  ]
+}

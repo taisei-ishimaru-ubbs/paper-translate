@@ -34,7 +34,7 @@ tags: [paper]
 - [Transductive Zero-Shot and Few-Shot CLIP](https://arxiv.org/abs/2405.18437)
 - [Label Propagation for Zero-shot Classification with Vision-Language Models](https://arxiv.org/abs/2404.04072)
 - [Efficient Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2403.18293)
-- [Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models](https://arxiv.org/abs/2403.17589)
+- [[dual_memory_networks_a_versatile_adaptation_approach_for_vision_language_models|Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]]
 - [A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation](https://arxiv.org/abs/2402.04087)
 - [Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning](https://arxiv.org/abs/2308.06038)
 - [Black Box Few-Shot Adaptation for Vision-Language models](https://arxiv.org/abs/2304.01752)

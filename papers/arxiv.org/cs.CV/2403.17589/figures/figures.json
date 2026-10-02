@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. Illustration of the classification accuracy, (test-time) training GFLOPs, and learning parameters on zero-shot and 16- shot ImageNet classification. The icon sizes denote the number of learnable parameters. Our method is unique in its ability to work for all three task settings with superi",
+    "score": 94.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. An illustration of the overall framework of our Dual Memory Networks (DMN), which integrates knowledge from three sources (i.e., text input, historical test data, and optional training images) to tackle the three types of adaptation tasks (i.e., zero-shot, few-shot, and the recently-propos",
+    "score": 39.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3. Training-free few-shot results with a ResNet50 backbone. Full results on 11 classification datasets are presented in Fig. A7.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4. Few-shot performance with ViTB/16 backbone, where the full results on 11 classification datasets are presented in Fig. A8.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5. Few-shot performance with ResNet50 backbone, where the full results on 11 classification datasets are presented in Fig. A9.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6. Analyses on (a) static and dynamic memory networks, (b) memory length of the dynamic memory, (b) position of projection layers, and (d) values of β in Eq. (4).",
+    "score": 0.0
+  }
+]

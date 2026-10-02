@@ -43,7 +43,7 @@ tags: [paper]
 - [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)
 - [Label Propagation for Zero-shot Classification with Vision-Language Models](https://arxiv.org/abs/2404.04072)
 - [Efficient Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2403.18293)
-- [Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models](https://arxiv.org/abs/2403.17589)
+- [[dual_memory_networks_a_versatile_adaptation_approach_for_vision_language_models|Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]]
 - [A visual-language foundation model for computational pathology](https://doi.org/10.1038/s41591-024-02856-4)
 - [SkyScript: A Large and Semantically Diverse Vision-Language Dataset for Remote Sensing](https://arxiv.org/abs/2312.12856)
 - [CLIP-DINOiser: Teaching CLIP a few DINO tricks](https://arxiv.org/abs/2312.12359)

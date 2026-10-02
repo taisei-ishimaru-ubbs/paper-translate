@@ -337,7 +337,7 @@ tags: [paper]
 - [Label Propagation for Zero-shot Classification with Vision-Language Models](https://arxiv.org/abs/2404.04072)
 - [Training-Free Semantic Segmentation via LLM-Supervision](https://arxiv.org/abs/2404.00701)
 - [CLAP4CLIP: Continual Learning with Probabilistic Finetuning for Vision-Language Models](https://arxiv.org/abs/2403.19137)
-- [Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models](https://arxiv.org/abs/2403.17589)
+- [[dual_memory_networks_a_versatile_adaptation_approach_for_vision_language_models|Dual Memory Networks: A Versatile Adaptation Approach for Vision-Language Models]]
 - [Enhancing Vision-Language Few-Shot Adaptation with Negative Learning](https://arxiv.org/abs/2403.12964)
 - [Meta-Prompting for Automating Zero-shot Visual Recognition with LLMs](https://arxiv.org/abs/2403.11755)
 - [Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement](https://arxiv.org/abs/2403.06659)
