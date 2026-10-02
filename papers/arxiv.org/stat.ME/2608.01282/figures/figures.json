@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 5,
+    "caption": "Figure 1: Complete workflow of the proposed reference-anchored multimodal domain-adaptation procedure.",
+    "score": 89.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 15,
+    "caption": "Figure 2: Main simulation. Panels A and B summarize performance across the four perturbation sweeps and overall, whereas Panels C and D display the full label-shift trajectory. Panels A and C report target macro-AUC, for which higher values are preferred; Panels B and D report target MSE, for which ",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 16,
+    "caption": "Figure 3: Surrogate-assisted simulation. Panel A reports target AUC, for which higher values are preferred, and Panel B reports target MSE, for which lower values are preferred; sample size is measured per source domain. The key trajectories are Proposed (no 𝑌), Proposed (semi), and Prop. full-𝑌. Th",
+    "score": 27.0
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1. Given a transductive few-shot task, both visual and textual information are extracted from the images and class-wise prompts. The embeddings are next combined into vision-text probability vectors. Classification is carried out on the simplex set of RK using the labels of the support set. A",
+    "score": 83.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 12,
+    "caption": "Figure 2. Examples of Dirichlet distributions on the simplex of R3, for α = (10, 5.0, 5.0) (left) and α = (0.975, 0.975, 3.0) (right)",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 13,
+    "caption": "Figure 3. Illustration of the bipartite matching for class assign- ment.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 15,
+    "caption": "Figure 4. Average accuracy on the 11 datasets as a function of the number of samples in the query set, over 1,000 tasks generated following the protocol described in Section 6.1. As anticipated, the efficiency of transduction increases with the number of samples in the query set.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 16,
+    "caption": "Figure 5. Accuracy versus shots for seven methods from Table 2 on SUN397, ImageNet, and the average across the 11 datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 17,
+    "caption": "Figure 6. Accuracy versus shots for eight methods from Table 2 on 9 datasets.",
+    "score": 0.0
+  }
+]

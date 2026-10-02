@@ -1,0 +1,107 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. left: The lowest 5 per-class accuracies in RESISC45, right: The distribution of samples of them in clusters. The pink bar represents samples in the cluster in which they appear most frequently, the gray bar represents samples appear in other clusters.",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 2,
+    "caption": "Figure 2. left: concept mismatch. right: concept confusion. Please see Appendix A for realistic examples of them.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 3,
+    "caption": "Figure 3. The process of concept alignment. We first take an itera- tive clustering strategy to detect the concept-mismatched classes. We then utilize LLMs to generate enhanced descriptions for them, and obtain images with top-k similar image features to the en- hanced text feature each class as pse",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 4,
+    "caption": "Figure 4. Density curve of confidence score for samples in concept- confused groups by left: zero-shot CLIP and right: CLIP fine-tuned with confusion-aware calibrated margin.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 6,
+    "caption": "Figure 5. Overview of our framework. In the initialization stage, we use concept alignment to obtain DPL. In the fine-tuning stage, we deploy the main adapter and pseudo adapter to the visual branch, allowing for separate learning from pseudolabeled and unlabeled samples, and we utilize the confusio",
+    "score": 30.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 8,
+    "caption": "Figure 6. Evaluation of concept alignment. left: The accuracy of pseudolabels generated for concept-mismatched classes in Flow- ers102. right: The test accuracy after fine-tuning under UL setting.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 8,
+    "caption": "Figure 7. Evaluation of confusion-aware calibrated margin on RE- SISC45. left: Local ECE of concept-confused groups. right: Test accuracy of concept-confused groups after fine-tuning.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 8,
+    "caption": "Figure 8. Evaluation of margin scale m. We report test accuracy of RESISC45 and DTD under UL setting.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 8,
+    "caption": "Figure 9. Performance on DTD and RESISC45 under SSL and UL settings with different proportion of unlabeled data. We also present the result of CPL (Zhang et al., 2024b) under SSL setting.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 11,
+    "caption": "Figure 10. Two examples of concept mismatch in RESICS45. Pink represents the classes exisiting concept mismatch.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 11,
+    "caption": "Figure 11. Two examples of concept confusion in RESICS45. Yellow represents the minority class.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 12,
+    "page": 14,
+    "caption": "Figure 12. Test accuracy after fine-tuning with CAP and without CAP on RESISC45 under UL setting. Note that we still reserve the fine-tuning framework of CAP in the control group. It is clear that CAP forms a significantly more balanced prediction.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 13,
+    "page": 14,
+    "caption": "Figure 13. Time consumed training on EuroSAT with CAP, CPL and GRIP.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 14,
+    "page": 14,
+    "caption": "Figure 14. Visualization of the number of classes detected with concept mismatch over six datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 15,
+    "page": 15,
+    "caption": "Figure 15. Class-wise test accuracy on RESISC45 under UL setting as an evaluation of confusion-aware calibrated margin. We disable concept alignment here. left: Visualization of lowest-10 class-wise accuracies. right: Visualization of highest-10 class-wise accuracies.",
+    "score": 0.0
+  }
+]

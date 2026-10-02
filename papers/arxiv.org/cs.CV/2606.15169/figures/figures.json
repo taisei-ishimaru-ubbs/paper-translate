@@ -1,0 +1,16 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Comparison of three CLIP-based inference settings. (a) ZSL with CLIP: The model makes predictions on unseen data using pre-trained text and image encoders, without any adaptation. (b) TTA with CLIP: The model adapts using access to multiple test samples from the target domain. (c) Online Z",
+    "score": 95.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: The framework of the proposed LSA. Test samples arrive sequentially in a streaming manner. A frozen CLIP zero- shot classifier produces prediction scores without any parameter updates. LSA estimates the evolving target label distribution using an EM-based label shift estimator with an adap",
+    "score": 51.0
+  }
+]

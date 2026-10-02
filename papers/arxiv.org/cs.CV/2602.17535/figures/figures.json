@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. LATA pipeline and coverage–efficiency trade-off. (a) LATA pipeline. Frozen vision/text encoders yield zero-shot scores q(x), optionally adjusted via calibration-informed priors. LATA then refines predictions on the joint unlabeled pool U using a sparse kNN graph and CCCP updates, producing",
+    "score": 110.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2. SICAPv2 — coverage, efficiency, and set structure (LAC, α=0.10). (a) Left: Coverage–efficiency trade-off as calibration shots increase (K ∈{4, 8, 16}; dot size encodes K). LATA (ours) defines the best label-free frontier—achieving smaller sets with equal or better coverage, approaching FCA",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3. Ablations on shots and window size (LAC, α=0.10; averages across tasks). (a) Effect of calibration shots K. (b) Effect of query/window size W (dashed line marks the full-batch limit). Across both sweeps, LATA achieves smaller prediction sets and lower CCV than baselines while preserving no",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4. Exchangeability and per-dataset ∆accuracy–∆set- size (APS, α=0.10). (a) Across datasets, LATA-LI yields ∆Accuracy>0 and ∆Set Size<0 vs. SCP, with a weak linear fit (small R2), indicating efficiency gains are not merely due to ac- curacy increases. (b) Exchangeability sanity check: the inva",
+    "score": 0.0
+  }
+]

@@ -34,7 +34,7 @@ tags: [paper]
 - [GPT4Vis: What Can GPT-4 Do for Zero-shot Visual Recognition?](https://arxiv.org/abs/2311.15732)
 - [Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization](https://arxiv.org/abs/2311.01459)
 - [Intra-Modal Proxy Learning for Zero-Shot Visual Categorization with CLIP](https://arxiv.org/abs/2310.19752)
-- [Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models](https://arxiv.org/abs/2310.08106)
+- [[generalized_logit_adjustment_calibrating_fine_tuned_models_by_removing_label_bias_in_foundation_models|Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models]]
 - [Invariant Training 2D-3D Joint Hard Samples for Few-Shot Point Cloud Recognition](https://arxiv.org/abs/2308.09694)
 - [Black Box Few-Shot Adaptation for Vision-Language models](https://arxiv.org/abs/2304.01752)
 - [Bi-Directional Distribution Alignment for Transductive Zero-Shot Learning](https://arxiv.org/abs/2303.08698)
@@ -92,7 +92,7 @@ tags: [paper]
 - [CatRAG: Functor-Guided Structural Debiasing with Retrieval Augmentation for Fair LLMs](https://arxiv.org/abs/2603.21524)
 - [Adapting Point Cloud Analysis via Multimodal Bayesian Distribution Learning](https://arxiv.org/abs/2603.22070)
 - [Look Carefully: Adaptive Visual Reinforcements in Multimodal Large Language Models for Hallucination Mitigation](https://arxiv.org/abs/2602.24041)
-- [Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](https://arxiv.org/abs/2602.11743)
+- [[adaptive_debiasing_tsallis_entropy_for_test_time_adaptation|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation]]
 - [Hybrid Granularity Distribution Estimation for Few-Shot Learning: Statistics Transfer From Categories and Instances](https://doi.org/10.1109/TIP.2026.3661814)
 - [Hierarchical Semantic Alignment for Image Clustering](https://arxiv.org/abs/2512.00904)
 - [TOFA: Training-Free One-Shot Federated Adaptation for Vision-Language Models](https://arxiv.org/abs/2511.16423)

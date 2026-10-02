@@ -1,0 +1,65 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: A diagram of Neural Priming, our proposed method. Neural Priming is a framework for leveraging an open-vocabulary model’s own pre-training data to improve performance on down- stream tasks. Neural Priming encompasses two processes: 1. Collecting a priming pool of relevant examples from the",
+    "score": 127.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 5,
+    "caption": "Figure 2: A qualitative example of our approach for transductive image filtering. Given an initial priming pool, acquired through natural-language text search on the captions of our pre-training dataset (Section 3.1), we filter out irrelevant examples using images from our test set. (left) we show e",
+    "score": 27.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Figure 3: Performance of Neural Priming and comparable methods in the few-shot setting. We find consistent improvement across shot numbers and datasets. In particular, Neural Priming especially excels for fine-grained datasets such as FGVCAircraft and Flowers102. We hypothesize that such fine-graine",
+    "score": 6.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4: Ablation over the number of samples per class in the priming pool. We observe a consistent zero-shot accuracy improvement as the number of samples drawn from our pool increases.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 9,
+    "caption": "Figure 5: Analyzing the effect of model capacity on Neural Priming. We find the relative error reduction stays consistent even as the scale of the model increases.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 15,
+    "caption": "Figure 6: Frequency of dataset class names in the LAION-2B dataset normalized to 1. We find Neural Priming improves accuracy more for datasets that are rare.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 16,
+    "caption": "Figure 7: Wall-clock times by query for construction of the initial priming pool. The queries used here are the ones used for the construction of the ImageNet pool. Due to the nature of full text search, rare queries are very fast, with most classes taking less than 1 second to search all of LAION-2",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 1,
+    "page": 20,
+    "caption": "Figure 1: (left) Examples from the “pig” priming pool used for our ImageNet experiments after text retrieval and CLIP similarity filtering (process described in Section 3.1.1). (right) Examples of ‘guinea pigs” which were filtered from the pig pool using CLIP semantic embeddings. We see that it is c",
+    "score": 80.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 2,
+    "page": 20,
+    "caption": "Figure 2: (reproduced from appendix) Wall-clock times by query for construction of the initial priming pool. The queries used here are the ones used for the construction of the ImageNet pool. Due to the nature of full text search, rare queries are very fast, with most classes taking less than 1 seco",
+    "score": 18.0
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Fig. 1: (a). Temporal shifts: Even at a fixed site, foreground and background ap- pearances evolve over time due to changing seasons, weather, and animal distribution. (b). Streaming evaluation: Accumulated⋆model is fine-tuned with training data up to the current interval and evaluated on the test d",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Fig. 2: (a). StreamTrap statistics. Top row: histograms of the image, class, and time span; Bottom row: histograms of temporal shift (TCDS, defined in Sec. 4.3) and class imbalance metrics (defined in Sec. 3.1). (b). Streaming evaluation protocol: models are continually fine-tuned on the labeled dat",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 4,
+    "page": 10,
+    "caption": "Fig. 4: Illustration of temporal shifts. (Top) Images from a camera trap showing shifting context (vegetation, lighting, weather) over time. (Bottom) TCDS comparison of two camera traps (pie chart: class frequency per interval): the left camera exhibits much higher temporal shifts (TCDS=0.7712) than",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 5,
+    "page": 13,
+    "caption": "Fig. 5: Performance gain (∆Accum⋆) of calibration, weight interpolation, and model selection over the Accum⋆baseline. They are applied on top of Accum⋆. More results can be found in Appendix C.3.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 6,
+    "page": 14,
+    "caption": "Fig. 6: (a). Non-OOD scores (MSP) moderately correlate with zero-shot accuracy. (b). The Adapt-or-Skip problem: should we adapt at this interval or not?.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 7,
+    "page": 26,
+    "caption": "Fig. 7: (a.) Detailed accuracy difference between oracle fine-tuning with our adap- tation recipe (Oracle⋆) and zero-shot (Fig. 3 in the main paper). (b.) Qualitative examples of camera traps with severely degraded visual quality (e.g., blur, exposure artifacts, and sensor noise).",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 8,
+    "page": 27,
+    "caption": "Fig. 8: Performance gain (∆accum⋆) of calibration, weight interpolation, and model selection over the accum⋆baseline across 50 cameras. They are applied on top of accum⋆.",
+    "score": 6.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 9,
+    "page": 28,
+    "caption": "Fig. 9: Comparison of adapt-or-not methods on our balanced benchmark. Each interval is labeled as either a Skip case (where not adapting is correct) or an Adapt case (where adapting is correct), with Combined reporting overall accuracy across all intervals. Methods include Random, MSP-based, Feature",
+    "score": 5.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 10,
+    "page": 31,
+    "caption": "Fig. 10: Detailed camera trap data processing pipeline. Raw camera trap images and metadata are filtered, temporally chunked, and cropped into standardized animal patches, producing per-camera chronological streams for online continual evaluation.",
+    "score": 12.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 11,
+    "page": 33,
+    "caption": "Fig. 11: Illustration of burst images from a single sequence. Upon detecting motion, the camera captures multiple frames in rapid succession, producing images that share the same environment, background, and animal appearance.",
+    "score": 0.0
+  }
+]

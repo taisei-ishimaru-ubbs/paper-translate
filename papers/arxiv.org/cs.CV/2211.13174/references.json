@@ -1,0 +1,495 @@
+{
+  "id": "2211.13174",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "931256386aa30ef64c3d2b96a2975bdf3ee79b8c",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2211-13174",
+      "ArXiv": "2211.13174",
+      "DOI": "10.48550/arXiv.2211.13174",
+      "CorpusId": 253801625
+    },
+    "url": "https://www.semanticscholar.org/paper/931256386aa30ef64c3d2b96a2975bdf3ee79b8c",
+    "title": "Evolutionary Generalized Zero-Shot Learning"
+  },
+  "references": [
+    {
+      "paper_id": "fda4086ff02fd8e927068818b1661818d09ccb90",
+      "arxiv_id": "",
+      "doi": "10.1007/s11263-024-02021-x",
+      "title": "Estimation of Near-Instance-Level Attribute Bottleneck for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/fda4086ff02fd8e927068818b1661818d09ccb90"
+    },
+    {
+      "paper_id": "6b97aa78bcdb88548c44e7e1671c0ed37ed37976",
+      "arxiv_id": "2312.09390",
+      "doi": "10.48550/arXiv.2312.09390",
+      "title": "Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision",
+      "url": "https://www.semanticscholar.org/paper/6b97aa78bcdb88548c44e7e1671c0ed37ed37976"
+    },
+    {
+      "paper_id": "16d83e930a4dab2d49f5d276838ddce79df3f787",
+      "arxiv_id": "2304.03738",
+      "doi": "10.5210/fm.v28i11.13346",
+      "title": "Should ChatGPT be Biased? Challenges and Risks of Bias in Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/16d83e930a4dab2d49f5d276838ddce79df3f787"
+    },
+    {
+      "paper_id": "a5927a417272327d424a76b2d260f6c1a73bc71e",
+      "arxiv_id": "2210.14707",
+      "doi": "10.48550/arXiv.2210.14707",
+      "title": "Is Out-of-Distribution Detection Learnable?",
+      "url": "https://www.semanticscholar.org/paper/a5927a417272327d424a76b2d260f6c1a73bc71e"
+    },
+    {
+      "paper_id": "ece0aa99be45c1d49c7d03c4d151a482aa2719aa",
+      "arxiv_id": "2204.11822",
+      "doi": "10.48550/arXiv.2204.11822",
+      "title": "Zero-Shot Logit Adjustment",
+      "url": "https://www.semanticscholar.org/paper/ece0aa99be45c1d49c7d03c4d151a482aa2719aa"
+    },
+    {
+      "paper_id": "50b3996ca86a55f9d3af68cb43c79659b1429daa",
+      "arxiv_id": "2204.11280",
+      "doi": "10.1609/aaai.v37i1.25102",
+      "title": "Deconstructed Generation-Based Zero-Shot Model",
+      "url": "https://www.semanticscholar.org/paper/50b3996ca86a55f9d3af68cb43c79659b1429daa"
+    },
+    {
+      "paper_id": "0430dbcbfed0a737881d22340fb044028ed851a9",
+      "arxiv_id": "2203.13591",
+      "doi": "10.1109/CVPR52688.2022.00706",
+      "title": "Continual Test-Time Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/0430dbcbfed0a737881d22340fb044028ed851a9"
+    },
+    {
+      "paper_id": "48f3abeb44dd13d5d3a5d6681426032c7ffb35c9",
+      "arxiv_id": "2112.12989",
+      "doi": "",
+      "title": "Domain-Aware Continual Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/48f3abeb44dd13d5d3a5d6681426032c7ffb35c9"
+    },
+    {
+      "paper_id": "a37ea7f985614a93d0e99386e58924ee44220e36",
+      "arxiv_id": "2111.02073",
+      "doi": "",
+      "title": "Dual Progressive Prototype Network for Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/a37ea7f985614a93d0e99386e58924ee44220e36"
+    },
+    {
+      "paper_id": "b72ccdf9072dd3358c44550ed0c52bd8eeed6ef0",
+      "arxiv_id": "2107.13807",
+      "doi": "10.1109/ICCV48922.2021.00019",
+      "title": "FREE: Feature Refinement for Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/b72ccdf9072dd3358c44550ed0c52bd8eeed6ef0"
+    },
+    {
+      "paper_id": "a526175364bd139a7d6a70406a799e2cdb7b19ce",
+      "arxiv_id": "2106.00264",
+      "doi": "10.1109/CVPR46437.2021.01623",
+      "title": "Hardness Sampling for Self-Training Based Transductive Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/a526175364bd139a7d6a70406a799e2cdb7b19ce"
+    },
+    {
+      "paper_id": "4da9b3196eec98adb070c759146a41bc63a1a1b7",
+      "arxiv_id": "2104.12468",
+      "doi": "",
+      "title": "Dynamic VAEs with Generative Replay for Continual Zero-shot Learning",
+      "url": "https://www.semanticscholar.org/paper/4da9b3196eec98adb070c759146a41bc63a1a1b7"
+    },
+    {
+      "paper_id": "417c02bf1fe483559bb8f386d29aea1088627e68",
+      "arxiv_id": "2103.16173",
+      "doi": "10.1109/CVPR46437.2021.00240",
+      "title": "Contrastive Embedding for Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/417c02bf1fe483559bb8f386d29aea1088627e68"
+    },
+    {
+      "paper_id": "1d3258abdfdc9262a3c5736a4619869a39d17120",
+      "arxiv_id": "2103.00887",
+      "doi": "10.1109/CVPR46437.2021.01515",
+      "title": "Counterfactual Zero-Shot and Open-Set Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/1d3258abdfdc9262a3c5736a4619869a39d17120"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "6e84d6788bdd1f99a0ed322cf35ae7b2fb81aa66",
+      "arxiv_id": "2102.11582",
+      "doi": "10.1109/CVPR52729.2023.02336",
+      "title": "Deep Deterministic Uncertainty: A New Simple Baseline",
+      "url": "https://www.semanticscholar.org/paper/6e84d6788bdd1f99a0ed322cf35ae7b2fb81aa66"
+    },
+    {
+      "paper_id": "f0e76eaa7c20d74ed6faec26d0f2da3e76ec87b4",
+      "arxiv_id": "2011.08508",
+      "doi": "",
+      "title": "Generalized Continual Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/f0e76eaa7c20d74ed6faec26d0f2da3e76ec87b4"
+    },
+    {
+      "paper_id": "91f602d5b271be8b76576d980bd387530b4eec44",
+      "arxiv_id": "2008.08290",
+      "doi": "",
+      "title": "Attribute Prototype Network for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/91f602d5b271be8b76576d980bd387530b4eec44"
+    },
+    {
+      "paper_id": "513892f6232f56b6ab35688b8aa59534cc81a928",
+      "arxiv_id": "2007.04873",
+      "doi": "10.1007/978-3-030-58517-4_36",
+      "title": "Invertible Zero-Shot Recognition Flows",
+      "url": "https://www.semanticscholar.org/paper/513892f6232f56b6ab35688b8aa59534cc81a928"
+    },
+    {
+      "paper_id": "a8aeb0bdd94ada1a40f1ac5be3faf479ed9ed2b8",
+      "arxiv_id": "",
+      "doi": "10.24963/ijcai.2020/77",
+      "title": "Lifelong Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/a8aeb0bdd94ada1a40f1ac5be3faf479ed9ed2b8"
+    },
+    {
+      "paper_id": "825eeae79a97825b69a4516a05e5a8975422609a",
+      "arxiv_id": "2003.13261",
+      "doi": "10.1109/cvpr42600.2020.01268",
+      "title": "Domain-Aware Visual Bias Eliminating for Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/825eeae79a97825b69a4516a05e5a8975422609a"
+    },
+    {
+      "paper_id": "a1b8a8df281bbaec148a897927a49ea47ea31515",
+      "arxiv_id": "2003.04297",
+      "doi": "",
+      "title": "Improved Baselines with Momentum Contrastive Learning",
+      "url": "https://www.semanticscholar.org/paper/a1b8a8df281bbaec148a897927a49ea47ea31515"
+    },
+    {
+      "paper_id": "add2f205338d70e10ce5e686df4a690e2851bdfc",
+      "arxiv_id": "1911.05722",
+      "doi": "10.1109/cvpr42600.2020.00975",
+      "title": "Momentum Contrast for Unsupervised Visual Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/add2f205338d70e10ce5e686df4a690e2851bdfc"
+    },
+    {
+      "paper_id": "a436e41141a9d9c5dfc44d16fade67b9a3b76778",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Test-Time Training with Self-Supervision for Generalization under Distribution Shifts",
+      "url": "https://www.semanticscholar.org/paper/a436e41141a9d9c5dfc44d16fade67b9a3b76778"
+    },
+    {
+      "paper_id": "2dcb1883989624676abcf2a6da20707631cdd869",
+      "arxiv_id": "1909.05995",
+      "doi": "10.1109/ICCV.2019.00368",
+      "title": "Rethinking Zero-Shot Learning: A Conditional Visual Classification Perspective",
+      "url": "https://www.semanticscholar.org/paper/2dcb1883989624676abcf2a6da20707631cdd869"
+    },
+    {
+      "paper_id": "0feea94f89d395436bf41bd10c797447eecbc128",
+      "arxiv_id": "1904.12848",
+      "doi": "",
+      "title": "Unsupervised Data Augmentation for Consistency Training",
+      "url": "https://www.semanticscholar.org/paper/0feea94f89d395436bf41bd10c797447eecbc128"
+    },
+    {
+      "paper_id": "fe976fcc6c6d6b47ce3c1f53f03f1a9318235f0b",
+      "arxiv_id": "1904.07659",
+      "doi": "10.1109/CVPR.2019.00722",
+      "title": "Semantically Aligned Bias Reducing Zero Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/fe976fcc6c6d6b47ce3c1f53f03f1a9318235f0b"
+    },
+    {
+      "paper_id": "441a95b80875c7fe0ae98c5d301e2c92feb4c191",
+      "arxiv_id": "1903.10132",
+      "doi": "10.1109/CVPR.2019.01052",
+      "title": "F-VAEGAN-D2: A Feature Generating Framework for Any-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/441a95b80875c7fe0ae98c5d301e2c92feb4c191"
+    },
+    {
+      "paper_id": "a17565dc233f190affd3401bba31e00b6538c7b0",
+      "arxiv_id": "1901.01570",
+      "doi": "",
+      "title": "Transductive Zero-Shot Learning with Visual Structure Constraint",
+      "url": "https://www.semanticscholar.org/paper/a17565dc233f190affd3401bba31e00b6538c7b0"
+    },
+    {
+      "paper_id": "90bbacad4bf9084d7a76de019b99a4622c238e57",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2019.01194",
+      "title": "Adaptive Confidence Smoothing for Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/90bbacad4bf9084d7a76de019b99a4622c238e57"
+    },
+    {
+      "paper_id": "cde755e7cb6af1d9a675ae0aeb51a8a5c9178bff",
+      "arxiv_id": "1812.00420",
+      "doi": "",
+      "title": "Efficient Lifelong Learning with A-GEM",
+      "url": "https://www.semanticscholar.org/paper/cde755e7cb6af1d9a675ae0aeb51a8a5c9178bff"
+    },
+    {
+      "paper_id": "1c636230c5afdc556616f235e54ce8bdf92f8a02",
+      "arxiv_id": "1805.07473",
+      "doi": "10.1109/CVPR.2019.01200",
+      "title": "Progressive Ensemble Networks for Zero-Shot Recognition",
+      "url": "https://www.semanticscholar.org/paper/1c636230c5afdc556616f235e54ce8bdf92f8a02"
+    },
+    {
+      "paper_id": "b3d5115c17318675f8c94e13a2dc1d8b568e633a",
+      "arxiv_id": "1802.02871",
+      "doi": "10.1016/J.NEUCOM.2021.04.112",
+      "title": "Online Learning: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/b3d5115c17318675f8c94e13a2dc1d8b568e633a"
+    },
+    {
+      "paper_id": "cb3f5defe2120076ebbcc89b9256bbfcb8b4d8a1",
+      "arxiv_id": "1712.00981",
+      "doi": "10.1109/CVPR.2018.00581",
+      "title": "Feature Generating Networks for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/cb3f5defe2120076ebbcc89b9256bbfcb8b4d8a1"
+    },
+    {
+      "paper_id": "acd87843a451d18b4dc6474ddce1ae946429eaf1",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Wasserstein Generative Adversarial Networks",
+      "url": "https://www.semanticscholar.org/paper/acd87843a451d18b4dc6474ddce1ae946429eaf1"
+    },
+    {
+      "paper_id": "89e88ab5b7ba7557573ad773a0a077484bee3759",
+      "arxiv_id": "1703.04394",
+      "doi": "10.1109/CVPR.2017.328",
+      "title": "Zero-Shot Learning — The Good, the Bad and the Ugly",
+      "url": "https://www.semanticscholar.org/paper/89e88ab5b7ba7557573ad773a0a077484bee3759"
+    },
+    {
+      "paper_id": "1703631a938b397ba7e858161ce16448f6046d6f",
+      "arxiv_id": "1611.07725",
+      "doi": "10.1109/CVPR.2017.587",
+      "title": "iCaRL: Incremental Classifier and Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/1703631a938b397ba7e858161ce16448f6046d6f"
+    },
+    {
+      "paper_id": "90368e1751b34f22492ed18cc3b1ab19ae546afa",
+      "arxiv_id": "1605.05395",
+      "doi": "10.1109/CVPR.2016.13",
+      "title": "Learning Deep Representations of Fine-Grained Visual Descriptions",
+      "url": "https://www.semanticscholar.org/paper/90368e1751b34f22492ed18cc3b1ab19ae546afa"
+    },
+    {
+      "paper_id": "576be0d75e9b12af7a88b91900d649802741579e",
+      "arxiv_id": "1605.04253",
+      "doi": "10.1007/978-3-319-46475-6_4",
+      "title": "An Empirical Study and Analysis of Generalized Zero-Shot Learning for Object Recognition in the Wild",
+      "url": "https://www.semanticscholar.org/paper/576be0d75e9b12af7a88b91900d649802741579e"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "503442c0f3cdb08f09c0c3c20c71bd5ccff35ff1",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2015.282",
+      "title": "Unsupervised Domain Adaptation for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/503442c0f3cdb08f09c0c3c20c71bd5ccff35ff1"
+    },
+    {
+      "paper_id": "0c908739fbff75f03469d13d4a1a07de3414ee19",
+      "arxiv_id": "1503.02531",
+      "doi": "",
+      "title": "Distilling the Knowledge in a Neural Network",
+      "url": "https://www.semanticscholar.org/paper/0c908739fbff75f03469d13d4a1a07de3414ee19"
+    },
+    {
+      "paper_id": "a6cb366736791bcccc5c8639de5a8f9636bf87e8",
+      "arxiv_id": "1412.6980",
+      "doi": "",
+      "title": "Adam: A Method for Stochastic Optimization",
+      "url": "https://www.semanticscholar.org/paper/a6cb366736791bcccc5c8639de5a8f9636bf87e8"
+    },
+    {
+      "paper_id": "dc8301b67f98accbb331190dd7bd987952a692af",
+      "arxiv_id": "1410.8516",
+      "doi": "",
+      "title": "NICE: Non-linear Independent Components Estimation",
+      "url": "https://www.semanticscholar.org/paper/dc8301b67f98accbb331190dd7bd987952a692af"
+    },
+    {
+      "paper_id": "ccbc09d498cad330c37f94e15b77bf220b10ccb4",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10605-2_38",
+      "title": "Transductive Multi-view Embedding for Zero-Shot Recognition and Annotation",
+      "url": "https://www.semanticscholar.org/paper/ccbc09d498cad330c37f94e15b77bf220b10ccb4"
+    },
+    {
+      "paper_id": "4aa4069693bee00d1b0759ca3df35e59284e9845",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "DeViSE: A Deep Visual-Semantic Embedding Model",
+      "url": "https://www.semanticscholar.org/paper/4aa4069693bee00d1b0759ca3df35e59284e9845"
+    },
+    {
+      "paper_id": "f038e8c3656f5c7a4846a7eca731eb567255adcb",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2013.321",
+      "title": "Write a Classifier: Zero-Shot Learning Using Purely Textual Descriptions",
+      "url": "https://www.semanticscholar.org/paper/f038e8c3656f5c7a4846a7eca731eb567255adcb"
+    },
+    {
+      "paper_id": "caa632d101a41a7860562e4399a5eaa9a4088b55",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2013.111",
+      "title": "Label-Embedding for Attribute-Based Classification",
+      "url": "https://www.semanticscholar.org/paper/caa632d101a41a7860562e4399a5eaa9a4088b55"
+    },
+    {
+      "paper_id": "c069629a51f6c1c301eb20ed77bc6b586c24ce32",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The Caltech-UCSD Birds-200-2011 Dataset",
+      "url": "https://www.semanticscholar.org/paper/c069629a51f6c1c301eb20ed77bc6b586c24ce32"
+    },
+    {
+      "paper_id": "0566bf06a0368b518b8b474166f7b1dfef3f9283",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206594",
+      "title": "Learning to detect unseen object classes by between-class attribute transfer",
+      "url": "https://www.semanticscholar.org/paper/0566bf06a0368b518b8b474166f7b1dfef3f9283"
+    },
+    {
+      "paper_id": "c6a8aef1bf134294482d8088f982d5643347d2ff",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206772",
+      "title": "Describing objects by their attributes",
+      "url": "https://www.semanticscholar.org/paper/c6a8aef1bf134294482d8088f982d5643347d2ff"
+    },
+    {
+      "paper_id": "8de174ab5419b9d3127695405efd079808e956e8",
+      "arxiv_id": "",
+      "doi": "10.1145/1553374.1553380",
+      "title": "Curriculum learning",
+      "url": "https://www.semanticscholar.org/paper/8de174ab5419b9d3127695405efd079808e956e8"
+    },
+    {
+      "paper_id": "ad67ccee45b801b0138016e2f44a566344e77320",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Semi-supervised Learning by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/ad67ccee45b801b0138016e2f44a566344e77320"
+    },
+    {
+      "paper_id": "2722b9e5ab8da95f03e578bb65879c452c105385",
+      "arxiv_id": "",
+      "doi": "10.1016/S1364-6613(99)01294-2",
+      "title": "Catastrophic forgetting in connectionist networks.",
+      "url": "https://www.semanticscholar.org/paper/2722b9e5ab8da95f03e578bb65879c452c105385"
+    },
+    {
+      "paper_id": "257e70eb918515135336039f5a0fb75a3fe36c31",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "TTT++: When Does Self-Supervised Test-Time Training Fail or Thrive?",
+      "url": "https://www.semanticscholar.org/paper/257e70eb918515135336039f5a0fb75a3fe36c31"
+    },
+    {
+      "paper_id": "2c1572ff4a708397405210f780006b7dd2274ec8",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Class Normalization for (Continual)? Generalized Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/2c1572ff4a708397405210f780006b7dd2274ec8"
+    },
+    {
+      "paper_id": "931cbe1dac39e8dd1378b5752fd0ed128199e08f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Adaptive and Generative Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/931cbe1dac39e8dd1378b5752fd0ed128199e08f"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "ef4f5a50837a7c1b3e87b9300ffc7ba00d461a0f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "AUTO-ENCODING VARIATIONAL BAYES",
+      "url": "https://www.semanticscholar.org/paper/ef4f5a50837a7c1b3e87b9300ffc7ba00d461a0f"
+    },
+    {
+      "paper_id": "798d9840d2439a0e5d47bcf5d164aa46d5e7dc26",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Pseudo-Label : The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/798d9840d2439a0e5d47bcf5d164aa46d5e7dc26"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "birds-200-2011",
+      "url": ""
+    },
+    {
+      "paper_id": "c213af6582c0d518a6e8e14217611c733eeb1ef1",
+      "arxiv_id": "",
+      "doi": "10.1016/S0079-7421(08)60536-8",
+      "title": "Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem",
+      "url": "https://www.semanticscholar.org/paper/c213af6582c0d518a6e8e14217611c733eeb1ef1"
+    },
+    {
+      "paper_id": "3fd90098551bf88c7509521adf1c0ba9b5dfeb57",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Attribute-Based Classification for Zero-Shot Visual Object Categorization",
+      "url": "https://www.semanticscholar.org/paper/3fd90098551bf88c7509521adf1c0ba9b5dfeb57"
+    },
+    {
+      "paper_id": "0846c8d631b09e1bc152ddf0739b17ba8b4c8089",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "UvA-DARE (Digital Academic Repository) Latent Embedding Feedback and Discriminative Features for Zero-Shot Classification Latent Embedding Feedback and Discriminative Features for Zero-Shot Classiﬁcation",
+      "url": "https://www.semanticscholar.org/paper/0846c8d631b09e1bc152ddf0739b17ba8b4c8089"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Proceedings of the Thirty-Third International Joint Conference on Artiﬁcial Intelligence (IJCAI-24)",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "2605da7df84b8adad9596699695675df1488cbe9",
+      "arxiv_id": "2605.11710",
+      "doi": "10.48550/arXiv.2605.11710",
+      "title": "Unlocking Compositional Generalization in Continual Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/2605da7df84b8adad9596699695675df1488cbe9"
+    },
+    {
+      "paper_id": "32f485b7f57bfd7646bea3d7fefc3d82f75fbd56",
+      "arxiv_id": "2603.17412",
+      "doi": "10.1007/s11263-026-02814-2",
+      "title": "Mutually Causal Semantic Distillation Network for Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/32f485b7f57bfd7646bea3d7fefc3d82f75fbd56"
+    },
+    {
+      "paper_id": "cc5be7a217927bc8c25f2b472bee21f8da5e3abb",
+      "arxiv_id": "2504.12959",
+      "doi": "10.1109/CVPR52734.2025.00148",
+      "title": "Rethinking Temporal Fusion with a Unified Gradient Descent View for 3D Semantic Occupancy Prediction",
+      "url": "https://www.semanticscholar.org/paper/cc5be7a217927bc8c25f2b472bee21f8da5e3abb"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "2406.10502",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "ae6f6d8544d4d8dc46c98ca32e0ea6178c982f79",
+    "externalIds": {
+      "DBLP": "conf/icml/Zhang0L024",
+      "ArXiv": "2406.10502",
+      "DOI": "10.48550/arXiv.2406.10502",
+      "CorpusId": 270559355
+    },
+    "url": "https://www.semanticscholar.org/paper/ae6f6d8544d4d8dc46c98ca32e0ea6178c982f79",
+    "title": "Candidate Pseudolabel Learning: Enhancing Vision-Language Models by Prompt Tuning with Unlabeled Data"
+  },
+  "references": [
+    {
+      "paper_id": "ad145aa34fa14bfc8ece01b9c0e04501a93c254b",
+      "arxiv_id": "",
+      "doi": "10.1007/s10994-023-06425-7",
+      "title": "Learning sample-aware threshold for semi-supervised learning",
+      "url": "https://www.semanticscholar.org/paper/ad145aa34fa14bfc8ece01b9c0e04501a93c254b"
+    },
+    {
+      "paper_id": "ccc40946bfe525f896771c268c95b5df3a72d4a6",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51070.2023.01480",
+      "title": "PADCLIP: Pseudo-labeling with Adaptive Debiasing in CLIP for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/ccc40946bfe525f896771c268c95b5df3a72d4a6"
+    },
+    {
+      "paper_id": "b100bb4c40340efa87b1bfc88d1d6839127d0e86",
+      "arxiv_id": "2306.01669",
+      "doi": "10.48550/arXiv.2306.01669",
+      "title": "Enhancing CLIP with CLIP: Exploring Pseudolabeling for Limited-Label Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/b100bb4c40340efa87b1bfc88d1d6839127d0e86"
+    },
+    {
+      "paper_id": "a04883d1d780b438de6c127caf7ebe3d9233e193",
+      "arxiv_id": "2305.18287",
+      "doi": "10.48550/arXiv.2305.18287",
+      "title": "LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections",
+      "url": "https://www.semanticscholar.org/paper/a04883d1d780b438de6c127caf7ebe3d9233e193"
+    },
+    {
+      "paper_id": "690df0820f35a47e1ce44f90e6ddb4132aa09267",
+      "arxiv_id": "2304.00685",
+      "doi": "10.1109/TPAMI.2024.3369699",
+      "title": "Vision-Language Models for Vision Tasks: A Survey",
+      "url": "https://www.semanticscholar.org/paper/690df0820f35a47e1ce44f90e6ddb4132aa09267"
+    },
+    {
+      "paper_id": "cc4e6703e2dc989a9dda64af05079f67b0e19ba4",
+      "arxiv_id": "2212.00784",
+      "doi": "10.48550/arXiv.2212.00784",
+      "title": "Improving Zero-Shot Models with Label Distribution Priors",
+      "url": "https://www.semanticscholar.org/paper/cc4e6703e2dc989a9dda64af05079f67b0e19ba4"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "d1a0815714a49a7e8fb8967fe4e8facf8c2d45dc",
+      "arxiv_id": "",
+      "doi": "10.1007/s10994-022-06211-x",
+      "title": "Beyond confusion matrix: learning from multiple annotators with awareness of instance features",
+      "url": "https://www.semanticscholar.org/paper/d1a0815714a49a7e8fb8967fe4e8facf8c2d45dc"
+    },
+    {
+      "paper_id": "26218bdcc3945c7edae7aa2adbfba4cd820a2df3",
+      "arxiv_id": "2204.14198",
+      "doi": "10.52202/068431-1723",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/26218bdcc3945c7edae7aa2adbfba4cd820a2df3"
+    },
+    {
+      "paper_id": "732627c703a9dbc78d9384f1be4c791c3a554391",
+      "arxiv_id": "2204.03649",
+      "doi": "10.48550/arXiv.2204.03649",
+      "title": "Unsupervised Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/732627c703a9dbc78d9384f1be4c791c3a554391"
+    },
+    {
+      "paper_id": "aa8c61c9f6bb21c57e49611ccb995cfda1b53b10",
+      "arxiv_id": "2203.17274",
+      "doi": "",
+      "title": "Exploring Visual Prompts for Adapting Large-Scale Models",
+      "url": "https://www.semanticscholar.org/paper/aa8c61c9f6bb21c57e49611ccb995cfda1b53b10"
+    },
+    {
+      "paper_id": "adb272fbdea3631059cf88ab764bb6c2ce29f965",
+      "arxiv_id": "2203.12119",
+      "doi": "10.48550/arXiv.2203.12119",
+      "title": "Visual Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/adb272fbdea3631059cf88ab764bb6c2ce29f965"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "759b5f58e58a76f79a7d845acd3169dc899d0ac2",
+      "arxiv_id": "2202.06687",
+      "doi": "10.1109/TNNLS.2023.3327962",
+      "title": "Domain Adaptation via Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/759b5f58e58a76f79a7d845acd3169dc899d0ac2"
+    },
+    {
+      "paper_id": "a3b42a83669998f65df60d7c065a70d07ca95e99",
+      "arxiv_id": "2201.12086",
+      "doi": "",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "url": "https://www.semanticscholar.org/paper/a3b42a83669998f65df60d7c065a70d07ca95e99"
+    },
+    {
+      "paper_id": "21ec90872abd986c12afe39bebe807732ffa70c9",
+      "arxiv_id": "2111.11432",
+      "doi": "",
+      "title": "Florence: A New Foundation Model for Computer Vision",
+      "url": "https://www.semanticscholar.org/paper/21ec90872abd986c12afe39bebe807732ffa70c9"
+    },
+    {
+      "paper_id": "e70b7eb3b22f0a49eb5e645be646d5f35d1e693a",
+      "arxiv_id": "2111.03930",
+      "doi": "",
+      "title": "Tip-Adapter: Training-free CLIP-Adapter for Better Vision-Language Modeling",
+      "url": "https://www.semanticscholar.org/paper/e70b7eb3b22f0a49eb5e645be646d5f35d1e693a"
+    },
+    {
+      "paper_id": "4b842ba29f6d244b9f456056a2d7efab9e4903a5",
+      "arxiv_id": "2110.08263",
+      "doi": "",
+      "title": "FlexMatch: Boosting Semi-Supervised Learning with Curriculum Pseudo Labeling",
+      "url": "https://www.semanticscholar.org/paper/4b842ba29f6d244b9f456056a2d7efab9e4903a5"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "a765ee958364c5d276fab86678ccd2b62c9741a3",
+      "arxiv_id": "2109.00650",
+      "doi": "",
+      "title": "Dash: Semi-Supervised Learning with Dynamic Thresholding",
+      "url": "https://www.semanticscholar.org/paper/a765ee958364c5d276fab86678ccd2b62c9741a3"
+    },
+    {
+      "paper_id": "b82c5f9efdb2ae56baa084ca41aeddd8a665c1d1",
+      "arxiv_id": "2107.07651",
+      "doi": "",
+      "title": "Align before Fuse: Vision and Language Representation Learning with Momentum Distillation",
+      "url": "https://www.semanticscholar.org/paper/b82c5f9efdb2ae56baa084ca41aeddd8a665c1d1"
+    },
+    {
+      "paper_id": "3660fb114e4047b292c8fa17fd9321c1c023a10f",
+      "arxiv_id": "2106.05731",
+      "doi": "",
+      "title": "Leveraged Weighted Loss for Partial Label Learning",
+      "url": "https://www.semanticscholar.org/paper/3660fb114e4047b292c8fa17fd9321c1c023a10f"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "2a4e0101ad605a775f28ee66d7397cc2e57bf66b",
+      "arxiv_id": "2007.08929",
+      "doi": "",
+      "title": "Provably Consistent Partial-Label Learning",
+      "url": "https://www.semanticscholar.org/paper/2a4e0101ad605a775f28ee66d7397cc2e57bf66b"
+    },
+    {
+      "paper_id": "a0d6bbd1c2cc035710498a3a5124b1337d8d8e7f",
+      "arxiv_id": "2002.08721",
+      "doi": "10.1109/ACCESS.2021.3084358",
+      "title": "A Survey on Semi-, Self- and Unsupervised Learning for Image Classification",
+      "url": "https://www.semanticscholar.org/paper/a0d6bbd1c2cc035710498a3a5124b1337d8d8e7f"
+    },
+    {
+      "paper_id": "299847adf3ee558a760475ffa364facac3ebbb16",
+      "arxiv_id": "2001.07685",
+      "doi": "",
+      "title": "FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence",
+      "url": "https://www.semanticscholar.org/paper/299847adf3ee558a760475ffa364facac3ebbb16"
+    },
+    {
+      "paper_id": "39e0a6bceec1fe851128c47fedf35a2d4f22b332",
+      "arxiv_id": "",
+      "doi": "10.1609/aaai.v35i8.16852",
+      "title": "Curriculum Labeling: Revisiting Pseudo-Labeling for Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/39e0a6bceec1fe851128c47fedf35a2d4f22b332"
+    },
+    {
+      "paper_id": "0fc05ff99b3de969261f4294e17fcd6ccffa19f4",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2020.2964429",
+      "title": "Zero-VAE-GAN: Generating Unseen Features for Generalized and Transductive Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/0fc05ff99b3de969261f4294e17fcd6ccffa19f4"
+    },
+    {
+      "paper_id": "a08a2f61b02998567bab3c69e98311b11c73d64e",
+      "arxiv_id": "1912.02413",
+      "doi": "10.1109/CVPR42600.2020.00974",
+      "title": "BBN: Bilateral-Branch Network With Cumulative Learning for Long-Tailed Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/a08a2f61b02998567bab3c69e98311b11c73d64e"
+    },
+    {
+      "paper_id": "a17565dc233f190affd3401bba31e00b6538c7b0",
+      "arxiv_id": "1901.01570",
+      "doi": "",
+      "title": "Transductive Zero-Shot Learning with Visual Structure Constraint",
+      "url": "https://www.semanticscholar.org/paper/a17565dc233f190affd3401bba31e00b6538c7b0"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "179765729fc1e269393617795507607c29a66a8e",
+      "arxiv_id": "1703.00121",
+      "doi": "10.1109/JPROC.2017.2675998",
+      "title": "Remote Sensing Image Scene Classification: Benchmark and State of the Art",
+      "url": "https://www.semanticscholar.org/paper/179765729fc1e269393617795507607c29a66a8e"
+    },
+    {
+      "paper_id": "2ec8f7e0257a07d3914322b36072d1bbcd58a1e0",
+      "arxiv_id": "1603.09246",
+      "doi": "10.1007/978-3-319-46466-4_5",
+      "title": "Unsupervised Learning of Visual Representations by Solving Jigsaw Puzzles",
+      "url": "https://www.semanticscholar.org/paper/2ec8f7e0257a07d3914322b36072d1bbcd58a1e0"
+    },
+    {
+      "paper_id": "9dedf20cec517b6d07060424466cb90b30b6ba63",
+      "arxiv_id": "",
+      "doi": "10.1108/SO-12-2014-0029",
+      "title": "Crowdsourcing: a comprehensive literature review",
+      "url": "https://www.semanticscholar.org/paper/9dedf20cec517b6d07060424466cb90b30b6ba63"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "da9e411fcf740569b6b356f330a1d0fc077c8d7c",
+      "arxiv_id": "1212.0402",
+      "doi": "",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+      "url": "https://www.semanticscholar.org/paper/da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+    },
+    {
+      "paper_id": "442f09ddb5bb7ba4e824c0795e37cad754967208",
+      "arxiv_id": "",
+      "doi": "10.5555/1953048.2021049",
+      "title": "Learning from Partial Labels",
+      "url": "https://www.semanticscholar.org/paper/442f09ddb5bb7ba4e824c0795e37cad754967208"
+    },
+    {
+      "paper_id": "694040e59bffd860640e45c54ca7b093630caa39",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning from Candidate Labeling Sets",
+      "url": "https://www.semanticscholar.org/paper/694040e59bffd860640e45c54ca7b093630caa39"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "ad67ccee45b801b0138016e2f44a566344e77320",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Semi-supervised Learning by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/ad67ccee45b801b0138016e2f44a566344e77320"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "6bb4e8e53b8c47d60d01de40dc5fcc4055007995",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Exploiting Class Activation Value for Partial-Label Learning",
+      "url": "https://www.semanticscholar.org/paper/6bb4e8e53b8c47d60d01de40dc5fcc4055007995"
+    },
+    {
+      "paper_id": "5d90f06bb70a0a3dced62413346235c02b1aa086",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning Multiple Layers of Features from Tiny Images",
+      "url": "https://www.semanticscholar.org/paper/5d90f06bb70a0a3dced62413346235c02b1aa086"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Prompt-oriented unsupervised fine-tuning for large pre-trained models",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "daf832c1b111f796e31ff9d3ba3df17f0d72768c",
+      "arxiv_id": "",
+      "doi": "10.1109/DLCV69906.2026.11635454",
+      "title": "CoFT+: Improving Collaborative Unsupervised Adaptation for Pre-trained Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/daf832c1b111f796e31ff9d3ba3df17f0d72768c"
+    },
+    {
+      "paper_id": "9a97877ef3aad2dfa3a48c702167e4d29872fbb4",
+      "arxiv_id": "",
+      "doi": "10.1109/icassp55912.2026.11463147",
+      "title": "PromptSID: A Self-Iterative Distillation Framework For Unsupervised Adaptation Of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/9a97877ef3aad2dfa3a48c702167e4d29872fbb4"
+    },
+    {
+      "paper_id": "9ac7bcf5a2f59450fa32cf446e9ea2be7b0b3fa4",
+      "arxiv_id": "2604.27596",
+      "doi": "10.48550/arXiv.2604.27596",
+      "title": "SECOS: Semantic Capture for Rigorous Classification in Open-World Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/9ac7bcf5a2f59450fa32cf446e9ea2be7b0b3fa4"
+    },
+    {
+      "paper_id": "2b23dede4c5959a83ce02a976ec229525fe82714",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2026.133431",
+      "title": "Unsupervised semantic-calibrated cache model for scene recognition",
+      "url": "https://www.semanticscholar.org/paper/2b23dede4c5959a83ce02a976ec229525fe82714"
+    },
+    {
+      "paper_id": "583d689392564a0b32b7dba37b3fbc4dc5c16287",
+      "arxiv_id": "2603.17267",
+      "doi": "10.48550/arXiv.2603.17267",
+      "title": "ConfusionBench: An Expert-Validated Benchmark for Confusion Recognition and Localization in Educational Videos",
+      "url": "https://www.semanticscholar.org/paper/583d689392564a0b32b7dba37b3fbc4dc5c16287"
+    },
+    {
+      "paper_id": "88e19644465605552d1e176b339904d0658bbd5f",
+      "arxiv_id": "2602.08730",
+      "doi": "10.48550/arXiv.2602.08730",
+      "title": "Closing the Confusion Loop: CLIP-Guided Alignment for Source-Free Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/88e19644465605552d1e176b339904d0658bbd5f"
+    },
+    {
+      "paper_id": "4a8524d2f07f89afaee50a4f9cbd7c4a05816123",
+      "arxiv_id": "2602.04337",
+      "doi": "10.48550/arXiv.2602.04337",
+      "title": "Fine-tuning Pre-trained Vision-Language Models in a Human-Annotation-Free Manner",
+      "url": "https://www.semanticscholar.org/paper/4a8524d2f07f89afaee50a4f9cbd7c4a05816123"
+    },
+    {
+      "paper_id": "f11a5612b08e70b8efca751fb9f88ee07b01b9a5",
+      "arxiv_id": "2512.10244",
+      "doi": "10.48550/arXiv.2512.10244",
+      "title": "Solving Semi-Supervised Few-Shot Learning from an Auto-Annotation Perspective",
+      "url": "https://www.semanticscholar.org/paper/f11a5612b08e70b8efca751fb9f88ee07b01b9a5"
+    },
+    {
+      "paper_id": "49bcc5049e6cb11a1f5a01c8fd0b964a9a7ab6cc",
+      "arxiv_id": "2510.20477",
+      "doi": "10.48550/arXiv.2510.20477",
+      "title": "Bi-CoG: Bi-Consistency-Guided Self-Training for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/49bcc5049e6cb11a1f5a01c8fd0b964a9a7ab6cc"
+    },
+    {
+      "paper_id": "edf00a2af2aee95e521490b3ff38237e7b97a2c5",
+      "arxiv_id": "2510.10100",
+      "doi": "10.1109/ICCV51701.2025.00318",
+      "title": "Cooperative Pseudo Labeling for Unsupervised Federated Classification",
+      "url": "https://www.semanticscholar.org/paper/edf00a2af2aee95e521490b3ff38237e7b97a2c5"
+    },
+    {
+      "paper_id": "d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8",
+      "arxiv_id": "2508.05547",
+      "doi": "10.1007/s11263-026-02987-w",
+      "title": "Adapting Vision-Language Models Without Labels: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8"
+    },
+    {
+      "paper_id": "370a2b55e0a5471db28798986849c999c2bf46cb",
+      "arxiv_id": "2507.09615",
+      "doi": "10.1109/WACV61042.2026.00569",
+      "title": "Towards Fine-Grained Adaptation of CLIP via a Self-Trained Alignment Score",
+      "url": "https://www.semanticscholar.org/paper/370a2b55e0a5471db28798986849c999c2bf46cb"
+    },
+    {
+      "paper_id": "935f0501e4024a36e145623231b021673fbf75ce",
+      "arxiv_id": "2506.23529",
+      "doi": "10.48550/arXiv.2506.23529",
+      "title": "When Test-Time Adaptation Meets Self-Supervised Models",
+      "url": "https://www.semanticscholar.org/paper/935f0501e4024a36e145623231b021673fbf75ce"
+    },
+    {
+      "paper_id": "ce7f45c32f973cc5606133e6b54434f55bc255a3",
+      "arxiv_id": "2506.05027",
+      "doi": "10.48550/arXiv.2506.05027",
+      "title": "Tuning the Right Foundation Models is What you Need for Partial Label Learning",
+      "url": "https://www.semanticscholar.org/paper/ce7f45c32f973cc5606133e6b54434f55bc255a3"
+    },
+    {
+      "paper_id": "b83f1612386902f0cd037cc300865fb825f11d02",
+      "arxiv_id": "2505.13317",
+      "doi": "",
+      "title": "Unlabeled Data vs. Pre-trained Knowledge: Rethinking SSL in the Era of Large Models",
+      "url": "https://www.semanticscholar.org/paper/b83f1612386902f0cd037cc300865fb825f11d02"
+    },
+    {
+      "paper_id": "ac6a9c89c461a06a2a5917a52e755185cec431fe",
+      "arxiv_id": "2505.02056",
+      "doi": "10.48550/arXiv.2505.02056",
+      "title": "Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin",
+      "url": "https://www.semanticscholar.org/paper/ac6a9c89c461a06a2a5917a52e755185cec431fe"
+    },
+    {
+      "paper_id": "56eccf9bd823e96b3c2c505614b22a5d86adb90a",
+      "arxiv_id": "2504.14280",
+      "doi": "10.1109/TPAMI.2026.3651700",
+      "title": "CLIP-Powered Domain Generalization and Domain Adaptation: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/56eccf9bd823e96b3c2c505614b22a5d86adb90a"
+    },
+    {
+      "paper_id": "843851f956dce9804dae29cbc5a5e3b970cd7ea5",
+      "arxiv_id": "2504.11930",
+      "doi": "10.1109/CVPR52734.2025.02340",
+      "title": "Beyond Words: Augmenting Discriminative Richness via Diffusions in Unsupervised Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/843851f956dce9804dae29cbc5a5e3b970cd7ea5"
+    },
+    {
+      "paper_id": "7d10328f82237f5ae96221c7ff04606bdb065d3a",
+      "arxiv_id": "2504.09828",
+      "doi": "10.1145/3746027.3754998",
+      "title": "FATE: A Prompt-Tuning-Based Semi-Supervised Learning Framework for Extremely Limited Labeled Data",
+      "url": "https://www.semanticscholar.org/paper/7d10328f82237f5ae96221c7ff04606bdb065d3a"
+    },
+    {
+      "paper_id": "d52587f6e87eef09b646b032f09004c8a4cab53e",
+      "arxiv_id": "2503.09707",
+      "doi": "10.48550/arXiv.2503.09707",
+      "title": "Revisiting semi-supervised learning in the era of foundation models",
+      "url": "https://www.semanticscholar.org/paper/d52587f6e87eef09b646b032f09004c8a4cab53e"
+    },
+    {
+      "paper_id": "93c94cd5ab7bc7cbe9b28a07e95a29137a5d6ee9",
+      "arxiv_id": "2502.12584",
+      "doi": "",
+      "title": "Enhancing Semi-supervised Learning with Zero-shot Pseudolabels",
+      "url": "https://www.semanticscholar.org/paper/93c94cd5ab7bc7cbe9b28a07e95a29137a5d6ee9"
+    },
+    {
+      "paper_id": "1ca915d30106e2e20a11febf59bf4c4a251b0a90",
+      "arxiv_id": "2501.14148",
+      "doi": "10.48550/arXiv.2501.14148",
+      "title": "SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Robust Vision-Language Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/1ca915d30106e2e20a11febf59bf4c4a251b0a90"
+    },
+    {
+      "paper_id": "4b0d5d15979500e1a94536617372851e6231f9c0",
+      "arxiv_id": "2412.20392",
+      "doi": "10.48550/arXiv.2412.20392",
+      "title": "Defending Multimodal Backdoored Models by Repulsive Visual Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/4b0d5d15979500e1a94536617372851e6231f9c0"
+    },
+    {
+      "paper_id": "7971397086315eabdcb3f82d9ce86200e767a0fa",
+      "arxiv_id": "2407.07638",
+      "doi": "10.48550/arXiv.2407.07638",
+      "title": "Tuning Vision-Language Models with Candidate Labels by Prompt Alignment",
+      "url": "https://www.semanticscholar.org/paper/7971397086315eabdcb3f82d9ce86200e767a0fa"
+    },
+    {
+      "paper_id": "4ad52e681199d9837198986ff4a4179648c62e9c",
+      "arxiv_id": "",
+      "doi": "10.1109/JSTARS.2025.3645613",
+      "title": "A Semisupervised Prototypical Network With Dynamic Threshold Pseudolabeling for Forest Classification",
+      "url": "https://www.semanticscholar.org/paper/4ad52e681199d9837198986ff4a4179648c62e9c"
+    },
+    {
+      "paper_id": "b3e6a5d3181f454c7148fae3428a483c382e834d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "SelfPrompt: Confidence-Aware Semi-Supervised Tuning for Improved Vision-Language Model Adaptation",
+      "url": "https://www.semanticscholar.org/paper/b3e6a5d3181f454c7148fae3428a483c382e834d"
+    },
+    {
+      "paper_id": "105cf68f36f441003e6b79ea642524c875fac8bf",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-0230",
+      "title": "Statistics Caching Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/105cf68f36f441003e6b79ea642524c875fac8bf"
+    },
+    {
+      "paper_id": "81ad97349acc5c901d5f9e1630564724cd7eaa1c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "W EAK S UPERVISION FROM V ISION -L ANGUAGE M OD - ELS TO S ELF -I MPROVE ON D OWNSTREAM T ASKS",
+      "url": "https://www.semanticscholar.org/paper/81ad97349acc5c901d5f9e1630564724cd7eaa1c"
+    }
+  ]
+}

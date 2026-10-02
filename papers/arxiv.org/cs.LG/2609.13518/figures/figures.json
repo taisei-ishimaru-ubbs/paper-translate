@@ -1,0 +1,72 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Test-time adjustment (TTA) of a Frozen CLIP Encoder nder Label-Distribution Shift. The target domain is the four-class EUROSAT subset: forest, industrial, highway, annual-crop, whose classes occur in an approximately 1: 1: 1: 1 ratio, unlike the highly skewed class prior in CLIP’s Internet",
+    "score": 89.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 21,
+    "caption": "Figure 2: Ablation Average ViTB16 on Caltech256, and its LODO",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 22,
+    "caption": "Figure 3: Ablation Average ViTB16 on EUROSAT, and its LODO",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 22,
+    "caption": "Figure 4: Ablation Average ViTB16 on Flowers102, and its LODO",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 23,
+    "caption": "Figure 5: Multi-GeoTTER with ViTB16 backbone on all datasets",
+    "score": 0.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 24,
+    "caption": "Figure 6: Effect of Increasing CF and GS strength, under the varying strength gNoise on Flowers102",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 24,
+    "caption": "Figure 7: Effect of Increasing CF and GS strength, under the varying strength lNoise on Flowers102",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 25,
+    "caption": "Figure 8: Noise on different ways of constructing gNoise and lNoise",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 26,
+    "caption": "Figure 9: Clustering-guided cost fusion on CIFAR-10. 2-D projection of CIFAR-10 embeddings: grey points are individual samples, and the black-rimmed circles mark the K = 10 centroids obtained with K-Means that are later used to build the cluster-level cost term.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 27,
+    "caption": "Figure 10: Toy illustration of Laplacian graph smoothing. Beginning with the k-nearest-neighbor graph constructed on the same embeddings (left), a few iterations of the Laplacian update in Eq. (2) average each node over its neighborhood, eliminating high-frequency noise and producing a smoothly vary",
+    "score": 0.0
+  }
+]

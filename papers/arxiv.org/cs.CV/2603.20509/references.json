@@ -1,0 +1,551 @@
+{
+  "id": "2603.20509",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "c40eaf13eca3bef938a8949381a7712379b52318",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2603-20509",
+      "ArXiv": "2603.20509",
+      "DOI": "10.48550/arXiv.2603.20509",
+      "CorpusId": 286762537
+    },
+    "url": "https://www.semanticscholar.org/paper/c40eaf13eca3bef938a8949381a7712379b52318",
+    "title": "Lessons and Open Questions from a Unified Study of Camera-Trap Species Recognition Over Time"
+  },
+  "references": [
+    {
+      "paper_id": "96d72d8d8ce8d8b12d97109663215e785fa4e212",
+      "arxiv_id": "2604.11064",
+      "doi": "10.48550/arXiv.2604.11064",
+      "title": "A Faster Path to Continual Learning",
+      "url": "https://www.semanticscholar.org/paper/96d72d8d8ce8d8b12d97109663215e785fa4e212"
+    },
+    {
+      "paper_id": "6ed1f77d335a2a106ec2f3df9b6358b7289f91db",
+      "arxiv_id": "2603.12433",
+      "doi": "10.48550/arXiv.2603.12433",
+      "title": "Revisiting Model Stitching In the Foundation Model Era",
+      "url": "https://www.semanticscholar.org/paper/6ed1f77d335a2a106ec2f3df9b6358b7289f91db"
+    },
+    {
+      "paper_id": "02c085033621c1e5c2d677e97f30799ba7deb7ba",
+      "arxiv_id": "2511.07970",
+      "doi": "10.48550/arXiv.2511.07970",
+      "title": "Continual Unlearning for Text-to-Image Diffusion Models: A Regularization Perspective",
+      "url": "https://www.semanticscholar.org/paper/02c085033621c1e5c2d677e97f30799ba7deb7ba"
+    },
+    {
+      "paper_id": "d06fc21256ba23dc62fd2d42790e20ccd3adc4bd",
+      "arxiv_id": "2506.09082",
+      "doi": "10.48550/arXiv.2506.09082",
+      "title": "AVA-Bench: Atomic Visual Ability Benchmark for Vision Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/d06fc21256ba23dc62fd2d42790e20ccd3adc4bd"
+    },
+    {
+      "paper_id": "af5f9b40cb20df4cf0f3c0c767e9855738918554",
+      "arxiv_id": "2505.23883",
+      "doi": "10.48550/arXiv.2505.23883",
+      "title": "BioCLIP 2: Emergent Properties from Scaling Hierarchical Contrastive Learning",
+      "url": "https://www.semanticscholar.org/paper/af5f9b40cb20df4cf0f3c0c767e9855738918554"
+    },
+    {
+      "paper_id": "d52587f6e87eef09b646b032f09004c8a4cab53e",
+      "arxiv_id": "2503.09707",
+      "doi": "10.48550/arXiv.2503.09707",
+      "title": "Revisiting semi-supervised learning in the era of foundation models",
+      "url": "https://www.semanticscholar.org/paper/d52587f6e87eef09b646b032f09004c8a4cab53e"
+    },
+    {
+      "paper_id": "c0a44b3b45b865db3e40f4fe747c3dc87a92370b",
+      "arxiv_id": "",
+      "doi": "10.1038/s44358-025-00022-3",
+      "title": "Harnessing artificial intelligence to fill global shortfalls in biodiversity knowledge",
+      "url": "https://www.semanticscholar.org/paper/c0a44b3b45b865db3e40f4fe747c3dc87a92370b"
+    },
+    {
+      "paper_id": "a2ce60a997545cd4a359abd47ecc45fef41a05b4",
+      "arxiv_id": "2501.01045",
+      "doi": "10.48550/arXiv.2501.01045",
+      "title": "ZeroFlow: Overcoming Catastrophic Forgetting is Easier than You Think",
+      "url": "https://www.semanticscholar.org/paper/a2ce60a997545cd4a359abd47ecc45fef41a05b4"
+    },
+    {
+      "paper_id": "b86957f37ec35871986a6d320a68edb4a2f4a29b",
+      "arxiv_id": "2412.10624",
+      "doi": "10.1109/WACV61041.2025.00124",
+      "title": "CATALOG: A Camera Trap Language-Guided Contrastive Learning Model",
+      "url": "https://www.semanticscholar.org/paper/b86957f37ec35871986a6d320a68edb4a2f4a29b"
+    },
+    {
+      "paper_id": "a244d417c6c106a98df19030bc64bcdf5717aa56",
+      "arxiv_id": "2409.16434",
+      "doi": "10.1109/CVPR52734.2025.01383",
+      "title": "Lessons and Insights from a Unifying Study of Parameter-Efficient Fine-Tuning (PEFT) in Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/a244d417c6c106a98df19030bc64bcdf5717aa56"
+    },
+    {
+      "paper_id": "32dc52c748b938786f9c194134fd9d8a69a063a8",
+      "arxiv_id": "2409.16223",
+      "doi": "10.48550/arXiv.2409.16223",
+      "title": "Fine-Tuning is Fine, if Calibrated",
+      "url": "https://www.semanticscholar.org/paper/32dc52c748b938786f9c194134fd9d8a69a063a8"
+    },
+    {
+      "paper_id": "ee595eea225fc9b790abe047591a7ad094e3529a",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ecoinf.2024.102815",
+      "title": "Reliable and efficient integration of AI into camera traps for smart wildlife monitoring based on continual learning",
+      "url": "https://www.semanticscholar.org/paper/ee595eea225fc9b790abe047591a7ad094e3529a"
+    },
+    {
+      "paper_id": "c29a2b25a0ff29d5c9e4d5f400db50649e8eed7c",
+      "arxiv_id": "2408.14348",
+      "doi": "10.1002/rse2.70052",
+      "title": "Deep learning‐based ecological analysis of camera trap images is impacted by training data quality and quantity",
+      "url": "https://www.semanticscholar.org/paper/c29a2b25a0ff29d5c9e4d5f400db50649e8eed7c"
+    },
+    {
+      "paper_id": "246482d9758e93d0b349e2926996d887417174d8",
+      "arxiv_id": "2406.10737",
+      "doi": "",
+      "title": "DPCore: Dynamic Prompt Coreset for Continual Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/246482d9758e93d0b349e2926996d887417174d8"
+    },
+    {
+      "paper_id": "3d0259aa8847837ba3613d69259a4a6f9234b38f",
+      "arxiv_id": "2407.09498",
+      "doi": "10.1109/WACV61041.2025.00117",
+      "title": "OT-VP: Optimal Transport-Guided Visual Prompting for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/3d0259aa8847837ba3613d69259a4a6f9234b38f"
+    },
+    {
+      "paper_id": "744ef5b04a5322bb5f1c336755c0471e19c8e3ae",
+      "arxiv_id": "2404.00986",
+      "doi": "10.48550/arXiv.2404.00986",
+      "title": "Make Continual Learning Stronger via C-Flat",
+      "url": "https://www.semanticscholar.org/paper/744ef5b04a5322bb5f1c336755c0471e19c8e3ae"
+    },
+    {
+      "paper_id": "86e3e63e83011aecd4a59999c632d44f117efbc5",
+      "arxiv_id": "",
+      "doi": "10.1007/s11263-024-02026-6",
+      "title": "WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models",
+      "url": "https://www.semanticscholar.org/paper/86e3e63e83011aecd4a59999c632d44f117efbc5"
+    },
+    {
+      "paper_id": "796cda4533fc601e25943db0579d2dab20ea2145",
+      "arxiv_id": "2311.18803",
+      "doi": "10.1109/CVPR52733.2024.01836",
+      "title": "BioCLIP: A Vision Foundation Model for the Tree of Life",
+      "url": "https://www.semanticscholar.org/paper/796cda4533fc601e25943db0579d2dab20ea2145"
+    },
+    {
+      "paper_id": "1ee91bda73e023983678058a43134527934d688c",
+      "arxiv_id": "2311.01420",
+      "doi": "10.48550/arXiv.2311.01420",
+      "title": "Holistic Transfer: Towards Non-Disruptive Fine-Tuning with Partial Target Data",
+      "url": "https://www.semanticscholar.org/paper/1ee91bda73e023983678058a43134527934d688c"
+    },
+    {
+      "paper_id": "50ab088fb18c8a3565c5f8c523a2aed741ea51dc",
+      "arxiv_id": "2311.01064",
+      "doi": "10.48550/arXiv.2311.01064",
+      "title": "Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images",
+      "url": "https://www.semanticscholar.org/paper/50ab088fb18c8a3565c5f8c523a2aed741ea51dc"
+    },
+    {
+      "paper_id": "8f7a2a76e1cca7a0f12538cc7eb9c1984d024c6b",
+      "arxiv_id": "",
+      "doi": "10.1016/j.asoc.2023.110415",
+      "title": "A broad review on class imbalance learning techniques",
+      "url": "https://www.semanticscholar.org/paper/8f7a2a76e1cca7a0f12538cc7eb9c1984d024c6b"
+    },
+    {
+      "paper_id": "690f54d707bb5c1cf26f15553f6921c416a86448",
+      "arxiv_id": "2303.15823",
+      "doi": "10.1016/j.ecoinf.2023.102231",
+      "title": "Automated wildlife image classification: An active learning tool for ecological applications",
+      "url": "https://www.semanticscholar.org/paper/690f54d707bb5c1cf26f15553f6921c416a86448"
+    },
+    {
+      "paper_id": "08911143f2b0213885798dc594f34937f455d08c",
+      "arxiv_id": "",
+      "doi": "10.1111/2041-210X.14044",
+      "title": "An evaluation of platforms for processing camera‐trap data using artificial intelligence",
+      "url": "https://www.semanticscholar.org/paper/08911143f2b0213885798dc594f34937f455d08c"
+    },
+    {
+      "paper_id": "e13eb4473a6be1d2002a59ec81547c3b87724e76",
+      "arxiv_id": "2212.03220",
+      "doi": "10.1109/CVPR52729.2023.00746",
+      "title": "Visual Query Tuning: Towards Effective Usage of Intermediate Representations for Parameter and Memory Efficient Transfer Learning",
+      "url": "https://www.semanticscholar.org/paper/e13eb4473a6be1d2002a59ec81547c3b87724e76"
+    },
+    {
+      "paper_id": "222e800eed238b1bc628ee9846dd7a740604592d",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ecoinf.2022.101760",
+      "title": "Class incremental learning for wildlife biodiversity monitoring in camera trap images",
+      "url": "https://www.semanticscholar.org/paper/222e800eed238b1bc628ee9846dd7a740604592d"
+    },
+    {
+      "paper_id": "078ad37a11445c44b6a68f3b514cefb29ee60cf4",
+      "arxiv_id": "2204.02136",
+      "doi": "10.1109/CVPR52688.2022.00921",
+      "title": "Overcoming Catastrophic Forgetting in Incremental Object Detection via Elastic Response Distillation",
+      "url": "https://www.semanticscholar.org/paper/078ad37a11445c44b6a68f3b514cefb29ee60cf4"
+    },
+    {
+      "paper_id": "8e97c540621aa76cf8a2c0abdc0c270d8ff4fe78",
+      "arxiv_id": "2112.14491",
+      "doi": "",
+      "title": "Two-phase training mitigates class imbalance for camera trap image classification with CNNs",
+      "url": "https://www.semanticscholar.org/paper/8e97c540621aa76cf8a2c0abdc0c270d8ff4fe78"
+    },
+    {
+      "paper_id": "ab2a8ca21309859ed027928dc38e6915be0e6776",
+      "arxiv_id": "2112.05090",
+      "doi": "",
+      "title": "Extending the WILDS Benchmark for Unsupervised Adaptation",
+      "url": "https://www.semanticscholar.org/paper/ab2a8ca21309859ed027928dc38e6915be0e6776"
+    },
+    {
+      "paper_id": "d9b34c6b616f75485856794478bfbeab1ea93b81",
+      "arxiv_id": "2110.12951",
+      "doi": "10.1038/s41467-022-27980-y",
+      "title": "Perspectives in machine learning for wildlife conservation",
+      "url": "https://www.semanticscholar.org/paper/d9b34c6b616f75485856794478bfbeab1ea93b81"
+    },
+    {
+      "paper_id": "7b2180d7fa0d65e8756401cb077bf3dea3f9b575",
+      "arxiv_id": "2110.11334",
+      "doi": "10.1007/s11263-024-02117-4",
+      "title": "Generalized Out-of-Distribution Detection: A Survey",
+      "url": "https://www.semanticscholar.org/paper/7b2180d7fa0d65e8756401cb077bf3dea3f9b575"
+    },
+    {
+      "paper_id": "071f5565484ee844fe69b0e32e502e86ceb5196a",
+      "arxiv_id": "2110.04596",
+      "doi": "10.1109/TPAMI.2023.3268118",
+      "title": "Deep Long-Tailed Learning: A Survey",
+      "url": "https://www.semanticscholar.org/paper/071f5565484ee844fe69b0e32e502e86ceb5196a"
+    },
+    {
+      "paper_id": "9289826beb6206eeaf500105f7329d6d5a495d8a",
+      "arxiv_id": "2109.01903",
+      "doi": "10.1109/CVPR52688.2022.00780",
+      "title": "Robust fine-tuning of zero-shot models",
+      "url": "https://www.semanticscholar.org/paper/9289826beb6206eeaf500105f7329d6d5a495d8a"
+    },
+    {
+      "paper_id": "a8ca46b171467ceb2d7652fbfb67fe701ad86092",
+      "arxiv_id": "2106.09685",
+      "doi": "",
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a8ca46b171467ceb2d7652fbfb67fe701ad86092"
+    },
+    {
+      "paper_id": "2ec93b332b61d3915dd667d45b4900d336985b8a",
+      "arxiv_id": "2105.03494",
+      "doi": "",
+      "title": "The iWildCam 2021 Competition Dataset",
+      "url": "https://www.semanticscholar.org/paper/2ec93b332b61d3915dd667d45b4900d336985b8a"
+    },
+    {
+      "paper_id": "e198172988610c0ff5c57cb5c716ed2cf2cffca8",
+      "arxiv_id": "2104.01769",
+      "doi": "10.1109/ICCV48922.2021.00016",
+      "title": "Procrustean Training for Imbalanced Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/e198172988610c0ff5c57cb5c716ed2cf2cffca8"
+    },
+    {
+      "paper_id": "4d0e0ee3f4eaf224f0a958694d6c8683f4b1ef79",
+      "arxiv_id": "2103.13885",
+      "doi": "10.1109/CVPRW53098.2021.00398",
+      "title": "Supervised Contrastive Replay: Revisiting the Nearest Class Mean Classifier in Online Class-Incremental Continual Learning",
+      "url": "https://www.semanticscholar.org/paper/4d0e0ee3f4eaf224f0a958694d6c8683f4b1ef79"
+    },
+    {
+      "paper_id": "b249fe4e5e2bada6655ce5d61e7f50da5d471cb4",
+      "arxiv_id": "2103.02503",
+      "doi": "10.1109/TPAMI.2022.3195549",
+      "title": "Domain Generalization: A Survey",
+      "url": "https://www.semanticscholar.org/paper/b249fe4e5e2bada6655ce5d61e7f50da5d471cb4"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "43a29b71c821c32befbbbc1e28690b2b13d5dbda",
+      "arxiv_id": "",
+      "doi": "10.17159/SAJS.2021/8134",
+      "title": "Snapshot Safari: a large-scale collaborative to monitor Africa’s remarkable biodiversity",
+      "url": "https://www.semanticscholar.org/paper/43a29b71c821c32befbbbc1e28690b2b13d5dbda"
+    },
+    {
+      "paper_id": "7f092f1925bb094daa6d87992e224397e1daeab1",
+      "arxiv_id": "2101.10423",
+      "doi": "10.1016/j.neucom.2021.10.021",
+      "title": "Online Continual Learning in Image Classification: An Empirical Survey",
+      "url": "https://www.semanticscholar.org/paper/7f092f1925bb094daa6d87992e224397e1daeab1"
+    },
+    {
+      "paper_id": "40848b41ed8c9c255ecd8a920006877691b52d03",
+      "arxiv_id": "2012.07421",
+      "doi": "",
+      "title": "WILDS: A Benchmark of in-the-Wild Distribution Shifts",
+      "url": "https://www.semanticscholar.org/paper/40848b41ed8c9c255ecd8a920006877691b52d03"
+    },
+    {
+      "paper_id": "115bbc50cf015990dc6f35bc8f99575ad2a68253",
+      "arxiv_id": "2010.03978",
+      "doi": "10.1007/978-3-030-71704-9_65",
+      "title": "A Brief Review of Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/115bbc50cf015990dc6f35bc8f99575ad2a68253"
+    },
+    {
+      "paper_id": "c7cd5686a8da0cb29f5b7923ade16ba007cff143",
+      "arxiv_id": "",
+      "doi": "10.1609/aaai.v35i11.17159",
+      "title": "Online Class-Incremental Continual Learning with Adversarial Shapley Value",
+      "url": "https://www.semanticscholar.org/paper/c7cd5686a8da0cb29f5b7923ade16ba007cff143"
+    },
+    {
+      "paper_id": "d3806e9fefce863dfec7f6f83537bfb24edb278c",
+      "arxiv_id": "2007.10740",
+      "doi": "",
+      "title": "Balanced Meta-Softmax for Long-Tailed Visual Recognition",
+      "url": "https://www.semanticscholar.org/paper/d3806e9fefce863dfec7f6f83537bfb24edb278c"
+    },
+    {
+      "paper_id": "98dd74f7d2d211d3e759bacb045c74d93868cced",
+      "arxiv_id": "",
+      "doi": "10.1093/JUE/JUY002",
+      "title": "Monitoring the mammalian fauna of urban areas using remote cameras and citizen science",
+      "url": "https://www.semanticscholar.org/paper/98dd74f7d2d211d3e759bacb045c74d93868cced"
+    },
+    {
+      "paper_id": "272b242e6400b6e352ff5d3b39f185a3a48cdb32",
+      "arxiv_id": "2001.01385",
+      "doi": "",
+      "title": "Identifying and Compensating for Feature Deviation in Imbalanced Deep Learning",
+      "url": "https://www.semanticscholar.org/paper/272b242e6400b6e352ff5d3b39f185a3a48cdb32"
+    },
+    {
+      "paper_id": "90e04f3ae23ca7df5f59b11453341e3db943b6f4",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2021.3057446",
+      "title": "A Continual Learning Survey: Defying Forgetting in Classification Tasks",
+      "url": "https://www.semanticscholar.org/paper/90e04f3ae23ca7df5f59b11453341e3db943b6f4"
+    },
+    {
+      "paper_id": "79f2ab15b1f8cb9e0873a132abb528ad489c35c1",
+      "arxiv_id": "1904.05986",
+      "doi": "",
+      "title": "The iWildCam 2018 Challenge Dataset",
+      "url": "https://www.semanticscholar.org/paper/79f2ab15b1f8cb9e0873a132abb528ad489c35c1"
+    },
+    {
+      "paper_id": "e9f08152f0793256b9b5b3a6fde5d9d91994cb70",
+      "arxiv_id": "1903.08671",
+      "doi": "",
+      "title": "Gradient based sample selection for online continual learning",
+      "url": "https://www.semanticscholar.org/paper/e9f08152f0793256b9b5b3a6fde5d9d91994cb70"
+    },
+    {
+      "paper_id": "29ddc1f43f28af7c846515e32cc167bc66886d0c",
+      "arxiv_id": "1902.00751",
+      "doi": "",
+      "title": "Parameter-Efficient Transfer Learning for NLP",
+      "url": "https://www.semanticscholar.org/paper/29ddc1f43f28af7c846515e32cc167bc66886d0c"
+    },
+    {
+      "paper_id": "54036f43acc6c9b49b334270c7237217685f52fb",
+      "arxiv_id": "1901.05555",
+      "doi": "10.1109/CVPR.2019.00949",
+      "title": "Class-Balanced Loss Based on Effective Number of Samples",
+      "url": "https://www.semanticscholar.org/paper/54036f43acc6c9b49b334270c7237217685f52fb"
+    },
+    {
+      "paper_id": "2d15a7546c16d5821ffa8f769eb7ec18e435e64d",
+      "arxiv_id": "1807.04975",
+      "doi": "10.1007/978-3-030-01270-0_28",
+      "title": "Recognition in Terra Incognita",
+      "url": "https://www.semanticscholar.org/paper/2d15a7546c16d5821ffa8f769eb7ec18e435e64d"
+    },
+    {
+      "paper_id": "5757ab2769aff6078b16bffb914e7b451721006d",
+      "arxiv_id": "",
+      "doi": "10.1111/2041-210X.13120",
+      "title": "Machine learning to classify animal species in camera trap images: applications in ecology",
+      "url": "https://www.semanticscholar.org/paper/5757ab2769aff6078b16bffb914e7b451721006d"
+    },
+    {
+      "paper_id": "05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2018.00914",
+      "title": "The iNaturalist Species Classification and Detection Dataset",
+      "url": "https://www.semanticscholar.org/paper/05eb6eb4ea7d2b332295dfa5aeb64d5f47c1e628"
+    },
+    {
+      "paper_id": "802726d9609607fe6e65a38142024eb1aa94005a",
+      "arxiv_id": "",
+      "doi": "10.1073/pnas.1719367115",
+      "title": "Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning",
+      "url": "https://www.semanticscholar.org/paper/802726d9609607fe6e65a38142024eb1aa94005a"
+    },
+    {
+      "paper_id": "6ff2a434578ff2746b9283e45abf296887f48a2d",
+      "arxiv_id": "1610.02136",
+      "doi": "",
+      "title": "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/6ff2a434578ff2746b9283e45abf296887f48a2d"
+    },
+    {
+      "paper_id": "5db180c5bf1080c0d206adecc4562eaa745d04f1",
+      "arxiv_id": "",
+      "doi": "10.2307/jj.28833751",
+      "title": "Camera Trapping for Wildlife Research",
+      "url": "https://www.semanticscholar.org/paper/5db180c5bf1080c0d206adecc4562eaa745d04f1"
+    },
+    {
+      "paper_id": "25b32197d49fed476fdbb3099c84550d6f84c42f",
+      "arxiv_id": "",
+      "doi": "10.1038/sdata.2015.26",
+      "title": "Snapshot Serengeti, high-frequency annotated camera trap images of 40 mammalian species in an African savanna",
+      "url": "https://www.semanticscholar.org/paper/25b32197d49fed476fdbb3099c84550d6f84c42f"
+    },
+    {
+      "paper_id": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "arxiv_id": "1405.0312",
+      "doi": "10.1007/978-3-319-10602-1_48",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+    },
+    {
+      "paper_id": "e0ef084b4501105d95640e7e9c2cb69a913acc75",
+      "arxiv_id": "",
+      "doi": "10.1186/1687-5281-2013-52",
+      "title": "Automated identification of animal species in camera trap images",
+      "url": "https://www.semanticscholar.org/paper/e0ef084b4501105d95640e7e9c2cb69a913acc75"
+    },
+    {
+      "paper_id": "7de1d1612debcbde32cd588fa607a408df79c717",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2012.6247911",
+      "title": "Geodesic flow kernel for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/7de1d1612debcbde32cd588fa607a408df79c717"
+    },
+    {
+      "paper_id": "45682ab07edcd5eea200084ea7346d657607f852",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2023.3237025",
+      "title": "Domain Adaptation: Challenges, Methods, Datasets, and Applications",
+      "url": "https://www.semanticscholar.org/paper/45682ab07edcd5eea200084ea7346d657607f852"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Asian Wild Cattle Specialist Group’s Saola Working Group: Northern and central annamites camera traps 2.0",
+      "url": ""
+    },
+    {
+      "paper_id": "2988f2f00e98d927d5278289ad72eddde63ae4f5",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Use of camera traps for wildlife studies . A review",
+      "url": "https://www.semanticscholar.org/paper/2988f2f00e98d927d5278289ad72eddde63ae4f5"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Idaho camera traps",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The MegaDetector: Large-scale deployment of computer vision for conservation and biodiversity monitoring",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Labeled information library of alexandria: Biology and conservation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "New Zealand Trailcams. Trail camera images of new zealand animals",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Adapting in the Dark: Towards Stable and Efficient Black-Box Test-Time Adaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Prime Once, then Reprogram Locally: An Efficient Alternative to Black-Box Model Reprogramming",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Camera-Trap Species Recognition Over Time 19",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A survey of continual learning for robotics in the foundation model era (2026)",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Visual prompt tuning (2022)",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "c5b84628de896b11f4457049ef1507f3d6565909",
+      "arxiv_id": "2609.22897",
+      "doi": "",
+      "title": "Scout: Open-World Species Recognition on the Edge",
+      "url": "https://www.semanticscholar.org/paper/c5b84628de896b11f4457049ef1507f3d6565909"
+    },
+    {
+      "paper_id": "f677d0d846a40ca55af5ea6ef014bedbd9b64e21",
+      "arxiv_id": "2609.30278",
+      "doi": "",
+      "title": "SatoyamaCT: A Multi-Axis Night-IR Camera-Trap Benchmark for Monitoring Crop-Damaging Wildlife in Japanese Agroforestry",
+      "url": "https://www.semanticscholar.org/paper/f677d0d846a40ca55af5ea6ef014bedbd9b64e21"
+    },
+    {
+      "paper_id": "ff9baec8292d8491e40fb5e9cc71d14666f67d9f",
+      "arxiv_id": "2606.10940",
+      "doi": "10.48550/arXiv.2606.10940",
+      "title": "Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals",
+      "url": "https://www.semanticscholar.org/paper/ff9baec8292d8491e40fb5e9cc71d14666f67d9f"
+    }
+  ]
+}

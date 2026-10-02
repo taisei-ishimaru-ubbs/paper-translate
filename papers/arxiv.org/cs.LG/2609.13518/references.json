@@ -1,0 +1,352 @@
+{
+  "id": "2609.13518",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "2f267d4a68f99df97a6d3fdc6396c2df5addc6db",
+    "externalIds": {
+      "ArXiv": "2609.13518",
+      "CorpusId": 292012152
+    },
+    "url": "https://www.semanticscholar.org/paper/2f267d4a68f99df97a6d3fdc6396c2df5addc6db",
+    "title": "GeoTTER: Leveraging Local Geometry of Optimal Transport for Zero-Shot Classification"
+  },
+  "references": [
+    {
+      "paper_id": "6f093f30796331033b522d621b121a976b760676",
+      "arxiv_id": "2405.04987",
+      "doi": "10.4171/aihpc/165",
+      "title": "The Riemannian geometry of Sinkhorn divergences",
+      "url": "https://www.semanticscholar.org/paper/6f093f30796331033b522d621b121a976b760676"
+    },
+    {
+      "paper_id": "e7d21ad4da122bf1db19e4fda57bf94c1dfa24a4",
+      "arxiv_id": "2309.04992",
+      "doi": "10.48550/arXiv.2309.04992",
+      "title": "Mitigating Word Bias in Zero-shot Prompt-based Classifiers",
+      "url": "https://www.semanticscholar.org/paper/e7d21ad4da122bf1db19e4fda57bf94c1dfa24a4"
+    },
+    {
+      "paper_id": "7ae382583eee01df36b9e45c32cfb0b0f8108516",
+      "arxiv_id": "2306.03536",
+      "doi": "10.48550/arXiv.2306.03536",
+      "title": "On Pitfalls of Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7ae382583eee01df36b9e45c32cfb0b0f8108516"
+    },
+    {
+      "paper_id": "f849b873e94f28e1f2a3e1dc4d7bef17eb64adab",
+      "arxiv_id": "2302.12400",
+      "doi": "10.48550/arXiv.2302.12400",
+      "title": "Towards Stable Test-Time Adaptation in Dynamic Wild World",
+      "url": "https://www.semanticscholar.org/paper/f849b873e94f28e1f2a3e1dc4d7bef17eb64adab"
+    },
+    {
+      "paper_id": "31d8c240bc6d32bddadb96e1839aabce0f155017",
+      "arxiv_id": "2207.02121",
+      "doi": "10.48550/arXiv.2207.02121",
+      "title": "Adapting to Online Label Shift with Provable Guarantees",
+      "url": "https://www.semanticscholar.org/paper/31d8c240bc6d32bddadb96e1839aabce0f155017"
+    },
+    {
+      "paper_id": "32e89d4d1225f3e02ac38ec93efc39fb61ccdde8",
+      "arxiv_id": "2203.02053",
+      "doi": "10.48550/arXiv.2203.02053",
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+      "url": "https://www.semanticscholar.org/paper/32e89d4d1225f3e02ac38ec93efc39fb61ccdde8"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "fa5853fdef7d2f6bb68203d187ddacbbddc63a8b",
+      "arxiv_id": "",
+      "doi": "10.1080/14697688.2020.1813475",
+      "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+      "url": "https://www.semanticscholar.org/paper/fa5853fdef7d2f6bb68203d187ddacbbddc63a8b"
+    },
+    {
+      "paper_id": "69906b74ee369cd25522ec432ecbc601a77c9d87",
+      "arxiv_id": "",
+      "doi": "10.1090/cbms/129/05",
+      "title": "Spectral graph theory",
+      "url": "https://www.semanticscholar.org/paper/69906b74ee369cd25522ec432ecbc601a77c9d87"
+    },
+    {
+      "paper_id": "8e51d68250db5637cd6bc1de98a99396441399b2",
+      "arxiv_id": "1803.00567",
+      "doi": "10.1561/2200000073",
+      "title": "Computational Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/8e51d68250db5637cd6bc1de98a99396441399b2"
+    },
+    {
+      "paper_id": "2cbb8de53759e75411bc528518947a3094fbce3a",
+      "arxiv_id": "1702.08734",
+      "doi": "10.1109/tbdata.2019.2921572",
+      "title": "Billion-Scale Similarity Search with GPUs",
+      "url": "https://www.semanticscholar.org/paper/2cbb8de53759e75411bc528518947a3094fbce3a"
+    },
+    {
+      "paper_id": "07f5bae91cd45eafe82f3548a43268eb5c84df7a",
+      "arxiv_id": "1608.04636",
+      "doi": "10.1007/978-3-319-46128-1_50",
+      "title": "Linear Convergence of Gradient and Proximal-Gradient Methods Under the Polyak-Łojasiewicz Condition",
+      "url": "https://www.semanticscholar.org/paper/07f5bae91cd45eafe82f3548a43268eb5c84df7a"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "f02441fccec9ed54dd7e21a17736933c84853011",
+      "arxiv_id": "1502.02590",
+      "doi": "10.1007/s10994-017-5663-3",
+      "title": "Analysis of classifiers’ robustness to adversarial perturbations",
+      "url": "https://www.semanticscholar.org/paper/f02441fccec9ed54dd7e21a17736933c84853011"
+    },
+    {
+      "paper_id": "f244da7263ef3e5c25a7780c7c2f32ca07a25d12",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Introductory Lectures on Convex Optimization - A Basic Course",
+      "url": "https://www.semanticscholar.org/paper/f244da7263ef3e5c25a7780c7c2f32ca07a25d12"
+    },
+    {
+      "paper_id": "0080118b0eb02af581ff32b85a1bb6aed7081f45",
+      "arxiv_id": "1306.0895",
+      "doi": "",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/0080118b0eb02af581ff32b85a1bb6aed7081f45"
+    },
+    {
+      "paper_id": "0b14178e7d79ac426d0a39700e1ac8b2c6f2e752",
+      "arxiv_id": "2106.01946",
+      "doi": "10.1002/9780470050118.ecse383",
+      "title": "Convex Optimization",
+      "url": "https://www.semanticscholar.org/paper/0b14178e7d79ac426d0a39700e1ac8b2c6f2e752"
+    },
+    {
+      "paper_id": "6ea2ba9e2ac6565793fb5b7142c9524dd40a6316",
+      "arxiv_id": "",
+      "doi": "10.1007/s10958-006-0049-2",
+      "title": "On the Translocation of Masses",
+      "url": "https://www.semanticscholar.org/paper/6ea2ba9e2ac6565793fb5b7142c9524dd40a6316"
+    },
+    {
+      "paper_id": "d45419ce663b7d5486ecf367b0c48a4282b85bbb",
+      "arxiv_id": "",
+      "doi": "10.1007/BF02614365",
+      "title": "A polynomial time primal network simplex algorithm for minimum cost flows",
+      "url": "https://www.semanticscholar.org/paper/d45419ce663b7d5486ecf367b0c48a4282b85bbb"
+    },
+    {
+      "paper_id": "9b61f2f9f27723d2216f92e4348ba8a62eb08466",
+      "arxiv_id": "",
+      "doi": "10.1137/0105003",
+      "title": "Algorithms for the Assignment and Transportation Problems",
+      "url": "https://www.semanticscholar.org/paper/9b61f2f9f27723d2216f92e4348ba8a62eb08466"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Otter",
+      "url": ""
+    },
+    {
+      "paper_id": "7e39112e704d7c088b592fd5b0fde331594843ae",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "UNDERSTANDING THE MODALITY GAP IN CLIP",
+      "url": "https://www.semanticscholar.org/paper/7e39112e704d7c088b592fd5b0fde331594843ae"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Convex relaxation of unbalanced ot via thermodynamic principles",
+      "url": ""
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Multi-view consensus learning with local structure preservation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning manifold-regularized adaptive graphs for semi-supervised classification",
+      "url": ""
+    },
+    {
+      "paper_id": "df2b0e26d0599ce3e70df8a9da02e51594e0e992",
+      "arxiv_id": "1810.04805",
+      "doi": "10.18653/v1/N19-1423",
+      "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+      "url": "https://www.semanticscholar.org/paper/df2b0e26d0599ce3e70df8a9da02e51594e0e992"
+    },
+    {
+      "paper_id": "4984239c82e82577fba571d83a100adef1068118",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "INADMISSIBILITY OF THE USUAL ESTIMATOR FOR THE MEAN OF A MULTIVARIATE NORMAL DISTRIBUTION",
+      "url": "https://www.semanticscholar.org/paper/4984239c82e82577fba571d83a100adef1068118"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Semi-supervised learning using gaussian fields and harmonic functions",
+      "url": ""
+    },
+    {
+      "paper_id": "d737088b0941e50566db6775669863196200f81f",
+      "arxiv_id": "",
+      "doi": "10.1007/978-1-4612-0919-5_30",
+      "title": "Estimation with Quadratic Loss",
+      "url": "https://www.semanticscholar.org/paper/d737088b0941e50566db6775669863196200f81f"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Concerning non-negative matrices and doubly stochastic matrices",
+      "url": ""
+    },
+    {
+      "paper_id": "326cfa1ffff97bd923bb6ff58d9cb6a3f60edbe5",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "c ○ 2000 Kluwer Academic Publishers. Manufactured in The Netherlands. The Earth Mover’s Distance as a Metric for Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/326cfa1ffff97bd923bb6ff58d9cb6a3f60edbe5"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "c) The estimated hourly wage paid to participants and the total amount spent on participant compensation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "b) All the training details (e.g., data splits, hyperparameters, how they were chosen)",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "If you are using existing assets (e.g., code, data, models) or curating/releasing new assets",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Information about consent from data providers/curators",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "a) Citations of the creator If your work uses existing assets",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A description of the computing infrastructure used",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "c) New assets either in the supplemental material or as a URL, if applicable",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": ") An analysis of the properties and complexity (time, space, sample size) of any algorithm",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "New and improved embedding model: text-embedding-ada-002",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Discussion of sensible content if applicable",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Descriptions of potential participant risks, with links to Institutional Review Board (IRB) approvals if applicable",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "c) A clear definition of the specific measure or statistics and error bars (e.g., with respect to the random seed after running experiments multiple times)",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Leveraging Local Geometry of Optimal Transport for Zero-Shot Classification (AISTATS’26)",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "c) (Optional) Anonymized source code, with specification of all dependencies, including external libraries",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "b) The license information of the assets, if applicable",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Non-sparse kernel integration for robust representation learning",
+      "url": ""
+    }
+  ],
+  "citations": []
+}

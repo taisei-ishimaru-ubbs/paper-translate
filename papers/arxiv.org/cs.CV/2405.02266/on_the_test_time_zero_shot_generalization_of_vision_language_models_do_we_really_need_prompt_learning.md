@@ -102,7 +102,7 @@ tags: [paper]
 - [[robustifying_vision_language_models_via_test_time_prompt_adaptation|Robustifying Vision-Language Models via Test-Time Prompt Adaptation]]
 - [Cross-device Collaborative Test-time Adaptation with Zeroth-order Optimization and Model Merging](https://arxiv.org/abs/2607.02988)
 - [T-VSS: Test-Time Visual Subspace Steering for Adversarial Robustness of Vision-Language Models](https://arxiv.org/abs/2606.23132)
-- [Label Shift Aware Adaptation for Online Zero-shot Learning with Contrastive Language-Image Pre-Training (CLIP)](https://arxiv.org/abs/2606.15169)
+- [[label_shift_aware_adaptation_for_online_zero_shot_learning_with_contrastive_language_image_pre_training_clip|Label Shift Aware Adaptation for Online Zero-shot Learning with Contrastive Language-Image Pre-Training (CLIP)]]
 - [What Drives Test-Time Adaptation for CLIP? A Controlled Empirical Study from an Update Perspective](https://arxiv.org/abs/2606.14299)
 - [When CLIP Sees More, It Fights Back Harder: Multi-View Guided Adaptive Counterattacks for Test-Time Adversarial Robustness](https://arxiv.org/abs/2606.06938)
 - [SS-TPT: Stability and Suitability-Guided Test-Time Prompt Tuning for Adversarially Robust Vision-Language Models](https://arxiv.org/abs/2606.06943)
@@ -120,7 +120,7 @@ tags: [paper]
 - [TF-VPR: A novel benchmark for training-free visual place recognition](https://doi.org/10.1016/j.neucom.2026.133399)
 - [ProtoDCS: Towards Robust and Efficient Open-Set Test-Time Adaptation for Vision-Language Models](https://arxiv.org/abs/2602.23653)
 - [ORION: ORthonormal Text Encoding for Universal VLM AdaptatION](https://arxiv.org/abs/2602.19530)
-- [Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models](https://arxiv.org/abs/2602.07027)
+- [[fair_context_learning_for_evidence_balanced_test_time_adaptation_in_vision_language_models|Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models]]
 - [A Model Selection-Based Test-time Data Augmentation Method](https://doi.org/10.1109/CNML68938.2026.11452315)
 - [TTP: Test-Time Padding for Adversarial Detection and Robust Adaptation on Vision-Language Models](https://arxiv.org/abs/2512.16523)
 - [Measurement Plasticity: Sensor-Level Adaptation for Vision-Language Models](https://arxiv.org/abs/2512.12571)

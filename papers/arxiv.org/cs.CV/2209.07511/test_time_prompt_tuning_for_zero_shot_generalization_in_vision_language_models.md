@@ -116,7 +116,7 @@ tags: [paper]
 - [TTRSD: Test-Time Reinforcement Learning with Self-Distillation for Vision-Language Models](https://arxiv.org/abs/2609.33414)
 - [Test-Time Generalized Category Discovery](https://arxiv.org/abs/2609.33937)
 - [TDPO: two-stage differentiated prompt optimization for image classification](https://doi.org/10.1038/s41598-026-72568-x)
-- [Domain Recentering and Confidence-Weighted Prior Calibration for Vision-Language Models](https://arxiv.org/abs/2609.29358)
+- [[domain_recentering_and_confidence_weighted_prior_calibration_for_vision_language_models|Domain Recentering and Confidence-Weighted Prior Calibration for Vision-Language Models]]
 - [Retrieval Geometry Shapes Cache-Based Clip Adaptation](https://arxiv.org/abs/2609.23409)
 - [Mathematical Optimization and Advanced Algorithms for Few-Shot and Zero-Shot Visual Learning: An Optimization-Centered Review](https://doi.org/10.3390/math14183407)
 - [TraceFlow: Guiding Frozen Flow-Matching Robot Policies with Success and Failure Traces](https://arxiv.org/abs/2609.20646)
@@ -165,7 +165,7 @@ tags: [paper]
 - [T-VSS: Test-Time Visual Subspace Steering for Adversarial Robustness of Vision-Language Models](https://arxiv.org/abs/2606.23132)
 - [[carprt_class_aware_zero_shot_prompt_reweighting_for_black_box_vision_language_models|CARPRT: Class-Aware Zero-Shot Prompt Reweighting for Black-Box Vision-Language Models]]
 - [OATS-RS: Ontology-Aware Adaptive and Selective Zero-Shot Scene Classification for Remote Sensing](https://doi.org/10.3390/rs18122038)
-- [Transductive Zero-Shot Audio Classification with Audio-Language Models](https://arxiv.org/abs/2606.17160)
+- [[transductive_zero_shot_audio_classification_with_audio_language_models|Transductive Zero-Shot Audio Classification with Audio-Language Models]]
 - [What Drives Test-Time Adaptation for CLIP? A Controlled Empirical Study from an Update Perspective](https://arxiv.org/abs/2606.14299)
 - [GMN4AD: Graph Matching Network for Alzheimer's Disease Diagnosis with Test-Time Domain Adaptation using Multi-centered Structure Magnetic Resonance Imaging](https://arxiv.org/abs/2606.13919)
 - [One Stone, Three Birds: Self-adaptive Optimal Transport for Multi-VLM Selection, Adaptation, and Ensembling](https://arxiv.org/abs/2606.08126)
@@ -229,10 +229,10 @@ tags: [paper]
 - [ORION: ORthonormal Text Encoding for Universal VLM AdaptatION](https://arxiv.org/abs/2602.19530)
 - [CLIPoint3D: Language-Grounded Few-Shot Unsupervised 3D Point Cloud Domain Adaptation](https://arxiv.org/abs/2602.20409)
 - [TDI-SF: Trustworthy Dynamic Inference via Uncertainty-Gated Retrieval and Similarity-Gated Strict Fallback](https://doi.org/10.3390/app16042023)
-- [Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](https://arxiv.org/abs/2602.11743)
+- [[adaptive_debiasing_tsallis_entropy_for_test_time_adaptation|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation]]
 - [The development and evaluation of agricultural question-answering systems based on large language models](https://doi.org/10.1038/s41598-026-35003-9)
 - [LQA: A Lightweight Quantized-Adaptive Framework for Vision-Language Models on the Edge](https://arxiv.org/abs/2602.07849)
-- [Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models](https://arxiv.org/abs/2602.07027)
+- [[fair_context_learning_for_evidence_balanced_test_time_adaptation_in_vision_language_models|Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models]]
 - [Do All Individual Layers Help? An Empirical Study of Task-Interfering Layers in Vision-Language Models](https://arxiv.org/abs/2602.01167)
 - [CATE: Consensus-aware calibration for test-time prompt tuning via energy anchoring](https://doi.org/10.1016/j.knosys.2026.115517)
 - [PromptGuard: Safeguarding large vision-language models via adversarial prompt tuning](https://doi.org/10.1016/j.knosys.2026.115498)
@@ -297,7 +297,7 @@ tags: [paper]
 - [TRUST: Test-Time Refinement using Uncertainty-Guided SSM Traverses](https://arxiv.org/abs/2509.22813)
 - [Exploiting Image-Text Local Matching and Global Correlation for Zero-Shot Medical Diagnosis](https://doi.org/10.1109/CAC67268.2025.11487846)
 - [Training-Free Label Space Alignment for Universal Domain Adaptation](https://arxiv.org/abs/2509.17452)
-- [COLA: Context-Aware Language-Driven Test-Time Adaptation](https://arxiv.org/abs/2509.17598)
+- [[cola_context_aware_language_driven_test_time_adaptation|COLA: Context-Aware Language-Driven Test-Time Adaptation]]
 - [CoDoL: Conditional Domain Prompt Learning for Out-of-Distribution Generalization](https://arxiv.org/abs/2509.15330)
 - [Unleashing the Potential of Multimodal LLMs for Zero-Shot Spatio-Temporal Video Grounding](https://arxiv.org/abs/2509.15178)
 - [Structure-Induced Gradient Regulation for Generalizable Vision-Language Models](https://doi.org/10.1109/TPAMI.2025.3604454)
@@ -601,7 +601,7 @@ tags: [paper]
 - [Why Is Prompt Tuning for Vision-Language Models Robust to Noisy Labels?](https://arxiv.org/abs/2307.11978)
 - [A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future](https://arxiv.org/abs/2307.09220)
 - [Self-regulating Prompts: Foundational Model Adaptation without Forgetting](https://arxiv.org/abs/2307.06948)
-- [Neural Priming for Sample-Efficient Adaptation](https://arxiv.org/abs/2306.10191)
+- [[neural_priming_for_sample_efficient_adaptation|Neural Priming for Sample-Efficient Adaptation]]
 - [What can a cook in Italy teach a mechanic in India? Action Recognition Generalisation Over Scenarios and Locations](https://arxiv.org/abs/2306.08713)
 - [[waffling_around_for_performance_visual_classification_with_random_words_and_broad_concepts|Waffling around for Performance: Visual Classification with Random Words and Broad Concepts]]
 - [How Does Fine-Tuning Impact Out-of-Distribution Detection for Vision-Language Models?](https://arxiv.org/abs/2306.06048)

@@ -134,7 +134,7 @@ tags: [paper]
 - [Multi-modal mutual-guidance conditional prompt learning for vision-language models](https://doi.org/10.1016/j.eswa.2026.132077)
 - [AIM-SEEM: Adapting SEEM for Open-Vocabulary Terrain Segmentation Across Arbitrary Imaging Modalities](https://doi.org/10.3390/s26061869)
 - [ORION: ORthonormal Text Encoding for Universal VLM AdaptatION](https://arxiv.org/abs/2602.19530)
-- [Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation](https://arxiv.org/abs/2602.11743)
+- [[adaptive_debiasing_tsallis_entropy_for_test_time_adaptation|Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation]]
 - [Taming SAM3 in the Wild: A Concept Bank for Open-Vocabulary Segmentation](https://arxiv.org/abs/2602.06333)
 - [AugGen: a generative framework for continual generalized zero-shot learning](https://doi.org/10.1016/j.neucom.2025.132187)
 - [Collection-driven and resolution-aware prompt learning for few-shot remote sensing scene classification](https://doi.org/10.1016/j.knosys.2025.115144)
@@ -397,7 +397,7 @@ tags: [paper]
 - [Text Descriptions are Compressive and Invariant Representations for Visual Learning](https://arxiv.org/abs/2307.04317)
 - [CREPE: Learnable Prompting With CLIP Improves Visual Relationship Prediction](https://arxiv.org/abs/2307.04838)
 - [Distilling Large Vision-Language Model with Out-of-Distribution Generalizability](https://arxiv.org/abs/2307.03135)
-- [Neural Priming for Sample-Efficient Adaptation](https://arxiv.org/abs/2306.10191)
+- [[neural_priming_for_sample_efficient_adaptation|Neural Priming for Sample-Efficient Adaptation]]
 - [[waffling_around_for_performance_visual_classification_with_random_words_and_broad_concepts|Waffling around for Performance: Visual Classification with Random Words and Broad Concepts]]
 - [Multi-Modal Classifiers for Open-Vocabulary Object Detection](https://arxiv.org/abs/2306.05493)
 - [Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey](https://arxiv.org/abs/2305.18703)

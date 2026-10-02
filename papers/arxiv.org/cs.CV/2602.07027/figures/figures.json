@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Conceptual overview of Fair Context Learning. Aug- mented views probe class-aligned evidence features. Our ap- proach first explores candidate classes through confident view scoring and then calibrates the text embeddings in feature space using common-evidence maps, mitigating partial feat",
+    "score": 92.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: The pipeline of the proposed test-time adaptation framework via fair context learning. Given a test image, the method first performs an exploration stage that identifies K candidate classes CK through augmented-view evaluation and low-entropy majority voting. Next, in the calibration stage",
+    "score": 65.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3: Empirical validation of our theory. (a) Partial Feature Obsession: score distributions and evidence maps show misclassifications driven by shared features. (b) Common Evidence Contribution: ECEC is consistently lower for correct samples across ImageNet variants. (c) Entropy–Uniqueness Rela",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4: Impact of the calibration stage. Top-1 accuracy gains from adding calibration on top of exploration across fine-grained datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 12,
+    "caption": "Figure 5: Visualization of estimated class evidence maps for randomly sampled ImageNet-A images. For each example, we show the original image (left), the ground-truth class evidence map (top right), and the evidence map of a competing incorrect class (bottom right). Brighter regions indicate areas t",
+    "score": 6.0
+  }
+]

@@ -169,7 +169,7 @@ tags: [paper]
 - [Dynamic Load Balancing for Distributed Large Model Training: A Hybrid Framework of Gray Markov Chain and MDP](https://doi.org/10.1002/cpe.70456)
 - [Advances on Multimodal Remote Sensing Foundation Models for Earth Observation Downstream Tasks: A Survey](https://doi.org/10.3390/rs17213532)
 - [PatchEAD: Unifying Industrial Visual Prompting Frameworks for Patch-Exclusive Anomaly Detection](https://arxiv.org/abs/2509.25856)
-- [COLA: Context-Aware Language-Driven Test-Time Adaptation](https://arxiv.org/abs/2509.17598)
+- [[cola_context_aware_language_driven_test_time_adaptation|COLA: Context-Aware Language-Driven Test-Time Adaptation]]
 - [Generative AI Meets Wireless Sensing: Towards Wireless Foundation Model](https://arxiv.org/abs/2509.15258)
 - [DinoAtten3D: Slice-Level Attention Aggregation of DinoV2 for 3D Brain MRI Anomaly Classification](https://arxiv.org/abs/2509.12512)
 - [A vision-language model for multitask classification of memes](https://doi.org/10.1016/j.neunet.2025.108089)

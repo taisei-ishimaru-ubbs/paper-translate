@@ -1,0 +1,9 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Figure 1: Overview of VDA. Frozen semantic and domain-template classifiers hard-partition a disjoint unlabeled target pool. Confidence-ranked supports form normalized class-specific visual prototypes, which are fused with the semantic classifiers before evaluation. VDA uses no target labels, target-",
+    "score": 92.0
+  }
+]

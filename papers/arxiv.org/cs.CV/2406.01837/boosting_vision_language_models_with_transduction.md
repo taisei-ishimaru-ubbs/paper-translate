@@ -25,7 +25,7 @@ tags: [paper]
 
 - [Low-Rank Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18541)
 - [[on_the_test_time_zero_shot_generalization_of_vision_language_models_do_we_really_need_prompt_learning|On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?]]
-- [Transductive Zero-Shot and Few-Shot CLIP](https://arxiv.org/abs/2405.18437)
+- [[transductive_zero_shot_and_few_shot_clip|Transductive Zero-Shot and Few-Shot CLIP]]
 - [[no_zero_shot_without_exponential_data_pretraining_concept_frequency_determines_multimodal_model_performance|No "Zero-Shot" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance]]
 - [A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation](https://arxiv.org/abs/2402.04087)
 - [Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization](https://arxiv.org/abs/2311.01459)
@@ -109,7 +109,7 @@ tags: [paper]
 - [Locally Consistent Transductive Information Maximization for Few-Shot Remote Sensing Scene Classification](https://arxiv.org/abs/2607.29192)
 - [PRiSM: Prototype Regularization for Few-Shot VLMs](https://arxiv.org/abs/2607.17820)
 - [MonoIR-RS: Infrared Remote Sensing Vision-Language Learning with CLIP and VLM Adaptation](https://arxiv.org/abs/2607.06552)
-- [Transductive Zero-Shot Audio Classification with Audio-Language Models](https://arxiv.org/abs/2606.17160)
+- [[transductive_zero_shot_audio_classification_with_audio_language_models|Transductive Zero-Shot Audio Classification with Audio-Language Models]]
 - [Unveiling PEFT Robustness to Noisy Labels in VLMs: A Gradient-Loss Decoupling Perspective](https://doi.org/10.1145/3805622.3810828)
 - [TGCADNet: Text-Guided Context-Aware Detection via CLIP for Small Objects in UAV Scenes](https://doi.org/10.1109/TCSVT.2026.3662475)
 - [ CLS  is Not Enough: Multi-Label Recognition via Patch-Level Inference and Adaptive Aggregation](https://arxiv.org/abs/2605.25821)
@@ -120,7 +120,7 @@ tags: [paper]
 - [Semi-Supervised Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2603.02959)
 - [Retrieve and Segment: Are a Few Examples Enough to Bridge the Supervision Gap in Open-Vocabulary Segmentation?](https://arxiv.org/abs/2602.23339)
 - [ORION: ORthonormal Text Encoding for Universal VLM AdaptatION](https://arxiv.org/abs/2602.19530)
-- [LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs](https://arxiv.org/abs/2602.17535)
+- [[lata_laplacian_assisted_transductive_adaptation_for_conformal_uncertainty_in_medical_vlms|LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs]]
 - [Leveraging Prediction Entropy for Automatic Prompt Weighting in Zero-Shot Audio-Language Classification](https://arxiv.org/abs/2601.05011)
 - [GTMA: Dynamic Representation Optimization for OOD Vision-Language Models](https://arxiv.org/abs/2512.18504)
 - [Feature-structure guided pseudo-label refinement for source-free domain adaptation on time series data](https://doi.org/10.1117/12.3093522)

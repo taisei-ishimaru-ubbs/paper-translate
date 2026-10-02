@@ -1,0 +1,9 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Fig. 1. Overview of DRC. DRC recenters CLIP image fea- tures with a GMM-based soft bias correction and calibrates the resulting logits with a confidence-weighted class prior.",
+    "score": 92.0
+  }
+]

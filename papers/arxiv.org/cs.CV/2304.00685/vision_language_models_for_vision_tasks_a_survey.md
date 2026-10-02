@@ -709,7 +709,7 @@ tags: [paper]
 - [MACD: Model-Aware Contrastive Decoding via Counterfactual Data](https://arxiv.org/abs/2602.01740)
 - [VLM-Guided Experience Replay](https://arxiv.org/abs/2602.01915)
 - [SGHA-Attack: Semantic-Guided Hierarchical Alignment for Transferable Targeted Attacks on Vision-Language Models](https://arxiv.org/abs/2602.01574)
-- [Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models](https://arxiv.org/abs/2602.07027)
+- [[fair_context_learning_for_evidence_balanced_test_time_adaptation_in_vision_language_models|Fair Context Learning for Evidence-Balanced Test-Time Adaptation in Vision-Language Models]]
 - [Learn2Fold: Structured Origami Generation with World Model Planning](https://arxiv.org/abs/2603.29585)
 - [From task-specific to foundation models: A paradigm shift in medical vision-language analysis](https://doi.org/10.1016/j.cosrev.2025.100831)
 - [AR-assisted human-robot collaborative assembly system: Integrating visual language model and deep reinforcement learning for task planning and seamless interactive guidance](https://doi.org/10.1016/j.jmsy.2025.11.019)
@@ -1024,7 +1024,7 @@ tags: [paper]
 - [ADVEDM:Fine-grained Adversarial Attack against VLM-based Embodied Agents](https://arxiv.org/abs/2509.16645)
 - [Learning Hyperspectral Images with Curated Text Prompts for Efficient Multimodal Alignment](https://arxiv.org/abs/2509.22697)
 - [I-FailSense: Towards General Robotic Failure Detection with Vision-Language Models](https://arxiv.org/abs/2509.16072)
-- [COLA: Context-Aware Language-Driven Test-Time Adaptation](https://arxiv.org/abs/2509.17598)
+- [[cola_context_aware_language_driven_test_time_adaptation|COLA: Context-Aware Language-Driven Test-Time Adaptation]]
 - [ORIC: Benchmarking Object Recognition under Contextual Incongruity in Large Vision-Language Models](https://arxiv.org/abs/2509.15695)
 - [Deep-Stride: Automated Security Threat Modeling with Vision-Language Models](https://doi.org/10.23919/softcom66362.2025.11197424)
 - [AdaThinkDrive: Adaptive Thinking via Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/2509.13769)

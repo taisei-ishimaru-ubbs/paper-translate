@@ -1,0 +1,107 @@
+{
+  "id": "2609.29358",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "012ed0c7315f288198022e1c111bb8a8170d8e07",
+    "externalIds": {
+      "ArXiv": "2609.29358",
+      "CorpusId": 292287116
+    },
+    "url": "https://www.semanticscholar.org/paper/012ed0c7315f288198022e1c111bb8a8170d8e07",
+    "title": "Domain Recentering and Confidence-Weighted Prior Calibration for Vision-Language Models"
+  },
+  "references": [
+    {
+      "paper_id": "882ce06e2b2f37da40361a4b744fe7bfc086e8c9",
+      "arxiv_id": "2411.06921",
+      "doi": "10.48550/arXiv.2411.06921",
+      "title": "UMFC: Unsupervised Multi-Domain Feature Calibration for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/882ce06e2b2f37da40361a4b744fe7bfc086e8c9"
+    },
+    {
+      "paper_id": "4e6a85f656de178f913790f9755b6cb9ee2cd3ca",
+      "arxiv_id": "2410.19294",
+      "doi": "10.48550/arXiv.2410.19294",
+      "title": "Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting",
+      "url": "https://www.semanticscholar.org/paper/4e6a85f656de178f913790f9755b6cb9ee2cd3ca"
+    },
+    {
+      "paper_id": "f41e317309cfda9095354a56c0705b5a2cc94435",
+      "arxiv_id": "2401.12425",
+      "doi": "10.1109/CVPR52733.2024.01234",
+      "title": "The Neglected Tails in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/f41e317309cfda9095354a56c0705b5a2cc94435"
+    },
+    {
+      "paper_id": "734101311a8ae392ded894696ca070b04b82575f",
+      "arxiv_id": "2308.06038",
+      "doi": "10.1109/ICCV51070.2023.00255",
+      "title": "Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/734101311a8ae392ded894696ca070b04b82575f"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "45557cc70cd6989ab6b03e5aeb787e34299099f7",
+      "arxiv_id": "1907.07174",
+      "doi": "10.1109/CVPR46437.2021.01501",
+      "title": "Natural Adversarial Examples",
+      "url": "https://www.semanticscholar.org/paper/45557cc70cd6989ab6b03e5aeb787e34299099f7"
+    },
+    {
+      "paper_id": "4ae0c4a511697e960c477ea3e37b3e11bf3e0e02",
+      "arxiv_id": "1905.13549",
+      "doi": "",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power",
+      "url": "https://www.semanticscholar.org/paper/4ae0c4a511697e960c477ea3e37b3e11bf3e0e02"
+    },
+    {
+      "paper_id": "4e0bb8c1c683b43357c5d5216f6b74ff2cb32434",
+      "arxiv_id": "1902.10811",
+      "doi": "",
+      "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+      "url": "https://www.semanticscholar.org/paper/4e0bb8c1c683b43357c5d5216f6b74ff2cb32434"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    }
+  ],
+  "citations": []
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: Comparison of adaptation evidence. Left: many WTTA methods estimate reliability and construct adaptation targets from the model being adapted, allowing prediction errors to influence subsequent updates. Right: MASA queries a frozen MLLM on sparse anchors, propagates the encoded descriptors",
+    "score": 86.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: MASA overview. Gray modules form the regional-evidence path. MASA ranks buffered observations, selects diverse anchors, and queries a frozen MLLM for object and nuisance descriptors. It propagates these descriptors to nearby samples and stores them in a bounded visual–semantic memory for d",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: From an image-only MLLM query to descrip- tor phrases. A fixed task-agnostic prompt returns structured fields. Each value is indexed by l and denoted by ξl; list en- tries remain separate, while gray scores determine κa and are not embedded.",
+    "score": 3.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: Feature-space visualization after online adapta- tion. t-SNE features of 10 classes produced by ReCAP and MASA on ImageNet-C under Elastic Transform at severity level 5. Colors indicate classes, and boxes mark representa- tive regions for comparison.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 11,
+    "caption": "Figure 5: Hyperparameter sensitivity under label shift. Average accuracy (%) with ResNet50-GN when varying (a) the prototype-loss weight, (b) the periodic refresh interval, and (c) the memory capacity. Each sweep changes one parameter while fixing the others. Red squares mark the default settings, a",
+    "score": 0.0
+  }
+]

@@ -433,7 +433,7 @@ tags: [paper]
 - [Unsupervised Video Anomaly Detection Based on Similarity with Predefined Text Descriptions](https://doi.org/10.3390/s23146256)
 - [Towards Language Models That Can See: Computer Vision Through the LENS of Natural Language](https://arxiv.org/abs/2306.16410)
 - [DesCo: Learning Object Recognition with Rich Language Descriptions](https://arxiv.org/abs/2306.14060)
-- [Neural Priming for Sample-Efficient Adaptation](https://arxiv.org/abs/2306.10191)
+- [[neural_priming_for_sample_efficient_adaptation|Neural Priming for Sample-Efficient Adaptation]]
 - [[waffling_around_for_performance_visual_classification_with_random_words_and_broad_concepts|Waffling around for Performance: Visual Classification with Random Words and Broad Concepts]]
 - [Multi-Modal Classifiers for Open-Vocabulary Object Detection](https://arxiv.org/abs/2306.05493)
 - [Discovering Novel Actions from Open World Egocentric Videos with Object-Grounded Visual Commonsense Reasoning](https://arxiv.org/abs/2305.16602)

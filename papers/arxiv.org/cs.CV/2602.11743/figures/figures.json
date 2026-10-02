@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: (a) VLM bias, showing higher confidence and accuracy for head classes and lower confidence and accuracy for tail classes. (b) The standard Shannon Entropy (SE)-based method is widely used in TTA. (c) and (d) Our proposed method, which uses Tsallis Entropy (TE) and Adaptive Debiasing Tsalli",
+    "score": 99.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: Comparison between SE and TE.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: TE at different q values vs. SE; the red dashed line marks the optimal q of TE.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 9,
+    "caption": "Figure 4: Different number of views. Normalization Intervals and Computational Cost. Table 5 shows the performance ADTE using different normalization intervals. As the lower bound of the interval decreases from 0.1 to 0.0001, perfor- mance generally improves and then stabilizes. This demonstrates th",
+    "score": 5.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 21,
+    "caption": "Figure 5: Average TcrK values for different q of TE and SE on ImageNet-1K and its variant datasets.",
+    "score": 0.0
+  }
+]

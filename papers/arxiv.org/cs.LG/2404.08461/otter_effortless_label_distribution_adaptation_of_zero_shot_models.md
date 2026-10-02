@@ -28,7 +28,7 @@ tags: [paper]
 - [Mitigating Selection Bias with Node Pruning and Auxiliary Options](https://arxiv.org/abs/2409.18857)
 - [Unveiling Selection Biases: Exploring Order and Token Sensitivity in Large Language Models](https://arxiv.org/abs/2406.03009)
 - [P2OT: Progressive Partial Optimal Transport for Deep Imbalanced Clustering](https://arxiv.org/abs/2401.09266)
-- [Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models](https://arxiv.org/abs/2310.08106)
+- [[generalized_logit_adjustment_calibrating_fine_tuned_models_by_removing_label_bias_in_foundation_models|Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models]]
 - [Mitigating Word Bias in Zero-shot Prompt-based Classifiers](https://arxiv.org/abs/2309.04992)
 - [Zero-Shot Robustification of Zero-Shot Models With Foundation Models](https://arxiv.org/abs/2309.04344)
 - [Large Language Models Are Not Robust Multiple Choice Selectors](https://arxiv.org/abs/2309.03882)

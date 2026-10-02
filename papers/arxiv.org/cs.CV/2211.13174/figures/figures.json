@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: Illustration of the proposed EGZSL setting, featuring training with labeled seen class samples at time 0, followed by iterative predictive re-training on randomly divided data from the mixture of seen and unseen test sets in subsequent time steps (ratio of classes in a small batch is undef",
+    "score": 113.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2: Comparasion of EGZSL with other similar settings in chronological progression. TTA: Test-Time Adaptation; CL: Continual Learning; IGZSL: Inductive Generalized Zero-Shot Learning; TGZSL: Transductive Generalized Zero-Shot Learning; CGZSL: Continual Generalized Zero-Shot Learning. In TTA, se",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3: (a), (b) A comparison of evolution curves between our ap- proach and ERM (on AWA2, with 100 samples per time step). Our method displays a rise in accuracy over time, while ERM experi- ences a decline in accuracy.",
+    "score": 14.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4: Hyperparameters w.r.t. EGZSL performance on AWA2. (a) Effects of loss balancing coefficient λ (Eq. 12). (b) Effects of thresholds τ in Eq. (10). (c), (d) Effects of the smoothing factors m1 and m2 in Eq. (3) and (9).",
+    "score": 0.0
+  }
+]

@@ -1,0 +1,579 @@
+{
+  "id": "2602.11743",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "2557cf46a8b56bffeed9538942be19c533aabe51",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2602-11743",
+      "ArXiv": "2602.11743",
+      "DOI": "10.48550/arXiv.2602.11743",
+      "CorpusId": 285540332
+    },
+    "url": "https://www.semanticscholar.org/paper/2557cf46a8b56bffeed9538942be19c533aabe51",
+    "title": "Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation"
+  },
+  "references": [
+    {
+      "paper_id": "b2ea1979b8457f1a827785d2ebaa52e19236843b",
+      "arxiv_id": "2601.22579",
+      "doi": "10.1109/AIITA69518.2026.11567218",
+      "title": "Non-Intrusive Graph-Based Bot Detection for E-Commerce Using Inductive Graph Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/b2ea1979b8457f1a827785d2ebaa52e19236843b"
+    },
+    {
+      "paper_id": "6143453c5fbedfca4bd8eaf8967208633d34e40e",
+      "arxiv_id": "",
+      "doi": "10.1145/3746027.3755585",
+      "title": "Noise Self-Correction via Relation Propagation for Robust Cross-Modal Retrieval",
+      "url": "https://www.semanticscholar.org/paper/6143453c5fbedfca4bd8eaf8967208633d34e40e"
+    },
+    {
+      "paper_id": "743473c549534d70e9d30332fede05fdceae6f78",
+      "arxiv_id": "2509.22548",
+      "doi": "10.48550/arXiv.2509.22548",
+      "title": "JanusVLN: Decoupling Semantics and Spatiality with Dual Implicit Memory for Vision-Language Navigation",
+      "url": "https://www.semanticscholar.org/paper/743473c549534d70e9d30332fede05fdceae6f78"
+    },
+    {
+      "paper_id": "3666765d5a1904cb4d13d329ab0785eeab89a0e6",
+      "arxiv_id": "2509.21789",
+      "doi": "10.48550/arXiv.2509.21789",
+      "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow",
+      "url": "https://www.semanticscholar.org/paper/3666765d5a1904cb4d13d329ab0785eeab89a0e6"
+    },
+    {
+      "paper_id": "948e9d8655f483dc158d27ed657d3ce339eb0000",
+      "arxiv_id": "",
+      "doi": "10.24963/ijcai.2025/472",
+      "title": "A Cross-Modal Densely Guided Knowledge Distillation Based on Modality Rebalancing Strategy for Enhanced Unimodal Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/948e9d8655f483dc158d27ed657d3ce339eb0000"
+    },
+    {
+      "paper_id": "d5dd6f0af3cdf5ef7a84a913c2a54b3e37cc82f7",
+      "arxiv_id": "2508.06382",
+      "doi": "10.1145/3746027.3755288",
+      "title": "Text as Any-Modality for Zero-Shot Classification by Consistent Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/d5dd6f0af3cdf5ef7a84a913c2a54b3e37cc82f7"
+    },
+    {
+      "paper_id": "b8e9b4da89f33288f45f5860321db37eb73eacb7",
+      "arxiv_id": "2505.17685",
+      "doi": "10.48550/arXiv.2505.17685",
+      "title": "FutureSightDrive: Thinking Visually with Spatio-Temporal CoT for Autonomous Driving",
+      "url": "https://www.semanticscholar.org/paper/b8e9b4da89f33288f45f5860321db37eb73eacb7"
+    },
+    {
+      "paper_id": "843603e514f51d714e1498538460525d55577cf7",
+      "arxiv_id": "2503.09248",
+      "doi": "10.1109/CVPR52734.2025.02792",
+      "title": "Bayesian Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/843603e514f51d714e1498538460525d55577cf7"
+    },
+    {
+      "paper_id": "ebdc4d7e256ac65c87716a57e2b2b91a7e6332f7",
+      "arxiv_id": "2503.01478",
+      "doi": "10.48550/arXiv.2503.01478",
+      "title": "SePer: Measure Retrieval Utility Through The Lens Of Semantic Perplexity Reduction",
+      "url": "https://www.semanticscholar.org/paper/ebdc4d7e256ac65c87716a57e2b2b91a7e6332f7"
+    },
+    {
+      "paper_id": "8b7c003e77f86231c59251220bbe230d2c89d21a",
+      "arxiv_id": "2502.20120",
+      "doi": "10.48550/arXiv.2502.20120",
+      "title": "Rethinking Multimodal Learning from the Perspective of Mitigating Classification Ability Disproportion",
+      "url": "https://www.semanticscholar.org/paper/8b7c003e77f86231c59251220bbe230d2c89d21a"
+    },
+    {
+      "paper_id": "2b43a38db0679569c9a4697653b5c2af98d06b89",
+      "arxiv_id": "2502.03777",
+      "doi": "10.48550/arXiv.2502.03777",
+      "title": "Multi-Label Test-Time Adaptation with Bound Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/2b43a38db0679569c9a4697653b5c2af98d06b89"
+    },
+    {
+      "paper_id": "e87e2d4c49c139b27aae4b22a6f949c83f5d6f35",
+      "arxiv_id": "2501.16404",
+      "doi": "10.48550/arXiv.2501.16404",
+      "title": "DynaPrompt: Dynamic Test-Time Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/e87e2d4c49c139b27aae4b22a6f949c83f5d6f35"
+    },
+    {
+      "paper_id": "8c1552fe6a5b7ef13bdab04efb05b4ab48d3c2bb",
+      "arxiv_id": "2412.17629",
+      "doi": "10.1609/aaai.v40i29.39651",
+      "title": "Learn from Global Correlations: Enhancing Evolutionary Algorithm via Spectral GNN",
+      "url": "https://www.semanticscholar.org/paper/8c1552fe6a5b7ef13bdab04efb05b4ab48d3c2bb"
+    },
+    {
+      "paper_id": "4e6a85f656de178f913790f9755b6cb9ee2cd3ca",
+      "arxiv_id": "2410.19294",
+      "doi": "10.48550/arXiv.2410.19294",
+      "title": "Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting",
+      "url": "https://www.semanticscholar.org/paper/4e6a85f656de178f913790f9755b6cb9ee2cd3ca"
+    },
+    {
+      "paper_id": "4a10464d9908e27cb4b932593f2e1d7cb718822b",
+      "arxiv_id": "2410.14970",
+      "doi": "10.48550/arXiv.2410.14970",
+      "title": "Taming the Long Tail in Human Mobility Prediction",
+      "url": "https://www.semanticscholar.org/paper/4a10464d9908e27cb4b932593f2e1d7cb718822b"
+    },
+    {
+      "paper_id": "6141a7d6ccfa49d1dcfc794836f3361d1d48603d",
+      "arxiv_id": "",
+      "doi": "10.1109/ICME57554.2024.10688342",
+      "title": "CoVLR: Coordinating Cross-Modal Consistency and Intra-Modal Relations for Vision-Language Retrieval",
+      "url": "https://www.semanticscholar.org/paper/6141a7d6ccfa49d1dcfc794836f3361d1d48603d"
+    },
+    {
+      "paper_id": "bf28ca3dadc8e358139d346e5776eb21f146d754",
+      "arxiv_id": "2405.06926",
+      "doi": "10.48550/arXiv.2405.06926",
+      "title": "TAI++: Text as Image for Multi-Label Image Classification by Co-Learning Transferable Prompt",
+      "url": "https://www.semanticscholar.org/paper/bf28ca3dadc8e358139d346e5776eb21f146d754"
+    },
+    {
+      "paper_id": "178f563e039c1f94a60106a6d742ed88c22e6f3d",
+      "arxiv_id": "2404.08928",
+      "doi": "10.1109/CVPRW63382.2024.00428",
+      "title": "DeDoDe v2: Analyzing and Improving the DeDoDe Keypoint Detector",
+      "url": "https://www.semanticscholar.org/paper/178f563e039c1f94a60106a6d742ed88c22e6f3d"
+    },
+    {
+      "paper_id": "390b2aa03672d33c760a151bb056b1397bf40cc0",
+      "arxiv_id": "2403.18293",
+      "doi": "10.1109/CVPR52733.2024.01343",
+      "title": "Efficient Test-Time Adaptation of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/390b2aa03672d33c760a151bb056b1397bf40cc0"
+    },
+    {
+      "paper_id": "7ef18659f01b6c21cbb7d7acecce93d70c4bacc3",
+      "arxiv_id": "",
+      "doi": "10.1609/aaai.v38i11.29182",
+      "title": "Long-Tailed Partial Label Learning by Head Classifier and Tail Classifier Cooperation",
+      "url": "https://www.semanticscholar.org/paper/7ef18659f01b6c21cbb7d7acecce93d70c4bacc3"
+    },
+    {
+      "paper_id": "8c4f807b74e614ac284fb19029bcd88b290fba5d",
+      "arxiv_id": "2403.07366",
+      "doi": "10.48550/arXiv.2403.07366",
+      "title": "Entropy is not Enough for Test-Time Adaptation: From the Perspective of Disentangled Factors",
+      "url": "https://www.semanticscholar.org/paper/8c4f807b74e614ac284fb19029bcd88b290fba5d"
+    },
+    {
+      "paper_id": "95d0e078044d21755ed46f2f826fafeb98753d73",
+      "arxiv_id": "",
+      "doi": "10.1007/s10044-024-01232-9",
+      "title": "Subdomain adaptation via correlation alignment with entropy minimization for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/95d0e078044d21755ed46f2f826fafeb98753d73"
+    },
+    {
+      "paper_id": "eecd418a1f0f9d96c215e73ae8118ddf2b30b73b",
+      "arxiv_id": "",
+      "doi": "10.1109/TII.2023.3297323",
+      "title": "Source-Free Domain Adaptation for Privacy-Preserving Seizure Prediction",
+      "url": "https://www.semanticscholar.org/paper/eecd418a1f0f9d96c215e73ae8118ddf2b30b73b"
+    },
+    {
+      "paper_id": "f41e317309cfda9095354a56c0705b5a2cc94435",
+      "arxiv_id": "2401.12425",
+      "doi": "10.1109/CVPR52733.2024.01234",
+      "title": "The Neglected Tails in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/f41e317309cfda9095354a56c0705b5a2cc94435"
+    },
+    {
+      "paper_id": "f0f220240fc752b6b3c56464d96aeb322f221ef0",
+      "arxiv_id": "2312.10686",
+      "doi": "10.48550/arXiv.2312.10686",
+      "title": "Out-of-Distribution Detection in Long-Tailed Recognition with Calibrated Outlier Class Learning",
+      "url": "https://www.semanticscholar.org/paper/f0f220240fc752b6b3c56464d96aeb322f221ef0"
+    },
+    {
+      "paper_id": "d1c7db6cd5f11b75332b79e9de7e8bc79eac222a",
+      "arxiv_id": "2310.15985",
+      "doi": "10.1109/CVPRW63382.2024.00776",
+      "title": "Vision-Language Pseudo-Labels for Single-Positive Multi-Label Learning",
+      "url": "https://www.semanticscholar.org/paper/d1c7db6cd5f11b75332b79e9de7e8bc79eac222a"
+    },
+    {
+      "paper_id": "44800883e82c7bc7c45c2adb6257cd0a0be42610",
+      "arxiv_id": "2310.08106",
+      "doi": "10.48550/arXiv.2310.08106",
+      "title": "Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/44800883e82c7bc7c45c2adb6257cd0a0be42610"
+    },
+    {
+      "paper_id": "734101311a8ae392ded894696ca070b04b82575f",
+      "arxiv_id": "2308.06038",
+      "doi": "10.1109/ICCV51070.2023.00255",
+      "title": "Diverse Data Augmentation with Diffusions for Effective Test-time Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/734101311a8ae392ded894696ca070b04b82575f"
+    },
+    {
+      "paper_id": "94917c34a35ef3fd9719e54071d9d489c7da4823",
+      "arxiv_id": "2308.01890",
+      "doi": "10.1109/TPAMI.2023.3346405",
+      "title": "DualCoOp++: Fast and Effective Adaptation to Multi-Label Recognition With Limited Annotations",
+      "url": "https://www.semanticscholar.org/paper/94917c34a35ef3fd9719e54071d9d489c7da4823"
+    },
+    {
+      "paper_id": "d4b807bf9b72e4216b1580c286cc18f641987bf2",
+      "arxiv_id": "2308.02746",
+      "doi": "10.24963/ijcai.2023/573",
+      "title": "Meta-Tsallis-Entropy Minimization: A New Self-Training Approach for Domain Adaptation on Text Classification",
+      "url": "https://www.semanticscholar.org/paper/d4b807bf9b72e4216b1580c286cc18f641987bf2"
+    },
+    {
+      "paper_id": "44375d0996ef965e9555e1a0d12e150a8e864a04",
+      "arxiv_id": "2306.04344",
+      "doi": "10.48550/arXiv.2306.04344",
+      "title": "ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/44375d0996ef965e9555e1a0d12e150a8e864a04"
+    },
+    {
+      "paper_id": "f37fae71760834924f287b71ad8f7bbd026ee95b",
+      "arxiv_id": "2303.01904",
+      "doi": "10.1109/CVPR52729.2023.01147",
+      "title": "EcoTTA: Memory-Efficient Continual Test-Time Adaptation via Self-Distilled Regularization",
+      "url": "https://www.semanticscholar.org/paper/f37fae71760834924f287b71ad8f7bbd026ee95b"
+    },
+    {
+      "paper_id": "877e27a1d89095fcf686ab675f62a8432d3285ee",
+      "arxiv_id": "2302.06235",
+      "doi": "10.48550/arXiv.2302.06235",
+      "title": "A Simple Zero-shot Prompt Weighting Technique to Improve Prompt Ensembling in Text-Image Models",
+      "url": "https://www.semanticscholar.org/paper/877e27a1d89095fcf686ab675f62a8432d3285ee"
+    },
+    {
+      "paper_id": "92a144817376b2b8014b75a6f575e11ba75e76b0",
+      "arxiv_id": "2301.13018",
+      "doi": "10.48550/arXiv.2301.13018",
+      "title": "DELTA: degradation-free fully test-time adaptation",
+      "url": "https://www.semanticscholar.org/paper/92a144817376b2b8014b75a6f575e11ba75e76b0"
+    },
+    {
+      "paper_id": "80b9a6bb05e1d193d7446ae216d8933bc53a14e7",
+      "arxiv_id": "2211.14731",
+      "doi": "10.1109/WACV57701.2024.00333",
+      "title": "BALF: Simple and Efficient Blur Aware Local Feature Detector",
+      "url": "https://www.semanticscholar.org/paper/80b9a6bb05e1d193d7446ae216d8933bc53a14e7"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "b43e96fa9b9bad99984db0148e77ca7d491d7daa",
+      "arxiv_id": "",
+      "doi": "10.1109/ICIP46576.2022.9897277",
+      "title": "Ques-to-Visual Guided Visual Question Answering",
+      "url": "https://www.semanticscholar.org/paper/b43e96fa9b9bad99984db0148e77ca7d491d7daa"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "007fe51fddfae031570f2d69e67dc67e1fe33621",
+      "arxiv_id": "2209.03320",
+      "doi": "10.1109/ICCV51070.2023.01438",
+      "title": "What does a platypus look like? Generating customized prompts for zero-shot image classification",
+      "url": "https://www.semanticscholar.org/paper/007fe51fddfae031570f2d69e67dc67e1fe33621"
+    },
+    {
+      "paper_id": "ea3d6cf7f78c1b4581565a9e030891c2589da899",
+      "arxiv_id": "2203.17020",
+      "doi": "10.1007/s11263-023-01971-y",
+      "title": "Logit Normalization for Long-Tail Object Detection",
+      "url": "https://www.semanticscholar.org/paper/ea3d6cf7f78c1b4581565a9e030891c2589da899"
+    },
+    {
+      "paper_id": "8e5fa110cdeea486d2d29ec838e21d268af8fc0c",
+      "arxiv_id": "2305.11733",
+      "doi": "10.1109/CVPR52688.2022.00680",
+      "title": "Long-tailed Visual Recognition via Gaussian Clouded Logit Adjustment",
+      "url": "https://www.semanticscholar.org/paper/8e5fa110cdeea486d2d29ec838e21d268af8fc0c"
+    },
+    {
+      "paper_id": "6e2a5c59f8119374bc68e3dab075d660700b8155",
+      "arxiv_id": "2110.09506",
+      "doi": "10.52202/068431-2799",
+      "title": "MEMO: Test Time Robustness via Adaptation and Augmentation",
+      "url": "https://www.semanticscholar.org/paper/6e2a5c59f8119374bc68e3dab075d660700b8155"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "e602ce17a993d33d114381be4dc54e7c19d01bce",
+      "arxiv_id": "2103.03571",
+      "doi": "",
+      "title": "Cycle Self-Training for Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/e602ce17a993d33d114381be4dc54e7c19d01bce"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "4f65f604d3bf5fa91634484a3232b426267b71ef",
+      "arxiv_id": "2007.07314",
+      "doi": "",
+      "title": "Long-tail learning via logit adjustment",
+      "url": "https://www.semanticscholar.org/paper/4f65f604d3bf5fa91634484a3232b426267b71ef"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "45557cc70cd6989ab6b03e5aeb787e34299099f7",
+      "arxiv_id": "1907.07174",
+      "doi": "10.1109/CVPR46437.2021.01501",
+      "title": "Natural Adversarial Examples",
+      "url": "https://www.semanticscholar.org/paper/45557cc70cd6989ab6b03e5aeb787e34299099f7"
+    },
+    {
+      "paper_id": "c42816f497d663c681df20d48a6e66a5632600d8",
+      "arxiv_id": "1905.02249",
+      "doi": "",
+      "title": "MixMatch: A Holistic Approach to Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/c42816f497d663c681df20d48a6e66a5632600d8"
+    },
+    {
+      "paper_id": "4ae0c4a511697e960c477ea3e37b3e11bf3e0e02",
+      "arxiv_id": "1905.13549",
+      "doi": "",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power",
+      "url": "https://www.semanticscholar.org/paper/4ae0c4a511697e960c477ea3e37b3e11bf3e0e02"
+    },
+    {
+      "paper_id": "afb8f92870b4856646183625771f164ef3d94f06",
+      "arxiv_id": "1904.06487",
+      "doi": "10.1109/ICCV.2019.00814",
+      "title": "Semi-Supervised Domain Adaptation via Minimax Entropy",
+      "url": "https://www.semanticscholar.org/paper/afb8f92870b4856646183625771f164ef3d94f06"
+    },
+    {
+      "paper_id": "49b64383fe36268410c430352637ed23b16820c5",
+      "arxiv_id": "1903.12261",
+      "doi": "",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "url": "https://www.semanticscholar.org/paper/49b64383fe36268410c430352637ed23b16820c5"
+    },
+    {
+      "paper_id": "4e0bb8c1c683b43357c5d5216f6b74ff2cb32434",
+      "arxiv_id": "1902.10811",
+      "doi": "",
+      "title": "Do ImageNet Classifiers Generalize to ImageNet?",
+      "url": "https://www.semanticscholar.org/paper/4e0bb8c1c683b43357c5d5216f6b74ff2cb32434"
+    },
+    {
+      "paper_id": "b4df354db88a70183a64dbc9e56cf14e7669a6c0",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/P18-1238",
+      "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/b4df354db88a70183a64dbc9e56cf14e7669a6c0"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "a83cec6a91701bd8500f8c43ad731d4353c71d55",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW.2013.77",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "url": "https://www.semanticscholar.org/paper/a83cec6a91701bd8500f8c43ad731d4353c71d55"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "da9e411fcf740569b6b356f330a1d0fc077c8d7c",
+      "arxiv_id": "1212.0402",
+      "doi": "",
+      "title": "UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild",
+      "url": "https://www.semanticscholar.org/paper/da9e411fcf740569b6b356f330a1d0fc077c8d7c"
+    },
+    {
+      "paper_id": "908091b4a8757c3b2f7d9cfa2c4f616ee12c5157",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2010.5539970",
+      "title": "SUN database: Large-scale scene recognition from abbey to zoo",
+      "url": "https://www.semanticscholar.org/paper/908091b4a8757c3b2f7d9cfa2c4f616ee12c5157"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "ad67ccee45b801b0138016e2f44a566344e77320",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Semi-supervised Learning by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/ad67ccee45b801b0138016e2f44a566344e77320"
+    },
+    {
+      "paper_id": "ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.cviu.2005.09.012",
+      "title": "Learning Generative Visual Models from Few Training Examples: An Incremental Bayesian Approach Tested on 101 Object Categories",
+      "url": "https://www.semanticscholar.org/paper/ed9db7b20e019cdb1c7db8b7921221ee2d9f36e2"
+    },
+    {
+      "paper_id": "7d0954245c8df715e21b9b045ffac072fdf2a05e",
+      "arxiv_id": "",
+      "doi": "10.1103/PHYSREVE.58.1442",
+      "title": "Generalized entropy-based criterion for consistent testing",
+      "url": "https://www.semanticscholar.org/paper/7d0954245c8df715e21b9b045ffac072fdf2a05e"
+    },
+    {
+      "paper_id": "b20c0758a38bd5a4083f64eff53af924499a8e29",
+      "arxiv_id": "",
+      "doi": "10.1007/BF01016429",
+      "title": "Possible generalization of Boltzmann-Gibbs statistics",
+      "url": "https://www.semanticscholar.org/paper/b20c0758a38bd5a4083f64eff53af924499a8e29"
+    },
+    {
+      "paper_id": "9d3af1c5fd5f7fb51467b4308952bc4da8285396",
+      "arxiv_id": "",
+      "doi": "10.1177/003591577707000909",
+      "title": "Paper",
+      "url": "https://www.semanticscholar.org/paper/9d3af1c5fd5f7fb51467b4308952bc4da8285396"
+    },
+    {
+      "paper_id": "70a5c62db99cc5725754c32506dea4982fba2304",
+      "arxiv_id": "",
+      "doi": "10.1016/j.frl.2025.107890",
+      "title": "Early warning of cryptocurrency reversal risks via multi-source data",
+      "url": "https://www.semanticscholar.org/paper/70a5c62db99cc5725754c32506dea4982fba2304"
+    },
+    {
+      "paper_id": "460d852275cf7e074bb69d1486ca7ca1280889c9",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-2516",
+      "title": "DUET: Dual-Perspective Pseudo Labeling and Uncertainty-aware Exploration & Exploitation Training for Source-Free Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/460d852275cf7e074bb69d1486ca7ca1280889c9"
+    },
+    {
+      "paper_id": "e7e6debca5119e26b22bdd5b4cde40a20d366dc4",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Refining Visual Perception for Decoration Display: A Self-Enhanced Deep Captioning Model",
+      "url": "https://www.semanticscholar.org/paper/e7e6debca5119e26b22bdd5b4cde40a20d366dc4"
+    },
+    {
+      "paper_id": "2c9b56d93bfe0f910103a960fddca92f771c6a49",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Stationary Latent Weight Inference for Unreliable Observations from Online Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/2c9b56d93bfe0f910103a960fddca92f771c6a49"
+    },
+    {
+      "paper_id": "feff2d7f8243bbf8e5efa669db79f4d27e11e12c",
+      "arxiv_id": "",
+      "doi": "10.52202/079017-1984",
+      "title": "Facilitating Multimodal Classification via Dynamically Learning Modality Gap",
+      "url": "https://www.semanticscholar.org/paper/feff2d7f8243bbf8e5efa669db79f4d27e11e12c"
+    },
+    {
+      "paper_id": "1c199e3d50349153c0b6200006b02fbe66c27acd",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "X 2 -VLM: All-In-One Pre-trained Model For Vision-Language Tasks",
+      "url": "https://www.semanticscholar.org/paper/1c199e3d50349153c0b6200006b02fbe66c27acd"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "De-scribing textures in the wild",
+      "url": ""
+    },
+    {
+      "paper_id": "6d12a1d23b21a9b170118a56386552bc5d4727de",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A Mathematical Theory of Communication",
+      "url": "https://www.semanticscholar.org/paper/6d12a1d23b21a9b170118a56386552bc5d4727de"
+    },
+    {
+      "paper_id": "336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "cats and dogs",
+      "url": "https://www.semanticscholar.org/paper/336c95f9bce0dcf71b11c9b8cf0ff23b987ee47a"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Evaluation of tunnel rock mass integrity using multi-modal data and generative large model: Tunnel rip-gpt",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "eb3e83df7b7782321dd2460df9d3cc39eac26198",
+      "arxiv_id": "2606.00305",
+      "doi": "10.48550/arXiv.2606.00305",
+      "title": "Bridging Reasoning Trajectories in On-Policy Distillation via Near-Future Guidance",
+      "url": "https://www.semanticscholar.org/paper/eb3e83df7b7782321dd2460df9d3cc39eac26198"
+    },
+    {
+      "paper_id": "9f73c003418dc98a41c1337e2209e02897690746",
+      "arxiv_id": "2605.09253",
+      "doi": "10.48550/arXiv.2605.09253",
+      "title": "Cornerstones or Stumbling Blocks? Deciphering the Rock Tokens in On-Policy Distillation",
+      "url": "https://www.semanticscholar.org/paper/9f73c003418dc98a41c1337e2209e02897690746"
+    }
+  ]
+}

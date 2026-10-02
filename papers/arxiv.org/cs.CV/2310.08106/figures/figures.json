@@ -1,0 +1,37 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: (a) Per class accuracy of CLIP-ViT/B16 on ImageNet. Class index are sorted using the estimated pre-training label prior. Curves are smoothed for better visualization. (b) Beak-down performance of different models on ImageNet. We equally divide the ImageNet classes into three subgroups, acc",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 3,
+    "page": 6,
+    "caption": "Figure 3: Estimating label bias of CIFAR-10-LT-IB-10.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 5,
+    "page": 8,
+    "caption": "Figure 5: Accuracy (%) of few-shot learning on 11 datasets.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 8,
+    "caption": "Figure 4: Accuracy with mixing coefficient α.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 6,
+    "page": 9,
+    "caption": "Figure 6: Comparison with naive ensembling.",
+    "score": 0.0
+  }
+]

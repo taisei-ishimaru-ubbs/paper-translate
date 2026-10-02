@@ -1,0 +1,191 @@
+{
+  "id": "2609.17040",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "762fecdb3547db976d8a1cd83dfb9c2331ef0825",
+    "externalIds": {
+      "ArXiv": "2609.17040",
+      "CorpusId": 292033280
+    },
+    "url": "https://www.semanticscholar.org/paper/762fecdb3547db976d8a1cd83dfb9c2331ef0825",
+    "title": "Sparse MLLM Anchors, Dense Adaptation: Breaking the Self-Referential Loop in Wild Test-Time Adaptation"
+  },
+  "references": [
+    {
+      "paper_id": "90510ccdb77392c9269a26506d364288be2aed55",
+      "arxiv_id": "2509.03951",
+      "doi": "",
+      "title": "ANTS: Adaptive Negative Textual Space Shaping for OOD Detection via Test-Time MLLM Understanding and Reasoning",
+      "url": "https://www.semanticscholar.org/paper/90510ccdb77392c9269a26506d364288be2aed55"
+    },
+    {
+      "paper_id": "82ee7546931d57bd7a76e5bd1875878af77bfdd8",
+      "arxiv_id": "2503.10468",
+      "doi": "10.1109/CVPR52734.2025.02852",
+      "title": "OODD: Test-time Out-of-Distribution Detection with Dynamic Dictionary",
+      "url": "https://www.semanticscholar.org/paper/82ee7546931d57bd7a76e5bd1875878af77bfdd8"
+    },
+    {
+      "paper_id": "a22b23b65cdbc0335b872ed7c7a7206c710f8997",
+      "arxiv_id": "2409.12191",
+      "doi": "10.48550/arXiv.2409.12191",
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "url": "https://www.semanticscholar.org/paper/a22b23b65cdbc0335b872ed7c7a7206c710f8997"
+    },
+    {
+      "paper_id": "4cc88a6d588454be0f792e599b785f261b61ea18",
+      "arxiv_id": "2308.12213",
+      "doi": "10.1109/ICCV51070.2023.00173",
+      "title": "CLIPN for Zero-Shot OOD Detection: Teaching CLIP to Say No",
+      "url": "https://www.semanticscholar.org/paper/4cc88a6d588454be0f792e599b785f261b61ea18"
+    },
+    {
+      "paper_id": "54998f087f1db207ff3d19f1da54db60d0d172aa",
+      "arxiv_id": "2306.01293",
+      "doi": "10.48550/arXiv.2306.01293",
+      "title": "LoCoOp: Few-Shot Out-of-Distribution Detection via Prompt Learning",
+      "url": "https://www.semanticscholar.org/paper/54998f087f1db207ff3d19f1da54db60d0d172aa"
+    },
+    {
+      "paper_id": "f37fae71760834924f287b71ad8f7bbd026ee95b",
+      "arxiv_id": "2303.01904",
+      "doi": "10.1109/CVPR52729.2023.01147",
+      "title": "EcoTTA: Memory-Efficient Continual Test-Time Adaptation via Self-Distilled Regularization",
+      "url": "https://www.semanticscholar.org/paper/f37fae71760834924f287b71ad8f7bbd026ee95b"
+    },
+    {
+      "paper_id": "f849b873e94f28e1f2a3e1dc4d7bef17eb64adab",
+      "arxiv_id": "2302.12400",
+      "doi": "10.48550/arXiv.2302.12400",
+      "title": "Towards Stable Test-Time Adaptation in Dynamic Wild World",
+      "url": "https://www.semanticscholar.org/paper/f849b873e94f28e1f2a3e1dc4d7bef17eb64adab"
+    },
+    {
+      "paper_id": "ed0cbe81d615361e29196baec62de899c59463bf",
+      "arxiv_id": "2211.13445",
+      "doi": "10.48550/arXiv.2211.13445",
+      "title": "Delving into Out-of-Distribution Detection with Vision-Language Representations",
+      "url": "https://www.semanticscholar.org/paper/ed0cbe81d615361e29196baec62de899c59463bf"
+    },
+    {
+      "paper_id": "911770d6614af8f46a352b7427ad47a76984ab2f",
+      "arxiv_id": "2207.11707",
+      "doi": "10.48550/arXiv.2207.11707",
+      "title": "Improving Test-Time Adaptation via Shift-agnostic Weight Regularization and Nearest Source Prototypes",
+      "url": "https://www.semanticscholar.org/paper/911770d6614af8f46a352b7427ad47a76984ab2f"
+    },
+    {
+      "paper_id": "58913f1eb9957915e5d5d91f835f710cc3bbb6e8",
+      "arxiv_id": "2207.03442",
+      "doi": "10.1109/CVPR52729.2023.01134",
+      "title": "Back to the Source: Diffusion-Driven Adaptation to Test-Time Corruption",
+      "url": "https://www.semanticscholar.org/paper/58913f1eb9957915e5d5d91f835f710cc3bbb6e8"
+    },
+    {
+      "paper_id": "e9c9ea9c463c3a4a0589b196a7ac708698723c9c",
+      "arxiv_id": "2204.02610",
+      "doi": "10.48550/arXiv.2204.02610",
+      "title": "Efficient Test-Time Model Adaptation without Forgetting",
+      "url": "https://www.semanticscholar.org/paper/e9c9ea9c463c3a4a0589b196a7ac708698723c9c"
+    },
+    {
+      "paper_id": "6e2a5c59f8119374bc68e3dab075d660700b8155",
+      "arxiv_id": "2110.09506",
+      "doi": "10.52202/068431-2799",
+      "title": "MEMO: Test Time Robustness via Adaptation and Augmentation",
+      "url": "https://www.semanticscholar.org/paper/6e2a5c59f8119374bc68e3dab075d660700b8155"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "49b64383fe36268410c430352637ed23b16820c5",
+      "arxiv_id": "1903.12261",
+      "doi": "",
+      "title": "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations",
+      "url": "https://www.semanticscholar.org/paper/49b64383fe36268410c430352637ed23b16820c5"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "f3522f72b44ba67a04133a718a26e1c6c59fe9c1",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Test-Time Classifier Adjustment Module for Model-Agnostic Domain Generalization",
+      "url": "https://www.semanticscholar.org/paper/f3522f72b44ba67a04133a718a26e1c6c59fe9c1"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2025. Beyond Entropy: Region Confidence Proxy for Wild Test-Time Adaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2023. BLIP-2: Boot-strapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024. Negative Label Guided OOD Detection with Pretrained Vision-Language Models",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2022. Parameter-free Online Test-time Adaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024. Learning Transferable Negative Prompts for Out-of-Distribution Detection",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2022. Contin-ual Test-Time Domain Adaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2023. Visual Instruction Tuning",
+      "url": ""
+    }
+  ],
+  "citations": []
+}

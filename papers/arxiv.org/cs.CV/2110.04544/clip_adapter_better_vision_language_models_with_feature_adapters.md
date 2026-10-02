@@ -540,7 +540,7 @@ tags: [paper]
 - [Knowledge Transfer from Interaction Learning](https://arxiv.org/abs/2509.18733)
 - [Global Minimizers of Sigmoid Contrastive Loss](https://arxiv.org/abs/2509.18552)
 - [Informative Text-Image Alignment for Visual Affordance Learning with Foundation Models](https://arxiv.org/abs/2509.17074)
-- [COLA: Context-Aware Language-Driven Test-Time Adaptation](https://arxiv.org/abs/2509.17598)
+- [[cola_context_aware_language_driven_test_time_adaptation|COLA: Context-Aware Language-Driven Test-Time Adaptation]]
 - [Lost in Translation? Vocabulary Alignment for Source-Free Adaptation in Open-Vocabulary Semantic Segmentation](https://arxiv.org/abs/2509.15225)
 - [CoDoL: Conditional Domain Prompt Learning for Out-of-Distribution Generalization](https://arxiv.org/abs/2509.15330)
 - [An Empirical Analysis of VLM-based OOD Detection: Mechanisms, Advantages, and Sensitivity](https://arxiv.org/abs/2509.13375)
@@ -777,7 +777,7 @@ tags: [paper]
 - [TokLIP: Marry Visual Tokens to CLIP for Multimodal Comprehension and Generation](https://arxiv.org/abs/2505.05422)
 - [Does CLIP Perceive Art the Same Way We Do?](https://arxiv.org/abs/2505.05229)
 - [VGLD: Visually-Guided Linguistic Disambiguation for Monocular Depth Scale Recovery](https://arxiv.org/abs/2505.02704)
-- [Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin](https://arxiv.org/abs/2505.02056)
+- [[handling_imbalanced_pseudolabels_for_vision_language_models_with_concept_alignment_and_confusion_aware_calibrated_margin|Handling Imbalanced Pseudolabels for Vision-Language Models with Concept Alignment and Confusion-Aware Calibrated Margin]]
 - [Efficient Vocabulary-Free Fine-Grained Visual Recognition in the Age of Multimodal LLMs](https://arxiv.org/abs/2505.01064)
 - Multi-modal prompt learning with bidirectional layer-wise prompt fusion
 - Evaluating and predicting the impact of storage conditions and packaging materials on the physical properties of paddy rice using machine learning approaches and artificial neural networks

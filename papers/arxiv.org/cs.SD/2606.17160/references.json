@@ -1,0 +1,242 @@
+{
+  "id": "2606.17160",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "f1cdf93b03006a88586b442ca2d141dcab7ffe01",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2606-17160",
+      "ArXiv": "2606.17160",
+      "DOI": "10.48550/arXiv.2606.17160",
+      "CorpusId": 289630345
+    },
+    "url": "https://www.semanticscholar.org/paper/f1cdf93b03006a88586b442ca2d141dcab7ffe01",
+    "title": "Transductive Zero-Shot Audio Classification with Audio-Language Models"
+  },
+  "references": [
+    {
+      "paper_id": "9212141e66d29e78e0c08d6d524689fd842b6867",
+      "arxiv_id": "2601.05011",
+      "doi": "10.48550/arXiv.2601.05011",
+      "title": "Leveraging Prediction Entropy for Automatic Prompt Weighting in Zero-Shot Audio-Language Classification",
+      "url": "https://www.semanticscholar.org/paper/9212141e66d29e78e0c08d6d524689fd842b6867"
+    },
+    {
+      "paper_id": "d45577c9aff2b69f0b5cb3958c49014c1e6c6b7e",
+      "arxiv_id": "2409.19806",
+      "doi": "10.48550/arXiv.2409.19806",
+      "title": "PALM: Few-Shot Prompt Learning for Audio Language Models",
+      "url": "https://www.semanticscholar.org/paper/d45577c9aff2b69f0b5cb3958c49014c1e6c6b7e"
+    },
+    {
+      "paper_id": "973882c27e44480c23501878488830dff76b35ea",
+      "arxiv_id": "2409.09213",
+      "doi": "10.1109/ICASSP49660.2025.10888123",
+      "title": "ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds",
+      "url": "https://www.semanticscholar.org/paper/973882c27e44480c23501878488830dff76b35ea"
+    },
+    {
+      "paper_id": "389d092f5d04e09416ab86cd3096d8ddc767e254",
+      "arxiv_id": "2406.01837",
+      "doi": "10.48550/arXiv.2406.01837",
+      "title": "Boosting Vision-Language Models with Transduction",
+      "url": "https://www.semanticscholar.org/paper/389d092f5d04e09416ab86cd3096d8ddc767e254"
+    },
+    {
+      "paper_id": "0d195623869c759f19d11f079793767bdff4d277",
+      "arxiv_id": "2405.18437",
+      "doi": "10.1109/CVPR52733.2024.02722",
+      "title": "Transductive Zero-Shot and Few-Shot CLIP",
+      "url": "https://www.semanticscholar.org/paper/0d195623869c759f19d11f079793767bdff4d277"
+    },
+    {
+      "paper_id": "329960d5f4287077cdc258d49a66bdf277c1ee29",
+      "arxiv_id": "2309.05767",
+      "doi": "10.1109/ICASSP48485.2024.10448504",
+      "title": "Natural Language Supervision For General-Purpose Audio Representations",
+      "url": "https://www.semanticscholar.org/paper/329960d5f4287077cdc258d49a66bdf277c1ee29"
+    },
+    {
+      "paper_id": "f6c494234a818b2aec286b257ee6117f2894bcf7",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49357.2023.10095889",
+      "title": "CLAP Learning Audio Concepts from Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/f6c494234a818b2aec286b257ee6117f2894bcf7"
+    },
+    {
+      "paper_id": "d8632779d4c292555c9c3e471f790169805dacc3",
+      "arxiv_id": "2303.15361",
+      "doi": "10.1007/s11263-024-02181-w",
+      "title": "A Comprehensive Survey on Test-Time Adaptation Under Distribution Shifts",
+      "url": "https://www.semanticscholar.org/paper/d8632779d4c292555c9c3e471f790169805dacc3"
+    },
+    {
+      "paper_id": "877e27a1d89095fcf686ab675f62a8432d3285ee",
+      "arxiv_id": "2302.06235",
+      "doi": "10.48550/arXiv.2302.06235",
+      "title": "A Simple Zero-shot Prompt Weighting Technique to Improve Prompt Ensembling in Text-Image Models",
+      "url": "https://www.semanticscholar.org/paper/877e27a1d89095fcf686ab675f62a8432d3285ee"
+    },
+    {
+      "paper_id": "e9bc29cfcfbea4d137652d10715a9c9389349a90",
+      "arxiv_id": "2211.06687",
+      "doi": "10.1109/ICASSP49357.2023.10095969",
+      "title": "Large-Scale Contrastive Language-Audio Pretraining with Feature Fusion and Keyword-to-Caption Augmentation",
+      "url": "https://www.semanticscholar.org/paper/e9bc29cfcfbea4d137652d10715a9c9389349a90"
+    },
+    {
+      "paper_id": "12ad6e798487223f4c17aac69c9853bca8bc7830",
+      "arxiv_id": "2209.07511",
+      "doi": "10.48550/arXiv.2209.07511",
+      "title": "Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/12ad6e798487223f4c17aac69c9853bca8bc7830"
+    },
+    {
+      "paper_id": "da14a67089fe482741f42a8dcbadc4702d6ac122",
+      "arxiv_id": "2205.03433",
+      "doi": "10.1109/ICASSP43922.2022.9746828",
+      "title": "Vocalsound: A Dataset for Improving Human Vocal Sounds Recognition",
+      "url": "https://www.semanticscholar.org/paper/da14a67089fe482741f42a8dcbadc4702d6ac122"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "62635347c2dfcced8869790d24313f35c34be68b",
+      "arxiv_id": "2202.00874",
+      "doi": "10.1109/icassp43922.2022.9746312",
+      "title": "HTS-AT: A Hierarchical Token-Semantic Audio Transformer for Sound Classification and Detection",
+      "url": "https://www.semanticscholar.org/paper/62635347c2dfcced8869790d24313f35c34be68b"
+    },
+    {
+      "paper_id": "7dfcc5c22859cee318b404f1dadb207c312c7c92",
+      "arxiv_id": "2110.11499",
+      "doi": "10.1109/ICASSP43922.2022.9747669",
+      "title": "Wav2CLIP: Learning Robust Audio Representations from Clip",
+      "url": "https://www.semanticscholar.org/paper/7dfcc5c22859cee318b404f1dadb207c312c7c92"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "fda4530df9eec0e3f714dba3459ac50dab17d89c",
+      "arxiv_id": "2106.13043",
+      "doi": "10.1109/icassp43922.2022.9747631",
+      "title": "Audioclip: Extending Clip to Image, Text and Audio",
+      "url": "https://www.semanticscholar.org/paper/fda4530df9eec0e3f714dba3459ac50dab17d89c"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "b3ff34188236d7c47c844a9bcc6155ac1b743a71",
+      "arxiv_id": "2011.12133",
+      "doi": "10.1109/TASLP.2021.3065234",
+      "title": "Zero-Shot Audio Classification Via Semantic Embeddings",
+      "url": "https://www.semanticscholar.org/paper/b3ff34188236d7c47c844a9bcc6155ac1b743a71"
+    },
+    {
+      "paper_id": "5260c6b7b402ffae46bc53b337c71e7b80239432",
+      "arxiv_id": "2010.00475",
+      "doi": "10.1109/taslp.2021.3133208",
+      "title": "FSD50K: An Open Dataset of Human-Labeled Sound Events",
+      "url": "https://www.semanticscholar.org/paper/5260c6b7b402ffae46bc53b337c71e7b80239432"
+    },
+    {
+      "paper_id": "5242a0e057364817c4adc4c02029588e315c7b50",
+      "arxiv_id": "2006.15486",
+      "doi": "",
+      "title": "Laplacian Regularized Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/5242a0e057364817c4adc4c02029588e315c7b50"
+    },
+    {
+      "paper_id": "fc025417a6350805c46d9d16a7be23309f1dddbe",
+      "arxiv_id": "",
+      "doi": "10.1007/978-1-4939-7131-2_101503",
+      "title": "Detection",
+      "url": "https://www.semanticscholar.org/paper/fc025417a6350805c46d9d16a7be23309f1dddbe"
+    },
+    {
+      "paper_id": "a49e40c03c16c896ade4f2670125ccf89f0a5139",
+      "arxiv_id": "1807.09840",
+      "doi": "",
+      "title": "A multi-device dataset for urban acoustic scene classification",
+      "url": "https://www.semanticscholar.org/paper/a49e40c03c16c896ade4f2670125ccf89f0a5139"
+    },
+    {
+      "paper_id": "db0a9d3db22e002186e76e90ab10bbd8a47db2b8",
+      "arxiv_id": "1805.10002",
+      "doi": "",
+      "title": "Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/db0a9d3db22e002186e76e90ab10bbd8a47db2b8"
+    },
+    {
+      "paper_id": "5ba2218b708ca64ab556e39d5997202e012717d5",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP.2017.7952261",
+      "title": "Audio Set: An ontology and human-labeled dataset for audio events",
+      "url": "https://www.semanticscholar.org/paper/5ba2218b708ca64ab556e39d5997202e012717d5"
+    },
+    {
+      "paper_id": "99e6f700d374e34c8376f1f43af994b278924f28",
+      "arxiv_id": "",
+      "doi": "10.1145/2733373.2806390",
+      "title": "ESC: Dataset for Environmental Sound Classification",
+      "url": "https://www.semanticscholar.org/paper/99e6f700d374e34c8376f1f43af994b278924f28"
+    },
+    {
+      "paper_id": "39a7a74de74efac3b8123650315d55cfb9d5220c",
+      "arxiv_id": "",
+      "doi": "10.1145/2647868.2655045",
+      "title": "A Dataset and Taxonomy for Urban Sound Research",
+      "url": "https://www.semanticscholar.org/paper/39a7a74de74efac3b8123650315d55cfb9d5220c"
+    },
+    {
+      "paper_id": "0080118b0eb02af581ff32b85a1bb6aed7081f45",
+      "arxiv_id": "1306.0895",
+      "doi": "",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/0080118b0eb02af581ff32b85a1bb6aed7081f45"
+    },
+    {
+      "paper_id": "11de3f9770b08484b28597deb17714fb107caafe",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Clustering on the Unit Hypersphere using von Mises-Fisher Distributions",
+      "url": "https://www.semanticscholar.org/paper/11de3f9770b08484b28597deb17714fb107caafe"
+    },
+    {
+      "paper_id": "46770a8e7e2af28f5253e5961f709be74e34c1f6",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning with Local and Global Consistency",
+      "url": "https://www.semanticscholar.org/paper/46770a8e7e2af28f5253e5961f709be74e34c1f6"
+    },
+    {
+      "paper_id": "180c78b132f6369a384d22a9529551d86c8788d3",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Tent: Fully Test-Time Adaptation by Entropy Minimization",
+      "url": "https://www.semanticscholar.org/paper/180c78b132f6369a384d22a9529551d86c8788d3"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "“Maximum likelihood from incomplete data via the EM algo-rithm,”",
+      "url": ""
+    }
+  ],
+  "citations": []
+}
