@@ -1,0 +1,1601 @@
+{
+  "id": "2310.09291",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "a09aec45d4eff67fd244b0f4035895cdd3fe72e9",
+    "externalIds": {
+      "ArXiv": "2310.09291",
+      "DBLP": "journals/corr/abs-2310-09291",
+      "DOI": "10.48550/arXiv.2310.09291",
+      "CorpusId": 264128238
+    },
+    "url": "https://www.semanticscholar.org/paper/a09aec45d4eff67fd244b0f4035895cdd3fe72e9",
+    "title": "Vision-by-Language for Training-Free Compositional Image Retrieval"
+  },
+  "references": [
+    {
+      "paper_id": "804791cde0410d9725043a890f67fd8c621ddb32",
+      "arxiv_id": "2310.05473",
+      "doi": "10.48550/arXiv.2310.05473",
+      "title": "Sentence-level Prompts Benefit Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/804791cde0410d9725043a890f67fd8c621ddb32"
+    },
+    {
+      "paper_id": "3acadddedb926fa1808a562fc721f2ee95e0b770",
+      "arxiv_id": "2308.14746",
+      "doi": "10.1109/TPAMI.2024.3463799",
+      "title": "CoVR-2: Automatic Data Construction for Composed Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3acadddedb926fa1808a562fc721f2ee95e0b770"
+    },
+    {
+      "paper_id": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "arxiv_id": "2307.09288",
+      "doi": "",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://www.semanticscholar.org/paper/104b0bb1da562d53cbda87aec79ef6a2827d191a"
+    },
+    {
+      "paper_id": "efc694164312006c543ef745611348ef64e68dda",
+      "arxiv_id": "2306.16410",
+      "doi": "10.48550/arXiv.2306.16410",
+      "title": "Towards Language Models That Can See: Computer Vision Through the LENS of Natural Language",
+      "url": "https://www.semanticscholar.org/paper/efc694164312006c543ef745611348ef64e68dda"
+    },
+    {
+      "paper_id": "dedbac319177d04ce63fe00d2fec24bdaab90d6d",
+      "arxiv_id": "2306.14610",
+      "doi": "10.48550/arXiv.2306.14610",
+      "title": "SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality",
+      "url": "https://www.semanticscholar.org/paper/dedbac319177d04ce63fe00d2fec24bdaab90d6d"
+    },
+    {
+      "paper_id": "23f7aa8684658c4ea89b50a81f68a1fd8f40213f",
+      "arxiv_id": "2306.07272",
+      "doi": "10.48550/arXiv.2306.07272",
+      "title": "Zero-shot Composed Text-Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/23f7aa8684658c4ea89b50a81f68a1fd8f40213f"
+    },
+    {
+      "paper_id": "1a2018bde44ebd312ccb092fa8fe8006b2581c29",
+      "arxiv_id": "2306.07282",
+      "doi": "10.1109/ICCV51070.2023.01443",
+      "title": "Waffling around for Performance: Visual Classification with Random Words and Broad Concepts",
+      "url": "https://www.semanticscholar.org/paper/1a2018bde44ebd312ccb092fa8fe8006b2581c29"
+    },
+    {
+      "paper_id": "deaf8e6f6acb05a8a83baf29804a400a73b762b2",
+      "arxiv_id": "2306.07969",
+      "doi": "10.1109/CVPR52729.2023.00663",
+      "title": "GeneCIS: A Benchmark for General Conditional Image Similarity",
+      "url": "https://www.semanticscholar.org/paper/deaf8e6f6acb05a8a83baf29804a400a73b762b2"
+    },
+    {
+      "paper_id": "461437e165fa8236373bdcc4db5f09667863bc29",
+      "arxiv_id": "2305.20062",
+      "doi": "10.52202/075280-2684",
+      "title": "Chatting Makes Perfect: Chat-based Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/461437e165fa8236373bdcc4db5f09667863bc29"
+    },
+    {
+      "paper_id": "0cc49320f77e384a9acde7fa9c1b7c776a4f04a4",
+      "arxiv_id": "2305.13308",
+      "doi": "10.48550/arXiv.2305.13308",
+      "title": "If at First You Don't Succeed, Try, Try Again: Faithful Diffusion-based Text-to-Image Generation by Selection",
+      "url": "https://www.semanticscholar.org/paper/0cc49320f77e384a9acde7fa9c1b7c776a4f04a4"
+    },
+    {
+      "paper_id": "efff9573876f0b704e08fdaf0bf5779ae3b151f1",
+      "arxiv_id": "2303.15247",
+      "doi": "10.1109/ICCV51070.2023.01407",
+      "title": "Zero-Shot Composed Image Retrieval with Textual Inversion",
+      "url": "https://www.semanticscholar.org/paper/efff9573876f0b704e08fdaf0bf5779ae3b151f1"
+    },
+    {
+      "paper_id": "b6eb82fc94cacdf4575fe509ef437634bf090ac2",
+      "arxiv_id": "2303.11916",
+      "doi": "10.48550/arXiv.2303.11916",
+      "title": "CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion",
+      "url": "https://www.semanticscholar.org/paper/b6eb82fc94cacdf4575fe509ef437634bf090ac2"
+    },
+    {
+      "paper_id": "1f02ba1c6fae779ec3d003340e72eaf82351cfb9",
+      "arxiv_id": "2303.11897",
+      "doi": "10.1109/ICCV51070.2023.01866",
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "url": "https://www.semanticscholar.org/paper/1f02ba1c6fae779ec3d003340e72eaf82351cfb9"
+    },
+    {
+      "paper_id": "163b4d6a79a5b19af88b8585456363340d9efd04",
+      "arxiv_id": "2303.08774",
+      "doi": "",
+      "title": "GPT-4 Technical Report",
+      "url": "https://www.semanticscholar.org/paper/163b4d6a79a5b19af88b8585456363340d9efd04"
+    },
+    {
+      "paper_id": "69cfdc8df16ae63b7acba4ac6f727f78b86893c3",
+      "arxiv_id": "2303.06594",
+      "doi": "10.48550/arXiv.2303.06594",
+      "title": "ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions",
+      "url": "https://www.semanticscholar.org/paper/69cfdc8df16ae63b7acba4ac6f727f78b86893c3"
+    },
+    {
+      "paper_id": "9b897a8739f04fa4eff7431fd8a3c547b49f4878",
+      "arxiv_id": "2302.03084",
+      "doi": "10.1109/CVPR52729.2023.01850",
+      "title": "Pic2Word: Mapping Pictures to Words for Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9b897a8739f04fa4eff7431fd8a3c547b49f4878"
+    },
+    {
+      "paper_id": "c3c7464acb90049c5f520b0732dc7435ba3690bd",
+      "arxiv_id": "2301.13826",
+      "doi": "10.1145/3592116",
+      "title": "Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/c3c7464acb90049c5f520b0732dc7435ba3690bd"
+    },
+    {
+      "paper_id": "3f5b31c4f7350dc88002c121aecbdc82f86eb5bb",
+      "arxiv_id": "2301.12597",
+      "doi": "10.48550/arXiv.2301.12597",
+      "title": "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/3f5b31c4f7350dc88002c121aecbdc82f86eb5bb"
+    },
+    {
+      "paper_id": "aee7cae5d55bae313901cf300a7927f9eee494f0",
+      "arxiv_id": "2301.00184",
+      "doi": "10.1109/CVPR52729.2023.01031",
+      "title": "Cap4Video: What Can Auxiliary Captions Do for Text-Video Retrieval?",
+      "url": "https://www.semanticscholar.org/paper/aee7cae5d55bae313901cf300a7927f9eee494f0"
+    },
+    {
+      "paper_id": "db4ab91d5675c37795e719e997a2827d3d83cd45",
+      "arxiv_id": "2212.10403",
+      "doi": "10.48550/arXiv.2212.10403",
+      "title": "Towards Reasoning in Large Language Models: A Survey",
+      "url": "https://www.semanticscholar.org/paper/db4ab91d5675c37795e719e997a2827d3d83cd45"
+    },
+    {
+      "paper_id": "16de2006e2960ba410772c6b6d460b83c0a5cc4b",
+      "arxiv_id": "2212.07143",
+      "doi": "10.1109/CVPR52729.2023.00276",
+      "title": "Reproducible Scaling Laws for Contrastive Language-Image Learning",
+      "url": "https://www.semanticscholar.org/paper/16de2006e2960ba410772c6b6d460b83c0a5cc4b"
+    },
+    {
+      "paper_id": "ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79",
+      "arxiv_id": "2211.16198",
+      "doi": "10.1109/ICCV51070.2023.00257",
+      "title": "SuS-X: Training-Free Name-Only Transfer of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/ffdad9a5493e8d4c6c529b7b6f85eee91ca0bb79"
+    },
+    {
+      "paper_id": "61f329722cd94291898c2c8131606a55f7a07219",
+      "arxiv_id": "2210.14891",
+      "doi": "10.48550/arXiv.2210.14891",
+      "title": "Broken Neural Scaling Laws",
+      "url": "https://www.semanticscholar.org/paper/61f329722cd94291898c2c8131606a55f7a07219"
+    },
+    {
+      "paper_id": "cdbd4f9b6ab2e2fd1ddf5400d5ed2c18960635d1",
+      "arxiv_id": "2210.11416",
+      "doi": "10.48550/arXiv.2210.11416",
+      "title": "Scaling Instruction-Finetuned Language Models",
+      "url": "https://www.semanticscholar.org/paper/cdbd4f9b6ab2e2fd1ddf5400d5ed2c18960635d1"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "a42b091adaf29b06a092b67192ac07cb93312f2a",
+      "arxiv_id": "2210.07183",
+      "doi": "10.48550/arXiv.2210.07183",
+      "title": "Visual Classification via Description from Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a42b091adaf29b06a092b67192ac07cb93312f2a"
+    },
+    {
+      "paper_id": "007fe51fddfae031570f2d69e67dc67e1fe33621",
+      "arxiv_id": "2209.03320",
+      "doi": "10.1109/ICCV51070.2023.01438",
+      "title": "What does a platypus look like? Generating customized prompts for zero-shot image classification",
+      "url": "https://www.semanticscholar.org/paper/007fe51fddfae031570f2d69e67dc67e1fe33621"
+    },
+    {
+      "paper_id": "5406129d9d7d00dc310671c43597101b0ee93629",
+      "arxiv_id": "2208.01618",
+      "doi": "10.48550/arXiv.2208.01618",
+      "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+      "url": "https://www.semanticscholar.org/paper/5406129d9d7d00dc310671c43597101b0ee93629"
+    },
+    {
+      "paper_id": "3ff7153fd6bd47d08084c7f50f8fd70026c126e7",
+      "arxiv_id": "2206.01714",
+      "doi": "10.48550/arXiv.2206.01714",
+      "title": "Compositional Visual Generation with Composable Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/3ff7153fd6bd47d08084c7f50f8fd70026c126e7"
+    },
+    {
+      "paper_id": "744c42180b9721c1c15b753ba9c00b019b5dfec2",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52688.2022.02080",
+      "title": "Effective conditioned and composed image retrieval combining CLIP-based features",
+      "url": "https://www.semanticscholar.org/paper/744c42180b9721c1c15b753ba9c00b019b5dfec2"
+    },
+    {
+      "paper_id": "2ff6f2b4a175cbc533795b723d6f18d64cea3916",
+      "arxiv_id": "2205.08508",
+      "doi": "10.48550/arXiv.2205.08508",
+      "title": "A CLIP-Hitchhiker's Guide to Long Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/2ff6f2b4a175cbc533795b723d6f18d64cea3916"
+    },
+    {
+      "paper_id": "97fd38f27bd30a0b8150590b757cf20415e6741d",
+      "arxiv_id": "2205.06784",
+      "doi": "10.1109/CVPR52688.2022.00912",
+      "title": "KG-SP: Knowledge Guided Simple Primitives for Open World Compositional Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/97fd38f27bd30a0b8150590b757cf20415e6741d"
+    },
+    {
+      "paper_id": "a26a7a74f1e5fd562be95c3611a0680759fbdf84",
+      "arxiv_id": "2205.01917",
+      "doi": "10.48550/arXiv.2205.01917",
+      "title": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/a26a7a74f1e5fd562be95c3611a0680759fbdf84"
+    },
+    {
+      "paper_id": "c57293882b2561e1ba03017902df9fc2f289dea2",
+      "arxiv_id": "2204.06125",
+      "doi": "10.48550/arXiv.2204.06125",
+      "title": "Hierarchical Text-Conditional Image Generation with CLIP Latents",
+      "url": "https://www.semanticscholar.org/paper/c57293882b2561e1ba03017902df9fc2f289dea2"
+    },
+    {
+      "paper_id": "c435ecd0321dcec1f25e458bf930311f9e1d04b6",
+      "arxiv_id": "2204.03162",
+      "doi": "10.1109/CVPR52688.2022.00517",
+      "title": "Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality",
+      "url": "https://www.semanticscholar.org/paper/c435ecd0321dcec1f25e458bf930311f9e1d04b6"
+    },
+    {
+      "paper_id": "0791a0441e1f672c43aecb2d6708fbc8725c8cad",
+      "arxiv_id": "2204.01694",
+      "doi": "10.48550/arXiv.2204.01694",
+      "title": "\"This is my unicorn, Fluffy\": Personalizing frozen vision-language representations",
+      "url": "https://www.semanticscholar.org/paper/0791a0441e1f672c43aecb2d6708fbc8725c8cad"
+    },
+    {
+      "paper_id": "ada81a4de88a6ce474df2e2446ad11fea480616e",
+      "arxiv_id": "2204.00598",
+      "doi": "",
+      "title": "Socratic Models: Composing Zero-Shot Multimodal Reasoning with Language",
+      "url": "https://www.semanticscholar.org/paper/ada81a4de88a6ce474df2e2446ad11fea480616e"
+    },
+    {
+      "paper_id": "15e234a67f30d6761f1d7670d501095d1697b69c",
+      "arxiv_id": "2203.13131",
+      "doi": "10.48550/arXiv.2203.13131",
+      "title": "Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors",
+      "url": "https://www.semanticscholar.org/paper/15e234a67f30d6761f1d7670d501095d1697b69c"
+    },
+    {
+      "paper_id": "f3852acbd4024c4d41eccd1244382ccf0e6dcc7b",
+      "arxiv_id": "2203.08543",
+      "doi": "10.1109/CVPR52688.2022.01570",
+      "title": "Integrating Language Guidance into Vision-based Deep Metric Learning",
+      "url": "https://www.semanticscholar.org/paper/f3852acbd4024c4d41eccd1244382ccf0e6dcc7b"
+    },
+    {
+      "paper_id": "48f0f1702b99f727045317eeb2215bc8b3ef3e69",
+      "arxiv_id": "2203.08547",
+      "doi": "10.1109/CVPR52688.2022.00727",
+      "title": "Non-isotropy Regularization for Proxy-based Deep Metric Learning",
+      "url": "https://www.semanticscholar.org/paper/48f0f1702b99f727045317eeb2215bc8b3ef3e69"
+    },
+    {
+      "paper_id": "69778262994c3183ac02c7e535a3e9256c5231fa",
+      "arxiv_id": "2203.08101",
+      "doi": "",
+      "title": "ARTEMIS: Attention-based Retrieval with Text-Explicit Matching and Implicit Similarity",
+      "url": "https://www.semanticscholar.org/paper/69778262994c3183ac02c7e535a3e9256c5231fa"
+    },
+    {
+      "paper_id": "a3b42a83669998f65df60d7c065a70d07ca95e99",
+      "arxiv_id": "2201.12086",
+      "doi": "",
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "url": "https://www.semanticscholar.org/paper/a3b42a83669998f65df60d7c065a70d07ca95e99"
+    },
+    {
+      "paper_id": "b66f539e116dcf6aa8444bce9f7beb62f0e2de74",
+      "arxiv_id": "2112.12777",
+      "doi": "10.1109/CVPR52688.2022.00513",
+      "title": "Cross Modal Retrieval with Querybank Normalisation",
+      "url": "https://www.semanticscholar.org/paper/b66f539e116dcf6aa8444bce9f7beb62f0e2de74"
+    },
+    {
+      "paper_id": "f58acfeb022ba15282ec5fc047c98010311fa9da",
+      "arxiv_id": "2112.10752",
+      "doi": "10.1109/CVPR52688.2022.01042",
+      "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/f58acfeb022ba15282ec5fc047c98010311fa9da"
+    },
+    {
+      "paper_id": "2fd6f77540c1cc8e70b96208ccf9971b4251fc02",
+      "arxiv_id": "2112.04482",
+      "doi": "10.1109/CVPR52688.2022.01519",
+      "title": "FLAVA: A Foundational Language And Vision Alignment Model",
+      "url": "https://www.semanticscholar.org/paper/2fd6f77540c1cc8e70b96208ccf9971b4251fc02"
+    },
+    {
+      "paper_id": "b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df",
+      "arxiv_id": "2111.02114",
+      "doi": "",
+      "title": "LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs",
+      "url": "https://www.semanticscholar.org/paper/b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df"
+    },
+    {
+      "paper_id": "76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2",
+      "arxiv_id": "2108.07258",
+      "doi": "",
+      "title": "On the Opportunities and Risks of Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/76e9e2ec3de437ffb30d8b7b629f7fe3e61de5c2"
+    },
+    {
+      "paper_id": "c2d5426ee019d3d894b9d4416dc866b65fe64312",
+      "arxiv_id": "2108.04024",
+      "doi": "10.1109/ICCV48922.2021.00213",
+      "title": "Image Retrieval on Real-life Images with Pre-trained Vision-and-Language Models",
+      "url": "https://www.semanticscholar.org/paper/c2d5426ee019d3d894b9d4416dc866b65fe64312"
+    },
+    {
+      "paper_id": "92df862c24d6436eeca777870ad853bf692eee2b",
+      "arxiv_id": "2106.09707",
+      "doi": "10.1109/CVPR46437.2021.01282",
+      "title": "Learning to Predict Visual Attributes in the Wild",
+      "url": "https://www.semanticscholar.org/paper/92df862c24d6436eeca777870ad853bf692eee2b"
+    },
+    {
+      "paper_id": "efaafa035064c2ef0a011d3f70752273e198c021",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR46437.2021.00086",
+      "title": "CoSMo: Content-Style Modulation for Image Retrieval with Text Feedback",
+      "url": "https://www.semanticscholar.org/paper/efaafa035064c2ef0a011d3f70752273e198c021"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "141a5033d9994242b18bb3b217e79582f1ee9306",
+      "arxiv_id": "2102.05918",
+      "doi": "",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/141a5033d9994242b18bb3b217e79582f1ee9306"
+    },
+    {
+      "paper_id": "5e28bced9bccd3284b9593578be07ac6ab61283d",
+      "arxiv_id": "2101.12609",
+      "doi": "10.1109/CVPR46437.2021.00518",
+      "title": "Open World Compositional Zero-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/5e28bced9bccd3284b9593578be07ac6ab61283d"
+    },
+    {
+      "paper_id": "268d347e8a55b5eb82fb5e7d2f800e33c75ab18a",
+      "arxiv_id": "2010.11929",
+      "doi": "",
+      "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+      "url": "https://www.semanticscholar.org/paper/268d347e8a55b5eb82fb5e7d2f800e33c75ab18a"
+    },
+    {
+      "paper_id": "34b0ce6daca8fb1a95b568e1b6d573377e736e24",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-58542-6_9",
+      "title": "Learning Joint Visual Semantic Matching Embeddings for Language-Guided Retrieval",
+      "url": "https://www.semanticscholar.org/paper/34b0ce6daca8fb1a95b568e1b6d573377e736e24"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "b9612e2406362ab56becacf84ffbd261386aa2ef",
+      "arxiv_id": "2006.11149",
+      "doi": "10.1109/WACV48630.2021.00118",
+      "title": "Compositional Learning of Image-Text Query for Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/b9612e2406362ab56becacf84ffbd261386aa2ef"
+    },
+    {
+      "paper_id": "78f69364531794550130389342b7bc0ff785b7e9",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR42600.2020.00307",
+      "title": "Image Search With Text Feedback by Visiolinguistic Attention Learning",
+      "url": "https://www.semanticscholar.org/paper/78f69364531794550130389342b7bc0ff785b7e9"
+    },
+    {
+      "paper_id": "90abbc2cf38462b954ae1b772fac9532e2ccd8b0",
+      "arxiv_id": "2005.14165",
+      "doi": "",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://www.semanticscholar.org/paper/90abbc2cf38462b954ae1b772fac9532e2ccd8b0"
+    },
+    {
+      "paper_id": "e6c561d02500b2596a230b341a8eb8b921ca5bf2",
+      "arxiv_id": "2001.08361",
+      "doi": "",
+      "title": "Scaling Laws for Neural Language Models",
+      "url": "https://www.semanticscholar.org/paper/e6c561d02500b2596a230b341a8eb8b921ca5bf2"
+    },
+    {
+      "paper_id": "3c8a456509e6c0805354bd40a35e3f2dbf8069b1",
+      "arxiv_id": "1912.01703",
+      "doi": "",
+      "title": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+      "url": "https://www.semanticscholar.org/paper/3c8a456509e6c0805354bd40a35e3f2dbf8069b1"
+    },
+    {
+      "paper_id": "32c0166abbf99a962c43722d78cf15ba3f843fbf",
+      "arxiv_id": "1905.12794",
+      "doi": "",
+      "title": "The Fashion IQ Dataset: Retrieving Images by Combining Side Information and Relative Natural Language Feedback",
+      "url": "https://www.semanticscholar.org/paper/32c0166abbf99a962c43722d78cf15ba3f843fbf"
+    },
+    {
+      "paper_id": "fd5129e8ebfaa5dcce3d4ce2839b90c6cd3ca39d",
+      "arxiv_id": "1812.07119",
+      "doi": "10.1109/CVPR.2019.00660",
+      "title": "Composing Text and Image for Image Retrieval - an Empirical Odyssey",
+      "url": "https://www.semanticscholar.org/paper/fd5129e8ebfaa5dcce3d4ce2839b90c6cd3ca39d"
+    },
+    {
+      "paper_id": "b4df354db88a70183a64dbc9e56cf14e7669a6c0",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/P18-1238",
+      "title": "Conceptual Captions: A Cleaned, Hypernymed, Image Alt-text Dataset For Automatic Image Captioning",
+      "url": "https://www.semanticscholar.org/paper/b4df354db88a70183a64dbc9e56cf14e7669a6c0"
+    },
+    {
+      "paper_id": "782188821963304fb78791e01665590f0cd869e8",
+      "arxiv_id": "1708.01311",
+      "doi": "10.1109/ICCV.2017.163",
+      "title": "Automatic Spatially-Aware Fashion Concept Discovery",
+      "url": "https://www.semanticscholar.org/paper/782188821963304fb78791e01665590f0cd869e8"
+    },
+    {
+      "paper_id": "9547a02bdfe44c39ab3537142cba44fc52b8e834",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2017.129",
+      "title": "From Red Wine to Red Tomato: Composition with Context",
+      "url": "https://www.semanticscholar.org/paper/9547a02bdfe44c39ab3537142cba44fc52b8e834"
+    },
+    {
+      "paper_id": "78a11b7d2d7e1b19d92d2afd51bd3624eca86c3c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Improved Deep Metric Learning with Multi-class N-pair Loss Objective",
+      "url": "https://www.semanticscholar.org/paper/78a11b7d2d7e1b19d92d2afd51bd3624eca86c3c"
+    },
+    {
+      "paper_id": "62f74d3aaf9e86633e4d88b04a6d04ca93e8b81e",
+      "arxiv_id": "1609.06647",
+      "doi": "10.1109/TPAMI.2016.2587640",
+      "title": "Show and Tell: Lessons Learned from the 2015 MSCOCO Image Captioning Challenge",
+      "url": "https://www.semanticscholar.org/paper/62f74d3aaf9e86633e4d88b04a6d04ca93e8b81e"
+    },
+    {
+      "paper_id": "afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d",
+      "arxiv_id": "1602.07332",
+      "doi": "10.1007/s11263-016-0981-7",
+      "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+      "url": "https://www.semanticscholar.org/paper/afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d"
+    },
+    {
+      "paper_id": "97ad70a9fa3f99adf18030e5e38ebe3d90daa2db",
+      "arxiv_id": "1505.00468",
+      "doi": "10.1007/s11263-016-0966-6",
+      "title": "VQA: Visual Question Answering",
+      "url": "https://www.semanticscholar.org/paper/97ad70a9fa3f99adf18030e5e38ebe3d90daa2db"
+    },
+    {
+      "paper_id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+      "arxiv_id": "1409.0575",
+      "doi": "10.1007/s11263-015-0816-y",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "paper_id": "71b7178df5d2b112d07e45038cb5637208659ff7",
+      "arxiv_id": "1405.0312",
+      "doi": "10.1007/978-3-319-10602-1_48",
+      "title": "Microsoft COCO: Common Objects in Context",
+      "url": "https://www.semanticscholar.org/paper/71b7178df5d2b112d07e45038cb5637208659ff7"
+    },
+    {
+      "paper_id": "bd5fc28c7356915ec71abafbe86b7596c60720aa",
+      "arxiv_id": "",
+      "doi": "10.1108/09513571211191815",
+      "title": "The conference paper",
+      "url": "https://www.semanticscholar.org/paper/bd5fc28c7356915ec71abafbe86b7596c60720aa"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Vicuna: An open-source chatbot impressing gpt-4 with 90%* chatgpt quality",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Evaluation on ImageNet Domain Conversion experiment",
+      "url": ""
+    },
+    {
+      "paper_id": "4807504c313d954739bb00b71f3a4413dd92789d",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2305.14897",
+      "title": "Text encoders are performance bottlenecks in contrastive vision-language models",
+      "url": "https://www.semanticscholar.org/paper/4807504c313d954739bb00b71f3a4413dd92789d"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Wenxuan Zhang, and Mohamed Elhoseiny",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "39a29ad3e83117596c3688d8bd6f3c986880e08d",
+      "arxiv_id": "2609.36946",
+      "doi": "",
+      "title": "Optimizing VLP-aligned Multimodal Intent Representation with Correct Visual Instantiation for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/39a29ad3e83117596c3688d8bd6f3c986880e08d"
+    },
+    {
+      "paper_id": "095fadb67351489762b9529e6b8664eb773d3b78",
+      "arxiv_id": "2609.31202",
+      "doi": "",
+      "title": "Preserve-and-Compose Training for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/095fadb67351489762b9529e6b8664eb773d3b78"
+    },
+    {
+      "paper_id": "ca5e220bf828239622fcbd0b92563c7b5e0e95d0",
+      "arxiv_id": "2609.24152",
+      "doi": "",
+      "title": "Graded-Relevance Composed Multimodal Retrieval for E-commerce Visual Search at Scale",
+      "url": "https://www.semanticscholar.org/paper/ca5e220bf828239622fcbd0b92563c7b5e0e95d0"
+    },
+    {
+      "paper_id": "bbe9ba7f6ae44baf216bab33e82016879a48cb1b",
+      "arxiv_id": "",
+      "doi": "10.1109/CPNN71220.2026.11706452",
+      "title": "StaG-CoTMR: Paraphrase-Consistent Zero-Shot Composed Image Retrieval via Finite Edit Graphs and Consensus-Guided Ranking",
+      "url": "https://www.semanticscholar.org/paper/bbe9ba7f6ae44baf216bab33e82016879a48cb1b"
+    },
+    {
+      "paper_id": "7ffdf016cee8e6258ea4d2ac678ec0a1a4a494d0",
+      "arxiv_id": "2608.25305",
+      "doi": "",
+      "title": "MulVec: Fine-Grained Role-Aware Matching for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/7ffdf016cee8e6258ea4d2ac678ec0a1a4a494d0"
+    },
+    {
+      "paper_id": "1f93bde15d203a1693bf809f05bfd3eb8b330911",
+      "arxiv_id": "2608.23102",
+      "doi": "",
+      "title": "Training-Free Pseudo-Fusion for Composed Image Retrieval via Diffusion Models and Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/1f93bde15d203a1693bf809f05bfd3eb8b330911"
+    },
+    {
+      "paper_id": "eda28d260641f962b23c8efbe97aef4a4181e008",
+      "arxiv_id": "2608.22500",
+      "doi": "",
+      "title": "Learning Sample-wise Rank-aware Interpolation Weights for Composed Visual Data Retrieval",
+      "url": "https://www.semanticscholar.org/paper/eda28d260641f962b23c8efbe97aef4a4181e008"
+    },
+    {
+      "paper_id": "42f9deb95bc5c4f873761fdaf045ca081dafa157",
+      "arxiv_id": "2608.05149",
+      "doi": "",
+      "title": "CoCo-IR: Contextual Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/42f9deb95bc5c4f873761fdaf045ca081dafa157"
+    },
+    {
+      "paper_id": "3648cfb469b3a1e47d878f7c51d7633aa4dbe208",
+      "arxiv_id": "2607.19115",
+      "doi": "10.48550/arXiv.2607.19115",
+      "title": "CR-Refiner: An Object-Centric Optimal Transport Reranker for Edit-Conditioned 3D Scene Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3648cfb469b3a1e47d878f7c51d7633aa4dbe208"
+    },
+    {
+      "paper_id": "bbe7e68d55553c4516ee2bd587eb820fe08f60dd",
+      "arxiv_id": "2607.12621",
+      "doi": "10.48550/arXiv.2607.12621",
+      "title": "Towards Vision-Free CIR: Attribute-Augmented Scoring and LLM-Based Reranking for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/bbe7e68d55553c4516ee2bd587eb820fe08f60dd"
+    },
+    {
+      "paper_id": "04271bd2ed02919b7e9075ddc075126f42895185",
+      "arxiv_id": "2607.02425",
+      "doi": "10.48550/arXiv.2607.02425",
+      "title": "Learning to Evolve Scenes: Reasoning about Human Activities with Scene Graphs",
+      "url": "https://www.semanticscholar.org/paper/04271bd2ed02919b7e9075ddc075126f42895185"
+    },
+    {
+      "paper_id": "a0c95ddd9c963a37093e47e94b2a443bfc93aaeb",
+      "arxiv_id": "2607.02284",
+      "doi": "10.48550/arXiv.2607.02284",
+      "title": "FlowCIR: Semantic Transport via Flow Matching for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/a0c95ddd9c963a37093e47e94b2a443bfc93aaeb"
+    },
+    {
+      "paper_id": "dcebe130f1ecd999b3e76cc292141fec3de94fd8",
+      "arxiv_id": "2606.31222",
+      "doi": "10.48550/arXiv.2606.31222",
+      "title": "Thinking Before Retrieving: Robust Zero-Shot Composed Image Retrieval via Strategic Planning and Self-Criticism",
+      "url": "https://www.semanticscholar.org/paper/dcebe130f1ecd999b3e76cc292141fec3de94fd8"
+    },
+    {
+      "paper_id": "e3307c063186e76b3dc0ff658e920caf380bf1a1",
+      "arxiv_id": "",
+      "doi": "10.1145/3805622.3810768",
+      "title": "Describing-Verifying-Scoring: A Hierarchical Reasoning Framework for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/e3307c063186e76b3dc0ff658e920caf380bf1a1"
+    },
+    {
+      "paper_id": "5e3c6509d808a3f992c453caa1baa0ed87f909af",
+      "arxiv_id": "",
+      "doi": "10.1145/3805622.3810811",
+      "title": "Reranking-based Analysis on Visual and Textual Query Contribution to Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/5e3c6509d808a3f992c453caa1baa0ed87f909af"
+    },
+    {
+      "paper_id": "1fc9a3cd9e7b03d84edee1ea090834634144ed5b",
+      "arxiv_id": "2606.12294",
+      "doi": "10.48550/arXiv.2606.12294",
+      "title": "Bridging the Modality Gap in Forensic Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/1fc9a3cd9e7b03d84edee1ea090834634144ed5b"
+    },
+    {
+      "paper_id": "9f08d0642cecba78fa279cd69cb53d1ae579a81a",
+      "arxiv_id": "",
+      "doi": "10.1007/s00530-026-02394-8",
+      "title": "Mllm-guided hierarchical semantic ensemble with adaptive visual fusion for zero-shot composed video retrieval",
+      "url": "https://www.semanticscholar.org/paper/9f08d0642cecba78fa279cd69cb53d1ae579a81a"
+    },
+    {
+      "paper_id": "d2b8f6bfff58fbe28ddeab2cbd728e82d2def810",
+      "arxiv_id": "2606.07032",
+      "doi": "10.48550/arXiv.2606.07032",
+      "title": "Never Seen Before: Benchmarking Genuine Zero-Shot Composed Image Retrieval with Consistent Video-Sourced Datasets",
+      "url": "https://www.semanticscholar.org/paper/d2b8f6bfff58fbe28ddeab2cbd728e82d2def810"
+    },
+    {
+      "paper_id": "f17ce1b3ae245eb5dcf795ec8af604d2c60c461c",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2026.104514",
+      "title": "BiCPF: Bi-conditional parallel-fusion network for composed image retrieval",
+      "url": "https://www.semanticscholar.org/paper/f17ce1b3ae245eb5dcf795ec8af604d2c60c461c"
+    },
+    {
+      "paper_id": "9177881a9f0c963b679136b157f30b7b0c2786db",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2026.133463",
+      "title": "Dual-granularity image-text alignment for zero-shot composed image retrieval",
+      "url": "https://www.semanticscholar.org/paper/9177881a9f0c963b679136b157f30b7b0c2786db"
+    },
+    {
+      "paper_id": "f63911ba45c4086953b350735ae0094ac42254f9",
+      "arxiv_id": "2606.00910",
+      "doi": "10.48550/arXiv.2606.00910",
+      "title": "Reason, Retrieve, Re-rank: A Zero-Shot Reasoning-Aware Framework for Composed Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/f63911ba45c4086953b350735ae0094ac42254f9"
+    },
+    {
+      "paper_id": "b3eda2a8e7d347c95f46e9f6126898725b2833ca",
+      "arxiv_id": "2605.26734",
+      "doi": "10.48550/arXiv.2605.26734",
+      "title": "CIRCLED: A Multi-turn CIR Dataset with Consistent Dialogues across Domains",
+      "url": "https://www.semanticscholar.org/paper/b3eda2a8e7d347c95f46e9f6126898725b2833ca"
+    },
+    {
+      "paper_id": "cf8a4e4b57ae99cd1bcced966a3c9da387d132f5",
+      "arxiv_id": "2605.24442",
+      "doi": "10.48550/arXiv.2605.24442",
+      "title": "Benchmarking Composed Image Retrieval for Applied Earth Observation",
+      "url": "https://www.semanticscholar.org/paper/cf8a4e4b57ae99cd1bcced966a3c9da387d132f5"
+    },
+    {
+      "paper_id": "063d5f87bf1c9f73a5a8951aa89fa482cdca0279",
+      "arxiv_id": "2605.21261",
+      "doi": "10.48550/arXiv.2605.21261",
+      "title": "STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/063d5f87bf1c9f73a5a8951aa89fa482cdca0279"
+    },
+    {
+      "paper_id": "962a3e10cf8c921d40e6b555ab5162485439fb58",
+      "arxiv_id": "2605.14787",
+      "doi": "10.48550/arXiv.2605.14787",
+      "title": "Do Composed Image Retrieval Benchmarks Require Multimodal Composition?",
+      "url": "https://www.semanticscholar.org/paper/962a3e10cf8c921d40e6b555ab5162485439fb58"
+    },
+    {
+      "paper_id": "90c98b40603b65a76b2aa34a06a4d4f1eca0042d",
+      "arxiv_id": "2605.08389",
+      "doi": "10.48550/arXiv.2605.08389",
+      "title": "Decoupling Endpoint and Semantic Transition Learning for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/90c98b40603b65a76b2aa34a06a4d4f1eca0042d"
+    },
+    {
+      "paper_id": "a3323f7df726229de3d919570f310d581f5e90a6",
+      "arxiv_id": "2605.02892",
+      "doi": "10.48550/arXiv.2605.02892",
+      "title": "AlbumFill: Album-Guided Reasoning and Retrieval for Personalized Image Completion",
+      "url": "https://www.semanticscholar.org/paper/a3323f7df726229de3d919570f310d581f5e90a6"
+    },
+    {
+      "paper_id": "87decac5e6d25ffa4c933f81e600f15639ca23ca",
+      "arxiv_id": "",
+      "doi": "10.1109/icassp55912.2026.11462656",
+      "title": "DART: A Dual-Modality Adaptive Representation with Divergence Training Framework for ZS-CIR",
+      "url": "https://www.semanticscholar.org/paper/87decac5e6d25ffa4c933f81e600f15639ca23ca"
+    },
+    {
+      "paper_id": "486c4fe170023acc45353c737d2ab55fd511bb02",
+      "arxiv_id": "2604.20318",
+      "doi": "10.48550/arXiv.2604.20318",
+      "title": "UniCVR: From Alignment to Reranking for Unified Zero-Shot Composed Visual Retrieval",
+      "url": "https://www.semanticscholar.org/paper/486c4fe170023acc45353c737d2ab55fd511bb02"
+    },
+    {
+      "paper_id": "137fd93ea4038aaef94a5ced0e6786f50397383e",
+      "arxiv_id": "2604.14710",
+      "doi": "10.48550/arXiv.2604.14710",
+      "title": "G-MIXER: Geodesic Mixup-based Implicit Semantic Expansion and Explicit Semantic Re-ranking for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/137fd93ea4038aaef94a5ced0e6786f50397383e"
+    },
+    {
+      "paper_id": "879b7c7b3d78bf9cc778af30d683696dd871d99c",
+      "arxiv_id": "2604.12904",
+      "doi": "10.48550/arXiv.2604.12904",
+      "title": "A Sanity Check on Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/879b7c7b3d78bf9cc778af30d683696dd871d99c"
+    },
+    {
+      "paper_id": "7063e1be30308d06f0e44864576a1540fe9bcbee",
+      "arxiv_id": "2604.11539",
+      "doi": "10.48550/arXiv.2604.11539",
+      "title": "CLAY: Conditional Visual Similarity Modulation in Vision-Language Embedding Space",
+      "url": "https://www.semanticscholar.org/paper/7063e1be30308d06f0e44864576a1540fe9bcbee"
+    },
+    {
+      "paper_id": "59f73d145090763785992f0ed3623bfaa0f1076c",
+      "arxiv_id": "2604.05393",
+      "doi": "10.48550/arXiv.2604.05393",
+      "title": "Beyond Semantic Search: Towards Referential Anchoring in Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/59f73d145090763785992f0ed3623bfaa0f1076c"
+    },
+    {
+      "paper_id": "ef5203e2ada38318b6c280580385a57ac7e3624b",
+      "arxiv_id": "",
+      "doi": "10.1016/j.patcog.2026.113654",
+      "title": "I2ID: Disentangling identity features via synchronized masking for zero-shot composed person retrieval",
+      "url": "https://www.semanticscholar.org/paper/ef5203e2ada38318b6c280580385a57ac7e3624b"
+    },
+    {
+      "paper_id": "1ea8f18dfa4f64894c866a41b009839f05997836",
+      "arxiv_id": "2603.17360",
+      "doi": "10.1145/3774904.3792287",
+      "title": "MCoT-MVS: Multi-level Vision Selection by Multi-modal Chain-of-Thought Reasoning for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/1ea8f18dfa4f64894c866a41b009839f05997836"
+    },
+    {
+      "paper_id": "26aac770169aa196de5452189c816bee59ede7d7",
+      "arxiv_id": "2603.16737",
+      "doi": "10.48550/arXiv.2603.16737",
+      "title": "Retrieving Counterfactuals Improves Visual In-Context Learning",
+      "url": "https://www.semanticscholar.org/paper/26aac770169aa196de5452189c816bee59ede7d7"
+    },
+    {
+      "paper_id": "61eaca12c284e52a90a019ecaeff835d880d269f",
+      "arxiv_id": "2603.04037",
+      "doi": "10.48550/arXiv.2603.04037",
+      "title": "DQE-CIR: Distinctive Query Embeddings through Learnable Attribute Weights and Target Relative Negative Sampling in Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/61eaca12c284e52a90a019ecaeff835d880d269f"
+    },
+    {
+      "paper_id": "ffb65b9ab94737220e3b26bda14606a0e4f72a55",
+      "arxiv_id": "2603.01493",
+      "doi": "10.1145/3770855.3817511",
+      "title": "PhotoBench: Beyond Visual Matching Towards Personalized Intent-Driven Photo Retrieval",
+      "url": "https://www.semanticscholar.org/paper/ffb65b9ab94737220e3b26bda14606a0e4f72a55"
+    },
+    {
+      "paper_id": "f481046bc75c3175b6055f6293d650dd0547a3cc",
+      "arxiv_id": "2602.22510",
+      "doi": "10.48550/arXiv.2602.22510",
+      "title": "Pix2Key: Controllable Open-Vocabulary Retrieval with Semantic Decomposition and Self-Supervised Visual Dictionary Learning",
+      "url": "https://www.semanticscholar.org/paper/f481046bc75c3175b6055f6293d650dd0547a3cc"
+    },
+    {
+      "paper_id": "2dde457d3c93930a24b20478cd4e3e8646f9fd97",
+      "arxiv_id": "2602.23029",
+      "doi": "10.48550/arXiv.2602.23029",
+      "title": "WISER: Wider Search, Deeper Thinking, and Adaptive Fusion for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/2dde457d3c93930a24b20478cd4e3e8646f9fd97"
+    },
+    {
+      "paper_id": "4d4b51eccf99681d4f79f12206348c0dbfd8fee2",
+      "arxiv_id": "2602.19615",
+      "doi": "10.48550/arXiv.2602.19615",
+      "title": "Seeing Clearly, Reasoning Confidently: Plug-and-Play Remedies for Vision Language Model Blindness",
+      "url": "https://www.semanticscholar.org/paper/4d4b51eccf99681d4f79f12206348c0dbfd8fee2"
+    },
+    {
+      "paper_id": "709f18b538642480baeb2b97c45341efe40f7320",
+      "arxiv_id": "2602.08603",
+      "doi": "10.48550/arXiv.2602.08603",
+      "title": "OSCAR: Optimization-Steered Agentic Planning for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/709f18b538642480baeb2b97c45341efe40f7320"
+    },
+    {
+      "paper_id": "fae8ae2bb9439abc4b91cefba2518b8db472a9c7",
+      "arxiv_id": "2602.08411",
+      "doi": "10.1145/3805712.3808581",
+      "title": "A Sketch+Text Composed Image Retrieval Dataset for Thangka",
+      "url": "https://www.semanticscholar.org/paper/fae8ae2bb9439abc4b91cefba2518b8db472a9c7"
+    },
+    {
+      "paper_id": "96ecfdb9df0688d1c85b89c397e307f91211d1cb",
+      "arxiv_id": "2602.04451",
+      "doi": "10.1145/3774904.3792339",
+      "title": "SDR-CIR: Semantic Debias Retrieval Framework for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/96ecfdb9df0688d1c85b89c397e307f91211d1cb"
+    },
+    {
+      "paper_id": "1a3051306c95285a025b7f6c9e15ffa8a3c20dda",
+      "arxiv_id": "2602.00813",
+      "doi": "10.48550/arXiv.2602.00813",
+      "title": "Generating a Paracosm for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/1a3051306c95285a025b7f6c9e15ffa8a3c20dda"
+    },
+    {
+      "paper_id": "2c5bfda97172885374ca7939efcb0bf0ac2a7fe6",
+      "arxiv_id": "2601.20511",
+      "doi": "10.48550/arXiv.2601.20511",
+      "title": "Say Cheese! Detail-Preserving Portrait Collection Generation via Natural Language Edits",
+      "url": "https://www.semanticscholar.org/paper/2c5bfda97172885374ca7939efcb0bf0ac2a7fe6"
+    },
+    {
+      "paper_id": "7ab657c5ce224e85633d75ff2257d49370f2de1b",
+      "arxiv_id": "2601.16582",
+      "doi": "10.48550/arXiv.2601.16582",
+      "title": "X-Aligner: Composed Visual Retrieval without the Bells and Whistles",
+      "url": "https://www.semanticscholar.org/paper/7ab657c5ce224e85633d75ff2257d49370f2de1b"
+    },
+    {
+      "paper_id": "44b0bc4e46bffe86563ff95c9665c8f734aa9530",
+      "arxiv_id": "2601.16125",
+      "doi": "10.48550/arXiv.2601.16125",
+      "title": "Rethinking Composed Image Retrieval Evaluation: A Fine-Grained Benchmark from Image Editing",
+      "url": "https://www.semanticscholar.org/paper/44b0bc4e46bffe86563ff95c9665c8f734aa9530"
+    },
+    {
+      "paper_id": "3116aa143e4c2870fc07f5dc366f2c9c8385c11e",
+      "arxiv_id": "2601.14245",
+      "doi": "10.1145/3774904.3792276",
+      "title": "XR: Cross-Modal Agents for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3116aa143e4c2870fc07f5dc366f2c9c8385c11e"
+    },
+    {
+      "paper_id": "2a7d067520722830affdf96b34147c6dde0c8742",
+      "arxiv_id": "2601.11393",
+      "doi": "10.48550/arXiv.2601.11393",
+      "title": "Heterogeneous Uncertainty-Guided Composed Image Retrieval with Fine-Grained Probabilistic Learning",
+      "url": "https://www.semanticscholar.org/paper/2a7d067520722830affdf96b34147c6dde0c8742"
+    },
+    {
+      "paper_id": "19f67e9b5449cac606a1443412cb126ce3980f9c",
+      "arxiv_id": "",
+      "doi": "10.1016/j.patcog.2026.113187",
+      "title": "Data-efficient generalization for zero-shot composed image retrieval",
+      "url": "https://www.semanticscholar.org/paper/19f67e9b5449cac606a1443412cb126ce3980f9c"
+    },
+    {
+      "paper_id": "0bcf7c560affe99e730d01eaf0ebee092f55911b",
+      "arxiv_id": "2512.20781",
+      "doi": "10.48550/arXiv.2512.20781",
+      "title": "Soft Filtering: Guiding Zero-shot Composed Image Retrieval with Prescriptive and Proscriptive Constraints",
+      "url": "https://www.semanticscholar.org/paper/0bcf7c560affe99e730d01eaf0ebee092f55911b"
+    },
+    {
+      "paper_id": "48ec68ff06dc6487c9b7a2d4cba420d6294f59a3",
+      "arxiv_id": "",
+      "doi": "10.1145/3743093.3770958",
+      "title": "Test-time Filtering Boosts Training-free Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/48ec68ff06dc6487c9b7a2d4cba420d6294f59a3"
+    },
+    {
+      "paper_id": "9486e28e33ca428124fa7b38d0f7210e2dc5f6b4",
+      "arxiv_id": "2512.01636",
+      "doi": "10.48550/arXiv.2512.01636",
+      "title": "Generative Editing in the Joint Vision-Language Space for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9486e28e33ca428124fa7b38d0f7210e2dc5f6b4"
+    },
+    {
+      "paper_id": "31f224804fe783a8999888c99ed3118dcd7130f3",
+      "arxiv_id": "2601.14060",
+      "doi": "10.1109/ICDM65498.2025.00093",
+      "title": "Fine-Grained Zero-Shot Composed Image Retrieval with Complementary Visual-Semantic Integration",
+      "url": "https://www.semanticscholar.org/paper/31f224804fe783a8999888c99ed3118dcd7130f3"
+    },
+    {
+      "paper_id": "291db5ed7791ab86ac92674bbd87bc725bbd8e9c",
+      "arxiv_id": "2511.22253",
+      "doi": "10.1109/ICDMW69685.2025.00176",
+      "title": "UNION: A Lightweight Target Representation for Efficient Zero-Shot Image-Guided Retrieval with Optional Textual Queries",
+      "url": "https://www.semanticscholar.org/paper/291db5ed7791ab86ac92674bbd87bc725bbd8e9c"
+    },
+    {
+      "paper_id": "d25a448b04e52623b31e28f2c3ae962ba75c9ce2",
+      "arxiv_id": "2510.25387",
+      "doi": "10.48550/arXiv.2510.25387",
+      "title": "Instance-Level Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/d25a448b04e52623b31e28f2c3ae962ba75c9ce2"
+    },
+    {
+      "paper_id": "eeeb8d5a54376c97ce12c7626bffc40ba9efcf51",
+      "arxiv_id": "",
+      "doi": "10.1109/CBMI66578.2025.11339315",
+      "title": "Vision Projector: Improving Zero-Shot Composed Image Retrieval at Inference",
+      "url": "https://www.semanticscholar.org/paper/eeeb8d5a54376c97ce12c7626bffc40ba9efcf51"
+    },
+    {
+      "paper_id": "f2f3e56f73e03c1e9cefa8c322b08eee0b67818d",
+      "arxiv_id": "",
+      "doi": "10.1109/CBMI66578.2025.11339329",
+      "title": "Text-Oriented Image Query Representation for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/f2f3e56f73e03c1e9cefa8c322b08eee0b67818d"
+    },
+    {
+      "paper_id": "e330bb0231b59df3d1ad112e43158002cd45f9e1",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCASIT66611.2025.11348847",
+      "title": "ProxyIR: Proxy-Image Edit for Composed Remote Sensing Retrieval",
+      "url": "https://www.semanticscholar.org/paper/e330bb0231b59df3d1ad112e43158002cd45f9e1"
+    },
+    {
+      "paper_id": "a28c7e7b943a19241b05f0c6a0b129d0f8583be0",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.02063",
+      "title": "Zero-Shot Composed Image Retrieval via Dual-Stream Instruction-Aware Distillation",
+      "url": "https://www.semanticscholar.org/paper/a28c7e7b943a19241b05f0c6a0b129d0f8583be0"
+    },
+    {
+      "paper_id": "19ef0f3a5243a6ad561087bf2888cfa0d89c95af",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.01982",
+      "title": "MA-CIR: A Multimodal Arithmetic Benchmark for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/19ef0f3a5243a6ad561087bf2888cfa0d89c95af"
+    },
+    {
+      "paper_id": "31e607149b63468ee27db6cb42effb6394c59161",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.02254",
+      "title": "Hierarchy-Aware Pseudo Word Learning with Text Adaptation for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/31e607149b63468ee27db6cb42effb6394c59161"
+    },
+    {
+      "paper_id": "3a73852d8cc0676e6454151996249091c98e3808",
+      "arxiv_id": "2510.08003",
+      "doi": "10.48550/arXiv.2510.08003",
+      "title": "CIR-CoT: Towards Interpretable Composed Image Retrieval via End-to-End Chain-of-Thought Reasoning",
+      "url": "https://www.semanticscholar.org/paper/3a73852d8cc0676e6454151996249091c98e3808"
+    },
+    {
+      "paper_id": "8559de4b08023efd529ca5865297a02e795171db",
+      "arxiv_id": "2510.05411",
+      "doi": "10.1109/CBMI66578.2025.11339319",
+      "title": "Personalizing Retrieval Using Joint Embeddings; or “the Return of Fluffy”",
+      "url": "https://www.semanticscholar.org/paper/8559de4b08023efd529ca5865297a02e795171db"
+    },
+    {
+      "paper_id": "fb90e91181a20a36d59ba698ab35b178978d03a4",
+      "arxiv_id": "2509.26330",
+      "doi": "10.48550/arXiv.2509.26330",
+      "title": "SQUARE: Semantic Query-Augmented Fusion and Efficient Batch Reranking for Training-free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/fb90e91181a20a36d59ba698ab35b178978d03a4"
+    },
+    {
+      "paper_id": "d157a33bd62b2af1ce6955f9133958eb8843330c",
+      "arxiv_id": "2509.26012",
+      "doi": "10.48550/arXiv.2509.26012",
+      "title": "SETR: A Two-Stage Semantic-Enhanced Framework for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/d157a33bd62b2af1ce6955f9133958eb8843330c"
+    },
+    {
+      "paper_id": "504945c392d366dd654a4d41bad589ccc7331743",
+      "arxiv_id": "2509.23242",
+      "doi": "10.48550/arXiv.2509.23242",
+      "title": "TATTOO: Training-free AesTheTic-aware Outfit recOmmendation",
+      "url": "https://www.semanticscholar.org/paper/504945c392d366dd654a4d41bad589ccc7331743"
+    },
+    {
+      "paper_id": "25ac58d15e221944ffc2dd0267c7e99736541b4e",
+      "arxiv_id": "2509.14746",
+      "doi": "10.48550/arXiv.2509.14746",
+      "title": "Chain-of-Thought Re-ranking for Image Retrieval Tasks",
+      "url": "https://www.semanticscholar.org/paper/25ac58d15e221944ffc2dd0267c7e99736541b4e"
+    },
+    {
+      "paper_id": "02aa2d142db73954c4bf2b03d6f20f592f51a5d7",
+      "arxiv_id": "2508.14039",
+      "doi": "10.1109/ICCV51701.2025.01900",
+      "title": "Beyond Simple Edits: Composed Video Retrieval with Dense Modifications",
+      "url": "https://www.semanticscholar.org/paper/02aa2d142db73954c4bf2b03d6f20f592f51a5d7"
+    },
+    {
+      "paper_id": "3cdaf9507bbf3822b4b09874b80c7313a5557b1b",
+      "arxiv_id": "2508.11272",
+      "doi": "10.48550/arXiv.2508.11272",
+      "title": "Enhancing Supervised Composed Image Retrieval via Reasoning-Augmented Representation Engineering",
+      "url": "https://www.semanticscholar.org/paper/3cdaf9507bbf3822b4b09874b80c7313a5557b1b"
+    },
+    {
+      "paper_id": "6406e6c334c3b3f3fba56bf0213199b2975dc262",
+      "arxiv_id": "",
+      "doi": "10.1145/3711896.3736982",
+      "title": "Generative Thinking, Corrective Action: User-Friendly Composed Image Retrieval via Automatic Multi-Agent Collaboration",
+      "url": "https://www.semanticscholar.org/paper/6406e6c334c3b3f3fba56bf0213199b2975dc262"
+    },
+    {
+      "paper_id": "9679b320ddb0563a3d3d2496b284b5f90ca3a779",
+      "arxiv_id": "2507.12819",
+      "doi": "10.1109/SMC58881.2025.11342756",
+      "title": "MCoT-RE: Multi-Faceted Chain-of-Thought and Re-Ranking for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9679b320ddb0563a3d3d2496b284b5f90ca3a779"
+    },
+    {
+      "paper_id": "55b2389ce064414a997771ab3a60b3c20b7f7898",
+      "arxiv_id": "",
+      "doi": "10.1145/3726302.3730074",
+      "title": "Rethinking Pseudo Word Learning in Zero-Shot Composed Image Retrieval: From an Object-Aware Perspective",
+      "url": "https://www.semanticscholar.org/paper/55b2389ce064414a997771ab3a60b3c20b7f7898"
+    },
+    {
+      "paper_id": "3b5e0897718a97932555b9712d35a2264eb4bfe7",
+      "arxiv_id": "2607.27959",
+      "doi": "10.1145/3726302.3729979",
+      "title": "FiRE: Enhancing MLLMs with Fine-Grained Context Learning for Complex Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3b5e0897718a97932555b9712d35a2264eb4bfe7"
+    },
+    {
+      "paper_id": "c81918db3fcde578d856e58422279aa5859f1481",
+      "arxiv_id": "2507.07135",
+      "doi": "10.48550/arXiv.2507.07135",
+      "title": "FACap: A Large-scale Fashion Dataset for Fine-grained Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/c81918db3fcde578d856e58422279aa5859f1481"
+    },
+    {
+      "paper_id": "8bf3c37cccf60b44710c9448b6e827bea2e21cfc",
+      "arxiv_id": "2507.05970",
+      "doi": "10.48550/arXiv.2507.05970",
+      "title": "Automatic Synthesis of High-Quality Triplet Data for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/8bf3c37cccf60b44710c9448b6e827bea2e21cfc"
+    },
+    {
+      "paper_id": "9fa9bb8f20209fd39e733e8f216ea37a03000476",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.02764",
+      "title": "Generative Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9fa9bb8f20209fd39e733e8f216ea37a03000476"
+    },
+    {
+      "paper_id": "0776afad2af9c65a764d75af9e050731d56de3f5",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.01828",
+      "title": "Learning with Noisy Triplet Correspondence for Composed Image Retrieval‡",
+      "url": "https://www.semanticscholar.org/paper/0776afad2af9c65a764d75af9e050731d56de3f5"
+    },
+    {
+      "paper_id": "d0c7eb456c6b3c2a39dcedf3f6660a735ad89ba8",
+      "arxiv_id": "2505.20764",
+      "doi": "10.1109/CVPR52734.2025.01829",
+      "title": "ConText-CIR: Learning from Concepts in Text for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/d0c7eb456c6b3c2a39dcedf3f6660a735ad89ba8"
+    },
+    {
+      "paper_id": "75393df53bba1cc4cebe520370e724f43699b680",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2025.3573994",
+      "title": "Toward Interactive Sound Source Localization: Better Align Sight and Sound!",
+      "url": "https://www.semanticscholar.org/paper/75393df53bba1cc4cebe520370e724f43699b680"
+    },
+    {
+      "paper_id": "0a299a4672f47244548f2cef0ca237e939b7bfad",
+      "arxiv_id": "2505.19707",
+      "doi": "10.48550/arXiv.2505.19707",
+      "title": "MLLM-Guided VLM Fine-Tuning with Joint Inference for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/0a299a4672f47244548f2cef0ca237e939b7bfad"
+    },
+    {
+      "paper_id": "34376838006073de6508d51de9e4294a20773489",
+      "arxiv_id": "2505.19952",
+      "doi": "10.48550/arXiv.2505.19952",
+      "title": "Multimodal Reasoning Agent for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/34376838006073de6508d51de9e4294a20773489"
+    },
+    {
+      "paper_id": "266689bb91fc1ba1dbd8cc5a7877ae4eb17ab4a9",
+      "arxiv_id": "2505.17796",
+      "doi": "10.48550/arXiv.2505.17796",
+      "title": "DetailFusion: A Dual-branch Framework with Detail Enhancement for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/266689bb91fc1ba1dbd8cc5a7877ae4eb17ab4a9"
+    },
+    {
+      "paper_id": "9282b9e67d158ca1e2af0e8d00851c0a04866cf6",
+      "arxiv_id": "",
+      "doi": "10.3390/s25113252",
+      "title": "Scene Graph and Natural Language-Based Semantic Image Retrieval Using Vision Sensor Data",
+      "url": "https://www.semanticscholar.org/paper/9282b9e67d158ca1e2af0e8d00851c0a04866cf6"
+    },
+    {
+      "paper_id": "cc342f1859cb478241b5557673754c2780757277",
+      "arxiv_id": "2505.15877",
+      "doi": "10.48550/arXiv.2505.15877",
+      "title": "Highlighting What Matters: Promptable Embeddings for Attribute-Focused Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/cc342f1859cb478241b5557673754c2780757277"
+    },
+    {
+      "paper_id": "68510f18285aa3453f7d68542eaacfeb4bad0a0b",
+      "arxiv_id": "2504.02821",
+      "doi": "10.48550/arXiv.2504.02821",
+      "title": "Sparse Autoencoders Learn Monosemantic Features in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/68510f18285aa3453f7d68542eaacfeb4bad0a0b"
+    },
+    {
+      "paper_id": "4b3111ffc57b411fef02ef2d0935dda0be75a5e7",
+      "arxiv_id": "2503.21309",
+      "doi": "10.48550/arXiv.2503.21309",
+      "title": "FineCIR: Explicit Parsing of Fine-Grained Modification Semantics for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/4b3111ffc57b411fef02ef2d0935dda0be75a5e7"
+    },
+    {
+      "paper_id": "ecdbed008d38328141d3eb73d806857ac665c57d",
+      "arxiv_id": "2503.19910",
+      "doi": "10.1109/CVPR52734.2025.00378",
+      "title": "CoLLM: A Large Language Model for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/ecdbed008d38328141d3eb73d806857ac665c57d"
+    },
+    {
+      "paper_id": "674a7cae8f4235af08fe6459ba277fb7c30bcea9",
+      "arxiv_id": "2503.19145",
+      "doi": "10.1109/CVPR52734.2025.01406",
+      "title": "Compositional Caching for Training-free Open-vocabulary Attribute Detection",
+      "url": "https://www.semanticscholar.org/paper/674a7cae8f4235af08fe6459ba277fb7c30bcea9"
+    },
+    {
+      "paper_id": "aa42b6b5757164a6fc8b1a9c765194796a2a447c",
+      "arxiv_id": "2503.17109",
+      "doi": "10.1109/CVPR52734.2025.02308",
+      "title": "Missing Target-Relevant Information Prediction with World Model for Accurate Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/aa42b6b5757164a6fc8b1a9c765194796a2a447c"
+    },
+    {
+      "paper_id": "371b2ebd8f5601aa26b7d7f22c0c6cbaf8fa8fbf",
+      "arxiv_id": "2503.17142",
+      "doi": "10.1109/CVPR52734.2025.02320",
+      "title": "Not Only Text: Exploring Compositionality of Visual Representations in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/371b2ebd8f5601aa26b7d7f22c0c6cbaf8fa8fbf"
+    },
+    {
+      "paper_id": "9fba361503f22e711200442a8b62c92c5834c0ae",
+      "arxiv_id": "",
+      "doi": "10.1145/3723879",
+      "title": "A Survey on Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/9fba361503f22e711200442a8b62c92c5834c0ae"
+    },
+    {
+      "paper_id": "265390e32c7dec42417a5c349971ccbaf29418cd",
+      "arxiv_id": "2503.10166",
+      "doi": "10.1145/3696410.3714777",
+      "title": "ImageScope: Unifying Language-Guided Image Retrieval via Large Multimodal Model Collective Reasoning",
+      "url": "https://www.semanticscholar.org/paper/265390e32c7dec42417a5c349971ccbaf29418cd"
+    },
+    {
+      "paper_id": "2783143672ae1c3ec544a4c732fa03a4c3ffc732",
+      "arxiv_id": "2503.05204",
+      "doi": "10.48550/arXiv.2503.05204",
+      "title": "Data-Efficient Generalization for Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/2783143672ae1c3ec544a4c732fa03a4c3ffc732"
+    },
+    {
+      "paper_id": "99589ae2237600ab9ff12985b75009272d87d100",
+      "arxiv_id": "2503.01334",
+      "doi": "10.48550/arXiv.2503.01334",
+      "title": "Composed Multi-modal Retrieval: A Survey of Approaches and Applications",
+      "url": "https://www.semanticscholar.org/paper/99589ae2237600ab9ff12985b75009272d87d100"
+    },
+    {
+      "paper_id": "df2921e06eaa5dd17bad0902103fba456da614d4",
+      "arxiv_id": "2502.20008",
+      "doi": "10.48550/arXiv.2502.20008",
+      "title": "Joint Fusion and Encoding: Advancing Multimodal Retrieval from the Ground Up",
+      "url": "https://www.semanticscholar.org/paper/df2921e06eaa5dd17bad0902103fba456da614d4"
+    },
+    {
+      "paper_id": "11a2d8a128a643741120241a3f515c45e12e0f8b",
+      "arxiv_id": "",
+      "doi": "10.1007/s10489-025-06372-x",
+      "title": "Composed image retrieval: a survey on recent research and development",
+      "url": "https://www.semanticscholar.org/paper/11a2d8a128a643741120241a3f515c45e12e0f8b"
+    },
+    {
+      "paper_id": "da09498e9ecbe9bb3fb6cc43ac9b60cf8a0d31f7",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61041.2025.00572",
+      "title": "PositiveCoOp: Rethinking Prompting Strategies for Multi-Label Recognition with Partial Annotations",
+      "url": "https://www.semanticscholar.org/paper/da09498e9ecbe9bb3fb6cc43ac9b60cf8a0d31f7"
+    },
+    {
+      "paper_id": "f4e6c4a34a1b21a245ba82e94ac40079f42fa8bb",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61041.2025.00578",
+      "title": "DualCIR: Enhancing Training-Free Composed Image Retrieval via Dual-Directional Descriptions",
+      "url": "https://www.semanticscholar.org/paper/f4e6c4a34a1b21a245ba82e94ac40079f42fa8bb"
+    },
+    {
+      "paper_id": "caece9fda8f360af1b2c1ea5019e46f3db2b81c5",
+      "arxiv_id": "2502.18495",
+      "doi": "10.1145/3767328",
+      "title": "A Comprehensive Survey on Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/caece9fda8f360af1b2c1ea5019e46f3db2b81c5"
+    },
+    {
+      "paper_id": "f751eaa00e02e5d2ed036a218a5b117456b559c4",
+      "arxiv_id": "2502.07215",
+      "doi": "10.1109/WACV61042.2026.00747",
+      "title": "PDV: Prompt Directional Vectors for Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/f751eaa00e02e5d2ed036a218a5b117456b559c4"
+    },
+    {
+      "paper_id": "b8ef0b99a5a3aa206ce69cf3892be8a70237c8d9",
+      "arxiv_id": "2501.08347",
+      "doi": "10.1109/WACV61041.2025.00538",
+      "title": "SCOT: Self-Supervised Contrastive Pretraining for Zero-Shot Compositional Retrieval",
+      "url": "https://www.semanticscholar.org/paper/b8ef0b99a5a3aa206ce69cf3892be8a70237c8d9"
+    },
+    {
+      "paper_id": "78cc1929ba87ddc2095fbd2587b7155c980e2b12",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVISP64524.2024.10959527",
+      "title": "Deep Neural Hashing with Adaptive Feature Fusion for Efficient Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/78cc1929ba87ddc2095fbd2587b7155c980e2b12"
+    },
+    {
+      "paper_id": "b7ae76b5999b73f5179071b75a3488733ea9184b",
+      "arxiv_id": "2412.16156",
+      "doi": "10.48550/arXiv.2412.16156",
+      "title": "Personalized Representation from Personalized Generation",
+      "url": "https://www.semanticscholar.org/paper/b7ae76b5999b73f5179071b75a3488733ea9184b"
+    },
+    {
+      "paper_id": "86fd6c71b8b156d52488330d1471f8909ffdafc8",
+      "arxiv_id": "2412.11409",
+      "doi": "10.48550/arXiv.2412.11409",
+      "title": "Multi-modal and Multi-scale Spatial Environment Understanding for Immersive Visual Text-to-Speech",
+      "url": "https://www.semanticscholar.org/paper/86fd6c71b8b156d52488330d1471f8909ffdafc8"
+    },
+    {
+      "paper_id": "04ba726084f86f93ddd2c89b6f080eb9d371aa1b",
+      "arxiv_id": "2412.11087",
+      "doi": "10.48550/arXiv.2412.11087",
+      "title": "Leveraging Large Vision-Language Model as User Intent-aware Encoder for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/04ba726084f86f93ddd2c89b6f080eb9d371aa1b"
+    },
+    {
+      "paper_id": "67a740a01e7a2fe0adf629053685f16aa41abcf9",
+      "arxiv_id": "2412.11077",
+      "doi": "10.1109/CVPR52734.2025.01343",
+      "title": "Reason-before-Retrieve: One-Stage Reflective Chain-of-Thoughts for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/67a740a01e7a2fe0adf629053685f16aa41abcf9"
+    },
+    {
+      "paper_id": "7399d9a04b90b4595e0e29cdaf5ae89922ec7541",
+      "arxiv_id": "2412.06014",
+      "doi": "10.48550/arXiv.2412.06014",
+      "title": "Post-hoc Probabilistic Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/7399d9a04b90b4595e0e29cdaf5ae89922ec7541"
+    },
+    {
+      "paper_id": "5e2024671c13c00ac7f02b9dfeb94ba137f91b5b",
+      "arxiv_id": "2412.03297",
+      "doi": "10.1109/WACV61041.2025.00175",
+      "title": "Composed Image Retrieval for Training-FREE DOMain Conversion",
+      "url": "https://www.semanticscholar.org/paper/5e2024671c13c00ac7f02b9dfeb94ba137f91b5b"
+    },
+    {
+      "paper_id": "ed122df553206f27034f159d7e51bd258e80f613",
+      "arxiv_id": "2411.16752",
+      "doi": "10.1109/CVPR52734.2025.00377",
+      "title": "Imagine and Seek: Improving Composed Image Retrieval with an Imagined Proxy",
+      "url": "https://www.semanticscholar.org/paper/ed122df553206f27034f159d7e51bd258e80f613"
+    },
+    {
+      "paper_id": "7a5e416e39164b338582b169b4c31d587871af9f",
+      "arxiv_id": "2410.23736",
+      "doi": "10.1609/aaai.v40i8.37534",
+      "title": "Modality and Task Adaptation for Enhanced Zero-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/7a5e416e39164b338582b169b4c31d587871af9f"
+    },
+    {
+      "paper_id": "0d455f86ffe96d3eb097ae8a3d8b14d258efd965",
+      "arxiv_id": "",
+      "doi": "10.1145/3664647.3681649",
+      "title": "Semantic Editing Increment Benefits Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/0d455f86ffe96d3eb097ae8a3d8b14d258efd965"
+    },
+    {
+      "paper_id": "db8355addfce22a48b6aaff352c46a4fbab97716",
+      "arxiv_id": "2410.17393",
+      "doi": "10.48550/arXiv.2410.17393",
+      "title": "Denoise-I2W: Mapping Images to Denoising Words for Accurate Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/db8355addfce22a48b6aaff352c46a4fbab97716"
+    },
+    {
+      "paper_id": "62b9e215b54c94c93f34e21754aeef36a2a14abe",
+      "arxiv_id": "2410.14101",
+      "doi": "10.1109/ICASSP49660.2025.10888876",
+      "title": "Multi-Source Spatial Knowledge Understanding for Immersive Visual Text-to-Speech",
+      "url": "https://www.semanticscholar.org/paper/62b9e215b54c94c93f34e21754aeef36a2a14abe"
+    },
+    {
+      "paper_id": "250441a048b28a9aea1f455fa566f830b4ce6aab",
+      "arxiv_id": "",
+      "doi": "10.1145/3699715",
+      "title": "LLM-Enhanced Composed Image Retrieval: An Intent Uncertainty-Aware Linguistic-Visual Dual Channel Matching Model",
+      "url": "https://www.semanticscholar.org/paper/250441a048b28a9aea1f455fa566f830b4ce6aab"
+    },
+    {
+      "paper_id": "8645bdb02b82c0f1734e33f41268d58e7ba44fb8",
+      "arxiv_id": "2410.05217",
+      "doi": "10.48550/arXiv.2410.05217",
+      "title": "Organizing Unstructured Image Collections using Natural Language",
+      "url": "https://www.semanticscholar.org/paper/8645bdb02b82c0f1734e33f41268d58e7ba44fb8"
+    },
+    {
+      "paper_id": "33888b7650d97a21dda39d9c6cefbacb5334dbe0",
+      "arxiv_id": "2410.03659",
+      "doi": "10.48550/arXiv.2410.03659",
+      "title": "Unraveling Cross-Modality Knowledge Conflicts in Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/33888b7650d97a21dda39d9c6cefbacb5334dbe0"
+    },
+    {
+      "paper_id": "d556d29a2cc0aebffe935363c7b19e35fa4517b1",
+      "arxiv_id": "2410.01536",
+      "doi": "10.48550/arXiv.2410.01536",
+      "title": "EUFCC-CIR: a Composed Image Retrieval Dataset for GLAM Collections",
+      "url": "https://www.semanticscholar.org/paper/d556d29a2cc0aebffe935363c7b19e35fa4517b1"
+    },
+    {
+      "paper_id": "cf101f54420b377640024cc5afce86b42d68d1f0",
+      "arxiv_id": "2409.08381",
+      "doi": "10.48550/arXiv.2409.08381",
+      "title": "Rethinking Prompting Strategies for Multi-Label Recognition with Partial Annotations",
+      "url": "https://www.semanticscholar.org/paper/cf101f54420b377640024cc5afce86b42d68d1f0"
+    },
+    {
+      "paper_id": "69eacccfbed2e1f30276daaf9bbaf7c7625ba848",
+      "arxiv_id": "2409.05405",
+      "doi": "10.1007/s44267-025-00086-x",
+      "title": "A survey of multimodal composite editing and retrieval",
+      "url": "https://www.semanticscholar.org/paper/69eacccfbed2e1f30276daaf9bbaf7c7625ba848"
+    },
+    {
+      "paper_id": "17a5238a52eb48d62dc57ee5d062e58bcb8460a0",
+      "arxiv_id": "2409.04918",
+      "doi": "10.1007/978-981-96-4589-3_6",
+      "title": "Training-free Zero-shot Composed Image Retrieval via Weighted Modality Fusion and Similarity",
+      "url": "https://www.semanticscholar.org/paper/17a5238a52eb48d62dc57ee5d062e58bcb8460a0"
+    },
+    {
+      "paper_id": "c2413581d8f83f4f82640f6a11d9bdb11de582c2",
+      "arxiv_id": "2407.16658",
+      "doi": "10.48550/arXiv.2407.16658",
+      "title": "EgoCVR: An Egocentric Benchmark for Fine-Grained Composed Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/c2413581d8f83f4f82640f6a11d9bdb11de582c2"
+    },
+    {
+      "paper_id": "d2df219cb5ca17f093b2fda64547af5aa209ebb3",
+      "arxiv_id": "2407.13676",
+      "doi": "10.48550/arXiv.2407.13676",
+      "title": "Aligning Sight and Sound: Advanced Sound Source Localization Through Audio-Visual Alignment",
+      "url": "https://www.semanticscholar.org/paper/d2df219cb5ca17f093b2fda64547af5aa209ebb3"
+    },
+    {
+      "paper_id": "cd5d736218589e0d9a8db4808f31eddcc038a3cb",
+      "arxiv_id": "2407.12580",
+      "doi": "10.48550/arXiv.2407.12580",
+      "title": "E5-V: Universal Embeddings with Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/cd5d736218589e0d9a8db4808f31eddcc038a3cb"
+    },
+    {
+      "paper_id": "8da704439af4caee1dd93d3c1a10688e27953d90",
+      "arxiv_id": "",
+      "doi": "10.1145/3626772.3657740",
+      "title": "LDRE: LLM-based Divergent Reasoning and Ensemble for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/8da704439af4caee1dd93d3c1a10688e27953d90"
+    },
+    {
+      "paper_id": "57deb5cd43389faa95369c4e0b9a2849c5da306b",
+      "arxiv_id": "2407.06001",
+      "doi": "10.1109/IJCNN64981.2025.11228450",
+      "title": "Pseudo Triplet Guided Few-shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/57deb5cd43389faa95369c4e0b9a2849c5da306b"
+    },
+    {
+      "paper_id": "37558e62cec4ed09394cc474bff37d1b5ec132c7",
+      "arxiv_id": "2407.05795",
+      "doi": "10.48550/arXiv.2407.05795",
+      "title": "HyCIR: Boosting Zero-Shot Composed Image Retrieval with Synthetic Labels",
+      "url": "https://www.semanticscholar.org/paper/37558e62cec4ed09394cc474bff37d1b5ec132c7"
+    },
+    {
+      "paper_id": "edfaeea934e851b5ad985c251601a2fedf103319",
+      "arxiv_id": "2406.09188",
+      "doi": "10.1109/ICCV51701.2025.00371",
+      "title": "An Efficient Post-Hoc Framework for Reducing Task Discrepancy of Text Encoders for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/edfaeea934e851b5ad985c251601a2fedf103319"
+    },
+    {
+      "paper_id": "be292b54d2a67e2df8bd1f5038674aef22bca6d9",
+      "arxiv_id": "",
+      "doi": "10.62762/cjif.2024.361895",
+      "title": "Bridging Modalities: A Survey of Cross-Modal Image-Text Retrieval",
+      "url": "https://www.semanticscholar.org/paper/be292b54d2a67e2df8bd1f5038674aef22bca6d9"
+    },
+    {
+      "paper_id": "fad25e808b5645fe97c712bffc944024d62dfbc6",
+      "arxiv_id": "2406.03411",
+      "doi": "10.48550/arXiv.2406.03411",
+      "title": "Interactive Text-to-Image Retrieval with Large Language Models: A Plug-and-Play Approach",
+      "url": "https://www.semanticscholar.org/paper/fad25e808b5645fe97c712bffc944024d62dfbc6"
+    },
+    {
+      "paper_id": "f1d4c2ad68723e29ed2d39f4d241a98461ca915e",
+      "arxiv_id": "2405.15587",
+      "doi": "10.1109/IGARSS53475.2024.10642874",
+      "title": "Composed Image Retrieval for Remote Sensing",
+      "url": "https://www.semanticscholar.org/paper/f1d4c2ad68723e29ed2d39f4d241a98461ca915e"
+    },
+    {
+      "paper_id": "7f972004ed9100510867494965a591f9da5f65e0",
+      "arxiv_id": "2405.02951",
+      "doi": "10.1109/TPAMI.2025.3593539",
+      "title": "iSEARLE: Improving Textual Inversion for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/7f972004ed9100510867494965a591f9da5f65e0"
+    },
+    {
+      "paper_id": "cd5dfce71d99604bc21070603e24b5bdeb4d225f",
+      "arxiv_id": "2404.19360",
+      "doi": "10.48550/arXiv.2404.19360",
+      "title": "Large Language Model Informed Patent Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/cd5dfce71d99604bc21070603e24b5bdeb4d225f"
+    },
+    {
+      "paper_id": "67550d7aecf68097a34398cd2261594feab5bbc7",
+      "arxiv_id": "2404.16193",
+      "doi": "10.48550/arXiv.2404.16193",
+      "title": "Improving Multi-label Recognition using Class Co-Occurrence Probabilities",
+      "url": "https://www.semanticscholar.org/paper/67550d7aecf68097a34398cd2261594feab5bbc7"
+    },
+    {
+      "paper_id": "3c19452f6d55778a05cc529a9f5fbc77be59df3a",
+      "arxiv_id": "2403.19651",
+      "doi": "10.48550/arXiv.2403.19651",
+      "title": "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions",
+      "url": "https://www.semanticscholar.org/paper/3c19452f6d55778a05cc529a9f5fbc77be59df3a"
+    },
+    {
+      "paper_id": "62690d78c1b9609036f7a456cc36b19c5dba6eb6",
+      "arxiv_id": "2403.14599",
+      "doi": "10.48550/arXiv.2403.14599",
+      "title": "MyVLM: Personalizing VLMs for User-Specific Queries",
+      "url": "https://www.semanticscholar.org/paper/62690d78c1b9609036f7a456cc36b19c5dba6eb6"
+    },
+    {
+      "paper_id": "2cea424c7dce71042c24d43317521abdc4c0ffb4",
+      "arxiv_id": "2402.15116",
+      "doi": "10.1007/s44267-025-00093-y",
+      "title": "Large multimodal agents: a survey",
+      "url": "https://www.semanticscholar.org/paper/2cea424c7dce71042c24d43317521abdc4c0ffb4"
+    },
+    {
+      "paper_id": "d996ea84f8e3477b6d954459fb80a6faa27b6c2a",
+      "arxiv_id": "2311.07622",
+      "doi": "10.1109/ICME59968.2025.11208912",
+      "title": "Pretrain like Your Inference: Masked Tuning Improves Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/d996ea84f8e3477b6d954459fb80a6faa27b6c2a"
+    },
+    {
+      "paper_id": "3acadddedb926fa1808a562fc721f2ee95e0b770",
+      "arxiv_id": "2308.14746",
+      "doi": "10.1109/TPAMI.2024.3463799",
+      "title": "CoVR-2: Automatic Data Construction for Composed Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/3acadddedb926fa1808a562fc721f2ee95e0b770"
+    },
+    {
+      "paper_id": "ad5ea91ee1ef4c2a5c13e8094a4a8bac64bf080f",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2026.findings-acl.362",
+      "title": "EgoMemory: Memory-Augmented Personalized Retrieval for Long-Context Egocentric Video",
+      "url": "https://www.semanticscholar.org/paper/ad5ea91ee1ef4c2a5c13e8094a4a8bac64bf080f"
+    },
+    {
+      "paper_id": "bdb1d5a7ce873b1d09c14726a44b06159cfe22f2",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2026.findings-acl.1120",
+      "title": "Beyond Query Bias: Candidate-Aware Iterative Refinement for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/bdb1d5a7ce873b1d09c14726a44b06159cfe22f2"
+    },
+    {
+      "paper_id": "aecd695d4d0caa18e409f6a418afb517f41c2a1e",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "MLLM-I2W: Harnessing Multimodal Large Language Model for Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/aecd695d4d0caa18e409f6a418afb517f41c2a1e"
+    },
+    {
+      "paper_id": "32b956b708a77ff15613d845761efa8a7461247e",
+      "arxiv_id": "",
+      "doi": "10.1109/TGRS.2025.3572827",
+      "title": "Language-Empowered Conversion for Remote Sensing Image Retrieval With Text Feedback",
+      "url": "https://www.semanticscholar.org/paper/32b956b708a77ff15613d845761efa8a7461247e"
+    },
+    {
+      "paper_id": "15f4c61b2c4d4ff5708df1f54d1ec212528966d5",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2025.acl-long.61",
+      "title": "Modeling Uncertainty in Composed Image Retrieval via Probabilistic Embeddings",
+      "url": "https://www.semanticscholar.org/paper/15f4c61b2c4d4ff5708df1f54d1ec212528966d5"
+    },
+    {
+      "paper_id": "64f045be250e3ad4de1e845eac2cca04b8962657",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "E 2 : Easy Regional Contrastive Learning of Expressive Fashion Representations",
+      "url": "https://www.semanticscholar.org/paper/64f045be250e3ad4de1e845eac2cca04b8962657"
+    },
+    {
+      "paper_id": "5251b9304c66b435eaf74a53d465429c7728cd94",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "MulVec: Fine-Grained Role-Aware Matching for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/5251b9304c66b435eaf74a53d465429c7728cd94"
+    },
+    {
+      "paper_id": "367054725ff9cf515dc5bb21cc0c60550db8a349",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Compositional Transformation Reasoning for Composed Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/367054725ff9cf515dc5bb21cc0c60550db8a349"
+    },
+    {
+      "paper_id": "c05d1a1ddd6447ad7e9625f0f6e06291106ee24e",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "CaptionFuse: Training-Free Composed Product Retrieval Via VLM Intent Captioning and Weighted Embedding Fusion",
+      "url": "https://www.semanticscholar.org/paper/c05d1a1ddd6447ad7e9625f0f6e06291106ee24e"
+    }
+  ]
+}

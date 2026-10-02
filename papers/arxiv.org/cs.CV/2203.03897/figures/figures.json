@@ -1,0 +1,128 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1: (Left) pre-trained CLIP has two separated clusters for image and text, with a large unexplored interspace. As a result, it has poor uniformity and alignment that might limit the embedding transferability. (Middle) For robust representation, our geodesic multi-modal Mixup (m2- Mix) explores",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2: (Left) DOSNES [24] visualization of CLIP’s embedding space on Flickr 30k [67]. Greens and oranges denote the image and text embedding, respectively. Embeddings of pre-trained (ZS) and naively fine-tuned (FT) ones have two separate clusters with low uniformity and alignment (Middle), which ",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3: Comparison among contrastive losses. CLIP enforces the pair-wise similarity between matched image-text embedding pairs. m2-Mix generates hard negative samples via mixing two heterogeneous embeddings. We additionally propose uni-modal Mixups, V -Mix (and L-Mix) and V L-Mix, that augment the",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 6,
+    "caption": "Figure 4: On Flickr30k, (a) top-3 retrieved images by image embedding (Top) and m2-Mixed (Bottom) from a source instance (Left). m2-Mix generates an embedding that contains features from both modalities (young girl, climbing, and indoor wall), partly lacking in the image embedding. (b) and (c) denot",
+    "score": 0.0
+  },
+  {
+    "file": "fig-04.png",
+    "figure_no": 5,
+    "page": 7,
+    "caption": "Figure 5: Reliability diagram (left) and ECE under varying temperature τ (right) on Flickr30K image-to-text retrieval. Our method shows (1) a better reliability diagram (close to y = x), (2) achieves a lower minimum ECE value, and (3) more stable across varying τ than naive fine-tuning. Thus, repres",
+    "score": 20.0
+  },
+  {
+    "file": "fig-05.png",
+    "figure_no": 6,
+    "page": 9,
+    "caption": "Figure 6: t-SNE [85] on CMU- MOSEI with partial information. Each color denotes embeddings of partial and joint modality.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-06.png",
+    "figure_no": 7,
+    "page": 9,
+    "caption": "Figure 7: Embeddings of m3-Mix on SIMAT source-target texts (reds) and images (source and top-1 retrieved). Black texts correspond to top-3 retrieved images from a source image-caption.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-07.png",
+    "figure_no": 8,
+    "page": 22,
+    "caption": "Figure 8: Retrieved images by original image embedding and mixed embedding on Flickr30k.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-08.png",
+    "figure_no": 9,
+    "page": 23,
+    "caption": "Figure 9: Few-shot classification results on FGVC Aircraft dataset. We varied the parameter of Beta distribution, constant (red) or scheduled (blue), to simulate diverse situations of mixed samples. It always achieves better performance than FT (60.61), even under varying parameters.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-09.png",
+    "figure_no": 10,
+    "page": 23,
+    "caption": "Figure 10: Few-shot classification results on Stanford Cars dataset. We varied the parameter of Beta distribution, constant (red) or scheduled (blue), to simulate diverse situations of mixed samples. It generally achieves better performance than FT (88.58), even under varying parameters.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-10.png",
+    "figure_no": 11,
+    "page": 24,
+    "caption": "Figure 11: t-SNE [85] for CMU-MOSEI, which has textual (T), visual (V), and audio (A) modalities. Top row represents when the only textual (T) information is given, and the bottom row corresponds to when the textual (T) and visual (V) information are given. The pink and green color denotes the embed",
+    "score": 0.0
+  },
+  {
+    "file": "fig-11.png",
+    "figure_no": 11,
+    "page": 24,
+    "caption": "Fig. 11 shows the embedding t-SNE of each method given one (top row) or two (bottom row) modalities in test-time. Compared with MulT, GMC strongly aligns the embedding of partial and joint modality based on its explicit enforcement, and the alignment is further enhanced by the aid of m2-Mix, which r",
+    "score": 5.0
+  },
+  {
+    "file": "fig-12.png",
+    "figure_no": 12,
+    "page": 25,
+    "caption": "Figure 12: Hard negative proportion by I-to- mixed samples’ similarities on MS COCO.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-13.png",
+    "figure_no": 13,
+    "page": 25,
+    "caption": "Figure 13: Hard negative proportion by T-to- mixed samples’ similarities on MS COCO.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-14.png",
+    "figure_no": 14,
+    "page": 25,
+    "caption": "Figure 14: Hard negative proportion by I-to- mixed samples’ similarities on Flickr30k.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-15.png",
+    "figure_no": 15,
+    "page": 25,
+    "caption": "Figure 15: Hard negative proportion by T-to- mixed samples’ similarities on Flickr30k.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-16.png",
+    "figure_no": 16,
+    "page": 26,
+    "caption": "Figure 16: In-batch averaged pairwise similarity and alignment comparison over training iterations with and without m2-Mix on MS COCO. (Left) similarities of original negative pairs (top-1 highest) and that of positive pairs. (Right) alignment comparison.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-17.png",
+    "figure_no": 17,
+    "page": 26,
+    "caption": "Figure 17: In-batch averaged pairwise similarity and alignment comparison over training iterations with and without m2-Mix on Flickr30k. (Left) similarities of original negative pairs (top-1 highest) and that of positive pairs. (Right) alignment comparison.",
+    "score": 0.0
+  }
+]

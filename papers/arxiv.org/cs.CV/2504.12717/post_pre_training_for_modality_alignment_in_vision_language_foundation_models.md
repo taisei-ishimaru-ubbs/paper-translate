@@ -60,7 +60,7 @@ tags: [paper]
 - [Unified Contrastive Learning in Image-Text-Label Space](https://arxiv.org/abs/2204.03610)
 - [Visual Prompt Tuning](https://arxiv.org/abs/2203.12119)
 - [Conditional Prompt Learning for Vision-Language Models](https://arxiv.org/abs/2203.05557)
-- [Geodesic Multi-Modal Mixup for Robust Fine-Tuning](https://arxiv.org/abs/2203.03897)
+- [[geodesic_multi_modal_mixup_for_robust_fine_tuning|Geodesic Multi-Modal Mixup for Robust Fine-Tuning]]
 - [[mind_the_gap_understanding_the_modality_gap_in_multi_modal_contrastive_representation_learning|Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning]]
 - [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/abs/2112.10752)
 - [CLIP-NeRF: Text-and-Image Driven Manipulation of Neural Radiance Fields](https://arxiv.org/abs/2112.05139)

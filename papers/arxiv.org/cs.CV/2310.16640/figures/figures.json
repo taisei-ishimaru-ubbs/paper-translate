@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 3,
+    "caption": "Fig. 1. Overview of our method, EmoCLIP. During training (a), we use joint training to optimise the cosine similarity of video-text embedding pairs in the mini-batch. Sample-speciﬁc descriptions of the subject’s facial expressions are used to train the model. During inference (b), we perform zero-sh",
+    "score": 112.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Fig. 2. EmoCLIP manipulates the latent space of basic emotions to create representations for compound emotions. We take the average latent repre- sentation of the components and concatenate it to the set of representations for each new compound emotion.",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 7,
+    "caption": "Fig. 3. Latent representation of the MAFW dataset using CLIP (a) and EmoCLIP (b) for each emotion category.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 10,
+    "caption": "Fig. 4. Example frames of correctly and incorrectly classiﬁed samples from the MAFW [20] dataset, for anger (top) and happiness (bottom). The sample-level descriptions are included for reference but are not used during inference.",
+    "score": 0.0
+  }
+]

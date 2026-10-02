@@ -1,0 +1,803 @@
+{
+  "id": "2310.16640",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "d1801851bd779f2af696558c29ea7a15d61b0da7",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2310-16640",
+      "ArXiv": "2310.16640",
+      "DOI": "10.1109/FG59268.2024.10581982",
+      "CorpusId": 264451729
+    },
+    "url": "https://www.semanticscholar.org/paper/d1801851bd779f2af696558c29ea7a15d61b0da7",
+    "title": "EmoCLIP: A Vision-Language Method for Zero-Shot Video Facial Expression Recognition"
+  },
+  "references": [
+    {
+      "paper_id": "30716420f94cb6fbdf8ab1cab96a4ba32f159b6f",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49357.2023.10094888",
+      "title": "Zero-Shot Speech Emotion Recognition Using Generative Learning with Reconstructed Prototypes",
+      "url": "https://www.semanticscholar.org/paper/30716420f94cb6fbdf8ab1cab96a4ba32f159b6f"
+    },
+    {
+      "paper_id": "f9286992b50f4d6cda8991cec731ae8e3aca145e",
+      "arxiv_id": "2304.01830",
+      "doi": "10.1109/CVPR52729.2023.02248",
+      "title": "Learning to Name Classes for Vision and Language Models",
+      "url": "https://www.semanticscholar.org/paper/f9286992b50f4d6cda8991cec731ae8e3aca145e"
+    },
+    {
+      "paper_id": "7f2ddb3dabaf779d45766b458d5b51f7a4b877cc",
+      "arxiv_id": "2304.01752",
+      "doi": "10.1109/ICCV51070.2023.01424",
+      "title": "Black Box Few-Shot Adaptation for Vision-Language models",
+      "url": "https://www.semanticscholar.org/paper/7f2ddb3dabaf779d45766b458d5b51f7a4b877cc"
+    },
+    {
+      "paper_id": "bef61fc35ff83d5266c8e526312d3e91ed16de4c",
+      "arxiv_id": "2304.01110",
+      "doi": "10.1109/CVPR52729.2023.01107",
+      "title": "AutoLabel: CLIP-based framework for Open-Set Video Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/bef61fc35ff83d5266c8e526312d3e91ed16de4c"
+    },
+    {
+      "paper_id": "c4e4fbb42a960b903d4c746623a1e364687a0091",
+      "arxiv_id": "2303.12997",
+      "doi": "10.1109/TMM.2024.3521788",
+      "title": "FER-Former: Multimodal Transformer for Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/c4e4fbb42a960b903d4c746623a1e364687a0091"
+    },
+    {
+      "paper_id": "c6cb6859a2e581397fb5ae867c392b3c429b231d",
+      "arxiv_id": "2303.00193",
+      "doi": "10.1109/ICME57554.2024.10687508",
+      "title": "CLIPER: A Unified Vision-Language Framework for In-the-Wild Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/c6cb6859a2e581397fb5ae867c392b3c429b231d"
+    },
+    {
+      "paper_id": "0938d0ccc1c633fa0f8c067d914358b1ef53a44b",
+      "arxiv_id": "2302.14115",
+      "doi": "10.1109/CVPR52729.2023.01032",
+      "title": "Vid2Seq: Large-Scale Pretraining of a Visual Language Model for Dense Video Captioning",
+      "url": "https://www.semanticscholar.org/paper/0938d0ccc1c633fa0f8c067d914358b1ef53a44b"
+    },
+    {
+      "paper_id": "f43f3aea99da056b19c6a5ee0f5aac8010c343a3",
+      "arxiv_id": "2301.02074",
+      "doi": "10.1109/CVPR52729.2023.00247",
+      "title": "Test of Time: Instilling Video-Language Models with a Sense of Time",
+      "url": "https://www.semanticscholar.org/paper/f43f3aea99da056b19c6a5ee0f5aac8010c343a3"
+    },
+    {
+      "paper_id": "a42b091adaf29b06a092b67192ac07cb93312f2a",
+      "arxiv_id": "2210.07183",
+      "doi": "10.48550/arXiv.2210.07183",
+      "title": "Visual Classification via Description from Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a42b091adaf29b06a092b67192ac07cb93312f2a"
+    },
+    {
+      "paper_id": "10667c1ae4b49808772b5a377c5b52196701267f",
+      "arxiv_id": "2210.01936",
+      "doi": "10.48550/arXiv.2210.01936",
+      "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
+      "url": "https://www.semanticscholar.org/paper/10667c1ae4b49808772b5a377c5b52196701267f"
+    },
+    {
+      "paper_id": "9e095237a496f20c286eafb9dd966f775f5fbac5",
+      "arxiv_id": "2209.06430",
+      "doi": "",
+      "title": "CLIP-ViP: Adapting Pre-trained Image-Text Model to Video-Language Alignment",
+      "url": "https://www.semanticscholar.org/paper/9e095237a496f20c286eafb9dd966f775f5fbac5"
+    },
+    {
+      "paper_id": "c8ed469b1d00bc86fbb16fcfa6b407e4f57e3d86",
+      "arxiv_id": "2208.03550",
+      "doi": "10.48550/arXiv.2208.03550",
+      "title": "Frozen CLIP Models are Efficient Video Learners",
+      "url": "https://www.semanticscholar.org/paper/c8ed469b1d00bc86fbb16fcfa6b407e4f57e3d86"
+    },
+    {
+      "paper_id": "916c031467b55043a2f170fb39fdd04a3781ef50",
+      "arxiv_id": "2208.00847",
+      "doi": "10.1145/3503161.3548190",
+      "title": "MAFW: A Large-scale, Multi-modal, Compound Affective Database for Dynamic Facial Expression Recognition in the Wild",
+      "url": "https://www.semanticscholar.org/paper/916c031467b55043a2f170fb39fdd04a3781ef50"
+    },
+    {
+      "paper_id": "1ec886e2235763b08fa606a5d5ea3f4540f715ec",
+      "arxiv_id": "2207.07285",
+      "doi": "10.1145/3503161.3547910",
+      "title": "X-CLIP: End-to-End Multi-grained Contrastive Learning for Video-Text Retrieval",
+      "url": "https://www.semanticscholar.org/paper/1ec886e2235763b08fa606a5d5ea3f4540f715ec"
+    },
+    {
+      "paper_id": "51a9371ef9878ae0946ca3020dce492e8e8f15ab",
+      "arxiv_id": "2207.05577",
+      "doi": "10.1145/3503161.3548373",
+      "title": "Learning from Label Relationships in Human Affect",
+      "url": "https://www.semanticscholar.org/paper/51a9371ef9878ae0946ca3020dce492e8e8f15ab"
+    },
+    {
+      "paper_id": "98591ed0db3b2dcb71916d71a7efb422d0b0232e",
+      "arxiv_id": "2206.04975",
+      "doi": "10.48550/arXiv.2206.04975",
+      "title": "NR-DFERNet: Noise-Robust Network for Dynamic Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/98591ed0db3b2dcb71916d71a7efb422d0b0232e"
+    },
+    {
+      "paper_id": "2ff6f2b4a175cbc533795b723d6f18d64cea3916",
+      "arxiv_id": "2205.08508",
+      "doi": "10.48550/arXiv.2205.08508",
+      "title": "A CLIP-Hitchhiker's Guide to Long Video Retrieval",
+      "url": "https://www.semanticscholar.org/paper/2ff6f2b4a175cbc533795b723d6f18d64cea3916"
+    },
+    {
+      "paper_id": "26218bdcc3945c7edae7aa2adbfba4cd820a2df3",
+      "arxiv_id": "2204.14198",
+      "doi": "10.52202/068431-1723",
+      "title": "Flamingo: a Visual Language Model for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/26218bdcc3945c7edae7aa2adbfba4cd820a2df3"
+    },
+    {
+      "paper_id": "38978af16c4dadb91558a2fd22a526757d438711",
+      "arxiv_id": "2203.09463",
+      "doi": "10.1109/CVPR52688.2022.02025",
+      "title": "FERV39k: A Large-Scale Multi-Scene Dataset for Facial Expression Recognition in Videos",
+      "url": "https://www.semanticscholar.org/paper/38978af16c4dadb91558a2fd22a526757d438711"
+    },
+    {
+      "paper_id": "b879450f50a6113f44a5baf0bcd5b4331eeb7bbc",
+      "arxiv_id": "2203.05557",
+      "doi": "10.1109/CVPR52688.2022.01631",
+      "title": "Conditional Prompt Learning for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/b879450f50a6113f44a5baf0bcd5b4331eeb7bbc"
+    },
+    {
+      "paper_id": "037bab9d26ef7da11ee32d7682836604d2cc8a72",
+      "arxiv_id": "2112.03109",
+      "doi": "10.1109/CVPR52688.2022.01814",
+      "title": "General Facial Representation Learning in a Visual-Linguistic Manner",
+      "url": "https://www.semanticscholar.org/paper/037bab9d26ef7da11ee32d7682836604d2cc8a72"
+    },
+    {
+      "paper_id": "b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df",
+      "arxiv_id": "2111.02114",
+      "doi": "",
+      "title": "LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs",
+      "url": "https://www.semanticscholar.org/paper/b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df"
+    },
+    {
+      "paper_id": "fb61a0c1893bac343ffde67165b7bb1e7fc2f310",
+      "arxiv_id": "",
+      "doi": "10.1145/3474085.3475647",
+      "title": "Zero-shot Video Emotion Recognition via Multimodal Protagonist-aware Transformer Network",
+      "url": "https://www.semanticscholar.org/paper/fb61a0c1893bac343ffde67165b7bb1e7fc2f310"
+    },
+    {
+      "paper_id": "8778abfed6817f4b598aa997a99668f565ee96e6",
+      "arxiv_id": "2110.06615",
+      "doi": "10.1145/3474085.3479207",
+      "title": "CLIP4Caption: CLIP for Video Caption",
+      "url": "https://www.semanticscholar.org/paper/8778abfed6817f4b598aa997a99668f565ee96e6"
+    },
+    {
+      "paper_id": "0c74e1d4e776b0be9afd682e97c4293044513fa9",
+      "arxiv_id": "",
+      "doi": "10.1109/acii52823.2021.9597425",
+      "title": "Estimating continuous affect with label uncertainty",
+      "url": "https://www.semanticscholar.org/paper/0c74e1d4e776b0be9afd682e97c4293044513fa9"
+    },
+    {
+      "paper_id": "dc05240a06326b5b1664f7e8c95c330b08cd0349",
+      "arxiv_id": "2109.08472",
+      "doi": "",
+      "title": "ActionCLIP: A New Paradigm for Video Action Recognition",
+      "url": "https://www.semanticscholar.org/paper/dc05240a06326b5b1664f7e8c95c330b08cd0349"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "30a839081d7f2315d4de67526b3703e96dde9dc3",
+      "arxiv_id": "",
+      "doi": "10.1007/s00521-021-06012-8",
+      "title": "Deep learning-based facial emotion recognition for human–computer interaction applications",
+      "url": "https://www.semanticscholar.org/paper/30a839081d7f2315d4de67526b3703e96dde9dc3"
+    },
+    {
+      "paper_id": "281ad83e06d731d5d686acf07cd701576f1188c4",
+      "arxiv_id": "2104.08860",
+      "doi": "10.1016/j.neucom.2022.07.028",
+      "title": "CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval",
+      "url": "https://www.semanticscholar.org/paper/281ad83e06d731d5d686acf07cd701576f1188c4"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "141a5033d9994242b18bb3b217e79582f1ee9306",
+      "arxiv_id": "2102.05918",
+      "doi": "",
+      "title": "Scaling Up Visual and Vision-Language Representation Learning With Noisy Text Supervision",
+      "url": "https://www.semanticscholar.org/paper/141a5033d9994242b18bb3b217e79582f1ee9306"
+    },
+    {
+      "paper_id": "b836524d1d86e8612dff9fa5108000c6f78728fb",
+      "arxiv_id": "2009.08906",
+      "doi": "10.1609/aaai.v36i1.19873",
+      "title": "Learning Unseen Emotions from Gestures via Semantically-Conditioned Zero-Shot Perception with Adversarial Autoencoders",
+      "url": "https://www.semanticscholar.org/paper/b836524d1d86e8612dff9fa5108000c6f78728fb"
+    },
+    {
+      "paper_id": "061d69640ba6b544bbdfa8fa4637fa867fb42d2d",
+      "arxiv_id": "2008.05924",
+      "doi": "10.1145/3394171.3413620",
+      "title": "DFEW: A Large-Scale Database for Recognizing Dynamic Facial Expressions in the Wild",
+      "url": "https://www.semanticscholar.org/paper/061d69640ba6b544bbdfa8fa4637fa867fb42d2d"
+    },
+    {
+      "paper_id": "6c874bf603cd03bedc0f0cc7adbd72eecd043c86",
+      "arxiv_id": "",
+      "doi": "10.1016/J.COMPEDU.2019.103649",
+      "title": "Affective computing in education: A systematic review and future research",
+      "url": "https://www.semanticscholar.org/paper/6c874bf603cd03bedc0f0cc7adbd72eecd043c86"
+    },
+    {
+      "paper_id": "0a0dd2a2ed0c1ef1ba2674097a48e0dfc7ccb077",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2019.00124",
+      "title": "Zero-Shot Emotion Recognition via Affective Structural Embedding",
+      "url": "https://www.semanticscholar.org/paper/0a0dd2a2ed0c1ef1ba2674097a48e0dfc7ccb077"
+    },
+    {
+      "paper_id": "6e803fb4f730b132db7b2cda374113dd76aaa4d7",
+      "arxiv_id": "1808.02531",
+      "doi": "10.1109/TAFFC.2019.2907628",
+      "title": "SchiNet: Automatic Estimation of Symptoms of Schizophrenia from Facial Behaviour Analysis",
+      "url": "https://www.semanticscholar.org/paper/6e803fb4f730b132db7b2cda374113dd76aaa4d7"
+    },
+    {
+      "paper_id": "613eb8f9a416d05b916f4bf9d9f48b80e6e4fd1f",
+      "arxiv_id": "",
+      "doi": "10.1073/pnas.1702247114",
+      "title": "Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+      "url": "https://www.semanticscholar.org/paper/613eb8f9a416d05b916f4bf9d9f48b80e6e4fd1f"
+    },
+    {
+      "paper_id": "ffe28f6bf0e9e6bbca6313319aa1a5409d283d9b",
+      "arxiv_id": "1707.00600",
+      "doi": "10.1109/TPAMI.2018.2857768",
+      "title": "Zero-Shot Learning—A Comprehensive Evaluation of the Good, the Bad and the Ugly",
+      "url": "https://www.semanticscholar.org/paper/ffe28f6bf0e9e6bbca6313319aa1a5409d283d9b"
+    },
+    {
+      "paper_id": "60464fe1074b759f55097f9d21d43ea09d4e9df7",
+      "arxiv_id": "",
+      "doi": "10.1192/bjp.bp.115.171397",
+      "title": "Effectiveness of group body psychotherapy for negative symptoms of schizophrenia: multicentre randomised controlled trial",
+      "url": "https://www.semanticscholar.org/paper/60464fe1074b759f55097f9d21d43ea09d4e9df7"
+    },
+    {
+      "paper_id": "52f1d91f21d68ce4186a9a4cd9f562b383544535",
+      "arxiv_id": "",
+      "doi": "10.1109/BHI.2016.7455874",
+      "title": "Facial expressions and flat affect in schizophrenia, automatic analysis from depth camera data",
+      "url": "https://www.semanticscholar.org/paper/52f1d91f21d68ce4186a9a4cd9f562b383544535"
+    },
+    {
+      "paper_id": "a16f538a57e44c23cda462efa27a5a920b45c234",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-32270-4_8",
+      "title": "Automated Facial Expressions Analysis in Schizophrenia: A Continuous Dynamic Approach",
+      "url": "https://www.semanticscholar.org/paper/a16f538a57e44c23cda462efa27a5a920b45c234"
+    },
+    {
+      "paper_id": "b75ee166a4dfb335ccab604148ed0b02a6812113",
+      "arxiv_id": "",
+      "doi": "10.1021/cen-09225-bus1",
+      "title": "End To End",
+      "url": "https://www.semanticscholar.org/paper/b75ee166a4dfb335ccab604148ed0b02a6812113"
+    },
+    {
+      "paper_id": "1336839e7bd3d072a2c699e613312a852a6586ae",
+      "arxiv_id": "",
+      "doi": "10.1109/MMUL.2012.26",
+      "title": "Collecting Large, Richly Annotated Facial-Expression Databases from Movies",
+      "url": "https://www.semanticscholar.org/paper/1336839e7bd3d072a2c699e613312a852a6586ae"
+    },
+    {
+      "paper_id": "e6260f76b372a9a6c069a4b448a8b6cc6ce5413b",
+      "arxiv_id": "",
+      "doi": "10.1016/j.schres.2010.08.039",
+      "title": "Initial Development and Preliminary Validation of a New Negative Symptom Measure: The Clinical Assessment Interview for Negative Symptoms (CAINS)",
+      "url": "https://www.semanticscholar.org/paper/e6260f76b372a9a6c069a4b448a8b6cc6ce5413b"
+    },
+    {
+      "paper_id": "dd2726042b2c8cf243780e29e567f7e1d38626b3",
+      "arxiv_id": "",
+      "doi": "10.1145/1056743.1056744",
+      "title": "Machine learning research",
+      "url": "https://www.semanticscholar.org/paper/dd2726042b2c8cf243780e29e567f7e1d38626b3"
+    },
+    {
+      "paper_id": "9bb28869d9808b12273c42229c2d1aa564e5bac8",
+      "arxiv_id": "",
+      "doi": "10.1037/H0077714",
+      "title": "A circumplex model of affect.",
+      "url": "https://www.semanticscholar.org/paper/9bb28869d9808b12273c42229c2d1aa564e5bac8"
+    },
+    {
+      "paper_id": "598f29fbc1f89524d4319451a208b799cb0d6957",
+      "arxiv_id": "",
+      "doi": "10.1109/TMM.2021.3087098",
+      "title": "Exploring Zero-Shot Emotion Recognition in Speech Using Semantic-Embedding Prototypes",
+      "url": "https://www.semanticscholar.org/paper/598f29fbc1f89524d4319451a208b799cb0d6957"
+    },
+    {
+      "paper_id": "b0c2e11764940db4248c90bb576863ad5eb6f4b0",
+      "arxiv_id": "",
+      "doi": "10.1093/SCHBUL/13.2.261",
+      "title": "The positive and negative syndrome scale (PANSS) for schizophrenia.",
+      "url": "https://www.semanticscholar.org/paper/b0c2e11764940db4248c90bb576863ad5eb6f4b0"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Facial action coding system: Investigator’s guide",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "San-dra",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "license agreement with IEEE. Restrictions apply",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "6853b865501e978f73a32a0a25ee9639e13c0bc1",
+      "arxiv_id": "2609.15273",
+      "doi": "",
+      "title": "A Latent Oscillator Measurement Model to Simulate Emotional-Expression Score Dynamics in Video",
+      "url": "https://www.semanticscholar.org/paper/6853b865501e978f73a32a0a25ee9639e13c0bc1"
+    },
+    {
+      "paper_id": "7fd8eac0e771b79d8f95d2fe8031a4622d1c3ec0",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2026.134557",
+      "title": "A Temporal-Facial Relational Learning Framework for Academic Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/7fd8eac0e771b79d8f95d2fe8031a4622d1c3ec0"
+    },
+    {
+      "paper_id": "f336bbe3430197cc43bbb324f7ac6988bb596994",
+      "arxiv_id": "2608.17102",
+      "doi": "",
+      "title": "Emotion Across Speech and Faces: Shared Affective Mechanisms in Multimodal Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/f336bbe3430197cc43bbb324f7ac6988bb596994"
+    },
+    {
+      "paper_id": "07feeff0f3f560140ef3cf72325e73b3a0e015ad",
+      "arxiv_id": "2608.08702",
+      "doi": "",
+      "title": "SRE-FER: Regional residual evidence learning for mitigating local evidence dilution in fine-grained facial expression recognition",
+      "url": "https://www.semanticscholar.org/paper/07feeff0f3f560140ef3cf72325e73b3a0e015ad"
+    },
+    {
+      "paper_id": "51e3e194ff25055fb45768c1193bddb7d0354305",
+      "arxiv_id": "",
+      "doi": "10.1016/j.imavis.2026.105994",
+      "title": "A gan inversion-based multimodal framework for micro-expression recognition",
+      "url": "https://www.semanticscholar.org/paper/51e3e194ff25055fb45768c1193bddb7d0354305"
+    },
+    {
+      "paper_id": "8336b03718cfce02240b7ec90325ccb2e220eaf4",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3713438",
+      "title": "Fine-Grained Self-Paced Relational Preserving Network for Cross-Domain Few-Shot Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/8336b03718cfce02240b7ec90325ccb2e220eaf4"
+    },
+    {
+      "paper_id": "60001180067262adef745b1672d3070d9ee94605",
+      "arxiv_id": "",
+      "doi": "10.1007/s11263-026-02932-x",
+      "title": "Deception Detection Meets Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/60001180067262adef745b1672d3070d9ee94605"
+    },
+    {
+      "paper_id": "fa1881b3442c533bcad229e2fb397d832a9956c5",
+      "arxiv_id": "",
+      "doi": "10.1109/TAFFC.2026.3688654",
+      "title": "TGRF-Net: Text-Semantic Guided Region Focused Network for Micro-Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/fa1881b3442c533bcad229e2fb397d832a9956c5"
+    },
+    {
+      "paper_id": "0e8fc130bca5c38cff683eaa1c137e5f874c2c56",
+      "arxiv_id": "2606.30611",
+      "doi": "10.48550/arXiv.2606.30611",
+      "title": "Reweighting Framewise Attention in Video Transformers for Facial Expression Understanding",
+      "url": "https://www.semanticscholar.org/paper/0e8fc130bca5c38cff683eaa1c137e5f874c2c56"
+    },
+    {
+      "paper_id": "e1cfdcef4ed658e4737fc04549625a5084cfd05b",
+      "arxiv_id": "2606.26942",
+      "doi": "10.48550/arXiv.2606.26942",
+      "title": "TraMP-LLaMA: Generative Interpretability with Decoupled Instruction Tuning for Facial Expression Quality Assessment",
+      "url": "https://www.semanticscholar.org/paper/e1cfdcef4ed658e4737fc04549625a5084cfd05b"
+    },
+    {
+      "paper_id": "8fc440c5ee95a3adcc969e356d519449a9b479fe",
+      "arxiv_id": "2606.15763",
+      "doi": "10.48550/arXiv.2606.15763",
+      "title": "The Circumplex Degeneracy Behind the Rare-Class Limit in Affect Recognition",
+      "url": "https://www.semanticscholar.org/paper/8fc440c5ee95a3adcc969e356d519449a9b479fe"
+    },
+    {
+      "paper_id": "3992870e85cb2ad236e3b6071fd66bd917aebad7",
+      "arxiv_id": "",
+      "doi": "10.1109/DLCV69906.2026.11635144",
+      "title": "SAHR: Similarity-Aware Token Masking with Hierarchical Reconstruction for Dynamic Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/3992870e85cb2ad236e3b6071fd66bd917aebad7"
+    },
+    {
+      "paper_id": "852d6a4092ce580b5a9414447e21aa871b12c125",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2026.133174",
+      "title": "NEXPRO: Multimodal negative expression prompting for open-set video-based facial expression recognition",
+      "url": "https://www.semanticscholar.org/paper/852d6a4092ce580b5a9414447e21aa871b12c125"
+    },
+    {
+      "paper_id": "37aa8301ba1d085449a073ee6ef5b236e176a6e9",
+      "arxiv_id": "",
+      "doi": "10.1109/ISEAE69422.2026.11544967",
+      "title": "Multimodal Model Based on Contrastive Language-Image Pretraining for Micro-Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/37aa8301ba1d085449a073ee6ef5b236e176a6e9"
+    },
+    {
+      "paper_id": "b4952984a8c6261b4c4d3e3dc6c29248b1fc71dc",
+      "arxiv_id": "",
+      "doi": "10.1109/ICSP69961.2026.11540819",
+      "title": "Facial Expression Recognition Based on LoRA-Optimized Dynamic Cross-Modal Prompt Fusion in Multimodal Large Models",
+      "url": "https://www.semanticscholar.org/paper/b4952984a8c6261b4c4d3e3dc6c29248b1fc71dc"
+    },
+    {
+      "paper_id": "be50f05da971167022c794efdfee37af92c0e83f",
+      "arxiv_id": "2604.12777",
+      "doi": "10.1109/ICRA57385.2026.11697075",
+      "title": "Cognition-Inspired Dual-Stream Semantic Enhancement for Vision-Based Dynamic Emotion Modeling",
+      "url": "https://www.semanticscholar.org/paper/be50f05da971167022c794efdfee37af92c0e83f"
+    },
+    {
+      "paper_id": "acabe46a39e4906a00883e0fb249a05a5b246c6c",
+      "arxiv_id": "2604.11730",
+      "doi": "",
+      "title": "Multimodal Ambivalence/Hesitancy Recognition in Videos for Personalized Digital Health Interventions",
+      "url": "https://www.semanticscholar.org/paper/acabe46a39e4906a00883e0fb249a05a5b246c6c"
+    },
+    {
+      "paper_id": "af83e1c1357bd76c4e902257bb8798009de67714",
+      "arxiv_id": "2604.10541",
+      "doi": "10.48550/arXiv.2604.10541",
+      "title": "Bidirectional Learning of Facial Action Units and Expressions via Structured Semantic Mapping across Heterogeneous Datasets",
+      "url": "https://www.semanticscholar.org/paper/af83e1c1357bd76c4e902257bb8798009de67714"
+    },
+    {
+      "paper_id": "d53fa4a06e5666009b1b81d29d858745fa391735",
+      "arxiv_id": "2604.02397",
+      "doi": "10.48550/arXiv.2604.02397",
+      "title": "Variational Encoder-Multi-Decoder (VE-MD) for Privacy-by-functional-design (Group) Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/d53fa4a06e5666009b1b81d29d858745fa391735"
+    },
+    {
+      "paper_id": "cd5d1af8fc59a41aa6b18ea4d6ffbac2ff28f666",
+      "arxiv_id": "",
+      "doi": "10.1016/j.vrih.2026.03.001",
+      "title": "From embodied AI to cobodied AI: Foundations and frontiers",
+      "url": "https://www.semanticscholar.org/paper/cd5d1af8fc59a41aa6b18ea4d6ffbac2ff28f666"
+    },
+    {
+      "paper_id": "3f9f17f9eb89cef5e4c8234d1e1937ee95794bcf",
+      "arxiv_id": "2603.27999",
+      "doi": "10.48550/arXiv.2603.27999",
+      "title": "CLIP-AUTT: Test-Time Personalization with Action Unit Prompting for Fine-Grained Video Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/3f9f17f9eb89cef5e4c8234d1e1937ee95794bcf"
+    },
+    {
+      "paper_id": "e539f5beca74ab12ac670e445af6b16ceb412ec4",
+      "arxiv_id": "2603.21309",
+      "doi": "10.48550/arXiv.2603.21309",
+      "title": "Test-Time Adaptation via Cache Personalization for Facial Expression Recognition in Videos",
+      "url": "https://www.semanticscholar.org/paper/e539f5beca74ab12ac670e445af6b16ceb412ec4"
+    },
+    {
+      "paper_id": "8c76937b26e8aab0c19592f81f654e006f463e1b",
+      "arxiv_id": "2602.01908",
+      "doi": "10.48550/arXiv.2602.01908",
+      "title": "LipSody: Lip-to-Speech Synthesis with Enhanced Prosody Consistency",
+      "url": "https://www.semanticscholar.org/paper/8c76937b26e8aab0c19592f81f654e006f463e1b"
+    },
+    {
+      "paper_id": "95bf1dc13f686d7e06fd6f1e3e9790f91390dab0",
+      "arxiv_id": "",
+      "doi": "10.1016/j.jvcir.2025.104645",
+      "title": "Multi-modal deep facial expression recognition framework combining knowledge distillation and retrieval-augmented generation",
+      "url": "https://www.semanticscholar.org/paper/95bf1dc13f686d7e06fd6f1e3e9790f91390dab0"
+    },
+    {
+      "paper_id": "afeab039b326c954e7a769cd4d693d7b90d5a355",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2026.132658",
+      "title": "Multi-scale BiTemporal fusion for dynamic facial expression recognition in the wild",
+      "url": "https://www.semanticscholar.org/paper/afeab039b326c954e7a769cd4d693d7b90d5a355"
+    },
+    {
+      "paper_id": "debdf7cdb30c957d5c748f90a49a458d6c7f7d5d",
+      "arxiv_id": "",
+      "doi": "10.1109/MIS.2025.3642664",
+      "title": "Evaluating the Adversarial Robustness of Vision–Language Models for Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/debdf7cdb30c957d5c748f90a49a458d6c7f7d5d"
+    },
+    {
+      "paper_id": "89607249f99141698a07ea6d326ada74d48cde26",
+      "arxiv_id": "2511.02712",
+      "doi": "10.48550/arXiv.2511.02712",
+      "title": "VidEmo: Affective-Tree Reasoning for Emotion-Centric Video Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/89607249f99141698a07ea6d326ada74d48cde26"
+    },
+    {
+      "paper_id": "23fa781c043e9832ee478e04b819d852bd2fd8dc",
+      "arxiv_id": "",
+      "doi": "10.1007/s00371-025-04192-1",
+      "title": "Enhanced multi-Scale Dynamic Facial Expression Recognition via Conditional Random Fields",
+      "url": "https://www.semanticscholar.org/paper/23fa781c043e9832ee478e04b819d852bd2fd8dc"
+    },
+    {
+      "paper_id": "c0ffbfd968c0ac557754e7b688cf99cbafd49fcb",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2025.129773",
+      "title": "An adaptive multimodal semantic knowledge enhanced framework for sarcasm detection",
+      "url": "https://www.semanticscholar.org/paper/c0ffbfd968c0ac557754e7b688cf99cbafd49fcb"
+    },
+    {
+      "paper_id": "7c03e81909c61f05262bd53c8234081225919aae",
+      "arxiv_id": "2507.21015",
+      "doi": "10.48550/arXiv.2507.21015",
+      "title": "Learning Transferable Facial Emotion Representations from Large-Scale Semantically Rich Captions",
+      "url": "https://www.semanticscholar.org/paper/7c03e81909c61f05262bd53c8234081225919aae"
+    },
+    {
+      "paper_id": "4e06f74652da1965059b276d599409cb2b35d710",
+      "arxiv_id": "2507.11892",
+      "doi": "10.48550/arXiv.2507.11892",
+      "title": "From Coarse to Nuanced: Cross-Modal Alignment of Fine-Grained Linguistic Cues and Visual Salient Regions for Dynamic Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/4e06f74652da1965059b276d599409cb2b35d710"
+    },
+    {
+      "paper_id": "b4a33b382bbc719bd989c49ca768b0133f990152",
+      "arxiv_id": "2507.10300",
+      "doi": "10.1109/ICCVW69036.2025.00390",
+      "title": "FaceLLM: A Multimodal Large Language Model for Face Understanding",
+      "url": "https://www.semanticscholar.org/paper/b4a33b382bbc719bd989c49ca768b0133f990152"
+    },
+    {
+      "paper_id": "b990cb910b70d507952bc4ed75515675f17e3377",
+      "arxiv_id": "",
+      "doi": "10.1016/j.neucom.2025.130020",
+      "title": "Dynamic facial expression recognition in the wild via Multi-Snippet Spatiotemporal Learning",
+      "url": "https://www.semanticscholar.org/paper/b990cb910b70d507952bc4ed75515675f17e3377"
+    },
+    {
+      "paper_id": "0502a85af759c8b9e2dda64f90848e2fa6a824c5",
+      "arxiv_id": "2506.20867",
+      "doi": "10.48550/arXiv.2506.20867",
+      "title": "Enhancing Ambiguous Dynamic Facial Expression Recognition with Soft Label-based Data Augmentation",
+      "url": "https://www.semanticscholar.org/paper/0502a85af759c8b9e2dda64f90848e2fa6a824c5"
+    },
+    {
+      "paper_id": "037c9b6d01d32154aca8963c0cdbafe49e1d62d3",
+      "arxiv_id": "2505.12746",
+      "doi": "10.1038/s41598-025-14961-6",
+      "title": "Correspondence of high dimensional emotion structures elicited from video clips between humans and multimodal LLMs",
+      "url": "https://www.semanticscholar.org/paper/037c9b6d01d32154aca8963c0cdbafe49e1d62d3"
+    },
+    {
+      "paper_id": "2f1456126f42c0823d8b68e7d16447d846812b04",
+      "arxiv_id": "2505.09336",
+      "doi": "10.48550/arXiv.2505.09336",
+      "title": "Unsupervised Multiview Contrastive Language-Image Joint Learning with Pseudo-Labeled Prompts Via Vision-Language Model for 3D/4D Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/2f1456126f42c0823d8b68e7d16447d846812b04"
+    },
+    {
+      "paper_id": "7e715d16e191676b3407a054b2cf6e37f9088e35",
+      "arxiv_id": "2504.21309",
+      "doi": "10.1109/VCIP67698.2025.11396850",
+      "title": "An Evaluation of a Visual Question Answering Strategy for Zero-shot Facial Expression Recognition in Still Images",
+      "url": "https://www.semanticscholar.org/paper/7e715d16e191676b3407a054b2cf6e37f9088e35"
+    },
+    {
+      "paper_id": "fd170a256d9c8be653099568496cc0cb34d9d4db",
+      "arxiv_id": "",
+      "doi": "10.1145/3744367.3744415",
+      "title": "Multimodal Dynamic Face Emotion Verification Model based on Priori Prompt Words for Dynamic Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/fd170a256d9c8be653099568496cc0cb34d9d4db"
+    },
+    {
+      "paper_id": "681d1fdba8697cbd9d9b99ae088d1d2d3068cef0",
+      "arxiv_id": "2504.15624",
+      "doi": "10.1145/3746027.3755634",
+      "title": "FaceInsight: A Multimodal Large Language Model for Face Perception",
+      "url": "https://www.semanticscholar.org/paper/681d1fdba8697cbd9d9b99ae088d1d2d3068cef0"
+    },
+    {
+      "paper_id": "2ab76deec1b505c391dbbe5cabce659dac2976c5",
+      "arxiv_id": "2502.21004",
+      "doi": "10.1109/ICME59968.2025.11209787",
+      "title": "Soften the Mask: Adaptive Temporal Soft Mask for Efficient Dynamic Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/2ab76deec1b505c391dbbe5cabce659dac2976c5"
+    },
+    {
+      "paper_id": "98bb93214599821639761035aaed77bf849b7491",
+      "arxiv_id": "2506.00903",
+      "doi": "10.1109/WACV61041.2025.00596",
+      "title": "Leveraging CLIP Encoder for Multimodal Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/98bb93214599821639761035aaed77bf849b7491"
+    },
+    {
+      "paper_id": "3bbd7105836fd1530074923eb9756792bbc27c2c",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDMW65004.2024.00069",
+      "title": "Evaluating Vision Language Models in Detecting Learning Engagement",
+      "url": "https://www.semanticscholar.org/paper/3bbd7105836fd1530074923eb9756792bbc27c2c"
+    },
+    {
+      "paper_id": "f6cc25739cd059abe24e99ef30c3da7636f23e36",
+      "arxiv_id": "2410.00485",
+      "doi": "10.48550/arXiv.2410.00485",
+      "title": "A Hitchhikers Guide to Fine-Grained Face Forgery Detection Using Common Sense Reasoning",
+      "url": "https://www.semanticscholar.org/paper/f6cc25739cd059abe24e99ef30c3da7636f23e36"
+    },
+    {
+      "paper_id": "b9b879f12bdda97e2e1af38cd88966fe7ede8697",
+      "arxiv_id": "2409.08598",
+      "doi": "10.1109/TMM.2025.3604916",
+      "title": "Knowledge-Enhanced Facial Expression Recognition With Emotional-to-Neutral Transformation",
+      "url": "https://www.semanticscholar.org/paper/b9b879f12bdda97e2e1af38cd88966fe7ede8697"
+    },
+    {
+      "paper_id": "afdca88c974ed41740af1c2c5cca85767f199e9d",
+      "arxiv_id": "2409.06154",
+      "doi": "10.1109/TAFFC.2025.3623135",
+      "title": "Static for Dynamic: Towards a Deeper Understanding of Dynamic Facial Expressions Using Static Expression Data",
+      "url": "https://www.semanticscholar.org/paper/afdca88c974ed41740af1c2c5cca85767f199e9d"
+    },
+    {
+      "paper_id": "ea3c652fe77f892d371c7fd3e7f21a0f19ef6bc8",
+      "arxiv_id": "2409.02828",
+      "doi": "10.1109/TMM.2025.3557704",
+      "title": "ExpLLM: Towards Chain of Thought for Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/ea3c652fe77f892d371c7fd3e7f21a0f19ef6bc8"
+    },
+    {
+      "paper_id": "3c6b3e028a62c9d7954e08f7a95f3504f273599a",
+      "arxiv_id": "2408.11424",
+      "doi": "10.1007/s11263-026-02918-9",
+      "title": "EMO-LLaMA: Enhancing Facial Emotion Understanding with Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/3c6b3e028a62c9d7954e08f7a95f3504f273599a"
+    },
+    {
+      "paper_id": "b0e28912e81927453dc97cfaaa4e635a68bdda4f",
+      "arxiv_id": "2406.16473",
+      "doi": "10.1109/CVPR52734.2025.01790",
+      "title": "D2SP: Dynamic Dual-Stage Purification Framework for Dual Noise Mitigation in Vision-Based Affective Recognition",
+      "url": "https://www.semanticscholar.org/paper/b0e28912e81927453dc97cfaaa4e635a68bdda4f"
+    },
+    {
+      "paper_id": "5c9711c15f0f280124c7be27db9bdc118ef461a3",
+      "arxiv_id": "2405.19100",
+      "doi": "10.1109/WACV61041.2025.00089",
+      "title": "Enhancing Zero-Shot Facial Expression Recognition by LLM Knowledge Transfer",
+      "url": "https://www.semanticscholar.org/paper/5c9711c15f0f280124c7be27db9bdc118ef461a3"
+    },
+    {
+      "paper_id": "f29f13c1659860d6604aa67a3774d7f5d7824e8a",
+      "arxiv_id": "2405.18769",
+      "doi": "10.48550/arXiv.2405.18769",
+      "title": "OUS: Scene-Guided Dynamic Facial Expression Recognition",
+      "url": "https://www.semanticscholar.org/paper/f29f13c1659860d6604aa67a3774d7f5d7824e8a"
+    },
+    {
+      "paper_id": "04831ab52d32ffd2518d72798fee5ed71cf4aa7e",
+      "arxiv_id": "2405.07472",
+      "doi": "10.48550/arXiv.2405.07472",
+      "title": "GaussianVTON: 3D Human Virtual Try-ON via Multi-Stage Gaussian Splatting Editing with Image Prompting",
+      "url": "https://www.semanticscholar.org/paper/04831ab52d32ffd2518d72798fee5ed71cf4aa7e"
+    },
+    {
+      "paper_id": "caf385cb2ba1caf73e2c3dd7611273d31564da26",
+      "arxiv_id": "2404.07078",
+      "doi": "10.1109/IJCNN64981.2025.11227260",
+      "title": "VLLMs Provide Better Context for Emotion Understanding Through Common Sense Reasoning",
+      "url": "https://www.semanticscholar.org/paper/caf385cb2ba1caf73e2c3dd7611273d31564da26"
+    },
+    {
+      "paper_id": "3e644d6b1262d778d84fbd006aa7f3cebcd9fd67",
+      "arxiv_id": "2401.05698",
+      "doi": "10.1016/j.inffus.2024.102382",
+      "title": "HiCMAE: Hierarchical Contrastive Masked Autoencoder for Self-Supervised Audio-Visual Emotion Recognition",
+      "url": "https://www.semanticscholar.org/paper/3e644d6b1262d778d84fbd006aa7f3cebcd9fd67"
+    },
+    {
+      "paper_id": "aaa61a109eddf40fccaa15bb307d79d5397729ec",
+      "arxiv_id": "2101.09858",
+      "doi": "10.1109/TAFFC.2026.3677128",
+      "title": "Weakly Supervised Learning for Facial Affective Behavior Analysis: A Review",
+      "url": "https://www.semanticscholar.org/paper/aaa61a109eddf40fccaa15bb307d79d5397729ec"
+    },
+    {
+      "paper_id": "7c4227b2336d9fa8ec86065d28096b1f47280ea2",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2604.11730",
+      "title": "Ambivalence/Hesitancy Recognition in Videos for Personalized Digital Health Interventions",
+      "url": "https://www.semanticscholar.org/paper/7c4227b2336d9fa8ec86065d28096b1f47280ea2"
+    },
+    {
+      "paper_id": "f06922d18dfe4991039b0670176ddc2bf05b60ad",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2026.3675883",
+      "title": "Multi-Granularity Facial Emotional Representation With Unlabeled Data and Textual Supervision",
+      "url": "https://www.semanticscholar.org/paper/f06922d18dfe4991039b0670176ddc2bf05b60ad"
+    },
+    {
+      "paper_id": "5350d98cc25369f06e3351b57d0ec080dd525715",
+      "arxiv_id": "",
+      "doi": "10.32604/cmc.2026.077057",
+      "title": "SYMPHONIA–Enhanced Multimodal Emotion Recognition with Dual-Branch Dynamic Attention and Hierarchical Adaptive Fusion",
+      "url": "https://www.semanticscholar.org/paper/5350d98cc25369f06e3351b57d0ec080dd525715"
+    },
+    {
+      "paper_id": "de4c9c08c7bb5f88a2958d509e4f1a821408285f",
+      "arxiv_id": "",
+      "doi": "10.1109/TIFS.2025.3602233",
+      "title": "Foundation Models and Biometrics: A Survey and Outlook",
+      "url": "https://www.semanticscholar.org/paper/de4c9c08c7bb5f88a2958d509e4f1a821408285f"
+    },
+    {
+      "paper_id": "ae48908c6086995a6a85e4f75b02b0a0b2b1c05f",
+      "arxiv_id": "",
+      "doi": "10.1109/ACCESS.2025.3636123",
+      "title": "EmoBridge: Aligning Speech and Language for Emotion Recognition via Q-Former",
+      "url": "https://www.semanticscholar.org/paper/ae48908c6086995a6a85e4f75b02b0a0b2b1c05f"
+    },
+    {
+      "paper_id": "cbebe1845194a38abc60748d8e79190a9e72a479",
+      "arxiv_id": "",
+      "doi": "",
+      "title": ": Scaling Affective Video Facial Masked Autoencoders via Efficient Audio-Visual Self-Supervised Learning (",
+      "url": "https://www.semanticscholar.org/paper/cbebe1845194a38abc60748d8e79190a9e72a479"
+    },
+    {
+      "paper_id": "0847b642a2a49e35277529be50de1d39d3e3db4c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Jack of many Faces: A Step Towards Facial Expression and Physiological State Analysis with a Single Network",
+      "url": "https://www.semanticscholar.org/paper/0847b642a2a49e35277529be50de1d39d3e3db4c"
+    }
+  ]
+}

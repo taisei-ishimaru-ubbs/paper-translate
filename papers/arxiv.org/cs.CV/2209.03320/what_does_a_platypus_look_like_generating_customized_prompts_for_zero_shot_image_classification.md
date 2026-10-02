@@ -418,7 +418,7 @@ tags: [paper]
 - [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://arxiv.org/abs/2211.11158)
 - [PointCLIP V2: Prompting CLIP and GPT for Powerful 3D Open-world Learning](https://arxiv.org/abs/2211.11682)
 - [Visual Classification via Description from Large Language Models](https://arxiv.org/abs/2210.07183)
-- [Geodesic Multi-Modal Mixup for Robust Fine-Tuning](https://arxiv.org/abs/2203.03897)
+- [[geodesic_multi_modal_mixup_for_robust_fine_tuning|Geodesic Multi-Modal Mixup for Robust Fine-Tuning]]
 - [Learning to Prompt With Refining Text Knowledge for Zero-Shot Video Action Recognition](https://doi.org/10.1109/TMM.2026.3660143)
 - [Evolutionary-Algorithm-Based Automatic Prompt Generation for Vision-Language Model Evaluation](https://doi.org/10.1109/ACCESS.2025.3648351)
 - [AG-CLIP: Attribute-Guided CLIP for Zero-Shot Fine-Grained Recognition](https://doi.org/10.1109/OJCS.2026.3654171)

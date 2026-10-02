@@ -779,7 +779,7 @@ tags: [paper]
 - [iGWAS: image-based genome-wide association of self-supervised deep phenotyping of human medical images](https://doi.org/10.1101/2022.05.26.22275626)
 - [VQA-GNN: Reasoning with Multimodal Knowledge via Graph Neural Networks for Visual Question Answering](https://arxiv.org/abs/2205.11501)
 - ["This is my unicorn, Fluffy": Personalizing frozen vision-language representations](https://arxiv.org/abs/2204.01694)
-- [Geodesic Multi-Modal Mixup for Robust Fine-Tuning](https://arxiv.org/abs/2203.03897)
+- [[geodesic_multi_modal_mixup_for_robust_fine_tuning|Geodesic Multi-Modal Mixup for Robust Fine-Tuning]]
 - [Contextualizing Meta-Learning via Learning to Decompose](https://arxiv.org/abs/2106.08112)
 - [DFCap: Zero-Shot Image Captioning With Dynamic Fusion Module](https://doi.org/10.1109/ACCESS.2026.3679948)
 - [Intra-modal consistency for image-text retrieval through soft-label distillation](https://doi.org/10.1016/j.patcog.2025.112817)
