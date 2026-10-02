@@ -27,7 +27,7 @@ tags: [paper]
 - [Boosting Vision-Language Models for Histopathology Classification: Predict all at once](https://arxiv.org/abs/2409.01883)
 - [Enhancing Remote Sensing Vision-Language Models for Zero-Shot Scene Classification](https://arxiv.org/abs/2409.00698)
 - [WATT: Weight Average Test-Time Adaptation of CLIP](https://arxiv.org/abs/2406.13875)
-- [Boosting Vision-Language Models with Transduction](https://arxiv.org/abs/2406.01837)
+- [[boosting_vision_language_models_with_transduction|Boosting Vision-Language Models with Transduction]]
 - [Frustratingly Easy Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18330)
 - [Low-Rank Few-Shot Adaptation of Vision-Language Models](https://arxiv.org/abs/2405.18541)
 - [On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?](https://arxiv.org/abs/2405.02266)

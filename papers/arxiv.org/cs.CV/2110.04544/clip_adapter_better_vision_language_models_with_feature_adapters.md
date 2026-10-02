@@ -921,7 +921,7 @@ tags: [paper]
 - [A Multi-Modal Deep Learning Framework for Pan-Cancer Prognosis](https://arxiv.org/abs/2501.07016)
 - [Toward Realistic Camouflaged Object Detection: Benchmarks and Method](https://arxiv.org/abs/2501.07297)
 - [Generate, Transduct, Adapt: Iterative Transduction with VLMs](https://arxiv.org/abs/2501.06031)
-- [Online Gaussian Test-Time Adaptation of Vision-Language Models](https://arxiv.org/abs/2501.04352)
+- [[online_gaussian_test_time_adaptation_of_vision_language_models|Online Gaussian Test-Time Adaptation of Vision-Language Models]]
 - SF-SAM-Adapter: SAM-based segmentation model integrates prior knowledge for gaze image reflection noise removal
 - Consistent prompt learning for vision-language models
 - A Slim Prompt-Averaged Consistency prompt learning for vision-language model

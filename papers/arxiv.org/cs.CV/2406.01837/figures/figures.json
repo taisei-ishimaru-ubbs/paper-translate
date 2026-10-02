@@ -1,0 +1,9 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1: TransCLIP improves significantly the averaged top-1 accuracy on 11 datasets when used on top of inductive zero-shot CLIP, 2-shot CoOp prompt tuning and 2-shot TaskRes adapter for various encoder sizes.",
+    "score": 89.0
+  }
+]

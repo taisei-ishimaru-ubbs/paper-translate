@@ -1,0 +1,15 @@
+{
+  "id": "2501.04352",
+  "title": "Online Gaussian Test-Time Adaptation of Vision-Language Models",
+  "authors": [
+    "Clément Fuchs",
+    "Maxime Zanella",
+    "Christophe De Vleeschouwer"
+  ],
+  "abstract": "Online test-time adaptation (OTTA) of vision-language models (VLMs) has recently garnered increased attention to take advantage of data observed along a stream to improve future predictions. Unfortunately, existing methods rely on dataset-specific hyperparameters, significantly limiting their adaptability to unseen tasks. In response, we propose Online Gaussian Adaptation (OGA), a novel method that models the likelihoods of visual features using Gaussian distributions and incorporates zero-shot priors into an interpretable Maximum A Posteriori (MAP) estimation framework with fixed hyper-parameters across all datasets. We demonstrate that OGA outperforms state-of-the-art methods on most datasets and runs. Additionally, we show that combining OTTA with popular few-shot techniques (a practical yet overlooked setting in prior research) is highly beneficial. Furthermore, our experimental study reveals that common OTTA evaluation protocols, which average performance over at most three runs per dataset, are inadequate due to the substantial variability observed across runs for all OTTA methods. Therefore, we advocate for more rigorous evaluation practices, including increasing the number of runs and considering additional quantitative metrics, such as our proposed Expected Tail Accuracy (ETA), calculated as the average accuracy in the worst 10% of runs. We hope these contributions will encourage more rigorous and diverse evaluation practices in the OTTA community. Code is available at https://github.com/cfuchs2023/OGA .",
+  "published": "2025-01-08",
+  "category": "cs.CV",
+  "pdf_url": "https://arxiv.org/pdf/2501.04352v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T06:16:19Z"
+}

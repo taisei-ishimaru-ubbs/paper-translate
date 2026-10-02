@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. The black-box Test-time Adaptation setting studied in this work. From the client’s perspective, the goal is to adapt a powerful server-side API model to a target distribution (e.g., corrupted or domain-shifted images) without any internal access. The client can only send raw input images a",
+    "score": 86.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 4,
+    "caption": "Figure 2. Comparison of black-box test-time adaptation strategies. (a) Output Refinement (LAME) is limited to post-processing predictions, while (b) ZOO-based Input Prompt Learning requires multiple expensive API calls for prompt optimization. In contrast, (c) BETA achieves efficient single-query ad",
+    "score": 30.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3. We analyze the trade-off between Objective Relevance (alignment with the true target gradient) and Optimization Ef- fectiveness (alignment with the practical steering gradient) as a function of α. The intersection of these opposing curves identifies the optimal range (e.g., α ∈[0.3, 0.5]) ",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 6,
+    "page": 21,
+    "caption": "Figure 6. Online Batch Accuracy on ImageNet-C Contrast domain.",
+    "score": 0.0
+  }
+]

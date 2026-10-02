@@ -1,0 +1,17 @@
+{
+  "id": "2604.15609",
+  "title": "Adapting in the Dark: Efficient and Stable Test-Time Adaptation for Black-Box Models",
+  "authors": [
+    "Yunbei Zhang",
+    "Shuaicheng Niu",
+    "Chengyi Cai",
+    "Feng Liu",
+    "Jihun Hamm"
+  ],
+  "abstract": "Test-Time Adaptation (TTA) for black-box models accessible only via APIs remains a largely unexplored challenge. Existing approaches such as post-hoc output refinement offer limited adaptive capacity, while Zeroth-Order Optimization (ZOO) enables input-space adaptation but faces high query costs and optimization challenges in the unsupervised TTA setting. We introduce BETA (Black-box Efficient Test-time Adaptation), a framework that addresses these limitations by employing a lightweight, local white-box steering model to create a tractable gradient pathway. Through a prediction harmonization technique combined with consistency regularization and prompt learning-oriented filtering, BETA enables stable adaptation with no additional API calls and negligible latency beyond standard inference. On ImageNet-C, BETA achieves a +7.1% accuracy gain on ViT-B/16 and +3.4% on CLIP, surpassing strong white-box and gray-box methods including TENT and TPT. On a commercial API, BETA achieves comparable performance to ZOO at 250x lower cost while maintaining real-time inference speed, establishing it as a practical and efficient solution for real-world black-box TTA.",
+  "published": "2026-04-17",
+  "category": "cs.LG",
+  "pdf_url": "https://arxiv.org/pdf/2604.15609v1",
+  "thumbnail": "thumbnail.png",
+  "added_at": "2026-10-02T06:16:19Z"
+}

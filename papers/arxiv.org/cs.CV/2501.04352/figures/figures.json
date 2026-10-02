@@ -1,0 +1,23 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 1,
+    "caption": "Figure 1. The presented results are averaged over 100 runs. We propose the Expected Tail Accuracy (ETA), i.e., the average over the 10% worst runs, in solid red line. Our method named OGA not only significantly outperforms competitors on average but also has an ETA exceeding their average accuracy o",
+    "score": 94.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 6,
+    "caption": "Figure 2. For each dataset, we show the percentage of runs for which our method OGA achieves a higher accuracy than our com- petitors DMN and TDA. The experimental setting is the same as the one used for generating the results of Table 1.",
+    "score": 32.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 8,
+    "caption": "Figure 3. We show the dynamic of the accuracy of our OGA method as it starts from an empty cache, averaged on 100 runs. At regular intervals, we evaluate the accuracy of OGA on the com- plete test set.",
+    "score": 5.0
+  }
+]
