@@ -29,7 +29,7 @@ tags: [paper]
 - [Enhancing CLIP with CLIP: Exploring Pseudolabeling for Limited-Label Prompt Tuning](https://arxiv.org/abs/2306.01669)
 - [LaFTer: Label-Free Tuning of Zero-shot Classifier using Language and Unlabeled Image Collections](https://arxiv.org/abs/2305.18287)
 - [[vision_language_models_for_vision_tasks_a_survey|Vision-Language Models for Vision Tasks: A Survey]]
-- [Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)
+- [[improving_zero_shot_models_with_label_distribution_priors|Improving Zero-Shot Models with Label Distribution Priors]]
 - [[test_time_prompt_tuning_for_zero_shot_generalization_in_vision_language_models|Test-Time Prompt Tuning for Zero-Shot Generalization in Vision-Language Models]]
 - [Beyond confusion matrix: learning from multiple annotators with awareness of instance features](https://doi.org/10.1007/s10994-022-06211-x)
 - [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)

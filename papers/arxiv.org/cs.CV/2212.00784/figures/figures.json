@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 2,
+    "caption": "Figure 1. An illustration of our method. Our method trains an adapter module on top of a frozen V&L model image encoder. The adapter is trained with two competing objectives: (i) Predicting labels close to the original V&L model zero-shot predictions. (ii) Predicting a labels distribution similar to",
+    "score": 129.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 3,
+    "caption": "Figure 2. Our method adapts the zero-shot V&L for classiﬁcation and regression using a prior on the distribution of labels. Left: The distribution of zero-shot labels (red dashed line) differs from that dataset prior (black line). Middle: We optimize our adapter to: (1) ﬁt the distribution of predic",
+    "score": 44.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 5,
+    "caption": "Figure 3. The proximity of zero-shot predictions on a dataset to the prior distribution of labels predicts successful prompts for zero-shot labeling. In each of the plots we present: i) The age distribution predicted on the UTK dataset by CLIP using the prompt in its title. ii) The Wasserstein betwe",
+    "score": 9.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 7,
+    "caption": "Figure 4. Our methods ﬁts the predicted labels distribution to the prior improving the regression accuracy, even when the prior deviates from the real distribution. Top: The ground truth distribution of ages in the UTK dataset (blue) and the prior distribution we used for it (red). Bottom: The zero-",
+    "score": 23.0
+  }
+]

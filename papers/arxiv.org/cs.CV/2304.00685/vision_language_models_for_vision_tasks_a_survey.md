@@ -46,7 +46,7 @@ tags: [paper]
 - [NLIP: Noise-robust Language-Image Pre-training](https://arxiv.org/abs/2212.07086)
 - [Reproducible Scaling Laws for Contrastive Language-Image Learning](https://arxiv.org/abs/2212.07143)
 - [ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation](https://arxiv.org/abs/2212.03588)
-- [Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)
+- [[improving_zero_shot_models_with_label_distribution_priors|Improving Zero-Shot Models with Label Distribution Priors]]
 - [SgVA-CLIP: Semantic-Guided Visual Adapting of Vision-Language Models for Few-Shot Image Classification](https://arxiv.org/abs/2211.16191)
 - [SuS-X: Training-Free Name-Only Transfer of Vision-Language Models](https://arxiv.org/abs/2211.16198)
 - [Learning Object-Language Alignments for Open-Vocabulary Object Detection](https://arxiv.org/abs/2211.14843)

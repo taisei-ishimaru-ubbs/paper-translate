@@ -1,0 +1,348 @@
+{
+  "id": "2602.17535",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "785642c58f98e1732340689ee4d3be5a0b81b629",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2602-17535",
+      "ArXiv": "2602.17535",
+      "DOI": "10.48550/arXiv.2602.17535",
+      "CorpusId": 285787520
+    },
+    "url": "https://www.semanticscholar.org/paper/785642c58f98e1732340689ee4d3be5a0b81b629",
+    "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs"
+  },
+  "references": [
+    {
+      "paper_id": "fdf40a7b3351cb095f510273ccee1d1ccbaf90e2",
+      "arxiv_id": "2507.07620",
+      "doi": "10.1109/ICCV51701.2025.01654",
+      "title": "ViLU: Learning Vision-Language Uncertainties for Failure Prediction",
+      "url": "https://www.semanticscholar.org/paper/fdf40a7b3351cb095f510273ccee1d1ccbaf90e2"
+    },
+    {
+      "paper_id": "d0b279d3aa0c4ad5594550e90e5c0d20b27c0055",
+      "arxiv_id": "2506.17503",
+      "doi": "10.48550/arXiv.2506.17503",
+      "title": "Trustworthy Few-Shot Transfer of Medical VLMs through Split Conformal Prediction",
+      "url": "https://www.semanticscholar.org/paper/d0b279d3aa0c4ad5594550e90e5c0d20b27c0055"
+    },
+    {
+      "paper_id": "6686b9cc92c2e11b376061f479226b74f29baa31",
+      "arxiv_id": "2506.06076",
+      "doi": "10.48550/arXiv.2506.06076",
+      "title": "Full Conformal Adaptation of Medical Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/6686b9cc92c2e11b376061f479226b74f29baa31"
+    },
+    {
+      "paper_id": "d7f137d86d828df52baa8bd92e87ffbd77712bb3",
+      "arxiv_id": "2505.24693",
+      "doi": "10.1109/CVPR52734.2025.01856",
+      "title": "Conformal Prediction for Zero-Shot Models",
+      "url": "https://www.semanticscholar.org/paper/d7f137d86d828df52baa8bd92e87ffbd77712bb3"
+    },
+    {
+      "paper_id": "5718bb82de010a601feae97dbfde5712b46e1d0e",
+      "arxiv_id": "",
+      "doi": "10.1001/jamaophthalmol.2024.3707",
+      "title": "A Competition for the Diagnosis of Myopic Maculopathy by Artificial Intelligence Algorithms.",
+      "url": "https://www.semanticscholar.org/paper/5718bb82de010a601feae97dbfde5712b46e1d0e"
+    },
+    {
+      "paper_id": "389d092f5d04e09416ab86cd3096d8ddc767e254",
+      "arxiv_id": "2406.01837",
+      "doi": "10.48550/arXiv.2406.01837",
+      "title": "Boosting Vision-Language Models with Transduction",
+      "url": "https://www.semanticscholar.org/paper/389d092f5d04e09416ab86cd3096d8ddc767e254"
+    },
+    {
+      "paper_id": "4be84cd38a77c76441cd7faa64a454f91385e567",
+      "arxiv_id": "2404.02285",
+      "doi": "10.1109/CVPR52733.2024.02244",
+      "title": "LP++: A Surprisingly Strong Linear Probe for Few-Shot CLIP",
+      "url": "https://www.semanticscholar.org/paper/4be84cd38a77c76441cd7faa64a454f91385e567"
+    },
+    {
+      "paper_id": "0746410e1250576cc1b9621ef602e4bceb1c07ca",
+      "arxiv_id": "",
+      "doi": "10.1038/s41591-024-02856-4",
+      "title": "A visual-language foundation model for computational pathology",
+      "url": "https://www.semanticscholar.org/paper/0746410e1250576cc1b9621ef602e4bceb1c07ca"
+    },
+    {
+      "paper_id": "6ee2e2f5e80bde39db56f5ddea3cbe8f6ca87169",
+      "arxiv_id": "2312.12730",
+      "doi": "10.1109/CVPR52733.2024.02235",
+      "title": "A Closer Look at the Few-Shot Adaptation of Large Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/6ee2e2f5e80bde39db56f5ddea3cbe8f6ca87169"
+    },
+    {
+      "paper_id": "0f0024bfef037b97b324b97150ee022c178d6282",
+      "arxiv_id": "",
+      "doi": "10.1038/s41591-023-02504-3",
+      "title": "A visual–language foundation model for pathology image analysis using medical Twitter",
+      "url": "https://www.semanticscholar.org/paper/0f0024bfef037b97b324b97150ee022c178d6282"
+    },
+    {
+      "paper_id": "e9f0223f8dce8b04d37d1f56e6c976b5d0cb5956",
+      "arxiv_id": "2308.07898",
+      "doi": "10.1016/j.media.2024.103357",
+      "title": "A Foundation LAnguage-Image model of the Retina (FLAIR): Encoding expert knowledge in text supervision",
+      "url": "https://www.semanticscholar.org/paper/e9f0223f8dce8b04d37d1f56e6c976b5d0cb5956"
+    },
+    {
+      "paper_id": "d98edf182f3a98bd3faf79e85b20c370ea4d5b66",
+      "arxiv_id": "2306.09335",
+      "doi": "10.48550/arXiv.2306.09335",
+      "title": "Class-Conditional Conformal Prediction With Many Classes",
+      "url": "https://www.semanticscholar.org/paper/d98edf182f3a98bd3faf79e85b20c370ea4d5b66"
+    },
+    {
+      "paper_id": "88779e873b7ec860d6b6a4c2ddfc28dd67c86b67",
+      "arxiv_id": "2303.13283",
+      "doi": "10.1109/CVPR52729.2023.00653",
+      "title": "Visual-Language Prompt Tuning with Knowledge-Guided Context Optimization",
+      "url": "https://www.semanticscholar.org/paper/88779e873b7ec860d6b6a4c2ddfc28dd67c86b67"
+    },
+    {
+      "paper_id": "b78f4b6baf1b8f54cf8a96a1b12ea02e691384bd",
+      "arxiv_id": "",
+      "doi": "10.3389/fonc.2022.1022967",
+      "title": "Deep learning for the detection of anatomical tissue structures and neoplasms of the skin on scanned histopathological tissue sections",
+      "url": "https://www.semanticscholar.org/paper/b78f4b6baf1b8f54cf8a96a1b12ea02e691384bd"
+    },
+    {
+      "paper_id": "cdd9c1d23f9e89d5113f3e31821bb174c6a6afed",
+      "arxiv_id": "2210.10163",
+      "doi": "10.48550/arXiv.2210.10163",
+      "title": "MedCLIP: Contrastive Learning from Unpaired Medical Images and Text",
+      "url": "https://www.semanticscholar.org/paper/cdd9c1d23f9e89d5113f3e31821bb174c6a6afed"
+    },
+    {
+      "paper_id": "43020db027965b81463272b7ceb47a2925ea904c",
+      "arxiv_id": "2208.13365",
+      "doi": "10.1007/978-3-031-17027-0_3",
+      "title": "Long-Tailed Classification of Thorax Diseases on Chest X-Ray: A New Benchmark Study",
+      "url": "https://www.semanticscholar.org/paper/43020db027965b81463272b7ceb47a2925ea904c"
+    },
+    {
+      "paper_id": "0ca1da82e40b99af9da2aba0732a3f2d80f0a0b0",
+      "arxiv_id": "",
+      "doi": "10.1038/s41597-022-01564-3",
+      "title": "FIVES: A Fundus Image Dataset for Artificial Intelligence based Vessel Segmentation",
+      "url": "https://www.semanticscholar.org/paper/0ca1da82e40b99af9da2aba0732a3f2d80f0a0b0"
+    },
+    {
+      "paper_id": "9cdad6775e2653cebc408b989836a9117031c547",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52688.2022.00887",
+      "title": "EASE: Unsupervised Discriminant Subspace Learning for Transductive Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/9cdad6775e2653cebc408b989836a9117031c547"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "466f2f351ee53ae9876682f5dc7c2158b3c81424",
+      "arxiv_id": "",
+      "doi": "10.1016/j.compbiomed.2021.104319",
+      "title": "Exploring the effect of image enhancement techniques on COVID-19 detection using chest X-ray images",
+      "url": "https://www.semanticscholar.org/paper/466f2f351ee53ae9876682f5dc7c2158b3c81424"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "6dd9f99cecd38504b667d320eb2a6267a9fee35d",
+      "arxiv_id": "2010.00747",
+      "doi": "",
+      "title": "Contrastive Learning of Medical Visual Representations from Paired Images and Text",
+      "url": "https://www.semanticscholar.org/paper/6dd9f99cecd38504b667d320eb2a6267a9fee35d"
+    },
+    {
+      "paper_id": "9cd7c6d19dedc5395155492e0193f399bbabec49",
+      "arxiv_id": "2009.14193",
+      "doi": "",
+      "title": "Uncertainty Sets for Image Classifiers using Conformal Prediction",
+      "url": "https://www.semanticscholar.org/paper/9cd7c6d19dedc5395155492e0193f399bbabec49"
+    },
+    {
+      "paper_id": "5164bb597f041b913fb8a03710d1383a6f8153f9",
+      "arxiv_id": "2105.10490",
+      "doi": "10.1016/j.cmpb.2020.105637",
+      "title": "Going deeper through the Gleason scoring scale: An automatic end-to-end system for histology prostate grading and cribriform pattern detection",
+      "url": "https://www.semanticscholar.org/paper/5164bb597f041b913fb8a03710d1383a6f8153f9"
+    },
+    {
+      "paper_id": "00215f32433e4e69ddb5a678b3f02568334d67ca",
+      "arxiv_id": "2006.02544",
+      "doi": "",
+      "title": "Classification with Valid and Adaptive Coverage",
+      "url": "https://www.semanticscholar.org/paper/00215f32433e4e69ddb5a678b3f02568334d67ca"
+    },
+    {
+      "paper_id": "2a0f2a76df5af569a9d85d97d2a81ae10f02fccf",
+      "arxiv_id": "2003.13145",
+      "doi": "10.1109/ACCESS.2020.3010287",
+      "title": "Can AI Help in Screening Viral and COVID-19 Pneumonia?",
+      "url": "https://www.semanticscholar.org/paper/2a0f2a76df5af569a9d85d97d2a81ae10f02fccf"
+    },
+    {
+      "paper_id": "d1f407b16fb8d99487baee37ed0805676c58e7ac",
+      "arxiv_id": "",
+      "doi": "10.1038/s41597-019-0322-0",
+      "title": "MIMIC-CXR, a de-identified publicly available database of chest radiographs with free-text reports",
+      "url": "https://www.semanticscholar.org/paper/d1f407b16fb8d99487baee37ed0805676c58e7ac"
+    },
+    {
+      "paper_id": "cafcdab811c7834c9c09960e09f9feb045efc945",
+      "arxiv_id": "1904.04717",
+      "doi": "10.1109/CVPR.2019.00521",
+      "title": "Label Propagation for Deep Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/cafcdab811c7834c9c09960e09f9feb045efc945"
+    },
+    {
+      "paper_id": "2a567ebd78939d0861d788f0fedff8d40ae62bf2",
+      "arxiv_id": "1904.03323",
+      "doi": "10.18653/v1/W19-1909",
+      "title": "Publicly Available Clinical BERT Embeddings",
+      "url": "https://www.semanticscholar.org/paper/2a567ebd78939d0861d788f0fedff8d40ae62bf2"
+    },
+    {
+      "paper_id": "89a816719613e220a64ab2590c938c23bbfe187e",
+      "arxiv_id": "1901.07031",
+      "doi": "10.1609/aaai.v33i01.3301590",
+      "title": "CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison",
+      "url": "https://www.semanticscholar.org/paper/89a816719613e220a64ab2590c938c23bbfe187e"
+    },
+    {
+      "paper_id": "58b6bd06ea58c367c64286126ba14128b45041b8",
+      "arxiv_id": "1705.02315",
+      "doi": "10.1109/CVPR.2017.369",
+      "title": "ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases",
+      "url": "https://www.semanticscholar.org/paper/58b6bd06ea58c367c64286126ba14128b45041b8"
+    },
+    {
+      "paper_id": "66d2c2120bed81cb459210fa952f9b3a6cf0a1bd",
+      "arxiv_id": "",
+      "doi": "10.1016/j.jvlc.2016.10.005",
+      "title": "What is a visual language?",
+      "url": "https://www.semanticscholar.org/paper/66d2c2120bed81cb459210fa952f9b3a6cf0a1bd"
+    },
+    {
+      "paper_id": "c949dfebccbdfa43f59c219c6bd2389dba1b2d38",
+      "arxiv_id": "1609.00451",
+      "doi": "10.1080/01621459.2017.1395341",
+      "title": "Least Ambiguous Set-Valued Classifiers With Bounded Error Levels",
+      "url": "https://www.semanticscholar.org/paper/c949dfebccbdfa43f59c219c6bd2389dba1b2d38"
+    },
+    {
+      "paper_id": "dbd9297a5b5ed54ad277aabcadcb5fc1636d9073",
+      "arxiv_id": "1604.04173",
+      "doi": "10.1080/01621459.2017.1307116",
+      "title": "Distribution-Free Predictive Inference for Regression",
+      "url": "https://www.semanticscholar.org/paper/dbd9297a5b5ed54ad277aabcadcb5fc1636d9073"
+    },
+    {
+      "paper_id": "448752b56fe4b2fc8fb15f22d9430c17aa306392",
+      "arxiv_id": "",
+      "doi": "10.5566/IAS.1155",
+      "title": "FEEDBACK ON A PUBLICLY DISTRIBUTED IMAGE DATABASE: THE MESSIDOR DATABASE",
+      "url": "https://www.semanticscholar.org/paper/448752b56fe4b2fc8fb15f22d9430c17aa306392"
+    },
+    {
+      "paper_id": "5e7c16a648c5de60172b2a8ab9597d00ae1481b1",
+      "arxiv_id": "1209.2673",
+      "doi": "10.1007/s10994-013-5355-6",
+      "title": "Conditional validity of inductive conformal predictors",
+      "url": "https://www.semanticscholar.org/paper/5e7c16a648c5de60172b2a8ab9597d00ae1481b1"
+    },
+    {
+      "paper_id": "19bb0dce99466077e9bc5a2ad4941607fc28b40c",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Manifold Regularization: A Geometric Framework for Learning from Labeled and Unlabeled Examples",
+      "url": "https://www.semanticscholar.org/paper/19bb0dce99466077e9bc5a2ad4941607fc28b40c"
+    },
+    {
+      "paper_id": "1776b5ba5d2b17f6e6a043d57d36126e2af90315",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-031-06649-8",
+      "title": "Algorithmic Learning in a Random World",
+      "url": "https://www.semanticscholar.org/paper/1776b5ba5d2b17f6e6a043d57d36126e2af90315"
+    },
+    {
+      "paper_id": "7f96ca1a46b8e1fabcad6d459e7820dd348675f7",
+      "arxiv_id": "",
+      "doi": "10.1007/3-540-36755-1_29",
+      "title": "Inductive Confidence Machines for Regression",
+      "url": "https://www.semanticscholar.org/paper/7f96ca1a46b8e1fabcad6d459e7820dd348675f7"
+    },
+    {
+      "paper_id": "f0bf18fc90674fbef616e8c54bdefb3adc237e4d",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The Concave-Convex Procedure (CCCP)",
+      "url": "https://www.semanticscholar.org/paper/f0bf18fc90674fbef616e8c54bdefb3adc237e4d"
+    },
+    {
+      "paper_id": "95ac3a07b0a803b738aa9d630ef9768b65c6ba69",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Transduction with Confidence and Credibility",
+      "url": "https://www.semanticscholar.org/paper/95ac3a07b0a803b738aa9d630ef9768b65c6ba69"
+    },
+    {
+      "paper_id": "008abebf4a9404db9050c9d2fbca769f4faf3ca6",
+      "arxiv_id": "1301.7375",
+      "doi": "",
+      "title": "Learning by Transduction",
+      "url": "https://www.semanticscholar.org/paper/008abebf4a9404db9050c9d2fbca769f4faf3ca6"
+    },
+    {
+      "paper_id": "ac4cb6f51b0378f05b04892be04e7210d9843459",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Information Maximization for Few-Shot Learning",
+      "url": "https://www.semanticscholar.org/paper/ac4cb6f51b0378f05b04892be04e7210d9843459"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "100,000 histological images of human",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "82a3eaab51d4906aa3567cd6f9fd690476d5fb75",
+      "arxiv_id": "2609.37298",
+      "doi": "",
+      "title": "Scaling Full Conformal Image Classifiers",
+      "url": "https://www.semanticscholar.org/paper/82a3eaab51d4906aa3567cd6f9fd690476d5fb75"
+    },
+    {
+      "paper_id": "cadacfcc70fc772cc59f122da791b8a8ef5a6092",
+      "arxiv_id": "2608.19376",
+      "doi": "",
+      "title": "Does Marginal Coverage Guarantee Class-Conditional Safety for Zero-Shot VLMs Under Shift?",
+      "url": "https://www.semanticscholar.org/paper/cadacfcc70fc772cc59f122da791b8a8ef5a6092"
+    },
+    {
+      "paper_id": "bcc10f73665ff1ec78b3af9ba29d25d9ea662a1f",
+      "arxiv_id": "",
+      "doi": "10.3390/diagnostics16162645",
+      "title": "Uncertainty-Aware AI-Assisted Diabetic Retinopathy Grading from Fundus Images with Ordinal Conformal Prediction",
+      "url": "https://www.semanticscholar.org/paper/bcc10f73665ff1ec78b3af9ba29d25d9ea662a1f"
+    }
+  ]
+}

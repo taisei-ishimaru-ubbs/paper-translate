@@ -38,7 +38,7 @@ tags: [paper]
 - [CHiLS: Zero-Shot Image Classification with Hierarchical Label Sets](https://arxiv.org/abs/2302.02551)
 - [An easily computable upper bound on the Hoffman constant for homogeneous inequality systems](https://arxiv.org/abs/2302.02193)
 - [Debiasing Vision-Language Models via Biased Prompts](https://arxiv.org/abs/2302.00070)
-- [Improving Zero-Shot Models with Label Distribution Priors](https://arxiv.org/abs/2212.00784)
+- [[improving_zero_shot_models_with_label_distribution_priors|Improving Zero-Shot Models with Label Distribution Priors]]
 - [Fair and Optimal Classification via Post-Processing](https://arxiv.org/abs/2211.01528)
 - [Unified Optimal Transport Framework for Universal Domain Adaptation](https://arxiv.org/abs/2210.17067)
 - [[visual_classification_via_description_from_large_language_models|Visual Classification via Description from Large Language Models]]

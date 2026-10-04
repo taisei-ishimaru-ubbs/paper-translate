@@ -1,0 +1,450 @@
+{
+  "id": "2608.01282",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "6df69a53e890c9a1be6c561987bed1aac5b50e86",
+    "externalIds": {
+      "ArXiv": "2608.01282",
+      "CorpusId": 290829957
+    },
+    "url": "https://www.semanticscholar.org/paper/6df69a53e890c9a1be6c561987bed1aac5b50e86",
+    "title": "Multimodal domain adaptation under label shift and blockwise missing modalities"
+  },
+  "references": [
+    {
+      "paper_id": "be15f06c2302304e43f8fc9bb14f59c55ae7f6cc",
+      "arxiv_id": "2607.01821",
+      "doi": "",
+      "title": "Pattern-Calibrated Multimodal Prediction under Blockwise Missingness",
+      "url": "https://www.semanticscholar.org/paper/be15f06c2302304e43f8fc9bb14f59c55ae7f6cc"
+    },
+    {
+      "paper_id": "a5b816a91edba54d68d3f231d03032943f794870",
+      "arxiv_id": "",
+      "doi": "10.1016/j.esmorw.2026.100695",
+      "title": "Estimate renal cell carcinoma recurrence rates using electronic health records",
+      "url": "https://www.semanticscholar.org/paper/a5b816a91edba54d68d3f231d03032943f794870"
+    },
+    {
+      "paper_id": "799d3f03fcb63c2d69a6f159f5ca4dabdb9d2d15",
+      "arxiv_id": "2602.11511",
+      "doi": "",
+      "title": "Representation Learning with Blockwise Missingness and Signal Heterogeneity",
+      "url": "https://www.semanticscholar.org/paper/799d3f03fcb63c2d69a6f159f5ca4dabdb9d2d15"
+    },
+    {
+      "paper_id": "6425b92f09d8b08137533cb684005cdf1355b757",
+      "arxiv_id": "2509.08553",
+      "doi": "",
+      "title": "A Common Pipeline for Harmonizing Electronic Health Record Data for Translational Research",
+      "url": "https://www.semanticscholar.org/paper/6425b92f09d8b08137533cb684005cdf1355b757"
+    },
+    {
+      "paper_id": "0d24257e5d7e062464100859d5c4241b65d2e1d9",
+      "arxiv_id": "2508.17780",
+      "doi": "",
+      "title": "Efficient Inference under Label Shift in Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/0d24257e5d7e062464100859d5c4241b65d2e1d9"
+    },
+    {
+      "paper_id": "943433a37710525f8fdca96097cb52571fa05716",
+      "arxiv_id": "2505.24413",
+      "doi": "10.48550/arXiv.2505.24413",
+      "title": "Multi-Task Learning for Heterogeneous Multi-Source Block-Wise Missing Data",
+      "url": "https://www.semanticscholar.org/paper/943433a37710525f8fdca96097cb52571fa05716"
+    },
+    {
+      "paper_id": "fd3fa17885e4623ec7423a599fbd737d6601c37f",
+      "arxiv_id": "2503.09494",
+      "doi": "10.48550/arXiv.2503.09494",
+      "title": "Representation Retrieval Learning for Heterogeneous Data Integration",
+      "url": "https://www.semanticscholar.org/paper/fd3fa17885e4623ec7423a599fbd737d6601c37f"
+    },
+    {
+      "paper_id": "b297532ef9161015a3af313c1a2de8eb99ed2797",
+      "arxiv_id": "2503.02506",
+      "doi": "",
+      "title": "Robust Multi-Source Domain Adaptation under Label Shift",
+      "url": "https://www.semanticscholar.org/paper/b297532ef9161015a3af313c1a2de8eb99ed2797"
+    },
+    {
+      "paper_id": "eae7ed37b87127f42a56cbeccfb609409487f9dc",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2024.102862",
+      "title": "Multi-source multi-modal domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/eae7ed37b87127f42a56cbeccfb609409487f9dc"
+    },
+    {
+      "paper_id": "5658a277cc06072d4f5c86140f2fa832241020bc",
+      "arxiv_id": "2409.05729",
+      "doi": "",
+      "title": "Efficient estimation with incomplete data via generalised ANOVA decompositions",
+      "url": "https://www.semanticscholar.org/paper/5658a277cc06072d4f5c86140f2fa832241020bc"
+    },
+    {
+      "paper_id": "d12dd127c24fc06a7c1043e3d5be29e2b0502abb",
+      "arxiv_id": "2405.18722",
+      "doi": "",
+      "title": "Adaptive and Efficient Learning with Blockwise Missing and Semi-Supervised Data",
+      "url": "https://www.semanticscholar.org/paper/d12dd127c24fc06a7c1043e3d5be29e2b0502abb"
+    },
+    {
+      "paper_id": "cff6ca33b29b153c9d43b67950166ece415c5195",
+      "arxiv_id": "",
+      "doi": "10.1101/2023.09.29.23296239",
+      "title": "Knowledge-Driven Online Multimodal Automated Phenotyping System",
+      "url": "https://www.semanticscholar.org/paper/cff6ca33b29b153c9d43b67950166ece415c5195"
+    },
+    {
+      "paper_id": "78662c8e8310c7e998d1b1abf2e07655a4f66261",
+      "arxiv_id": "2307.04250",
+      "doi": "10.1080/01621459.2024.2321653",
+      "title": "Doubly Flexible Estimation under Label Shift",
+      "url": "https://www.semanticscholar.org/paper/78662c8e8310c7e998d1b1abf2e07655a4f66261"
+    },
+    {
+      "paper_id": "73e35fce4dc4fabafe91191e8ed7094531f12c2d",
+      "arxiv_id": "2306.16406",
+      "doi": "10.1214/24-aos2422",
+      "title": "EFFICIENT AND MULTIPLY ROBUST RISK ESTIMATION UNDER GENERAL FORMS OF DATASET SHIFT",
+      "url": "https://www.semanticscholar.org/paper/73e35fce4dc4fabafe91191e8ed7094531f12c2d"
+    },
+    {
+      "paper_id": "b867212b3fcc07cfea068973e09522dc21649eed",
+      "arxiv_id": "2305.11407",
+      "doi": "10.1016/j.patter.2023.100906",
+      "title": "LATTE: Label-efficient incident phenotyping from longitudinal electronic health records",
+      "url": "https://www.semanticscholar.org/paper/b867212b3fcc07cfea068973e09522dc21649eed"
+    },
+    {
+      "paper_id": "84729ec815f0607a4a2370c0969e8c3ba82a9411",
+      "arxiv_id": "2301.04558",
+      "doi": "10.1109/CVPR52729.2023.01442",
+      "title": "Learning to Exploit Temporal Structure for Biomedical Vision-Language Processing",
+      "url": "https://www.semanticscholar.org/paper/84729ec815f0607a4a2370c0969e8c3ba82a9411"
+    },
+    {
+      "paper_id": "4b4b3a925cc07762946d57f9d26ced7d16b743dc",
+      "arxiv_id": "2105.10360",
+      "doi": "",
+      "title": "Multi-source Learning via Completion of Block-wise Overlapping Noisy Matrices",
+      "url": "https://www.semanticscholar.org/paper/4b4b3a925cc07762946d57f9d26ced7d16b743dc"
+    },
+    {
+      "paper_id": "4120875a0f41c0cbc5d86d75f666d99d9d7f0379",
+      "arxiv_id": "2105.04051",
+      "doi": "",
+      "title": "Aggregating From Multiple Target-Shifted Sources",
+      "url": "https://www.semanticscholar.org/paper/4120875a0f41c0cbc5d86d75f666d99d9d7f0379"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "f28e387d4229c5f690ce4570a391c0f47e7155c7",
+      "arxiv_id": "",
+      "doi": "10.1038/s41592-020-01008-z",
+      "title": "nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation",
+      "url": "https://www.semanticscholar.org/paper/f28e387d4229c5f690ce4570a391c0f47e7155c7"
+    },
+    {
+      "paper_id": "3b4b8b37251cd9777e435084b5c56c44c5e60358",
+      "arxiv_id": "2010.02521",
+      "doi": "",
+      "title": "Augmented Transfer Regression Learning with Semi-non-parametric Nuisance Models",
+      "url": "https://www.semanticscholar.org/paper/3b4b8b37251cd9777e435084b5c56c44c5e60358"
+    },
+    {
+      "paper_id": "fa5853fdef7d2f6bb68203d187ddacbbddc63a8b",
+      "arxiv_id": "",
+      "doi": "10.1080/14697688.2020.1813475",
+      "title": "High-Dimensional Probability: An Introduction with Applications in Data Science",
+      "url": "https://www.semanticscholar.org/paper/fa5853fdef7d2f6bb68203d187ddacbbddc63a8b"
+    },
+    {
+      "paper_id": "0415033e2b8ea1713bfbf5cdef5deb6ccbbf749a",
+      "arxiv_id": "2006.00371",
+      "doi": "10.1080/00401706.2020.1791959",
+      "title": "Ridge Regularization: An Essential Concept in Data Science",
+      "url": "https://www.semanticscholar.org/paper/0415033e2b8ea1713bfbf5cdef5deb6ccbbf749a"
+    },
+    {
+      "paper_id": "31c53acd2a43dcec4342d9c42d0ffbfbef36e855",
+      "arxiv_id": "2003.07554",
+      "doi": "",
+      "title": "A Unified View of Label Shift Estimation",
+      "url": "https://www.semanticscholar.org/paper/31c53acd2a43dcec4342d9c42d0ffbfbef36e855"
+    },
+    {
+      "paper_id": "be9a86f47cae065a380a98b52057bd3a3a663b6c",
+      "arxiv_id": "",
+      "doi": "10.1080/01621459.2019.1632079",
+      "title": "Optimal Sparse Linear Prediction for Block-missing Multi-modality Data without Imputation",
+      "url": "https://www.semanticscholar.org/paper/be9a86f47cae065a380a98b52057bd3a3a663b6c"
+    },
+    {
+      "paper_id": "7f95fb405c080ce4396e1d31254b09182996242f",
+      "arxiv_id": "1903.06336",
+      "doi": "",
+      "title": "On Target Shift in Adversarial Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7f95fb405c080ce4396e1d31254b09182996242f"
+    },
+    {
+      "paper_id": "229bc0300c46eb351951de6f6d19f067cd8a1224",
+      "arxiv_id": "1901.03797",
+      "doi": "10.1080/01621459.2020.1751176",
+      "title": "Integrating Multisource Block-Wise Missing Data in Model Selection",
+      "url": "https://www.semanticscholar.org/paper/229bc0300c46eb351951de6f6d19f067cd8a1224"
+    },
+    {
+      "paper_id": "516600be5e1ffea32ab1c21f0553d8d01295d69b",
+      "arxiv_id": "1808.02193",
+      "doi": "10.1093/biostatistics/kxy052",
+      "title": "Generalized integrative principal component analysis for multi-type data with block-wise missing structure.",
+      "url": "https://www.semanticscholar.org/paper/516600be5e1ffea32ab1c21f0553d8d01295d69b"
+    },
+    {
+      "paper_id": "1ed6ecf8189ed76057d64aad4be6e4d18b441896",
+      "arxiv_id": "1803.04899",
+      "doi": "",
+      "title": "Optimal Transport for Multi-source Domain Adaptation under Target Shift",
+      "url": "https://www.semanticscholar.org/paper/1ed6ecf8189ed76057d64aad4be6e4d18b441896"
+    },
+    {
+      "paper_id": "80ef8b8a1284790e0d8f7cbf9727c9e0b2a89332",
+      "arxiv_id": "1802.03916",
+      "doi": "",
+      "title": "Detecting and Correcting for Label Shift with Black Box Predictors",
+      "url": "https://www.semanticscholar.org/paper/80ef8b8a1284790e0d8f7cbf9727c9e0b2a89332"
+    },
+    {
+      "paper_id": "c53fa445bee435f567828db3a0ede0f08abdd0d5",
+      "arxiv_id": "",
+      "doi": "10.1158/0008-5472.CAN-17-0339",
+      "title": "Computational Radiomics System to Decode the Radiographic Phenotype",
+      "url": "https://www.semanticscholar.org/paper/c53fa445bee435f567828db3a0ede0f08abdd0d5"
+    },
+    {
+      "paper_id": "6bc4b1376ec2812b6d752c4f6bc8d8fd0512db91",
+      "arxiv_id": "1705.09406",
+      "doi": "10.1109/TPAMI.2018.2798607",
+      "title": "Multimodal Machine Learning: A Survey and Taxonomy",
+      "url": "https://www.semanticscholar.org/paper/6bc4b1376ec2812b6d752c4f6bc8d8fd0512db91"
+    },
+    {
+      "paper_id": "1a64fa5aa5975ee4dfed8070d1ac391b25e8a1e2",
+      "arxiv_id": "",
+      "doi": "10.1016/j.jclinepi.2015.12.005",
+      "title": "A calibration hierarchy for risk models was defined: from utopia to empirical data.",
+      "url": "https://www.semanticscholar.org/paper/1a64fa5aa5975ee4dfed8070d1ac391b25e8a1e2"
+    },
+    {
+      "paper_id": "5bc875d65df812f9617d8ba508c1c85f4d219b19",
+      "arxiv_id": "",
+      "doi": "10.1098/rsta.2015.0202",
+      "title": "Principal component analysis: a review and recent developments",
+      "url": "https://www.semanticscholar.org/paper/5bc875d65df812f9617d8ba508c1c85f4d219b19"
+    },
+    {
+      "paper_id": "26bc9195c6343e4d7f434dd65b4ad67efe2be27a",
+      "arxiv_id": "1603.02754",
+      "doi": "10.1145/2939672.2939785",
+      "title": "XGBoost: A Scalable Tree Boosting System",
+      "url": "https://www.semanticscholar.org/paper/26bc9195c6343e4d7f434dd65b4ad67efe2be27a"
+    },
+    {
+      "paper_id": "5e804f9870838b71b99f3093ec2befb703242c98",
+      "arxiv_id": "",
+      "doi": "10.1002/sim.6787",
+      "title": "Sample size considerations for the external validation of a multivariable prognostic model: a resampling study",
+      "url": "https://www.semanticscholar.org/paper/5e804f9870838b71b99f3093ec2befb703242c98"
+    },
+    {
+      "paper_id": "2aca01aa1d0a6083986dcd4614b1d0733028dcc2",
+      "arxiv_id": "",
+      "doi": "10.1109/JPROC.2015.2460697",
+      "title": "Multimodal Data Fusion: An Overview of Methods, Challenges, and Prospects",
+      "url": "https://www.semanticscholar.org/paper/2aca01aa1d0a6083986dcd4614b1d0733028dcc2"
+    },
+    {
+      "paper_id": "8c921d598957da0ac2a90c4ee80d614d5d2828ed",
+      "arxiv_id": "1504.01823",
+      "doi": "10.1080/01621459.2015.1021005",
+      "title": "Structured Matrix Completion with Applications to Genomic Data Integration",
+      "url": "https://www.semanticscholar.org/paper/8c921d598957da0ac2a90c4ee80d614d5d2828ed"
+    },
+    {
+      "paper_id": "3771aeebe191b3338da23a24fa2d280146a55cb3",
+      "arxiv_id": "1405.2468",
+      "doi": "10.3150/15-BEJ730",
+      "title": "Concentration inequalities and moment bounds for sample covariance operators",
+      "url": "https://www.semanticscholar.org/paper/3771aeebe191b3338da23a24fa2d280146a55cb3"
+    },
+    {
+      "paper_id": "d3d70b75e2fd66695d0cf4390150e113806a4494",
+      "arxiv_id": "1405.0680",
+      "doi": "10.1093/BIOMET/ASV008",
+      "title": "A useful variant of the Davis--Kahan theorem for statisticians",
+      "url": "https://www.semanticscholar.org/paper/d3d70b75e2fd66695d0cf4390150e113806a4494"
+    },
+    {
+      "paper_id": "8476e4c2d9880ce2bad0935a875fcdcecc507251",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "NILE: Fast Natural Language Processing for Electronic Health Records",
+      "url": "https://www.semanticscholar.org/paper/8476e4c2d9880ce2bad0935a875fcdcecc507251"
+    },
+    {
+      "paper_id": "c088a41395a9f08d719be8479dc11ddecf047530",
+      "arxiv_id": "",
+      "doi": "10.1017/CBO9781139035613",
+      "title": "Density Ratio Estimation in Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/c088a41395a9f08d719be8479dc11ddecf047530"
+    },
+    {
+      "paper_id": "70b0790e1b9f253159486d1bf149bfeed2bb5a9c",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ejor.2014.01.008",
+      "title": "Regularized Generalized Canonical Correlation Analysis",
+      "url": "https://www.semanticscholar.org/paper/70b0790e1b9f253159486d1bf149bfeed2bb5a9c"
+    },
+    {
+      "paper_id": "239b44fd21c3f949f9fdf43bfedd4ab2a3d314e3",
+      "arxiv_id": "",
+      "doi": "10.1186/1471-2105-12-77",
+      "title": "pROC: an open-source package for R and S+ to analyze and compare ROC curves",
+      "url": "https://www.semanticscholar.org/paper/239b44fd21c3f949f9fdf43bfedd4ab2a3d314e3"
+    },
+    {
+      "paper_id": "2d69d868e19a0227408ab134c035d6ea3ff4835d",
+      "arxiv_id": "",
+      "doi": "10.1112/BLMS/BDP112",
+      "title": "Functions of matrices: Theory and computation",
+      "url": "https://www.semanticscholar.org/paper/2d69d868e19a0227408ab134c035d6ea3ff4835d"
+    },
+    {
+      "paper_id": "d98d0d1900b13b87aa4ffd6b69c046beb63f0434",
+      "arxiv_id": "",
+      "doi": "10.1561/2200000001",
+      "title": "Graphical Models, Exponential Families, and Variational Inference",
+      "url": "https://www.semanticscholar.org/paper/d98d0d1900b13b87aa4ffd6b69c046beb63f0434"
+    },
+    {
+      "paper_id": "a6b5b20151c752beb74508f813699fa5216dedfa",
+      "arxiv_id": "",
+      "doi": "10.1162/0899766042321814",
+      "title": "Canonical Correlation Analysis: An Overview with Application to Learning Methods",
+      "url": "https://www.semanticscholar.org/paper/a6b5b20151c752beb74508f813699fa5216dedfa"
+    },
+    {
+      "paper_id": "235c8bac0bb4ec53afe63c2576eadaccd43d4aeb",
+      "arxiv_id": "",
+      "doi": "10.1175/1520-0493(2004)132<1891:OUCAAR>2.0.CO;2",
+      "title": "On Using ``Climatology'' as a Reference Strategy in the Brier and Ranked Probability Skill Scores",
+      "url": "https://www.semanticscholar.org/paper/235c8bac0bb4ec53afe63c2576eadaccd43d4aeb"
+    },
+    {
+      "paper_id": "235723a15c86c369c99a42e7b666dfe156ad2cba",
+      "arxiv_id": "",
+      "doi": "10.1016/S0378-3758(00)00115-4",
+      "title": "Improving predictive inference under covariate shift by weighting the log-likelihood function",
+      "url": "https://www.semanticscholar.org/paper/235723a15c86c369c99a42e7b666dfe156ad2cba"
+    },
+    {
+      "paper_id": "d36efb9ad91e00faa334b549ce989bfae7e2907a",
+      "arxiv_id": "",
+      "doi": "10.1111/J.2517-6161.1977.TB01600.X",
+      "title": "Maximum likelihood from incomplete data via the EM - algorithm plus discussions on the paper",
+      "url": "https://www.semanticscholar.org/paper/d36efb9ad91e00faa334b549ce989bfae7e2907a"
+    },
+    {
+      "paper_id": "133c76f0d580e09de0ca28ff0fb599d5e57321f8",
+      "arxiv_id": "",
+      "doi": "10.1007/BF01932678",
+      "title": "Perturbation bounds in connection with singular value decomposition",
+      "url": "https://www.semanticscholar.org/paper/133c76f0d580e09de0ca28ff0fb599d5e57321f8"
+    },
+    {
+      "paper_id": "956081123f4a530ccf93aa7bfe196412118fc41a",
+      "arxiv_id": "",
+      "doi": "10.1007/BF02289451",
+      "title": "A generalized solution of the orthogonal procrustes problem",
+      "url": "https://www.semanticscholar.org/paper/956081123f4a530ccf93aa7bfe196412118fc41a"
+    },
+    {
+      "paper_id": "45db76270416a42517a21c63a77e9c4260fa979a",
+      "arxiv_id": "",
+      "doi": "10.1007/978-1-4612-4380-9_14",
+      "title": "Relations Between Two Sets of Variates",
+      "url": "https://www.semanticscholar.org/paper/45db76270416a42517a21c63a77e9c4260fa979a"
+    },
+    {
+      "paper_id": "57eeca867bac8059a25b809cafb66b2c0d69feba",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Semi-supervised Inference for Block-wise Missing Data without Imputation",
+      "url": "https://www.semanticscholar.org/paper/57eeca867bac8059a25b809cafb66b2c0d69feba"
+    },
+    {
+      "paper_id": "af8f616e18e4fa652bdd88d7aecbc4b7175bcbb9",
+      "arxiv_id": "",
+      "doi": "10.1109/TIP.2023.3290527",
+      "title": "Incomplete Multi-View Learning Under Label Shift",
+      "url": "https://www.semanticscholar.org/paper/af8f616e18e4fa652bdd88d7aecbc4b7175bcbb9"
+    },
+    {
+      "paper_id": "5e5848aa7f0d37e7ead301fbb17c7531107db4e4",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Maximum Likelihood with Bias-Corrected Calibration is Hard-To-Beat at Label Shift Adaptation",
+      "url": "https://www.semanticscholar.org/paper/5e5848aa7f0d37e7ead301fbb17c7531107db4e4"
+    },
+    {
+      "paper_id": "99f65a048860d3f2bc500a2886c461d92188d2ca",
+      "arxiv_id": "",
+      "doi": "10.1162/089976602753284446",
+      "title": "Adjusting the Outputs of a Classifier to New a Priori Probabilities: A Simple Procedure",
+      "url": "https://www.semanticscholar.org/paper/99f65a048860d3f2bc500a2886c461d92188d2ca"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Asymptotic statistics , volume 3",
+      "url": ""
+    },
+    {
+      "paper_id": "b365b8e45b7d81f081de44ac8f9eadf9144f3ca5",
+      "arxiv_id": "",
+      "doi": "10.1111/J.2517-6161.1996.TB02080.X",
+      "title": "Regression Shrinkage and Selection via the Lasso",
+      "url": "https://www.semanticscholar.org/paper/b365b8e45b7d81f081de44ac8f9eadf9144f3ca5"
+    },
+    {
+      "paper_id": "feee6551179612b9691f021b583d8a99b81b9b86",
+      "arxiv_id": "",
+      "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+      "title": "VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY",
+      "url": "https://www.semanticscholar.org/paper/feee6551179612b9691f021b583d8a99b81b9b86"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Derived alignment errors",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Verified from Δ 𝑛",
+      "url": ""
+    }
+  ],
+  "citations": []
+}
