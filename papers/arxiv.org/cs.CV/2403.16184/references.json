@@ -1,0 +1,293 @@
+{
+  "id": "2403.16184",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "1ab6816f1f5703d0525f028f4fb69c5ec018d7ae",
+    "externalIds": {
+      "DBLP": "conf/emnlp/WangL24",
+      "ArXiv": "2403.16184",
+      "ACL": "2024.emnlp-main.97",
+      "DOI": "10.18653/v1/2024.emnlp-main.97",
+      "CorpusId": 273901234
+    },
+    "url": "https://www.semanticscholar.org/paper/1ab6816f1f5703d0525f028f4fb69c5ec018d7ae",
+    "title": "Predicate Debiasing in Vision-Language Models Integration for Scene Graph Generation Enhancement"
+  },
+  "references": [
+    {
+      "paper_id": "44800883e82c7bc7c45c2adb6257cd0a0be42610",
+      "arxiv_id": "2310.08106",
+      "doi": "10.48550/arXiv.2310.08106",
+      "title": "Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/44800883e82c7bc7c45c2adb6257cd0a0be42610"
+    },
+    {
+      "paper_id": "9fcfc7db3be9bef4ed4b22ae4e7bc4b4411f3e38",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.00285",
+      "title": "Learning to Generate Language-Supervised and Open-Vocabulary Scene Graph Using Pre-Trained Visual-Semantic Space",
+      "url": "https://www.semanticscholar.org/paper/9fcfc7db3be9bef4ed4b22ae4e7bc4b4411f3e38"
+    },
+    {
+      "paper_id": "4fff82435192ea9bc75bbdbbe413effc35084938",
+      "arxiv_id": "2303.13233",
+      "doi": "10.1109/ICCV51070.2023.01971",
+      "title": "Visually-Prompted Language Model for Fine-Grained Scene Graph Generation in an Open World",
+      "url": "https://www.semanticscholar.org/paper/4fff82435192ea9bc75bbdbbe413effc35084938"
+    },
+    {
+      "paper_id": "a4ecbaf6c57e08157b268ac22bba507abb6b24d5",
+      "arxiv_id": "2302.00268",
+      "doi": "10.48550/arXiv.2302.00268",
+      "title": "Compositional Prompt Tuning with Motion Cues for Open-vocabulary Video Relation Detection",
+      "url": "https://www.semanticscholar.org/paper/a4ecbaf6c57e08157b268ac22bba507abb6b24d5"
+    },
+    {
+      "paper_id": "e8b73abefd998229f35e810f465854bdea7512f8",
+      "arxiv_id": "2301.12429",
+      "doi": "10.48550/arXiv.2301.12429",
+      "title": "Debiased Fine-Tuning for Vision-language Models by Prompt Regularization",
+      "url": "https://www.semanticscholar.org/paper/e8b73abefd998229f35e810f465854bdea7512f8"
+    },
+    {
+      "paper_id": "bd3169fda224be07c3e1ff51f2669f200f658806",
+      "arxiv_id": "2208.08165",
+      "doi": "10.48550/arXiv.2208.08165",
+      "title": "Towards Open-vocabulary Scene Graph Generation with Prompt-based Finetuning",
+      "url": "https://www.semanticscholar.org/paper/bd3169fda224be07c3e1ff51f2669f200f658806"
+    },
+    {
+      "paper_id": "e979dd7efc96d742cb8a0adfe17bc4acc9f7201b",
+      "arxiv_id": "2207.08977",
+      "doi": "10.48550/arXiv.2207.08977",
+      "title": "Calibrated ensembles can mitigate accuracy tradeoffs under distribution shift",
+      "url": "https://www.semanticscholar.org/paper/e979dd7efc96d742cb8a0adfe17bc4acc9f7201b"
+    },
+    {
+      "paper_id": "42a6ee55b8fc4000c5ae3f4d942f8754ba16362b",
+      "arxiv_id": "2205.14865",
+      "doi": "10.1109/ICCV51070.2023.01435",
+      "title": "Prompt-aligned Gradient for Prompt Tuning",
+      "url": "https://www.semanticscholar.org/paper/42a6ee55b8fc4000c5ae3f4d942f8754ba16362b"
+    },
+    {
+      "paper_id": "cadc9f7c86cee6eccb50a1b7696ac18c3be189d9",
+      "arxiv_id": "2112.14380",
+      "doi": "10.1609/aaai.v36i3.20271",
+      "title": "Cross-Domain Empirical Risk Minimization for Unbiased Long-tailed Classification",
+      "url": "https://www.semanticscholar.org/paper/cadc9f7c86cee6eccb50a1b7696ac18c3be189d9"
+    },
+    {
+      "paper_id": "66f41fc45d01b885c7104ab628666a958fc8dd8c",
+      "arxiv_id": "2109.02227",
+      "doi": "10.1109/ICCV48922.2021.00184",
+      "title": "Learning to Generate Scene Graph from Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/66f41fc45d01b885c7104ab628666a958fc8dd8c"
+    },
+    {
+      "paper_id": "dae6997968663aa4f9186dc18984ce0383ff1a78",
+      "arxiv_id": "2104.00308",
+      "doi": "10.1109/CVPR46437.2021.01096",
+      "title": "Bipartite Graph Network with Adaptive Message Passing for Unbiased Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/dae6997968663aa4f9186dc18984ce0383ff1a78"
+    },
+    {
+      "paper_id": "a6721a2fd36f1d6432024a15385a26309379b078",
+      "arxiv_id": "2103.05271",
+      "doi": "10.1109/CVPR46437.2021.01234",
+      "title": "Probabilistic Modeling of Semantic Ambiguity for Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/a6721a2fd36f1d6432024a15385a26309379b078"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "0839722fb5369c0abaff8515bfc08299efc790a1",
+      "arxiv_id": "2102.03334",
+      "doi": "",
+      "title": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+      "url": "https://www.semanticscholar.org/paper/0839722fb5369c0abaff8515bfc08299efc790a1"
+    },
+    {
+      "paper_id": "4df2c71848f6242f9c0453e79e6ea59c432b5565",
+      "arxiv_id": "2009.07526",
+      "doi": "10.24963/ijcai.2021/176",
+      "title": "CogTree: Cognition Tree Loss for Unbiased Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/4df2c71848f6242f9c0453e79e6ea59c432b5565"
+    },
+    {
+      "paper_id": "52eb5a3f7d1fcf7982db205ed4130c4b4843ffd9",
+      "arxiv_id": "2009.00893",
+      "doi": "10.1145/3394171.3413722",
+      "title": "PCPL: Predicate-Correlation Perception Learning for Unbiased Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/52eb5a3f7d1fcf7982db205ed4130c4b4843ffd9"
+    },
+    {
+      "paper_id": "4f65f604d3bf5fa91634484a3232b426267b71ef",
+      "arxiv_id": "2007.07314",
+      "doi": "",
+      "title": "Long-tail learning via logit adjustment",
+      "url": "https://www.semanticscholar.org/paper/4f65f604d3bf5fa91634484a3232b426267b71ef"
+    },
+    {
+      "paper_id": "b5ef0f91663f0cbd6910dec9a890c138f7ec10e0",
+      "arxiv_id": "2004.06165",
+      "doi": "10.1007/978-3-030-58577-8_8",
+      "title": "Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks",
+      "url": "https://www.semanticscholar.org/paper/b5ef0f91663f0cbd6910dec9a890c138f7ec10e0"
+    },
+    {
+      "paper_id": "56092013ab20394725719910fc7d4fe2274f3d54",
+      "arxiv_id": "2003.12962",
+      "doi": "10.1109/cvpr42600.2020.00380",
+      "title": "GPS-Net: Graph Property Sensing Network for Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/56092013ab20394725719910fc7d4fe2274f3d54"
+    },
+    {
+      "paper_id": "10874b307d89f1ff9e049f2464afa6d91237ce4c",
+      "arxiv_id": "2002.11949",
+      "doi": "10.1109/cvpr42600.2020.00377",
+      "title": "Unbiased Scene Graph Generation From Biased Training",
+      "url": "https://www.semanticscholar.org/paper/10874b307d89f1ff9e049f2464afa6d91237ce4c"
+    },
+    {
+      "paper_id": "a9fd5511b42206a27748f373e0fdb7eb76a23055",
+      "arxiv_id": "2001.07966",
+      "doi": "",
+      "title": "ImageBERT: Cross-modal Pre-training with Large-scale Weak-supervised Image-Text Data",
+      "url": "https://www.semanticscholar.org/paper/a9fd5511b42206a27748f373e0fdb7eb76a23055"
+    },
+    {
+      "paper_id": "4aa6298b606941a282d735fa3143da293199d2ca",
+      "arxiv_id": "1908.08530",
+      "doi": "",
+      "title": "VL-BERT: Pre-training of Generic Visual-Linguistic Representations",
+      "url": "https://www.semanticscholar.org/paper/4aa6298b606941a282d735fa3143da293199d2ca"
+    },
+    {
+      "paper_id": "5aec474c31a2f4b74703c6f786c0a8ff85c450da",
+      "arxiv_id": "1908.03557",
+      "doi": "",
+      "title": "VisualBERT: A Simple and Performant Baseline for Vision and Language",
+      "url": "https://www.semanticscholar.org/paper/5aec474c31a2f4b74703c6f786c0a8ff85c450da"
+    },
+    {
+      "paper_id": "740db108d536a8b6f53111407898f4ecaecf80ea",
+      "arxiv_id": "1904.00560",
+      "doi": "10.1109/CVPR.2019.00207",
+      "title": "Scene Graph Generation With External Knowledge and Image Reconstruction",
+      "url": "https://www.semanticscholar.org/paper/740db108d536a8b6f53111407898f4ecaecf80ea"
+    },
+    {
+      "paper_id": "beb335e43da1f518ed7df3a851784925254a6a94",
+      "arxiv_id": "1903.03326",
+      "doi": "10.1109/CVPR.2019.00632",
+      "title": "Knowledge-Embedded Routing Network for Scene Graph Generation",
+      "url": "https://www.semanticscholar.org/paper/beb335e43da1f518ed7df3a851784925254a6a94"
+    },
+    {
+      "paper_id": "88ec56eee6a787ccda0cf7fbfbec48c6b4ad68fe",
+      "arxiv_id": "1812.01880",
+      "doi": "10.1109/CVPR.2019.00678",
+      "title": "Learning to Compose Dynamic Tree Structures for Visual Contexts",
+      "url": "https://www.semanticscholar.org/paper/88ec56eee6a787ccda0cf7fbfbec48c6b4ad68fe"
+    },
+    {
+      "paper_id": "0da8af8d81e84381ffe656a0bbf2f3937ffac618",
+      "arxiv_id": "1711.06640",
+      "doi": "10.1109/CVPR.2018.00611",
+      "title": "Neural Motifs: Scene Graph Parsing with Global Context",
+      "url": "https://www.semanticscholar.org/paper/0da8af8d81e84381ffe656a0bbf2f3937ffac618"
+    },
+    {
+      "paper_id": "996901b08a6b6f401146204f2db0d54aaf8749c8",
+      "arxiv_id": "1702.08319",
+      "doi": "10.1109/CVPR.2017.331",
+      "title": "Visual Translation Embedding Network for Visual Relation Detection",
+      "url": "https://www.semanticscholar.org/paper/996901b08a6b6f401146204f2db0d54aaf8749c8"
+    },
+    {
+      "paper_id": "84dcf04802743d9907b5b3ae28b19cbbacd97981",
+      "arxiv_id": "1701.08289",
+      "doi": "10.1016/J.NEUCOM.2018.03.030",
+      "title": "Face Detection using Deep Learning: An Improved Faster RCNN Approach",
+      "url": "https://www.semanticscholar.org/paper/84dcf04802743d9907b5b3ae28b19cbbacd97981"
+    },
+    {
+      "paper_id": "34b73c1aa158b892bbe41705b4ae5bf01ecaea86",
+      "arxiv_id": "1701.02426",
+      "doi": "10.1109/CVPR.2017.330",
+      "title": "Scene Graph Generation by Iterative Message Passing",
+      "url": "https://www.semanticscholar.org/paper/34b73c1aa158b892bbe41705b4ae5bf01ecaea86"
+    },
+    {
+      "paper_id": "6ff2a434578ff2746b9283e45abf296887f48a2d",
+      "arxiv_id": "1610.02136",
+      "doi": "",
+      "title": "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/6ff2a434578ff2746b9283e45abf296887f48a2d"
+    },
+    {
+      "paper_id": "afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d",
+      "arxiv_id": "1602.07332",
+      "doi": "10.1007/s11263-016-0981-7",
+      "title": "Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations",
+      "url": "https://www.semanticscholar.org/paper/afcf4dbd2ef300e5c4b35043d4fbe516807cdf7d"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "The open images dataset v4: Unified image classification, object detection, and visual relationship detection at scale",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "z i , z j , x i,j ) as input for a subject-object pair, the conditional probability for the relations is P ( r | z i , z j , x i,j )",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A More Theoretical Justifications In the main paper,",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2022. Stacked",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2022a. The devil is in the labels: Noisy label correction for robust scene graph generation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2023. Zero-shot visual relation detection via composite visual cues from large language models",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "1814ed5ad8bba72a383b42d2b7a3fea441bfd035",
+      "arxiv_id": "2509.21576",
+      "doi": "10.48550/arXiv.2509.21576",
+      "title": "Vision Language Models Cannot Plan, but Can They Formalize?",
+      "url": "https://www.semanticscholar.org/paper/1814ed5ad8bba72a383b42d2b7a3fea441bfd035"
+    }
+  ]
+}
