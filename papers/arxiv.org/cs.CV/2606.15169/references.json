@@ -1,0 +1,243 @@
+{
+  "id": "2606.15169",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "3802182c8bdb090248e21025a6a580e41b1335f6",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2606-15169",
+      "ArXiv": "2606.15169",
+      "DOI": "10.48550/arXiv.2606.15169",
+      "CorpusId": 289301005
+    },
+    "url": "https://www.semanticscholar.org/paper/3802182c8bdb090248e21025a6a580e41b1335f6",
+    "title": "Label Shift Aware Adaptation for Online Zero-shot Learning with Contrastive Language-Image Pre-Training (CLIP)"
+  },
+  "references": [
+    {
+      "paper_id": "049eb07175216295ff5c885e085c025d50ef3b19",
+      "arxiv_id": "2505.05868",
+      "doi": "10.1109/CVPR52734.2025.02851",
+      "title": "Open Set Label Shift with Test Time Out-of-Distribution Reference",
+      "url": "https://www.semanticscholar.org/paper/049eb07175216295ff5c885e085c025d50ef3b19"
+    },
+    {
+      "paper_id": "7c3aa3f579139716f43eb75aa2fcc34c2e8abce7",
+      "arxiv_id": "2412.20034",
+      "doi": "10.48550/arXiv.2412.20034",
+      "title": "Maintain Plasticity in Long-timescale Continual Test-time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7c3aa3f579139716f43eb75aa2fcc34c2e8abce7"
+    },
+    {
+      "paper_id": "6b598461002765d3742bee4e50521010e444fc10",
+      "arxiv_id": "2408.13320",
+      "doi": "10.48550/arXiv.2408.13320",
+      "title": "Online Zero-Shot Classification with CLIP",
+      "url": "https://www.semanticscholar.org/paper/6b598461002765d3742bee4e50521010e444fc10"
+    },
+    {
+      "paper_id": "1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc",
+      "arxiv_id": "2405.02266",
+      "doi": "10.1109/CVPR52733.2024.02245",
+      "title": "On the Test-Time Zero-Shot Generalization of Vision-Language Models: Do we Really need Prompt Learning?",
+      "url": "https://www.semanticscholar.org/paper/1d86603e20cf3c9fdb31b5981cb3dd460ed8a9bc"
+    },
+    {
+      "paper_id": "c7be656da58e1cf5cd8bb1e59945fafbc456723a",
+      "arxiv_id": "2404.04517",
+      "doi": "10.1109/CVPRW63382.2024.00270",
+      "title": "Latent-based Diffusion Model for Long-tailed Recognition",
+      "url": "https://www.semanticscholar.org/paper/c7be656da58e1cf5cd8bb1e59945fafbc456723a"
+    },
+    {
+      "paper_id": "f2874b5f5ec47c0337b5a99164e00647605b2aae",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV57701.2024.00111",
+      "title": "Label Shift Estimation for Class-Imbalance Problem: A Bayesian Approach",
+      "url": "https://www.semanticscholar.org/paper/f2874b5f5ec47c0337b5a99164e00647605b2aae"
+    },
+    {
+      "paper_id": "4a8efea3247c3d9ab458d4e2ed47d97c0661b429",
+      "arxiv_id": "2311.01459",
+      "doi": "10.48550/arXiv.2311.01459",
+      "title": "Align Your Prompts: Test-Time Prompting with Distribution Alignment for Zero-Shot Generalization",
+      "url": "https://www.semanticscholar.org/paper/4a8efea3247c3d9ab458d4e2ed47d97c0661b429"
+    },
+    {
+      "paper_id": "43abdd72a50706ca76e77a2d613a7435324f4997",
+      "arxiv_id": "2310.19752",
+      "doi": "10.48550/arXiv.2310.19752",
+      "title": "Intra-Modal Proxy Learning for Zero-Shot Visual Categorization with CLIP",
+      "url": "https://www.semanticscholar.org/paper/43abdd72a50706ca76e77a2d613a7435324f4997"
+    },
+    {
+      "paper_id": "a2d2bbe4c542173662a444b33b76c66992697830",
+      "arxiv_id": "2211.09800",
+      "doi": "10.1109/CVPR52729.2023.01764",
+      "title": "InstructPix2Pix: Learning to Follow Image Editing Instructions",
+      "url": "https://www.semanticscholar.org/paper/a2d2bbe4c542173662a444b33b76c66992697830"
+    },
+    {
+      "paper_id": "4c94d04afa4309ec2f06bdd0fe3781f91461b362",
+      "arxiv_id": "2209.14988",
+      "doi": "10.48550/arXiv.2209.14988",
+      "title": "DreamFusion: Text-to-3D using 2D Diffusion",
+      "url": "https://www.semanticscholar.org/paper/4c94d04afa4309ec2f06bdd0fe3781f91461b362"
+    },
+    {
+      "paper_id": "5406129d9d7d00dc310671c43597101b0ee93629",
+      "arxiv_id": "2208.01618",
+      "doi": "10.48550/arXiv.2208.01618",
+      "title": "An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion",
+      "url": "https://www.semanticscholar.org/paper/5406129d9d7d00dc310671c43597101b0ee93629"
+    },
+    {
+      "paper_id": "9d37ccb9fe16cc076be62313e85b754d37aa34c3",
+      "arxiv_id": "2111.03874",
+      "doi": "",
+      "title": "Towards Calibrated Model for Long-Tailed Visual Recognition from Prior Perspective",
+      "url": "https://www.semanticscholar.org/paper/9d37ccb9fe16cc076be62313e85b754d37aa34c3"
+    },
+    {
+      "paper_id": "ad4a0938c48e61b7827869e4ac3baffd0aefab35",
+      "arxiv_id": "2104.14294",
+      "doi": "10.1109/ICCV48922.2021.00951",
+      "title": "Emerging Properties in Self-Supervised Vision Transformers",
+      "url": "https://www.semanticscholar.org/paper/ad4a0938c48e61b7827869e4ac3baffd0aefab35"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "31c53acd2a43dcec4342d9c42d0ffbfbef36e855",
+      "arxiv_id": "2003.07554",
+      "doi": "",
+      "title": "A Unified View of Label Shift Estimation",
+      "url": "https://www.semanticscholar.org/paper/31c53acd2a43dcec4342d9c42d0ffbfbef36e855"
+    },
+    {
+      "paper_id": "6d64363e52cd7ecad99d7ce6ae849f245dfbbf92",
+      "arxiv_id": "1903.09734",
+      "doi": "",
+      "title": "Regularized Learning for Domain Adaptation under Label Shifts",
+      "url": "https://www.semanticscholar.org/paper/6d64363e52cd7ecad99d7ce6ae849f245dfbbf92"
+    },
+    {
+      "paper_id": "2c03df8b48bf3fa39054345bafabfeff15bfd11d",
+      "arxiv_id": "1512.03385",
+      "doi": "10.1109/cvpr.2016.90",
+      "title": "Deep Residual Learning for Image Recognition",
+      "url": "https://www.semanticscholar.org/paper/2c03df8b48bf3fa39054345bafabfeff15bfd11d"
+    },
+    {
+      "paper_id": "e74f9b7f8eec6ba4704c206b93bc8079af3da4bd",
+      "arxiv_id": "1409.0575",
+      "doi": "10.1007/s11263-015-0816-y",
+      "title": "ImageNet Large Scale Visual Recognition Challenge",
+      "url": "https://www.semanticscholar.org/paper/e74f9b7f8eec6ba4704c206b93bc8079af3da4bd"
+    },
+    {
+      "paper_id": "13b990f54ed8d6062ccd6b66499822cfdff4801a",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2025.emnlp-main.1107",
+      "title": "Dynamic Model-Bank Test-Time Adaptation for Automatic Speech Recognition",
+      "url": "https://www.semanticscholar.org/paper/13b990f54ed8d6062ccd6b66499822cfdff4801a"
+    },
+    {
+      "paper_id": "5e5848aa7f0d37e7ead301fbb17c7531107db4e4",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Maximum Likelihood with Bias-Corrected Calibration is Hard-To-Beat at Label Shift Adaptation",
+      "url": "https://www.semanticscholar.org/paper/5e5848aa7f0d37e7ead301fbb17c7531107db4e4"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Detectingandcorrectingforlabel shiftwithblackboxpredictors",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "OpenAI,2024a.",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "OpenAI, 2024b. Sora: A text-to-video model",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2025. Inferencecalibrationofvision-language foundation models for zero-shot and few-shot learning",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024. Improvedzero-shotclassificationby adapting vlms with text descriptions",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024a. Backpropagation-free network for 3d test-time adaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2022. High-resolution image synthesis with latent diffusion models",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024.Dart:Dual-modaladaptiveonlinepromptingandknowledgeretentionfortest-timeadaptation",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2023.Segmentanything",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2023.Swapprompt:Test-timepromptadaptationforvision-languagemodels",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "2024. Test-time adaptation with clip reward for zero-shot generalization in vision-language models",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "8b9952a77bfbcd68d8e59073a06cef08593d9f17",
+      "arxiv_id": "2610.26325",
+      "doi": "",
+      "title": "Typed Decision Models under Prevalence Shift: Decision Training, Calibration, and Implicit Priors",
+      "url": "https://www.semanticscholar.org/paper/8b9952a77bfbcd68d8e59073a06cef08593d9f17"
+    }
+  ]
+}

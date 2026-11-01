@@ -1,0 +1,985 @@
+{
+  "id": "2401.12425",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "f41e317309cfda9095354a56c0705b5a2cc94435",
+    "externalIds": {
+      "ArXiv": "2401.12425",
+      "DBLP": "conf/cvpr/ParasharLLDLRCK24",
+      "DOI": "10.1109/CVPR52733.2024.01234",
+      "CorpusId": 267094920
+    },
+    "url": "https://www.semanticscholar.org/paper/f41e317309cfda9095354a56c0705b5a2cc94435",
+    "title": "The Neglected Tails in Vision-Language Models"
+  },
+  "references": [
+    {
+      "paper_id": "6f1a6520095c2a7a3d78e8405895815f9fe4842e",
+      "arxiv_id": "2310.09929",
+      "doi": "10.48550/arXiv.2310.09929",
+      "title": "Prompting Scientific Names for Zero-Shot Species Recognition",
+      "url": "https://www.semanticscholar.org/paper/6f1a6520095c2a7a3d78e8405895815f9fe4842e"
+    },
+    {
+      "paper_id": "44800883e82c7bc7c45c2adb6257cd0a0be42610",
+      "arxiv_id": "2310.08106",
+      "doi": "10.48550/arXiv.2310.08106",
+      "title": "Generalized Logit Adjustment: Calibrating Fine-tuned Models by Removing Label Bias in Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/44800883e82c7bc7c45c2adb6257cd0a0be42610"
+    },
+    {
+      "paper_id": "b71ae06365dc81bc4b4e513a9a2a67fdc204a7e0",
+      "arxiv_id": "2310.03324",
+      "doi": "10.48550/arXiv.2310.03324",
+      "title": "Investigating the Limitation of CLIP Models: The Worst-Performing Categories",
+      "url": "https://www.semanticscholar.org/paper/b71ae06365dc81bc4b4e513a9a2a67fdc204a7e0"
+    },
+    {
+      "paper_id": "54814744b42b06c855c97b23de1366e0bcbe775a",
+      "arxiv_id": "2309.17421",
+      "doi": "10.48550/arXiv.2309.17421",
+      "title": "The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)",
+      "url": "https://www.semanticscholar.org/paper/54814744b42b06c855c97b23de1366e0bcbe775a"
+    },
+    {
+      "paper_id": "d39182113cd4176ead48027b4fc05fe06ec6aaca",
+      "arxiv_id": "2309.05950",
+      "doi": "10.1109/CVPR52733.2024.01206",
+      "title": "Language Models as Black-Box Optimizers for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d39182113cd4176ead48027b4fc05fe06ec6aaca"
+    },
+    {
+      "paper_id": "104b0bb1da562d53cbda87aec79ef6a2827d191a",
+      "arxiv_id": "2307.09288",
+      "doi": "",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://www.semanticscholar.org/paper/104b0bb1da562d53cbda87aec79ef6a2827d191a"
+    },
+    {
+      "paper_id": "20fea2d159b48f049cbbb1ea282536fcb7b403fb",
+      "arxiv_id": "2306.10191",
+      "doi": "10.48550/arXiv.2306.10191",
+      "title": "Neural Priming for Sample-Efficient Adaptation",
+      "url": "https://www.semanticscholar.org/paper/20fea2d159b48f049cbbb1ea282536fcb7b403fb"
+    },
+    {
+      "paper_id": "a5036f31f0e629dc661f120b8c3b1f374d479ab8",
+      "arxiv_id": "2304.08485",
+      "doi": "10.48550/arXiv.2304.08485",
+      "title": "Visual Instruction Tuning",
+      "url": "https://www.semanticscholar.org/paper/a5036f31f0e629dc661f120b8c3b1f374d479ab8"
+    },
+    {
+      "paper_id": "2732712969c13127cb6b65527eaffd30d4528111",
+      "arxiv_id": "2302.14051",
+      "doi": "10.48550/arXiv.2302.14051",
+      "title": "Internet Explorer: Targeted Representation Learning on the Open Web",
+      "url": "https://www.semanticscholar.org/paper/2732712969c13127cb6b65527eaffd30d4528111"
+    },
+    {
+      "paper_id": "850b71c61d9fa4a153eee6e2c912c16ecc459b7a",
+      "arxiv_id": "2302.00070",
+      "doi": "10.48550/arXiv.2302.00070",
+      "title": "Debiasing Vision-Language Models via Biased Prompts",
+      "url": "https://www.semanticscholar.org/paper/850b71c61d9fa4a153eee6e2c912c16ecc459b7a"
+    },
+    {
+      "paper_id": "37209c83482d6cbf14492cd9e79455c0d35eaf87",
+      "arxiv_id": "2301.07094",
+      "doi": "10.1109/CVPR52729.2023.01454",
+      "title": "Learning Customized Visual Models with Retrieval-Augmented Knowledge",
+      "url": "https://www.semanticscholar.org/paper/37209c83482d6cbf14492cd9e79455c0d35eaf87"
+    },
+    {
+      "paper_id": "6584892e7d0f0055ee9adabf03f36f2fa74319e5",
+      "arxiv_id": "2301.06267",
+      "doi": "10.1109/CVPR52729.2023.01852",
+      "title": "Multimodality Helps Unimodality: Cross-Modal Few-Shot Learning with Multimodal Models",
+      "url": "https://www.semanticscholar.org/paper/6584892e7d0f0055ee9adabf03f36f2fa74319e5"
+    },
+    {
+      "paper_id": "16de2006e2960ba410772c6b6d460b83c0a5cc4b",
+      "arxiv_id": "2212.07143",
+      "doi": "10.1109/CVPR52729.2023.00276",
+      "title": "Reproducible Scaling Laws for Contrastive Language-Image Learning",
+      "url": "https://www.semanticscholar.org/paper/16de2006e2960ba410772c6b6d460b83c0a5cc4b"
+    },
+    {
+      "paper_id": "d857fa1e47283da17b72f8e59c377c7aa72bae78",
+      "arxiv_id": "2212.04412",
+      "doi": "10.48550/arXiv.2212.04412",
+      "title": "Task Bias in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d857fa1e47283da17b72f8e59c377c7aa72bae78"
+    },
+    {
+      "paper_id": "e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9",
+      "arxiv_id": "2210.08402",
+      "doi": "10.48550/arXiv.2210.08402",
+      "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+      "url": "https://www.semanticscholar.org/paper/e5c8960eb2ec034ffbd353ef39fd1cb541d3c7c9"
+    },
+    {
+      "paper_id": "a42b091adaf29b06a092b67192ac07cb93312f2a",
+      "arxiv_id": "2210.07183",
+      "doi": "10.48550/arXiv.2210.07183",
+      "title": "Visual Classification via Description from Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a42b091adaf29b06a092b67192ac07cb93312f2a"
+    },
+    {
+      "paper_id": "007fe51fddfae031570f2d69e67dc67e1fe33621",
+      "arxiv_id": "2209.03320",
+      "doi": "10.1109/ICCV51070.2023.01438",
+      "title": "What does a platypus look like? Generating customized prompts for zero-shot image classification",
+      "url": "https://www.semanticscholar.org/paper/007fe51fddfae031570f2d69e67dc67e1fe33621"
+    },
+    {
+      "paper_id": "00debf63dafa966221c6e572f7705a813d704ff1",
+      "arxiv_id": "2204.09222",
+      "doi": "10.48550/arXiv.2204.09222",
+      "title": "K-LITE: Learning Transferable Visual Models with External Knowledge",
+      "url": "https://www.semanticscholar.org/paper/00debf63dafa966221c6e572f7705a813d704ff1"
+    },
+    {
+      "paper_id": "aa8611fd47415740470c3947595d25b906d56112",
+      "arxiv_id": "2204.08790",
+      "doi": "10.48550/arXiv.2204.08790",
+      "title": "ELEVATER: A Benchmark and Toolkit for Evaluating Language-Augmented Visual Models",
+      "url": "https://www.semanticscholar.org/paper/aa8611fd47415740470c3947595d25b906d56112"
+    },
+    {
+      "paper_id": "ea408e7f7c875f60a3f99490730027c14fed21bd",
+      "arxiv_id": "2201.01490",
+      "doi": "10.1109/CVPR52688.2022.01424",
+      "title": "Debiased Learning from Naturally Imbalanced Pseudo-Labels",
+      "url": "https://www.semanticscholar.org/paper/ea408e7f7c875f60a3f99490730027c14fed21bd"
+    },
+    {
+      "paper_id": "b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df",
+      "arxiv_id": "2111.02114",
+      "doi": "",
+      "title": "LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs",
+      "url": "https://www.semanticscholar.org/paper/b668ce936cff0b0ca8b635cd5f25a62eaf4eb3df"
+    },
+    {
+      "paper_id": "267f1de5ff863ab03f8c48c7ac3df1d422de7c3b",
+      "arxiv_id": "2110.01963",
+      "doi": "",
+      "title": "Multimodal datasets: misogyny, pornography, and malignant stereotypes",
+      "url": "https://www.semanticscholar.org/paper/267f1de5ff863ab03f8c48c7ac3df1d422de7c3b"
+    },
+    {
+      "paper_id": "07669f4c3a853545fd4ba9057178f4c380ae3910",
+      "arxiv_id": "2109.03805",
+      "doi": "10.1109/lra.2022.3148457",
+      "title": "Panoptic nuScenes: A Large-Scale Benchmark for LiDAR Panoptic Segmentation and Tracking",
+      "url": "https://www.semanticscholar.org/paper/07669f4c3a853545fd4ba9057178f4c380ae3910"
+    },
+    {
+      "paper_id": "9289826beb6206eeaf500105f7329d6d5a495d8a",
+      "arxiv_id": "2109.01903",
+      "doi": "10.1109/CVPR52688.2022.00780",
+      "title": "Robust fine-tuning of zero-shot models",
+      "url": "https://www.semanticscholar.org/paper/9289826beb6206eeaf500105f7329d6d5a495d8a"
+    },
+    {
+      "paper_id": "96ea07447d2f9adefe03852a878517a2a6d45b96",
+      "arxiv_id": "2109.01134",
+      "doi": "10.1007/s11263-022-01653-1",
+      "title": "Learning to Prompt for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/96ea07447d2f9adefe03852a878517a2a6d45b96"
+    },
+    {
+      "paper_id": "1c5d0dad5f4f4db55c7a16162e9ce0ce09150356",
+      "arxiv_id": "2108.02818",
+      "doi": "",
+      "title": "Evaluating CLIP: Towards Characterization of Broader Capabilities and Downstream Implications",
+      "url": "https://www.semanticscholar.org/paper/1c5d0dad5f4f4db55c7a16162e9ce0ce09150356"
+    },
+    {
+      "paper_id": "6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4",
+      "arxiv_id": "2103.00020",
+      "doi": "",
+      "title": "Learning Transferable Visual Models From Natural Language Supervision",
+      "url": "https://www.semanticscholar.org/paper/6f870f7f02a8c59c3e23f407f3ef00dd1dcf8fc4"
+    },
+    {
+      "paper_id": "2cd605106b88c85d7d8b865b1ef0f8c8293debf1",
+      "arxiv_id": "2102.12092",
+      "doi": "",
+      "title": "Zero-Shot Text-to-Image Generation",
+      "url": "https://www.semanticscholar.org/paper/2cd605106b88c85d7d8b865b1ef0f8c8293debf1"
+    },
+    {
+      "paper_id": "022622e024890d6e044ac50e2da6b44c59bdf418",
+      "arxiv_id": "2006.16241",
+      "doi": "10.1109/ICCV48922.2021.00823",
+      "title": "The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization",
+      "url": "https://www.semanticscholar.org/paper/022622e024890d6e044ac50e2da6b44c59bdf418"
+    },
+    {
+      "paper_id": "7e0f91e51ee372939c96714c7919dde6dc756849",
+      "arxiv_id": "2006.11807",
+      "doi": "10.18653/v1/2020.acl-main.664",
+      "title": "Improving Image Captioning with Better Use of Caption",
+      "url": "https://www.semanticscholar.org/paper/7e0f91e51ee372939c96714c7919dde6dc756849"
+    },
+    {
+      "paper_id": "659bf9ce7175e1ec266ff54359e2bd76e0b7ff31",
+      "arxiv_id": "2005.11401",
+      "doi": "",
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+      "url": "https://www.semanticscholar.org/paper/659bf9ce7175e1ec266ff54359e2bd76e0b7ff31"
+    },
+    {
+      "paper_id": "fa2b8b28f0b00a4cb31a51a3b47f13ba55a1623a",
+      "arxiv_id": "2004.07999",
+      "doi": "10.1007/s11263-022-01625-5",
+      "title": "REVISE: A Tool for Measuring and Mitigating Bias in Visual Datasets",
+      "url": "https://www.semanticscholar.org/paper/fa2b8b28f0b00a4cb31a51a3b47f13ba55a1623a"
+    },
+    {
+      "paper_id": "832fff14d2ed50eb7969c4c4b976c35776548f56",
+      "arxiv_id": "2002.08909",
+      "doi": "",
+      "title": "REALM: Retrieval-Augmented Language Model Pre-Training",
+      "url": "https://www.semanticscholar.org/paper/832fff14d2ed50eb7969c4c4b976c35776548f56"
+    },
+    {
+      "paper_id": "0090023afc66cd2741568599057f4e82b566137c",
+      "arxiv_id": "1908.09635",
+      "doi": "10.1145/3457607",
+      "title": "A Survey on Bias and Fairness in Machine Learning",
+      "url": "https://www.semanticscholar.org/paper/0090023afc66cd2741568599057f4e82b566137c"
+    },
+    {
+      "paper_id": "45557cc70cd6989ab6b03e5aeb787e34299099f7",
+      "arxiv_id": "1907.07174",
+      "doi": "10.1109/CVPR46437.2021.01501",
+      "title": "Natural Adversarial Examples",
+      "url": "https://www.semanticscholar.org/paper/45557cc70cd6989ab6b03e5aeb787e34299099f7"
+    },
+    {
+      "paper_id": "4ae0c4a511697e960c477ea3e37b3e11bf3e0e02",
+      "arxiv_id": "1905.13549",
+      "doi": "",
+      "title": "Learning Robust Global Representations by Penalizing Local Predictive Power",
+      "url": "https://www.semanticscholar.org/paper/4ae0c4a511697e960c477ea3e37b3e11bf3e0e02"
+    },
+    {
+      "paper_id": "9e475a514f54665478aac6038c262e5a6bac5e64",
+      "arxiv_id": "1903.11027",
+      "doi": "10.1109/cvpr42600.2020.01164",
+      "title": "nuScenes: A Multimodal Dataset for Autonomous Driving",
+      "url": "https://www.semanticscholar.org/paper/9e475a514f54665478aac6038c262e5a6bac5e64"
+    },
+    {
+      "paper_id": "8a8cfa45b4c0d071fbffa091c02670b19c94b693",
+      "arxiv_id": "1805.08974",
+      "doi": "10.1109/CVPR.2019.00277",
+      "title": "Do Better ImageNet Models Transfer Better?",
+      "url": "https://www.semanticscholar.org/paper/8a8cfa45b4c0d071fbffa091c02670b19c94b693"
+    },
+    {
+      "paper_id": "9c88c2357abcd58cc330179c1965fe0a8c067ebc",
+      "arxiv_id": "1709.00029",
+      "doi": "10.1109/JSTARS.2019.2918242",
+      "title": "EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification",
+      "url": "https://www.semanticscholar.org/paper/9c88c2357abcd58cc330179c1965fe0a8c067ebc"
+    },
+    {
+      "paper_id": "8e3f12804882b60ad5f59aad92755c5edb34860e",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-319-10599-4_29",
+      "title": "Food-101 - Mining Discriminative Components with Random Forests",
+      "url": "https://www.semanticscholar.org/paper/8e3f12804882b60ad5f59aad92755c5edb34860e"
+    },
+    {
+      "paper_id": "a83cec6a91701bd8500f8c43ad731d4353c71d55",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCVW.2013.77",
+      "title": "3D Object Representations for Fine-Grained Categorization",
+      "url": "https://www.semanticscholar.org/paper/a83cec6a91701bd8500f8c43ad731d4353c71d55"
+    },
+    {
+      "paper_id": "18c125ce0f64e85577f7d30132cf0e92ec664bf4",
+      "arxiv_id": "1311.3618",
+      "doi": "10.1109/CVPR.2014.461",
+      "title": "Describing Textures in the Wild",
+      "url": "https://www.semanticscholar.org/paper/18c125ce0f64e85577f7d30132cf0e92ec664bf4"
+    },
+    {
+      "paper_id": "522d65a3db7431015aeaa201a7fc4450a57e40c3",
+      "arxiv_id": "1306.5151",
+      "doi": "",
+      "title": "Fine-Grained Visual Classification of Aircraft",
+      "url": "https://www.semanticscholar.org/paper/522d65a3db7431015aeaa201a7fc4450a57e40c3"
+    },
+    {
+      "paper_id": "d2c733e34d48784a37d717fe43d9e93277a8c53e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2009.5206848",
+      "title": "ImageNet: A large-scale hierarchical image database",
+      "url": "https://www.semanticscholar.org/paper/d2c733e34d48784a37d717fe43d9e93277a8c53e"
+    },
+    {
+      "paper_id": "02b28f3b71138a06e40dbd614abf8568420ae183",
+      "arxiv_id": "",
+      "doi": "10.1109/ICVGIP.2008.47",
+      "title": "Automated Flower Classification over a Large Number of Classes",
+      "url": "https://www.semanticscholar.org/paper/02b28f3b71138a06e40dbd614abf8568420ae183"
+    },
+    {
+      "paper_id": "db95b0785118db34b553e6b5f137ea2bee5a0639",
+      "arxiv_id": "",
+      "doi": "10.1136/bmj.4.5674.53-c",
+      "title": "Care of aged doctors",
+      "url": "https://www.semanticscholar.org/paper/db95b0785118db34b553e6b5f137ea2bee5a0639"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "If you use this software",
+      "url": ""
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Demystify-ing clip data",
+      "url": ""
+    },
+    {
+      "paper_id": "cfee1826dd4743eab44c6e27a0cc5970effa4d80",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Improving Image Generation with Better Captions",
+      "url": "https://www.semanticscholar.org/paper/cfee1826dd4743eab44c6e27a0cc5970effa4d80"
+    },
+    {
+      "paper_id": "",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Stability AI",
+      "url": ""
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "d278038708cf75cd368f370410697d80a7d2d7a0",
+      "arxiv_id": "",
+      "doi": "10.1007/s44163-026-02341-6",
+      "title": "Target reindexing and residual reconstruction enable reliable retrieval augmented few shot recognition",
+      "url": "https://www.semanticscholar.org/paper/d278038708cf75cd368f370410697d80a7d2d7a0"
+    },
+    {
+      "paper_id": "8dfd2563d7d49fc9ea5dea3e31e7bc11053a17a3",
+      "arxiv_id": "2610.21470",
+      "doi": "",
+      "title": "Cross-Prompt Inference Mitigates Rare-Class Suppression in Imbalanced VLM Finetuning",
+      "url": "https://www.semanticscholar.org/paper/8dfd2563d7d49fc9ea5dea3e31e7bc11053a17a3"
+    },
+    {
+      "paper_id": "012ed0c7315f288198022e1c111bb8a8170d8e07",
+      "arxiv_id": "2609.29358",
+      "doi": "",
+      "title": "Domain Recentering and Confidence-Weighted Prior Calibration for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/012ed0c7315f288198022e1c111bb8a8170d8e07"
+    },
+    {
+      "paper_id": "cc6454764759099cbeba9d24195b5f9cf0acc7f5",
+      "arxiv_id": "2608.05424",
+      "doi": "",
+      "title": "Invisible Shortcuts: Why Vision Encoders Know Your Camera",
+      "url": "https://www.semanticscholar.org/paper/cc6454764759099cbeba9d24195b5f9cf0acc7f5"
+    },
+    {
+      "paper_id": "e363a4e2442ace04a609ae482c15516f22e20317",
+      "arxiv_id": "2607.19836",
+      "doi": "10.48550/arXiv.2607.19836",
+      "title": "Using Hierarchical Controlled Vocabularies to Understand CLIP Retrieval Failures in Historical Photo Collections",
+      "url": "https://www.semanticscholar.org/paper/e363a4e2442ace04a609ae482c15516f22e20317"
+    },
+    {
+      "paper_id": "0bfa047ebb390ab72b534e24e66b6601302ca8e3",
+      "arxiv_id": "2607.08968",
+      "doi": "",
+      "title": "Every Sample Counts: Supervised Fine-Tuning of Language Models with Pointwise Constraints",
+      "url": "https://www.semanticscholar.org/paper/0bfa047ebb390ab72b534e24e66b6601302ca8e3"
+    },
+    {
+      "paper_id": "f237bdc56ccd569a7a298bb6d62f62fb48c6e6c4",
+      "arxiv_id": "",
+      "doi": "10.1109/CEC69861.2026.11727305",
+      "title": "Evolutionary Prompt Optimization for Visual Language Models using Equivariant Semantics",
+      "url": "https://www.semanticscholar.org/paper/f237bdc56ccd569a7a298bb6d62f62fb48c6e6c4"
+    },
+    {
+      "paper_id": "f00add4638264bd0403902c612b29b08768f96ec",
+      "arxiv_id": "",
+      "doi": "10.1109/DLCV69906.2026.11635266",
+      "title": "Gen-RAG: Generative Retrieval-Augmentation for Domain-Adaptive Few-Shot Recognition",
+      "url": "https://www.semanticscholar.org/paper/f00add4638264bd0403902c612b29b08768f96ec"
+    },
+    {
+      "paper_id": "b6609b5b743f0dd60816126f8076d2fc8c8f24e1",
+      "arxiv_id": "2605.22939",
+      "doi": "10.48550/arXiv.2605.22939",
+      "title": "Learnability-Informed Fine-Tuning of Diffusion Language Models",
+      "url": "https://www.semanticscholar.org/paper/b6609b5b743f0dd60816126f8076d2fc8c8f24e1"
+    },
+    {
+      "paper_id": "bff220006463e0a8919fdd6037786cfd0475c812",
+      "arxiv_id": "2605.01295",
+      "doi": "10.48550/arXiv.2605.01295",
+      "title": "Autonomous Drift Learning in Data Streams: A Unified Perspective",
+      "url": "https://www.semanticscholar.org/paper/bff220006463e0a8919fdd6037786cfd0475c812"
+    },
+    {
+      "paper_id": "b21d2b975355b4afc766e8f9650771eeb65d9188",
+      "arxiv_id": "2604.27932",
+      "doi": "10.48550/arXiv.2604.27932",
+      "title": "Dynamic Cluster Data Sampling for Efficient and Long-Tail-Aware Vision-Language Pre-training",
+      "url": "https://www.semanticscholar.org/paper/b21d2b975355b4afc766e8f9650771eeb65d9188"
+    },
+    {
+      "paper_id": "84e9bfb2900a257aed59b6503cca04d9b1c5202d",
+      "arxiv_id": "2604.21718",
+      "doi": "10.48550/arXiv.2604.21718",
+      "title": "Building a Precise Video Language with Human-AI Oversight",
+      "url": "https://www.semanticscholar.org/paper/84e9bfb2900a257aed59b6503cca04d9b1c5202d"
+    },
+    {
+      "paper_id": "668c52d3b5a8789f3b243111708f897e410626da",
+      "arxiv_id": "2604.15280",
+      "doi": "10.48550/arXiv.2604.15280",
+      "title": "Why Do Vision Language Models Struggle To Recognize Human Emotions?",
+      "url": "https://www.semanticscholar.org/paper/668c52d3b5a8789f3b243111708f897e410626da"
+    },
+    {
+      "paper_id": "a1b8422f7119c537aaf72cd6bbf11bdd205ad089",
+      "arxiv_id": "2604.05117",
+      "doi": "10.48550/arXiv.2604.05117",
+      "title": "Watch Before You Answer: Learning from Visually Grounded Post-Training",
+      "url": "https://www.semanticscholar.org/paper/a1b8422f7119c537aaf72cd6bbf11bdd205ad089"
+    },
+    {
+      "paper_id": "5305ae1c30d8835e7037261ff6fc4f1ff253305c",
+      "arxiv_id": "",
+      "doi": "10.1109/WACV61042.2026.00119",
+      "title": "BanglaProtha: Evaluating Vision Language Models in Underrepresented Long-tail Cultural Contexts",
+      "url": "https://www.semanticscholar.org/paper/5305ae1c30d8835e7037261ff6fc4f1ff253305c"
+    },
+    {
+      "paper_id": "94dbf8165f7a8c0ec7ab51aeea20641a757635b2",
+      "arxiv_id": "",
+      "doi": "10.1117/12.3097949",
+      "title": "Fine-tuning vision-language models enables robust classification of naturally imbalanced camera trap images",
+      "url": "https://www.semanticscholar.org/paper/94dbf8165f7a8c0ec7ab51aeea20641a757635b2"
+    },
+    {
+      "paper_id": "d6125537e0e2fd487ea2b9ebb5adea150bf64d53",
+      "arxiv_id": "2602.19385",
+      "doi": "10.48550/arXiv.2602.19385",
+      "title": "Adaptive Data Augmentation with Multi-armed Bandit: Sample-Efficient Embedding Calibration for Implicit Pattern Recognition",
+      "url": "https://www.semanticscholar.org/paper/d6125537e0e2fd487ea2b9ebb5adea150bf64d53"
+    },
+    {
+      "paper_id": "2557cf46a8b56bffeed9538942be19c533aabe51",
+      "arxiv_id": "2602.11743",
+      "doi": "10.48550/arXiv.2602.11743",
+      "title": "Adaptive Debiasing Tsallis Entropy for Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/2557cf46a8b56bffeed9538942be19c533aabe51"
+    },
+    {
+      "paper_id": "1a3051306c95285a025b7f6c9e15ffa8a3c20dda",
+      "arxiv_id": "2602.00813",
+      "doi": "10.48550/arXiv.2602.00813",
+      "title": "Generating a Paracosm for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/1a3051306c95285a025b7f6c9e15ffa8a3c20dda"
+    },
+    {
+      "paper_id": "0aa19e3bd1a5adaf17196c1975c5f88f61918c60",
+      "arxiv_id": "2512.24826",
+      "doi": "10.1109/WACV61042.2026.00606",
+      "title": "Video and Language Alignment in 2D Systems for 3D Multi-object Scenes with Multi-Information Derivative-Free Control",
+      "url": "https://www.semanticscholar.org/paper/0aa19e3bd1a5adaf17196c1975c5f88f61918c60"
+    },
+    {
+      "paper_id": "f11a5612b08e70b8efca751fb9f88ee07b01b9a5",
+      "arxiv_id": "2512.10244",
+      "doi": "10.48550/arXiv.2512.10244",
+      "title": "Solving Semi-Supervised Few-Shot Learning from an Auto-Annotation Perspective",
+      "url": "https://www.semanticscholar.org/paper/f11a5612b08e70b8efca751fb9f88ee07b01b9a5"
+    },
+    {
+      "paper_id": "e6cf92f3482e256509f5366add5d5251769a28d5",
+      "arxiv_id": "2512.15748",
+      "doi": "",
+      "title": "Visual Species Recognition with Large Multimodal Models as Post-Hoc Correctors",
+      "url": "https://www.semanticscholar.org/paper/e6cf92f3482e256509f5366add5d5251769a28d5"
+    },
+    {
+      "paper_id": "fb620702001e96bd317acb016b7e74cf6d0d1216",
+      "arxiv_id": "2512.06835",
+      "doi": "10.48550/arXiv.2512.06835",
+      "title": "Decouple to Generalize: Context-First Self-Evolving Learning for Data-Scarce Vision-Language Reasoning",
+      "url": "https://www.semanticscholar.org/paper/fb620702001e96bd317acb016b7e74cf6d0d1216"
+    },
+    {
+      "paper_id": "0ce0fb306c8e35738de073e9642464bf8dcc3338",
+      "arxiv_id": "2512.04238",
+      "doi": "10.48550/arXiv.2512.04238",
+      "title": "6 Fingers, 1 Kidney: Natural Adversarial Medical Images Reveal Critical Weaknesses of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/0ce0fb306c8e35738de073e9642464bf8dcc3338"
+    },
+    {
+      "paper_id": "6194aeddf48bfb74afb6fd07dda46c722f92f754",
+      "arxiv_id": "2510.20860",
+      "doi": "10.48550/arXiv.2510.20860",
+      "title": "Data-Centric Lessons To Improve Speech-Language Pretraining",
+      "url": "https://www.semanticscholar.org/paper/6194aeddf48bfb74afb6fd07dda46c722f92f754"
+    },
+    {
+      "paper_id": "489ceabffb042853473fdbcfc4d0867a7876eab9",
+      "arxiv_id": "2510.16596",
+      "doi": "10.48550/arXiv.2510.16596",
+      "title": "SHIELD: Suppressing Hallucinations In LVLM Encoders via Bias and Vulnerability Defense",
+      "url": "https://www.semanticscholar.org/paper/489ceabffb042853473fdbcfc4d0867a7876eab9"
+    },
+    {
+      "paper_id": "cbd31a2c9161d503b1e6a35a3fa588630337f45b",
+      "arxiv_id": "2510.15508",
+      "doi": "10.48550/arXiv.2510.15508",
+      "title": "Theoretical Refinement of CLIP by Utilizing Linear Structure of Optimal Similarity",
+      "url": "https://www.semanticscholar.org/paper/cbd31a2c9161d503b1e6a35a3fa588630337f45b"
+    },
+    {
+      "paper_id": "999079dfc44be9c3e2e924d95f866ff1fa77a517",
+      "arxiv_id": "2510.03721",
+      "doi": "10.48550/arXiv.2510.03721",
+      "title": "Person-Centric Annotations of LAION-400M: Auditing Bias and Its Transfer to Models",
+      "url": "https://www.semanticscholar.org/paper/999079dfc44be9c3e2e924d95f866ff1fa77a517"
+    },
+    {
+      "paper_id": "2bc53274564206c45c0929b31c5a7da26c8b17e7",
+      "arxiv_id": "2508.17417",
+      "doi": "10.48550/arXiv.2508.17417",
+      "title": "Constrained Prompt Enhancement for Improving Zero-Shot Generalization of Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/2bc53274564206c45c0929b31c5a7da26c8b17e7"
+    },
+    {
+      "paper_id": "d7682ab4e79c908190f897fcf5105b08e4895e6d",
+      "arxiv_id": "2508.08701",
+      "doi": "10.48550/arXiv.2508.08701",
+      "title": "SafeFix: Targeted Model Repair via Controlled Image Generation",
+      "url": "https://www.semanticscholar.org/paper/d7682ab4e79c908190f897fcf5105b08e4895e6d"
+    },
+    {
+      "paper_id": "d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8",
+      "arxiv_id": "2508.05547",
+      "doi": "10.1007/s11263-026-02987-w",
+      "title": "Adapting Vision-Language Models Without Labels: A Comprehensive Survey",
+      "url": "https://www.semanticscholar.org/paper/d6b1c0bafd7de9cf00f2a62e4af0fa9a3cce64e8"
+    },
+    {
+      "paper_id": "fdc092d0bddb1a99a80a37be878f183096ad236b",
+      "arxiv_id": "2507.19024",
+      "doi": "10.1007/s11263-026-02756-9",
+      "title": "A Survey of Multimodal Hallucination Evaluation and Detection",
+      "url": "https://www.semanticscholar.org/paper/fdc092d0bddb1a99a80a37be878f183096ad236b"
+    },
+    {
+      "paper_id": "e743777e724482bc978a5c44f6edd1d4a1cc36d6",
+      "arxiv_id": "2507.08000",
+      "doi": "10.48550/arXiv.2507.08000",
+      "title": "Impact of Pretraining Word Co-occurrence on Compositional Generalization in Multimodal Models",
+      "url": "https://www.semanticscholar.org/paper/e743777e724482bc978a5c44f6edd1d4a1cc36d6"
+    },
+    {
+      "paper_id": "8cde5feff41ffc34164f8b9433ef5e74d55d278a",
+      "arxiv_id": "2506.22908",
+      "doi": "10.1109/ICCV51701.2025.00405",
+      "title": "Attention to the Burstiness in Visual Prompt Tuning!",
+      "url": "https://www.semanticscholar.org/paper/8cde5feff41ffc34164f8b9433ef5e74d55d278a"
+    },
+    {
+      "paper_id": "b20927f5e599fbfb5e0f38d0aa5854983fd92019",
+      "arxiv_id": "2506.09740",
+      "doi": "10.1109/TIP.2026.3709461",
+      "title": "ELBO-T2IAlign: A Generic ELBO-Based Method for Calibrating Pixel-Level Text-Image Alignment in Diffusion Models",
+      "url": "https://www.semanticscholar.org/paper/b20927f5e599fbfb5e0f38d0aa5854983fd92019"
+    },
+    {
+      "paper_id": "9ffe2dac38933b2edc81c584ed5588574960e82c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52734.2025.01795",
+      "title": "Shift the Lens: Environment-Aware Unsupervised Camouflaged Object Detection",
+      "url": "https://www.semanticscholar.org/paper/9ffe2dac38933b2edc81c584ed5588574960e82c"
+    },
+    {
+      "paper_id": "5553eeb71ca947cc1165475376fd249a1f8f7bbe",
+      "arxiv_id": "2506.08071",
+      "doi": "10.1109/ICCV51701.2025.01455",
+      "title": "CuRe: Cultural Gaps in the Long Tail of Text-to-Image Systems",
+      "url": "https://www.semanticscholar.org/paper/5553eeb71ca947cc1165475376fd249a1f8f7bbe"
+    },
+    {
+      "paper_id": "431df54bf797502c7ee8275422a92f4115239142",
+      "arxiv_id": "2506.04713",
+      "doi": "",
+      "title": "Enabling Validation for Robust Few-Shot Recognition",
+      "url": "https://www.semanticscholar.org/paper/431df54bf797502c7ee8275422a92f4115239142"
+    },
+    {
+      "paper_id": "f96e33e6a497e9321a212e4fd89138b85bdb1238",
+      "arxiv_id": "2506.02914",
+      "doi": "",
+      "title": "AutoExpert: Automating 3D LiDAR Annotation from Expert-Crafted Guidelines",
+      "url": "https://www.semanticscholar.org/paper/f96e33e6a497e9321a212e4fd89138b85bdb1238"
+    },
+    {
+      "paper_id": "6772c7bdebbee089b0ccfe892d539c8ef1728057",
+      "arxiv_id": "2506.01724",
+      "doi": "10.48550/arXiv.2506.01724",
+      "title": "Active Learning via Vision-Language Model Adaptation with Open Data",
+      "url": "https://www.semanticscholar.org/paper/6772c7bdebbee089b0ccfe892d539c8ef1728057"
+    },
+    {
+      "paper_id": "7dbc4ddee852858d1e518ec77b976487598da6a5",
+      "arxiv_id": "2505.20612",
+      "doi": "10.48550/arXiv.2505.20612",
+      "title": "Roboflow100-VL: A Multi-Domain Object Detection Benchmark for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/7dbc4ddee852858d1e518ec77b976487598da6a5"
+    },
+    {
+      "paper_id": "7be4920d0515370a03149f0ed13e5a22d44f1588",
+      "arxiv_id": "2505.07496",
+      "doi": "10.48550/arXiv.2505.07496",
+      "title": "DocVXQA: Context-Aware Visual Explanations for Document Question Answering",
+      "url": "https://www.semanticscholar.org/paper/7be4920d0515370a03149f0ed13e5a22d44f1588"
+    },
+    {
+      "paper_id": "3cb9730d914eec0e913eeff7f368028f928ca219",
+      "arxiv_id": "2504.15376",
+      "doi": "10.48550/arXiv.2504.15376",
+      "title": "Towards Understanding Camera Motions in Any Video",
+      "url": "https://www.semanticscholar.org/paper/3cb9730d914eec0e913eeff7f368028f928ca219"
+    },
+    {
+      "paper_id": "aa3517c664890cd36aee3cfff0f09d2645e373b6",
+      "arxiv_id": "2504.07086",
+      "doi": "10.48550/arXiv.2504.07086",
+      "title": "A Sober Look at Progress in Language Model Reasoning: Pitfalls and Paths to Reproducibility",
+      "url": "https://www.semanticscholar.org/paper/aa3517c664890cd36aee3cfff0f09d2645e373b6"
+    },
+    {
+      "paper_id": "32881ca203aff6f533867e2be0b3b2b4688a38eb",
+      "arxiv_id": "2504.05058",
+      "doi": "10.48550/arXiv.2504.05058",
+      "title": "Not All Data Are Unlearned Equally",
+      "url": "https://www.semanticscholar.org/paper/32881ca203aff6f533867e2be0b3b2b4688a38eb"
+    },
+    {
+      "paper_id": "71a32535bf1dd2411940a25d0cfdb066ca852b84",
+      "arxiv_id": "2503.12821",
+      "doi": "10.1109/CVPR52734.2025.00881",
+      "title": "From Head to Tail: Towards Balanced Representation in Large Vision-Language Models through Adaptive Data Calibration",
+      "url": "https://www.semanticscholar.org/paper/71a32535bf1dd2411940a25d0cfdb066ca852b84"
+    },
+    {
+      "paper_id": "def6d830fc8a709e22f162cba11012ffcae4433c",
+      "arxiv_id": "2503.00359",
+      "doi": "10.1109/CVPR52734.2025.00925",
+      "title": "Solving Instance Detection from an Open-World Perspective",
+      "url": "https://www.semanticscholar.org/paper/def6d830fc8a709e22f162cba11012ffcae4433c"
+    },
+    {
+      "paper_id": "8373ed8cdfece53deb9ec67bf23a590c0cd1bbf4",
+      "arxiv_id": "2502.19295",
+      "doi": "10.48550/arXiv.2502.19295",
+      "title": "Complex LLM Planning via Automated Heuristics Discovery",
+      "url": "https://www.semanticscholar.org/paper/8373ed8cdfece53deb9ec67bf23a590c0cd1bbf4"
+    },
+    {
+      "paper_id": "26743aa07e9e2408a07a6e0e9442d8ef08fe52ba",
+      "arxiv_id": "",
+      "doi": "10.1007/s10994-025-06745-w",
+      "title": "Uncover the balanced geometry in long-tailed contrastive language-image pretraining",
+      "url": "https://www.semanticscholar.org/paper/26743aa07e9e2408a07a6e0e9442d8ef08fe52ba"
+    },
+    {
+      "paper_id": "744e13ff4ed4000981e4a6b77dc9a16f99a44585",
+      "arxiv_id": "2502.15809",
+      "doi": "10.48550/arXiv.2502.15809",
+      "title": "Black Sheep in the Herd: Playing with Spuriously Correlated Attributes for Vision-Language Recognition",
+      "url": "https://www.semanticscholar.org/paper/744e13ff4ed4000981e4a6b77dc9a16f99a44585"
+    },
+    {
+      "paper_id": "c1fe3ddae2443ffd11cb62e76537af0ee207833f",
+      "arxiv_id": "2502.12521",
+      "doi": "10.48550/arXiv.2502.12521",
+      "title": "Inference-Time Computations for LLM Reasoning and Planning: A Benchmark and Insights",
+      "url": "https://www.semanticscholar.org/paper/c1fe3ddae2443ffd11cb62e76537af0ee207833f"
+    },
+    {
+      "paper_id": "5dec668b2668c7df623cc1456bf8f2eaa06b9d57",
+      "arxiv_id": "2502.07617",
+      "doi": "10.1109/CVPRF71909.2026.00594",
+      "title": "Scaling Pre-Training to One Hundred Billion Data for Vision Language Models",
+      "url": "https://www.semanticscholar.org/paper/5dec668b2668c7df623cc1456bf8f2eaa06b9d57"
+    },
+    {
+      "paper_id": "5dbb745ab0b293f03a5872c85d75824c11eceb67",
+      "arxiv_id": "2502.03566",
+      "doi": "10.48550/arXiv.2502.03566",
+      "title": "CLIP Behaves like a Bag-of-Words Model Cross-modally but not Uni-modally",
+      "url": "https://www.semanticscholar.org/paper/5dbb745ab0b293f03a5872c85d75824c11eceb67"
+    },
+    {
+      "paper_id": "f8fd29b868e809ef5750597df74e84593cdf5c35",
+      "arxiv_id": "2502.02885",
+      "doi": "10.48550/arXiv.2502.02885",
+      "title": "Expertized Caption Auto-Enhancement for Video-Text Retrieval",
+      "url": "https://www.semanticscholar.org/paper/f8fd29b868e809ef5750597df74e84593cdf5c35"
+    },
+    {
+      "paper_id": "372bc532ff7c5b2806a508e99c23d605987e40a2",
+      "arxiv_id": "2501.18592",
+      "doi": "10.1109/TPAMI.2026.3651319",
+      "title": "Advances in Multimodal Adaptation and Generalization: From Traditional Approaches to Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/372bc532ff7c5b2806a508e99c23d605987e40a2"
+    },
+    {
+      "paper_id": "96e61d6eb0eff76727d3194fe36ce5619e62ff32",
+      "arxiv_id": "",
+      "doi": "10.1007/s11704-024-40051-3",
+      "title": "Debiasing vision-language models for vision tasks: a survey",
+      "url": "https://www.semanticscholar.org/paper/96e61d6eb0eff76727d3194fe36ce5619e62ff32"
+    },
+    {
+      "paper_id": "a25d4d55071223a97ec598d1304214a9c54b3489",
+      "arxiv_id": "2410.22376",
+      "doi": "10.48550/arXiv.2410.22376",
+      "title": "Rare-to-Frequent: Unlocking Compositional Generation Power of Diffusion Models on Rare Concepts with LLM Guidance",
+      "url": "https://www.semanticscholar.org/paper/a25d4d55071223a97ec598d1304214a9c54b3489"
+    },
+    {
+      "paper_id": "0986d7d956da2c3b580456268cc6a2fe9b18d4da",
+      "arxiv_id": "2410.22372",
+      "doi": "10.48550/arXiv.2410.22372",
+      "title": "A Hierarchical Language Model For Interpretable Graph Reasoning",
+      "url": "https://www.semanticscholar.org/paper/0986d7d956da2c3b580456268cc6a2fe9b18d4da"
+    },
+    {
+      "paper_id": "4e6a85f656de178f913790f9755b6cb9ee2cd3ca",
+      "arxiv_id": "2410.19294",
+      "doi": "10.48550/arXiv.2410.19294",
+      "title": "Enhancing Zero-Shot Vision Models by Label-Free Prompt Distribution Learning and Bias Correcting",
+      "url": "https://www.semanticscholar.org/paper/4e6a85f656de178f913790f9755b6cb9ee2cd3ca"
+    },
+    {
+      "paper_id": "cc5f0c6e92ec9d37fba3f52defa3efe04fdb08d0",
+      "arxiv_id": "2410.14669",
+      "doi": "10.48550/arXiv.2410.14669",
+      "title": "NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples",
+      "url": "https://www.semanticscholar.org/paper/cc5f0c6e92ec9d37fba3f52defa3efe04fdb08d0"
+    },
+    {
+      "paper_id": "e3a637764a3bccece5e1b20d29006040c5856e2a",
+      "arxiv_id": "2410.07173",
+      "doi": "",
+      "title": "Better Language Models Exhibit Higher Visual Alignment",
+      "url": "https://www.semanticscholar.org/paper/e3a637764a3bccece5e1b20d29006040c5856e2a"
+    },
+    {
+      "paper_id": "96d57f72fba28f12472ba8cafa517f5efc2d96b6",
+      "arxiv_id": "2410.03955",
+      "doi": "",
+      "title": "A Retention-Centric Framework for Continual Learning with Guaranteed Model Developmental Safety",
+      "url": "https://www.semanticscholar.org/paper/96d57f72fba28f12472ba8cafa517f5efc2d96b6"
+    },
+    {
+      "paper_id": "43e471ce28999d4f10ef15b8e5af9f68aba5206f",
+      "arxiv_id": "2410.01180",
+      "doi": "10.1109/WACV61041.2025.00566",
+      "title": "UAL-Bench: The First Comprehensive Unusual Activity Localization Benchmark",
+      "url": "https://www.semanticscholar.org/paper/43e471ce28999d4f10ef15b8e5af9f68aba5206f"
+    },
+    {
+      "paper_id": "62deb62f75338bd2ee3a7a4f717027f058688241",
+      "arxiv_id": "2410.01534",
+      "doi": "10.1109/TPAMI.2025.3580234",
+      "title": "Toward a Holistic Evaluation of Robustness in CLIP Models",
+      "url": "https://www.semanticscholar.org/paper/62deb62f75338bd2ee3a7a4f717027f058688241"
+    },
+    {
+      "paper_id": "3e7735fe7d38181e2ebe9c00a1026c7135cb8486",
+      "arxiv_id": "2409.12969",
+      "doi": "10.48550/arXiv.2409.12969",
+      "title": "Seeing Through Their Eyes: Evaluating Visual Perspective Taking in Vision Language Models",
+      "url": "https://www.semanticscholar.org/paper/3e7735fe7d38181e2ebe9c00a1026c7135cb8486"
+    },
+    {
+      "paper_id": "1ebb73f0a763fcc407d793a62513bbcdab84e9a6",
+      "arxiv_id": "2408.04556",
+      "doi": "",
+      "title": "BA-LoRA: Bias-Alleviating Low-Rank Adaptation to Mitigate Catastrophic Inheritance in Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/1ebb73f0a763fcc407d793a62513bbcdab84e9a6"
+    },
+    {
+      "paper_id": "06a09bbe1b9e6ab90ae54d3417bb786deb31f2f4",
+      "arxiv_id": "2406.13743",
+      "doi": "10.48550/arXiv.2406.13743",
+      "title": "GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation",
+      "url": "https://www.semanticscholar.org/paper/06a09bbe1b9e6ab90ae54d3417bb786deb31f2f4"
+    },
+    {
+      "paper_id": "92cc6c5507fbcf23c2571e1521e91bdb4a233375",
+      "arxiv_id": "2406.11148",
+      "doi": "10.1109/CVPR52734.2025.01405",
+      "title": "Few-Shot Recognition via Stage-Wise Retrieval-Augmented Finetuning",
+      "url": "https://www.semanticscholar.org/paper/92cc6c5507fbcf23c2571e1521e91bdb4a233375"
+    },
+    {
+      "paper_id": "befc322dd67db943e66fff57553056fe78009dff",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPRW63382.2024.00538",
+      "title": "Evaluating and Improving Compositional Text-to-Visual Generation",
+      "url": "https://www.semanticscholar.org/paper/befc322dd67db943e66fff57553056fe78009dff"
+    },
+    {
+      "paper_id": "09cb7fef6233c85ecaee22ec4f2a1a484c7bae0b",
+      "arxiv_id": "2405.21070",
+      "doi": "10.52202/079017-1153",
+      "title": "What Makes CLIP More Robust to Long-Tailed Pre-Training Data? A Controlled Study for Transferable Insights",
+      "url": "https://www.semanticscholar.org/paper/09cb7fef6233c85ecaee22ec4f2a1a484c7bae0b"
+    },
+    {
+      "paper_id": "46313c43dcb79519c7796b27c6aef4b382539a07",
+      "arxiv_id": "2405.20469",
+      "doi": "10.1109/CVPRW63382.2024.00257",
+      "title": "Is Synthetic Data all We Need? Benchmarking the Robustness of Models Trained with Synthetic Images",
+      "url": "https://www.semanticscholar.org/paper/46313c43dcb79519c7796b27c6aef4b382539a07"
+    },
+    {
+      "paper_id": "a6ecd6be58c732a208467219750b45821ff7f987",
+      "arxiv_id": "2405.15668",
+      "doi": "10.48550/arXiv.2405.15668",
+      "title": "What Do You See? Enhancing Zero-Shot Image Classification with Multimodal Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/a6ecd6be58c732a208467219750b45821ff7f987"
+    },
+    {
+      "paper_id": "be24ab597deeb00f9ee36a1434b36c3747483c28",
+      "arxiv_id": "2404.04125",
+      "doi": "10.48550/arXiv.2404.04125",
+      "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
+      "url": "https://www.semanticscholar.org/paper/be24ab597deeb00f9ee36a1434b36c3747483c28"
+    },
+    {
+      "paper_id": "ec45c3f0f88c8ce1deb5baa71c2c0e14ad64d249",
+      "arxiv_id": "2404.01291",
+      "doi": "10.48550/arXiv.2404.01291",
+      "title": "Evaluating Text-to-Visual Generation with Image-to-Text Generation",
+      "url": "https://www.semanticscholar.org/paper/ec45c3f0f88c8ce1deb5baa71c2c0e14ad64d249"
+    },
+    {
+      "paper_id": "e9cb528aeef1f27e9cb4463f4e0dc629b6b177c8",
+      "arxiv_id": "2402.01909",
+      "doi": "10.48550/arXiv.2402.01909",
+      "title": "On Catastrophic Inheritance of Large Foundation Models",
+      "url": "https://www.semanticscholar.org/paper/e9cb528aeef1f27e9cb4463f4e0dc629b6b177c8"
+    },
+    {
+      "paper_id": "afc3dd0176d67df1e5200eaec4a738ccd17c9cc9",
+      "arxiv_id": "2312.14494",
+      "doi": "10.48550/arXiv.2312.14494",
+      "title": "Revisiting Few-Shot Object Detection with Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/afc3dd0176d67df1e5200eaec4a738ccd17c9cc9"
+    },
+    {
+      "paper_id": "8b64f1c5cc9f7d2bb6c4f152bca4e5e66d11ec56",
+      "arxiv_id": "2312.10986",
+      "doi": "",
+      "title": "Long-Tailed 3D Detection via Multi-Modal Fusion",
+      "url": "https://www.semanticscholar.org/paper/8b64f1c5cc9f7d2bb6c4f152bca4e5e66d11ec56"
+    },
+    {
+      "paper_id": "d39182113cd4176ead48027b4fc05fe06ec6aaca",
+      "arxiv_id": "2309.05950",
+      "doi": "10.1109/CVPR52733.2024.01206",
+      "title": "Language Models as Black-Box Optimizers for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/d39182113cd4176ead48027b4fc05fe06ec6aaca"
+    },
+    {
+      "paper_id": "8e9b649f6223caec508d55b0e6574a454c637a26",
+      "arxiv_id": "2306.01879",
+      "doi": "",
+      "title": "Revisiting the Role of Language Priors in Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/8e9b649f6223caec508d55b0e6574a454c637a26"
+    },
+    {
+      "paper_id": "020ff506c02ebd36879b95472c2ee549f41bc6bb",
+      "arxiv_id": "",
+      "doi": "10.1016/j.ipm.2026.104881",
+      "title": "CIM: Interpretable model with consistency representation and prompt learning",
+      "url": "https://www.semanticscholar.org/paper/020ff506c02ebd36879b95472c2ee549f41bc6bb"
+    },
+    {
+      "paper_id": "a36829fc16860168a44f0ba001bfc351d635d596",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "RA-TTA: Retrieval-Augmented Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/a36829fc16860168a44f0ba001bfc351d635d596"
+    },
+    {
+      "paper_id": "d12c8229207252786f2ae79567d89ef752ed4d91",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2406.11148",
+      "title": "Few-Shot Recognition via Stage-Wise Augmented Finetuning",
+      "url": "https://www.semanticscholar.org/paper/d12c8229207252786f2ae79567d89ef752ed4d91"
+    },
+    {
+      "paper_id": "90f30701fc4e87666cddb2ca6230672751ebbf90",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2405.21070",
+      "title": "Generalization Beyond Data Imbalance: A Controlled Study on CLIP for Transferable Insights",
+      "url": "https://www.semanticscholar.org/paper/90f30701fc4e87666cddb2ca6230672751ebbf90"
+    },
+    {
+      "paper_id": "72f8c25d0f72322c59efd7681155f221c7440c33",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2408.04556",
+      "title": "Bias-Aware Low-Rank Adaptation: Mitigating Catastrophic Inheritance of Large Language Models",
+      "url": "https://www.semanticscholar.org/paper/72f8c25d0f72322c59efd7681155f221c7440c33"
+    },
+    {
+      "paper_id": "b1983034fcb0018b0433bb9443e40d1680309abd",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2404.15127",
+      "title": "MedDr: Diagnosis-Guided Bootstrapping for Large-Scale Medical Vision-Language Learning",
+      "url": "https://www.semanticscholar.org/paper/b1983034fcb0018b0433bb9443e40d1680309abd"
+    },
+    {
+      "paper_id": "00880dce0d39fa895f1646790f0f64203b5b8547",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Hierarchical Language Model Design For Interpretable Graph Reasoning",
+      "url": "https://www.semanticscholar.org/paper/00880dce0d39fa895f1646790f0f64203b5b8547"
+    },
+    {
+      "paper_id": "e389cc5f0823f0a671f4d6477351750b11804efa",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "CuRe : Cultural Gaps in the Long Tail of Text-to-Image Models",
+      "url": "https://www.semanticscholar.org/paper/e389cc5f0823f0a671f4d6477351750b11804efa"
+    },
+    {
+      "paper_id": "c2afb1f0ef8d55362bf39c783fd64ee34884090d",
+      "arxiv_id": "",
+      "doi": "10.52202/085713-0718",
+      "title": "Dual-Space Semantic Synergy Distillation for Continual Learning of Unlabeled Streams",
+      "url": "https://www.semanticscholar.org/paper/c2afb1f0ef8d55362bf39c783fd64ee34884090d"
+    }
+  ]
+}
