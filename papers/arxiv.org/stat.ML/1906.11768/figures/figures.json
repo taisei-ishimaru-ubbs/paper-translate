@@ -1,0 +1,30 @@
+[
+  {
+    "file": "fig-00.png",
+    "figure_no": 1,
+    "page": 7,
+    "caption": "Figure 1: Synthetic experiments. HiWA was tested in two subspace conﬁgurations (a,b): randomly-spaced (average-case, solid) versus equally-spaced (worst-case, dashed) for S = 5, d = 2, D = 6, n = {25, 100}, where S is the number of clusters, d the dimension of each cluster, D is the embedding dimens",
+    "score": 80.0
+  },
+  {
+    "file": "fig-01.png",
+    "figure_no": 2,
+    "page": 8,
+    "caption": "Figure 2: Results on neural decoding dataset: How distribution alignment is used to translate neural activity into movement – low-dimensional embeddings of neural data are aligned with target movement patterns (a). In (b), we compare the performance (cluster correspondence) of HiWA, WA, and DAD as t",
+    "score": 18.0
+  },
+  {
+    "file": "fig-02.png",
+    "figure_no": 3,
+    "page": 13,
+    "caption": "Figure 3: Run time comparison between a parallelized and a non-parallelized implementation: We varied the number of clusters – the main bottleneck to run time - to compare the runtimes of the parallelized and non-parallelized implementations.",
+    "score": 0.0
+  },
+  {
+    "file": "fig-03.png",
+    "figure_no": 4,
+    "page": 18,
+    "caption": "Figure 4: Additional comparisons on brain decoding dataset: Here, we compared the decoding accuracy in terms of: (a) reach direction decoding or the percentage of time points correctly classiﬁed in one of four reach directions, and (b) the instantaneous decoding accuracy measured in terms of their R",
+    "score": 0.0
+  }
+]
