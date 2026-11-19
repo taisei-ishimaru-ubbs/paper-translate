@@ -1,0 +1,986 @@
+{
+  "id": "1906.11768",
+  "status": "matched",
+  "matched_paper": {
+    "paperId": "57538329cb82b5b6415a85ed695cafab2db83f61",
+    "externalIds": {
+      "DBLP": "conf/nips/LeeDDR19",
+      "ArXiv": "1906.11768",
+      "MAG": "2955598033",
+      "DOI": "10.48550/arXiv.1906.11768",
+      "CorpusId": 195699649
+    },
+    "url": "https://www.semanticscholar.org/paper/57538329cb82b5b6415a85ed695cafab2db83f61",
+    "title": "Hierarchical Optimal Transport for Multimodal Distribution Alignment"
+  },
+  "references": [
+    {
+      "paper_id": "b81d60612f3d0b19714ebdd6c3a592b32fb52981",
+      "arxiv_id": "1906.10827",
+      "doi": "10.48550/arXiv.1906.10827",
+      "title": "Hierarchical Optimal Transport for Document Representation",
+      "url": "https://www.semanticscholar.org/paper/b81d60612f3d0b19714ebdd6c3a592b32fb52981"
+    },
+    {
+      "paper_id": "52e77a28c84fa0e11b2519bd1a24e0718177fcb5",
+      "arxiv_id": "1811.04491",
+      "doi": "10.48550/arXiv.1811.04491",
+      "title": "Multiple Subspace Alignment Improves Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/52e77a28c84fa0e11b2519bd1a24e0718177fcb5"
+    },
+    {
+      "paper_id": "bfcfeb8cd20bb8f16348c02c67f03be5d4bb125c",
+      "arxiv_id": "1810.09569",
+      "doi": "10.48550/arXiv.1810.09569",
+      "title": "Perturbation Bounds for Procrustes, Classical Scaling, and Trilateration, with Applications to Manifold Learning",
+      "url": "https://www.semanticscholar.org/paper/bfcfeb8cd20bb8f16348c02c67f03be5d4bb125c"
+    },
+    {
+      "paper_id": "dd5e54b08b2c1520d179e88cd524e9bd4fe1f6ab",
+      "arxiv_id": "1810.02733",
+      "doi": "",
+      "title": "Sample Complexity of Sinkhorn Divergences",
+      "url": "https://www.semanticscholar.org/paper/dd5e54b08b2c1520d179e88cd524e9bd4fe1f6ab"
+    },
+    {
+      "paper_id": "46c30fd3c0a4157e1f4417e60b7d7785ec34ebd3",
+      "arxiv_id": "",
+      "doi": "10.1523/JNEUROSCI.1669-18.2018",
+      "title": "Latent Factors and Dynamics in Motor Cortex and Their Application to Brain–Machine Interfaces",
+      "url": "https://www.semanticscholar.org/paper/46c30fd3c0a4157e1f4417e60b7d7785ec34ebd3"
+    },
+    {
+      "paper_id": "b931b7e287f8dc60d183284181b157b8a59a4641",
+      "arxiv_id": "1806.09277",
+      "doi": "10.48550/arXiv.1806.09277",
+      "title": "Towards Optimal Transport with Global Invariances",
+      "url": "https://www.semanticscholar.org/paper/b931b7e287f8dc60d183284181b157b8a59a4641"
+    },
+    {
+      "paper_id": "7127158ba15c6be10f10d5b754733cd75b8f5cc8",
+      "arxiv_id": "1805.11222",
+      "doi": "10.48550/arXiv.1805.11222",
+      "title": "Unsupervised Alignment of Embeddings with Wasserstein Procrustes",
+      "url": "https://www.semanticscholar.org/paper/7127158ba15c6be10f10d5b754733cd75b8f5cc8"
+    },
+    {
+      "paper_id": "e6c30de88375353d5b8e7a6910918a07c51c82d0",
+      "arxiv_id": "1805.08874",
+      "doi": "10.1109/ICIP.2018.8451152",
+      "title": "Unsupervised Domain Adaptation Using Regularized Hyper-Graph Matching",
+      "url": "https://www.semanticscholar.org/paper/e6c30de88375353d5b8e7a6910918a07c51c82d0"
+    },
+    {
+      "paper_id": "8e51d68250db5637cd6bc1de98a99396441399b2",
+      "arxiv_id": "1803.00567",
+      "doi": "10.1561/2200000073",
+      "title": "Computational Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/8e51d68250db5637cd6bc1de98a99396441399b2"
+    },
+    {
+      "paper_id": "f092775d123b802079c98f0df806ad5ca7b0ac46",
+      "arxiv_id": "1712.06199",
+      "doi": "10.48550/arXiv.1712.06199",
+      "title": "Structured Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/f092775d123b802079c98f0df806ad5ca7b0ac46"
+    },
+    {
+      "paper_id": "8d3feb186556ead77590979b42c42374549a1166",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/D17-1207",
+      "title": "Earth Mover’s Distance Minimization for Unsupervised Bilingual Lexicon Induction",
+      "url": "https://www.semanticscholar.org/paper/8d3feb186556ead77590979b42c42374549a1166"
+    },
+    {
+      "paper_id": "1fc6290fa3e6784501ca67cbef33a6a8edcbdb9e",
+      "arxiv_id": "1707.00087",
+      "doi": "10.3150/18-bej1065",
+      "title": "Sharp asymptotic and finite-sample rates of convergence of empirical measures in Wasserstein distance",
+      "url": "https://www.semanticscholar.org/paper/1fc6290fa3e6784501ca67cbef33a6a8edcbdb9e"
+    },
+    {
+      "paper_id": "ceeaca3bfb24a559590893843977aa930a7ac531",
+      "arxiv_id": "1705.08848",
+      "doi": "10.48550/arXiv.1705.08848",
+      "title": "Joint distribution optimal transportation for domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/ceeaca3bfb24a559590893843977aa930a7ac531"
+    },
+    {
+      "paper_id": "ca5515ba027dba6c80a9970993095d11e1324b9b",
+      "arxiv_id": "",
+      "doi": "10.1038/s41551-017-0169-7",
+      "title": "A cryptography-based approach for movement decoding",
+      "url": "https://www.semanticscholar.org/paper/ca5515ba027dba6c80a9970993095d11e1324b9b"
+    },
+    {
+      "paper_id": "88a08035419fcb362f6f30c202d51920268f49d2",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Domain Adaptation with Conditional Transferable Components",
+      "url": "https://www.semanticscholar.org/paper/88a08035419fcb362f6f30c202d51920268f49d2"
+    },
+    {
+      "paper_id": "412867976f43c22fc1930a847dd7ff2a2f7d1732",
+      "arxiv_id": "1511.06324",
+      "doi": "10.1007/s10915-018-0757-z",
+      "title": "Global Convergence of ADMM in Nonconvex Nonsmooth Optimization",
+      "url": "https://www.semanticscholar.org/paper/412867976f43c22fc1930a847dd7ff2a2f7d1732"
+    },
+    {
+      "paper_id": "d079a2f877f554e00f71a6975435d8325987bdf5",
+      "arxiv_id": "1511.05547",
+      "doi": "10.1609/aaai.v30i1.10306",
+      "title": "Return of Frustratingly Easy Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/d079a2f877f554e00f71a6975435d8325987bdf5"
+    },
+    {
+      "paper_id": "b4a7e196fba046e23030123841550e610004418f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Generalized Unsupervised Manifold Alignment",
+      "url": "https://www.semanticscholar.org/paper/b4a7e196fba046e23030123841550e610004418f"
+    },
+    {
+      "paper_id": "7d9a82e3e2a32038e2ed7eb9bf1178f3ae47e451",
+      "arxiv_id": "1507.00504",
+      "doi": "10.1109/TPAMI.2016.2615921",
+      "title": "Optimal Transport for Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/7d9a82e3e2a32038e2ed7eb9bf1178f3ae47e451"
+    },
+    {
+      "paper_id": "6a6f1bddf0e501df937248f20da84a0380a5b44b",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2014.183",
+      "title": "Transfer Joint Matching for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/6a6f1bddf0e501df937248f20da84a0380a5b44b"
+    },
+    {
+      "paper_id": "28ef938aaa312d76df988f636e248a6b267b6352",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2013.368",
+      "title": "Unsupervised Visual Domain Adaptation Using Subspace Alignment",
+      "url": "https://www.semanticscholar.org/paper/28ef938aaa312d76df988f636e248a6b267b6352"
+    },
+    {
+      "paper_id": "a3cbb2a295dba31d9c9af77cc177fe538de94d5e",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2013.100",
+      "title": "Unsupervised Domain Adaptation by Domain Invariant Projection",
+      "url": "https://www.semanticscholar.org/paper/a3cbb2a295dba31d9c9af77cc177fe538de94d5e"
+    },
+    {
+      "paper_id": "78f2ecd259252386754729c7205ed8c70f0dabac",
+      "arxiv_id": "",
+      "doi": "10.1109/TVCG.2012.310",
+      "title": "Registration of 3D Point Clouds and Meshes: A Survey from Rigid to Nonrigid",
+      "url": "https://www.semanticscholar.org/paper/78f2ecd259252386754729c7205ed8c70f0dabac"
+    },
+    {
+      "paper_id": "f62da890a32d91358c80ffe13e1bad8a3303e50c",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2013.53",
+      "title": "Generalized Domain-Adaptive Dictionaries",
+      "url": "https://www.semanticscholar.org/paper/f62da890a32d91358c80ffe13e1bad8a3303e50c"
+    },
+    {
+      "paper_id": "0080118b0eb02af581ff32b85a1bb6aed7081f45",
+      "arxiv_id": "1306.0895",
+      "doi": "",
+      "title": "Sinkhorn Distances: Lightspeed Computation of Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/0080118b0eb02af581ff32b85a1bb6aed7081f45"
+    },
+    {
+      "paper_id": "7eb10c741594dd4d412398cd994dcda034137485",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-642-38267-3_38",
+      "title": "A Hierarchical Approach to Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/7eb10c741594dd4d412398cd994dcda034137485"
+    },
+    {
+      "paper_id": "af524ffcedaa50cff30607e6ad8e270ad0d7bf71",
+      "arxiv_id": "1303.4778",
+      "doi": "10.5555/2567709.2567741",
+      "title": "Greedy feature selection for subspace clustering",
+      "url": "https://www.semanticscholar.org/paper/af524ffcedaa50cff30607e6ad8e270ad0d7bf71"
+    },
+    {
+      "paper_id": "d6a7746985d478a7c5148549379f972ed1957447",
+      "arxiv_id": "",
+      "doi": "10.1109/TCSVT.2012.2202075",
+      "title": "Sparse Unsupervised Dimensionality Reduction for Multiple View Data",
+      "url": "https://www.semanticscholar.org/paper/d6a7746985d478a7c5148549379f972ed1957447"
+    },
+    {
+      "paper_id": "21a39ca716c37ccc133ff96c31cc71565d0c968e",
+      "arxiv_id": "",
+      "doi": "10.1145/2185520.2185526",
+      "title": "Functional maps",
+      "url": "https://www.semanticscholar.org/paper/21a39ca716c37ccc133ff96c31cc71565d0c968e"
+    },
+    {
+      "paper_id": "7de1d1612debcbde32cd588fa607a408df79c717",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR.2012.6247911",
+      "title": "Geodesic flow kernel for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/7de1d1612debcbde32cd588fa607a408df79c717"
+    },
+    {
+      "paper_id": "b19d27e1bda4d039f9eaf2b2eb9d47f75abe9d75",
+      "arxiv_id": "1203.1005",
+      "doi": "10.48550/arXiv.1203.1005",
+      "title": "Sparse Subspace Clustering: Algorithm, Theory, and Applications",
+      "url": "https://www.semanticscholar.org/paper/b19d27e1bda4d039f9eaf2b2eb9d47f75abe9d75"
+    },
+    {
+      "paper_id": "d3edbfee56884d2b6d9aa51a6c525f9a05248802",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV.2011.6126344",
+      "title": "Domain adaptation for object recognition: An unsupervised approach",
+      "url": "https://www.semanticscholar.org/paper/d3edbfee56884d2b6d9aa51a6c525f9a05248802"
+    },
+    {
+      "paper_id": "85e4dbcff0b63773db298562ae3fff258eea195f",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Distributed Optimization and Statistical Learning via the Alternating Direction Method of Multipliers",
+      "url": "https://www.semanticscholar.org/paper/85e4dbcff0b63773db298562ae3fff258eea195f"
+    },
+    {
+      "paper_id": "7423f2b28e97b3c0961e723d77b999cd4f0f339b",
+      "arxiv_id": "",
+      "doi": "10.1109/ICDM.2010.65",
+      "title": "Transfer Learning on Heterogenous Feature Spaces via Spectral Transformation",
+      "url": "https://www.semanticscholar.org/paper/7423f2b28e97b3c0961e723d77b999cd4f0f339b"
+    },
+    {
+      "paper_id": "a25fbcbbae1e8f79c4360d26aa11a3abf1a11972",
+      "arxiv_id": "",
+      "doi": "10.1109/TKDE.2009.191",
+      "title": "A Survey on Transfer Learning",
+      "url": "https://www.semanticscholar.org/paper/a25fbcbbae1e8f79c4360d26aa11a3abf1a11972"
+    },
+    {
+      "paper_id": "735e722d55c549c523fbcebb04ae2ad0032e18fa",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Learning transport operators for image manifolds",
+      "url": "https://www.semanticscholar.org/paper/735e722d55c549c523fbcebb04ae2ad0032e18fa"
+    },
+    {
+      "paper_id": "5b12b324dcbd6a4c43df7e0adb206b36e39d7e81",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A General Framework for Manifold Alignment",
+      "url": "https://www.semanticscholar.org/paper/5b12b324dcbd6a4c43df7e0adb206b36e39d7e81"
+    },
+    {
+      "paper_id": "1dae4d61cd74cc919ecc638bde6b7125728ea97b",
+      "arxiv_id": "",
+      "doi": "10.1109/TNN.2010.2091281",
+      "title": "Domain Adaptation via Transfer Component Analysis",
+      "url": "https://www.semanticscholar.org/paper/1dae4d61cd74cc919ecc638bde6b7125728ea97b"
+    },
+    {
+      "paper_id": "65c260fce4fb6fe44ac44562b75d38b0ac5c38f5",
+      "arxiv_id": "0905.2635",
+      "doi": "10.1109/TPAMI.2010.46",
+      "title": "Point Set Registration: Coherent Point Drift",
+      "url": "https://www.semanticscholar.org/paper/65c260fce4fb6fe44ac44562b75d38b0ac5c38f5"
+    },
+    {
+      "paper_id": "7470c6e232b90878898399215b58366a8c6bcdb2",
+      "arxiv_id": "0807.4581",
+      "doi": "10.1109/TIT.2009.2030471",
+      "title": "Robust Recovery of Signals From a Structured Union of Subspaces",
+      "url": "https://www.semanticscholar.org/paper/7470c6e232b90878898399215b58366a8c6bcdb2"
+    },
+    {
+      "paper_id": "a6c3392d12b00a4fac8b82dd9a1ff7bad8f29b74",
+      "arxiv_id": "",
+      "doi": "10.1145/1390156.1390297",
+      "title": "Manifold alignment using Procrustes analysis",
+      "url": "https://www.semanticscholar.org/paper/a6c3392d12b00a4fac8b82dd9a1ff7bad8f29b74"
+    },
+    {
+      "paper_id": "1fc971fc394fd7a00922b082973568850e77a163",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Direct Importance Estimation with Model Selection and Its Application to Covariate Shift Adaptation",
+      "url": "https://www.semanticscholar.org/paper/1fc971fc394fd7a00922b082973568850e77a163"
+    },
+    {
+      "paper_id": "02b3cc2a93559beeff7277cb51bba6d0ff56e64d",
+      "arxiv_id": "",
+      "doi": "10.1007/S10958-006-0050-9",
+      "title": "On a Problem of Monge",
+      "url": "https://www.semanticscholar.org/paper/02b3cc2a93559beeff7277cb51bba6d0ff56e64d"
+    },
+    {
+      "paper_id": "6c3ba81e4051035f710a0fe97453b246ee3d07c8",
+      "arxiv_id": "",
+      "doi": "10.1073/pnas.0508601103",
+      "title": "Generalized multidimensional scaling: A framework for isometry-invariant partial surface matching",
+      "url": "https://www.semanticscholar.org/paper/6c3ba81e4051035f710a0fe97453b246ee3d07c8"
+    },
+    {
+      "paper_id": "9511b4e7a3d64b9737ea25b5c268478e3d248209",
+      "arxiv_id": "",
+      "doi": "10.1016/S1077-3142(03)00009-2",
+      "title": "A new point matching algorithm for non-rigid registration",
+      "url": "https://www.semanticscholar.org/paper/9511b4e7a3d64b9737ea25b5c268478e3d248209"
+    },
+    {
+      "paper_id": "00457a3ab428f041a90966d397f9680ce4d66979",
+      "arxiv_id": "",
+      "doi": "10.1007/3-540-63046-5_3",
+      "title": "The Softassign Procrustes Matching Algorithm",
+      "url": "https://www.semanticscholar.org/paper/00457a3ab428f041a90966d397f9680ce4d66979"
+    },
+    {
+      "paper_id": "ddb25ab79cee85194c2183e731075288f7276295",
+      "arxiv_id": "",
+      "doi": "10.1007/BF01581204",
+      "title": "On the Douglas—Rachford splitting method and the proximal point algorithm for maximal monotone operators",
+      "url": "https://www.semanticscholar.org/paper/ddb25ab79cee85194c2183e731075288f7276295"
+    },
+    {
+      "paper_id": "4c3622c6eea49f7f49ef04938c5f9c3d1e1a1cb9",
+      "arxiv_id": "",
+      "doi": "10.1117/12.57955",
+      "title": "Method for registration of 3-D shapes",
+      "url": "https://www.semanticscholar.org/paper/4c3622c6eea49f7f49ef04938c5f9c3d1e1a1cb9"
+    },
+    {
+      "paper_id": "8458412282496da39f71c9f80b266a173e26027e",
+      "arxiv_id": "",
+      "doi": "10.1109/34.121791",
+      "title": "A Method for Registration of 3-D Shapes",
+      "url": "https://www.semanticscholar.org/paper/8458412282496da39f71c9f80b266a173e26027e"
+    },
+    {
+      "paper_id": "dd3ab0fc679a8fc7fe8daafebf651850f4cc3f29",
+      "arxiv_id": "",
+      "doi": "10.1214/AOMS/1177697802",
+      "title": "The Speed of Mean Glivenko-Cantelli Convergence",
+      "url": "https://www.semanticscholar.org/paper/dd3ab0fc679a8fc7fe8daafebf651850f4cc3f29"
+    },
+    {
+      "paper_id": "65e271c37b3adf085f1bf7f36321794ef4501239",
+      "arxiv_id": "",
+      "doi": "10.2307/2309332",
+      "title": "Contributions to the theory of games",
+      "url": "https://www.semanticscholar.org/paper/65e271c37b3adf085f1bf7f36321794ef4501239"
+    },
+    {
+      "paper_id": "d40afb32a77b52bf4775f8ab21ddadf94f239218",
+      "arxiv_id": "",
+      "doi": "10.1515/9781400881970-002",
+      "title": "1. A Certain Zero-sum Two-person Game Equivalent to the Optimal Assignment Problem",
+      "url": "https://www.semanticscholar.org/paper/d40afb32a77b52bf4775f8ab21ddadf94f239218"
+    },
+    {
+      "paper_id": "a4dd3297e19f37592500d0d6ee2fb659e43b466d",
+      "arxiv_id": "",
+      "doi": "10.5244/C.29.24",
+      "title": "Subspace Distribution Alignment for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/a4dd3297e19f37592500d0d6ee2fb659e43b466d"
+    },
+    {
+      "paper_id": "81bc0b19d46dad70e588dbfc1595862695258ab2",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Author manuscript, published in \"International Conference on Scale Space and Variational Methods in Computer Vision, Austria (2013)\" Regularized Discrete Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/81bc0b19d46dad70e588dbfc1595862695258ab2"
+    },
+    {
+      "paper_id": "1e6384b2c4b92b0141ec33a799cf3f5f9541f943",
+      "arxiv_id": "",
+      "doi": "10.1145/1899404.1899405",
+      "title": "Shape google: Geometric words and expressions for invariant shape retrieval",
+      "url": "https://www.semanticscholar.org/paper/1e6384b2c4b92b0141ec33a799cf3f5f9541f943"
+    }
+  ],
+  "citations": [
+    {
+      "paper_id": "52fdd116fa291ccc8ca2587212cbee25e5a8f11e",
+      "arxiv_id": "2611.08263",
+      "doi": "",
+      "title": "Scaling Neural Motor Decoding via Decoupled Behavioral Pretraining",
+      "url": "https://www.semanticscholar.org/paper/52fdd116fa291ccc8ca2587212cbee25e5a8f11e"
+    },
+    {
+      "paper_id": "e5cce3819e1a42fcf0333d204a6f65981674b0d2",
+      "arxiv_id": "2608.04234",
+      "doi": "10.48550/arXiv.2608.04234",
+      "title": "Multimodal Alignment Through Joint Kernel Entropic Gromov-Wasserstein Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/e5cce3819e1a42fcf0333d204a6f65981674b0d2"
+    },
+    {
+      "paper_id": "861bb45477d3d68fb847944f0403ee2c1e6bb5ab",
+      "arxiv_id": "2605.25110",
+      "doi": "10.48550/arXiv.2605.25110",
+      "title": "Uncertainty-DTW for Sequences and Visual Tokens",
+      "url": "https://www.semanticscholar.org/paper/861bb45477d3d68fb847944f0403ee2c1e6bb5ab"
+    },
+    {
+      "paper_id": "063d5f87bf1c9f73a5a8951aa89fa482cdca0279",
+      "arxiv_id": "2605.21261",
+      "doi": "10.48550/arXiv.2605.21261",
+      "title": "STiTch: Semantic Transition and Transportation in Collaboration for Training-Free Zero-Shot Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/063d5f87bf1c9f73a5a8951aa89fa482cdca0279"
+    },
+    {
+      "paper_id": "2d6991be82673d9089561ea6844c6286ba1a3926",
+      "arxiv_id": "2603.02237",
+      "doi": "10.48550/arXiv.2603.02237",
+      "title": "Concept Heterogeneity-aware Representation Steering",
+      "url": "https://www.semanticscholar.org/paper/2d6991be82673d9089561ea6844c6286ba1a3926"
+    },
+    {
+      "paper_id": "dbc38b769a0608f20b77efab7eea106901da5d7c",
+      "arxiv_id": "2601.04563",
+      "doi": "10.48550/arXiv.2601.04563",
+      "title": "A Vision for Multisensory Intelligence: Sensing, Science, and Synergy",
+      "url": "https://www.semanticscholar.org/paper/dbc38b769a0608f20b77efab7eea106901da5d7c"
+    },
+    {
+      "paper_id": "6dbb4ac1116e9ec960ec892704df29e6175e3a82",
+      "arxiv_id": "",
+      "doi": "10.1016/j.eswa.2025.130213",
+      "title": "Tri-Modal grouping fusion network with optimal transport learning for unaligned multimodal sentiment analysis",
+      "url": "https://www.semanticscholar.org/paper/6dbb4ac1116e9ec960ec892704df29e6175e3a82"
+    },
+    {
+      "paper_id": "6bde6289c25df7e271e25dc072c2457c98f5ef91",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCV51701.2025.00044",
+      "title": "InfoBridge: Balanced Multimodal Integration through Conditional Dependency Modeling",
+      "url": "https://www.semanticscholar.org/paper/6bde6289c25df7e271e25dc072c2457c98f5ef91"
+    },
+    {
+      "paper_id": "e30ace417d974c8730aa5e37b6117c5447e0145e",
+      "arxiv_id": "",
+      "doi": "10.1145/3725843.3756032",
+      "title": "MINDFUL: Safe, Implantable, Large-Scale Brain-Computer Interfaces from a System-Level Design Perspective",
+      "url": "https://www.semanticscholar.org/paper/e30ace417d974c8730aa5e37b6117c5447e0145e"
+    },
+    {
+      "paper_id": "0621cf0542e324893e8de43b46fe71173fd33a8a",
+      "arxiv_id": "",
+      "doi": "10.1016/j.knosys.2025.114698",
+      "title": "Large-scale cross-modal hashing via Kolmogorov-Arnold representation theorem and optimal transport",
+      "url": "https://www.semanticscholar.org/paper/0621cf0542e324893e8de43b46fe71173fd33a8a"
+    },
+    {
+      "paper_id": "830f6324274efbda167a26de0b953dff84b4746a",
+      "arxiv_id": "2509.22138",
+      "doi": "10.48550/arXiv.2509.22138",
+      "title": "Slicing Wasserstein Over Wasserstein Via Functional Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/830f6324274efbda167a26de0b953dff84b4746a"
+    },
+    {
+      "paper_id": "06e46968dced999069cace8906b117123afc4c20",
+      "arxiv_id": "",
+      "doi": "10.1109/DAC63849.2025.11132505",
+      "title": "An Energy-Efficient Kalman Filter Architecture with Tunable Accuracy for Brain-Computer Interfaces",
+      "url": "https://www.semanticscholar.org/paper/06e46968dced999069cace8906b117123afc4c20"
+    },
+    {
+      "paper_id": "a651ddf749aeec65577283ec1650e56bb7074f4a",
+      "arxiv_id": "2505.07209",
+      "doi": "10.1109/CVPR52734.2025.02811",
+      "title": "Discovering Fine-Grained Visual-Concept Relations by Disentangled Optimal Transport Concept Bottleneck Models",
+      "url": "https://www.semanticscholar.org/paper/a651ddf749aeec65577283ec1650e56bb7074f4a"
+    },
+    {
+      "paper_id": "e210227cb293d1579fd4d40f3206ee60747f910f",
+      "arxiv_id": "",
+      "doi": "10.1109/ICASSP49660.2025.10890437",
+      "title": "Eye Movements as Images: A Multimodal Framework for Eye Movements Representation",
+      "url": "https://www.semanticscholar.org/paper/e210227cb293d1579fd4d40f3206ee60747f910f"
+    },
+    {
+      "paper_id": "c5785adfb13f12746ebd8a93b7e1983b5cd97776",
+      "arxiv_id": "2503.10663",
+      "doi": "10.1109/ICCV51701.2025.01901",
+      "title": "Optimal Transport for Brain-Image Alignment: Unveiling Redundancy and Synergy in Neural Information Processing",
+      "url": "https://www.semanticscholar.org/paper/c5785adfb13f12746ebd8a93b7e1983b5cd97776"
+    },
+    {
+      "paper_id": "dd85ea56dc20ed059195cca6fb6ab837c3a9b98a",
+      "arxiv_id": "2502.20141",
+      "doi": "10.48550/arXiv.2502.20141",
+      "title": "Your contrastive learning problem is secretly a distribution alignment problem",
+      "url": "https://www.semanticscholar.org/paper/dd85ea56dc20ed059195cca6fb6ab837c3a9b98a"
+    },
+    {
+      "paper_id": "db2bc3bb55282548c881069bb30df9ae82f65caf",
+      "arxiv_id": "",
+      "doi": "10.1016/j.csbj.2025.02.024",
+      "title": "SIN-Seg: A joint spatial-spectral information fusion model for medical image segmentation",
+      "url": "https://www.semanticscholar.org/paper/db2bc3bb55282548c881069bb30df9ae82f65caf"
+    },
+    {
+      "paper_id": "f49a5c75621cdbc6daab7ca31e4abbda9a457e5a",
+      "arxiv_id": "2502.05435",
+      "doi": "10.48550/arXiv.2502.05435",
+      "title": "Unbiased Sliced Wasserstein Kernels for High-Quality Audio Captioning",
+      "url": "https://www.semanticscholar.org/paper/f49a5c75621cdbc6daab7ca31e4abbda9a457e5a"
+    },
+    {
+      "paper_id": "efb574c5006ef38acb357120a6e4a1bb63b56f06",
+      "arxiv_id": "",
+      "doi": "10.3389/fncom.2026.1710914",
+      "title": "Cross-subject mapping of neural activity with restricted Boltzmann machines",
+      "url": "https://www.semanticscholar.org/paper/efb574c5006ef38acb357120a6e4a1bb63b56f06"
+    },
+    {
+      "paper_id": "148bd2900b7dc78f7a90fd0fd7cc0e75d0787d07",
+      "arxiv_id": "2411.17002",
+      "doi": "",
+      "title": "Semantic Anchor Transport: Robust Test-Time Adaptation for Vision-Language Models",
+      "url": "https://www.semanticscholar.org/paper/148bd2900b7dc78f7a90fd0fd7cc0e75d0787d07"
+    },
+    {
+      "paper_id": "8a0a1021310f9d0eae6d3988eb9f8f94896a8e63",
+      "arxiv_id": "2409.10085",
+      "doi": "10.1109/ICASSP49660.2025.10890250",
+      "title": "A Riemannian Approach to Ground Metric Learning for Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/8a0a1021310f9d0eae6d3988eb9f8f94896a8e63"
+    },
+    {
+      "paper_id": "f43326bb93fd4bc677b668e7e5c6dc061d55d44c",
+      "arxiv_id": "2408.03573",
+      "doi": "10.1145/3744340",
+      "title": "AcTracer: Active Testing of Large Language Model via Multi-Stage Sampling",
+      "url": "https://www.semanticscholar.org/paper/f43326bb93fd4bc677b668e7e5c6dc061d55d44c"
+    },
+    {
+      "paper_id": "fb2d98bb2b6527be065d7135babf4a2000e9c05f",
+      "arxiv_id": "2407.19456",
+      "doi": "10.1145/3664647.3680751",
+      "title": "An Inverse Partial Optimal Transport Framework for Music-guided Trailer Generation",
+      "url": "https://www.semanticscholar.org/paper/fb2d98bb2b6527be065d7135babf4a2000e9c05f"
+    },
+    {
+      "paper_id": "fdb86e79d3b558618ec69b63b766a759e9f9d201",
+      "arxiv_id": "2406.01934",
+      "doi": "10.48550/arXiv.2406.01934",
+      "title": "Optimal Transport Guided Correlation Assignment for Multimodal Entity Linking",
+      "url": "https://www.semanticscholar.org/paper/fdb86e79d3b558618ec69b63b766a759e9f9d201"
+    },
+    {
+      "paper_id": "cd77cb459b5aac33630cc28d02c54d8cade5d6fd",
+      "arxiv_id": "2406.01130",
+      "doi": "10.48550/arXiv.2406.01130",
+      "title": "SAVA: Scalable Learning-Agnostic Data Valuation",
+      "url": "https://www.semanticscholar.org/paper/cd77cb459b5aac33630cc28d02c54d8cade5d6fd"
+    },
+    {
+      "paper_id": "65207185407c75cc013e7df4c57fd70cabf3737f",
+      "arxiv_id": "",
+      "doi": "10.1101/2024.03.21.24304656",
+      "title": "Low-Cost, Label-Free Blue Light Cystoscopy through Digital Staining of White Light Cystoscopy Videos",
+      "url": "https://www.semanticscholar.org/paper/65207185407c75cc013e7df4c57fd70cabf3737f"
+    },
+    {
+      "paper_id": "84c40e26a24cdb8c5ae5816dd193fd0234f9cd56",
+      "arxiv_id": "2401.10949",
+      "doi": "10.48550/arXiv.2401.10949",
+      "title": "The Synergy Between Optimal Transport Theory and Multi-Agent Reinforcement Learning",
+      "url": "https://www.semanticscholar.org/paper/84c40e26a24cdb8c5ae5816dd193fd0234f9cd56"
+    },
+    {
+      "paper_id": "f7673db5857b208d57e9cc9a8fc5e9c7f7e7811e",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCD58817.2023.00021",
+      "title": "MindCrypt: The Brain as a Random Number Generator for SoC-Based Brain-Computer Interfaces",
+      "url": "https://www.semanticscholar.org/paper/f7673db5857b208d57e9cc9a8fc5e9c7f7e7811e"
+    },
+    {
+      "paper_id": "1ab125cb9d19fa1ebcac7b10cf3e7cef36ca7ba4",
+      "arxiv_id": "2310.11762",
+      "doi": "10.1145/3589334.3645586",
+      "title": "A Quasi-Wasserstein Loss for Learning Graph Neural Networks",
+      "url": "https://www.semanticscholar.org/paper/1ab125cb9d19fa1ebcac7b10cf3e7cef36ca7ba4"
+    },
+    {
+      "paper_id": "80720862ff8de9e0c71f7d85000f036e4c033763",
+      "arxiv_id": "2310.12081",
+      "doi": "",
+      "title": "Robust Graph Matching Using An Unbalanced Hierarchical Optimal Transport Framework",
+      "url": "https://www.semanticscholar.org/paper/80720862ff8de9e0c71f7d85000f036e4c033763"
+    },
+    {
+      "paper_id": "5a3744d3c871730661ff0f32330b0810608a9ca8",
+      "arxiv_id": "2310.09821",
+      "doi": "10.48550/arXiv.2310.09821",
+      "title": "LICO: Explainable Models with Language-Image Consistency",
+      "url": "https://www.semanticscholar.org/paper/5a3744d3c871730661ff0f32330b0810608a9ca8"
+    },
+    {
+      "paper_id": "30d8d41d5551031ba5f7d64b0fb9ae130913a94c",
+      "arxiv_id": "2307.09066",
+      "doi": "10.1109/ICCV51070.2023.01408",
+      "title": "PatchCT: Aligning Patch Set and Label Set with Conditional Transport for Multi-Label Image Classification",
+      "url": "https://www.semanticscholar.org/paper/30d8d41d5551031ba5f7d64b0fb9ae130913a94c"
+    },
+    {
+      "paper_id": "13429c931cbd4307590a02d1be26a5df05760b9c",
+      "arxiv_id": "2306.06138",
+      "doi": "10.48550/arXiv.2306.06138",
+      "title": "Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Model",
+      "url": "https://www.semanticscholar.org/paper/13429c931cbd4307590a02d1be26a5df05760b9c"
+    },
+    {
+      "paper_id": "1ba44e78faffdeef781faab88132ed064cceb56e",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01915",
+      "title": "COT: Unsupervised Domain Adaptation with Clustering and Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/1ba44e78faffdeef781faab88132ed064cceb56e"
+    },
+    {
+      "paper_id": "0fd80b088f5955e4e5db9b3be1c0a70204724ae7",
+      "arxiv_id": "",
+      "doi": "10.1109/CVPR52729.2023.01154",
+      "title": "HOTNAS: Hierarchical Optimal Transport for Neural Architecture Search",
+      "url": "https://www.semanticscholar.org/paper/0fd80b088f5955e4e5db9b3be1c0a70204724ae7"
+    },
+    {
+      "paper_id": "078f40d8d89cb888313accca85bed61946fc2645",
+      "arxiv_id": "2305.18718",
+      "doi": "10.48550/arXiv.2305.18718",
+      "title": "Distributed Hierarchical Distribution Control for Very-Large-Scale Clustered Multi-Agent Systems",
+      "url": "https://www.semanticscholar.org/paper/078f40d8d89cb888313accca85bed61946fc2645"
+    },
+    {
+      "paper_id": "974c188281765c4db1eb15d4d4fc72ca22a9c0cc",
+      "arxiv_id": "2305.05080",
+      "doi": "10.1109/TPAMI.2024.3379571",
+      "title": "Scalable Optimal Transport Methods in Machine Learning: A Contemporary Survey.",
+      "url": "https://www.semanticscholar.org/paper/974c188281765c4db1eb15d4d4fc72ca22a9c0cc"
+    },
+    {
+      "paper_id": "117f69fb974f65af903e9c18a1c909f05203af61",
+      "arxiv_id": "2303.13102",
+      "doi": "10.48550/arXiv.2303.13102",
+      "title": "Keypoint-Guided Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/117f69fb974f65af903e9c18a1c909f05203af61"
+    },
+    {
+      "paper_id": "c70321db030df85060b0a217d49c2bab9a56c62d",
+      "arxiv_id": "",
+      "doi": "10.1101/2023.02.03.527022",
+      "title": "Long-term unsupervised recalibration of cursor BCIs",
+      "url": "https://www.semanticscholar.org/paper/c70321db030df85060b0a217d49c2bab9a56c62d"
+    },
+    {
+      "paper_id": "6f24e3d08854ac11fe8a596a63a72944ccaf20f9",
+      "arxiv_id": "2211.11424",
+      "doi": "10.1109/TCSVT.2024.3392420",
+      "title": "Modeling Hierarchical Structural Distance for Unsupervised Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/6f24e3d08854ac11fe8a596a63a72944ccaf20f9"
+    },
+    {
+      "paper_id": "107e0a8a6178a81987fff1eb9cad44896628e865",
+      "arxiv_id": "",
+      "doi": "10.1109/TPAMI.2022.3222569",
+      "title": "Differentiable Hierarchical Optimal Transport for Robust Multi-View Learning",
+      "url": "https://www.semanticscholar.org/paper/107e0a8a6178a81987fff1eb9cad44896628e865"
+    },
+    {
+      "paper_id": "bb01681116b47c164d301c02728225b326c97520",
+      "arxiv_id": "",
+      "doi": "10.1038/s41467-025-59652-y",
+      "title": "Stabilizing brain-computer interfaces through alignment of latent dynamics",
+      "url": "https://www.semanticscholar.org/paper/bb01681116b47c164d301c02728225b326c97520"
+    },
+    {
+      "paper_id": "63e6840dc07c6fa4d666d73a41d26e65cffbfcc1",
+      "arxiv_id": "2210.05840",
+      "doi": "10.1109/WACV56688.2023.00516",
+      "title": "LiveSeg: Unsupervised Multimodal Temporal Segmentation of Long Livestream Videos",
+      "url": "https://www.semanticscholar.org/paper/63e6840dc07c6fa4d666d73a41d26e65cffbfcc1"
+    },
+    {
+      "paper_id": "1dd9b35955cf8dddf1047044ca0a757249f817b8",
+      "arxiv_id": "2210.04722",
+      "doi": "10.48550/arXiv.2210.04722",
+      "title": "Semantics-Consistent Cross-domain Summarization via Optimal Transport Alignment",
+      "url": "https://www.semanticscholar.org/paper/1dd9b35955cf8dddf1047044ca0a757249f817b8"
+    },
+    {
+      "paper_id": "f92c07ba9a3de29fb212a65b041f56bb11730c37",
+      "arxiv_id": "2208.06348",
+      "doi": "10.18653/v1/2023.findings-emnlp.120",
+      "title": "Can Brain Signals Reveal Inner Alignment with Human Languages?",
+      "url": "https://www.semanticscholar.org/paper/f92c07ba9a3de29fb212a65b041f56bb11730c37"
+    },
+    {
+      "paper_id": "67819308e84a3171528ede7dadc6d92452ba70d6",
+      "arxiv_id": "2208.02807",
+      "doi": "10.1214/24-aoas1916",
+      "title": "Background modeling for double Higgs boson production: Density ratios and optimal transport",
+      "url": "https://www.semanticscholar.org/paper/67819308e84a3171528ede7dadc6d92452ba70d6"
+    },
+    {
+      "paper_id": "cadd798dc5d407ac1458235cc2c8228dabcef94f",
+      "arxiv_id": "2206.08094",
+      "doi": "10.48550/arXiv.2206.08094",
+      "title": "Deep Neural Imputation: A Framework for Recovering Incomplete Brain Recordings",
+      "url": "https://www.semanticscholar.org/paper/cadd798dc5d407ac1458235cc2c8228dabcef94f"
+    },
+    {
+      "paper_id": "b83ae98334d2cf9e2e2f545c4c3a5378caca5b9b",
+      "arxiv_id": "2205.15424",
+      "doi": "10.48550/arXiv.2205.15424",
+      "title": "Connecting adversarial attacks and optimal transport for domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/b83ae98334d2cf9e2e2f545c4c3a5378caca5b9b"
+    },
+    {
+      "paper_id": "9d8b196c4786f9d70499c3a4638a1d706c39786f",
+      "arxiv_id": "2205.08413",
+      "doi": "",
+      "title": "Comparing high-dimensional neural recordings by aligning their low-dimensional latent representations",
+      "url": "https://www.semanticscholar.org/paper/9d8b196c4786f9d70499c3a4638a1d706c39786f"
+    },
+    {
+      "paper_id": "27881c6027baf6a70e475a6462313deb5b0da64d",
+      "arxiv_id": "2204.03734",
+      "doi": "10.48550/arXiv.2204.03734",
+      "title": "MHMS: Multimodal Hierarchical Multimedia Summarization",
+      "url": "https://www.semanticscholar.org/paper/27881c6027baf6a70e475a6462313deb5b0da64d"
+    },
+    {
+      "paper_id": "aaa33f65d11866f5ae14d3e86711df1459c6e510",
+      "arxiv_id": "2112.02073",
+      "doi": "10.1007/s10994-022-06231-7",
+      "title": "Hierarchical optimal transport for unsupervised domain adaptation",
+      "url": "https://www.semanticscholar.org/paper/aaa33f65d11866f5ae14d3e86711df1459c6e510"
+    },
+    {
+      "paper_id": "f72e166097c99a33ce54fd25e86840f73ddc216e",
+      "arxiv_id": "",
+      "doi": "10.1109/ICCD53106.2021.00027",
+      "title": "MasterMind: Many-Accelerator SoC Architecture for Real-Time Brain-Computer Interfaces",
+      "url": "https://www.semanticscholar.org/paper/f72e166097c99a33ce54fd25e86840f73ddc216e"
+    },
+    {
+      "paper_id": "50c85e27c254b3c4d7ddff3d4c7958751af0c1b4",
+      "arxiv_id": "",
+      "doi": "10.1152/physrev.00034.2020",
+      "title": "The science and engineering behind sensitized brain-controlled bionic hands.",
+      "url": "https://www.semanticscholar.org/paper/50c85e27c254b3c4d7ddff3d4c7958751af0c1b4"
+    },
+    {
+      "paper_id": "7a109e4f4148241c097052a610d1afca1aab072a",
+      "arxiv_id": "2109.04463",
+      "doi": "10.48550/arXiv.2109.04463",
+      "title": "Neural Latents Benchmark '21: Evaluating latent variable models of neural population activity",
+      "url": "https://www.semanticscholar.org/paper/7a109e4f4148241c097052a610d1afca1aab072a"
+    },
+    {
+      "paper_id": "0189f8573ac32d7d8d085119f4690296363dce9d",
+      "arxiv_id": "2106.07853",
+      "doi": "10.48550/arXiv.2106.07853",
+      "title": "G2DA: Geometry-Guided Dual-Alignment Learning for RGB-Infrared Person Re-Identification",
+      "url": "https://www.semanticscholar.org/paper/0189f8573ac32d7d8d085119f4690296363dce9d"
+    },
+    {
+      "paper_id": "3d6e9bfe6a22cafbc2cea5810e80ca733f4a5185",
+      "arxiv_id": "2102.05912",
+      "doi": "",
+      "title": "On Transportation of Mini-batches: A Hierarchical Approach",
+      "url": "https://www.semanticscholar.org/paper/3d6e9bfe6a22cafbc2cea5810e80ca733f4a5185"
+    },
+    {
+      "paper_id": "09e5222a56f9c9e8d03e62f16b302051477714f7",
+      "arxiv_id": "2102.03895",
+      "doi": "",
+      "title": "Functional optimal transport: map estimation and domain adaptation for functional data",
+      "url": "https://www.semanticscholar.org/paper/09e5222a56f9c9e8d03e62f16b302051477714f7"
+    },
+    {
+      "paper_id": "3b6407d6570c1db4bdaeaa274e0d11f71e749709",
+      "arxiv_id": "2102.02741",
+      "doi": "10.48550/arXiv.2102.02741",
+      "title": "Hawkes Processes on Graphons",
+      "url": "https://www.semanticscholar.org/paper/3b6407d6570c1db4bdaeaa274e0d11f71e749709"
+    },
+    {
+      "paper_id": "cabcf8d10f4c9919414fdd388e52fba3721470ad",
+      "arxiv_id": "2102.02670",
+      "doi": "10.1007/s11042-022-12053-5",
+      "title": "Multimodal-aware weakly supervised metric learning with self-weighting triplet loss",
+      "url": "https://www.semanticscholar.org/paper/cabcf8d10f4c9919414fdd388e52fba3721470ad"
+    },
+    {
+      "paper_id": "94f22757cbf2b1cb38fb35a47b49b30f35fb5c5c",
+      "arxiv_id": "2101.01792",
+      "doi": "10.48550/arXiv.2101.01792",
+      "title": "Minibatch optimal transport distances; analysis and applications",
+      "url": "https://www.semanticscholar.org/paper/94f22757cbf2b1cb38fb35a47b49b30f35fb5c5c"
+    },
+    {
+      "paper_id": "0958ab7a7853f8c1f02fd51b9dcf08dfdd47d320",
+      "arxiv_id": "2012.11589",
+      "doi": "10.48550/arXiv.2012.11589",
+      "title": "Making transport more robust and interpretable by moving data through a small number of anchor points",
+      "url": "https://www.semanticscholar.org/paper/0958ab7a7853f8c1f02fd51b9dcf08dfdd47d320"
+    },
+    {
+      "paper_id": "f20821ed63657c4a421bf045d50242875b95daea",
+      "arxiv_id": "2011.04447",
+      "doi": "10.48550/arXiv.2011.04447",
+      "title": "A contribution to Optimal Transport on incomparable spaces",
+      "url": "https://www.semanticscholar.org/paper/f20821ed63657c4a421bf045d50242875b95daea"
+    },
+    {
+      "paper_id": "69f7664def3de0fd6387c3ba314001d7849763ee",
+      "arxiv_id": "2011.00613",
+      "doi": "10.48550/arXiv.2011.00613",
+      "title": "An Information-Geometric Distance on the Space of Tasks",
+      "url": "https://www.semanticscholar.org/paper/69f7664def3de0fd6387c3ba314001d7849763ee"
+    },
+    {
+      "paper_id": "e084deded46149278d14a098adda36186259fb18",
+      "arxiv_id": "",
+      "doi": "10.1088/1741-2552/abc528",
+      "title": "Multi-source domain adaptation for decoder calibration of intracortical brain-machine interface",
+      "url": "https://www.semanticscholar.org/paper/e084deded46149278d14a098adda36186259fb18"
+    },
+    {
+      "paper_id": "66cfa429854fba0fd8ddaa106ebdf85548118017",
+      "arxiv_id": "2006.03160",
+      "doi": "10.48550/arXiv.2006.03160",
+      "title": "Hierarchical Optimal Transport for Robust Multi-View Learning",
+      "url": "https://www.semanticscholar.org/paper/66cfa429854fba0fd8ddaa106ebdf85548118017"
+    },
+    {
+      "paper_id": "7bb3db2a2d48c54a4657a979170dd2037903b481",
+      "arxiv_id": "2002.10543",
+      "doi": "10.48550/arXiv.2002.10543",
+      "title": "Variational Wasserstein Barycenters for Geometric Clustering",
+      "url": "https://www.semanticscholar.org/paper/7bb3db2a2d48c54a4657a979170dd2037903b481"
+    },
+    {
+      "paper_id": "f53f2923163ea50dff3c271aba9c4b9a4157dc82",
+      "arxiv_id": "2002.03731",
+      "doi": "10.48550/arXiv.2002.03731",
+      "title": "CO-Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/f53f2923163ea50dff3c271aba9c4b9a4157dc82"
+    },
+    {
+      "paper_id": "0e93f4e1bfbf7d3e3028aa65c7ab429ea5061dc8",
+      "arxiv_id": "2002.03179",
+      "doi": "10.48550/arXiv.2002.03179",
+      "title": "Statistical Optimal Transport posed as Learning Kernel Embedding",
+      "url": "https://www.semanticscholar.org/paper/0e93f4e1bfbf7d3e3028aa65c7ab429ea5061dc8"
+    },
+    {
+      "paper_id": "b6c626743df8b9ae5693f5d62c804789d15f8f79",
+      "arxiv_id": "2002.02913",
+      "doi": "10.48550/arXiv.2002.02913",
+      "title": "Learning Autoencoders with Relational Regularization",
+      "url": "https://www.semanticscholar.org/paper/b6c626743df8b9ae5693f5d62c804789d15f8f79"
+    },
+    {
+      "paper_id": "04632d9d03d403371fece40a123c50fe7c246380",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Studying Exploration in RL: An Optimal Transport Analysis of Occupancy Measure Trajectories",
+      "url": "https://www.semanticscholar.org/paper/04632d9d03d403371fece40a123c50fe7c246380"
+    },
+    {
+      "paper_id": "adaef17c81fbc9ac068de664cb3fef52c6b5e01e",
+      "arxiv_id": "",
+      "doi": "10.1109/TIFS.2025.3622067",
+      "title": "Posture-Aware Robust Person Re-Identification via Optimal Transport Calibration",
+      "url": "https://www.semanticscholar.org/paper/adaef17c81fbc9ac068de664cb3fef52c6b5e01e"
+    },
+    {
+      "paper_id": "479bf49425b66f23daae74410c02cca21e66ad15",
+      "arxiv_id": "",
+      "doi": "10.1007/978-981-96-0960-4_15",
+      "title": "Dual-Path Multimodal Optimal Transport for Composed Image Retrieval",
+      "url": "https://www.semanticscholar.org/paper/479bf49425b66f23daae74410c02cca21e66ad15"
+    },
+    {
+      "paper_id": "af802fe781cd282b4b8d50285923688297640388",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2411.17002",
+      "title": "Words Matter: Leveraging Individual Text Embeddings for Code Generation in CLIP Test-Time Adaptation",
+      "url": "https://www.semanticscholar.org/paper/af802fe781cd282b4b8d50285923688297640388"
+    },
+    {
+      "paper_id": "af07c2b3ec06b31568f9842f71185f2cfc7d9efc",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2023.findings-acl.101",
+      "title": "SCCS: Semantics-Consistent Cross-domain Summarization via Optimal Transport Alignment",
+      "url": "https://www.semanticscholar.org/paper/af07c2b3ec06b31568f9842f71185f2cfc7d9efc"
+    },
+    {
+      "paper_id": "2933605930c6024c541acd01d1bd8aba09ddc51b",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "A Minimalist Approach for Domain Adaptation with Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/2933605930c6024c541acd01d1bd8aba09ddc51b"
+    },
+    {
+      "paper_id": "001cafe1c0a078456145ecdd71d44bfc971f3e18",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2211.11424",
+      "title": "Unsupervised Domain Adaptation via Deep Hierarchical Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/001cafe1c0a078456145ecdd71d44bfc971f3e18"
+    },
+    {
+      "paper_id": "fe3e36c76aa160bdde61d1deb3af9b0c9a01ac06",
+      "arxiv_id": "",
+      "doi": "10.18653/v1/2022.acl-long.83",
+      "title": "Multimodal fusion via cortical network inspired losses",
+      "url": "https://www.semanticscholar.org/paper/fe3e36c76aa160bdde61d1deb3af9b0c9a01ac06"
+    },
+    {
+      "paper_id": "af638766b2419de85a640181c3d3b801f8aa8a39",
+      "arxiv_id": "",
+      "doi": "10.52202/068431-1089",
+      "title": "Keypoint-Guided Optimal Transport with Applications in Heterogeneous Domain Adaptation",
+      "url": "https://www.semanticscholar.org/paper/af638766b2419de85a640181c3d3b801f8aa8a39"
+    },
+    {
+      "paper_id": "cf37c88d969e5b228090fe261172175eb297a17e",
+      "arxiv_id": "",
+      "doi": "",
+      "title": "Statistical Optimal Transport posed as Learning Kernel Mean Embedding",
+      "url": "https://www.semanticscholar.org/paper/cf37c88d969e5b228090fe261172175eb297a17e"
+    },
+    {
+      "paper_id": "c36e62c0377d2ffcef40e4c78c88d2fb3294a964",
+      "arxiv_id": "",
+      "doi": "10.48550/arXiv.2102.05912",
+      "title": "BoMb-OT: On Batch of Mini-batches Optimal Transport",
+      "url": "https://www.semanticscholar.org/paper/c36e62c0377d2ffcef40e4c78c88d2fb3294a964"
+    },
+    {
+      "paper_id": "dd8626eb46dcc05364e1537e1ac9b1b6fdf32f37",
+      "arxiv_id": "",
+      "doi": "10.33915/ETD.8221",
+      "title": "Improving Deep Learning Models in Weakly Supervised Learning Paradigms",
+      "url": "https://www.semanticscholar.org/paper/dd8626eb46dcc05364e1537e1ac9b1b6fdf32f37"
+    },
+    {
+      "paper_id": "719d729603d9c6fc8c104b94f09042a0884c0413",
+      "arxiv_id": "",
+      "doi": "10.1007/978-3-030-58548-8_30",
+      "title": "Transporting Labels via Hierarchical Optimal Transport for Semi-Supervised Learning",
+      "url": "https://www.semanticscholar.org/paper/719d729603d9c6fc8c104b94f09042a0884c0413"
+    },
+    {
+      "paper_id": "d719343118249596b0c9074aec7314005364824f",
+      "arxiv_id": "",
+      "doi": "10.1016/j.inffus.2026.104654",
+      "title": "Propensity-guided unbalanced optimal transport for acquisition-aware incomplete multimodal clinical prediction",
+      "url": "https://www.semanticscholar.org/paper/d719343118249596b0c9074aec7314005364824f"
+    }
+  ]
+}
